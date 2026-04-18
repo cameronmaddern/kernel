@@ -95,6 +95,71 @@
       "id": "docker-blog",
       "name": "Docker Blog",
       "feed_url": "https://www.docker.com/blog/feed/"
+    },
+    {
+      "id": "danluu",
+      "name": "Dan Luu",
+      "feed_url": "https://danluu.com/atom.xml"
+    },
+    {
+      "id": "charity-majors",
+      "name": "Charity Majors",
+      "feed_url": "https://charity.wtf/rss/"
+    },
+    {
+      "id": "jvns",
+      "name": "Julia Evans",
+      "feed_url": "https://jvns.ca/atom.xml"
+    },
+    {
+      "id": "matt-rickard",
+      "name": "Matt Rickard",
+      "feed_url": "https://mattrickard.com/rss"
+    },
+    {
+      "id": "antirez",
+      "name": "Salvatore Sanfilippo (antirez)",
+      "feed_url": "https://antirez.com/rss"
+    },
+    {
+      "id": "raphlinus",
+      "name": "Raph Levien",
+      "feed_url": "https://raphlinus.github.io/feed.xml"
+    },
+    {
+      "id": "faultlore",
+      "name": "Faultlore",
+      "feed_url": "https://faultlore.com/blah/rss.xml"
+    },
+    {
+      "id": "colin-scott",
+      "name": "Colin Scott",
+      "feed_url": "https://colin-scott.github.io/atom.xml"
+    },
+    {
+      "id": "eatonphil",
+      "name": "Eaton Phil",
+      "feed_url": "https://notes.eatonphil.com/rss.xml"
+    },
+    {
+      "id": "brooker",
+      "name": "Marc Brooker",
+      "feed_url": "https://brooker.co.za/blog/rss.xml"
+    },
+    {
+      "id": "dave-cheney",
+      "name": "Dave Cheney",
+      "feed_url": "https://dave.cheney.net/feed/"
+    },
+    {
+      "id": "mitchellh",
+      "name": "Mitchell Hashimoto",
+      "feed_url": "https://mitchellh.com/feed.xml"
+    },
+    {
+      "id": "lorenzo-alberton",
+      "name": "Lorenzo Alberton",
+      "feed_url": "https://www.alberton.info/rss/php.xml"
     }
   ]
 }
