@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "355a47b55c4fd2044752",
+      "title": "Ignition and TimescaleDB: the Perfect Pairing",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/ignition-and-timescaledb-perfect-pairing",
+      "publishedAt": "2026-04-17T16:41:35Z",
+      "summary": "Ignition's SQL Historian is already built to store tag history in PostgreSQL. However, vanilla PostgreSQL is not built for time-series workloads, so the team at Inductive Automation had to create a work-around, which makes direct queries difficult and still has limited performance. TimescaleDB is a PostgreSQL extension that works under the hood to make PostgreSQL one of the fastest time series dat",
+      "imageURL": null
+    },
+    {
       "id": "f4575da72f07d3ea7a5b",
       "title": "The Human Infrastructure: How Netflix Built the Operations Layer Behind Live at Scale",
       "sourceName": "Netflix TechBlog",
@@ -73,6 +82,15 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1nKDxB6OkUr1fpVKGWEugC/8fc4dbf0bd1ec45e30010a223982487e/image2.png"
     },
     {
+      "id": "2510c61125589be8440e",
+      "title": "We beat Google’s zero-knowledge proof of quantum cryptanalysis",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/",
+      "publishedAt": "2026-04-17T11:00:00Z",
+      "summary": "Two weeks ago, Google’s Quantum AI group published a zero-knowledge proof of a quantum circuit so optimized, they concluded that first-generation quantum computers will break elliptic curve cryptography keys in as little as 9 minutes. Today, Trail of Bits is publishing our own zero-knowledge proof that significantly improves Google’s on all metrics. Our result is not due to some quantum breakthrou",
+      "imageURL": "https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis-image-1_hu_47d2ce2b7e2f854.webp"
+    },
+    {
       "id": "080a6982e17667127c6c",
       "title": "No country left behind with sovereign AI",
       "sourceName": "Stack Overflow Blog",
@@ -80,6 +98,15 @@
       "publishedAt": "2026-04-17T07:40:00Z",
       "summary": "Ryan welcomes Stephen Watt, distinguished engineer and VP of Red Hat’s Office of the CTO, to chat about digital sovereignty and sovereign AI.",
       "imageURL": null
+    },
+    {
+      "id": "b7fd6e45e1e3ba71f65c",
+      "title": "Why MicroVMs: The Architecture Behind Docker Sandboxes",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88631",
+      "publishedAt": "2026-04-16T17:14:19Z",
+      "summary": "Last week, we launched Docker Sandboxes with a bold goal: to deliver the strongest agent isolation in the market. This post unpacks that claim, how microVMs enable it, and some of the architectural choices we made in this approach. The Problem With Every Other Approach Every sandboxing model asks you to give something up. We looked at the top four approaches. Full VMs offer strong isolation, but g",
+      "imageURL": "https://www.docker.com/app/uploads/2026/04/Screenshot-2026-04-09-at-3.23.44-PM-2320x1302.png"
     },
     {
       "id": "6f04529aa5fc624dede2",
@@ -172,6 +199,15 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6853360f59d0d7fd18e594a6_image6.png"
     },
     {
+      "id": "3d18b34f8ddd191c4f88",
+      "title": "What Happens to a Database When the User is an AI agent",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33120",
+      "publishedAt": "2026-04-15T21:38:57Z",
+      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways Agents are becoming the primary database users , with fundamentally different needs: speed over ease of use, ephemerality over durability. Elastic scale is non-negotiable. Separating compute from storage (like TiDB X) handles agent activity spikes",
+      "imageURL": null
+    },
+    {
       "id": "fed43cb2b22e7bb8ff03",
       "title": "Human input needed: take our survey on AI agents",
       "sourceName": "Stack Overflow Blog",
@@ -244,6 +280,15 @@
       "imageURL": null
     },
     {
+      "id": "3b2ea37354d1c6a1968e",
+      "title": "Why We Chose the Harder Path: Docker Hardened Images, One Year Later",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88726",
+      "publishedAt": "2026-04-14T21:48:03Z",
+      "summary": "We’re coming up on a year since launching Docker Hardened Images (DHI) last May, and crossing a milestone earlier this month made me stop and reflect on what we’ve actually been building. Earlier this month, we crossed over 500k daily pulls of DHIs, and over 25k continuously patched OS level artifacts in our SLSA Build Level 3 pipeline. From the time we launched the free DHI Community tier at the ",
+      "imageURL": null
+    },
+    {
       "id": "9998696cd8c960430143",
       "title": "Privacy-first connections: Empowering social experiences at Airbnb",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -280,6 +325,15 @@
       "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/03/pydantic_ai_agentic_loop.png?w=842"
     },
     {
+      "id": "db178cf3fcac51aa2a18",
+      "title": "How to Analyze Hugging Face for Arm64 Readiness",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88350",
+      "publishedAt": "2026-04-13T15:59:37Z",
+      "summary": "This post is a collaboration between Docker and Arm, demonstrating how Docker MCP Toolkit and the Arm MCP Server work together to scan Hugging Face Spaces for Arm64 Readiness. In our previous post , we walked through migrating a legacy C++ application with AVX2 intrinsics to Arm64 using Docker MCP Toolkit and the Arm MCP Server – code conversion, SIMD intrinsic rewrites, compiler flag changes, the",
+      "imageURL": "https://www.docker.com/app/uploads/2026/03/image17.png"
+    },
+    {
       "id": "c75baa59ac538275fd50",
       "title": "Evaluating Netflix Show Synopses with LLM-as-a-Judge",
       "sourceName": "Netflix TechBlog",
@@ -298,6 +352,15 @@
       "imageURL": null
     },
     {
+      "id": "a3923cdec75cf25a4056",
+      "title": "S3 is the New Network: Rethinking Data Architecture for AI Agents",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=32939",
+      "publishedAt": "2026-04-09T18:52:49Z",
+      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways S3’s durability and global availability remove the need to co-locate data with compute. Decoupled storage enables ephemeral clusters, event-driven workflows, and automatic tiering. TiDB X uses S3 as its shared backend for independent scaling and f",
+      "imageURL": "https://static.pingcap.com/files/2026/04/10111323/image.png"
+    },
+    {
       "id": "71f8fbe148585e45db34",
       "title": "Escaping the Fork: How Meta Modernized WebRTC Across 50+ Use Cases",
       "sourceName": "Meta Engineering",
@@ -313,6 +376,15 @@
       "url": "https://stackoverflow.blog/2026/04/09/gen-z-needs-a-knowledge-base-and-so-do-you/",
       "publishedAt": "2026-04-09T16:00:00Z",
       "summary": "AI tool use is inescapable...especially if you're a young person trying to get an edge in an increasingly difficult job market. But cognitive offloading is dangerous, no matter what age you are. Building a knowledge base can save your brain and skills from atrophy.",
+      "imageURL": null
+    },
+    {
+      "id": "66730a32f7efea941ac1",
+      "title": "Master C and C++ with our new Testing Handbook chapter",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/",
+      "publishedAt": "2026-04-09T11:00:00Z",
+      "summary": "We added a new chapter to our Testing Handbook: a comprehensive security checklist for C and C++ code . We’ve identified a broad range of common bug classes, known footguns, and API gotchas across C and C++ codebases and organized them into sections covering Linux, Windows, and seccomp. Whereas other handbook chapters focus on static and dynamic analysis, this chapter offers a strong basis for man",
       "imageURL": null
     },
     {
@@ -334,6 +406,15 @@
       "imageURL": null
     },
     {
+      "id": "4c7775e2b716b3dbe378",
+      "title": "Reclaim Developer Hours through Smarter Vulnerability Prioritization with Docker and Mend.io",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88539",
+      "publishedAt": "2026-04-08T18:23:51Z",
+      "summary": "We recently announced the integration between Mend.io and Docker Hardened Images (DHI) provides a seamless framework for managing container security. By automatically distinguishing between base image vulnerabilities and application-layer risks, it uses VEX statements to differentiate between exploitable vulnerabilities and non-exploitable vulnerabilities, allowing your team to prioritize what rea",
+      "imageURL": null
+    },
+    {
       "id": "a1f8828f2aa460c9436d",
       "title": "Building a high-volume metrics pipeline with OpenTelemetry and vmagent",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -341,6 +422,24 @@
       "publishedAt": "2026-04-07T17:01:01Z",
       "summary": "A production-tested approach for moving a large-scale metrics pipeline from StatsD to OpenTelemetry and Prometheus. By: Eugene Ma , Natasha Aleksandrova When migrating to a new monitoring system, you’ll want to frontload the work to collect all your metrics. This exposes bottlenecks at full write scale and unblocks the migration of assets which require real data for validation, such as dashboards ",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Qht9BRRs2R_HZ05CelourQ.jpeg"
+    },
+    {
+      "id": "90521afe80f45e723256",
+      "title": "Reducing P999 Latency in Distributed Databases with TiDB 8.5",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=32819",
+      "publishedAt": "2026-04-07T13:00:46Z",
+      "summary": "Key Takeaways Tail latency — not averages — is what breaks SLOs in distributed OLTP systems. Production clusters saw P999 drop from tens of seconds to sub-100ms after upgrading to TiDB 8.5, with no workload changes. The largest gains came from eliminating rare-but-catastrophic stalls: GC pauses, lock contention, and storage snapshot overhead. TiDB 8.5 optimizes across the full stack by removing un",
+      "imageURL": "https://static.pingcap.com/files/2026/04/01081738/970d1568-3686-42ac-8180-f4d4883954c1.png"
+    },
+    {
+      "id": "3192390f8d2df38e05c1",
+      "title": "What we learned about TEE security from auditing WhatsApp's Private Inference",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/",
+      "publishedAt": "2026-04-07T11:00:00Z",
+      "summary": "WhatsApp’s new “Private Inference” feature represents one of the most ambitious attempts to combine end-to-end encryption with AI-powered capabilities, such as message summarization. To make this possible, Meta built a system that processes encrypted user messages inside trusted execution environments (TEEs), secure hardware enclaves designed so that not even Meta can access the plaintext. Our now",
+      "imageURL": null
     },
     {
       "id": "f0877e7c8177f1aee53e",
@@ -415,6 +514,15 @@
       "imageURL": "https://github.blog/wp-content/uploads/2026/04/3.png?resize=960%2C1340"
     },
     {
+      "id": "a59e2961a36f65328179",
+      "title": "Simplifying MBA obfuscation with CoBRA",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/",
+      "publishedAt": "2026-04-03T11:00:00Z",
+      "summary": "Mixed Boolean-Arithmetic (MBA) obfuscation disguises simple operations like x + y behind tangles of arithmetic and bitwise operators. Malware authors and software protectors rely on it because no standard simplification technique covers both domains simultaneously; algebraic simplifiers don’t understand bitwise logic, and Boolean minimizers can’t handle arithmetic. We’re releasing CoBRA , an open-",
+      "imageURL": null
+    },
+    {
       "id": "c12b7e4def8e835d469a",
       "title": "Seizing the means of messenger production",
       "sourceName": "Stack Overflow Blog",
@@ -442,6 +550,15 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/Meta-KernalEvolve-REA-image1.png"
     },
     {
+      "id": "6248f64271be86f8f389",
+      "title": "Defending Your Software Supply Chain: What Every Engineering Team Should Do Now",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88434",
+      "publishedAt": "2026-04-02T18:14:40Z",
+      "summary": "The software supply chain is under sustained attack. Not from a single threat actor or a single incident, but from an ecosystem-wide campaign that has been escalating for months and shows no signs of slowing down. This week, axios , the HTTP client library downloaded 83 million times per week and present in roughly 80% of cloud environments, was compromised via a hijacked maintainer account . Two ",
+      "imageURL": null
+    },
+    {
       "id": "d67a0b747bb159f0f8a8",
       "title": "My Journey to Airbnb — Jonathan Woodard",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -451,6 +568,24 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*tvm81QJzJmsOHuiGKuPGSQ.png"
     },
     {
+      "id": "68c4f22d6c9f64e16156",
+      "title": "Improving storage efficiency in Magic Pocket, our immutable blob store",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/infrastructure/improving-storage-efficiency-in-magic-pocket-our-immutable-blob-store",
+      "publishedAt": "2026-04-02T17:00:00Z",
+      "summary": "Magic Pocket is the core Dropbox storage system—a custom-built, exabyte-scale blob storage system designed for durability, availability, scale, and efficiency. It holds user content, which means it must be safe, fast, and cost-effective to scale with the company. For Dropbox, storage efficiency really matters. We measure it by looking at how much total disk space we use compared to how much user d",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/magic-pocket-compaction/headers/Infrastructure-Optimizing compaction in Magic Pocket-1440x305-light.png"
+    },
+    {
+      "id": "025d61004cd45e4bb18d",
+      "title": "Gemma 4 is Here: Now Available on Docker Hub",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88429",
+      "publishedAt": "2026-04-02T16:16:56Z",
+      "summary": "Docker Hub is quickly becoming the home for AI models, serving millions of developers and bringing together a curated lineup that spans lightweight edge models to high-performance LLMs, all packaged as OCI artifacts. Today, we’re excited to welcome Gemma 4 , the latest generation of lightweight, state-of-the-art open models. Built on the same technology behind Gemini, Gemma 4 introduces three arch",
+      "imageURL": null
+    },
+    {
       "id": "7cad52b864fed2208c15",
       "title": "What the AI trust gap means for enterprise SaaS",
       "sourceName": "Stack Overflow Blog",
@@ -458,6 +593,15 @@
       "publishedAt": "2026-04-02T13:00:00Z",
       "summary": "Adoption and trust are moving in diametrically opposed directions, and that gap has real implications for organizations deciding how to spend money on software.",
       "imageURL": null
+    },
+    {
+      "id": "23fe9bcc0fc47d76d377",
+      "title": "Docker Offload now Generally Available: The Full Power of Docker, for Every Developer, Everywhere.",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88380",
+      "publishedAt": "2026-04-02T13:00:00Z",
+      "summary": "Docker Desktop is one of the most widely used developer tools in the world, yet for millions of enterprise developers, running it simply hasn’t been an option. The environments they rely on, such as virtual desktop infrastructure (VDI) platforms and managed desktops, often lack the resources or capabilities needed to run Docker Desktop. As enterprises scaled to support remote and contractor teams,",
+      "imageURL": "https://www.docker.com/app/uploads/2025/07/WAD-offload2.gif"
     },
     {
       "id": "49dd0c04af5326209760",
@@ -478,6 +622,15 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/27/ML-ARCHBLOG-1344-image-1.png"
     },
     {
+      "id": "7b435c9435780846b6cd",
+      "title": "Mutation testing for the agentic era",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/",
+      "publishedAt": "2026-04-01T11:00:00Z",
+      "summary": "Code coverage is one of the most dangerous quality metrics in software testing. Many developers fail to realize that code coverage lies by omission: it measures execution, not verification. Test suites with high coverage can obfuscate the fact that critical functionality is untested as software develops over time. We saw this when mutation testing uncovered a high-severity Arkis protocol vulnerabi",
+      "imageURL": null
+    },
+    {
       "id": "4c131c6b9cc2ab5a8dc0",
       "title": "MULTIPLAYER SEQUEL TO ACCLAIMED AAAA GAME “THE LAST MEADOW” ANNOUNCED: PLAYABLE NOW",
       "sourceName": "Discord Blog",
@@ -496,6 +649,15 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/25/ARCHBLOG-1174-image-1.png"
     },
     {
+      "id": "5d0fabcd892c11ab50a3",
+      "title": "Run and Iterate on LLMs Faster with Docker Model Runner on DGX Station",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=87656",
+      "publishedAt": "2026-03-31T17:57:17Z",
+      "summary": "Back in October, we showed how Docker Model Runner on the NVIDIA DGX Spark makes it remarkably easy to run large AI models locally with the same familiar Docker experience developers already trust. That post struck a chord: hundreds of developers discovered that a compact desktop system paired with Docker Model Runner could replace complex GPU setups and cloud API calls. Recently at NVIDIA GTC 202",
+      "imageURL": null
+    },
+    {
       "id": "d968ad92038a5f847104",
       "title": "From Custom to Open: Scalable Network Probing and HTTP/3 Readiness with Prometheus",
       "sourceName": "Slack Engineering",
@@ -503,6 +665,15 @@
       "publishedAt": "2026-03-31T17:00:39Z",
       "summary": "The Problem: Legacy Tooling and Its Limitations Currently, Slack utilizes a hybrid approach to network measurement, incorporating both internal (such as traffic between AWS Availability Zones) and external (monitoring traffic from the public internet into Slack’s infrastructure) solutions. These tools comprise a combination of commercial SaaS offerings and custom-built network testing solutions de",
       "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/03/quic-diagram.png?w=512"
+    },
+    {
+      "id": "a19994292bcb7bae18a9",
+      "title": "Docker Sandboxes: Run Agents in YOLO Mode, Safely",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88205",
+      "publishedAt": "2026-03-31T16:39:16Z",
+      "summary": "Agents have crossed a threshold. Over a quarter of all production code is now AI-authored, and developers who use agents are merging roughly 60% more pull requests . But these gains only come when you let agents run autonomously. And to unlock that, you have to get out of the way. That means letting agents run without stopping to ask permission at every step, often called YOLO mode. Doing that on ",
+      "imageURL": null
     },
     {
       "id": "dc1311bacbfd6759bb48",
@@ -521,6 +692,15 @@
       "publishedAt": "2026-03-31T16:00:00Z",
       "summary": "I may have just automated myself into a completely different job… This is a familiar pattern among software engineers, who often, through inspiration, frustration, or sometimes even laziness, build systems to remove toil and focus on more creative work. We then end up owning and maintaining those systems, unlocking that automated goodness for the rest of those around us. As an AI researcher, I rec",
       "imageURL": null
+    },
+    {
+      "id": "c69d1b6422e7c32d3491",
+      "title": "How we made Trail of Bits AI-native (so far)",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/",
+      "publishedAt": "2026-03-31T11:00:00Z",
+      "summary": "This post is adapted from a talk I gave at [un]prompted , the AI security practitioner conference. Thanks to Gadi Evron for inviting me to speak. You can watch the recorded presentation below or download the slides . Most companies hand out ChatGPT licenses and wait for the productivity numbers to move. We built a system instead. A year ago, about 5% of Trail of Bits was on board with our AI initi",
+      "imageURL": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/remedies_hu_467a5bd562219c7f.webp"
     },
     {
       "id": "659f714b65abb62c25fe",
@@ -559,6 +739,24 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*OMZl9ZxHl02QWvOMcaUaCQ.jpeg"
     },
     {
+      "id": "a6c3bbd478f8854f9568",
+      "title": "Kubernetes v1.36 Sneak Peek",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/",
+      "publishedAt": "2026-03-30T00:00:00Z",
+      "summary": "Kubernetes v1.36 is coming at the end of April 2026. This release will include removals and deprecations, and it is packed with an impressive number of enhancements. Here are some of the features we are most excited about in this cycle! Please note that this information reflects the current state of v1.36 development and may change before release. The Kubernetes API removal and deprecation process",
+      "imageURL": null
+    },
+    {
+      "id": "f57ad6741dfc6d2058ff",
+      "title": "Building a News Roundup with Docker Agent, Docker Model Runner, and Skill",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88073",
+      "publishedAt": "2026-03-27T14:24:40Z",
+      "summary": "Hello, I’m Philippe, and I am a Principal Solutions Architect helping customers with their usage of Docker. I wanted a lightweight way to automate my IT news roundups without burning through AI credits. So I built a Docker Agent skill that uses the Brave Search API to fetch recent articles on a topic, then hands the results to a local model running with Docker Model Runner to analyze the stories a",
+      "imageURL": "https://www.docker.com/app/uploads/2026/03/Skills-newsround-fig-1.png"
+    },
+    {
       "id": "92b7c3427c009844aa1f",
       "title": "Prevent agentic identity theft",
       "sourceName": "Stack Overflow Blog",
@@ -575,6 +773,15 @@
       "publishedAt": "2026-03-27T00:00:00Z",
       "summary": "A Discord account is more than just your username and avatar. That’s why it’s important to help keep your account safe and secure by using Multi-Factor Authentication, SMS Backup Authentication & QR Code Login. Learn how to keep your account more secure in the following blog post!",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/61f2eb202125983477455f6e_Discord-2FA-Blog-Header.png"
+    },
+    {
+      "id": "eeb78c85d722ab984c2d",
+      "title": "Four Data Architecture Decisions That Make or Break Agentic Systems",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=32767",
+      "publishedAt": "2026-03-26T20:48:46Z",
+      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways Agentic systems need architectures built for isolation, elasticity, and constant change. Separating compute from storage — and workloads from each other — is critical to scaling reliably. Cost visibility helps teams manage fast-growing agent workl",
+      "imageURL": null
     },
     {
       "id": "cf4b5ae7c5e5644d8fc5",
@@ -595,6 +802,15 @@
       "imageURL": null
     },
     {
+      "id": "20d22e484460ca253d81",
+      "title": "Reducing our monorepo size to improve developer velocity",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/infrastructure/reducing-our-monorepo-size-to-improve-developer-velocity",
+      "publishedAt": "2026-03-25T17:00:00Z",
+      "summary": "At Dropbox, almost every product change flows through a single place: our server monorepo. A monorepo is a single, shared Git repository that contains many services and libraries used across the company. Instead of splitting code across dozens of smaller repositories, we keep a large portion of our backend infrastructure in one place. That architecture makes cross-service development easier, but i",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/monorepo/headers/Infrastructure-Reducing monorepo size-1440x305-light.png"
+    },
+    {
       "id": "bdc62269c3113c9654ee",
       "title": "Beyond A/B Testing: Using Surrogacy and Region-Splits to Measure Long-Term Effects in Marketplaces",
       "sourceName": "Lyft Engineering",
@@ -602,6 +818,15 @@
       "publishedAt": "2026-03-25T13:56:39Z",
       "summary": "Image generated with Gemini 3 Pro (Google), 2026. Written by Amber Wang and Y oonji Kim at Lyft. Background Whenever you use the Lyft app, there is a complex balancing act happening behind the scenes. Various levers are used to keep the marketplace running smoothly; Base prices and coupons for riders affect demand, while driver pay and bonuses impact the level of available supply. Since every chan",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*iVC-FQekAWZXMelyqruN5g.png"
+    },
+    {
+      "id": "2d53da69c2cdfd0fe753",
+      "title": "Try our new dimensional analysis Claude plugin",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/",
+      "publishedAt": "2026-03-25T11:00:00Z",
+      "summary": "We’re releasing a new Claude plugin for developing and auditing code that implements dimensional analysis, a technique we explored in our most recent blog post . Most LLM-based security skills ask the model to find bugs. Our new dimensional-analysis plugin for Claude Code takes a different approach: it uses the LLM to annotate your codebase with dimensional types, then flags mismatches mechanicall",
+      "imageURL": "https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/try-our-new-dimensional-analysis-claude-plugin-image-1_hu_7d3093e4aab4ef47.webp"
     },
     {
       "id": "81a2ea0bd562b7167ee4",
@@ -613,6 +838,15 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*HC0FvtGMOcsE3d138wRDRw.jpeg"
     },
     {
+      "id": "dde0403805a8cd2828f6",
+      "title": "Spotting issues in DeFi with dimensional analysis",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/",
+      "publishedAt": "2026-03-24T11:00:00Z",
+      "summary": "Using dimensional analysis, you can categorically rule out a whole category of logic and arithmetic bugs that plague DeFi formulas. No code changes required, just better reasoning! One of the first lessons in physics is learning to think in terms of dimensions . Physicists can often spot a flawed formula in seconds just by checking whether the dimensions make sense. I once had a teacher who even k",
+      "imageURL": null
+    },
+    {
       "id": "47ab80fc290cb7a6574f",
       "title": "Multi-stage attacks are the Final Fantasy bosses of security",
       "sourceName": "Stack Overflow Blog",
@@ -620,6 +854,15 @@
       "publishedAt": "2026-03-24T07:40:00Z",
       "summary": "Ryan welcomes Gee Rittenhouse, VP of Security at AWS, to the show to discuss the complexities of multi-stage attacks in cybersecurity and how these attacks unfold, the challenges in detecting them, and the evolving role of AI in both enhancing security and creating new vulnerabilities.",
       "imageURL": null
+    },
+    {
+      "id": "562819fb58c23134a36b",
+      "title": "TiDB Cloud Zero Public Preview: Get a Database in 1 Second, Claim It in 3 Clicks",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=32592",
+      "publishedAt": "2026-03-24T05:32:16Z",
+      "summary": "Key Takeaways Launch a production-grade database in one second — no signup or setup required. SKILL command enables instant use directly inside AI agents. 30-day temporary instances support fast prototyping and experimentation. Three-click claim converts it into a persistent TiDB Cloud database. Data and schema migrate automatically with zero disruption. Built for agent-first workflows, removing t",
+      "imageURL": "https://static.pingcap.com/files/2026/03/22222009/TiDB-Cloud-Zero-Preview-home.png"
     },
     {
       "id": "477426f0bb026d2eaa8a",
@@ -649,6 +892,24 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/11/ARCHBLOG-1269-2.png"
     },
     {
+      "id": "532837f249e5f1b98005",
+      "title": "Announcing Ingress2Gateway 1.0: Your Path to Gateway API",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/",
+      "publishedAt": "2026-03-20T19:00:00Z",
+      "summary": "With the Ingress-NGINX retirement scheduled for March 2026, the Kubernetes networking landscape is at a turning point. For most organizations, the question isn't whether to migrate to Gateway API , but how to do so safely. Migrating from Ingress to Gateway API is a fundamental shift in API design. Gateway API provides a modular, extensible API with strong support for Kubernetes-native RBAC. Conver",
+      "imageURL": null
+    },
+    {
+      "id": "25ae62250ec18964b62b",
+      "title": "Running Agents on Kubernetes with Agent Sandbox",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/",
+      "publishedAt": "2026-03-20T18:00:00Z",
+      "summary": "The landscape of artificial intelligence is undergoing a massive architectural shift. In the early days of generative AI, interacting with a model was often treated as a transient, stateless function call: a request that spun up, executed for perhaps 50 milliseconds, and terminated. Today, the world is witnessing AI v2 eating AI v1. The ecosystem is moving from short-lived, isolated tasks to deplo",
+      "imageURL": null
+    },
+    {
       "id": "0b38f86ed0e684551b27",
       "title": "After all the hype, was 2025 really the year of AI agents?",
       "sourceName": "Stack Overflow Blog",
@@ -665,6 +926,15 @@
       "publishedAt": "2026-03-20T00:00:00Z",
       "summary": "The most sophisticated fraud teams are shifting from one-size-fits-all fraud approaches to more dynamic, tailored interventions. They are removing friction for trusted users, embedding fraud detection directly into agentic transactions, and investing in multilayered identity verification to combat deepfakes.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6EX5VwS3VABCPIi20UrofS/7ce914e20366c183f0fcfa7ae8d8a5ba/MRC-index.png"
+    },
+    {
+      "id": "22a8625a4cfb3ac522f2",
+      "title": "Building a Voice-First AI Journal: How to Add a Knowledgeable Tutor",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=32594",
+      "publishedAt": "2026-03-19T19:04:28Z",
+      "summary": "Key Takeaways A Socratic voice tutor can share a journal app’s entire stack—one codebase, two products. Static knowledge plus RAG over source code gives an AI tutor both reliability and depth. TiDB’s native vector search keeps relational data and embeddings in one database with no Pinecone sidecar. A single mode column on the facts table prevents study noise from polluting personal context. I give",
+      "imageURL": "https://static.pingcap.com/files/2026/03/20073641/image-9.png"
     },
     {
       "id": "d0f97516ce330eafec19",
@@ -703,6 +973,15 @@
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Ee0jsPU0no73KBQtvLZSs/3f8e7c460e2e394b0deb3aba8af00fcc/Blog_Index_2x__1_.png"
     },
     {
+      "id": "311976d1dbb36ece234c",
+      "title": "How to Instantly Restore a Dropped Table in TiDB",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=32614",
+      "publishedAt": "2026-03-18T19:10:36Z",
+      "summary": "Key Takeaways FLASHBACK TABLE recovers a dropped table in under a second with all data and schema intact. Recovery works at table, database, and cluster scope via FLASHBACK TABLE , FLASHBACK DATABASE , and FLASHBACK CLUSTER . Stale Read queries let you inspect any historical version of a table within the GC lifetime window. The default recovery window is 10 minutes (configurable via tidb_gc_life_t",
+      "imageURL": null
+    },
+    {
       "id": "9d7a5064f92c2d5a6edb",
       "title": "AI-powered event response for Amazon EKS",
       "sourceName": "AWS Architecture Blog",
@@ -719,6 +998,15 @@
       "publishedAt": "2026-03-18T18:19:33Z",
       "summary": "Friend bubbles in Facebook Reels highlight Reels your friends have liked or reacted to, helping you discover new content and making it easier to connect over shared interests. This article explains the technical architecture behind friend bubbles, including how machine learning estimates relationship strength and ranks content your friends have interacted with to create more opportunities for mean",
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/03/Facebook-Friend-Bubbles.gif"
+    },
+    {
+      "id": "183d845b664932ef3c23",
+      "title": "Securing Production Debugging in Kubernetes",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/03/18/securing-production-debugging-in-kubernetes/",
+      "publishedAt": "2026-03-18T18:00:00Z",
+      "summary": "During production debugging, the fastest route is often broad access such as cluster-admin (a ClusterRole that grants administrator-level access), shared bastions/jump boxes, or long-lived SSH keys. It works in the moment, but it comes with two common problems: auditing becomes difficult, and temporary exceptions have a way of becoming routine. This post offers my recommendations for good practice",
+      "imageURL": null
     },
     {
       "id": "ce41b29f97a2217ca65e",
@@ -739,6 +1027,15 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*7z8dKfmBs_h7_oXXNhx-PQ.jpeg"
     },
     {
+      "id": "1bd3a9b041c2a76bf928",
+      "title": "How we optimized Dash's relevance judge with DSPy",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/machine-learning/optimizing-dropbox-dash-relevance-judge-with-dspy",
+      "publishedAt": "2026-03-17T17:00:00Z",
+      "summary": "Dropbox Dash brings your files, messages, and team’s knowledge together in one place, so you can ask questions and get useful answers that are actually grounded in your company’s context. Under the hood, that experience relies heavily on one deceptively simple capability: reliably judging which results are relevant to a query at scale. Relevance judges are used across multiple pipelines like ranki",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/dspy/headers/Machine Learning-Optimizing Dash relevancy judge with DSPy-1440x305-light.png"
+    },
+    {
       "id": "a913d2c931b4a7f97a87",
       "title": "Keeping the lights on for open source",
       "sourceName": "Stack Overflow Blog",
@@ -746,6 +1043,24 @@
       "publishedAt": "2026-03-17T16:00:00Z",
       "summary": "Ryan sits down with Chainguard CEO Dan Lorenc to chat about how his team is keeping the foundation of the internet—open source projects—alive by forking archived but widely-used repos to provide security maintenance and dependency upgrades.",
       "imageURL": null
+    },
+    {
+      "id": "40c3742790f2dee29753",
+      "title": "The Invisible Rewrite: Modernizing the Kubernetes Image Promoter",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/03/17/image-promoter-rewrite/",
+      "publishedAt": "2026-03-17T00:00:00Z",
+      "summary": "Every container image you pull from registry.k8s.io got there through kpromo , the Kubernetes image promoter. It copies images from staging registries to production, signs them with cosign , replicates signatures across more than 20 regional mirrors, and generates SLSA provenance attestations. If this tool breaks, no Kubernetes release ships. Over the past few weeks, we rewrote its core from scrat",
+      "imageURL": null
+    },
+    {
+      "id": "e9932f7d8a5c7d794d92",
+      "title": "How TiDB X Creates Indexes at 5.5M Rows/s with Near-Zero Business Impact",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=32503",
+      "publishedAt": "2026-03-16T14:26:51Z",
+      "summary": "Key Takeaways TiDB X builds indexes at up to 5.5M rows/s — 72x faster than traditional online DDL. DXF splits index tasks across multiple nodes, scaling throughput near-linearly. Global Sort eliminates SST overlaps, reducing compactions and stabilizing TiKV performance. Elastic worker clusters offload index computation from production, keeping QPS and latency stable. Adding an index has always bee",
+      "imageURL": "https://static.pingcap.com/files/2026/03/16072643/316f9084-9a7b-49d0-99fa-8bfc80b420a1.png"
     },
     {
       "id": "5a9ea20a0ebdfb5c8635",
@@ -773,6 +1088,15 @@
       "publishedAt": "2026-03-13T07:40:00Z",
       "summary": "Ryan is joined by Jan Liphardt, CEO and co-founder of OpenMind, to chat about the rapidly evolving world of humanoid robotics and what it means for humans, why OpenMind is building an open-source operating system for robots that processes logic in natural language, and how putting Asimov’s Laws on the blockchain might be the key to robotics guardrails.",
       "imageURL": null
+    },
+    {
+      "id": "b38afd603e08a4151a37",
+      "title": "Why You Should Replace Stored Procedures with a Service Layer",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=32427",
+      "publishedAt": "2026-03-12T19:35:58Z",
+      "summary": "Key Takeaways Stored procedures create deployment friction, version control drift, and observability gaps that worsen at scale. A service layer replaces them with testable, debuggable, independently scalable application code. Co-locating the service with the database preserves low latency while unlocking modern tooling and libraries. Migration can be incremental — start with new functionality and ",
+      "imageURL": "https://static.pingcap.com/files/2026/03/13114342/image-8.png"
     },
     {
       "id": "783c65ea77f07f18a6c4",
@@ -820,6 +1144,24 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69b0462c05e2cfb5433031ce_game-claiming-blog-1800x720.png"
     },
     {
+      "id": "e043232be621e3baab7a",
+      "title": "Building a Voice-First AI Journal: What I Learned About AI Memory, Vector Search, and TiDB",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=32407",
+      "publishedAt": "2026-03-11T18:18:56Z",
+      "summary": "Key Takeaways Off-the-shelf memory frameworks can silently discard the details that matter most. A three-layer AI memory architecture delivers far better recall than any single abstraction. TiDB’s native vector search eliminates the two-database overhead of a Postgres + Pinecone setup. Model choice for synthesis tasks is a trust decision, not a cost decision. I was talking to Claude the other day ",
+      "imageURL": null
+    },
+    {
+      "id": "5cee4143bbd3a30282ad",
+      "title": "Six mistakes in ERC-4337 smart accounts",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/",
+      "publishedAt": "2026-03-11T11:00:00Z",
+      "summary": "Account abstraction transforms fixed “private key can do anything” models into programmable systems that enable batching, recovery and spending limits, and flexible gas payment. But that programmability introduces risks: a single bug can be as catastrophic as leaking a private key. After auditing dozens of ERC‑4337 smart accounts, we’ve identified six vulnerability patterns that frequently appear.",
+      "imageURL": "https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/erc4337-figure-1_hu_28689ebdbcaa7f49.webp"
+    },
+    {
       "id": "9eafb2ce8dd8c92b759f",
       "title": "Even the chip makers are making LLMs",
       "sourceName": "Stack Overflow Blog",
@@ -836,6 +1178,24 @@
       "publishedAt": "2026-03-10T00:00:00Z",
       "summary": "From November 2025 to February 2026, our models detected 6.2x more abusive free trials across the Stripe network. This is part of a broader shift toward first-party fraud, where legitimate users abuse policies by setting up multiple accounts, cycling through free trials, or exploiting refunds.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Q9QOcOKdwnmutUW8UEFOM/0b06bc4a1e35569bf711188f4927e120/fpft-updated-index.png"
+    },
+    {
+      "id": "5cd5abfebac4465c6da3",
+      "title": "Unfortunately, Sprites Now Speak MCP",
+      "sourceName": "Fly.io Blog",
+      "url": "https://fly.io/blog/unfortunately-mcp/",
+      "publishedAt": "2026-03-10T00:00:00Z",
+      "summary": "Sprites are disposable cloud computers. They appear instantly, always include durable filesystems, and cost practically nothing when idle. They’re the best and safest place on the Internet to run agents and we want you to create dozens of them . Sprites are a place to run agents; the first thing you should think to do with a new Sprite is to type claude (or gemini or codex ). We’ve put a lot of ef",
+      "imageURL": null
+    },
+    {
+      "id": "89336d8008f68163a6c4",
+      "title": "Announcing the AI Gateway Working Group",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/03/09/announcing-ai-gateway-wg/",
+      "publishedAt": "2026-03-09T18:00:00Z",
+      "summary": "The community around Kubernetes includes a number of Special Interest Groups (SIGs) and Working Groups (WGs) facilitating discussions on important topics between interested contributors. Today, we're excited to announce the formation of the AI Gateway Working Group , a new initiative focused on developing standards and best practices for networking infrastructure that supports AI workloads in Kube",
+      "imageURL": null
     },
     {
       "id": "154b0d32576bcecd8d1b",
@@ -973,6 +1333,15 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*1w_zMp68xhQI0W1bTXG0Dw.png"
     },
     {
+      "id": "6a5656002dd43d178944",
+      "title": "Before You Migrate: Five Surprising Ingress-NGINX Behaviors You Need to Know",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/02/27/ingress-nginx-before-you-migrate/",
+      "publishedAt": "2026-02-27T15:30:00Z",
+      "summary": "As announced November 2025, Kubernetes will retire Ingress-NGINX in March 2026. Despite its widespread usage, Ingress-NGINX is full of surprising defaults and side effects that are probably present in your cluster today. This blog highlights these behaviors so that you can migrate away safely and make a conscious decision about which behaviors to keep. This post also compares Ingress-NGINX with Ga",
+      "imageURL": null
+    },
+    {
       "id": "8c1ebcdfa26c65c08234",
       "title": "Digital Transformation at Santander: How Platform Engineering is Revolutionizing Cloud Infrastructure",
       "sourceName": "AWS Architecture Blog",
@@ -982,6 +1351,15 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/01/26/ARCHBLOG-12991.png"
     },
     {
+      "id": "1f14c3f7732727256507",
+      "title": "Using LLMs to amplify human labeling and improve Dash search relevance",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/machine-learning/llm-human-labeling-improving-search-relevance-dropbox-dash",
+      "publishedAt": "2026-02-26T17:00:00Z",
+      "summary": "When someone uses Dropbox Dash to search or ask a question, it follows a retrieval-augmented generation (RAG) pattern. This means our AI first retrieves relevant company information and then uses that information to generate responses. To produce those answers, it relies on enterprise search to retrieve company-specific context and then uses that context to ground the response. Rather than respond",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/llm-and-human-labeling/headers/Machine Learning-Human Evaluations-1440x305-light.png"
+    },
+    {
       "id": "4136a1a070fa1015966f",
       "title": "6,000 AWS accounts, three people, one platform: Lessons learned",
       "sourceName": "AWS Architecture Blog",
@@ -989,6 +1367,15 @@
       "publishedAt": "2026-02-25T19:47:07Z",
       "summary": "This post is cowritten by Julius Blank from ProGlove. As software-as-a-service (SaaS) platforms grow, balancing speed of innovation with strong security and tenant data isolation becomes critical. While the same AWS Identity and Access Management (IAM) mechanisms secure both shared and dedicated environments, establishing a hard security boundary is often easier in an account-per-tenant model beca",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/17/ARCHBLOG-1310-1.png"
+    },
+    {
+      "id": "38b67e5a31a695f29fe8",
+      "title": "mquire: Linux memory forensics without external dependencies",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/",
+      "publishedAt": "2026-02-25T12:00:00Z",
+      "summary": "If you’ve ever done Linux memory forensics, you know the frustration: without debug symbols that match the exact kernel version, you’re stuck. These symbols aren’t typically installed on production systems and must be sourced from external repositories, which quickly become outdated when systems receive updates. If you’ve ever tried to analyze a memory dump only to discover that no one has publish",
+      "imageURL": null
     },
     {
       "id": "54f35ead1b8fcd0109b1",
@@ -1016,6 +1403,15 @@
       "publishedAt": "2026-02-23T18:24:32Z",
       "summary": "Avneesh Saluja , Santiago Castro , Bowei Yan , Ashish Rastogi Introduction Netflix’s core mission is to connect millions of members around the world with stories they’ll love. This requires not just an incredible catalog, but also a deep, machine-level understanding of every piece of content in that catalog, from the biggest blockbusters to the most niche documentaries. As we onboard new types of ",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*y5IOwk46Pu82512T00ywGA.png"
+    },
+    {
+      "id": "db223c2f496fbc1f3b45",
+      "title": "Using threat modeling and prompt injection to audit Comet",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/",
+      "publishedAt": "2026-02-20T16:00:00Z",
+      "summary": "Before launching their Comet browser, Perplexity hired us to test the security of their AI-powered browsing features. Using adversarial testing guided by our TRAIL threat model, we demonstrated how four prompt injection techniques could extract users’ private information from Gmail by exploiting the browser’s AI assistant. The vulnerabilities we found reflect how AI agents behave when external con",
+      "imageURL": "https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/using-threat-modeling-and-prompt-injection-to-audit-comet-image-1_hu_ec7b70f1e492cd9d.webp"
     },
     {
       "id": "247e5a9fecb9e2406040",
@@ -1054,6 +1450,15 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*v2VDklQn1NHAx-MiR8DYMQ.png"
     },
     {
+      "id": "b7da1629366787c33139",
+      "title": "Carelessness versus craftsmanship in cryptography",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/",
+      "publishedAt": "2026-02-18T12:00:00Z",
+      "summary": "Two popular AES libraries, aes-js and pyaes, “helpfully” provide a default IV in their AES-CTR API, leading to a large number of key/IV reuse bugs. These bugs potentially affect thousands of downstream projects. When we shared one of these bugs with an affected vendor, strongSwan, the maintainer provided a model response for security vendors. The aes-js/pyaes maintainer, on the other hand, has tak",
+      "imageURL": null
+    },
+    {
       "id": "e685969f12aeda988d63",
       "title": "Scaling LLM Post-Training at Netflix",
       "sourceName": "Netflix TechBlog",
@@ -1061,6 +1466,15 @@
       "publishedAt": "2026-02-13T08:05:33Z",
       "summary": "Baolin Li , Lingyi Liu , Binh Tang , Shaojing Li Introduction Pre-training gives Large Language Models (LLMs) broad linguistic ability and general world knowledge, but post-training is the phase that actually aligns them to concrete intents, domain constraints, and the reliability requirements of production environments. At Netflix, we are exploring how LLMs can enable new member experiences acros",
       "imageURL": "https://cdn-images-1.medium.com/max/873/1*at60qZXd0j6SphkjzdmazQ.png"
+    },
+    {
+      "id": "f9b2876745d060b30c44",
+      "title": "How low-bit inference enables efficient AI",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/machine-learning/how-low-bit-inference-enables-efficient-ai",
+      "publishedAt": "2026-02-12T18:00:00Z",
+      "summary": "In just the past few years, large machine learning models have made incredible strides. Today’s models are not only remarkably capable but also achieve impressive results across a range of applications, from software engineering and scientific research to content creation and data analysis. With the arrival of models like Kimi-K2.5 and GLM-5 , the pace of progress shows no sign of slowing down. (K",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/low-bit-inference/headers/MachineLearning-Low-Bit Inference-375x150-dark.png"
     },
     {
       "id": "7c632580ab27b2f57b82",
@@ -1072,6 +1486,15 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*1h8xn6vIPteLe8ssJuFQtg.png"
     },
     {
+      "id": "e4d88d45af3093a81bda",
+      "title": "Spotlight on SIG Architecture: API Governance",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/",
+      "publishedAt": "2026-02-12T00:00:00Z",
+      "summary": "This is the fifth interview of a SIG Architecture Spotlight series that covers the different subprojects, and we will be covering SIG Architecture: API Governance . In this SIG Architecture spotlight we talked with Jordan Liggitt , lead of the API Governance sub-project. Introduction FM: Hello Jordan, thank you for your availability. Tell us a bit about yourself, your role and how you got involved",
+      "imageURL": null
+    },
+    {
       "id": "a05c4def6f5702eec93e",
       "title": "My Journey to Airbnb — Anna Sulkina",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -1079,6 +1502,15 @@
       "publishedAt": "2026-02-11T17:02:19Z",
       "summary": "Anna Sulkina has always been a traveler, and we’re lucky her travels have brought her to Airbnb. Anna is a Senior Director of Engineering, and she’s responsible for Application & Cloud infrastructure. She brings over two decades of industry experience to Airbnb, including work spanning the stack from the frontend to the backend to the plumbing that makes everything come together. Anna is a mother,",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*eiZyGBIJvx3S5kREFK8wOw.jpeg"
+    },
+    {
+      "id": "91e445bfdb23fb8ad8c5",
+      "title": "Insights from our executive roundtable on AI and engineering productivity",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/culture/insights-from-our-executive-roundtable-on-ai-and-engineering-productivity",
+      "publishedAt": "2026-02-11T17:00:00Z",
+      "summary": "Improving engineering productivity is crucial to the work we do at Dropbox. The more quickly we can deliver high-quality features to our customers, the more value they can get from our products. This rapid iteration has been key to developing tools like Dropbox Dash , context-aware AI that connects to all your work apps, so you can search, ask questions about, and organize all your content. In the",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/cto-roundtable/cto-roundtable-1440x305-light.png"
     },
     {
       "id": "e1cc0a2d0c1ba7a985a0",
@@ -1108,6 +1540,15 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     },
     {
+      "id": "00f6af6e2363f0085677",
+      "title": "Introducing Node Readiness Controller",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/",
+      "publishedAt": "2026-02-03T02:00:00Z",
+      "summary": "In the standard Kubernetes model, a node’s suitability for workloads hinges on a single binary \"Ready\" condition. However, in modern Kubernetes environments, nodes require complex infrastructure dependencies—such as network agents, storage drivers, GPU firmware, or custom health checks—to be fully operational before they can reliably host pods. Today, on behalf of the Kubernetes project, I am anno",
+      "imageURL": "./node-readiness-controller-logo.svg"
+    },
+    {
       "id": "d1309b4304dc248caba8",
       "title": "How to Customize Your Discord Profile",
       "sourceName": "Discord Blog",
@@ -1126,6 +1567,24 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/01/29/l-archblog-1320-1-1024x482.jpeg"
     },
     {
+      "id": "45c7c1e5ff7ce8db4943",
+      "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/",
+      "publishedAt": "2026-01-30T16:00:00Z",
+      "summary": "I'm excited to announce the implementation of an improved conversion formula from cgroup v1 CPU shares to cgroup v2 CPU weight. This enhancement addresses critical issues with CPU priority allocation for Kubernetes workloads when running on systems with cgroup v2. Background Kubernetes was originally designed with cgroup v1 in mind, where CPU shares were defined simply by assigning the container's",
+      "imageURL": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/linear-conversion.png"
+    },
+    {
+      "id": "4a87a0a29f7a918aa1b2",
+      "title": "Celebrating our 2025 open-source contributions",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/",
+      "publishedAt": "2026-01-30T12:00:00Z",
+      "summary": "Last year, our engineers submitted over 375 pull requests that were merged into non–Trail of Bits repositories, touching more than 90 projects from cryptography libraries to the Rust compiler. This work reflects one of our driving values: “share what others can use.” The measure isn’t whether you share something, but whether it’s actually useful to someone else. This principle is why we publish ha",
+      "imageURL": null
+    },
+    {
       "id": "526947647715457e7847",
       "title": "How Artera enhances prostate cancer diagnostics using AWS",
       "sourceName": "AWS Architecture Blog",
@@ -1133,6 +1592,42 @@
       "publishedAt": "2026-01-29T17:06:57Z",
       "summary": "This post was co-written with Hariharan Ananthakrishnan from Artera. Artificial intelligence (AI) and machine learning (ML) are transforming cancer diagnosis and treatment, enabling faster and more accurate decisions for patients. One company at the forefront of this transformation is Artera , a precision medicine company developing an AI-powered platform for cancer treatment planning. The U.S. Fo",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/01/16/ARCH-13411.png"
+    },
+    {
+      "id": "8d48c5019fd9be207837",
+      "title": "Building cryptographic agility into Sigstore",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/",
+      "publishedAt": "2026-01-29T12:00:00Z",
+      "summary": "Software signatures carry an invisible expiration date. The container image or firmware you sign today might be deployed for 20 years, but the cryptographic signature protecting it may become untrustworthy within 10 years. SHA-1 certificates become worthless, weak RSA keys are banned, and quantum computers may crack today’s elliptic curve cryptography. The question isn’t whether our current signat",
+      "imageURL": null
+    },
+    {
+      "id": "2279aac79f3e5d7f0951",
+      "title": "Litestream Writable VFS",
+      "sourceName": "Fly.io Blog",
+      "url": "https://fly.io/blog/litestream-writable-vfs/",
+      "publishedAt": "2026-01-29T00:00:00Z",
+      "summary": "I’m Ben Johnson, and I work on Litestream at Fly.io. Litestream is the missing backup/restore system for SQLite. It’s free, open-source software that should run anywhere, and you can read more about it here . Each time we write about it, we get a little bit better at golfing down a description of what Litestream is. Here goes: Litestream is a Unix-y tool for keeping a SQLite database synchronized ",
+      "imageURL": "/blog/litestream-writable-vfs/assets/write-path.png"
+    },
+    {
+      "id": "0f11d6ed39b7c4e926eb",
+      "title": "Ingress NGINX: Statement from the Kubernetes Steering and Security Response Committees",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/",
+      "publishedAt": "2026-01-29T00:00:00Z",
+      "summary": "In March 2026, Kubernetes will retire Ingress NGINX, a piece of critical infrastructure for about half of cloud native environments. The retirement of Ingress NGINX was announced for March 2026, after years of public warnings that the project was in dire need of contributors and maintainers. There will be no more releases for bug fixes, security patches, or any updates of any kind after the projec",
+      "imageURL": null
+    },
+    {
+      "id": "ee6d7d10c923c9c5f3a2",
+      "title": "Engineering VP Josh Clemm on how we use knowledge graphs, MCP, and DSPy in Dash",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/machine-learning/vp-josh-clemm-knowledge-graphs-mcp-and-dspy-dash",
+      "publishedAt": "2026-01-28T18:00:00Z",
+      "summary": "I was recently a guest speaker in Jason Liu’s online course on RAG offered by the education platform Maven. I did some mini deep-dives into what we’ve been doing at Dropbox with knowledge graphs; how we’re thinking about indexes, MCP, and tool calling in general; some of the work we do with LLM as a judge; and how we use prompt optimizers like DSPy. This is an edited and condensed version of my ta",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/january/maven/headers/Machine Learning-Knowledge Graphs MCP and DSPy with Josh Clemm-375x150-dark.png"
     },
     {
       "id": "37ce7cb1d4bc32144e87",
@@ -1144,6 +1639,51 @@
       "imageURL": "https://github.blog/wp-content/uploads/2026/01/banner1.png?resize=872%2C246"
     },
     {
+      "id": "7d6487ec92b1499e0b65",
+      "title": "Experimenting with Gateway API using kind",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/28/experimenting-gateway-api-with-kind/",
+      "publishedAt": "2026-01-28T00:00:00Z",
+      "summary": "This document will guide you through setting up a local experimental environment with Gateway API on kind . This setup is designed for learning and testing. It helps you understand Gateway API concepts without production complexity. Caution: This is an experimentation learning setup, and should not be used for production. The components used on this document are not suited for production usage. On",
+      "imageURL": null
+    },
+    {
+      "id": "40ebbf46fbff61baaa94",
+      "title": "Cluster API v1.12: Introducing In-place Updates and Chained Upgrades",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/27/cluster-api-v1-12-release/",
+      "publishedAt": "2026-01-27T16:00:00Z",
+      "summary": "Cluster API brings declarative management to Kubernetes cluster lifecycle, allowing users and platform teams to define the desired state of clusters and rely on controllers to continuously reconcile toward it. Similar to how you can use StatefulSets or Deployments in Kubernetes to manage a group of Pods, in Cluster API you can use KubeadmControlPlane to manage a set of control plane Machines, or y",
+      "imageURL": "https://kubernetes.io/blog/2026/01/27/cluster-api-v1-12-release/in-place.svg"
+    },
+    {
+      "id": "d8aa64c857b6c5f59b63",
+      "title": "Headlamp in 2025: Project Highlights",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights/",
+      "publishedAt": "2026-01-22T02:00:00Z",
+      "summary": "This announcement is a recap from a post originally published on the Headlamp blog. Headlamp has come a long way in 2025. The project has continued to grow – reaching more teams across platforms, powering new workflows and integrations through plugins, and seeing increased collaboration from the broader community. We wanted to take a moment to share a few updates and highlight how Headlamp has evo",
+      "imageURL": "https://kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights/multi-cluster-view.png"
+    },
+    {
+      "id": "bcaf4b364bab52914859",
+      "title": "Announcing the Checkpoint/Restore Working Group",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/21/introducing-checkpoint-restore-wg/",
+      "publishedAt": "2026-01-21T18:00:00Z",
+      "summary": "The community around Kubernetes includes a number of Special Interest Groups (SIGs) and Working Groups (WGs) facilitating discussions on important topics between interested contributors. Today we would like to announce the new Kubernetes Checkpoint Restore WG focusing on the integration of Checkpoint/Restore functionality into Kubernetes. Motivation and use cases There are several high-level scena",
+      "imageURL": null
+    },
+    {
+      "id": "a45a5dcb3439745169e8",
+      "title": "Uniform API server access using clientcmd",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/19/clientcmd-apiserver-access/",
+      "publishedAt": "2026-01-19T18:00:00Z",
+      "summary": "If you've ever wanted to develop a command line client for a Kubernetes API, especially if you've considered making your client usable as a kubectl plugin, you might have wondered how to make your client feel familiar to users of kubectl . A quick glance at the output of kubectl options might put a damper on that: \"Am I really supposed to implement all those options?\" Fear not, others have done a ",
+      "imageURL": null
+    },
+    {
       "id": "b2a0d81f118a6e109e14",
       "title": "When protections outlive their purpose: A lesson on managing defense systems at scale",
       "sourceName": "GitHub Engineering",
@@ -1153,12 +1693,66 @@
       "imageURL": "https://github.blog/wp-content/uploads/2026/01/1.png?resize=1024%2C659"
     },
     {
+      "id": "68d160f849b9ddbaf02d",
+      "title": "The Design & Implementation of Sprites",
+      "sourceName": "Fly.io Blog",
+      "url": "https://fly.io/blog/design-and-implementation/",
+      "publishedAt": "2026-01-14T00:00:00Z",
+      "summary": "We’re Fly.io, and this is the place in the post where we’d normally tell you that our job is to take your containers and run them on our own hardware all around the world. But last week, we launched Sprites , and they don’t work that way at all. Sprites are something new: Docker without Docker without Docker. This post is about how they work. Replacement-level homeowners buy boxes of pens and stic",
+      "imageURL": "/static/images/cta-cat.webp"
+    },
+    {
+      "id": "2f44f3cb878e46f18385",
+      "title": "Lack of isolation in agentic browsers resurfaces old vulnerabilities",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/01/13/lack-of-isolation-in-agentic-browsers-resurfaces-old-vulnerabilities/",
+      "publishedAt": "2026-01-13T12:00:00Z",
+      "summary": "With browser-embedded AI agents, we’re essentially starting the security journey over again. We exploited a lack of isolation mechanisms in multiple agentic browsers to perform attacks ranging from the dissemination of false information to cross-site data leaks. These attacks, which are functionally similar to cross-site scripting (XSS) and cross-site request forgery (CSRF), resurface decades-old ",
+      "imageURL": "https://blog.trailofbits.com/2026/01/13/lack-of-isolation-in-agentic-browsers-resurfaces-old-vulnerabilities/lack-of-isolation-in-agentic-browsers_figure_1_hu_4bd6fe5c9a41152f.webp"
+    },
+    {
       "id": "44acb94a2e949d569937",
       "title": "How Salesforce migrated from Cluster Autoscaler to Karpenter across their fleet of 1,000 EKS clusters",
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/how-salesforce-migrated-from-cluster-autoscaler-to-karpenter-across-their-fleet-of-1000-eks-clusters/",
       "publishedAt": "2026-01-12T20:03:32Z",
       "summary": "As organizations scale their Kubernetes deployments, Kubernetes cluster scaling has traditionally been complex and slow, requiring careful management of node groups and auto scaling configurations. Karpenter , an open source node provisioning project for Kubernetes, can help transform this approach by directly provisioning right-sized nodes based on real-time workload demands. A recent Datadog rep",
+      "imageURL": null
+    },
+    {
+      "id": "57de3aea4e556decaf63",
+      "title": "Kubernetes v1.35: Restricting executables invoked by kubeconfigs via exec plugin allowList added to kuberc",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist/",
+      "publishedAt": "2026-01-09T18:30:00Z",
+      "summary": "Did you know that kubectl can run arbitrary executables, including shell scripts, with the full privileges of the invoking user, and without your knowledge? Whenever you download or auto-generate a kubeconfig , the users[n].exec.command field can specify an executable to fetch credentials on your behalf. Don't get me wrong, this is an incredible feature that allows you to authenticate to the clust",
+      "imageURL": null
+    },
+    {
+      "id": "d8ee4fb41e2bb972a153",
+      "title": "Code And Let Live",
+      "sourceName": "Fly.io Blog",
+      "url": "https://fly.io/blog/code-and-let-live/",
+      "publishedAt": "2026-01-09T00:00:00Z",
+      "summary": "The state of the art in agent isolation is a read-only sandbox. At Fly.io, we’ve been selling that story for years, and we’re calling it: ephemeral sandboxes are obsolete. Stop killing your sandboxes every time you use them. My argument won’t make sense without showing you something new we’ve built. We’re all adults here, this is a company, we talk about what we do. Here goes. So, I want to run so",
+      "imageURL": "/blog/code-and-let-live/assets/kurtmdm.png?1/2&amp;card&amp;center"
+    },
+    {
+      "id": "c3791aa10aa5fb757b99",
+      "title": "Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha)",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/08/kubernetes-v1-35-mutable-pv-nodeaffinity/",
+      "publishedAt": "2026-01-08T18:30:00Z",
+      "summary": "The PersistentVolume node affinity API dates back to Kubernetes v1.10. It is widely used to express that volumes may not be equally accessible by all nodes in the cluster. This field was previously immutable, and it is now mutable in Kubernetes v1.35 (alpha). This change opens a door to more flexible online volume management. Why make node affinity mutable? This raises an obvious question: why mak",
+      "imageURL": null
+    },
+    {
+      "id": "4487472ab54d1962439c",
+      "title": "Kubernetes v1.35: A Better Way to Pass Service Account Tokens to CSI Drivers",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/07/kubernetes-v1-35-csi-sa-tokens-secrets-field-beta/",
+      "publishedAt": "2026-01-07T18:30:00Z",
+      "summary": "If you maintain a CSI driver that uses service account tokens, Kubernetes v1.35 brings a refinement you'll want to know about. Since the introduction of the TokenRequests feature , service account tokens requested by CSI drivers have been passed to them through the volume_context field. While this has worked, it's not the ideal place for sensitive information, and we've seen instances where tokens",
       "imageURL": null
     },
     {
@@ -1171,247 +1765,40 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*YGtkZilNCULvGZ_qjB1Kuw.jpeg"
     },
     {
-      "id": "26e87757c3d171729311",
-      "title": "From Python3.8 to Python3.10: Our Journey Through a Memory Leak",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/1fd9b43cc01e",
-      "publishedAt": "2025-12-15T19:31:01Z",
-      "summary": "Image generated with ChatGPT (OpenAI), 2025. Intro When working with Python, memory management often feels like a solved problem. The garbage collector quietly does its job, and unlike C or C++, we rarely think about malloc or free. This doesn’t mean that there are no memory leaks in Python. Reference cycles, unreleased resources like connection pooling, global caches, etc can slowly inflate your ",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*QWBsfrlv7BNM8sZwFAsTfQ.png"
-    },
-    {
-      "id": "f1d189eeaefec3850b8f",
-      "title": "How to Make and Use Custom Emoji on Discord",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/beginners-guide-to-custom-emojis",
-      "publishedAt": "2025-12-12T00:00:00Z",
-      "summary": "Emojis on Discord are special — you can make a little picture out of almost any symbol, in-joke, or bizarre late-night inspiration.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/63603f76620d3470d9bd3f1f_2022_EmojiSurvey_HEADER_2%20(1).png"
-    },
-    {
-      "id": "006b962a64e61e58c66d",
-      "title": "Architecting conversational observability for cloud applications",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/architecting-conversational-observability-for-cloud-applications/",
-      "publishedAt": "2025-12-11T15:59:39Z",
-      "summary": "Modern cloud applications are commonly built as a collection of loosely coupled microservices running on services like Amazon Elastic Kubernetes Service (Amazon EKS) , Amazon Elastic Container Service (Amazon ECS) , or AWS Lambda . This architecture gives engineering teams flexibility and scalability, but its inherently distributed nature also makes troubleshooting more difficult. When something b",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/10/06/arch1266-img1.png"
-    },
-    {
-      "id": "d106a257aea8d54c5d78",
-      "title": "How BASF’s Agriculture Solutions drives traceability and climate action by tokenizing cotton value chains using Amazon Managed Blockchain",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-basfs-agriculture-solutions-drives-traceability-and-climate-action-by-tokenizing-cotton-value-chains-using-amazon-managed-blockchain/",
-      "publishedAt": "2025-12-10T17:41:52Z",
-      "summary": "BASF Agricultural Solutions combines innovative products and digital tools with practical farmer knowledge. With over a century of experience, BASF offers a broad portfolio spanning seeds, crop protection, soil management, plant health, and digital agriculture solutions. Through collaboration with farmers, scientists, and partners, BASF strives to meet societal needs sustainably while creating a l",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/03/13/Grafic-2.png"
-    },
-    {
-      "id": "958edf1c8a9f95530ce0",
-      "title": "She architects: Bringing unique perspectives to innovative solutions at AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/she-architects-bringing-unique-perspectives-to-innovative-solutions-at-aws/",
-      "publishedAt": "2025-12-08T16:37:15Z",
-      "summary": "Have you ever wondered what it is really like to be a woman in tech at one of the world’s leading cloud companies? Or maybe you are curious about how diverse perspectives drive innovation beyond the buzzwords? Today, we are providing an insider’s perspective on the role of a solutions architect (SA) at Amazon Web Services (AWS). However, this is not a typical corporate success story. We are three ",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/11/28/ARCHBLOG-1257_Kayalvizhi_2-scaled.jpg"
-    },
-    {
-      "id": "c08964bb90b164eed7b0",
-      "title": "Discord Patch Notes: December 8, 2025",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-patch-notes-december-8-2025",
-      "publishedAt": "2025-12-08T00:00:00Z",
-      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
-    },
-    {
-      "id": "d49e56c478f5247ca6c0",
-      "title": "Gift Ideas for the Dedicated Discord User in Your Life",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/gift-ideas-for-the-discord-user",
-      "publishedAt": "2025-12-08T00:00:00Z",
-      "summary": "We’ve got plenty of gift ideas, from those who game through the night, to those who decorate their profile just right — let’s dig in!",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69370de739d6d3c5ec3739da_NitroHoliday_BlogHeader_Final_V2%20(1).png"
-    },
-    {
-      "id": "61a409f1a683d28007d3",
-      "title": "Your Discord Checkpoint is Rolling Out! Celebrate What You Did in 2025",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/checkpoint-2025-discord-year-in-review",
-      "publishedAt": "2025-12-04T00:00:00Z",
-      "summary": "How many messages did you send? How long did you hang out in voice? Who’d you talk with the most? Stop by your end-of-year Checkpoint, a recap of the stuff YOU did on Discord throughout the year!",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/692f703325021d1d0a33f1eb_BlogBanner_1800x720%20(1).png"
-    },
-    {
-      "id": "b797b7c3da94894e58ee",
-      "title": "Save and Display Your Faves: Add Discord Shop & Marvel Rivals Items to Your Profile’s Wishlist",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/save-and-display-your-faves-add-discord-shop-marvel-rivals-items-to-your-profiles-wishlist",
-      "publishedAt": "2025-12-02T00:00:00Z",
-      "summary": "Keep track of all the stuff from the Shop you’ve been wanting to purchase with the new Wishlist feature. Display the stuff you’ve been eyeing on your profile, and if you’re lucky enough, maybe one of your friends may see it and gift it to you…",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6927808f2b033db8af5e4b59_Wishlist_Banner__MarvelRivals-Shop-1800x720.png"
-    },
-    {
-      "id": "6b5c36c6acde0d0c4e53",
-      "title": "Bringing In-Game Commerce to Discord Communities",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/bringing-in-game-commerce-to-discord-communities",
-      "publishedAt": "2025-12-02T00:00:00Z",
-      "summary": "By bringing commerce directly to official game communities, we're giving game developers the opportunity to benefit from these dynamics, creating incremental revenue that complements their existing storefronts.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/692616af8e8bab216f88af70_MarvelRivals-Shop-hero-BLOG-1800x720.png"
-    },
-    {
-      "id": "b5260a8b3f426d35dbc0",
-      "title": "Streamlining Security Investigations with Agents",
-      "sourceName": "Slack Engineering",
-      "url": "https://slack.engineering/?p=17645",
-      "publishedAt": "2025-12-01T16:00:42Z",
-      "summary": "Slack’s Security Engineering team is responsible for protecting Slack’s core infrastructure and services. Our security event ingestion pipeline handles billions of events per day from a diverse array of data sources. Reviewing alerts produced by our security detection system is our primary responsibility during on-call shifts. We’re going to show you how we’re using AI agents to optimize our worki",
-      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2025/11/investigation_round_simple_vertical_ad2b54.png?w=1020"
-    },
-    {
-      "id": "5ac5c5374593e84b1090",
-      "title": "Secure Amazon Elastic VMware Service (Amazon EVS) with AWS Network Firewall",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/secure-amazon-elastic-vmware-service-amazon-evs-with-aws-network-firewall/",
-      "publishedAt": "2025-11-26T16:22:03Z",
-      "summary": "Amazon Elastic VMware Service (Amazon EVS) helps organizations migrate, run, and scale VMware workloads natively on AWS. It delivers a VMware Cloud Foundation (VCF) environment that operates directly within your Amazon Virtual Private Cloud (Amazon VPC) on Amazon EC2 bare-metal instances. The solution helps customers accelerate cloud migrations and data center exits without needing to refactor exi",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/11/23/ARCHBLOG-1250-Figure1.png"
-    },
-    {
-      "id": "2d4ddac195f7a62bc926",
-      "title": "Android VPAT journey",
-      "sourceName": "Slack Engineering",
-      "url": "https://slack.engineering/?p=17474",
-      "publishedAt": "2025-11-19T18:00:39Z",
-      "summary": "Background A Voluntary Product Accessibility Template (VPAT) is a document that outlines how well a product aligns with accessibility (a11y) standards. Its primary purpose is to inform customers about a product’s a11y features, enabling them to make informed decisions before purchasing software. At Slack, we conducted a VPAT by a third party a11y vendor in 2024 following our significant UI change ",
-      "imageURL": "https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png"
-    },
-    {
-      "id": "f1bf4166900a1dbe08c5",
-      "title": "LyftLearn Evolution: Rethinking ML Platform Architecture",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/547de6c950e1",
-      "publishedAt": "2025-11-18T18:16:05Z",
-      "summary": "Written by Yaroslav Yatsiuk At Lyft, machine learning (ML) is the engine behind our most critical business functions — from dispatch and pricing optimization to fraud detection and support automation. Our ML infrastructure serves thousands of production models making hundreds of millions of real-time predictions per day, supported by thousands of daily training jobs that keep ML models fresh and a",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*-r1saxCbUiFJf47gTbTyXg.png"
-    },
-    {
-      "id": "fcc269a13804b55b989f",
-      "title": "How to Link Discord to Battlefield 6, Marvel Rivals & More",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/how-to-link-discord-to-popular-multiplayer-games",
-      "publishedAt": "2025-11-14T00:00:00Z",
-      "summary": "Some of the most popular multiplayer games have added the ability to directly link your Discord account to the game! Learn how to link your Discord account to some big-name titles and see what sorta perks it provides.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/691519f81bc43f40055e52e6_image4.png"
-    },
-    {
-      "id": "e95bfd2b04e3f3c08c35",
-      "title": "How to Share What You’re Playing, Listening to, or Watching as Your Status on Discord",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/how-to-share-what-youre-playing-listening-to-or-watching-as-your-status-on-discord",
-      "publishedAt": "2025-11-14T00:00:00Z",
-      "summary": "Playing a game right now? Listening to some tunes, or catching up on that one anime your friends won’t stop talking about? Learn how to show off what you’re up to as your Discord status and show @everyone what’s up!",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6903f034183efa9894483782_image10.png"
-    },
-    {
-      "id": "a7a2e0e5c8e520807278",
-      "title": "Build better software to build software better",
-      "sourceName": "Slack Engineering",
-      "url": "https://slack.engineering/?p=17591",
-      "publishedAt": "2025-11-06T16:00:47Z",
-      "summary": "We manage the build pipeline that delivers Quip and Slack Canvas’s backend. A year ago, we were chasing exciting ideas to help engineers ship better code, faster. But we had one huge problem: builds took 60 minutes . With a build that slow, the whole pipeline gets less agile, and feedback doesn’t come to engineers until far too late. We fixed this problem by combining modern, high-performance buil",
-      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2025/10/DevXP-Council-Presentation6-e1759869480617.png"
-    },
-    {
-      "id": "426b01fe25d0bc40fdec",
-      "title": "Discord Update: November 6, 2025 Changelog",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-update-november-6-2025-changelog",
-      "publishedAt": "2025-11-06T00:00:00Z",
-      "summary": "Here's the Discord Changelog from November 6, 2025, so you can stay informed on what’s new in recent app updates!",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/636042835883b97b259ef618_Fall_November.png"
-    },
-    {
-      "id": "176f29f57e5c9c8a71ef",
-      "title": "A Cornucopia of Updates Make Discord on Desktop Fresher Than a Crisp Fall Breeze",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/a-cornucopia-of-updates-make-discord-on-desktop-fresher-than-a-crisp-fall-breeze",
-      "publishedAt": "2025-11-06T00:00:00Z",
-      "summary": "This fall, emoji making gets faster, the Settings page gets a redesign, Group DMs are easier to customize, more games gain support for special Discord-powered capabilities, and Family Center gets some expanded features. Take a peek at what’s new this season!",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/690bd1527f131ae7862bbc5b_image11.png"
-    },
-    {
-      "id": "51afcae7765304365d0b",
-      "title": "Advancing Our Chef Infrastructure: Safety Without Disruption",
-      "sourceName": "Slack Engineering",
-      "url": "https://slack.engineering/?p=17611",
-      "publishedAt": "2025-10-23T18:17:56Z",
-      "summary": "Last year, I wrote a blog post titled Advancing Our Chef Infrastructure , where we explored the evolution of our Chef infrastructure over the years. We talked about the shift from a single Chef stack to a multi-stack model, and the challenges that came with it – from updating how we handle cookbook uploads to navigating the limitations around Chef searches. If you haven’t had a chance to read that",
-      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2025/10/env_flow.png?w=438"
-    },
-    {
-      "id": "bc647d0fa6f7cbe875db",
-      "title": "Deploy Safety: Reducing customer impact from change",
-      "sourceName": "Slack Engineering",
-      "url": "https://slack.engineering/?p=17513",
-      "publishedAt": "2025-10-07T16:33:12Z",
-      "summary": "It’s mid 2023 and we’ve identified some opportunities to improve our reliability. Fast forward to January 2025. Customer impact hours are reduced from the peak by 90% and continuing to trend downward. We’re a year and half into the Deploy Safety Program at Slack, improving the way we deploy, uplifting our safety culture and continuing our rate of change to meet business needs. Defining the problem",
-      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2025/05/Screenshot-2025-04-29-at-4.30.19 pm.png?w=640"
-    },
-    {
-      "id": "c91a2b8493715910108d",
-      "title": "My Starter Project on the Lyft Rider Data Science Team",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/86a60dddd935",
-      "publishedAt": "2025-10-07T14:41:38Z",
-      "summary": "Credit to Brian Wu for creating the illustrations in this post. I joined Lyft in January of 2024, as a Data Scientist — Decisions, on the Rider Science Core Experience team. My journey at Lyft began with a starter project, which focussed on using the Rider Experience Score (RES) tool to measure long-term effects of various rider experiences at Lyft. In this blog post, I will discuss my experience ",
-      "imageURL": "https://cdn-images-1.medium.com/max/450/1*XmS2ckVGZJ6GDLfnTwp3UQ.png"
-    },
-    {
-      "id": "934c269d5ee9f48c5079",
-      "title": "Post-quantum security for SSH access on GitHub",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=90756",
-      "publishedAt": "2025-09-15T16:00:00Z",
-      "summary": "Today, we’re announcing some changes that will improve the security of accessing Git data over SSH. What’s changing? We’re adding a new post-quantum secure SSH key exchange algorithm, known alternately as sntrup761x25519-sha512 and sntrup761x25519-sha512@openssh.com , to our SSH endpoints for accessing Git data. This only affects SSH access and doesn’t impact HTTPS access at all. It also does not ",
+      "id": "d55ef837b7264a9f5649",
+      "title": "Kubernetes v1.35: Extended Toleration Operators to Support Numeric Comparisons (Alpha)",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/05/kubernetes-v1-35-numeric-toleration-operators/",
+      "publishedAt": "2026-01-05T18:30:00Z",
+      "summary": "Many production Kubernetes clusters blend on-demand (higher-SLA) and spot/preemptible (lower-SLA) nodes to optimize costs while maintaining reliability for critical workloads. Platform teams need a safe default that keeps most workloads away from risky capacity, while allowing specific workloads to opt-in with explicit thresholds like \"I can tolerate nodes with failure probability up to 5%\". Today",
       "imageURL": null
     },
     {
-      "id": "e305097eb7590ea913fc",
-      "title": "Migrating Lyft’s Android Codebase to Kotlin",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/53b231dfecb5",
-      "publishedAt": "2025-09-09T20:34:03Z",
-      "summary": "Introduction Lyft started adopting Kotlin into our Android codebase in 2018. Fast forward 7 years, and we are finally done! Lyft Rider, Driver and Lyft Urban Solutions apps are now fully Kotlin-based. I joined Lyft in 2022, so this post will describe the efforts undertaken after that. Our motivation included several points: Kotlin code is more concise, and oftentimes, way more concise than Java. I",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*9HXuWJOvxM-TqitBdgZ6oQ.jpeg"
+      "id": "15e8b937534d0b0c67ca",
+      "title": "Kubernetes v1.35: New level of efficiency with in-place Pod restart",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/01/02/kubernetes-v1-35-restart-all-containers/",
+      "publishedAt": "2026-01-02T18:30:00Z",
+      "summary": "The release of Kubernetes 1.35 introduces a powerful new feature that provides a much-requested capability: the ability to trigger a full, in-place restart of the Pod. This feature, Restart All Containers (alpha in 1.35), allows for an efficient way to reset a Pod's state compared to resource-intensive approach of deleting and recreating the entire Pod. This feature is especially useful for AI/ML ",
+      "imageURL": null
     },
     {
-      "id": "29403cae201268f329e5",
-      "title": "Intern Experience at Lyft",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/9b7338e7c8bb",
-      "publishedAt": "2025-08-14T19:34:57Z",
-      "summary": "Written by Morteza Taiebat and Han Gong at Lyft. Introduction This post is authored by two current Lyft Data Scientists, Morteza Taiebat and Han Gong , who both began their journeys at the company as interns. They share their experiences leading up to their internships, the work they did while at Lyft, and what ultimately motivated them to return as full-time employees. Whether you’re a prospectiv",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*f5bDERtosR0e_DlgBWek-Q.jpeg"
+      "id": "c2f785ddb52b678a76a6",
+      "title": "Kubernetes 1.35: Enhanced Debugging with Versioned z-pages APIs",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2025/12/31/kubernetes-v1-35-structured-zpages/",
+      "publishedAt": "2025-12-31T18:30:00Z",
+      "summary": "Debugging Kubernetes control plane components can be challenging, especially when you need to quickly understand the runtime state of a component or verify its configuration. With Kubernetes 1.35, we're enhancing the z-pages debugging endpoints with structured, machine-parseable responses that make it easier to build tooling and automate troubleshooting workflows. What are z-pages? z-pages are spe",
+      "imageURL": null
     },
     {
-      "id": "02f9cc60239f0f63170f",
-      "title": "How GitHub engineers tackle platform problems",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=88639",
-      "publishedAt": "2025-06-10T16:00:00Z",
-      "summary": "In my spare time I enjoy building Gundam models, which are model kits to build iconic mechas from the Gundam universe. You might be wondering what this has to do with software engineering. Product engineers can be seen as the engineers who take these kits and build the Gundam itself. They are able to utilize all pieces and build a working product that is fun to collect or even play with! Platform ",
-      "imageURL": "https://github.blog/wp-content/uploads/2025/06/gundam.jpg?resize=1024%2C840"
-    },
-    {
-      "id": "c8bef449782c2fba15d2",
-      "title": "GitHub Issues search now supports nested queries and boolean operators: Here’s how we (re)built it",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=87730",
-      "publishedAt": "2025-05-13T16:00:00Z",
-      "summary": "Originally, Issues search was limited by a simple, flat structure of queries. But with advanced search syntax , you can now construct searches using logical AND/OR operators and nested parentheses, pinpointing the exact set of issues you care about. Building this feature presented significant challenges: ensuring backward compatibility with existing searches, maintaining performance under high que",
-      "imageURL": "https://github.blog/wp-content/uploads/2025/05/3_issues_search_screenshot.png?resize=1024%2C411"
+      "id": "98f4e71445c8f4466a14",
+      "title": "Detect Go’s silent arithmetic bugs with go-panikint",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2025/12/31/detect-gos-silent-arithmetic-bugs-with-go-panikint/",
+      "publishedAt": "2025-12-31T12:00:00Z",
+      "summary": "Go’s arithmetic operations on standard integer types are silent by default, meaning overflows “wrap around” without panicking. This behavior has hidden an entire class of security vulnerabilities from fuzzing campaigns. Today we’re changing that by releasing go-panikint , a modified Go compiler that turns silent integer overflows into explicit panics. We used it to find a live integer overflow in ",
+      "imageURL": null
     }
   ]
 }

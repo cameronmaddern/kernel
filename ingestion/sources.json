@@ -55,6 +55,46 @@
       "id": "discord-blog",
       "name": "Discord Blog",
       "feed_url": "https://discord.com/blog/rss.xml"
+    },
+    {
+      "id": "trail-of-bits",
+      "name": "Trail of Bits",
+      "feed_url": "https://blog.trailofbits.com/feed/"
+    },
+    {
+      "id": "dropbox-tech",
+      "name": "Dropbox Tech",
+      "feed_url": "https://dropbox.tech/feed"
+    },
+    {
+      "id": "pingcap-blog",
+      "name": "PingCAP / TiDB",
+      "feed_url": "https://www.pingcap.com/feed/"
+    },
+    {
+      "id": "timescale-blog",
+      "name": "Timescale",
+      "feed_url": "https://www.timescale.com/blog/feed"
+    },
+    {
+      "id": "fly-io-blog",
+      "name": "Fly.io Blog",
+      "feed_url": "https://fly.io/blog/feed.xml"
+    },
+    {
+      "id": "stripe-increment",
+      "name": "Increment (Stripe)",
+      "feed_url": "https://increment.com/feed.xml"
+    },
+    {
+      "id": "kubernetes-blog",
+      "name": "Kubernetes Blog",
+      "feed_url": "https://kubernetes.io/feed.xml"
+    },
+    {
+      "id": "docker-blog",
+      "name": "Docker Blog",
+      "feed_url": "https://www.docker.com/blog/feed/"
     }
   ]
 }
