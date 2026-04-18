@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# macOS
+.DS_Store
+
+# Local RSS dumps (optional)
+ingestion/samples/

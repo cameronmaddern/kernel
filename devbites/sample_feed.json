@@ -1,0 +1,75 @@
+{
+  "articles": [
+    {
+      "id": "sample-1",
+      "title": "How GitHub uses eBPF to improve deployment safety",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/2024-10-01-how-github-uses-ebpf-to-improve-deployment-safety/",
+      "publishedAt": "2026-04-10T14:00:00Z",
+      "summary": "Using kernel hooks to catch risky changes before they hit production.",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/04/Screenshot-2026-04-06-at-6.36.24-PM.png?w=960"
+    },
+    {
+      "id": "sample-2",
+      "title": "Post-quantum cryptography migration at Meta: Framework lessons and takeaways",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/",
+      "publishedAt": "2026-04-08T09:30:00Z",
+      "summary": "How Meta rolled out PQC across large systems without stopping the world.",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/PQC-Readiness-Hero-option2.png"
+    },
+    {
+      "id": "sample-3",
+      "title": "Managing context in long-run agentic applications",
+      "sourceName": "Slack Engineering",
+      "url": "https://slack.engineering/managing-context-in-long-run-agentic-applications/",
+      "publishedAt": "2026-04-05T16:20:00Z",
+      "summary": "Keeping agents useful when conversations and tools sprawl.",
+      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/03/investigation_notebook.png"
+    },
+    {
+      "id": "sample-4",
+      "title": "Build a multi-tenant configuration system with tagged storage patterns",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/build-a-multi-tenant-configuration-system-with-tagged-storage-patterns/",
+      "publishedAt": "2026-04-02T11:00:00Z",
+      "summary": "Patterns for isolating config while sharing infrastructure.",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/03/ARCHBLOG-1417-image-11-1094x630.png"
+    },
+    {
+      "id": "sample-5",
+      "title": "The Human Infrastructure: How Netflix Built the Operations Layer Behind Live at Scale",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://netflixtechblog.com/the-human-infrastructure-how-netflix-built-the-operations-layer-behind-live-at-scale-33e2a311c597",
+      "publishedAt": "2026-03-28T08:00:00Z",
+      "summary": "People, process, and tooling that keep reliability human-centered.",
+      "imageURL": "https://miro.medium.com/v2/resize:fit:1200/1*hRrwHlQ0VdhhztIfPvYMyQ.png"
+    },
+    {
+      "id": "sample-6",
+      "title": "Predicting rider conversion in sparse data environments with Bayesian trees",
+      "sourceName": "Lyft Engineering",
+      "url": "https://eng.lyft.com/predicting-rider-conversion-in-sparse-data-environments-with-bayesian-trees-07227ff92789",
+      "publishedAt": "2026-03-22T13:45:00Z",
+      "summary": "When labels are rare, priors and careful modeling matter.",
+      "imageURL": "https://miro.medium.com/v2/resize:fit:1200/1*OMZl9ZxHl02QWvOMcaUaCQ.jpeg"
+    },
+    {
+      "id": "sample-7",
+      "title": "Introducing the Agent Readiness score",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agent-readiness/",
+      "publishedAt": "2026-03-18T10:15:00Z",
+      "summary": "A practical lens on whether your site behaves well for automated clients.",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/77qZWBhoxkWooOQSfk4RtN/6e98d97ca7bf01d12418c2e29b7f2096/Introducing_the_Agent_Readiness_score_%C3%A2___check_to_see_if_your_site_is_agent-ready-OG.png"
+    },
+    {
+      "id": "sample-8",
+      "title": "Privacy-first connections: Empowering social experiences at Airbnb",
+      "sourceName": "Airbnb Engineering",
+      "url": "https://medium.com/airbnb-engineering/privacy-first-connections-empowering-social-experiences-at-airbnb-d7dec59ef960",
+      "publishedAt": "2026-03-14T17:00:00Z",
+      "summary": "Designing social features without trading away user trust."
+    }
+  ]
+}

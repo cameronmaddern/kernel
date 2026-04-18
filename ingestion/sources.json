@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "netflix-techblog",
+      "name": "Netflix TechBlog",
+      "feed_url": "https://netflixtechblog.com/feed"
+    },
+    {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "feed_url": "https://blog.cloudflare.com/rss/"
+    },
+    {
+      "id": "aws-architecture-blog",
+      "name": "AWS Architecture Blog",
+      "feed_url": "https://aws.amazon.com/blogs/architecture/feed/"
+    },
+    {
+      "id": "slack-engineering",
+      "name": "Slack Engineering",
+      "feed_url": "https://slack.engineering/feed/"
+    },
+    {
+      "id": "meta-engineering",
+      "name": "Meta Engineering",
+      "feed_url": "https://engineering.fb.com/feed/"
+    },
+    {
+      "id": "stripe-blog",
+      "name": "Stripe Blog",
+      "feed_url": "https://stripe.com/blog/feed.rss"
+    },
+    {
+      "id": "airbnb-engineering",
+      "name": "Airbnb Engineering (Medium)",
+      "feed_url": "https://medium.com/feed/airbnb-engineering"
+    },
+    {
+      "id": "stackoverflow-blog",
+      "name": "Stack Overflow Blog",
+      "feed_url": "https://stackoverflow.blog/feed/"
+    },
+    {
+      "id": "github-engineering",
+      "name": "GitHub Engineering",
+      "feed_url": "https://github.blog/category/engineering/feed/"
+    },
+    {
+      "id": "lyft-engineering",
+      "name": "Lyft Engineering",
+      "feed_url": "https://eng.lyft.com/feed"
+    },
+    {
+      "id": "discord-blog",
+      "name": "Discord Blog",
+      "feed_url": "https://discord.com/blog/rss.xml"
+    }
+  ]
+}

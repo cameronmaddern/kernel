@@ -1,0 +1,40 @@
+# Regenerates devbites/ingested_feed.json from RSS sources and commits it.
+# The iOS app loads that file from raw.githubusercontent.com (see RemoteFeed.swift).
+
+name: Ingest feed
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "ingestion/sources.json"
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run ingest
+        run: python3 scripts/ingest.py --max-total 200
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add devbites/ingested_feed.json
+          if git diff --staged --quiet; then
+            echo "No feed changes."
+          else
+            git commit -m "chore: refresh ingested_feed.json"
+            git push
+          fi

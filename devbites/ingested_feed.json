@@ -1,0 +1,1417 @@
+{
+  "articles": [
+    {
+      "id": "f4575da72f07d3ea7a5b",
+      "title": "The Human Infrastructure: How Netflix Built the Operations Layer Behind Live at Scale",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/33e2a311c597",
+      "publishedAt": "2026-04-17T15:01:02Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "4b82bfc529b418bb9522",
+      "title": "Introducing the Agent Readiness score. Is your site agent-ready?",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agent-readiness/",
+      "publishedAt": "2026-04-17T13:05:00Z",
+      "summary": "The Agent Readiness score can help site owners understand how well their websites support AI agents. Here we explore new standards, share Radar data, and detail how we made Cloudflare’s docs the most agent-friendly on the web.",
+      "imageURL": null
+    },
+    {
+      "id": "21627b0e4724f1d26827",
+      "title": "Shared Dictionaries: compression that keeps up with the agentic web",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/shared-dictionaries/",
+      "publishedAt": "2026-04-17T13:02:00Z",
+      "summary": "Today, we’re excited to give you a sneak peek of our support for shared compression dictionaries, show you how it improves page load times, and reveal when you’ll be able to try the beta yourself.",
+      "imageURL": null
+    },
+    {
+      "id": "04aee7c522915d68d590",
+      "title": "Redirects for AI Training enforces canonical content",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ai-redirects/",
+      "publishedAt": "2026-04-17T13:00:00Z",
+      "summary": "Soft directives don’t stop crawlers from ingesting deprecated content. Redirects for AI Training allows anybody on Cloudflare to redirect verified crawlers to canonical pages with one toggle and no origin changes.",
+      "imageURL": null
+    },
+    {
+      "id": "94b262becb7ed984af50",
+      "title": "Unweight: how we compressed an LLM 22% without sacrificing quality",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/unweight-tensor-compression/",
+      "publishedAt": "2026-04-17T13:00:00Z",
+      "summary": "Running LLMs across Cloudflare’s network requires us to be smarter and more efficient about GPU memory bandwidth. That’s why we developed Unweight, a lossless inference-time compression system that achieves up to a 22% model footprint reduction, so that we can deliver faster and cheaper inference than ever before.",
+      "imageURL": null
+    },
+    {
+      "id": "3a8ef7e4f05ae128645d",
+      "title": "Agents that remember: introducing Agent Memory",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/introducing-agent-memory/",
+      "publishedAt": "2026-04-17T13:00:00Z",
+      "summary": "Cloudflare Agent Memory is a managed service that gives AI agents persistent memory, allowing them to recall what matters, forget what doesn't, and get smarter over time.",
+      "imageURL": null
+    },
+    {
+      "id": "721871c943f65b943aa0",
+      "title": "Agents Week: network performance update",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/network-performance-agents-week/",
+      "publishedAt": "2026-04-17T13:00:00Z",
+      "summary": "By migrating our request handling layer to a Rust-based architecture called FL2, Cloudflare has increased its performance lead to 60% of the world’s top networks. We use real-user measurements and connection trimeans to ensure our data reflects the actual experience of people on the Internet.",
+      "imageURL": null
+    },
+    {
+      "id": "e9e1069c51afffc1cb78",
+      "title": "Introducing Flagship: feature flags built for the age of AI",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/flagship/",
+      "publishedAt": "2026-04-17T13:00:00Z",
+      "summary": "We are launching Flagship, a native feature flag service built on Cloudflare’s global network to eliminate the latency of third-party providers. By using KV and Durable Objects, Flagship allows for sub-millisecond flag evaluation.",
+      "imageURL": null
+    },
+    {
+      "id": "080a6982e17667127c6c",
+      "title": "No country left behind with sovereign AI",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/17/no-country-left-behind-with-sovereign-ai/",
+      "publishedAt": "2026-04-17T07:40:00Z",
+      "summary": "Ryan welcomes Stephen Watt, distinguished engineer and VP of Red Hat’s Office of the CTO, to chat about digital sovereignty and sovereign AI.",
+      "imageURL": null
+    },
+    {
+      "id": "6f04529aa5fc624dede2",
+      "title": "Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23898",
+      "publishedAt": "2026-04-16T16:00:34Z",
+      "summary": "We’re sharing insights into Meta’s Capacity Efficiency Program, where we’ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leveraging encoded domain expertise across a unified, standardized tool interface these agents help save power and free up engineers’ time away from addressing performance issues to innovating on [...] Rea",
+      "imageURL": null
+    },
+    {
+      "id": "22f15b6dd899dbf3758a",
+      "title": "How GitHub uses eBPF to improve deployment safety",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=95074",
+      "publishedAt": "2026-04-16T16:00:00Z",
+      "summary": "Learn how Github uses eBPF to detect and prevent circular dependencies in its deployment tooling. The post How GitHub uses eBPF to improve deployment safety appeared first on The GitHub Blog .",
+      "imageURL": null
+    },
+    {
+      "id": "a9647dd90f12426f24ae",
+      "title": "Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23883",
+      "publishedAt": "2026-04-16T14:59:44Z",
+      "summary": "We’re sharing lessons learned from Meta’s post-quantum cryptography (PQC) migration to help other organizations strengthen their resilience as industry transitions to post-quantum cryptography standards. We’re proposing the idea of PQC Migration Levels to help teams within organizations manage the complexity of PQC migration for their various use cases. By outlining Meta’s approach to this work [.",
+      "imageURL": null
+    },
+    {
+      "id": "de1174396b724b7c6382",
+      "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ai-platform/",
+      "publishedAt": "2026-04-16T14:05:00Z",
+      "summary": "We're building AI Gateway into a unified inference layer for AI, letting developers call models from 14+ providers. New features include Workers AI binding integration and an expanded catalog with multimodal models.",
+      "imageURL": null
+    },
+    {
+      "id": "f249476a535f9d3dd35c",
+      "title": "Building the foundation for running extra-large language models",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/high-performance-llms/",
+      "publishedAt": "2026-04-16T14:00:00Z",
+      "summary": "We built a custom technology stack to run fast large language models on Cloudflare’s infrastructure. This post explores the engineering trade-offs and technical optimizations required to make high-performance AI inference accessible.",
+      "imageURL": null
+    },
+    {
+      "id": "8b457065532222504a6e",
+      "title": "Artifacts: versioned storage that speaks Git",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
+      "publishedAt": "2026-04-16T13:01:00Z",
+      "summary": "Give your agents, developers, and automations a home for code and data. We’ve just launched Artifacts: Git-compatible versioned storage built for agents. Create tens of millions of repos, fork from any remote, and hand off a URL to any Git client.",
+      "imageURL": null
+    },
+    {
+      "id": "34f8a20f259721795f4c",
+      "title": "AI Search: the search primitive for your agents",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ai-search-agent-primitive/",
+      "publishedAt": "2026-04-16T13:00:22Z",
+      "summary": "AI Search is the search primitive for your agents. Create instances dynamically, upload files, and search across instances with hybrid retrieval and relevance boosting. Just create a search instance, upload, and search.",
+      "imageURL": null
+    },
+    {
+      "id": "f6c8b82a825158419823",
+      "title": "Deploy Postgres and MySQL databases with PlanetScale + Workers",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/deploy-planetscale-postgres-with-workers/",
+      "publishedAt": "2026-04-16T13:00:22Z",
+      "summary": "Learn how to deploy PlanetScale Postgres and MySQL databases via Cloudflare and connect Cloudflare Workers.",
+      "imageURL": null
+    },
+    {
+      "id": "9ba15f9ea9e76fe22bdd",
+      "title": "Cloudflare Email Service: now in public beta. Ready for your agents",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/email-for-agents/",
+      "publishedAt": "2026-04-16T06:00:00Z",
+      "summary": "Agents are becoming multi-channel. That means making them available wherever your users already are — including the inbox. Today, Cloudflare Email Service enters public beta with the infrastructure layer to make that easy: send, receive, and process email natively from your agents.",
+      "imageURL": null
+    },
+    {
+      "id": "8143ecc9e1a5a70211e1",
+      "title": "Making Discord on Desktop Look Just Right: Display Settings to Ease the Eyes",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/making-discord-on-desktop-look-just-right-display-settings-to-ease-the-eyes",
+      "publishedAt": "2026-04-16T00:00:00Z",
+      "summary": "Learn all sorts of toggles, options, and features on Discord’s desktop app to help you view media at your pace, lower the strength of colors across the app, and make app content easier to see.",
+      "imageURL": null
+    },
+    {
+      "id": "fed43cb2b22e7bb8ff03",
+      "title": "Human input needed: take our survey on AI agents",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/15/human-input-needed-take-our-survey-on-ai-agents/",
+      "publishedAt": "2026-04-15T14:00:00Z",
+      "summary": "Are you still \"human-in-the-loop,\" or have you moved to \"human-on-the-loop,\" overseeing a bot that’s doing the driving?",
+      "imageURL": null
+    },
+    {
+      "id": "4da5b334b859c3c1079f",
+      "title": "Project Think: building the next generation of AI agents on Cloudflare",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/project-think/",
+      "publishedAt": "2026-04-15T13:01:00Z",
+      "summary": "Announcing a preview of the next edition of the Agents SDK — from lightweight primitives to a batteries-included platform for AI agents that think, act, and persist.",
+      "imageURL": null
+    },
+    {
+      "id": "8cd58f2f3d3464f50be1",
+      "title": "Introducing Agent Lee - a new interface to the Cloudflare stack",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/introducing-agent-lee/",
+      "publishedAt": "2026-04-15T13:00:00Z",
+      "summary": "Agent Lee is an in-dashboard agent that shifts Cloudflare’s interface from manual tab-switching to a single prompt. Using sandboxed TypeScript, it helps you troubleshoot and manage your stack as a grounded technical collaborator.",
+      "imageURL": null
+    },
+    {
+      "id": "ed384d8917aa0bebd5ca",
+      "title": "Register domains wherever you build: Cloudflare Registrar API now in beta",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/registrar-api-beta/",
+      "publishedAt": "2026-04-15T13:00:00Z",
+      "summary": "The Cloudflare Registrar API is now in beta. Developers and AI agents can search, check availability, and register domains at cost directly from their editor, their terminal, or their agent — without leaving their workflow.",
+      "imageURL": null
+    },
+    {
+      "id": "fcd241e8abf879ab4f8c",
+      "title": "Browser Run: give your agents a browser",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/browser-run-for-ai-agents/",
+      "publishedAt": "2026-04-15T13:00:00Z",
+      "summary": "Browser Rendering is now Browser Run, with Live View, Human in the Loop, CDP access, session recordings, and 4x higher concurrency limits for AI agents.",
+      "imageURL": null
+    },
+    {
+      "id": "226f1a62a7935b5125f6",
+      "title": "Rearchitecting the Workflows control plane for the agentic era",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/workflows-v2/",
+      "publishedAt": "2026-04-15T13:00:00Z",
+      "summary": "Cloudflare Workflows, a durable execution engine for multi-step applications, now supports higher concurrency and creation rate limits through a rearchitectured control plane, helping scale to meet the use cases for durable background agents.",
+      "imageURL": null
+    },
+    {
+      "id": "fdf1d46dfcff7e03e6b5",
+      "title": "Add voice to your agent",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/voice-agents/",
+      "publishedAt": "2026-04-15T13:00:00Z",
+      "summary": "An experimental voice pipeline for the Agents SDK enables real-time voice interactions over WebSockets. Developers can now build agents with continuous STT and TTS in just ~30 lines of server-side code.",
+      "imageURL": null
+    },
+    {
+      "id": "9ddd90b6d25310c9d3a2",
+      "title": "Why AI hasn't replaced human expertise—and what that means for your SaaS stack",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/15/why-ai-hasn-t-replaced-human-expertise/",
+      "publishedAt": "2026-04-15T13:00:00Z",
+      "summary": "The most valuable AI tools in your enterprise stack do more than generate answers. They help developers determine which answers to trust.",
+      "imageURL": null
+    },
+    {
+      "id": "9998696cd8c960430143",
+      "title": "Privacy-first connections: Empowering social experiences at Airbnb",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/d7dec59ef960",
+      "publishedAt": "2026-04-14T17:01:01Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "97eb17129f7cae61ed85",
+      "title": "Securing non-human identities: automated revocation, OAuth, and scoped permissions",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/improved-developer-security/",
+      "publishedAt": "2026-04-14T13:00:10Z",
+      "summary": "Cloudflare is introducing scannable API tokens, enhanced OAuth visibility, and GA for resource-scoped permissions. These tools help developers implement a true least-privilege architecture while protecting against credential leakage.",
+      "imageURL": null
+    },
+    {
+      "id": "cfdc717dcb910a9be398",
+      "title": "Who needs VCs when you have friends like these?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/14/who-needs-vcs-when-you-have-friends-like-these/",
+      "publishedAt": "2026-04-14T07:40:00Z",
+      "summary": "Ryan welcomes Runpod co-founder and CEO Zhen Lu to discuss circumventing VC money by going straight to your community for funding, how Zhen balances founder intuition with user feedback when the community is the one backing the project, and Runpod’s journey from basement servers to global infrastructure partnerships with a software-layer approach and data-first paradigm.",
+      "imageURL": null
+    },
+    {
+      "id": "14426ae98818ce508564",
+      "title": "Managing context in long-run agentic applications",
+      "sourceName": "Slack Engineering",
+      "url": "https://slack.engineering/?p=17752",
+      "publishedAt": "2026-04-13T17:17:16Z",
+      "summary": "Excerpt In complex, long-running agentic systems, maintaining alignment and coherent reasoning between agents requires careful design. In this second article of our series, we explore these challenges and the mechanisms we built to keep teams of agents working productively over long time spans. We present a range of complementary techniques that balance the conflicting requirements…",
+      "imageURL": null
+    },
+    {
+      "id": "c75baa59ac538275fd50",
+      "title": "Evaluating Netflix Show Synopses with LLM-as-a-Judge",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/6269251e6f28",
+      "publishedAt": "2026-04-10T16:26:01Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "499701560d82e6984f53",
+      "title": "The messy truth of your AI strategies",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/10/the-messy-truth-of-your-ai-strategies/",
+      "publishedAt": "2026-04-10T07:40:00Z",
+      "summary": "Ryan welcomes Hema Raghavan, co-founder and head of engineering at Kumo.ai, to dive into all the messy stuff that comes with implementing AI, from pipeline sprawl to shadow AI.",
+      "imageURL": null
+    },
+    {
+      "id": "71f8fbe148585e45db34",
+      "title": "Escaping the Fork: How Meta Modernized WebRTC Across 50+ Use Cases",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23856",
+      "publishedAt": "2026-04-09T16:00:34Z",
+      "summary": "At Meta, WebRTC powers real-time audio and video across various platforms. But forking a large open-source project like WebRTC within our monorepo presents unique challenges – over time, an internal fork can drift behind upstream, cutting itself off from community upgrades. We’re sharing how we escaped this “forking trap” – from building a dual-stack architecture [...] Read More... The post Escapi",
+      "imageURL": null
+    },
+    {
+      "id": "afd8b05857e20220495e",
+      "title": "Gen Z needs a knowledge base (and so do you)",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/09/gen-z-needs-a-knowledge-base-and-so-do-you/",
+      "publishedAt": "2026-04-09T16:00:00Z",
+      "summary": "AI tool use is inescapable...especially if you're a young person trying to get an edge in an increasingly difficult job market. But cognitive offloading is dangerous, no matter what age you are. Building a knowledge base can save your brain and skills from atrophy.",
+      "imageURL": null
+    },
+    {
+      "id": "f0e55a409dbb71130f70",
+      "title": "Build a multi-tenant configuration system with tagged storage patterns",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/build-a-multi-tenant-configuration-system-with-tagged-storage-patterns/",
+      "publishedAt": "2026-04-08T20:00:04Z",
+      "summary": "In this post, we demonstrate how you can build a scalable, multi-tenant configuration service using the tagged storage pattern, an architectural approach that uses key prefixes (like tenant_config_ or param_config_) to automatically route configuration requests to the most appropriate AWS storage service. This pattern maintains strict tenant isolation and supports real-time, zero-downtime configur",
+      "imageURL": null
+    },
+    {
+      "id": "b42dbddbbe4a7ccc220f",
+      "title": "Trust But Canary: Configuration Safety at Scale",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23871",
+      "publishedAt": "2026-04-08T18:25:26Z",
+      "summary": "As AI increases developer speed and productivity it also increases the need for safeguards. On this episode of the Meta Tech Podcast, Pascal Hartig sits down with Ishwari and Joe from Meta’s Configurations team to discuss how Meta makes config rollouts safe at scale. Listen in to learn about canarying and progressive rollouts, the health checks [...] Read More... The post Trust But Canary: Configu",
+      "imageURL": null
+    },
+    {
+      "id": "a1f8828f2aa460c9436d",
+      "title": "Building a high-volume metrics pipeline with OpenTelemetry and vmagent",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/c714d6910b45",
+      "publishedAt": "2026-04-07T17:01:01Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "f0877e7c8177f1aee53e",
+      "title": "He designed C++ to solve your code problems",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/07/he-designed-c-to-solve-your-code-problems/",
+      "publishedAt": "2026-04-07T07:40:00Z",
+      "summary": "Ryan welcomes Bjarne Stroustrup, designer of C++ and professor at Columbia, to the show to dive into all things C++, from its history to where it's going today.",
+      "imageURL": null
+    },
+    {
+      "id": "29928ebb802b52012c3e",
+      "title": "How agents, digital wallets, and trust are rewriting checkout",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/global-checkout-trends",
+      "publishedAt": "2026-04-07T00:00:00Z",
+      "summary": "We analyzed checkout activity across more than 20K businesses, surveyed shoppers and ecommerce leaders, and gathered insights from businesses on the Stripe network to understand what’s changing in online conversion.",
+      "imageURL": null
+    },
+    {
+      "id": "0bf30d811ea8ffe7d2b2",
+      "title": "Stop Answering the Same Question Twice: Interval-Aware Caching for Druid at Netflix Scale",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/22fadc9b840e",
+      "publishedAt": "2026-04-06T22:15:14Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "4bc7ce9b86b758c39482",
+      "title": "Unlock efficient model deployment: Simplified Inference Operator setup on Amazon SageMaker HyperPod",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/unlock-efficient-model-deployment-simplified-inference-operator-setup-on-amazon-sagemaker-hyperpod/",
+      "publishedAt": "2026-04-06T21:14:13Z",
+      "summary": "In this post, we walk through the new installation experience, demonstrate three deployment methods (console, CLI, and Terraform), and show how features like multi-instance-type deployment and native node affinity give you fine-grained control over inference scheduling",
+      "imageURL": null
+    },
+    {
+      "id": "e12bd0f788d1a13353e0",
+      "title": "How Meta Used AI to Map Tribal Knowledge in Large-Scale Data Pipelines",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23840",
+      "publishedAt": "2026-04-06T16:00:50Z",
+      "summary": "AI coding assistants are powerful but only as good as their understanding of your codebase. When we pointed AI agents at one of Meta’s large-scale data processing pipelines – spanning four repositories, three languages, and over 4,100 files – we quickly found that they weren’t making useful edits quickly enough. We fixed this by building [...] Read More... The post How Meta Used AI to Map Tribal K",
+      "imageURL": null
+    },
+    {
+      "id": "495966aeccfaea03f1a2",
+      "title": "Discord Patch Notes: April 6, 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-patch-notes-april-6-2026",
+      "publishedAt": "2026-04-06T00:00:00Z",
+      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+      "imageURL": null
+    },
+    {
+      "id": "da5c02e42f79610db7c6",
+      "title": "Powering Multimodal Intelligence for Video Search",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/3e0020cf1202",
+      "publishedAt": "2026-04-04T00:44:32Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "f1404b45019c6c360f33",
+      "title": "The uphill climb of making diff lines performant",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=94994",
+      "publishedAt": "2026-04-03T16:00:00Z",
+      "summary": "The path to better performance is often found in simplicity. The post The uphill climb of making diff lines performant appeared first on The GitHub Blog .",
+      "imageURL": null
+    },
+    {
+      "id": "c12b7e4def8e835d469a",
+      "title": "Seizing the means of messenger production",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/03/seizing-the-means-of-messenger-production/",
+      "publishedAt": "2026-04-03T07:40:00Z",
+      "summary": "Ryan sits down with Galen Wolfe-Pauly, CEO of Tlon, to chat about calm computing and how humans can take back ownership of their data and digital world.",
+      "imageURL": null
+    },
+    {
+      "id": "391cdb72f0fb67f10b89",
+      "title": "Smarter Live Streaming at Scale: Rolling Out VBR for All Netflix Live Events",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/c8f833b238cc",
+      "publishedAt": "2026-04-02T21:46:27Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "ede5ba83447afaee9e51",
+      "title": "KernelEvolve: How Meta’s Ranking Engineer Agent Optimizes AI Infrastructure",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23820",
+      "publishedAt": "2026-04-02T19:59:46Z",
+      "summary": "This is the second post in the Ranking Engineer Agent blog series exploring the autonomous AI capabilities accelerating Meta’s Ads Ranking innovation. The previous post introduced Ranking Engineer Agent’s ML exploration capability, which autonomously designs, executes, and analyzes ranking model experiments. This post covers how to optimize the low-level infrastructure that makes those models run ",
+      "imageURL": null
+    },
+    {
+      "id": "d67a0b747bb159f0f8a8",
+      "title": "My Journey to Airbnb — Jonathan Woodard",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/7efae28d7fa9",
+      "publishedAt": "2026-04-02T17:01:06Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "7cad52b864fed2208c15",
+      "title": "What the AI trust gap means for enterprise SaaS",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/02/what-the-ai-trust-gap-means-for-enterprise-saas/",
+      "publishedAt": "2026-04-02T13:00:00Z",
+      "summary": "Adoption and trust are moving in diametrically opposed directions, and that gap has real implications for organizations deciding how to spend money on software.",
+      "imageURL": null
+    },
+    {
+      "id": "49dd0c04af5326209760",
+      "title": "Insights from Shoptalk 2026: How agents are changing retail",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/shoptalk-2026",
+      "publishedAt": "2026-04-02T00:00:00Z",
+      "summary": "Retailers know search and discovery have already shifted. What comes next is less settled. From embedded checkout to emerging third-party surfaces, here’s how ecommerce and AI leaders are integrating agentic commerce.",
+      "imageURL": null
+    },
+    {
+      "id": "93738ffebf1686e322be",
+      "title": "Automate safety monitoring with computer vision and generative AI",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/automate-safety-monitoring-with-computer-vision-and-generative-ai/",
+      "publishedAt": "2026-04-01T18:59:02Z",
+      "summary": "This post describes a solution that uses fixed camera networks to monitor operational environments in near real-time, detecting potential safety hazards while capturing object floor projections and their relationships to floor markings. While we illustrate the approach through distribution center deployment examples, the underlying architecture applies broadly across industries. We explore the arc",
+      "imageURL": null
+    },
+    {
+      "id": "4c131c6b9cc2ab5a8dc0",
+      "title": "MULTIPLAYER SEQUEL TO ACCLAIMED AAAA GAME “THE LAST MEADOW” ANNOUNCED: PLAYABLE NOW",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/last-meadow-online-announcement",
+      "publishedAt": "2026-04-01T00:00:00Z",
+      "summary": "Band together with Discordians from across the world in Last Meadow Online, the world’s first DBMMIRPG. Available to play until April 7, 2026.",
+      "imageURL": null
+    },
+    {
+      "id": "c3fe7629ee79d6ab1d2d",
+      "title": "Streamlining access to powerful disaster recovery capabilities of AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/streamlining-access-to-powerful-disaster-recovery-capabilities-of-aws/",
+      "publishedAt": "2026-03-31T18:00:38Z",
+      "summary": "In this blog post, we take a building blocks approach. Starting with the tools like AWS Backup to protect your data, we then add protection for Amazon Elastic Compute Cloud (Amazon EC2) compute using AWS Elastic Disaster Recovery (AWS DRS). Finally, we show how to use the full capabilities of AWS to restore your entire workload—data, infrastructure, networking, and configuration, using Arpio disas",
+      "imageURL": null
+    },
+    {
+      "id": "d968ad92038a5f847104",
+      "title": "From Custom to Open: Scalable Network Probing and HTTP/3 Readiness with Prometheus",
+      "sourceName": "Slack Engineering",
+      "url": "https://slack.engineering/?p=17732",
+      "publishedAt": "2026-03-31T17:00:39Z",
+      "summary": "The Problem: Legacy Tooling and Its Limitations Currently, Slack utilizes a hybrid approach to network measurement, incorporating both internal (such as traffic between AWS Availability Zones) and external (monitoring traffic from the public internet into Slack’s infrastructure) solutions. These tools comprise a combination of commercial SaaS offerings and custom-built network testing solutions de",
+      "imageURL": null
+    },
+    {
+      "id": "dc1311bacbfd6759bb48",
+      "title": "Meta Adaptive Ranking Model: Bending the Inference Scaling Curve to Serve LLM-Scale Models for Ads",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23771",
+      "publishedAt": "2026-03-31T16:00:17Z",
+      "summary": "Meta continues to lead the industry in utilizing groundbreaking AI Recommendation Systems (RecSys) to deliver better experiences for people, and better results for advertisers. To reach the next frontier of performance, we are scaling Meta’s Ads Recommender runtime models to LLM-scale & complexity to further a deeper understanding of people’s interests and intent. This increase [...] Read More... ",
+      "imageURL": null
+    },
+    {
+      "id": "cde09b14b1c72a25c5f7",
+      "title": "Agent-driven development in Copilot Applied Science",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=94904",
+      "publishedAt": "2026-03-31T16:00:00Z",
+      "summary": "I used coding agents to build agents that automated part of my job. Here's what I learned about working better with coding agents. The post Agent-driven development in Copilot Applied Science appeared first on The GitHub Blog .",
+      "imageURL": null
+    },
+    {
+      "id": "659f714b65abb62c25fe",
+      "title": "How can you test your code when you don’t know what’s in it?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/31/how-can-you-test-your-code-when-you-don-t-know-what-s-in-it/",
+      "publishedAt": "2026-03-31T07:40:00Z",
+      "summary": "Ryan hosts SmartBear’s VP of AI and Architecture Fitz Nowlan to explore how we’re moving away from old assumptions about software development, the challenges of testing MCP servers as LLM-driven agents introduce non-determinism that breaks tradition, and how data locality and data construction are becoming more valuable when source code is so easy to generate.",
+      "imageURL": null
+    },
+    {
+      "id": "f2449a0cd7a1bc35763b",
+      "title": "AI for American-Produced Cement and Concrete",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23769",
+      "publishedAt": "2026-03-30T16:00:34Z",
+      "summary": "Meta is continuing its long-term roadmap to help the construction industry leverage AI to produce high-quality and more sustainable concrete mixes, as well as those exclusively produced in the United States. Concurrent with the 2026 American Concrete Institute (ACI) Spring Convention, Meta is releasing a new AI model for designing concrete mixes – Bayesian Optimization [...] Read More... The post ",
+      "imageURL": null
+    },
+    {
+      "id": "08e79d29f73eeee86da7",
+      "title": "How Aigen transformed agricultural robotics for sustainable farming with Amazon SageMaker AI",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-aigen-transformed-agricultural-robotics-for-sustainable-farming-with-amazon-sagemaker-ai/",
+      "publishedAt": "2026-03-30T15:36:36Z",
+      "summary": "In this post, you will learn how Aigen modernized its machine learning (ML) pipeline with Amazon SageMaker AI to overcome industry-wide agricultural robotics challenges and scale sustainable farming. This post focuses on the strategies and architecture patterns that enabled Aigen to modernize its pipeline across hundreds of distributed edge solar robots and showcase the significant business outcom",
+      "imageURL": null
+    },
+    {
+      "id": "803c8a1c84a5de455067",
+      "title": "Predicting Rider Conversion in Sparse Data Environments with Bayesian Trees",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/07227ff92789",
+      "publishedAt": "2026-03-30T14:43:41Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "92b7c3427c009844aa1f",
+      "title": "Prevent agentic identity theft",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/27/prevent-agentic-identity-theft/",
+      "publishedAt": "2026-03-27T07:40:00Z",
+      "summary": "Ryan is joined by Nancy Wang, CTO of 1Password, to discuss the security challenges local agents present, how enterprises can create robust governance of credentials through zero-knowledge architecture, and the implications of agent intent and misuse in a world where AI agents are becoming more and more integrated into everyday applications.",
+      "imageURL": null
+    },
+    {
+      "id": "14dad629e7f36874f7c7",
+      "title": "How Multi-Factor Authentication Helps Keep Your Discord Account Safe",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/keeping-discord-safe-and-sound",
+      "publishedAt": "2026-03-27T00:00:00Z",
+      "summary": "A Discord account is more than just your username and avatar. That’s why it’s important to help keep your account safe and secure by using Multi-Factor Authentication, SMS Backup Authentication & QR Code Login. Learn how to keep your account more secure in the following blog post!",
+      "imageURL": null
+    },
+    {
+      "id": "cf4b5ae7c5e5644d8fc5",
+      "title": "Architecting for agentic AI development on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/architecting-for-agentic-ai-development-on-aws/",
+      "publishedAt": "2026-03-26T17:29:57Z",
+      "summary": "In this post, we demonstrate how to architect AWS systems that enable AI agents to iterate rapidly through design patterns for both system architecture and code base structure. We first examine the architectural problems that limit agentic development today. We then walk through system architecture patterns that support rapid experimentation, followed by codebase patterns that help AI agents under",
+      "imageURL": null
+    },
+    {
+      "id": "c333b8503626b8bfed28",
+      "title": "Building shared coding guidelines for AI (and people too)",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/",
+      "publishedAt": "2026-03-26T14:00:00Z",
+      "summary": "Coding guidelines and standards for agents need to be a little different—more explicit, demonstrative of patterns, and obvious.",
+      "imageURL": null
+    },
+    {
+      "id": "bdc62269c3113c9654ee",
+      "title": "Beyond A/B Testing: Using Surrogacy and Region-Splits to Measure Long-Term Effects in Marketplaces",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/9cb06d628f2d",
+      "publishedAt": "2026-03-25T13:56:39Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "81a2ea0bd562b7167ee4",
+      "title": "What COVID did to our forecasting models (and what we built to handle the next shock)",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/ccbf0e1f7fa9",
+      "publishedAt": "2026-03-24T17:01:01Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "47ab80fc290cb7a6574f",
+      "title": "Multi-stage attacks are the Final Fantasy bosses of security",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/24/multi-stage-attacks-are-the-final-fantasy-bosses-of-security/",
+      "publishedAt": "2026-03-24T07:40:00Z",
+      "summary": "Ryan welcomes Gee Rittenhouse, VP of Security at AWS, to the show to discuss the complexities of multi-stage attacks in cybersecurity and how these attacks unfold, the challenges in detecting them, and the evolving role of AI in both enhancing security and creating new vulnerabilities.",
+      "imageURL": null
+    },
+    {
+      "id": "477426f0bb026d2eaa8a",
+      "title": "How Stripe Radar helps prevent free trial abuse",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse",
+      "publishedAt": "2026-03-24T00:00:00Z",
+      "summary": "Radar now helps prevent free trial abuse with just one click. When enabled, Radar predicts the presence of abusive behavior that violates common trial terms, such as repeated trial signup or missed cancellations, with 90% accuracy.",
+      "imageURL": null
+    },
+    {
+      "id": "16d061d6a105f84ab3e6",
+      "title": "Discord Update: March 24, 2026 Changelog",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-update-march-24-2026-changelog",
+      "publishedAt": "2026-03-24T00:00:00Z",
+      "summary": "Here's the Discord Changelog from March 24, 2026, so you can stay informed on what’s new in recent app updates!",
+      "imageURL": null
+    },
+    {
+      "id": "a565220dc6f0212e4e77",
+      "title": "How Generali Malaysia optimizes operations with Amazon EKS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-generali-malaysia-optimizes-operations-with-amazon-eks/",
+      "publishedAt": "2026-03-23T22:51:02Z",
+      "summary": "In this post, we look at how Generali is using Amazon EKS Auto Mode and its integration with other AWS services to enhance performance while reducing operational overhead, optimizing costs, and enhancing security.",
+      "imageURL": null
+    },
+    {
+      "id": "0b38f86ed0e684551b27",
+      "title": "After all the hype, was 2025 really the year of AI agents?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/20/was-2025-really-the-year-of-ai-agents/",
+      "publishedAt": "2026-03-20T07:40:00Z",
+      "summary": "Ryan is joined by Stefan Weitz, CEO and co-founder of the HumanX Conference, for a conversation on how AI has evolved in the last year.",
+      "imageURL": null
+    },
+    {
+      "id": "5680bd67d22c1a9d9303",
+      "title": "Three of the biggest fraud trends from MRC Vegas 2026",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026",
+      "publishedAt": "2026-03-20T00:00:00Z",
+      "summary": "The most sophisticated fraud teams are shifting from one-size-fits-all fraud approaches to more dynamic, tailored interventions. They are removing friction for trusted users, embedding fraud detection directly into agentic transactions, and investing in multilayered identity verification to combat deepfakes.",
+      "imageURL": null
+    },
+    {
+      "id": "d0f97516ce330eafec19",
+      "title": "How Slack Rebuilt Notifications 📣",
+      "sourceName": "Slack Engineering",
+      "url": "https://slack.engineering/?p=17695",
+      "publishedAt": "2026-03-19T19:00:54Z",
+      "summary": "Introduction 🔔 At Slack, notifications are how teams stay in the loop, but they can also become overwhelming when not designed with intention. Our goal was to make staying informed feel effortless. We set out to rebuild one of Slack’s most complicated systems from the ground up by bringing calm, consistency, and clarity to the…",
+      "imageURL": null
+    },
+    {
+      "id": "27e1a3c9ed7f255e1831",
+      "title": "AI is becoming a second brain at the expense of your first one",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/19/ai-is-becoming-a-second-brain-at-the-expense-of-your-first-one/",
+      "publishedAt": "2026-03-19T14:01:58Z",
+      "summary": "The risk isn’t just that we’ll get lazy and become lousy at critical thinking; the risk is that we’ll outsource our judgement and lose the ability to make qualitative, moral, and interpersonal judgments altogether.",
+      "imageURL": null
+    },
+    {
+      "id": "c5d99da652fc032581b6",
+      "title": "Building a global engineering team (plus AI agents) with Netlify",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/19/building-a-global-engineering-team-netlify/",
+      "publishedAt": "2026-03-19T07:40:00Z",
+      "summary": "Dana Lawson, CTO of Netlify, shares her insights on leading a lean, globally distributed engineering team that powers 5% of the internet.",
+      "imageURL": null
+    },
+    {
+      "id": "522fd8f1cc9c3675e749",
+      "title": "Testing the impact of Adaptive Pricing across 1.5M subscription checkout sessions",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/adaptive-pricing-for-subscriptions",
+      "publishedAt": "2026-03-19T00:00:00Z",
+      "summary": "Adaptive Pricing is now available for subscriptions, allowing businesses to automatically localize prices in 150+ countries while Stripe handles currency conversion. In an A/B test across 1.5 million subscription checkouts, businesses saw 4.7% higher conversion and 5.4% higher LTV per session, on average.",
+      "imageURL": null
+    },
+    {
+      "id": "9d7a5064f92c2d5a6edb",
+      "title": "AI-powered event response for Amazon EKS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/ai-powered-event-response-for-amazon-eks/",
+      "publishedAt": "2026-03-18T18:23:37Z",
+      "summary": "In this post, you'll learn how AWS DevOps Agent integrates with your existing observability stack to provide intelligent, automated responses to system events.",
+      "imageURL": null
+    },
+    {
+      "id": "c0848df49ca819119993",
+      "title": "Friend Bubbles: Enhancing Social Discovery on Facebook Reels",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23703",
+      "publishedAt": "2026-03-18T18:19:33Z",
+      "summary": "Friend bubbles in Facebook Reels highlight Reels your friends have liked or reacted to, helping you discover new content and making it easier to connect over shared interests. This article explains the technical architecture behind friend bubbles, including how machine learning estimates relationship strength and ranks content your friends have interacted with to create more [...] Read More... The",
+      "imageURL": null
+    },
+    {
+      "id": "ce41b29f97a2217ca65e",
+      "title": "Introducing the Machine Payments Protocol",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/machine-payments-protocol",
+      "publishedAt": "2026-03-18T00:00:00Z",
+      "summary": "We’re launching the Machine Payments Protocol (MPP), an open standard, internet-native way for agents to pay—co-authored by Tempo and Stripe. Businesses on Stripe can accept payments over MPP in a few lines of code using our PaymentIntents API.",
+      "imageURL": null
+    },
+    {
+      "id": "08f2f20a2b1a3cb9e880",
+      "title": "From vendors to vanguard: Airbnb’s hard-won lessons in observability ownership",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/3811bf6c1ac3",
+      "publishedAt": "2026-03-17T17:01:02Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "a913d2c931b4a7f97a87",
+      "title": "Keeping the lights on for open source",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/17/keeping-the-lights-on-for-open-source/",
+      "publishedAt": "2026-03-17T16:00:00Z",
+      "summary": "Ryan sits down with Chainguard CEO Dan Lorenc to chat about how his team is keeping the foundation of the internet—open source projects—alive by forking archived but widely-used repos to provide security maintenance and dependency upgrades.",
+      "imageURL": null
+    },
+    {
+      "id": "5a9ea20a0ebdfb5c8635",
+      "title": "Domain expertise still wanted: the latest trends in AI-assisted knowledge for developers",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/16/domain-expertise-still-wanted-the-latest-trends-in-ai/",
+      "publishedAt": "2026-03-16T14:00:00Z",
+      "summary": "In February, we surveyed our users with research designed in partnership with OpenAI and found out that more developers than ever are using AI at work to learn, they are using other traditional online resources to validate but still find trust in AI a major barrier.",
+      "imageURL": null
+    },
+    {
+      "id": "fe806dda9d7ea4244598",
+      "title": "How ROOST is Advancing Online Safety",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/how-roost-is-advancing-online-safety",
+      "publishedAt": "2026-03-16T00:00:00Z",
+      "summary": "The threat landscape online has shifted dramatically. Many online platforms are left to reinvent safety tools from scratch. That’s the gap ROOST was built to close — and it’s why open-sourcing battle-tested tools like Osprey matters so much.",
+      "imageURL": null
+    },
+    {
+      "id": "34327531520945d3aa86",
+      "title": "Open source for awkward robots",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/13/open-source-for-awkward-robots/",
+      "publishedAt": "2026-03-13T07:40:00Z",
+      "summary": "Ryan is joined by Jan Liphardt, CEO and co-founder of OpenMind, to chat about the rapidly evolving world of humanoid robotics and what it means for humans, why OpenMind is building an open-source operating system for robots that processes logic in natural language, and how putting Asimov’s Laws on the blockchain might be the key to robotics guardrails.",
+      "imageURL": null
+    },
+    {
+      "id": "783c65ea77f07f18a6c4",
+      "title": "Recommending travel destinations to help users explore",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/5fa7a81654fb",
+      "publishedAt": "2026-03-12T18:55:19Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "ed3eafbd13a4682acdc5",
+      "title": "Continuous AI for accessibility: How GitHub transforms feedback into inclusion",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=94451",
+      "publishedAt": "2026-03-12T16:00:00Z",
+      "summary": "AI automates triage for accessibility feedback, allowing us to focus on fixing barriers—turning a chaotic backlog into continuous, rapid resolutions. The post Continuous AI for accessibility: How GitHub transforms feedback into inclusion appeared first on The GitHub Blog .",
+      "imageURL": null
+    },
+    {
+      "id": "cdda5dad6ac6945a6c4d",
+      "title": "The context problem: Why enterprise AI needs more than foundation models",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/12/enterprise-ai-needs-more-than-foundation-models/",
+      "publishedAt": "2026-03-12T13:00:00Z",
+      "summary": "The difference between AI that impresses people in demos and AI that drives production value is context.",
+      "imageURL": null
+    },
+    {
+      "id": "41a17c360497f729233e",
+      "title": "10 things we learned building for the first generation of agentic commerce",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/10-lessons",
+      "publishedAt": "2026-03-12T00:00:00Z",
+      "summary": "A future where we buy with AI agents feels inevitable. Making it actually work is harder. These lessons from the first wave of agentic commerce are meant to help sellers decide what to tackle, avoid common bottlenecks, and get ahead of what’s coming.",
+      "imageURL": null
+    },
+    {
+      "id": "91799656f5bc02f1bbd1",
+      "title": "You’re Now Discord Official: Developers, Claim Your Game and Verify Your Server",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/claim-your-game",
+      "publishedAt": "2026-03-12T00:00:00Z",
+      "summary": "Developers can now claim and customize their game’s profiles on Discord. Curate your game’s presence on the platform to help people discover more about your game, and get your server verified in the process! Read on to see how it works.",
+      "imageURL": null
+    },
+    {
+      "id": "9eafb2ce8dd8c92b759f",
+      "title": "Even the chip makers are making LLMs",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/10/even-the-chip-makers-are-making-llms/",
+      "publishedAt": "2026-03-10T07:40:00Z",
+      "summary": "Ryan welcomes Kari Briski, NVIDIA’s VP of Generative AI Software for Enterprise, to the show to explore how a chip manufacturer got into the model development game.",
+      "imageURL": null
+    },
+    {
+      "id": "3c75339b4f397f4b6d06",
+      "title": "Analyzing first-party fraud trends: Account, free trial, and refund abuse",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse",
+      "publishedAt": "2026-03-10T00:00:00Z",
+      "summary": "From November 2025 to February 2026, our models detected 6.2x more abusive free trials across the Stripe network. This is part of a broader shift toward first-party fraud, where legitimate users abuse policies by setting up multiple accounts, cycling through free trials, or exploiting refunds.",
+      "imageURL": null
+    },
+    {
+      "id": "154b0d32576bcecd8d1b",
+      "title": "Organizing productive platform teams",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/09/organizing-productive-platform-teams/",
+      "publishedAt": "2026-03-09T14:00:00Z",
+      "summary": "So many platforms feel heavy because they mirror the organization, not the architecture the organization claims to want.",
+      "imageURL": null
+    },
+    {
+      "id": "196c9beacff88e72bd0d",
+      "title": "Building on the Social Layer of Games: What’s New from GDC 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/building-on-the-social-layer-of-games-whats-new-from-gdc-2026",
+      "publishedAt": "2026-03-09T00:00:00Z",
+      "summary": "At GDC 2026, Discord gives developers more ways to close the gap between connection and play.",
+      "imageURL": null
+    },
+    {
+      "id": "7d6b5410455f3d57f210",
+      "title": "Scaling Global Storytelling: Modernizing Localization Analytics at Netflix",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/816f47290641",
+      "publishedAt": "2026-03-06T15:01:27Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "18d1a74adfd8d3bb91ce",
+      "title": "Building brains for bulldozers",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/06/building-brains-for-bulldozers/",
+      "publishedAt": "2026-03-06T08:40:00Z",
+      "summary": "Ryan chats with Kevin Peterson, CTO of Bedrock Robotics, about the evolution of self-driving technology and why robotics is now advancing; how real data is still relevant but simulation becomes essential for scale; and the future of robotics in addressing labor shortages and enhancing productivity.",
+      "imageURL": null
+    },
+    {
+      "id": "fefbccbab868be968f2d",
+      "title": "Discord Patch Notes: March 6, 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-patch-notes-march-6-2026",
+      "publishedAt": "2026-03-06T00:00:00Z",
+      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+      "imageURL": null
+    },
+    {
+      "id": "7cf0520afb82aa815dee",
+      "title": "DeveloperWeek 2026: Making AI tools that are actually good",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/05/developerweek-2026/",
+      "publishedAt": "2026-03-05T17:00:00Z",
+      "summary": "From interoperability to knowledge architecture to creating AI tools people can actually use, here’s a recap of what we learned from DeveloperWeek 2026.",
+      "imageURL": null
+    },
+    {
+      "id": "3c10f966f99cefef395e",
+      "title": "It wasn’t a culture problem: Upleveling alert development at Airbnb",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/01e2290eb0f5",
+      "publishedAt": "2026-03-04T18:01:02Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "b4aba5ac0629335bf135",
+      "title": "AI-assisted coding needs more than vibes; it needs containers and sandboxes",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/03/04/ai-assisted-coding-vibes-hardened-containers-and-sandboxes/",
+      "publishedAt": "2026-03-04T05:40:00Z",
+      "summary": "In this sponsored episode, Ryan chats with Mark Cavage, President and COO of Docker, joins the show to dive into hardened containers and agent sandboxes.",
+      "imageURL": null
+    },
+    {
+      "id": "219b5a5bc14cf30cd7fa",
+      "title": "Tracing Discord's Elixir Systems (Without Melting Everything)",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/tracing-discords-elixir-systems-without-melting-everything",
+      "publishedAt": "2026-03-04T00:00:00Z",
+      "summary": "Join Senior Software Engineer Nick Krichevsky as he explains how Discord added distributed tracing to Elixir's message passing and optimized it to handle millions of concurrent users.",
+      "imageURL": null
+    },
+    {
+      "id": "5ce85cb1030ff9429cd9",
+      "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=94225",
+      "publishedAt": "2026-03-03T18:45:09Z",
+      "summary": "Here's how we made the search experience better, faster, and more resilient for GHES customers. The post How we rebuilt the search architecture for high availability in GitHub Enterprise Server appeared first on The GitHub Blog .",
+      "imageURL": null
+    },
+    {
+      "id": "15de23c7f77184856b9f",
+      "title": "The Hidden Price Tag: Uncovering Hidden Costs in Cloud Architectures with the AWS Well-Architected Framework",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/the-hidden-price-tag-uncovering-hidden-costs-in-cloud-architectures-with-the-aws-well-architected-framework/",
+      "publishedAt": "2026-03-03T16:08:00Z",
+      "summary": "In this post, we discuss how following the AWS Cloud Adoption Framework (AWS CAF) and AWS Well-Architected Framework can help reduce these risks through proper implementation of AWS guidance and best practices while taking into consideration the practical challenges organizations face in implementing these best practices, including resource constraints, evaluating trade-offs and competing business",
+      "imageURL": null
+    },
+    {
+      "id": "f8d9f5c8181adf8a348d",
+      "title": "Optimizing Recommendation Systems with JDK’s Vector API",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/30d2830401ec",
+      "publishedAt": "2026-03-03T01:36:46Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "9858fa8b4ec193fa7584",
+      "title": "Supporting additional payment methods for agentic commerce",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/supporting-additional-payment-methods-for-agentic-commerce",
+      "publishedAt": "2026-03-03T00:00:00Z",
+      "summary": "Stripe is now the first and only provider that supports both agentic network tokens and buy now, pay later tokens in agentic commerce through a single primitive.",
+      "imageURL": null
+    },
+    {
+      "id": "e4f08652d280a01e0b6d",
+      "title": "Can AI agents build real Stripe integrations? We built a benchmark to find out",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/can-ai-agents-build-real-stripe-integrations",
+      "publishedAt": "2026-03-02T00:00:00Z",
+      "summary": "State-of-the-art LLMs can now solve a majority of scoped coding problems, but it’s an open question whether they can fully autonomously manage software engineering projects. We spent months building evaluation environments to benchmark how well AI agents can create real Stripe integrations.",
+      "imageURL": null
+    },
+    {
+      "id": "7c4a85a7d5793bafc4cd",
+      "title": "Mount Mayhem at Netflix: Scaling Containers on Modern CPUs",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/f3b09b68beac",
+      "publishedAt": "2026-02-28T22:55:53Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "8c1ebcdfa26c65c08234",
+      "title": "Digital Transformation at Santander: How Platform Engineering is Revolutionizing Cloud Infrastructure",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/digital-transformation-at-santander-how-platform-engineering-is-revolutionizing-cloud-infrastructure/",
+      "publishedAt": "2026-02-26T17:54:12Z",
+      "summary": "Santander faced a significant technical challenge in managing an infrastructure that processes billions of daily transactions across more than 200 critical systems. The solution emerged through an innovative platform engineering initiative called Catalyst, which transformed the bank's cloud infrastructure and development management. This post analyzes the main cases, benefits, and results obtained",
+      "imageURL": null
+    },
+    {
+      "id": "4136a1a070fa1015966f",
+      "title": "6,000 AWS accounts, three people, one platform: Lessons learned",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/6000-aws-accounts-three-people-one-platform-lessons-learned/",
+      "publishedAt": "2026-02-25T19:47:07Z",
+      "summary": "This post describes why ProGlove chose a account-per-tenant approach for our serverless SaaS architecture and how it changes the operational model. It covers the challenges you need to anticipate around automation, observability and cost. We will also discuss how the approach can affect other operational models in different environments like an enterprise context.",
+      "imageURL": null
+    },
+    {
+      "id": "54f35ead1b8fcd0109b1",
+      "title": "Academic publications & Airbnb Tech: 2025 year in review",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/7d79f57d3b52",
+      "publishedAt": "2026-02-24T18:36:39Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "99fe81ac12f4beb45b38",
+      "title": "Getting Global Age Assurance Right: What We Got Wrong and What's Changing",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/getting-global-age-assurance-right-what-we-got-wrong-and-whats-changing",
+      "publishedAt": "2026-02-24T00:00:00Z",
+      "summary": "Discord's CTO addresses community concerns about age assurance: no mass ID collection, new vendor transparency commitments, and a delayed global launch until second half of 2026.",
+      "imageURL": null
+    },
+    {
+      "id": "e173ae566e2ecbe45cfc",
+      "title": "MediaFM: The Multimodal AI Foundation for Media Understanding at Netflix",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/e8c28df82e2d",
+      "publishedAt": "2026-02-23T18:24:32Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "247e5a9fecb9e2406040",
+      "title": "Scaling Localization with AI at Lyft",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/b04dca99e6ee",
+      "publishedAt": "2026-02-19T17:28:41Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "d32747c3141561a6a59e",
+      "title": "Osprey: Open Sourcing our Rule Engine",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/osprey-open-sourcing-our-rule-engine",
+      "publishedAt": "2026-02-19T00:00:00Z",
+      "summary": "Discord uses Osprey to quickly detect and remove new types of harm from putting our customers at risk. Now we’re open-sourcing this tool so others can do the same.",
+      "imageURL": null
+    },
+    {
+      "id": "016d0923d03638153a79",
+      "title": "How to Change Your Theme to Bring Your Vibe to Discord",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/bring-your-vibe-to-discord-with-new-themes-in-nitro",
+      "publishedAt": "2026-02-19T00:00:00Z",
+      "summary": "Add a splash of personality and make Discord pop by changing Discord’s color scheme! Learn how to adjust the look of Discord on both desktop and mobile.",
+      "imageURL": null
+    },
+    {
+      "id": "09cca119c8ce79d76842",
+      "title": "Safeguarding dynamic configuration changes at scale",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/5aca5222ed68",
+      "publishedAt": "2026-02-18T17:01:01Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "e685969f12aeda988d63",
+      "title": "Scaling LLM Post-Training at Netflix",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/0046f8790194",
+      "publishedAt": "2026-02-13T08:05:33Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "7c632580ab27b2f57b82",
+      "title": "Trusting the Untestable: Validation and Diagnostics for the Doubly Robust Models",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/00853df009df",
+      "publishedAt": "2026-02-12T17:07:13Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "a05c4def6f5702eec93e",
+      "title": "My Journey to Airbnb — Anna Sulkina",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/85216183d094",
+      "publishedAt": "2026-02-11T17:02:19Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "e1cc0a2d0c1ba7a985a0",
+      "title": "How Convera built fine-grained API authorization with Amazon Verified Permissions",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-convera-built-fine-grained-api-authorization-with-amazon-verified-permissions/",
+      "publishedAt": "2026-02-05T21:21:54Z",
+      "summary": "In this post, we share how Convera used Amazon Verified Permissions to build a fine-grained authorization model for their API platform.",
+      "imageURL": null
+    },
+    {
+      "id": "d70d8d181551887592a5",
+      "title": "Mastering millisecond latency and millions of events: The event-driven architecture behind the Amazon Key Suite",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/mastering-millisecond-latency-and-millions-of-events-the-event-driven-architecture-behind-the-amazon-key-suite/",
+      "publishedAt": "2026-02-04T15:53:39Z",
+      "summary": "In this post, we explore how the Amazon Key team used Amazon EventBridge to modernize their architecture, transforming a tightly coupled monolithic system into a resilient, event-driven solution. We explore the technical challenges we faced, our implementation approach, and the architectural patterns that helped us achieve improved reliability and scalability. The post covers our solutions for man",
+      "imageURL": null
+    },
+    {
+      "id": "47d30c54aa2c90744250",
+      "title": "Discord Patch Notes: February 4, 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-patch-notes-february-4-2026",
+      "publishedAt": "2026-02-04T00:00:00Z",
+      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+      "imageURL": null
+    },
+    {
+      "id": "d1309b4304dc248caba8",
+      "title": "How to Customize Your Discord Profile",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/how-to-customize-your-discord-profile",
+      "publishedAt": "2026-02-02T00:00:00Z",
+      "summary": "Make your first impression count with a profile that represents you how YOU want to be seen. Learn how to edit and customize your profile to have it rep you the right way.",
+      "imageURL": null
+    },
+    {
+      "id": "3a208c198b84eb18351a",
+      "title": "Sovereign failover – Design for digital sovereignty using the AWS European Sovereign Cloud",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/sovereign-failover-design-for-digital-sovereignty-using-the-aws-european-sovereign-cloud/",
+      "publishedAt": "2026-01-30T19:09:35Z",
+      "summary": "This post explores the architectural patterns, challenges, and best practices for building cross-partition failover, covering network connectivity, authentication, and governance. By understanding these constraints, you can design resilient cloud-native applications that balance regulatory compliance with operational continuity.",
+      "imageURL": null
+    },
+    {
+      "id": "526947647715457e7847",
+      "title": "How Artera enhances prostate cancer diagnostics using AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-artera-enhances-prostate-cancer-diagnostics-using-aws/",
+      "publishedAt": "2026-01-29T17:06:57Z",
+      "summary": "In this post, we explore how Artera used Amazon Web Services (AWS) to develop and scale their AI-powered prostate cancer test, accelerating time to results and enabling personalized treatment recommendations for patients.",
+      "imageURL": null
+    },
+    {
+      "id": "37ce7cb1d4bc32144e87",
+      "title": "From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=93464",
+      "publishedAt": "2026-01-28T17:00:00Z",
+      "summary": "Learn how GitHub built an accessible, multi-terminal-safe ASCII animation for the Copilot CLI using custom tooling, ANSI color roles, and advanced terminal engineering. The post From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner appeared first on The GitHub Blog .",
+      "imageURL": null
+    },
+    {
+      "id": "b2a0d81f118a6e109e14",
+      "title": "When protections outlive their purpose: A lesson on managing defense systems at scale",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=93309",
+      "publishedAt": "2026-01-15T20:54:32Z",
+      "summary": "User feedback led us to clean up outdated mitigations. See why observability and lifecycle management are critical for defense systems. The post When protections outlive their purpose: A lesson on managing defense systems at scale appeared first on The GitHub Blog .",
+      "imageURL": null
+    },
+    {
+      "id": "44acb94a2e949d569937",
+      "title": "How Salesforce migrated from Cluster Autoscaler to Karpenter across their fleet of 1,000 EKS clusters",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-salesforce-migrated-from-cluster-autoscaler-to-karpenter-across-their-fleet-of-1000-eks-clusters/",
+      "publishedAt": "2026-01-12T20:03:32Z",
+      "summary": "This blog post examines how Salesforce, operating one of the world's largest Kubernetes deployments, successfully migrated from Cluster Autoscaler to Karpenter across their fleet of 1,000 plus Amazon Elastic Kubernetes Service (Amazon EKS) clusters.",
+      "imageURL": null
+    },
+    {
+      "id": "9db80429265464b72882",
+      "title": "Lyft’s Feature Store: Architecture, Optimization, and Evolution",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/7835f8962b99",
+      "publishedAt": "2026-01-06T18:10:32Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "26e87757c3d171729311",
+      "title": "From Python3.8 to Python3.10: Our Journey Through a Memory Leak",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/1fd9b43cc01e",
+      "publishedAt": "2025-12-15T19:31:01Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "f1d189eeaefec3850b8f",
+      "title": "How to Make and Use Custom Emoji on Discord",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/beginners-guide-to-custom-emojis",
+      "publishedAt": "2025-12-12T00:00:00Z",
+      "summary": "Emojis on Discord are special — you can make a little picture out of almost any symbol, in-joke, or bizarre late-night inspiration.",
+      "imageURL": null
+    },
+    {
+      "id": "006b962a64e61e58c66d",
+      "title": "Architecting conversational observability for cloud applications",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/architecting-conversational-observability-for-cloud-applications/",
+      "publishedAt": "2025-12-11T15:59:39Z",
+      "summary": "In this post, we walk through building a generative AI–powered troubleshooting assistant for Kubernetes. The goal is to give engineers a faster, self-service way to diagnose and resolve cluster issues, cut down Mean Time to Recovery (MTTR), and reduce the cycles experts spend finding the root cause of issues in complex distributed systems.",
+      "imageURL": null
+    },
+    {
+      "id": "d106a257aea8d54c5d78",
+      "title": "How BASF’s Agriculture Solutions drives traceability and climate action by tokenizing cotton value chains using Amazon Managed Blockchain",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-basfs-agriculture-solutions-drives-traceability-and-climate-action-by-tokenizing-cotton-value-chains-using-amazon-managed-blockchain/",
+      "publishedAt": "2025-12-10T17:41:52Z",
+      "summary": "BASF Agricultural Solutions combines innovative products and digital tools with practical farmer knowledge. This post explores how Amazon Managed Blockchain can drive a positive change in the agricultural industry by tokenizing food and cotton value chains for traceability, climate action, and circularity.",
+      "imageURL": null
+    },
+    {
+      "id": "958edf1c8a9f95530ce0",
+      "title": "She architects: Bringing unique perspectives to innovative solutions at AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/she-architects-bringing-unique-perspectives-to-innovative-solutions-at-aws/",
+      "publishedAt": "2025-12-08T16:37:15Z",
+      "summary": "Have you ever wondered what it is really like to be a woman in tech at one of the world's leading cloud companies? Or maybe you are curious about how diverse perspectives drive innovation beyond the buzzwords? Today, we are providing an insider's perspective on the role of a solutions architect (SA) at Amazon Web Services (AWS). However, this is not a typical corporate success story. We are three ",
+      "imageURL": null
+    },
+    {
+      "id": "c08964bb90b164eed7b0",
+      "title": "Discord Patch Notes: December 8, 2025",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-patch-notes-december-8-2025",
+      "publishedAt": "2025-12-08T00:00:00Z",
+      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+      "imageURL": null
+    },
+    {
+      "id": "d49e56c478f5247ca6c0",
+      "title": "Gift Ideas for the Dedicated Discord User in Your Life",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/gift-ideas-for-the-discord-user",
+      "publishedAt": "2025-12-08T00:00:00Z",
+      "summary": "We’ve got plenty of gift ideas, from those who game through the night, to those who decorate their profile just right — let’s dig in!",
+      "imageURL": null
+    },
+    {
+      "id": "61a409f1a683d28007d3",
+      "title": "Your Discord Checkpoint is Rolling Out! Celebrate What You Did in 2025",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/checkpoint-2025-discord-year-in-review",
+      "publishedAt": "2025-12-04T00:00:00Z",
+      "summary": "How many messages did you send? How long did you hang out in voice? Who’d you talk with the most? Stop by your end-of-year Checkpoint, a recap of the stuff YOU did on Discord throughout the year!",
+      "imageURL": null
+    },
+    {
+      "id": "b797b7c3da94894e58ee",
+      "title": "Save and Display Your Faves: Add Discord Shop & Marvel Rivals Items to Your Profile’s Wishlist",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/save-and-display-your-faves-add-discord-shop-marvel-rivals-items-to-your-profiles-wishlist",
+      "publishedAt": "2025-12-02T00:00:00Z",
+      "summary": "Keep track of all the stuff from the Shop you’ve been wanting to purchase with the new Wishlist feature. Display the stuff you’ve been eyeing on your profile, and if you’re lucky enough, maybe one of your friends may see it and gift it to you…",
+      "imageURL": null
+    },
+    {
+      "id": "6b5c36c6acde0d0c4e53",
+      "title": "Bringing In-Game Commerce to Discord Communities",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/bringing-in-game-commerce-to-discord-communities",
+      "publishedAt": "2025-12-02T00:00:00Z",
+      "summary": "By bringing commerce directly to official game communities, we're giving game developers the opportunity to benefit from these dynamics, creating incremental revenue that complements their existing storefronts.",
+      "imageURL": null
+    },
+    {
+      "id": "b5260a8b3f426d35dbc0",
+      "title": "Streamlining Security Investigations with Agents",
+      "sourceName": "Slack Engineering",
+      "url": "https://slack.engineering/?p=17645",
+      "publishedAt": "2025-12-01T16:00:42Z",
+      "summary": "Slack’s Security Engineering team is responsible for protecting Slack’s core infrastructure and services. Our security event ingestion pipeline handles billions of events per day from a diverse array of data sources. Reviewing alerts produced by our security detection system is our primary responsibility during on-call shifts. We’re going to show you how we’re using AI…",
+      "imageURL": null
+    },
+    {
+      "id": "5ac5c5374593e84b1090",
+      "title": "Secure Amazon Elastic VMware Service (Amazon EVS) with AWS Network Firewall",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/secure-amazon-elastic-vmware-service-amazon-evs-with-aws-network-firewall/",
+      "publishedAt": "2025-11-26T16:22:03Z",
+      "summary": "In this post, we demonstrate how to utilize AWS Network Firewall to secure an Amazon EVS environment, using a centralized inspection architecture across an EVS cluster, VPCs, on-premises data centers and the internet. We walk through the implementation steps to deploy this architecture using AWS Network Firewall and AWS Transit Gateway.",
+      "imageURL": null
+    },
+    {
+      "id": "2d4ddac195f7a62bc926",
+      "title": "Android VPAT journey",
+      "sourceName": "Slack Engineering",
+      "url": "https://slack.engineering/?p=17474",
+      "publishedAt": "2025-11-19T18:00:39Z",
+      "summary": "Background A Voluntary Product Accessibility Template (VPAT) is a document that outlines how well a product aligns with accessibility (a11y) standards. Its primary purpose is to inform customers about a product’s a11y features, enabling them to make informed decisions before purchasing software. At Slack, we conducted a VPAT by a third party a11y vendor in…",
+      "imageURL": null
+    },
+    {
+      "id": "f1bf4166900a1dbe08c5",
+      "title": "LyftLearn Evolution: Rethinking ML Platform Architecture",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/547de6c950e1",
+      "publishedAt": "2025-11-18T18:16:05Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "fcc269a13804b55b989f",
+      "title": "How to Link Discord to Battlefield 6, Marvel Rivals & More",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/how-to-link-discord-to-popular-multiplayer-games",
+      "publishedAt": "2025-11-14T00:00:00Z",
+      "summary": "Some of the most popular multiplayer games have added the ability to directly link your Discord account to the game! Learn how to link your Discord account to some big-name titles and see what sorta perks it provides.",
+      "imageURL": null
+    },
+    {
+      "id": "e95bfd2b04e3f3c08c35",
+      "title": "How to Share What You’re Playing, Listening to, or Watching as Your Status on Discord",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/how-to-share-what-youre-playing-listening-to-or-watching-as-your-status-on-discord",
+      "publishedAt": "2025-11-14T00:00:00Z",
+      "summary": "Playing a game right now? Listening to some tunes, or catching up on that one anime your friends won’t stop talking about? Learn how to show off what you’re up to as your Discord status and show @everyone what’s up!",
+      "imageURL": null
+    },
+    {
+      "id": "a7a2e0e5c8e520807278",
+      "title": "Build better software to build software better",
+      "sourceName": "Slack Engineering",
+      "url": "https://slack.engineering/?p=17591",
+      "publishedAt": "2025-11-06T16:00:47Z",
+      "summary": "We manage the build pipeline that delivers Quip and Slack Canvas’s backend. A year ago, we were chasing exciting ideas to help engineers ship better code, faster. But we had one huge problem: builds took 60 minutes. With a build that slow, the whole pipeline gets less agile, and feedback doesn’t come to engineers until…",
+      "imageURL": null
+    },
+    {
+      "id": "426b01fe25d0bc40fdec",
+      "title": "Discord Update: November 6, 2025 Changelog",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-update-november-6-2025-changelog",
+      "publishedAt": "2025-11-06T00:00:00Z",
+      "summary": "Here's the Discord Changelog from November 6, 2025, so you can stay informed on what’s new in recent app updates!",
+      "imageURL": null
+    },
+    {
+      "id": "176f29f57e5c9c8a71ef",
+      "title": "A Cornucopia of Updates Make Discord on Desktop Fresher Than a Crisp Fall Breeze",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/a-cornucopia-of-updates-make-discord-on-desktop-fresher-than-a-crisp-fall-breeze",
+      "publishedAt": "2025-11-06T00:00:00Z",
+      "summary": "This fall, emoji making gets faster, the Settings page gets a redesign, Group DMs are easier to customize, more games gain support for special Discord-powered capabilities, and Family Center gets some expanded features. Take a peek at what’s new this season!",
+      "imageURL": null
+    },
+    {
+      "id": "51afcae7765304365d0b",
+      "title": "Advancing Our Chef Infrastructure: Safety Without Disruption",
+      "sourceName": "Slack Engineering",
+      "url": "https://slack.engineering/?p=17611",
+      "publishedAt": "2025-10-23T18:17:56Z",
+      "summary": "Last year, I wrote a blog post titled Advancing Our Chef Infrastructure, where we explored the evolution of our Chef infrastructure over the years. We talked about the shift from a single Chef stack to a multi-stack model, and the challenges that came with it – from updating how we handle cookbook uploads to navigating…",
+      "imageURL": null
+    },
+    {
+      "id": "bc647d0fa6f7cbe875db",
+      "title": "Deploy Safety: Reducing customer impact from change",
+      "sourceName": "Slack Engineering",
+      "url": "https://slack.engineering/?p=17513",
+      "publishedAt": "2025-10-07T16:33:12Z",
+      "summary": "It’s mid 2023 and we’ve identified some opportunities to improve our reliability. Fast forward to January 2025. Customer impact hours are reduced from the peak by 90% and continuing to trend downward. We’re a year and half into the Deploy Safety Program at Slack, improving the way we deploy, uplifting our safety culture and continuing…",
+      "imageURL": null
+    },
+    {
+      "id": "c91a2b8493715910108d",
+      "title": "My Starter Project on the Lyft Rider Data Science Team",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/86a60dddd935",
+      "publishedAt": "2025-10-07T14:41:38Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "934c269d5ee9f48c5079",
+      "title": "Post-quantum security for SSH access on GitHub",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=90756",
+      "publishedAt": "2025-09-15T16:00:00Z",
+      "summary": "GitHub is introducing post-quantum secure key exchange methods for SSH access to better protect Git data in transit. The post Post-quantum security for SSH access on GitHub appeared first on The GitHub Blog .",
+      "imageURL": null
+    },
+    {
+      "id": "e305097eb7590ea913fc",
+      "title": "Migrating Lyft’s Android Codebase to Kotlin",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/53b231dfecb5",
+      "publishedAt": "2025-09-09T20:34:03Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "29403cae201268f329e5",
+      "title": "Intern Experience at Lyft",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/9b7338e7c8bb",
+      "publishedAt": "2025-08-14T19:34:57Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "02f9cc60239f0f63170f",
+      "title": "How GitHub engineers tackle platform problems",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=88639",
+      "publishedAt": "2025-06-10T16:00:00Z",
+      "summary": "Our best practices for quickly identifying, resolving, and preventing issues at scale. The post How GitHub engineers tackle platform problems appeared first on The GitHub Blog .",
+      "imageURL": null
+    },
+    {
+      "id": "c8bef449782c2fba15d2",
+      "title": "GitHub Issues search now supports nested queries and boolean operators: Here’s how we (re)built it",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=87730",
+      "publishedAt": "2025-05-13T16:00:00Z",
+      "summary": "Plus, considerations in updating one of GitHub's oldest and most heavily used features. The post GitHub Issues search now supports nested queries and boolean operators: Here’s how we (re)built it appeared first on The GitHub Blog .",
+      "imageURL": null
+    }
+  ]
+}
