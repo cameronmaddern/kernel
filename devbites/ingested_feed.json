@@ -10,15 +10,6 @@
       "imageURL": null
     },
     {
-      "id": "f4575da72f07d3ea7a5b",
-      "title": "The Human Infrastructure: How Netflix Built the Operations Layer Behind Live at Scale",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/33e2a311c597",
-      "publishedAt": "2026-04-17T15:01:02Z",
-      "summary": "By: Brett Axler , Casper Choffat , and Alo Lowry In the three years since our first Live show, Chris Rock: Selective Outrage , we have witnessed an incredible expansion of our live content slate and the live operations that support it. From modest beginnings of streaming just one show per month, we are now capable of streaming over nine shows in a single day, reaching tens of millions of concurren",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*tibjLPNWGd0PP43Y8Idjag.jpeg"
-    },
-    {
       "id": "4b82bfc529b418bb9522",
       "title": "Introducing the Agent Readiness score. Is your site agent-ready?",
       "sourceName": "Cloudflare Blog",
@@ -334,15 +325,6 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/03/image17.png"
     },
     {
-      "id": "c75baa59ac538275fd50",
-      "title": "Evaluating Netflix Show Synopses with LLM-as-a-Judge",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/6269251e6f28",
-      "publishedAt": "2026-04-10T16:26:01Z",
-      "summary": "by Gabriela Alessio , Cameron Taylor , and Cameron R. Wolfe Introduction When members log into Netflix, one of the hardest choices is what to watch. The challenge isn’t a lack of options — there are thousands of titles — but finding the most intriguing one is complex and deeply personal. To help, we surface personalized promotional assets , especially the show synopsis — a brief description highli",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*A2j9Xni86SVnF_VyjFNwfw.png"
-    },
-    {
       "id": "499701560d82e6984f53",
       "title": "The messy truth of your AI strategies",
       "sourceName": "Stack Overflow Blog",
@@ -460,15 +442,6 @@
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/ldkId6Rz1TQvWrVdACbe0/c3c1a161b959d5714171ee73b4e79fcc/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png"
     },
     {
-      "id": "0bf30d811ea8ffe7d2b2",
-      "title": "Stop Answering the Same Question Twice: Interval-Aware Caching for Druid at Netflix Scale",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/22fadc9b840e",
-      "publishedAt": "2026-04-06T22:15:14Z",
-      "summary": "By Ben Sykes In a previous post , we described how Netflix uses Apache Druid to ingest millions of events per second and query trillions of rows, providing the real-time insights needed to ensure a high-quality experience for our members. Since that post, our scale has grown considerably. With our database holding over 10 trillion rows and regularly ingesting up to 15 million events per second, th",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*8bFAtFl8Z5pwEyoOgK54ag.png"
-    },
-    {
       "id": "4bc7ce9b86b758c39482",
       "title": "Unlock efficient model deployment: Simplified Inference Operator setup on Amazon SageMaker HyperPod",
       "sourceName": "AWS Architecture Blog",
@@ -496,15 +469,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     },
     {
-      "id": "da5c02e42f79610db7c6",
-      "title": "Powering Multimodal Intelligence for Video Search",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/3e0020cf1202",
-      "publishedAt": "2026-04-04T00:44:32Z",
-      "summary": "Synchronizing the Senses: Powering Multimodal Intelligence for Video Search By Meenakshi Jindal and Munya Marazanye Today’s filmmakers capture more footage than ever to maximize their creative options, often generating hundreds, if not thousands, of hours of raw material per season or franchise. Extracting the vital moments needed to craft compelling storylines from this sheer volume of media is a",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*wVRT7XY4C9bzNHE-lk-ViA.png"
-    },
-    {
       "id": "f1404b45019c6c360f33",
       "title": "The uphill climb of making diff lines performant",
       "sourceName": "GitHub Engineering",
@@ -530,15 +494,6 @@
       "publishedAt": "2026-04-03T07:40:00Z",
       "summary": "Ryan sits down with Galen Wolfe-Pauly, CEO of Tlon, to chat about calm computing and how humans can take back ownership of their data and digital world.",
       "imageURL": null
-    },
-    {
-      "id": "391cdb72f0fb67f10b89",
-      "title": "Smarter Live Streaming at Scale: Rolling Out VBR for All Netflix Live Events",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/c8f833b238cc",
-      "publishedAt": "2026-04-02T21:46:27Z",
-      "summary": "By Renata Teixeira, Zhi Li, Reenal Mahajan, and Wei Wei On January 26, 2026, we flipped an important switch for Live at Netflix: all Live events are now encoded using VBR (Variable Bitrate) instead of CBR (Constant Bitrate) . It sounds like a small configuration change, but it required us to revisit some of the foundational assumptions behind how we deliver Live video at global scale. VBR lets us ",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*_MoqLhu01wArcD1n58SZyg.png"
     },
     {
       "id": "ede5ba83447afaee9e51",
@@ -730,15 +685,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/23/ARCHBLOG-1379-image-1.jpeg"
     },
     {
-      "id": "803c8a1c84a5de455067",
-      "title": "Predicting Rider Conversion in Sparse Data Environments with Bayesian Trees",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/07227ff92789",
-      "publishedAt": "2026-03-30T14:43:41Z",
-      "summary": "At Lyft, understanding how riders go through our user experience is fundamental to operating a healthy marketplace. Specifically, it is important to have a robust model determining if a rider will actually request a ride after entering a destination and viewing a price and ETA. Accurately predicting this decision, that we call conversion , informs countless decisions across our platform. Whether i",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*OMZl9ZxHl02QWvOMcaUaCQ.jpeg"
-    },
-    {
       "id": "a6c3bbd478f8854f9568",
       "title": "Kubernetes v1.36 Sneak Peek",
       "sourceName": "Kubernetes Blog",
@@ -809,15 +755,6 @@
       "publishedAt": "2026-03-25T17:00:00Z",
       "summary": "At Dropbox, almost every product change flows through a single place: our server monorepo. A monorepo is a single, shared Git repository that contains many services and libraries used across the company. Instead of splitting code across dozens of smaller repositories, we keep a large portion of our backend infrastructure in one place. That architecture makes cross-service development easier, but i",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/monorepo/headers/Infrastructure-Reducing monorepo size-1440x305-light.png"
-    },
-    {
-      "id": "bdc62269c3113c9654ee",
-      "title": "Beyond A/B Testing: Using Surrogacy and Region-Splits to Measure Long-Term Effects in Marketplaces",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/9cb06d628f2d",
-      "publishedAt": "2026-03-25T13:56:39Z",
-      "summary": "Image generated with Gemini 3 Pro (Google), 2026. Written by Amber Wang and Y oonji Kim at Lyft. Background Whenever you use the Lyft app, there is a complex balancing act happening behind the scenes. Various levers are used to keep the marketplace running smoothly; Base prices and coupons for riders affect demand, while driver pay and bonuses impact the level of available supply. Since every chan",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*iVC-FQekAWZXMelyqruN5g.png"
     },
     {
       "id": "2d53da69c2cdfd0fe753",
@@ -1216,15 +1153,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69ab2ba75deb42d5757ebfe2_MarvelRivals-AccLinking-hero-BLOG-March-1800x720.png"
     },
     {
-      "id": "7d6b5410455f3d57f210",
-      "title": "Scaling Global Storytelling: Modernizing Localization Analytics at Netflix",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/816f47290641",
-      "publishedAt": "2026-03-06T15:01:27Z",
-      "summary": "Valentin Geffrier , Tanguy Cornuau Each year, we bring the Analytics Engineering community together for an Analytics Summit — a multi-day internal conference to share analytical deliverables across Netflix, discuss analytic practice, and build relationships within the community. This post is one of several topics presented at the Summit highlighting the breadth and impact of Analytics work across ",
-      "imageURL": "https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=816f47290641"
-    },
-    {
       "id": "18d1a74adfd8d3bb91ce",
       "title": "Building brains for bulldozers",
       "sourceName": "Stack Overflow Blog",
@@ -1297,15 +1225,6 @@
       "imageURL": null
     },
     {
-      "id": "f8d9f5c8181adf8a348d",
-      "title": "Optimizing Recommendation Systems with JDK’s Vector API",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/30d2830401ec",
-      "publishedAt": "2026-03-03T01:36:46Z",
-      "summary": "By Harshad Sane Ranker is one of the largest and most complex services at Netflix. Among many things, it powers the personalized rows you see on the Netflix homepage, and runs at an enormous scale. When we looked at CPU profiles for this service, one feature kept standing out: video serendipity scoring — the logic that answers a simple question: “How different is this new title from what you’ve be",
-      "imageURL": "https://cdn-images-1.medium.com/max/655/1*w8Z7CwTNc4dW84n8-S-CMw.png"
-    },
-    {
       "id": "9858fa8b4ec193fa7584",
       "title": "Supporting additional payment methods for agentic commerce",
       "sourceName": "Stripe Blog",
@@ -1322,15 +1241,6 @@
       "publishedAt": "2026-03-02T00:00:00Z",
       "summary": "State-of-the-art LLMs can now solve a majority of scoped coding problems, but it’s an open question whether they can fully autonomously manage software engineering projects. We spent months building evaluation environments to benchmark how well AI agents can create real Stripe integrations.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3eECFWnjwVnp7EForWM9lL/2ab86dd9a7c6b61fe6b7d6b8009f2598/Index-New_2x__1_.png"
-    },
-    {
-      "id": "7c4a85a7d5793bafc4cd",
-      "title": "Mount Mayhem at Netflix: Scaling Containers on Modern CPUs",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/f3b09b68beac",
-      "publishedAt": "2026-02-28T22:55:53Z",
-      "summary": "Authors: Harshad Sane , Andrew Halaney Imagine this — you click play on Netflix on a Friday night and behind the scenes hundreds of containers spring to action in a few seconds to answer your call. At Netflix, scaling containers efficiently is critical to delivering a seamless streaming experience to millions of members worldwide. To keep up with responsiveness at this scale, we modernized our con",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*1w_zMp68xhQI0W1bTXG0Dw.png"
     },
     {
       "id": "6a5656002dd43d178944",
@@ -1396,15 +1306,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67d0c4e0932bb59c7f6271e5_2024_10_DiscordBlog_UsingDiscord-1.png"
     },
     {
-      "id": "e173ae566e2ecbe45cfc",
-      "title": "MediaFM: The Multimodal AI Foundation for Media Understanding at Netflix",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/e8c28df82e2d",
-      "publishedAt": "2026-02-23T18:24:32Z",
-      "summary": "Avneesh Saluja , Santiago Castro , Bowei Yan , Ashish Rastogi Introduction Netflix’s core mission is to connect millions of members around the world with stories they’ll love. This requires not just an incredible catalog, but also a deep, machine-level understanding of every piece of content in that catalog, from the biggest blockbusters to the most niche documentaries. As we onboard new types of ",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*y5IOwk46Pu82512T00ywGA.png"
-    },
-    {
       "id": "db223c2f496fbc1f3b45",
       "title": "Using threat modeling and prompt injection to audit Comet",
       "sourceName": "Trail of Bits",
@@ -1412,15 +1313,6 @@
       "publishedAt": "2026-02-20T16:00:00Z",
       "summary": "Before launching their Comet browser, Perplexity hired us to test the security of their AI-powered browsing features. Using adversarial testing guided by our TRAIL threat model, we demonstrated how four prompt injection techniques could extract users’ private information from Gmail by exploiting the browser’s AI assistant. The vulnerabilities we found reflect how AI agents behave when external con",
       "imageURL": "https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/using-threat-modeling-and-prompt-injection-to-audit-comet-image-1_hu_ec7b70f1e492cd9d.webp"
-    },
-    {
-      "id": "247e5a9fecb9e2406040",
-      "title": "Scaling Localization with AI at Lyft",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/b04dca99e6ee",
-      "publishedAt": "2026-02-19T17:28:41Z",
-      "summary": "Written by Stefan Zier For years, Lyft’s localization infrastructure relied exclusively on human translation. While this model usually ensured excellent quality, it was bound by multi-day turnarounds and costs that scaled linearly with every new language. For the few languages Lyft initially supported (Spanish, Portuguese, and French), these limits were acceptable. However, Lyft’s expansion goals ",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*kdkhjQ3EWj3J8fHUe1xKIA.png"
     },
     {
       "id": "d32747c3141561a6a59e",
@@ -1459,15 +1351,6 @@
       "imageURL": null
     },
     {
-      "id": "e685969f12aeda988d63",
-      "title": "Scaling LLM Post-Training at Netflix",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/0046f8790194",
-      "publishedAt": "2026-02-13T08:05:33Z",
-      "summary": "Baolin Li , Lingyi Liu , Binh Tang , Shaojing Li Introduction Pre-training gives Large Language Models (LLMs) broad linguistic ability and general world knowledge, but post-training is the phase that actually aligns them to concrete intents, domain constraints, and the reliability requirements of production environments. At Netflix, we are exploring how LLMs can enable new member experiences acros",
-      "imageURL": "https://cdn-images-1.medium.com/max/873/1*at60qZXd0j6SphkjzdmazQ.png"
-    },
-    {
       "id": "f9b2876745d060b30c44",
       "title": "How low-bit inference enables efficient AI",
       "sourceName": "Dropbox Tech",
@@ -1475,15 +1358,6 @@
       "publishedAt": "2026-02-12T18:00:00Z",
       "summary": "In just the past few years, large machine learning models have made incredible strides. Today’s models are not only remarkably capable but also achieve impressive results across a range of applications, from software engineering and scientific research to content creation and data analysis. With the arrival of models like Kimi-K2.5 and GLM-5 , the pace of progress shows no sign of slowing down. (K",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/low-bit-inference/headers/MachineLearning-Low-Bit Inference-375x150-dark.png"
-    },
-    {
-      "id": "7c632580ab27b2f57b82",
-      "title": "Trusting the Untestable: Validation and Diagnostics for the Doubly Robust Models",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/00853df009df",
-      "publishedAt": "2026-02-12T17:07:13Z",
-      "summary": "written by Ross Chu and Shima Nassiri The Causal Frontier: Measurement Beyond Randomization The gold standard for determining the causal impact of a policy or product change at a company like Lyft is the A/B test (randomized experiment). By randomly assigning users to a treatment or control group, A/B tests inherently eliminate bias, providing clean estimates of the Average Treatment Effect (ATE).",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*1h8xn6vIPteLe8ssJuFQtg.png"
     },
     {
       "id": "e4d88d45af3093a81bda",
@@ -1756,15 +1630,6 @@
       "imageURL": null
     },
     {
-      "id": "9db80429265464b72882",
-      "title": "Lyft’s Feature Store: Architecture, Optimization, and Evolution",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/7835f8962b99",
-      "publishedAt": "2026-01-06T18:10:32Z",
-      "summary": "Written by Rohan Varshney , with support from Devon Mittow & Janice Lee . This article expands upon a presentation from the Feature Store Summit 2025, which can be viewed in full here . There is also another video available on the evolution of Lyft’s Feature Store from DE4AI 2024. Introduction and Core Purpose Lyft’s Feature Store stands as a core infrastructural pillar within its Data Platform or",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*YGtkZilNCULvGZ_qjB1Kuw.jpeg"
-    },
-    {
       "id": "d55ef837b7264a9f5649",
       "title": "Kubernetes v1.35: Extended Toleration Operators to Support Numeric Comparisons (Alpha)",
       "sourceName": "Kubernetes Blog",
@@ -1799,6 +1664,141 @@
       "publishedAt": "2025-12-31T12:00:00Z",
       "summary": "Go’s arithmetic operations on standard integer types are silent by default, meaning overflows “wrap around” without panicking. This behavior has hidden an entire class of security vulnerabilities from fuzzing campaigns. Today we’re changing that by releasing go-panikint , a modified Go compiler that turns silent integer overflows into explicit panics. We used it to find a live integer overflow in ",
       "imageURL": null
+    },
+    {
+      "id": "394926200f5e2cb68be7",
+      "title": "Kubernetes v1.35: Watch Based Route Reconciliation in the Cloud Controller Manager",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2025/12/30/kubernetes-v1-35-watch-based-route-reconciliation-in-ccm/",
+      "publishedAt": "2025-12-30T18:30:00Z",
+      "summary": "Up to and including Kubernetes v1.34, the route controller in Cloud Controller Manager (CCM) implementations built using the k8s.io/cloud-provider library reconciles routes at a fixed interval. This causes unnecessary API requests to the cloud provider when there are no changes to routes. Other controllers implemented through the same library already use watch-based mechanisms, leveraging informer",
+      "imageURL": null
+    },
+    {
+      "id": "f3581834d226def4b072",
+      "title": "Kubernetes v1.35: Introducing Workload Aware Scheduling",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2025/12/29/kubernetes-v1-35-introducing-workload-aware-scheduling/",
+      "publishedAt": "2025-12-29T18:30:00Z",
+      "summary": "Scheduling large workloads is a much more complex and fragile operation than scheduling a single Pod, as it often requires considering all Pods together instead of scheduling each one independently. For example, when scheduling a machine learning batch job, you often need to place each worker strategically, such as on the same rack, to make the entire process as efficient as possible. At the same ",
+      "imageURL": null
+    },
+    {
+      "id": "a119404bb5f3f566a9b8",
+      "title": "Kubernetes v1.35: Fine-grained Supplemental Groups Control Graduates to GA",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2025/12/23/kubernetes-v1-35-fine-grained-supplementalgroups-control-ga/",
+      "publishedAt": "2025-12-23T18:30:00Z",
+      "summary": "On behalf of Kubernetes SIG Node, we are pleased to announce the graduation of fine-grained supplemental groups control to General Availability (GA) in Kubernetes v1.35! The new Pod field, supplementalGroupsPolicy , was introduced as an opt-in alpha feature for Kubernetes v1.31, and then had graduated to beta in v1.33. Now, the feature is generally available. This feature allows you to implement m",
+      "imageURL": null
+    },
+    {
+      "id": "c36b39d6de7a62b2e0fb",
+      "title": "Can chatbots craft correct code?",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2025/12/19/can-chatbots-craft-correct-code/",
+      "publishedAt": "2025-12-19T12:00:00Z",
+      "summary": "I recently attended the AI Engineer Code Summit in New York, an invite-only gathering of AI leaders and engineers. One theme emerged repeatedly in conversations with attendees building with AI: the belief that we’re approaching a future where developers will never need to look at code again. When I pressed these proponents, several made a similar argument: Forty years ago, when high-level programm",
+      "imageURL": "https://blog.trailofbits.com/2025/12/19/can-chatbots-craft-correct-code/chatbots-craft-correct-code-image-1_hu_9b7cb33d29b14aa2.webp"
+    },
+    {
+      "id": "67fc63ccf5cb5ff92756",
+      "title": "Inside the feature store powering real-time AI in Dropbox Dash",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/machine-learning/feature-store-powering-realtime-ai-in-dropbox-dash",
+      "publishedAt": "2025-12-18T18:00:00Z",
+      "summary": "Dropbox Dash uses AI to understand questions about your files, work chats, and company content, bringing everything together in one place for deeper, more focused work. With tens of thousands of potential work documents to consider, both search and agents rely on a ranking system powered by real-time machine learning to find the right files fast. At the core of that ranking in Dash is our feature ",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2025/december/headers/MachineLearning-FeatureStore-1440x305-light.png"
+    },
+    {
+      "id": "3a8e23d23f6fc19a08e1",
+      "title": "Use GWP-ASan to detect exploits in production environments",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2025/12/16/use-gwp-asan-to-detect-exploits-in-production-environments/",
+      "publishedAt": "2025-12-16T12:00:00Z",
+      "summary": "Memory safety bugs like use-after-free and buffer overflows remain among the most exploited vulnerability classes in production software. While AddressSanitizer (ASan) excels at catching these bugs during development, its performance overhead (2 to 4 times) and security concerns make it unsuitable for production. What if you could detect many of the same critical bugs in live systems with virtuall",
+      "imageURL": "https://blog.trailofbits.com/2025/12/16/use-gwp-asan-to-detect-exploits-in-production-environments/gwp-asan-image-1_hu_7f6b0553d94dd920.webp"
+    },
+    {
+      "id": "618668ae2f6ead571bf5",
+      "title": "Catching malicious package releases using a transparency log",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2025/12/12/catching-malicious-package-releases-using-a-transparency-log/",
+      "publishedAt": "2025-12-12T12:00:00Z",
+      "summary": "We’re getting Sigstore’s rekor-monitor ready for production use, making it easier for developers to detect tampering and unauthorized uses of their identities in the Rekor transparency log. This work, funded by the OpenSSF , includes support for the new Rekor v2 log , certificate validation, and integration with The Update Framework (TUF). For package maintainers that publish attestations signed u",
+      "imageURL": null
+    },
+    {
+      "id": "f1d189eeaefec3850b8f",
+      "title": "How to Make and Use Custom Emoji on Discord",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/beginners-guide-to-custom-emojis",
+      "publishedAt": "2025-12-12T00:00:00Z",
+      "summary": "Emojis on Discord are special — you can make a little picture out of almost any symbol, in-joke, or bizarre late-night inspiration.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/63603f76620d3470d9bd3f1f_2022_EmojiSurvey_HEADER_2%20(1).png"
+    },
+    {
+      "id": "006b962a64e61e58c66d",
+      "title": "Architecting conversational observability for cloud applications",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/architecting-conversational-observability-for-cloud-applications/",
+      "publishedAt": "2025-12-11T15:59:39Z",
+      "summary": "Modern cloud applications are commonly built as a collection of loosely coupled microservices running on services like Amazon Elastic Kubernetes Service (Amazon EKS) , Amazon Elastic Container Service (Amazon ECS) , or AWS Lambda . This architecture gives engineering teams flexibility and scalability, but its inherently distributed nature also makes troubleshooting more difficult. When something b",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/10/06/arch1266-img1.png"
+    },
+    {
+      "id": "642ab0eb4dc8dbfe513b",
+      "title": "Introducing mrva, a terminal-first approach to CodeQL multi-repo variant analysis",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2025/12/11/introducing-mrva-a-terminal-first-approach-to-codeql-multi-repo-variant-analysis/",
+      "publishedAt": "2025-12-11T12:00:00Z",
+      "summary": "In 2023 GitHub introduced CodeQL multi-repository variant analysis (MRVA). This functionality lets you run queries across thousands of projects using pre-built databases and drastically reduces the time needed to find security bugs at scale. There’s just one problem: it’s largely built on VS Code and I’m a Vim user and a terminal junkie. That’s why I built mrva , a composable, terminal-first alter",
+      "imageURL": "https://blog.trailofbits.com/2025/12/11/introducing-mrva-a-terminal-first-approach-to-codeql-multi-repo-variant-analysis/introducing-mrva-image_hu_fd3f685a1b3d7931.webp"
+    },
+    {
+      "id": "5f6a6aa147d9cddb03cf",
+      "title": "Litestream VFS",
+      "sourceName": "Fly.io Blog",
+      "url": "https://fly.io/blog/litestream-vfs/",
+      "publishedAt": "2025-12-11T00:00:00Z",
+      "summary": "I’m Ben Johnson, and I work on Litestream at Fly.io. Litestream is the missing backup/restore system for SQLite. It’s free, open-source software that should run anywhere, and you can read more about it here . Again with the sandwiches: assume we’ve got a SQLite database of sandwich ratings, and we’ve backed it up with Litestream to an S3 bucket. Now, on our local host, load up AWS credentials and ",
+      "imageURL": "/blog/litestream-vfs/assets/litestream-restore.png"
+    },
+    {
+      "id": "d106a257aea8d54c5d78",
+      "title": "How BASF’s Agriculture Solutions drives traceability and climate action by tokenizing cotton value chains using Amazon Managed Blockchain",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-basfs-agriculture-solutions-drives-traceability-and-climate-action-by-tokenizing-cotton-value-chains-using-amazon-managed-blockchain/",
+      "publishedAt": "2025-12-10T17:41:52Z",
+      "summary": "BASF Agricultural Solutions combines innovative products and digital tools with practical farmer knowledge. With over a century of experience, BASF offers a broad portfolio spanning seeds, crop protection, soil management, plant health, and digital agriculture solutions. Through collaboration with farmers, scientists, and partners, BASF strives to meet societal needs sustainably while creating a l",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/03/13/Grafic-2.png"
+    },
+    {
+      "id": "958edf1c8a9f95530ce0",
+      "title": "She architects: Bringing unique perspectives to innovative solutions at AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/she-architects-bringing-unique-perspectives-to-innovative-solutions-at-aws/",
+      "publishedAt": "2025-12-08T16:37:15Z",
+      "summary": "Have you ever wondered what it is really like to be a woman in tech at one of the world’s leading cloud companies? Or maybe you are curious about how diverse perspectives drive innovation beyond the buzzwords? Today, we are providing an insider’s perspective on the role of a solutions architect (SA) at Amazon Web Services (AWS). However, this is not a typical corporate success story. We are three ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/11/28/ARCHBLOG-1257_Kayalvizhi_2-scaled.jpg"
+    },
+    {
+      "id": "c08964bb90b164eed7b0",
+      "title": "Discord Patch Notes: December 8, 2025",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-patch-notes-december-8-2025",
+      "publishedAt": "2025-12-08T00:00:00Z",
+      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
+    },
+    {
+      "id": "d49e56c478f5247ca6c0",
+      "title": "Gift Ideas for the Dedicated Discord User in Your Life",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/gift-ideas-for-the-discord-user",
+      "publishedAt": "2025-12-08T00:00:00Z",
+      "summary": "We’ve got plenty of gift ideas, from those who game through the night, to those who decorate their profile just right — let’s dig in!",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69370de739d6d3c5ec3739da_NitroHoliday_BlogHeader_Final_V2%20(1).png"
     }
   ]
 }
