@@ -172,6 +172,15 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5Tj4gJrV5hxlIWxlmoXVZe/7661c1e47c0c868b88301b5f4aca4441/BLOG-3213_2.png"
     },
     {
+      "id": "48400e1b376ddaca9520",
+      "title": "AI cybersecurity is not proof of work",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/163",
+      "publishedAt": "2026-04-16T10:46:46Z",
+      "summary": "The proof of work is the wrong analogy: finding hash collisions, while exponentially harder with N, is guaranteed to find, with enough work, some S so that H(S) satisfies N, so an asymmetry of resources used will see the side with more \"work ability\" eventually winning. But bugs are different: 1. Different LLMs executions take different branches, but eventually the possible branches based on the c",
+      "imageURL": null
+    },
+    {
       "id": "9ba15f9ea9e76fe22bdd",
       "title": "Cloudflare Email Service: now in public beta. Ready for your agents",
       "sourceName": "Cloudflare Blog",
@@ -188,6 +197,15 @@
       "publishedAt": "2026-04-16T00:00:00Z",
       "summary": "Learn all sorts of toggles, options, and features on Discord’s desktop app to help you view media at your pace, lower the strength of colors across the app, and make app content easier to see.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6853360f59d0d7fd18e594a6_image6.png"
+    },
+    {
+      "id": "5b06226dd688f0ff7703",
+      "title": "Who even uses jemalloc in 2026 anyway? (many major projects)",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-04-16-who-even-uses-jemalloc-anyway.html",
+      "publishedAt": "2026-04-16T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
     },
     {
       "id": "3d18b34f8ddd191c4f88",
@@ -268,6 +286,15 @@
       "url": "https://stackoverflow.blog/2026/04/15/why-ai-hasn-t-replaced-human-expertise/",
       "publishedAt": "2026-04-15T13:00:00Z",
       "summary": "The most valuable AI tools in your enterprise stack do more than generate answers. They help developers determine which answers to trust.",
+      "imageURL": null
+    },
+    {
+      "id": "bac0b3e4cacacd38339b",
+      "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
+      "sourceName": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/writing/simdutf-no-libcxx",
+      "publishedAt": "2026-04-15T00:00:00Z",
+      "summary": null,
       "imageURL": null
     },
     {
@@ -370,6 +397,15 @@
       "imageURL": null
     },
     {
+      "id": "4d13fcf466bb2d448da7",
+      "title": "Spec Driven Development isn't Waterfall",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/04/09/waterfall-vs-spec",
+      "publishedAt": "2026-04-09T00:00:00Z",
+      "summary": "Spec Driven Development isn’t Waterfall Write down what you mean. After spending a few months writing (e.g. on the Kiro Blog ), and speaking (e.g. Real Python Podcast , SE Radio ) about spec-driven development, I’ve noticed a common misconception: spec driven development is a return to a waterfall style of software development. Specification driven development ( in Kiro, for example ) isn’t about ",
+      "imageURL": null
+    },
+    {
       "id": "f0e55a409dbb71130f70",
       "title": "Build a multi-tenant configuration system with tagged storage patterns",
       "sourceName": "AWS Architecture Blog",
@@ -394,6 +430,15 @@
       "url": "https://www.docker.com/?p=88539",
       "publishedAt": "2026-04-08T18:23:51Z",
       "summary": "We recently announced the integration between Mend.io and Docker Hardened Images (DHI) provides a seamless framework for managing container security. By automatically distinguishing between base image vulnerabilities and application-layer risks, it uses VEX statements to differentiate between exploitable vulnerabilities and non-exploitable vulnerabilities, allowing your team to prioritize what rea",
+      "imageURL": null
+    },
+    {
+      "id": "715c75d48b24f86161cb",
+      "title": "How jobs, events, and funding work on The Consensus",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-04-08-jobs-funding-and-companies.html",
+      "publishedAt": "2026-04-08T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
     },
     {
@@ -440,6 +485,15 @@
       "publishedAt": "2026-04-07T00:00:00Z",
       "summary": "We analyzed checkout activity across more than 20K businesses, surveyed shoppers and ecommerce leaders, and gathered insights from businesses on the Stripe network to understand what’s changing in online conversion.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/ldkId6Rz1TQvWrVdACbe0/c3c1a161b959d5714171ee73b4e79fcc/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png"
+    },
+    {
+      "id": "0a0c8791c404efbffa87",
+      "title": "The Building Block Economy",
+      "sourceName": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/writing/building-block-economy",
+      "publishedAt": "2026-04-07T00:00:00Z",
+      "summary": null,
+      "imageURL": null
     },
     {
       "id": "4bc7ce9b86b758c39482",
@@ -493,6 +547,15 @@
       "url": "https://stackoverflow.blog/2026/04/03/seizing-the-means-of-messenger-production/",
       "publishedAt": "2026-04-03T07:40:00Z",
       "summary": "Ryan sits down with Galen Wolfe-Pauly, CEO of Tlon, to chat about calm computing and how humans can take back ownership of their data and digital world.",
+      "imageURL": null
+    },
+    {
+      "id": "cd385e68e33221f34c21",
+      "title": "Who contributed to DataFusion 53",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-04-03-who-contributed-to-datafusion-53.html",
+      "publishedAt": "2026-04-03T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
     },
     {
@@ -649,6 +712,15 @@
       "imageURL": null
     },
     {
+      "id": "10bbc9d441686ae1e4c2",
+      "title": "The Spec Layer",
+      "sourceName": "Matt Rickard",
+      "url": "https://mattrickard.com/the-spec-layer",
+      "publishedAt": "2026-03-31T14:30:00Z",
+      "summary": "An AI agent implements a feature. The code compiles. The tests pass. It still misses the point. The wrong kind of correct. Most of our software tooling is optimized for the failures humans used to make. Agents fail differently. They usually don't break the build. They disable the failing test. They reuse the nearest pattern. They preserve the old path and add a new one beside it. Everything looks ",
+      "imageURL": null
+    },
+    {
       "id": "c69d1b6422e7c32d3491",
       "title": "How we made Trail of Bits AI-native (so far)",
       "sourceName": "Trail of Bits",
@@ -691,6 +763,15 @@
       "url": "https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/",
       "publishedAt": "2026-03-30T00:00:00Z",
       "summary": "Kubernetes v1.36 is coming at the end of April 2026. This release will include removals and deprecations, and it is packed with an impressive number of enhancements. Here are some of the features we are most excited about in this cycle! Please note that this information reflects the current state of v1.36 development and may change before release. The Kubernetes API removal and deprecation process",
+      "imageURL": null
+    },
+    {
+      "id": "5d4d28a23ebee8780a79",
+      "title": "Taking multi-master MariaDB for a spin, reproducing a Jepsen report",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-03-29-taking-galera-for-a-spin.html",
+      "publishedAt": "2026-03-29T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
     },
     {
@@ -764,6 +845,15 @@
       "publishedAt": "2026-03-25T11:00:00Z",
       "summary": "We’re releasing a new Claude plugin for developing and auditing code that implements dimensional analysis, a technique we explored in our most recent blog post . Most LLM-based security skills ask the model to find bugs. Our new dimensional-analysis plugin for Claude Code takes a different approach: it uses the LLM to annotate your codebase with dimensional types, then flags mismatches mechanicall",
       "imageURL": "https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/try-our-new-dimensional-analysis-claude-plugin-image-1_hu_7d3093e4aab4ef47.webp"
+    },
+    {
+      "id": "d3b665f9c47888c3e2ef",
+      "title": "What about juniors?",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/03/25/ic-junior",
+      "publishedAt": "2026-03-25T00:00:00Z",
+      "summary": "What about juniors? Start at the beginning. Last week I wrote about how the role of the most senior tech ICs has changed. Today, I wanted to share some thoughts on a more difficult topic: how the role of junior software engineers, folks just starting out on their career, has changed or will change. First, the good news. In last week’s post, I wrote this about senior folks: It’s hard to admit where",
+      "imageURL": "/blog/images/railways.jpg"
     },
     {
       "id": "81a2ea0bd562b7167ee4",
@@ -865,6 +955,15 @@
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6EX5VwS3VABCPIi20UrofS/7ce914e20366c183f0fcfa7ae8d8a5ba/MRC-index.png"
     },
     {
+      "id": "503516f0d5ef1260af20",
+      "title": "My heuristics are wrong. What now?",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/03/20/ic-leadership",
+      "publishedAt": "2026-03-20T00:00:00Z",
+      "summary": "My heuristics are wrong. What now? More words. More meaning? Some people who ask me for advice get a lot of words in reply. Sometimes, those responses aren’t specific to my particular workplace, and so I share them here. In the past, I’ve written about echo chambers , writing , writing for an audience , time management , and getting big things done . Do you remember Cool Runnings ? In the movie, J",
+      "imageURL": null
+    },
+    {
       "id": "22a8625a4cfb3ac522f2",
       "title": "Building a Voice-First AI Journal: How to Add a Knowledgeable Tutor",
       "sourceName": "PingCAP / TiDB",
@@ -910,6 +1009,24 @@
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Ee0jsPU0no73KBQtvLZSs/3f8e7c460e2e394b0deb3aba8af00fcc/Blog_Index_2x__1_.png"
     },
     {
+      "id": "92271301647b9abd07e0",
+      "title": "Developer Spotlight: Somtochi Onyekwere from Fly.io",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-03-19-developer-spotlight-somtochi-onyekwere.html",
+      "publishedAt": "2026-03-19T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
+      "id": "0ada9b1d6b3987b44ba4",
+      "title": "A static site generator and website transferring under 20kB",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-03-19-a-static-site-generator.html",
+      "publishedAt": "2026-03-19T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "311976d1dbb36ece234c",
       "title": "How to Instantly Restore a Dropped Table in TiDB",
       "sourceName": "PingCAP / TiDB",
@@ -953,6 +1070,15 @@
       "publishedAt": "2026-03-18T00:00:00Z",
       "summary": "We’re launching the Machine Payments Protocol (MPP), an open standard, internet-native way for agents to pay—co-authored by Tempo and Stripe. Businesses on Stripe can accept payments over MPP in a few lines of code using our PaymentIntents API.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5XnKM1MhctFUry2VRGpdHI/7d68233cb5e62da2b590136c7918a559/MPP-index.png"
+    },
+    {
+      "id": "65a3bc48f68d04ecd225",
+      "title": "Music To Build Agents By",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/03/18/apprentice",
+      "publishedAt": "2026-03-18T00:00:00Z",
+      "summary": "Music To Build Agents By I don't have this problem, because I don't use a mouse. Press play, then start reading: Want to learn how to think about agent policy? Start with Goethe’s Der Zauberlehrling . So come along, you old broomstick! Dress yourself in rotten rags! You’ve long been a servant; Obey my orders now! When I talk to customers and teams around me about agents and agent policy, and the w",
+      "imageURL": null
     },
     {
       "id": "08f2f20a2b1a3cb9e880",
@@ -1081,6 +1207,15 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69b0462c05e2cfb5433031ce_game-claiming-blog-1800x720.png"
     },
     {
+      "id": "1e127fc811cae8caefd3",
+      "title": "Mojo's not (yet) Python",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-03-12-mojos-not-yet-python.html",
+      "publishedAt": "2026-03-12T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "e043232be621e3baab7a",
       "title": "Building a Voice-First AI Journal: What I Learned About AI Memory, Vector Search, and TiDB",
       "sourceName": "PingCAP / TiDB",
@@ -1126,6 +1261,24 @@
       "imageURL": null
     },
     {
+      "id": "ddaa47e92f545a8af021",
+      "title": "Examples for the tcpdump and dig man pages",
+      "sourceName": "Julia Evans",
+      "url": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
+      "publishedAt": "2026-03-10T00:00:00Z",
+      "summary": "Hello! My big takeaway from last month’s musings about man pages was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools’ man pages. Here they are: the dig man page (now with examples) the tcpdump man page examples (this one is an update to the previous examples) the goal: include the most basic examples The goal here was really j",
+      "imageURL": null
+    },
+    {
+      "id": "f5be77fdc72a6694016c",
+      "title": "Your Data is Made Powerful By Context (so stop destroying it already) (xpost)",
+      "sourceName": "Charity Majors",
+      "url": "https://charity.wtf/?p=10380",
+      "publishedAt": "2026-03-09T22:10:14Z",
+      "summary": "Your Data Is Made Powerful By Context (so stop destroying it already) In logs as in life, the relationships are the most important part. AI doesn’t fix this. It makes it worse. ( cross-posted ) After twenty years of devops , most software engineers still treat observability like a fire alarm — something you check when things are already on fire. Not a feedback loop you use to validate every change",
+      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%21OFqQ%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F040c3242-0148-4054-abfc-9351c175650c_800x1058.jpeg?w=487&#038;ssl=1"
+    },
+    {
       "id": "89336d8008f68163a6c4",
       "title": "Announcing the AI Gateway Working Group",
       "sourceName": "Kubernetes Blog",
@@ -1151,6 +1304,15 @@
       "publishedAt": "2026-03-09T00:00:00Z",
       "summary": "At GDC 2026, Discord gives developers more ways to close the gap between connection and play.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69ab2ba75deb42d5757ebfe2_MarvelRivals-AccLinking-hero-BLOG-March-1800x720.png"
+    },
+    {
+      "id": "36595751c2a875183913",
+      "title": "GNU and the AI reimplementations",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/162",
+      "publishedAt": "2026-03-08T16:08:41Z",
+      "summary": "Those who cannot remember the past are condemned to repeat it. A sentence that I never really liked, and what is happening with AI, about software projects reimplementations, shows all the limits of such an idea. Many people are protesting the fairness of rewriting existing projects using AI. But, a good portion of such people, during the 90s, were already in the field: they followed the final par",
+      "imageURL": null
     },
     {
       "id": "18d1a74adfd8d3bb91ce",
@@ -1225,6 +1387,15 @@
       "imageURL": null
     },
     {
+      "id": "8b961bafdedfca4c3f53",
+      "title": "My (hypothetical) SRECon26 keynote (xpost)",
+      "sourceName": "Charity Majors",
+      "url": "https://charity.wtf/?p=10365",
+      "publishedAt": "2026-03-03T01:06:47Z",
+      "summary": "My (hypothetical) SRECon26 keynote One year ago, Fred Hebert and I delivered the closing keynote at SRECon25. Looking back on it now, I can hardly connect with how I felt then. Here’s what I’d say one year later. Crossposted from here. Hey, it’s almost time for SRECon 2026 ! (I can’t go, but YOU really should!) Which means it was almost a year ago that Fred Hebert and I were up on stage, deliverin",
+      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%216A3s%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb8458b4-f5fe-4e53-a5a7-94cbe057e946_467x374.jpeg?w=375&#038;ssl=1"
+    },
+    {
       "id": "9858fa8b4ec193fa7584",
       "title": "Supporting additional payment methods for agentic commerce",
       "sourceName": "Stripe Blog",
@@ -1241,6 +1412,24 @@
       "publishedAt": "2026-03-02T00:00:00Z",
       "summary": "State-of-the-art LLMs can now solve a majority of scoped coding problems, but it’s an open question whether they can fully autonomously manage software engineering projects. We spent months building evaluation environments to benchmark how well AI agents can create real Stripe integrations.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3eECFWnjwVnp7EForWM9lL/2ab86dd9a7c6b61fe6b7d6b8009f2598/Index-New_2x__1_.png"
+    },
+    {
+      "id": "b25389c1cfddc0beb630",
+      "title": "Source-available projects and their AI contribution policies",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-03-02-source-available-projects-and-their-ai-contribution-policies.html",
+      "publishedAt": "2026-03-02T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
+      "id": "b86d2fa612e045c9d892",
+      "title": "Redis patterns for coding",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/161",
+      "publishedAt": "2026-03-01T09:55:09Z",
+      "summary": "Here LLM and coding agents can find: 1. Exhaustive documentation about Redis commands and data types. 2. Patterns commonly used. 3. Configuration hints. 4. Algorithms that can be mounted using Redis commands. https://redis.antirez.com/ Some humans claim this documentation is actually useful for actual people, as well :) I'm posting this to make sure search engines will index it. Comments",
+      "imageURL": null
     },
     {
       "id": "6a5656002dd43d178944",
@@ -1270,6 +1459,15 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/llm-and-human-labeling/headers/Machine Learning-Human Evaluations-1440x305-light.png"
     },
     {
+      "id": "9d017a3ee485f1a04d8b",
+      "title": "Open Source Contributor Spotlight: Kosta Tarasov and DataFusion",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-02-26-datafusion-contributor-spotlight-kosta-tarasov.html",
+      "publishedAt": "2026-02-26T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "4136a1a070fa1015966f",
       "title": "6,000 AWS accounts, three people, one platform: Lessons learned",
       "sourceName": "AWS Architecture Blog",
@@ -1288,6 +1486,24 @@
       "imageURL": null
     },
     {
+      "id": "69e38f205765909ff291",
+      "title": "I started a software research company",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-02-25-i-started-a-company.html",
+      "publishedAt": "2026-02-25T00:00:00Z",
+      "summary": "I quit my job at EnterpriseDB hacking on PostgreSQL products last month to start a company researching and writing about software infrastructure. I believe there is space for analysis that is more focused on code than TechCrunch or The Register, more open to covering corporate software development than LWN.net, and (as much as I love some of these folks) less biased than VCs writing about their ow",
+      "imageURL": null
+    },
+    {
+      "id": "5c0a52a9aba6c91cf663",
+      "title": "SFQ: Simple, Stateless, Stochastic Fairness",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/02/25/sfq",
+      "publishedAt": "2026-02-25T00:00:00Z",
+      "summary": "SFQ: Simple, Stateless, Stochastic Fairness Roll the dice. .subtitle { margin-bottom: 15px; color: #666; font-size: 14px; } .container { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; } .sim-wrapper { display: flex; flex-direction: column; align-items: center; } .sim-wrapper h2 { margin: 0 0 10px 0; font-size: 16px; } canvas { background: white; border: 1px solid #ccc; } .cont",
+      "imageURL": null
+    },
+    {
       "id": "54f35ead1b8fcd0109b1",
       "title": "Academic publications & Airbnb Tech: 2025 year in review",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -1295,6 +1511,15 @@
       "publishedAt": "2026-02-24T18:36:39Z",
       "summary": "2025 was a big year for research at Airbnb, as we made significant progress toward our mission to use AI, data science, and machine learning to become the best travel and living platform. Specifically, we doubled down on our presence at long-standing venues like KDD and CIKM — two of the most selective conferences in machine learning. At the same time, we expanded our research footprint by sharing",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*FfdFpfjGZODh7ltZ2W2Mrg.jpeg"
+    },
+    {
+      "id": "d01f2eaace528bf36c75",
+      "title": "Implementing a clear room Z80 / ZX Spectrum emulator with Claude Code",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/160",
+      "publishedAt": "2026-02-24T17:58:02Z",
+      "summary": "Anthropic recently released a blog post with the description of an experiment in which the last version of Opus, the 4.6, was instructed to write a C compiler in Rust, in a “clean room” setup. The experiment methodology left me dubious about the kind of point they wanted to make. Why not provide the agent with the ISA documentation? Why Rust? Writing a C compiler is exactly a giant graph manipulat",
+      "imageURL": null
     },
     {
       "id": "99fe81ac12f4beb45b38",
@@ -1306,6 +1531,15 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67d0c4e0932bb59c7f6271e5_2024_10_DiscordBlog_UsingDiscord-1.png"
     },
     {
+      "id": "a2ec1f0db9529c3cd3b7",
+      "title": "We have pgvector at home",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-02-22-we-have-pgvector-at-home.html",
+      "publishedAt": "2026-02-22T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "db223c2f496fbc1f3b45",
       "title": "Using threat modeling and prompt injection to audit Comet",
       "sourceName": "Trail of Bits",
@@ -1313,6 +1547,15 @@
       "publishedAt": "2026-02-20T16:00:00Z",
       "summary": "Before launching their Comet browser, Perplexity hired us to test the security of their AI-powered browsing features. Using adversarial testing guided by our TRAIL threat model, we demonstrated how four prompt injection techniques could extract users’ private information from Gmail by exploiting the browser’s AI assistant. The vulnerabilities we found reflect how AI agents behave when external con",
       "imageURL": "https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/using-threat-modeling-and-prompt-injection-to-audit-comet-image-1_hu_ec7b70f1e492cd9d.webp"
+    },
+    {
+      "id": "edbffd3647937f4cb6de",
+      "title": "First I wrote the wrong book, then I wrote the right book (xpost)",
+      "sourceName": "Charity Majors",
+      "url": "https://charity.wtf/?p=10344",
+      "publishedAt": "2026-02-19T03:35:45Z",
+      "summary": "I’m not sure whether to say “thank you” or “HOW COULD YOU DO THIS TO ME”, but this one goes out to all the people who sent me advice on buying software last fall. This is the second in a two-part episode. The first part ended on a ✨cliffhanger!!!✨ — so if you missed the first episode, catch up here: Martin Fowler told me the second edition should be shorter (it’s twice as long) Charity Majors Six ",
+      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%218RWJ%21%2Cw_140%2Ch_140%2Cc_fill%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep%2Cg_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f4894f1-c0b4-4651-981b-54401808e8e8_1024x768.jpeg?resize=140%2C140&#038;ssl=1"
     },
     {
       "id": "d32747c3141561a6a59e",
@@ -1348,6 +1591,33 @@
       "url": "https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/",
       "publishedAt": "2026-02-18T12:00:00Z",
       "summary": "Two popular AES libraries, aes-js and pyaes, “helpfully” provide a default IV in their AES-CTR API, leading to a large number of key/IV reuse bugs. These bugs potentially affect thousands of downstream projects. When we shared one of these bugs with an affected vendor, strongSwan, the maintainer provided a model response for security vendors. The aes-js/pyaes maintainer, on the other hand, has tak",
+      "imageURL": null
+    },
+    {
+      "id": "0a636615551d63d81c1e",
+      "title": "Martin Fowler told me the second edition should be shorter (it’s twice as long) (xpost)",
+      "sourceName": "Charity Majors",
+      "url": "https://charity.wtf/?p=10335",
+      "publishedAt": "2026-02-18T02:42:30Z",
+      "summary": "90% new material, a clearer mission, and a rogues gallery of contributors. The second edition of Observability Engineering is almost done. Originally posted here. Last week I got to meet Martin Fowler for the first time in person. This was an exciting moment for me. Martin ranks high on my personal pantheon; he is, so far as I can tell, hardly ever wrong. Martin Fowler, me, and Nathen Harvey, at t",
+      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%218RWJ%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f4894f1-c0b4-4651-981b-54401808e8e8_1024x768.jpeg?resize=600%2C450&#038;ssl=1"
+    },
+    {
+      "id": "d55372f2afb32ab0adb0",
+      "title": "Notes on clarifying man pages",
+      "sourceName": "Julia Evans",
+      "url": "https://jvns.ca/blog/2026/02/18/man-pages/",
+      "publishedAt": "2026-02-18T00:00:00Z",
+      "summary": "Hello! After spending some time working on the Git man pages last year, I’ve been thinking a little more about what makes a good man page. I’ve spent a lot of time writing cheat sheets for tools (tcpdump, git, dig, etc) which have a man page as their primary documentation. This is because I often find the man pages hard to navigate to get the information I want. Lately I’ve wondering – could the m",
+      "imageURL": "https://jvns.ca/images/dash.webp"
+    },
+    {
+      "id": "453f1492afb29b4de972",
+      "title": "Generating vector embeddings for semantic search locally",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-02-15-generating-vector-embeddings-locally.html",
+      "publishedAt": "2026-02-15T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
     },
     {
@@ -1387,6 +1657,24 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/cto-roundtable/cto-roundtable-1440x305-light.png"
     },
     {
+      "id": "e5797067617ffb0be586",
+      "title": "Paths of MySQL, vector search edition",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-02-08-paths-of-mysql-vector-search-edition.html",
+      "publishedAt": "2026-02-08T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
+      "id": "48f5dfdd0f5b06164f8e",
+      "title": "You Are Here",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/02/07/you-are-here",
+      "publishedAt": "2026-02-07T00:00:00Z",
+      "summary": "You Are Here Where to next? The cost of turning written business logic into code has dropped to zero. Or, at best, near-zero. The cost of integrating services and libraries, the plumbing of the code world, has dropped to zero. Or, at best, near-zero. The cost of building efficient, reliable, secure, end-to-end systems is starting to drop, but slowly. Where does that leave those of us who have buil",
+      "imageURL": null
+    },
+    {
       "id": "e1cc0a2d0c1ba7a985a0",
       "title": "How Convera built fine-grained API authorization with Amazon Verified Permissions",
       "sourceName": "AWS Architecture Blog",
@@ -1394,6 +1682,15 @@
       "publishedAt": "2026-02-05T21:21:54Z",
       "summary": "Convera processes billions in cross-border payment volume yearly for businesses and financial institutions worldwide. As their platform grew, they needed a robust authorization system that could protect sensitive financial data while maintaining operational efficiency across their global network. In this post, we share how Convera used Amazon Verified Permissions to build a fine-grained authorizat",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/02/image-archblog-11401.png"
+    },
+    {
+      "id": "0036f2d9e96981500693",
+      "title": "My AI Adoption Journey",
+      "sourceName": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
+      "publishedAt": "2026-02-05T00:00:00Z",
+      "summary": null,
+      "imageURL": null
     },
     {
       "id": "d70d8d181551887592a5",
@@ -1430,6 +1727,24 @@
       "publishedAt": "2026-02-02T00:00:00Z",
       "summary": "Make your first impression count with a profile that represents you how YOU want to be seen. Learn how to edit and customize your profile to have it rep you the right way.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/681939dfe8fd42947e36366d_2024_10_DiscordBlog_Educational-4.png"
+    },
+    {
+      "id": "cb8645b85e7921c0dc78",
+      "title": "Companies behind Postgres 18 development",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-02-02-companies-behind-postgres-18.html",
+      "publishedAt": "2026-02-02T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
+      "id": "5c9392a8684f6c565574",
+      "title": "Automatic programming",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/159",
+      "publishedAt": "2026-01-31T09:25:27Z",
+      "summary": "In my YouTube channel, for some time now I started to refer to the process of writing software using AI assistance (soon to become just \"the process of writing software\", I believe) with the term \"Automatic Programming\". In case you didn't notice, automatic programming produces vastly different results with the same LLMs depending on the human that is guiding the process with their intuition, desi",
+      "imageURL": null
     },
     {
       "id": "3a208c198b84eb18351a",
@@ -1484,321 +1799,6 @@
       "publishedAt": "2026-01-29T00:00:00Z",
       "summary": "I’m Ben Johnson, and I work on Litestream at Fly.io. Litestream is the missing backup/restore system for SQLite. It’s free, open-source software that should run anywhere, and you can read more about it here . Each time we write about it, we get a little bit better at golfing down a description of what Litestream is. Here goes: Litestream is a Unix-y tool for keeping a SQLite database synchronized ",
       "imageURL": "/blog/litestream-writable-vfs/assets/write-path.png"
-    },
-    {
-      "id": "0f11d6ed39b7c4e926eb",
-      "title": "Ingress NGINX: Statement from the Kubernetes Steering and Security Response Committees",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/",
-      "publishedAt": "2026-01-29T00:00:00Z",
-      "summary": "In March 2026, Kubernetes will retire Ingress NGINX, a piece of critical infrastructure for about half of cloud native environments. The retirement of Ingress NGINX was announced for March 2026, after years of public warnings that the project was in dire need of contributors and maintainers. There will be no more releases for bug fixes, security patches, or any updates of any kind after the projec",
-      "imageURL": null
-    },
-    {
-      "id": "ee6d7d10c923c9c5f3a2",
-      "title": "Engineering VP Josh Clemm on how we use knowledge graphs, MCP, and DSPy in Dash",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/machine-learning/vp-josh-clemm-knowledge-graphs-mcp-and-dspy-dash",
-      "publishedAt": "2026-01-28T18:00:00Z",
-      "summary": "I was recently a guest speaker in Jason Liu’s online course on RAG offered by the education platform Maven. I did some mini deep-dives into what we’ve been doing at Dropbox with knowledge graphs; how we’re thinking about indexes, MCP, and tool calling in general; some of the work we do with LLM as a judge; and how we use prompt optimizers like DSPy. This is an edited and condensed version of my ta",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/january/maven/headers/Machine Learning-Knowledge Graphs MCP and DSPy with Josh Clemm-375x150-dark.png"
-    },
-    {
-      "id": "37ce7cb1d4bc32144e87",
-      "title": "From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=93464",
-      "publishedAt": "2026-01-28T17:00:00Z",
-      "summary": "Most people think ASCII art is simple, and a nostalgic remnant of the early internet. But when the GitHub Copilot CLI team asked for a small entrance banner for the new command-line experience, they discovered the opposite: An ASCII animation in a real-world terminal is one of the most constrained UI engineering problems you can take on. Part of what makes this even more interesting is the moment ",
-      "imageURL": "https://github.blog/wp-content/uploads/2026/01/banner1.png?resize=872%2C246"
-    },
-    {
-      "id": "7d6487ec92b1499e0b65",
-      "title": "Experimenting with Gateway API using kind",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/28/experimenting-gateway-api-with-kind/",
-      "publishedAt": "2026-01-28T00:00:00Z",
-      "summary": "This document will guide you through setting up a local experimental environment with Gateway API on kind . This setup is designed for learning and testing. It helps you understand Gateway API concepts without production complexity. Caution: This is an experimentation learning setup, and should not be used for production. The components used on this document are not suited for production usage. On",
-      "imageURL": null
-    },
-    {
-      "id": "40ebbf46fbff61baaa94",
-      "title": "Cluster API v1.12: Introducing In-place Updates and Chained Upgrades",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/27/cluster-api-v1-12-release/",
-      "publishedAt": "2026-01-27T16:00:00Z",
-      "summary": "Cluster API brings declarative management to Kubernetes cluster lifecycle, allowing users and platform teams to define the desired state of clusters and rely on controllers to continuously reconcile toward it. Similar to how you can use StatefulSets or Deployments in Kubernetes to manage a group of Pods, in Cluster API you can use KubeadmControlPlane to manage a set of control plane Machines, or y",
-      "imageURL": "https://kubernetes.io/blog/2026/01/27/cluster-api-v1-12-release/in-place.svg"
-    },
-    {
-      "id": "d8aa64c857b6c5f59b63",
-      "title": "Headlamp in 2025: Project Highlights",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights/",
-      "publishedAt": "2026-01-22T02:00:00Z",
-      "summary": "This announcement is a recap from a post originally published on the Headlamp blog. Headlamp has come a long way in 2025. The project has continued to grow – reaching more teams across platforms, powering new workflows and integrations through plugins, and seeing increased collaboration from the broader community. We wanted to take a moment to share a few updates and highlight how Headlamp has evo",
-      "imageURL": "https://kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights/multi-cluster-view.png"
-    },
-    {
-      "id": "bcaf4b364bab52914859",
-      "title": "Announcing the Checkpoint/Restore Working Group",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/21/introducing-checkpoint-restore-wg/",
-      "publishedAt": "2026-01-21T18:00:00Z",
-      "summary": "The community around Kubernetes includes a number of Special Interest Groups (SIGs) and Working Groups (WGs) facilitating discussions on important topics between interested contributors. Today we would like to announce the new Kubernetes Checkpoint Restore WG focusing on the integration of Checkpoint/Restore functionality into Kubernetes. Motivation and use cases There are several high-level scena",
-      "imageURL": null
-    },
-    {
-      "id": "a45a5dcb3439745169e8",
-      "title": "Uniform API server access using clientcmd",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/19/clientcmd-apiserver-access/",
-      "publishedAt": "2026-01-19T18:00:00Z",
-      "summary": "If you've ever wanted to develop a command line client for a Kubernetes API, especially if you've considered making your client usable as a kubectl plugin, you might have wondered how to make your client feel familiar to users of kubectl . A quick glance at the output of kubectl options might put a damper on that: \"Am I really supposed to implement all those options?\" Fear not, others have done a ",
-      "imageURL": null
-    },
-    {
-      "id": "b2a0d81f118a6e109e14",
-      "title": "When protections outlive their purpose: A lesson on managing defense systems at scale",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=93309",
-      "publishedAt": "2026-01-15T20:54:32Z",
-      "summary": "To keep a platform like GitHub available and responsive, it’s critical to build defense mechanisms. A whole lot of them. Rate limits, traffic controls, and protective measures spread across multiple layers of infrastructure. These all play a role in keeping the service healthy during abuse or attacks. We recently ran into a challenge: Those same protections can quietly outlive their usefulness and",
-      "imageURL": "https://github.blog/wp-content/uploads/2026/01/1.png?resize=1024%2C659"
-    },
-    {
-      "id": "68d160f849b9ddbaf02d",
-      "title": "The Design & Implementation of Sprites",
-      "sourceName": "Fly.io Blog",
-      "url": "https://fly.io/blog/design-and-implementation/",
-      "publishedAt": "2026-01-14T00:00:00Z",
-      "summary": "We’re Fly.io, and this is the place in the post where we’d normally tell you that our job is to take your containers and run them on our own hardware all around the world. But last week, we launched Sprites , and they don’t work that way at all. Sprites are something new: Docker without Docker without Docker. This post is about how they work. Replacement-level homeowners buy boxes of pens and stic",
-      "imageURL": "/static/images/cta-cat.webp"
-    },
-    {
-      "id": "2f44f3cb878e46f18385",
-      "title": "Lack of isolation in agentic browsers resurfaces old vulnerabilities",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/01/13/lack-of-isolation-in-agentic-browsers-resurfaces-old-vulnerabilities/",
-      "publishedAt": "2026-01-13T12:00:00Z",
-      "summary": "With browser-embedded AI agents, we’re essentially starting the security journey over again. We exploited a lack of isolation mechanisms in multiple agentic browsers to perform attacks ranging from the dissemination of false information to cross-site data leaks. These attacks, which are functionally similar to cross-site scripting (XSS) and cross-site request forgery (CSRF), resurface decades-old ",
-      "imageURL": "https://blog.trailofbits.com/2026/01/13/lack-of-isolation-in-agentic-browsers-resurfaces-old-vulnerabilities/lack-of-isolation-in-agentic-browsers_figure_1_hu_4bd6fe5c9a41152f.webp"
-    },
-    {
-      "id": "44acb94a2e949d569937",
-      "title": "How Salesforce migrated from Cluster Autoscaler to Karpenter across their fleet of 1,000 EKS clusters",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-salesforce-migrated-from-cluster-autoscaler-to-karpenter-across-their-fleet-of-1000-eks-clusters/",
-      "publishedAt": "2026-01-12T20:03:32Z",
-      "summary": "As organizations scale their Kubernetes deployments, Kubernetes cluster scaling has traditionally been complex and slow, requiring careful management of node groups and auto scaling configurations. Karpenter , an open source node provisioning project for Kubernetes, can help transform this approach by directly provisioning right-sized nodes based on real-time workload demands. A recent Datadog rep",
-      "imageURL": null
-    },
-    {
-      "id": "57de3aea4e556decaf63",
-      "title": "Kubernetes v1.35: Restricting executables invoked by kubeconfigs via exec plugin allowList added to kuberc",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist/",
-      "publishedAt": "2026-01-09T18:30:00Z",
-      "summary": "Did you know that kubectl can run arbitrary executables, including shell scripts, with the full privileges of the invoking user, and without your knowledge? Whenever you download or auto-generate a kubeconfig , the users[n].exec.command field can specify an executable to fetch credentials on your behalf. Don't get me wrong, this is an incredible feature that allows you to authenticate to the clust",
-      "imageURL": null
-    },
-    {
-      "id": "d8ee4fb41e2bb972a153",
-      "title": "Code And Let Live",
-      "sourceName": "Fly.io Blog",
-      "url": "https://fly.io/blog/code-and-let-live/",
-      "publishedAt": "2026-01-09T00:00:00Z",
-      "summary": "The state of the art in agent isolation is a read-only sandbox. At Fly.io, we’ve been selling that story for years, and we’re calling it: ephemeral sandboxes are obsolete. Stop killing your sandboxes every time you use them. My argument won’t make sense without showing you something new we’ve built. We’re all adults here, this is a company, we talk about what we do. Here goes. So, I want to run so",
-      "imageURL": "/blog/code-and-let-live/assets/kurtmdm.png?1/2&amp;card&amp;center"
-    },
-    {
-      "id": "c3791aa10aa5fb757b99",
-      "title": "Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha)",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/08/kubernetes-v1-35-mutable-pv-nodeaffinity/",
-      "publishedAt": "2026-01-08T18:30:00Z",
-      "summary": "The PersistentVolume node affinity API dates back to Kubernetes v1.10. It is widely used to express that volumes may not be equally accessible by all nodes in the cluster. This field was previously immutable, and it is now mutable in Kubernetes v1.35 (alpha). This change opens a door to more flexible online volume management. Why make node affinity mutable? This raises an obvious question: why mak",
-      "imageURL": null
-    },
-    {
-      "id": "4487472ab54d1962439c",
-      "title": "Kubernetes v1.35: A Better Way to Pass Service Account Tokens to CSI Drivers",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/07/kubernetes-v1-35-csi-sa-tokens-secrets-field-beta/",
-      "publishedAt": "2026-01-07T18:30:00Z",
-      "summary": "If you maintain a CSI driver that uses service account tokens, Kubernetes v1.35 brings a refinement you'll want to know about. Since the introduction of the TokenRequests feature , service account tokens requested by CSI drivers have been passed to them through the volume_context field. While this has worked, it's not the ideal place for sensitive information, and we've seen instances where tokens",
-      "imageURL": null
-    },
-    {
-      "id": "d55ef837b7264a9f5649",
-      "title": "Kubernetes v1.35: Extended Toleration Operators to Support Numeric Comparisons (Alpha)",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/05/kubernetes-v1-35-numeric-toleration-operators/",
-      "publishedAt": "2026-01-05T18:30:00Z",
-      "summary": "Many production Kubernetes clusters blend on-demand (higher-SLA) and spot/preemptible (lower-SLA) nodes to optimize costs while maintaining reliability for critical workloads. Platform teams need a safe default that keeps most workloads away from risky capacity, while allowing specific workloads to opt-in with explicit thresholds like \"I can tolerate nodes with failure probability up to 5%\". Today",
-      "imageURL": null
-    },
-    {
-      "id": "15e8b937534d0b0c67ca",
-      "title": "Kubernetes v1.35: New level of efficiency with in-place Pod restart",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/02/kubernetes-v1-35-restart-all-containers/",
-      "publishedAt": "2026-01-02T18:30:00Z",
-      "summary": "The release of Kubernetes 1.35 introduces a powerful new feature that provides a much-requested capability: the ability to trigger a full, in-place restart of the Pod. This feature, Restart All Containers (alpha in 1.35), allows for an efficient way to reset a Pod's state compared to resource-intensive approach of deleting and recreating the entire Pod. This feature is especially useful for AI/ML ",
-      "imageURL": null
-    },
-    {
-      "id": "c2f785ddb52b678a76a6",
-      "title": "Kubernetes 1.35: Enhanced Debugging with Versioned z-pages APIs",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2025/12/31/kubernetes-v1-35-structured-zpages/",
-      "publishedAt": "2025-12-31T18:30:00Z",
-      "summary": "Debugging Kubernetes control plane components can be challenging, especially when you need to quickly understand the runtime state of a component or verify its configuration. With Kubernetes 1.35, we're enhancing the z-pages debugging endpoints with structured, machine-parseable responses that make it easier to build tooling and automate troubleshooting workflows. What are z-pages? z-pages are spe",
-      "imageURL": null
-    },
-    {
-      "id": "98f4e71445c8f4466a14",
-      "title": "Detect Go’s silent arithmetic bugs with go-panikint",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2025/12/31/detect-gos-silent-arithmetic-bugs-with-go-panikint/",
-      "publishedAt": "2025-12-31T12:00:00Z",
-      "summary": "Go’s arithmetic operations on standard integer types are silent by default, meaning overflows “wrap around” without panicking. This behavior has hidden an entire class of security vulnerabilities from fuzzing campaigns. Today we’re changing that by releasing go-panikint , a modified Go compiler that turns silent integer overflows into explicit panics. We used it to find a live integer overflow in ",
-      "imageURL": null
-    },
-    {
-      "id": "394926200f5e2cb68be7",
-      "title": "Kubernetes v1.35: Watch Based Route Reconciliation in the Cloud Controller Manager",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2025/12/30/kubernetes-v1-35-watch-based-route-reconciliation-in-ccm/",
-      "publishedAt": "2025-12-30T18:30:00Z",
-      "summary": "Up to and including Kubernetes v1.34, the route controller in Cloud Controller Manager (CCM) implementations built using the k8s.io/cloud-provider library reconciles routes at a fixed interval. This causes unnecessary API requests to the cloud provider when there are no changes to routes. Other controllers implemented through the same library already use watch-based mechanisms, leveraging informer",
-      "imageURL": null
-    },
-    {
-      "id": "f3581834d226def4b072",
-      "title": "Kubernetes v1.35: Introducing Workload Aware Scheduling",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2025/12/29/kubernetes-v1-35-introducing-workload-aware-scheduling/",
-      "publishedAt": "2025-12-29T18:30:00Z",
-      "summary": "Scheduling large workloads is a much more complex and fragile operation than scheduling a single Pod, as it often requires considering all Pods together instead of scheduling each one independently. For example, when scheduling a machine learning batch job, you often need to place each worker strategically, such as on the same rack, to make the entire process as efficient as possible. At the same ",
-      "imageURL": null
-    },
-    {
-      "id": "a119404bb5f3f566a9b8",
-      "title": "Kubernetes v1.35: Fine-grained Supplemental Groups Control Graduates to GA",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2025/12/23/kubernetes-v1-35-fine-grained-supplementalgroups-control-ga/",
-      "publishedAt": "2025-12-23T18:30:00Z",
-      "summary": "On behalf of Kubernetes SIG Node, we are pleased to announce the graduation of fine-grained supplemental groups control to General Availability (GA) in Kubernetes v1.35! The new Pod field, supplementalGroupsPolicy , was introduced as an opt-in alpha feature for Kubernetes v1.31, and then had graduated to beta in v1.33. Now, the feature is generally available. This feature allows you to implement m",
-      "imageURL": null
-    },
-    {
-      "id": "c36b39d6de7a62b2e0fb",
-      "title": "Can chatbots craft correct code?",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2025/12/19/can-chatbots-craft-correct-code/",
-      "publishedAt": "2025-12-19T12:00:00Z",
-      "summary": "I recently attended the AI Engineer Code Summit in New York, an invite-only gathering of AI leaders and engineers. One theme emerged repeatedly in conversations with attendees building with AI: the belief that we’re approaching a future where developers will never need to look at code again. When I pressed these proponents, several made a similar argument: Forty years ago, when high-level programm",
-      "imageURL": "https://blog.trailofbits.com/2025/12/19/can-chatbots-craft-correct-code/chatbots-craft-correct-code-image-1_hu_9b7cb33d29b14aa2.webp"
-    },
-    {
-      "id": "67fc63ccf5cb5ff92756",
-      "title": "Inside the feature store powering real-time AI in Dropbox Dash",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/machine-learning/feature-store-powering-realtime-ai-in-dropbox-dash",
-      "publishedAt": "2025-12-18T18:00:00Z",
-      "summary": "Dropbox Dash uses AI to understand questions about your files, work chats, and company content, bringing everything together in one place for deeper, more focused work. With tens of thousands of potential work documents to consider, both search and agents rely on a ranking system powered by real-time machine learning to find the right files fast. At the core of that ranking in Dash is our feature ",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2025/december/headers/MachineLearning-FeatureStore-1440x305-light.png"
-    },
-    {
-      "id": "3a8e23d23f6fc19a08e1",
-      "title": "Use GWP-ASan to detect exploits in production environments",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2025/12/16/use-gwp-asan-to-detect-exploits-in-production-environments/",
-      "publishedAt": "2025-12-16T12:00:00Z",
-      "summary": "Memory safety bugs like use-after-free and buffer overflows remain among the most exploited vulnerability classes in production software. While AddressSanitizer (ASan) excels at catching these bugs during development, its performance overhead (2 to 4 times) and security concerns make it unsuitable for production. What if you could detect many of the same critical bugs in live systems with virtuall",
-      "imageURL": "https://blog.trailofbits.com/2025/12/16/use-gwp-asan-to-detect-exploits-in-production-environments/gwp-asan-image-1_hu_7f6b0553d94dd920.webp"
-    },
-    {
-      "id": "618668ae2f6ead571bf5",
-      "title": "Catching malicious package releases using a transparency log",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2025/12/12/catching-malicious-package-releases-using-a-transparency-log/",
-      "publishedAt": "2025-12-12T12:00:00Z",
-      "summary": "We’re getting Sigstore’s rekor-monitor ready for production use, making it easier for developers to detect tampering and unauthorized uses of their identities in the Rekor transparency log. This work, funded by the OpenSSF , includes support for the new Rekor v2 log , certificate validation, and integration with The Update Framework (TUF). For package maintainers that publish attestations signed u",
-      "imageURL": null
-    },
-    {
-      "id": "f1d189eeaefec3850b8f",
-      "title": "How to Make and Use Custom Emoji on Discord",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/beginners-guide-to-custom-emojis",
-      "publishedAt": "2025-12-12T00:00:00Z",
-      "summary": "Emojis on Discord are special — you can make a little picture out of almost any symbol, in-joke, or bizarre late-night inspiration.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/63603f76620d3470d9bd3f1f_2022_EmojiSurvey_HEADER_2%20(1).png"
-    },
-    {
-      "id": "006b962a64e61e58c66d",
-      "title": "Architecting conversational observability for cloud applications",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/architecting-conversational-observability-for-cloud-applications/",
-      "publishedAt": "2025-12-11T15:59:39Z",
-      "summary": "Modern cloud applications are commonly built as a collection of loosely coupled microservices running on services like Amazon Elastic Kubernetes Service (Amazon EKS) , Amazon Elastic Container Service (Amazon ECS) , or AWS Lambda . This architecture gives engineering teams flexibility and scalability, but its inherently distributed nature also makes troubleshooting more difficult. When something b",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/10/06/arch1266-img1.png"
-    },
-    {
-      "id": "642ab0eb4dc8dbfe513b",
-      "title": "Introducing mrva, a terminal-first approach to CodeQL multi-repo variant analysis",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2025/12/11/introducing-mrva-a-terminal-first-approach-to-codeql-multi-repo-variant-analysis/",
-      "publishedAt": "2025-12-11T12:00:00Z",
-      "summary": "In 2023 GitHub introduced CodeQL multi-repository variant analysis (MRVA). This functionality lets you run queries across thousands of projects using pre-built databases and drastically reduces the time needed to find security bugs at scale. There’s just one problem: it’s largely built on VS Code and I’m a Vim user and a terminal junkie. That’s why I built mrva , a composable, terminal-first alter",
-      "imageURL": "https://blog.trailofbits.com/2025/12/11/introducing-mrva-a-terminal-first-approach-to-codeql-multi-repo-variant-analysis/introducing-mrva-image_hu_fd3f685a1b3d7931.webp"
-    },
-    {
-      "id": "5f6a6aa147d9cddb03cf",
-      "title": "Litestream VFS",
-      "sourceName": "Fly.io Blog",
-      "url": "https://fly.io/blog/litestream-vfs/",
-      "publishedAt": "2025-12-11T00:00:00Z",
-      "summary": "I’m Ben Johnson, and I work on Litestream at Fly.io. Litestream is the missing backup/restore system for SQLite. It’s free, open-source software that should run anywhere, and you can read more about it here . Again with the sandwiches: assume we’ve got a SQLite database of sandwich ratings, and we’ve backed it up with Litestream to an S3 bucket. Now, on our local host, load up AWS credentials and ",
-      "imageURL": "/blog/litestream-vfs/assets/litestream-restore.png"
-    },
-    {
-      "id": "d106a257aea8d54c5d78",
-      "title": "How BASF’s Agriculture Solutions drives traceability and climate action by tokenizing cotton value chains using Amazon Managed Blockchain",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-basfs-agriculture-solutions-drives-traceability-and-climate-action-by-tokenizing-cotton-value-chains-using-amazon-managed-blockchain/",
-      "publishedAt": "2025-12-10T17:41:52Z",
-      "summary": "BASF Agricultural Solutions combines innovative products and digital tools with practical farmer knowledge. With over a century of experience, BASF offers a broad portfolio spanning seeds, crop protection, soil management, plant health, and digital agriculture solutions. Through collaboration with farmers, scientists, and partners, BASF strives to meet societal needs sustainably while creating a l",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/03/13/Grafic-2.png"
-    },
-    {
-      "id": "958edf1c8a9f95530ce0",
-      "title": "She architects: Bringing unique perspectives to innovative solutions at AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/she-architects-bringing-unique-perspectives-to-innovative-solutions-at-aws/",
-      "publishedAt": "2025-12-08T16:37:15Z",
-      "summary": "Have you ever wondered what it is really like to be a woman in tech at one of the world’s leading cloud companies? Or maybe you are curious about how diverse perspectives drive innovation beyond the buzzwords? Today, we are providing an insider’s perspective on the role of a solutions architect (SA) at Amazon Web Services (AWS). However, this is not a typical corporate success story. We are three ",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/11/28/ARCHBLOG-1257_Kayalvizhi_2-scaled.jpg"
-    },
-    {
-      "id": "c08964bb90b164eed7b0",
-      "title": "Discord Patch Notes: December 8, 2025",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-patch-notes-december-8-2025",
-      "publishedAt": "2025-12-08T00:00:00Z",
-      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
-    },
-    {
-      "id": "d49e56c478f5247ca6c0",
-      "title": "Gift Ideas for the Dedicated Discord User in Your Life",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/gift-ideas-for-the-discord-user",
-      "publishedAt": "2025-12-08T00:00:00Z",
-      "summary": "We’ve got plenty of gift ideas, from those who game through the night, to those who decorate their profile just right — let’s dig in!",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69370de739d6d3c5ec3739da_NitroHoliday_BlogHeader_Final_V2%20(1).png"
     }
   ]
 }
