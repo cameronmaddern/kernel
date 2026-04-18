@@ -10,10 +10,11 @@ import Foundation
 enum RemoteFeed {
     /// GitHub user/org that hosts this repo (raw feed URL).
     static let githubOwner = "cameronmaddern"
-    static let githubRepo = "devbites"
+    /// GitHub repository name (your repo is `kernel`).
+    static let githubRepo = "kernel"
     static let branch = "main"
 
-    /// `https://raw.githubusercontent.com/<owner>/<repo>/<branch>/devbites/ingested_feed.json`
+    /// App target folder in-repo: `devbites/ingested_feed.json` on the `main` branch.
     static var jsonURL: URL? {
         guard !githubOwner.isEmpty else {
             return nil

@@ -1,4 +1,4 @@
-# Regenerates devbites/ingested_feed.json from RSS sources and commits it.
+# Regenerates devbites/ingested_feed.json from RSS sources and commits it (repo may be named `kernel`).
 # The iOS app loads that file from raw.githubusercontent.com (see RemoteFeed.swift).
 
 name: Ingest feed
