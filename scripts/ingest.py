@@ -31,6 +31,7 @@ IMG_RE = re.compile(r"""<img[^>]+src\s*=\s*["']([^"']+)["']""", re.I)
 
 
 def local_tag(tag: str) -> str:
+    """Strip XML namespace from a tag name (pass `element.tag`, not the element)."""
     return tag.split("}")[-1] if "}" in tag else tag
 
 
@@ -129,7 +130,7 @@ def raw_to_json_dict(r: RawArticle) -> dict[str, Any]:
 
 def _rss_image(item: ET.Element) -> str | None:
     for child in item:
-        ln = local_tag(child)
+        ln = local_tag(child.tag)
         if ln == "enclosure":
             t = (child.get("type") or "").lower()
             if t.startswith("image/"):
@@ -158,7 +159,7 @@ def _rss_item_content(item: ET.Element) -> tuple[str | None, str | None]:
     desc = item.findtext("description")
     encoded = None
     for child in item:
-        if local_tag(child) == "encoded":
+        if local_tag(child.tag) == "encoded":
             encoded = text_or_none(child)
             break
     return desc, encoded
@@ -166,7 +167,7 @@ def _rss_item_content(item: ET.Element) -> tuple[str | None, str | None]:
 
 def _child_by_local(parent: ET.Element, name: str) -> ET.Element | None:
     for c in parent:
-        if local_tag(c) == name:
+        if local_tag(c.tag) == name:
             return c
     return None
 
@@ -180,7 +181,7 @@ def parse_rss(root: ET.Element, source_name: str, max_items: int) -> list[RawArt
         return out
     items = channel.findall("item")
     if not items:
-        items = [c for c in channel if local_tag(c) == "item"]
+        items = [c for c in channel if local_tag(c.tag) == "item"]
     for item in items:
         if len(out) >= max_items:
             break
@@ -215,7 +216,7 @@ def parse_atom(root: ET.Element, source_name: str, max_items: int) -> list[RawAr
     ns = "{http://www.w3.org/2005/Atom}"
     entries = root.findall(f"{ns}entry")
     if not entries:
-        entries = [c for c in root if local_tag(c) == "entry"]
+        entries = [c for c in root if local_tag(c.tag) == "entry"]
     for entry in entries:
         if len(out) >= max_items:
             break

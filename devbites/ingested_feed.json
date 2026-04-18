@@ -6,8 +6,8 @@
       "sourceName": "Netflix TechBlog",
       "url": "https://medium.com/p/33e2a311c597",
       "publishedAt": "2026-04-17T15:01:02Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "By: Brett Axler , Casper Choffat , and Alo Lowry In the three years since our first Live show, Chris Rock: Selective Outrage , we have witnessed an incredible expansion of our live content slate and the live operations that support it. From modest beginnings of streaming just one show per month, we are now capable of streaming over nine shows in a single day, reaching tens of millions of concurren",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*tibjLPNWGd0PP43Y8Idjag.jpeg"
     },
     {
       "id": "4b82bfc529b418bb9522",
@@ -15,8 +15,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/agent-readiness/",
       "publishedAt": "2026-04-17T13:05:00Z",
-      "summary": "The Agent Readiness score can help site owners understand how well their websites support AI agents. Here we explore new standards, share Radar data, and detail how we made Cloudflare’s docs the most agent-friendly on the web.",
-      "imageURL": null
+      "summary": "The web has always had to adapt to new standards. It learned to speak to web browsers, and then it learned to speak to search engines. Now, it needs to speak to AI agents. Today, we are excited to introduce isitagentready.com — a new tool to help site owners understand how they can make their sites optimized for agents, from guiding agents on how to authenticate, to controlling what content agents",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/sGg5lZjafjQ398V7hYyMv/93e112a34754e2065ffbf6445ebc4500/unnamed.png"
     },
     {
       "id": "21627b0e4724f1d26827",
@@ -24,8 +24,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/shared-dictionaries/",
       "publishedAt": "2026-04-17T13:02:00Z",
-      "summary": "Today, we’re excited to give you a sneak peek of our support for shared compression dictionaries, show you how it improves page load times, and reveal when you’ll be able to try the beta yourself.",
-      "imageURL": null
+      "summary": "Web pages have grown 6-9% heavier every year for the past decade, spurred by the web becoming more framework-driven, interactive, and media-rich. Nothing about that trajectory is changing. What is changing is how often those pages get rebuilt and how many clients request them. Both are skyrocketing because of agents. Shared dictionaries shrink asset transfers from servers to browsers so pages load",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2g2NBi1d4eqLAgksGetult/ea05b48519edfa8cccde6d6531700ce1/image5.png"
     },
     {
       "id": "04aee7c522915d68d590",
@@ -33,8 +33,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/ai-redirects/",
       "publishedAt": "2026-04-17T13:00:00Z",
-      "summary": "Soft directives don’t stop crawlers from ingesting deprecated content. Redirects for AI Training allows anybody on Cloudflare to redirect verified crawlers to canonical pages with one toggle and no origin changes.",
-      "imageURL": null
+      "summary": "Cloudflare's Wrangler CLI has published several major versions over the past six years, each containing at least some critical changes to commands, configuration, or how developers interact with the platform. Like any actively maintained open-source project, we keep documentation for older versions available. The v1 documentation carries a deprecation banner, a noindex meta tag , and canonical tag",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4zPrHtLf1BbHxQXQHTK1Qs/21a75531129332d749210d67b2c330ad/BLOG-3263_2.png"
     },
     {
       "id": "94b262becb7ed984af50",
@@ -42,8 +42,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/unweight-tensor-compression/",
       "publishedAt": "2026-04-17T13:00:00Z",
-      "summary": "Running LLMs across Cloudflare’s network requires us to be smarter and more efficient about GPU memory bandwidth. That’s why we developed Unweight, a lossless inference-time compression system that achieves up to a 22% model footprint reduction, so that we can deliver faster and cheaper inference than ever before.",
-      "imageURL": null
+      "summary": "Running inference within 50ms of 95% of the world's Internet-connected population means being ruthlessly efficient with GPU memory. Last year we improved memory utilization with Infire , our Rust-based inference engine, and eliminated cold-starts with Omni , our model scheduling platform. Now we are tackling the next big bottleneck in our inference platform: model weights. Generating a single toke",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4aOVSF1i241gGUwrPrhLfC/21a4f5984b89e56b1ec637f8dbe3c794/1.png"
     },
     {
       "id": "3a8ef7e4f05ae128645d",
@@ -51,8 +51,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/introducing-agent-memory/",
       "publishedAt": "2026-04-17T13:00:00Z",
-      "summary": "Cloudflare Agent Memory is a managed service that gives AI agents persistent memory, allowing them to recall what matters, forget what doesn't, and get smarter over time.",
-      "imageURL": null
+      "summary": "As developers build increasingly sophisticated agents on Cloudflare, one of the biggest challenges they face is getting the right information into context at the right time. The quality of results produced by models is directly tied to the quality of context they operate with, but even as context window sizes grow past one million (1M) tokens, context rot remains an unsolved problem. A natural ten",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1Cjj8uXbZRCrQVAxirTo7y/d62b5b798990540e78825747ff24afec/image3.png"
     },
     {
       "id": "721871c943f65b943aa0",
@@ -60,8 +60,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/network-performance-agents-week/",
       "publishedAt": "2026-04-17T13:00:00Z",
-      "summary": "By migrating our request handling layer to a Rust-based architecture called FL2, Cloudflare has increased its performance lead to 60% of the world’s top networks. We use real-user measurements and connection trimeans to ensure our data reflects the actual experience of people on the Internet.",
-      "imageURL": null
+      "summary": "When it comes to the Internet, performance is everything. Every millisecond shaved off a connection is a better experience for the real people using the applications and websites you build. That's why, at Cloudflare, we measure our performance constantly and share updates on a regular basis. In our last performance post , published during Birthday Week 2025, we shared that Cloudflare was the faste",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3i0DbxnemIuOa0tSlgeHul/762f6315b90436796a458d98270eccc5/BLOG-3236_2.png"
     },
     {
       "id": "e9e1069c51afffc1cb78",
@@ -69,8 +69,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/flagship/",
       "publishedAt": "2026-04-17T13:00:00Z",
-      "summary": "We are launching Flagship, a native feature flag service built on Cloudflare’s global network to eliminate the latency of third-party providers. By using KV and Durable Objects, Flagship allows for sub-millisecond flag evaluation.",
-      "imageURL": null
+      "summary": "AI is writing more code than ever. AI-assisted contributions now account for a rapidly growing share of new code across the platform. Agentic coding tools like OpenCode and Claude Code are shipping entire features in minutes. AI-generated code entering production is only going to accelerate. But the bigger shift isn't just speed — it's autonomy. Today, an AI agent writes code and a human reviews, ",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1nKDxB6OkUr1fpVKGWEugC/8fc4dbf0bd1ec45e30010a223982487e/image2.png"
     },
     {
       "id": "080a6982e17667127c6c",
@@ -87,8 +87,8 @@
       "sourceName": "Meta Engineering",
       "url": "https://engineering.fb.com/?p=23898",
       "publishedAt": "2026-04-16T16:00:34Z",
-      "summary": "We’re sharing insights into Meta’s Capacity Efficiency Program, where we’ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leveraging encoded domain expertise across a unified, standardized tool interface these agents help save power and free up engineers’ time away from addressing performance issues to innovating on [...] Rea",
-      "imageURL": null
+      "summary": "We’re sharing insights into Meta’s Capacity Efficiency Program, where we’ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leveraging encoded domain expertise across a unified, standardized tool interface these agents help save power and free up engineers’ time away from addressing performance issues to innovating on new produ",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/Meta-Capacity-Efficiency-image-1.png"
     },
     {
       "id": "22f15b6dd899dbf3758a",
@@ -96,8 +96,8 @@
       "sourceName": "GitHub Engineering",
       "url": "https://github.blog/?p=95074",
       "publishedAt": "2026-04-16T16:00:00Z",
-      "summary": "Learn how Github uses eBPF to detect and prevent circular dependencies in its deployment tooling. The post How GitHub uses eBPF to improve deployment safety appeared first on The GitHub Blog .",
-      "imageURL": null
+      "summary": "Did you know that, at GitHub, we host all of our own source code on github.com ? We do this because we’re our own biggest customer—testing out changes internally before they go to users. However, there’s one downside: If github.com were ever to go down, we wouldn’t be able to access our own source code. This is what you’d call a very simple circular dependency: to deploy GitHub, we needed GitHub. ",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/04/Screenshot-2026-04-06-at-6.36.24-PM.png?resize=1433%2C194"
     },
     {
       "id": "a9647dd90f12426f24ae",
@@ -105,8 +105,8 @@
       "sourceName": "Meta Engineering",
       "url": "https://engineering.fb.com/?p=23883",
       "publishedAt": "2026-04-16T14:59:44Z",
-      "summary": "We’re sharing lessons learned from Meta’s post-quantum cryptography (PQC) migration to help other organizations strengthen their resilience as industry transitions to post-quantum cryptography standards. We’re proposing the idea of PQC Migration Levels to help teams within organizations manage the complexity of PQC migration for their various use cases. By outlining Meta’s approach to this work [.",
-      "imageURL": null
+      "summary": "We’re sharing lessons learned from Meta’s post-quantum cryptography (PQC) migration to help other organizations strengthen their resilience as industry transitions to post-quantum cryptography standards. We’re proposing the idea of PQC Migration Levels to help teams within organizations manage the complexity of PQC migration for their various use cases. By outlining Meta’s approach to this work — ",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/PQC-Readiness-Levels-Blues.png"
     },
     {
       "id": "de1174396b724b7c6382",
@@ -114,8 +114,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/ai-platform/",
       "publishedAt": "2026-04-16T14:05:00Z",
-      "summary": "We're building AI Gateway into a unified inference layer for AI, letting developers call models from 14+ providers. New features include Workers AI binding integration and an expanded catalog with multimodal models.",
-      "imageURL": null
+      "summary": "AI models are changing quickly: the best model to use for agentic coding today might in three months be a completely different model from a different provider. On top of this, real-world use cases often require calling more than one model. Your customer support agent might use a fast, cheap model to classify a user's message; a large, reasoning model to plan its actions; and a lightweight model to",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2ez5tichGEEn5k6SzCgWLm/380a685b14ee9732fdf87c6f88c8f39e/BLOG-3209_2.png"
     },
     {
       "id": "f249476a535f9d3dd35c",
@@ -123,8 +123,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/high-performance-llms/",
       "publishedAt": "2026-04-16T14:00:00Z",
-      "summary": "We built a custom technology stack to run fast large language models on Cloudflare’s infrastructure. This post explores the engineering trade-offs and technical optimizations required to make high-performance AI inference accessible.",
-      "imageURL": null
+      "summary": "An agent needs to be powered by a large language model. A few weeks ago, we announced that Workers AI is officially entering the arena for hosting large open-source models like Moonshot’s Kimi K2.5. Since then, we’ve made Kimi K2.5 3x faster and have more model additions in-flight. These models have been the backbone of a lot of the agentic products, harnesses, and tools that we have been launchin",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5j6AEIF1GMhnHuJD08VQtw/9e65e2badc5fd1e75557230e8f455ccc/BLOG-3266_2.png"
     },
     {
       "id": "8b457065532222504a6e",
@@ -132,8 +132,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
       "publishedAt": "2026-04-16T13:01:00Z",
-      "summary": "Give your agents, developers, and automations a home for code and data. We’ve just launched Artifacts: Git-compatible versioned storage built for agents. Create tens of millions of repos, fork from any remote, and hand off a URL to any Git client.",
-      "imageURL": null
+      "summary": "Agents have changed how we think about source control, file systems, and persisting state. Developers and agents are generating more code than ever — more code will be written over the next 5 years than in all of programming history — and it’s driven an order-of-magnitude change in the scale of the systems needed to meet this demand. Source control platforms are especially struggling here: they we",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/35SxJbQfntIscpotc0GBt8/48ae11213d7483c9b488321baacf78e7/BLOG-3269_2.png"
     },
     {
       "id": "34f8a20f259721795f4c",
@@ -141,8 +141,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/ai-search-agent-primitive/",
       "publishedAt": "2026-04-16T13:00:22Z",
-      "summary": "AI Search is the search primitive for your agents. Create instances dynamically, upload files, and search across instances with hybrid retrieval and relevance boosting. Just create a search instance, upload, and search.",
-      "imageURL": null
+      "summary": "Every agent needs search: Coding agents search millions of files across repos, or support agents search customer tickets and internal docs. The use cases are different, but the underlying problem is the same: get the right information to the model at the right time. If you're building search yourself, you need a vector index, an indexing pipeline that parses and chunks your documents, and somethin",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1b8NdFL2HDBy8FqBHEI679/f17ed98d45fb9b42a616e0b464460489/BLOG-3240_2.png"
     },
     {
       "id": "f6c8b82a825158419823",
@@ -150,8 +150,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/deploy-planetscale-postgres-with-workers/",
       "publishedAt": "2026-04-16T13:00:22Z",
-      "summary": "Learn how to deploy PlanetScale Postgres and MySQL databases via Cloudflare and connect Cloudflare Workers.",
-      "imageURL": null
+      "summary": "Cloudflare announced our PlanetScale partnership last September to give Cloudflare Workers direct access to Postgres and MySQL databases for fast, full-stack applications. Soon, we’re bringing our technologies even closer: you’ll be able to create PlanetScale Postgres and MySQL databases directly from the Cloudflare dashboard and API, and have them billed to your Cloudflare account. You choose the",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5Tj4gJrV5hxlIWxlmoXVZe/7661c1e47c0c868b88301b5f4aca4441/BLOG-3213_2.png"
     },
     {
       "id": "9ba15f9ea9e76fe22bdd",
@@ -159,8 +159,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/email-for-agents/",
       "publishedAt": "2026-04-16T06:00:00Z",
-      "summary": "Agents are becoming multi-channel. That means making them available wherever your users already are — including the inbox. Today, Cloudflare Email Service enters public beta with the infrastructure layer to make that easy: send, receive, and process email natively from your agents.",
-      "imageURL": null
+      "summary": "Email is the most accessible interface in the world. It is ubiquitous. There’s no need for a custom chat application, no custom SDK for each channel. Everyone already has an email address, which means everyone can already interact with your application or agent. And your agent can interact with anyone. If you are building an application, you already rely on email for signups, notifications, and in",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4aGV0BVpbrj3ql5TubPMXx/b85351f13c5fae93a27d11e20a5fc11e/BLOG-3210_2.png"
     },
     {
       "id": "8143ecc9e1a5a70211e1",
@@ -169,7 +169,7 @@
       "url": "https://discord.com/blog/making-discord-on-desktop-look-just-right-display-settings-to-ease-the-eyes",
       "publishedAt": "2026-04-16T00:00:00Z",
       "summary": "Learn all sorts of toggles, options, and features on Discord’s desktop app to help you view media at your pace, lower the strength of colors across the app, and make app content easier to see.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6853360f59d0d7fd18e594a6_image6.png"
     },
     {
       "id": "fed43cb2b22e7bb8ff03",
@@ -186,8 +186,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/project-think/",
       "publishedAt": "2026-04-15T13:01:00Z",
-      "summary": "Announcing a preview of the next edition of the Agents SDK — from lightweight primitives to a batteries-included platform for AI agents that think, act, and persist.",
-      "imageURL": null
+      "summary": "Today, we're introducing Project Think: the next generation of the Agents SDK . Project Think is a set of new primitives for building long-running agents (durable execution, sub-agents, sandboxed code execution, persistent sessions) and an opinionated base class that wires them all together. Use the primitives to build exactly what you need, or use the base class to get started fast. Something hap",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6yokfTVcg8frH4snf7c4sp/2306d721650b4956b28e2198f7cf915d/BLOG-3200_2.png"
     },
     {
       "id": "8cd58f2f3d3464f50be1",
@@ -195,8 +195,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/introducing-agent-lee/",
       "publishedAt": "2026-04-15T13:00:00Z",
-      "summary": "Agent Lee is an in-dashboard agent that shifts Cloudflare’s interface from manual tab-switching to a single prompt. Using sandboxed TypeScript, it helps you troubleshoot and manage your stack as a grounded technical collaborator.",
-      "imageURL": null
+      "summary": "While there have been small improvements along the way, the interface of technical products has not really changed since the dawn of the Internet. It still remains: clicking five pages deep, cross-referencing logs across tabs, and hunting for hidden toggles. AI gives us the opportunity to rethink all that. Instead of complexity spread over a sprawling graphical user interface: what if you could de",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2Iva79HIiHPUrK8NLukkwH/dd1cf1709ab04f6d5825124cecd20a5e/BLOG-3231_2.png"
     },
     {
       "id": "ed384d8917aa0bebd5ca",
@@ -204,7 +204,7 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/registrar-api-beta/",
       "publishedAt": "2026-04-15T13:00:00Z",
-      "summary": "The Cloudflare Registrar API is now in beta. Developers and AI agents can search, check availability, and register domains at cost directly from their editor, their terminal, or their agent — without leaving their workflow.",
+      "summary": "Today we're launching the next chapter of Cloudflare Registrar: the Registrar API in beta . The Registrar API makes it possible to search for domains, check availability, and register them programmatically. Now, buying a domain the moment an idea starts to feel real no longer has to pull you out of the agentic workflow. A Registrar API has been one of the clearest asks from builders using Cloudfla",
       "imageURL": null
     },
     {
@@ -213,8 +213,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/browser-run-for-ai-agents/",
       "publishedAt": "2026-04-15T13:00:00Z",
-      "summary": "Browser Rendering is now Browser Run, with Live View, Human in the Loop, CDP access, session recordings, and 4x higher concurrency limits for AI agents.",
-      "imageURL": null
+      "summary": "AI agents need to interact with the web. To do that, they need a browser. They need to navigate sites, read pages, fill forms, extract data, and take screenshots. They need to observe whether things are working as expected, with a way for their humans to step in if needed. And they need to do all of this at scale. Today, we’re renaming Browser Rendering to Browser Run , and shipping key features t",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7eExar2kjoc2QSq6skzTf6/ba4ad79fa01eb060f8b14cd5afa342e5/BLOG-3221_2.png"
     },
     {
       "id": "226f1a62a7935b5125f6",
@@ -222,8 +222,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/workflows-v2/",
       "publishedAt": "2026-04-15T13:00:00Z",
-      "summary": "Cloudflare Workflows, a durable execution engine for multi-step applications, now supports higher concurrency and creation rate limits through a rearchitectured control plane, helping scale to meet the use cases for durable background agents.",
-      "imageURL": null
+      "summary": "When we originally built Workflows , our durable execution engine for multi-step applications, it was designed for a world in which workflows were triggered by human actions, like a user signing up or placing an order. For use cases like onboarding flows, workflows only had to support one instance per person — and people can only click so fast. Over time, what we’ve actually seen is a quantitative",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/55bqaUjc30HJHe9spWYTo8/d8053955660553db8b64a484fb321ec7/BLOG-3116_2.png"
     },
     {
       "id": "fdf1d46dfcff7e03e6b5",
@@ -231,8 +231,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/voice-agents/",
       "publishedAt": "2026-04-15T13:00:00Z",
-      "summary": "An experimental voice pipeline for the Agents SDK enables real-time voice interactions over WebSockets. Developers can now build agents with continuous STT and TTS in just ~30 lines of server-side code.",
-      "imageURL": null
+      "summary": "For many of us, our first experiences with AI agents have been through typing into a chat box. And for those of us using agents day to day, we have likely gotten very good at writing detailed prompts or markdown files to guide them. But some of the moments where agents would be most useful are not always text-first. You might be on a long commute, juggling a few open sessions, or just wanting to s",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5IBi8TsQiJ18Um47zpqAIr/d284d47a8653c35bc7c027438a5a7a2c/unnamed__55_.png"
     },
     {
       "id": "9ddd90b6d25310c9d3a2",
@@ -249,8 +249,8 @@
       "sourceName": "Airbnb Engineering (Medium)",
       "url": "https://medium.com/p/d7dec59ef960",
       "publishedAt": "2026-04-14T17:01:01Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Discover how Airbnb prioritizes user privacy while building a more connected community, empowering guests to engage socially, connect confidently, and maintain control of their personal data. By: Joy Jing ✨ Building a more connected community At Airbnb, our hosts and guests form the heart of our community. As shared by CEO Brian Chesky , we’re evolving into a more social ecosystem. Airbnb Experien",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*HQamSc0jqVwGvn_MxoY8kg.png"
     },
     {
       "id": "97eb17129f7cae61ed85",
@@ -258,8 +258,8 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/improved-developer-security/",
       "publishedAt": "2026-04-14T13:00:10Z",
-      "summary": "Cloudflare is introducing scannable API tokens, enhanced OAuth visibility, and GA for resource-scoped permissions. These tools help developers implement a true least-privilege architecture while protecting against credential leakage.",
-      "imageURL": null
+      "summary": "Agents let you build software faster than ever, but securing your environment and the code you write — from both mistakes and malice — takes real effort. Open Web Application Security Project (OWASP) details a number of risks present in agentic AI systems, including the risk of credential leaks, user impersonation, and elevation of privilege. These risks can result in extreme damage to your enviro",
+      "imageURL": "https://images.ctfassets.net/zkvhlag99gkb/2p3RZFDklLn9cfQOVYq5vS/d40e6116c115c453095f8ed2d110f062/image3.png"
     },
     {
       "id": "cfdc717dcb910a9be398",
@@ -276,8 +276,8 @@
       "sourceName": "Slack Engineering",
       "url": "https://slack.engineering/?p=17752",
       "publishedAt": "2026-04-13T17:17:16Z",
-      "summary": "Excerpt In complex, long-running agentic systems, maintaining alignment and coherent reasoning between agents requires careful design. In this second article of our series, we explore these challenges and the mechanisms we built to keep teams of agents working productively over long time spans. We present a range of complementary techniques that balance the conflicting requirements…",
-      "imageURL": null
+      "summary": "Excerpt In complex, long-running agentic systems, maintaining alignment and coherent reasoning between agents requires careful design. In this second article of our series, we explore these challenges and the mechanisms we built to keep teams of agents working productively over long time spans. We present a range of complementary techniques that balance the conflicting requirements of continuity a",
+      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/03/pydantic_ai_agentic_loop.png?w=842"
     },
     {
       "id": "c75baa59ac538275fd50",
@@ -285,8 +285,8 @@
       "sourceName": "Netflix TechBlog",
       "url": "https://medium.com/p/6269251e6f28",
       "publishedAt": "2026-04-10T16:26:01Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "by Gabriela Alessio , Cameron Taylor , and Cameron R. Wolfe Introduction When members log into Netflix, one of the hardest choices is what to watch. The challenge isn’t a lack of options — there are thousands of titles — but finding the most intriguing one is complex and deeply personal. To help, we surface personalized promotional assets , especially the show synopsis — a brief description highli",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*A2j9Xni86SVnF_VyjFNwfw.png"
     },
     {
       "id": "499701560d82e6984f53",
@@ -303,8 +303,8 @@
       "sourceName": "Meta Engineering",
       "url": "https://engineering.fb.com/?p=23856",
       "publishedAt": "2026-04-09T16:00:34Z",
-      "summary": "At Meta, WebRTC powers real-time audio and video across various platforms. But forking a large open-source project like WebRTC within our monorepo presents unique challenges – over time, an internal fork can drift behind upstream, cutting itself off from community upgrades. We’re sharing how we escaped this “forking trap” – from building a dual-stack architecture [...] Read More... The post Escapi",
-      "imageURL": null
+      "summary": "At Meta, WebRTC powers real-time audio and video across various platforms. But forking a large open-source project like WebRTC within our monorepo presents unique challenges – over time, an internal fork can drift behind upstream, cutting itself off from community upgrades. We’re sharing how we escaped this “forking trap” – from building a dual-stack architecture that enabled safe A/B testing acro",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/Meta-WebRTC-escaping-the-fork-image-1.png?w=916"
     },
     {
       "id": "afd8b05857e20220495e",
@@ -321,8 +321,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/build-a-multi-tenant-configuration-system-with-tagged-storage-patterns/",
       "publishedAt": "2026-04-08T20:00:04Z",
-      "summary": "In this post, we demonstrate how you can build a scalable, multi-tenant configuration service using the tagged storage pattern, an architectural approach that uses key prefixes (like tenant_config_ or param_config_) to automatically route configuration requests to the most appropriate AWS storage service. This pattern maintains strict tenant isolation and supports real-time, zero-downtime configur",
-      "imageURL": null
+      "summary": "In modern microservices architectures, configuration management remains one of the most challenging operational concerns. Two gaps emerge as organizations scale: handling tenant metadata that changes faster than cache TTL allows, and scaling the metadata service itself without creating a performance bottleneck. Traditional caching strategies force an uncomfortable trade-off: either accept stale te",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/03/ARCHBLOG-1417-image-11.png"
     },
     {
       "id": "b42dbddbbe4a7ccc220f",
@@ -330,7 +330,7 @@
       "sourceName": "Meta Engineering",
       "url": "https://engineering.fb.com/?p=23871",
       "publishedAt": "2026-04-08T18:25:26Z",
-      "summary": "As AI increases developer speed and productivity it also increases the need for safeguards. On this episode of the Meta Tech Podcast, Pascal Hartig sits down with Ishwari and Joe from Meta’s Configurations team to discuss how Meta makes config rollouts safe at scale. Listen in to learn about canarying and progressive rollouts, the health checks [...] Read More... The post Trust But Canary: Configu",
+      "summary": "As AI increases developer speed and productivity it also increases the need for safeguards. On this episode of the Meta Tech Podcast, Pascal Hartig sits down with Ishwari and Joe from Meta’s Configurations team to discuss how Meta makes config rollouts safe at scale. Listen in to learn about canarying and progressive rollouts, the health checks and monitoring signals used to catch regressions earl",
       "imageURL": null
     },
     {
@@ -339,8 +339,8 @@
       "sourceName": "Airbnb Engineering (Medium)",
       "url": "https://medium.com/p/c714d6910b45",
       "publishedAt": "2026-04-07T17:01:01Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "A production-tested approach for moving a large-scale metrics pipeline from StatsD to OpenTelemetry and Prometheus. By: Eugene Ma , Natasha Aleksandrova When migrating to a new monitoring system, you’ll want to frontload the work to collect all your metrics. This exposes bottlenecks at full write scale and unblocks the migration of assets which require real data for validation, such as dashboards ",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Qht9BRRs2R_HZ05CelourQ.jpeg"
     },
     {
       "id": "f0877e7c8177f1aee53e",
@@ -358,7 +358,7 @@
       "url": "https://stripe.com/blog/global-checkout-trends",
       "publishedAt": "2026-04-07T00:00:00Z",
       "summary": "We analyzed checkout activity across more than 20K businesses, surveyed shoppers and ecommerce leaders, and gathered insights from businesses on the Stripe network to understand what’s changing in online conversion.",
-      "imageURL": null
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/ldkId6Rz1TQvWrVdACbe0/c3c1a161b959d5714171ee73b4e79fcc/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png"
     },
     {
       "id": "0bf30d811ea8ffe7d2b2",
@@ -366,8 +366,8 @@
       "sourceName": "Netflix TechBlog",
       "url": "https://medium.com/p/22fadc9b840e",
       "publishedAt": "2026-04-06T22:15:14Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "By Ben Sykes In a previous post , we described how Netflix uses Apache Druid to ingest millions of events per second and query trillions of rows, providing the real-time insights needed to ensure a high-quality experience for our members. Since that post, our scale has grown considerably. With our database holding over 10 trillion rows and regularly ingesting up to 15 million events per second, th",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*8bFAtFl8Z5pwEyoOgK54ag.png"
     },
     {
       "id": "4bc7ce9b86b758c39482",
@@ -375,8 +375,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/unlock-efficient-model-deployment-simplified-inference-operator-setup-on-amazon-sagemaker-hyperpod/",
       "publishedAt": "2026-04-06T21:14:13Z",
-      "summary": "In this post, we walk through the new installation experience, demonstrate three deployment methods (console, CLI, and Terraform), and show how features like multi-instance-type deployment and native node affinity give you fine-grained control over inference scheduling",
-      "imageURL": null
+      "summary": "Amazon SageMaker HyperPod offers an end-to-end experience supporting the full lifecycle of AI development—from interactive experimentation and training to inference and post-training workflows. The SageMaker HyperPod Inference Operator is a Kubernetes controller that manages the deployment and lifecycle of models on HyperPod clusters, offering flexible deployment interfaces (kubectl, Python SDK, S",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/31/ARCHBLOG-1389-1.png"
     },
     {
       "id": "e12bd0f788d1a13353e0",
@@ -384,8 +384,8 @@
       "sourceName": "Meta Engineering",
       "url": "https://engineering.fb.com/?p=23840",
       "publishedAt": "2026-04-06T16:00:50Z",
-      "summary": "AI coding assistants are powerful but only as good as their understanding of your codebase. When we pointed AI agents at one of Meta’s large-scale data processing pipelines – spanning four repositories, three languages, and over 4,100 files – we quickly found that they weren’t making useful edits quickly enough. We fixed this by building [...] Read More... The post How Meta Used AI to Map Tribal K",
-      "imageURL": null
+      "summary": "AI coding assistants are powerful but only as good as their understanding of your codebase. When we pointed AI agents at one of Meta’s large-scale data processing pipelines – spanning four repositories, three languages, and over 4,100 files – we quickly found that they weren’t making useful edits quickly enough. We fixed this by building a pre-compute engine: a swarm of 50+ specialized AI agents t",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/AI-Pre-Compute-Engine.png"
     },
     {
       "id": "495966aeccfaea03f1a2",
@@ -394,7 +394,7 @@
       "url": "https://discord.com/blog/discord-patch-notes-april-6-2026",
       "publishedAt": "2026-04-06T00:00:00Z",
       "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     },
     {
       "id": "da5c02e42f79610db7c6",
@@ -402,8 +402,8 @@
       "sourceName": "Netflix TechBlog",
       "url": "https://medium.com/p/3e0020cf1202",
       "publishedAt": "2026-04-04T00:44:32Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Synchronizing the Senses: Powering Multimodal Intelligence for Video Search By Meenakshi Jindal and Munya Marazanye Today’s filmmakers capture more footage than ever to maximize their creative options, often generating hundreds, if not thousands, of hours of raw material per season or franchise. Extracting the vital moments needed to craft compelling storylines from this sheer volume of media is a",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*wVRT7XY4C9bzNHE-lk-ViA.png"
     },
     {
       "id": "f1404b45019c6c360f33",
@@ -411,8 +411,8 @@
       "sourceName": "GitHub Engineering",
       "url": "https://github.blog/?p=94994",
       "publishedAt": "2026-04-03T16:00:00Z",
-      "summary": "The path to better performance is often found in simplicity. The post The uphill climb of making diff lines performant appeared first on The GitHub Blog .",
-      "imageURL": null
+      "summary": "Pull requests are the beating heart of GitHub. As engineers, this is where we spend a good portion of our time. And at GitHub’s scale—where pull requests can range from tiny one-line fixes to changes spanning thousands of files and millions of lines—the pull request review experience has to stay fast and responsive. We recently shipped the new React-based experience for the Files changed tab (now ",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/04/3.png?resize=960%2C1340"
     },
     {
       "id": "c12b7e4def8e835d469a",
@@ -429,8 +429,8 @@
       "sourceName": "Netflix TechBlog",
       "url": "https://medium.com/p/c8f833b238cc",
       "publishedAt": "2026-04-02T21:46:27Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "By Renata Teixeira, Zhi Li, Reenal Mahajan, and Wei Wei On January 26, 2026, we flipped an important switch for Live at Netflix: all Live events are now encoded using VBR (Variable Bitrate) instead of CBR (Constant Bitrate) . It sounds like a small configuration change, but it required us to revisit some of the foundational assumptions behind how we deliver Live video at global scale. VBR lets us ",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*_MoqLhu01wArcD1n58SZyg.png"
     },
     {
       "id": "ede5ba83447afaee9e51",
@@ -438,8 +438,8 @@
       "sourceName": "Meta Engineering",
       "url": "https://engineering.fb.com/?p=23820",
       "publishedAt": "2026-04-02T19:59:46Z",
-      "summary": "This is the second post in the Ranking Engineer Agent blog series exploring the autonomous AI capabilities accelerating Meta’s Ads Ranking innovation. The previous post introduced Ranking Engineer Agent’s ML exploration capability, which autonomously designs, executes, and analyzes ranking model experiments. This post covers how to optimize the low-level infrastructure that makes those models run ",
-      "imageURL": null
+      "summary": "This is the second post in the Ranking Engineer Agent blog series exploring the autonomous AI capabilities accelerating Meta’s Ads Ranking innovation. The previous post introduced Ranking Engineer Agent’s ML exploration capability , which autonomously designs, executes, and analyzes ranking model experiments. This post covers how to optimize the low-level infrastructure that makes those models run",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/Meta-KernalEvolve-REA-image1.png"
     },
     {
       "id": "d67a0b747bb159f0f8a8",
@@ -447,8 +447,8 @@
       "sourceName": "Airbnb Engineering (Medium)",
       "url": "https://medium.com/p/7efae28d7fa9",
       "publishedAt": "2026-04-02T17:01:06Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Jonathan Woodard knows defense. After playing professional football as a defensive end for six years, Jonathan knew he wanted a career where he could always face new challenges, learn new skills, and continue to thrive in high-paced environments. After discovering a passion for programming, Jonathan joined Airbnb’s Connect Engineering Apprenticeship program and excelled; now, we’re lucky to have h",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*tvm81QJzJmsOHuiGKuPGSQ.png"
     },
     {
       "id": "7cad52b864fed2208c15",
@@ -466,7 +466,7 @@
       "url": "https://stripe.com/blog/shoptalk-2026",
       "publishedAt": "2026-04-02T00:00:00Z",
       "summary": "Retailers know search and discovery have already shifted. What comes next is less settled. From embedded checkout to emerging third-party surfaces, here’s how ecommerce and AI leaders are integrating agentic commerce.",
-      "imageURL": null
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5aI5xOfce2H0wZlLKZzIgv/02ddf4d2c099f39d2a63c70e5e794195/3_agentic_trends_-_1500x1500_-_7.png"
     },
     {
       "id": "93738ffebf1686e322be",
@@ -474,8 +474,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/automate-safety-monitoring-with-computer-vision-and-generative-ai/",
       "publishedAt": "2026-04-01T18:59:02Z",
-      "summary": "This post describes a solution that uses fixed camera networks to monitor operational environments in near real-time, detecting potential safety hazards while capturing object floor projections and their relationships to floor markings. While we illustrate the approach through distribution center deployment examples, the underlying architecture applies broadly across industries. We explore the arc",
-      "imageURL": null
+      "summary": "Workplace safety has improved dramatically over the past several decades. According to the Bureau of Labor Statistics, occupational injury rates in the United States have declined by more than 60% since the early 1970s . This is driven by stronger regulations, better training programs, and a growing culture of safety-first operations. Despite this progress, the International Labour Organization re",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/27/ML-ARCHBLOG-1344-image-1.png"
     },
     {
       "id": "4c131c6b9cc2ab5a8dc0",
@@ -484,7 +484,7 @@
       "url": "https://discord.com/blog/last-meadow-online-announcement",
       "publishedAt": "2026-04-01T00:00:00Z",
       "summary": "Band together with Discordians from across the world in Last Meadow Online, the world’s first DBMMIRPG. Available to play until April 7, 2026.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69cc591b3990198abf5e3617_DIS26_WEBBANNER.png"
     },
     {
       "id": "c3fe7629ee79d6ab1d2d",
@@ -492,8 +492,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/streamlining-access-to-powerful-disaster-recovery-capabilities-of-aws/",
       "publishedAt": "2026-03-31T18:00:38Z",
-      "summary": "In this blog post, we take a building blocks approach. Starting with the tools like AWS Backup to protect your data, we then add protection for Amazon Elastic Compute Cloud (Amazon EC2) compute using AWS Elastic Disaster Recovery (AWS DRS). Finally, we show how to use the full capabilities of AWS to restore your entire workload—data, infrastructure, networking, and configuration, using Arpio disas",
-      "imageURL": null
+      "summary": "Learn how you can use AWS services like AWS Backup and AWS Elastic Disaster Recovery (AWS DRS) , along with AWS Resilience Competency Partner solutions like Arpio to implement powerful and comprehensive Disaster Recovery solutions. Resilience is the ability of your application to keep running even when “bad stuff” happens. A critical part of your resilience strategy is Disaster Recovery (DR). DR i",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/25/ARCHBLOG-1174-image-1.png"
     },
     {
       "id": "d968ad92038a5f847104",
@@ -502,7 +502,7 @@
       "url": "https://slack.engineering/?p=17732",
       "publishedAt": "2026-03-31T17:00:39Z",
       "summary": "The Problem: Legacy Tooling and Its Limitations Currently, Slack utilizes a hybrid approach to network measurement, incorporating both internal (such as traffic between AWS Availability Zones) and external (monitoring traffic from the public internet into Slack’s infrastructure) solutions. These tools comprise a combination of commercial SaaS offerings and custom-built network testing solutions de",
-      "imageURL": null
+      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/03/quic-diagram.png?w=512"
     },
     {
       "id": "dc1311bacbfd6759bb48",
@@ -510,8 +510,8 @@
       "sourceName": "Meta Engineering",
       "url": "https://engineering.fb.com/?p=23771",
       "publishedAt": "2026-03-31T16:00:17Z",
-      "summary": "Meta continues to lead the industry in utilizing groundbreaking AI Recommendation Systems (RecSys) to deliver better experiences for people, and better results for advertisers. To reach the next frontier of performance, we are scaling Meta’s Ads Recommender runtime models to LLM-scale & complexity to further a deeper understanding of people’s interests and intent. This increase [...] Read More... ",
-      "imageURL": null
+      "summary": "Meta continues to lead the industry in utilizing groundbreaking AI Recommendation Systems (RecSys) to deliver better experiences for people, and better results for advertisers. To reach the next frontier of performance, we are scaling Meta’s Ads Recommender runtime models to LLM-scale & complexity to further a deeper understanding of people’s interests and intent. This increase in scale & complexi",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/03/Meta-Adaptive-Ranking-Model-image-1.png"
     },
     {
       "id": "cde09b14b1c72a25c5f7",
@@ -519,7 +519,7 @@
       "sourceName": "GitHub Engineering",
       "url": "https://github.blog/?p=94904",
       "publishedAt": "2026-03-31T16:00:00Z",
-      "summary": "I used coding agents to build agents that automated part of my job. Here's what I learned about working better with coding agents. The post Agent-driven development in Copilot Applied Science appeared first on The GitHub Blog .",
+      "summary": "I may have just automated myself into a completely different job… This is a familiar pattern among software engineers, who often, through inspiration, frustration, or sometimes even laziness, build systems to remove toil and focus on more creative work. We then end up owning and maintaining those systems, unlocking that automated goodness for the rest of those around us. As an AI researcher, I rec",
       "imageURL": null
     },
     {
@@ -537,8 +537,8 @@
       "sourceName": "Meta Engineering",
       "url": "https://engineering.fb.com/?p=23769",
       "publishedAt": "2026-03-30T16:00:34Z",
-      "summary": "Meta is continuing its long-term roadmap to help the construction industry leverage AI to produce high-quality and more sustainable concrete mixes, as well as those exclusively produced in the United States. Concurrent with the 2026 American Concrete Institute (ACI) Spring Convention, Meta is releasing a new AI model for designing concrete mixes – Bayesian Optimization [...] Read More... The post ",
-      "imageURL": null
+      "summary": "Meta is continuing its long-term roadmap to help the construction industry leverage AI to produce high-quality and more sustainable concrete mixes, as well as those exclusively produced in the United States. Concurrent with the 2026 American Concrete Institute (ACI) Spring Convention, Meta is releasing a new AI model for designing concrete mixes – Bayesian Optimization for Concrete (BOxCrete) , as",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/03/Meta-Rosemount-Data-Center.png"
     },
     {
       "id": "08e79d29f73eeee86da7",
@@ -546,8 +546,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/how-aigen-transformed-agricultural-robotics-for-sustainable-farming-with-amazon-sagemaker-ai/",
       "publishedAt": "2026-03-30T15:36:36Z",
-      "summary": "In this post, you will learn how Aigen modernized its machine learning (ML) pipeline with Amazon SageMaker AI to overcome industry-wide agricultural robotics challenges and scale sustainable farming. This post focuses on the strategies and architecture patterns that enabled Aigen to modernize its pipeline across hundreds of distributed edge solar robots and showcase the significant business outcom",
-      "imageURL": null
+      "summary": "This post is cowritten with Yuri Brigance, and Usman M. Khan from Aigen. Aigen builds autonomous robots designed to help farmers remove herbicide-resistant weeds and improve crop yield through AI-driven technology. These robots operate without chemicals, using renewable energy, and provide real-time, field-level data to enhance decision-making. Using advanced computer vision AI, Aigen’s robots aut",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/23/ARCHBLOG-1379-image-1.jpeg"
     },
     {
       "id": "803c8a1c84a5de455067",
@@ -555,8 +555,8 @@
       "sourceName": "Lyft Engineering",
       "url": "https://medium.com/p/07227ff92789",
       "publishedAt": "2026-03-30T14:43:41Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "At Lyft, understanding how riders go through our user experience is fundamental to operating a healthy marketplace. Specifically, it is important to have a robust model determining if a rider will actually request a ride after entering a destination and viewing a price and ETA. Accurately predicting this decision, that we call conversion , informs countless decisions across our platform. Whether i",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*OMZl9ZxHl02QWvOMcaUaCQ.jpeg"
     },
     {
       "id": "92b7c3427c009844aa1f",
@@ -574,7 +574,7 @@
       "url": "https://discord.com/blog/keeping-discord-safe-and-sound",
       "publishedAt": "2026-03-27T00:00:00Z",
       "summary": "A Discord account is more than just your username and avatar. That’s why it’s important to help keep your account safe and secure by using Multi-Factor Authentication, SMS Backup Authentication & QR Code Login. Learn how to keep your account more secure in the following blog post!",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/61f2eb202125983477455f6e_Discord-2FA-Blog-Header.png"
     },
     {
       "id": "cf4b5ae7c5e5644d8fc5",
@@ -582,8 +582,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/architecting-for-agentic-ai-development-on-aws/",
       "publishedAt": "2026-03-26T17:29:57Z",
-      "summary": "In this post, we demonstrate how to architect AWS systems that enable AI agents to iterate rapidly through design patterns for both system architecture and code base structure. We first examine the architectural problems that limit agentic development today. We then walk through system architecture patterns that support rapid experimentation, followed by codebase patterns that help AI agents under",
-      "imageURL": null
+      "summary": "If you’re architecting cloud systems for AI development on AWS, you’ve likely discovered that traditional architectures create friction for AI agents. Many cloud teams are experimenting with AI coding assistants but quickly discover a gap between what these tools promise and what their architectures allow. When an AI agent generates code, it often takes minutes—or hours—before you can validate whe",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/17/ARCHBLOG-1295-1-1.jpeg"
     },
     {
       "id": "c333b8503626b8bfed28",
@@ -600,8 +600,8 @@
       "sourceName": "Lyft Engineering",
       "url": "https://medium.com/p/9cb06d628f2d",
       "publishedAt": "2026-03-25T13:56:39Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Image generated with Gemini 3 Pro (Google), 2026. Written by Amber Wang and Y oonji Kim at Lyft. Background Whenever you use the Lyft app, there is a complex balancing act happening behind the scenes. Various levers are used to keep the marketplace running smoothly; Base prices and coupons for riders affect demand, while driver pay and bonuses impact the level of available supply. Since every chan",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*iVC-FQekAWZXMelyqruN5g.png"
     },
     {
       "id": "81a2ea0bd562b7167ee4",
@@ -609,8 +609,8 @@
       "sourceName": "Airbnb Engineering (Medium)",
       "url": "https://medium.com/p/ccbf0e1f7fa9",
       "publishedAt": "2026-03-24T17:01:01Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "How Airbnb built forecasting models resilient enough to survive a global pandemic and whatever shock comes next. By : Harrison Katz The week everything broke In March 2020, the forecasting models that had served us well in stable times faced a new challenge: predicting outcomes in a world that had suddenly changed. At Airbnb, many of the financial metrics we forecast depend on two separate events:",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*HC0FvtGMOcsE3d138wRDRw.jpeg"
     },
     {
       "id": "47ab80fc290cb7a6574f",
@@ -628,7 +628,7 @@
       "url": "https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse",
       "publishedAt": "2026-03-24T00:00:00Z",
       "summary": "Radar now helps prevent free trial abuse with just one click. When enabled, Radar predicts the presence of abusive behavior that violates common trial terms, such as repeated trial signup or missed cancellations, with 90% accuracy.",
-      "imageURL": null
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/23lASLziC4DNmD8xdKQHqu/99291ee057701ba5d661881830c72ff7/Radar-index.png"
     },
     {
       "id": "16d061d6a105f84ab3e6",
@@ -637,7 +637,7 @@
       "url": "https://discord.com/blog/discord-update-march-24-2026-changelog",
       "publishedAt": "2026-03-24T00:00:00Z",
       "summary": "Here's the Discord Changelog from March 24, 2026, so you can stay informed on what’s new in recent app updates!",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/65e0d5d41a1beac596a12aaa_March%20Changelog%20Headers.png"
     },
     {
       "id": "a565220dc6f0212e4e77",
@@ -645,8 +645,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/how-generali-malaysia-optimizes-operations-with-amazon-eks/",
       "publishedAt": "2026-03-23T22:51:02Z",
-      "summary": "In this post, we look at how Generali is using Amazon EKS Auto Mode and its integration with other AWS services to enhance performance while reducing operational overhead, optimizing costs, and enhancing security.",
-      "imageURL": null
+      "summary": "This post is co-authored with Ivan Amemoutou, DevOps and Cloud Lead at Generali Malaysia (“Generali”). The insurance industry’s shift to cloud computing has accelerated the development and expansion of digital services. To support this transformation, insurers are modernizing their technology stack with solutions that enhance scalability, portability, and operational efficiency. This digital evolu",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/11/ARCHBLOG-1269-2.png"
     },
     {
       "id": "0b38f86ed0e684551b27",
@@ -664,7 +664,7 @@
       "url": "https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026",
       "publishedAt": "2026-03-20T00:00:00Z",
       "summary": "The most sophisticated fraud teams are shifting from one-size-fits-all fraud approaches to more dynamic, tailored interventions. They are removing friction for trusted users, embedding fraud detection directly into agentic transactions, and investing in multilayered identity verification to combat deepfakes.",
-      "imageURL": null
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6EX5VwS3VABCPIi20UrofS/7ce914e20366c183f0fcfa7ae8d8a5ba/MRC-index.png"
     },
     {
       "id": "d0f97516ce330eafec19",
@@ -672,8 +672,8 @@
       "sourceName": "Slack Engineering",
       "url": "https://slack.engineering/?p=17695",
       "publishedAt": "2026-03-19T19:00:54Z",
-      "summary": "Introduction 🔔 At Slack, notifications are how teams stay in the loop, but they can also become overwhelming when not designed with intention. Our goal was to make staying informed feel effortless. We set out to rebuild one of Slack’s most complicated systems from the ground up by bringing calm, consistency, and clarity to the…",
-      "imageURL": null
+      "summary": "Introduction At Slack, notifications are how teams stay in the loop, but they can also become overwhelming when not designed with intention. Our goal was to make staying informed feel effortless. We set out to rebuild one of Slack’s most complicated systems from the ground up by bringing calm, consistency, and clarity to the experience. Diagnosing the Noise Problem We knew perception of noise in S",
+      "imageURL": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f514.png"
     },
     {
       "id": "27e1a3c9ed7f255e1831",
@@ -700,7 +700,7 @@
       "url": "https://stripe.com/blog/adaptive-pricing-for-subscriptions",
       "publishedAt": "2026-03-19T00:00:00Z",
       "summary": "Adaptive Pricing is now available for subscriptions, allowing businesses to automatically localize prices in 150+ countries while Stripe handles currency conversion. In an A/B test across 1.5 million subscription checkouts, businesses saw 4.7% higher conversion and 5.4% higher LTV per session, on average.",
-      "imageURL": null
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Ee0jsPU0no73KBQtvLZSs/3f8e7c460e2e394b0deb3aba8af00fcc/Blog_Index_2x__1_.png"
     },
     {
       "id": "9d7a5064f92c2d5a6edb",
@@ -708,8 +708,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/ai-powered-event-response-for-amazon-eks/",
       "publishedAt": "2026-03-18T18:23:37Z",
-      "summary": "In this post, you'll learn how AWS DevOps Agent integrates with your existing observability stack to provide intelligent, automated responses to system events.",
-      "imageURL": null
+      "summary": "Cloud environments with dozens of microservices are now easier to manage than ever, and modern DevOps teams are well-equipped to balance rapid deployments with operational stability — even as monitoring tools surface thousands of daily signals. AWS DevOps Agent is a fully managed autonomous AI Agent that resolves and proactively prevents incidents, continuously improving reliability and performanc",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/11/DevOps-Agent.png"
     },
     {
       "id": "c0848df49ca819119993",
@@ -717,8 +717,8 @@
       "sourceName": "Meta Engineering",
       "url": "https://engineering.fb.com/?p=23703",
       "publishedAt": "2026-03-18T18:19:33Z",
-      "summary": "Friend bubbles in Facebook Reels highlight Reels your friends have liked or reacted to, helping you discover new content and making it easier to connect over shared interests. This article explains the technical architecture behind friend bubbles, including how machine learning estimates relationship strength and ranks content your friends have interacted with to create more [...] Read More... The",
-      "imageURL": null
+      "summary": "Friend bubbles in Facebook Reels highlight Reels your friends have liked or reacted to, helping you discover new content and making it easier to connect over shared interests. This article explains the technical architecture behind friend bubbles, including how machine learning estimates relationship strength and ranks content your friends have interacted with to create more opportunities for mean",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/03/Facebook-Friend-Bubbles.gif"
     },
     {
       "id": "ce41b29f97a2217ca65e",
@@ -727,7 +727,7 @@
       "url": "https://stripe.com/blog/machine-payments-protocol",
       "publishedAt": "2026-03-18T00:00:00Z",
       "summary": "We’re launching the Machine Payments Protocol (MPP), an open standard, internet-native way for agents to pay—co-authored by Tempo and Stripe. Businesses on Stripe can accept payments over MPP in a few lines of code using our PaymentIntents API.",
-      "imageURL": null
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5XnKM1MhctFUry2VRGpdHI/7d68233cb5e62da2b590136c7918a559/MPP-index.png"
     },
     {
       "id": "08f2f20a2b1a3cb9e880",
@@ -735,8 +735,8 @@
       "sourceName": "Airbnb Engineering (Medium)",
       "url": "https://medium.com/p/3811bf6c1ac3",
       "publishedAt": "2026-03-17T17:01:02Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "How a complex, large-scale migration to an in-house observability platform led to superior tooling, consistent data, and a fundamental reset of the developer experience. By: Callum Jones , Rong Hu Observability — the function of providing visibility into the performance and reliability of applications using metrics, logs and traces — is one of the most important tools of the Infrastructure group a",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*7z8dKfmBs_h7_oXXNhx-PQ.jpeg"
     },
     {
       "id": "a913d2c931b4a7f97a87",
@@ -763,7 +763,7 @@
       "url": "https://discord.com/blog/how-roost-is-advancing-online-safety",
       "publishedAt": "2026-03-16T00:00:00Z",
       "summary": "The threat landscape online has shifted dramatically. Many online platforms are left to reinvent safety tools from scratch. That’s the gap ROOST was built to close — and it’s why open-sourcing battle-tested tools like Osprey matters so much.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68090f03d6cb868fab0af03c_2024_10_DiscordBlog_CompanyAnnoucements-1.png"
     },
     {
       "id": "34327531520945d3aa86",
@@ -780,8 +780,8 @@
       "sourceName": "Airbnb Engineering (Medium)",
       "url": "https://medium.com/p/5fa7a81654fb",
       "publishedAt": "2026-03-12T18:55:19Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "How we built a destination recommendation model that helps users spark inspiration and narrow down choices to make journeys smoother. By: Weiwei Guo , Bin Xu , Sundara Rajan Srinivasavaradhan , Jie Tang , Xiaowei Liu , Bharathi Thangamani , Liwei He , Huiji Gao , Tracy Yu , Hui Gao , Stephanie Moyerman , Sanjeev Katariya Airbnb users in the trip planning stage may not have a clear idea of travel d",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*GmYX3GemYdlNvs2tOLlFbQ.jpeg"
     },
     {
       "id": "ed3eafbd13a4682acdc5",
@@ -789,8 +789,8 @@
       "sourceName": "GitHub Engineering",
       "url": "https://github.blog/?p=94451",
       "publishedAt": "2026-03-12T16:00:00Z",
-      "summary": "AI automates triage for accessibility feedback, allowing us to focus on fixing barriers—turning a chaotic backlog into continuous, rapid resolutions. The post Continuous AI for accessibility: How GitHub transforms feedback into inclusion appeared first on The GitHub Blog .",
-      "imageURL": null
+      "summary": "For years, accessibility feedback at GitHub didn’t have a clear place to go. Unlike typical product feedback, accessibility issues don’t belong to any single team—they cut across the entire ecosystem. For example, a screen reader user might report a broken workflow that touches navigation, authentication, and settings. A keyboard-only user might hit a trap in a shared component used across dozens ",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/03/Screenshot-2026-03-11-at-12.37.19-PM.png?resize=1395%2C244"
     },
     {
       "id": "cdda5dad6ac6945a6c4d",
@@ -808,7 +808,7 @@
       "url": "https://stripe.com/blog/10-lessons",
       "publishedAt": "2026-03-12T00:00:00Z",
       "summary": "A future where we buy with AI agents feels inevitable. Making it actually work is harder. These lessons from the first wave of agentic commerce are meant to help sellers decide what to tackle, avoid common bottlenecks, and get ahead of what’s coming.",
-      "imageURL": null
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3JPDWTTYPpM2YcBISc8vag/7b023bd06d150e886a75df88a73c41d2/Index_preview.png"
     },
     {
       "id": "91799656f5bc02f1bbd1",
@@ -817,7 +817,7 @@
       "url": "https://discord.com/blog/claim-your-game",
       "publishedAt": "2026-03-12T00:00:00Z",
       "summary": "Developers can now claim and customize their game’s profiles on Discord. Curate your game’s presence on the platform to help people discover more about your game, and get your server verified in the process! Read on to see how it works.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69b0462c05e2cfb5433031ce_game-claiming-blog-1800x720.png"
     },
     {
       "id": "9eafb2ce8dd8c92b759f",
@@ -835,7 +835,7 @@
       "url": "https://stripe.com/blog/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse",
       "publishedAt": "2026-03-10T00:00:00Z",
       "summary": "From November 2025 to February 2026, our models detected 6.2x more abusive free trials across the Stripe network. This is part of a broader shift toward first-party fraud, where legitimate users abuse policies by setting up multiple accounts, cycling through free trials, or exploiting refunds.",
-      "imageURL": null
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Q9QOcOKdwnmutUW8UEFOM/0b06bc4a1e35569bf711188f4927e120/fpft-updated-index.png"
     },
     {
       "id": "154b0d32576bcecd8d1b",
@@ -853,7 +853,7 @@
       "url": "https://discord.com/blog/building-on-the-social-layer-of-games-whats-new-from-gdc-2026",
       "publishedAt": "2026-03-09T00:00:00Z",
       "summary": "At GDC 2026, Discord gives developers more ways to close the gap between connection and play.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69ab2ba75deb42d5757ebfe2_MarvelRivals-AccLinking-hero-BLOG-March-1800x720.png"
     },
     {
       "id": "7d6b5410455f3d57f210",
@@ -861,8 +861,8 @@
       "sourceName": "Netflix TechBlog",
       "url": "https://medium.com/p/816f47290641",
       "publishedAt": "2026-03-06T15:01:27Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Valentin Geffrier , Tanguy Cornuau Each year, we bring the Analytics Engineering community together for an Analytics Summit — a multi-day internal conference to share analytical deliverables across Netflix, discuss analytic practice, and build relationships within the community. This post is one of several topics presented at the Summit highlighting the breadth and impact of Analytics work across ",
+      "imageURL": "https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=816f47290641"
     },
     {
       "id": "18d1a74adfd8d3bb91ce",
@@ -880,7 +880,7 @@
       "url": "https://discord.com/blog/discord-patch-notes-march-6-2026",
       "publishedAt": "2026-03-06T00:00:00Z",
       "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     },
     {
       "id": "7cf0520afb82aa815dee",
@@ -897,8 +897,8 @@
       "sourceName": "Airbnb Engineering (Medium)",
       "url": "https://medium.com/p/01e2290eb0f5",
       "publishedAt": "2026-03-04T18:01:02Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "How we changed our Observability as Code alert review process and cut development cycles from weeks to minutes. Observability as Code (OaC) — defining alerts, dashboards, and SLOs via code rather than UI — is table stakes for large engineering organizations. With OaC, observability adopts software development’s version control, code review, and testing processes, achieving the same level of discip",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Cy9Y4YIsQLRhjl15rMGqkQ.jpeg"
     },
     {
       "id": "b4aba5ac0629335bf135",
@@ -916,7 +916,7 @@
       "url": "https://discord.com/blog/tracing-discords-elixir-systems-without-melting-everything",
       "publishedAt": "2026-03-04T00:00:00Z",
       "summary": "Join Senior Software Engineer Nick Krichevsky as he explains how Discord added distributed tracing to Elixir's message passing and optimized it to handle millions of concurrent users.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69a86c2c6af0e7ddd8398c2f_2024_10_DiscordBlog_Safety-2.png"
     },
     {
       "id": "5ce85cb1030ff9429cd9",
@@ -924,8 +924,8 @@
       "sourceName": "GitHub Engineering",
       "url": "https://github.blog/?p=94225",
       "publishedAt": "2026-03-03T18:45:09Z",
-      "summary": "Here's how we made the search experience better, faster, and more resilient for GHES customers. The post How we rebuilt the search architecture for high availability in GitHub Enterprise Server appeared first on The GitHub Blog .",
-      "imageURL": null
+      "summary": "So much of what you interact with on GitHub depends on search—obviously the search bars and filtering experiences like the GitHub Issues page, but it is also the core of the releases page, projects page, the counts for issues and pull requests, and more. Given that search is such a core part of the GitHub platform, we’ve spent the last year making it even more durable. That means, less time spent ",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/03/CCR.png?resize=1280%2C720"
     },
     {
       "id": "15de23c7f77184856b9f",
@@ -933,7 +933,7 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/the-hidden-price-tag-uncovering-hidden-costs-in-cloud-architectures-with-the-aws-well-architected-framework/",
       "publishedAt": "2026-03-03T16:08:00Z",
-      "summary": "In this post, we discuss how following the AWS Cloud Adoption Framework (AWS CAF) and AWS Well-Architected Framework can help reduce these risks through proper implementation of AWS guidance and best practices while taking into consideration the practical challenges organizations face in implementing these best practices, including resource constraints, evaluating trade-offs and competing business",
+      "summary": "AWS and cloud computing changed how businesses operate. Organizations now store, process, and manage data in the cloud at scale while treating compute resources as a utility. Cloud architecture requires weighing trade-offs to find solutions that fit your specific requirements. Failing to follow best practices in cloud architecture design can lead to undesirable results and hidden costs, such as th",
       "imageURL": null
     },
     {
@@ -942,8 +942,8 @@
       "sourceName": "Netflix TechBlog",
       "url": "https://medium.com/p/30d2830401ec",
       "publishedAt": "2026-03-03T01:36:46Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "By Harshad Sane Ranker is one of the largest and most complex services at Netflix. Among many things, it powers the personalized rows you see on the Netflix homepage, and runs at an enormous scale. When we looked at CPU profiles for this service, one feature kept standing out: video serendipity scoring — the logic that answers a simple question: “How different is this new title from what you’ve be",
+      "imageURL": "https://cdn-images-1.medium.com/max/655/1*w8Z7CwTNc4dW84n8-S-CMw.png"
     },
     {
       "id": "9858fa8b4ec193fa7584",
@@ -952,7 +952,7 @@
       "url": "https://stripe.com/blog/supporting-additional-payment-methods-for-agentic-commerce",
       "publishedAt": "2026-03-03T00:00:00Z",
       "summary": "Stripe is now the first and only provider that supports both agentic network tokens and buy now, pay later tokens in agentic commerce through a single primitive.",
-      "imageURL": null
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/2pBffvdyWZ4iIQ8ehw3kKH/d93634dc4e88f9981292b333f534d04f/index-tokenization-2.png"
     },
     {
       "id": "e4f08652d280a01e0b6d",
@@ -961,7 +961,7 @@
       "url": "https://stripe.com/blog/can-ai-agents-build-real-stripe-integrations",
       "publishedAt": "2026-03-02T00:00:00Z",
       "summary": "State-of-the-art LLMs can now solve a majority of scoped coding problems, but it’s an open question whether they can fully autonomously manage software engineering projects. We spent months building evaluation environments to benchmark how well AI agents can create real Stripe integrations.",
-      "imageURL": null
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3eECFWnjwVnp7EForWM9lL/2ab86dd9a7c6b61fe6b7d6b8009f2598/Index-New_2x__1_.png"
     },
     {
       "id": "7c4a85a7d5793bafc4cd",
@@ -969,8 +969,8 @@
       "sourceName": "Netflix TechBlog",
       "url": "https://medium.com/p/f3b09b68beac",
       "publishedAt": "2026-02-28T22:55:53Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Authors: Harshad Sane , Andrew Halaney Imagine this — you click play on Netflix on a Friday night and behind the scenes hundreds of containers spring to action in a few seconds to answer your call. At Netflix, scaling containers efficiently is critical to delivering a seamless streaming experience to millions of members worldwide. To keep up with responsiveness at this scale, we modernized our con",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*1w_zMp68xhQI0W1bTXG0Dw.png"
     },
     {
       "id": "8c1ebcdfa26c65c08234",
@@ -978,8 +978,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/digital-transformation-at-santander-how-platform-engineering-is-revolutionizing-cloud-infrastructure/",
       "publishedAt": "2026-02-26T17:54:12Z",
-      "summary": "Santander faced a significant technical challenge in managing an infrastructure that processes billions of daily transactions across more than 200 critical systems. The solution emerged through an innovative platform engineering initiative called Catalyst, which transformed the bank's cloud infrastructure and development management. This post analyzes the main cases, benefits, and results obtained",
-      "imageURL": null
+      "summary": "This post is cowritten by Julio Bando from Santander. Santander faced a significant technical challenge in managing an infrastructure that processes billions of daily transactions across more than 200 critical systems. The expansion into diverse financial services, including investment banking, wealth management, insurance, and payment solutions, had created unprecedented technological complexity,",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/01/26/ARCHBLOG-12991.png"
     },
     {
       "id": "4136a1a070fa1015966f",
@@ -987,8 +987,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/6000-aws-accounts-three-people-one-platform-lessons-learned/",
       "publishedAt": "2026-02-25T19:47:07Z",
-      "summary": "This post describes why ProGlove chose a account-per-tenant approach for our serverless SaaS architecture and how it changes the operational model. It covers the challenges you need to anticipate around automation, observability and cost. We will also discuss how the approach can affect other operational models in different environments like an enterprise context.",
-      "imageURL": null
+      "summary": "This post is cowritten by Julius Blank from ProGlove. As software-as-a-service (SaaS) platforms grow, balancing speed of innovation with strong security and tenant data isolation becomes critical. While the same AWS Identity and Access Management (IAM) mechanisms secure both shared and dedicated environments, establishing a hard security boundary is often easier in an account-per-tenant model beca",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/17/ARCHBLOG-1310-1.png"
     },
     {
       "id": "54f35ead1b8fcd0109b1",
@@ -996,8 +996,8 @@
       "sourceName": "Airbnb Engineering (Medium)",
       "url": "https://medium.com/p/7d79f57d3b52",
       "publishedAt": "2026-02-24T18:36:39Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "2025 was a big year for research at Airbnb, as we made significant progress toward our mission to use AI, data science, and machine learning to become the best travel and living platform. Specifically, we doubled down on our presence at long-standing venues like KDD and CIKM — two of the most selective conferences in machine learning. At the same time, we expanded our research footprint by sharing",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*FfdFpfjGZODh7ltZ2W2Mrg.jpeg"
     },
     {
       "id": "99fe81ac12f4beb45b38",
@@ -1006,7 +1006,7 @@
       "url": "https://discord.com/blog/getting-global-age-assurance-right-what-we-got-wrong-and-whats-changing",
       "publishedAt": "2026-02-24T00:00:00Z",
       "summary": "Discord's CTO addresses community concerns about age assurance: no mass ID collection, new vendor transparency commitments, and a delayed global launch until second half of 2026.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67d0c4e0932bb59c7f6271e5_2024_10_DiscordBlog_UsingDiscord-1.png"
     },
     {
       "id": "e173ae566e2ecbe45cfc",
@@ -1014,8 +1014,8 @@
       "sourceName": "Netflix TechBlog",
       "url": "https://medium.com/p/e8c28df82e2d",
       "publishedAt": "2026-02-23T18:24:32Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Avneesh Saluja , Santiago Castro , Bowei Yan , Ashish Rastogi Introduction Netflix’s core mission is to connect millions of members around the world with stories they’ll love. This requires not just an incredible catalog, but also a deep, machine-level understanding of every piece of content in that catalog, from the biggest blockbusters to the most niche documentaries. As we onboard new types of ",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*y5IOwk46Pu82512T00ywGA.png"
     },
     {
       "id": "247e5a9fecb9e2406040",
@@ -1023,8 +1023,8 @@
       "sourceName": "Lyft Engineering",
       "url": "https://medium.com/p/b04dca99e6ee",
       "publishedAt": "2026-02-19T17:28:41Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Written by Stefan Zier For years, Lyft’s localization infrastructure relied exclusively on human translation. While this model usually ensured excellent quality, it was bound by multi-day turnarounds and costs that scaled linearly with every new language. For the few languages Lyft initially supported (Spanish, Portuguese, and French), these limits were acceptable. However, Lyft’s expansion goals ",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*kdkhjQ3EWj3J8fHUe1xKIA.png"
     },
     {
       "id": "d32747c3141561a6a59e",
@@ -1033,7 +1033,7 @@
       "url": "https://discord.com/blog/osprey-open-sourcing-our-rule-engine",
       "publishedAt": "2026-02-19T00:00:00Z",
       "summary": "Discord uses Osprey to quickly detect and remove new types of harm from putting our customers at risk. Now we’re open-sourcing this tool so others can do the same.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68c465a0050ca83bcc5934ef_image2.png"
     },
     {
       "id": "016d0923d03638153a79",
@@ -1042,7 +1042,7 @@
       "url": "https://discord.com/blog/bring-your-vibe-to-discord-with-new-themes-in-nitro",
       "publishedAt": "2026-02-19T00:00:00Z",
       "summary": "Add a splash of personality and make Discord pop by changing Discord’s color scheme! Learn how to adjust the look of Discord on both desktop and mobile.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/64121f8765e921a28f9a2b54_Discord%20HQ%20-%202.png"
     },
     {
       "id": "09cca119c8ce79d76842",
@@ -1050,8 +1050,8 @@
       "sourceName": "Airbnb Engineering (Medium)",
       "url": "https://medium.com/p/5aca5222ed68",
       "publishedAt": "2026-02-18T17:01:01Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "How Airbnb ships dynamic config changes safely and reliably. By Cosmo Qiu , Bo Teng , Siyuan Zhou , Ankur Soni , Willis Harvey Dynamic configuration is a core infrastructure capability in modern systems. It allows developers to change runtime behavior without restarting or redeploying services, even as the number of services and requests grows. In practice, that might mean rolling out a new addres",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*v2VDklQn1NHAx-MiR8DYMQ.png"
     },
     {
       "id": "e685969f12aeda988d63",
@@ -1059,8 +1059,8 @@
       "sourceName": "Netflix TechBlog",
       "url": "https://medium.com/p/0046f8790194",
       "publishedAt": "2026-02-13T08:05:33Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Baolin Li , Lingyi Liu , Binh Tang , Shaojing Li Introduction Pre-training gives Large Language Models (LLMs) broad linguistic ability and general world knowledge, but post-training is the phase that actually aligns them to concrete intents, domain constraints, and the reliability requirements of production environments. At Netflix, we are exploring how LLMs can enable new member experiences acros",
+      "imageURL": "https://cdn-images-1.medium.com/max/873/1*at60qZXd0j6SphkjzdmazQ.png"
     },
     {
       "id": "7c632580ab27b2f57b82",
@@ -1068,8 +1068,8 @@
       "sourceName": "Lyft Engineering",
       "url": "https://medium.com/p/00853df009df",
       "publishedAt": "2026-02-12T17:07:13Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "written by Ross Chu and Shima Nassiri The Causal Frontier: Measurement Beyond Randomization The gold standard for determining the causal impact of a policy or product change at a company like Lyft is the A/B test (randomized experiment). By randomly assigning users to a treatment or control group, A/B tests inherently eliminate bias, providing clean estimates of the Average Treatment Effect (ATE).",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*1h8xn6vIPteLe8ssJuFQtg.png"
     },
     {
       "id": "a05c4def6f5702eec93e",
@@ -1077,8 +1077,8 @@
       "sourceName": "Airbnb Engineering (Medium)",
       "url": "https://medium.com/p/85216183d094",
       "publishedAt": "2026-02-11T17:02:19Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Anna Sulkina has always been a traveler, and we’re lucky her travels have brought her to Airbnb. Anna is a Senior Director of Engineering, and she’s responsible for Application & Cloud infrastructure. She brings over two decades of industry experience to Airbnb, including work spanning the stack from the frontend to the backend to the plumbing that makes everything come together. Anna is a mother,",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*eiZyGBIJvx3S5kREFK8wOw.jpeg"
     },
     {
       "id": "e1cc0a2d0c1ba7a985a0",
@@ -1086,8 +1086,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/how-convera-built-fine-grained-api-authorization-with-amazon-verified-permissions/",
       "publishedAt": "2026-02-05T21:21:54Z",
-      "summary": "In this post, we share how Convera used Amazon Verified Permissions to build a fine-grained authorization model for their API platform.",
-      "imageURL": null
+      "summary": "Convera processes billions in cross-border payment volume yearly for businesses and financial institutions worldwide. As their platform grew, they needed a robust authorization system that could protect sensitive financial data while maintaining operational efficiency across their global network. In this post, we share how Convera used Amazon Verified Permissions to build a fine-grained authorizat",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/02/image-archblog-11401.png"
     },
     {
       "id": "d70d8d181551887592a5",
@@ -1095,8 +1095,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/mastering-millisecond-latency-and-millions-of-events-the-event-driven-architecture-behind-the-amazon-key-suite/",
       "publishedAt": "2026-02-04T15:53:39Z",
-      "summary": "In this post, we explore how the Amazon Key team used Amazon EventBridge to modernize their architecture, transforming a tightly coupled monolithic system into a resilient, event-driven solution. We explore the technical challenges we faced, our implementation approach, and the architectural patterns that helped us achieve improved reliability and scalability. The post covers our solutions for man",
-      "imageURL": null
+      "summary": "Background Amazon Key empowers customers to securely manage access to their homes and businesses through innovative solutions. Through a suite of consumer and business products, the Amazon Key team is transforming how customers receive deliveries and manage access to their spaces. Our In-Garage Delivery service offers a secure and convenient solution for receiving Amazon packages and groceries dir",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/03/HLD-1.png"
     },
     {
       "id": "47d30c54aa2c90744250",
@@ -1105,7 +1105,7 @@
       "url": "https://discord.com/blog/discord-patch-notes-february-4-2026",
       "publishedAt": "2026-02-04T00:00:00Z",
       "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     },
     {
       "id": "d1309b4304dc248caba8",
@@ -1114,7 +1114,7 @@
       "url": "https://discord.com/blog/how-to-customize-your-discord-profile",
       "publishedAt": "2026-02-02T00:00:00Z",
       "summary": "Make your first impression count with a profile that represents you how YOU want to be seen. Learn how to edit and customize your profile to have it rep you the right way.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/681939dfe8fd42947e36366d_2024_10_DiscordBlog_Educational-4.png"
     },
     {
       "id": "3a208c198b84eb18351a",
@@ -1122,8 +1122,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/sovereign-failover-design-for-digital-sovereignty-using-the-aws-european-sovereign-cloud/",
       "publishedAt": "2026-01-30T19:09:35Z",
-      "summary": "This post explores the architectural patterns, challenges, and best practices for building cross-partition failover, covering network connectivity, authentication, and governance. By understanding these constraints, you can design resilient cloud-native applications that balance regulatory compliance with operational continuity.",
-      "imageURL": null
+      "summary": "Organizations operating across multiple jurisdictions need to consider the impact of regulatory changes or geopolitical events on their access to cloud infrastructure. This post explains how to design failover architectures that span AWS partitions—including the AWS European Sovereign Cloud , AWS GovCloud (US) and other AWS Regions in the global infrastructure — so workloads can continue operating",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/01/29/l-archblog-1320-1-1024x482.jpeg"
     },
     {
       "id": "526947647715457e7847",
@@ -1131,8 +1131,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/how-artera-enhances-prostate-cancer-diagnostics-using-aws/",
       "publishedAt": "2026-01-29T17:06:57Z",
-      "summary": "In this post, we explore how Artera used Amazon Web Services (AWS) to develop and scale their AI-powered prostate cancer test, accelerating time to results and enabling personalized treatment recommendations for patients.",
-      "imageURL": null
+      "summary": "This post was co-written with Hariharan Ananthakrishnan from Artera. Artificial intelligence (AI) and machine learning (ML) are transforming cancer diagnosis and treatment, enabling faster and more accurate decisions for patients. One company at the forefront of this transformation is Artera , a precision medicine company developing an AI-powered platform for cancer treatment planning. The U.S. Fo",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/01/16/ARCH-13411.png"
     },
     {
       "id": "37ce7cb1d4bc32144e87",
@@ -1140,8 +1140,8 @@
       "sourceName": "GitHub Engineering",
       "url": "https://github.blog/?p=93464",
       "publishedAt": "2026-01-28T17:00:00Z",
-      "summary": "Learn how GitHub built an accessible, multi-terminal-safe ASCII animation for the Copilot CLI using custom tooling, ANSI color roles, and advanced terminal engineering. The post From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner appeared first on The GitHub Blog .",
-      "imageURL": null
+      "summary": "Most people think ASCII art is simple, and a nostalgic remnant of the early internet. But when the GitHub Copilot CLI team asked for a small entrance banner for the new command-line experience, they discovered the opposite: An ASCII animation in a real-world terminal is one of the most constrained UI engineering problems you can take on. Part of what makes this even more interesting is the moment ",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/01/banner1.png?resize=872%2C246"
     },
     {
       "id": "b2a0d81f118a6e109e14",
@@ -1149,8 +1149,8 @@
       "sourceName": "GitHub Engineering",
       "url": "https://github.blog/?p=93309",
       "publishedAt": "2026-01-15T20:54:32Z",
-      "summary": "User feedback led us to clean up outdated mitigations. See why observability and lifecycle management are critical for defense systems. The post When protections outlive their purpose: A lesson on managing defense systems at scale appeared first on The GitHub Blog .",
-      "imageURL": null
+      "summary": "To keep a platform like GitHub available and responsive, it’s critical to build defense mechanisms. A whole lot of them. Rate limits, traffic controls, and protective measures spread across multiple layers of infrastructure. These all play a role in keeping the service healthy during abuse or attacks. We recently ran into a challenge: Those same protections can quietly outlive their usefulness and",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/01/1.png?resize=1024%2C659"
     },
     {
       "id": "44acb94a2e949d569937",
@@ -1158,7 +1158,7 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/how-salesforce-migrated-from-cluster-autoscaler-to-karpenter-across-their-fleet-of-1000-eks-clusters/",
       "publishedAt": "2026-01-12T20:03:32Z",
-      "summary": "This blog post examines how Salesforce, operating one of the world's largest Kubernetes deployments, successfully migrated from Cluster Autoscaler to Karpenter across their fleet of 1,000 plus Amazon Elastic Kubernetes Service (Amazon EKS) clusters.",
+      "summary": "As organizations scale their Kubernetes deployments, Kubernetes cluster scaling has traditionally been complex and slow, requiring careful management of node groups and auto scaling configurations. Karpenter , an open source node provisioning project for Kubernetes, can help transform this approach by directly provisioning right-sized nodes based on real-time workload demands. A recent Datadog rep",
       "imageURL": null
     },
     {
@@ -1167,8 +1167,8 @@
       "sourceName": "Lyft Engineering",
       "url": "https://medium.com/p/7835f8962b99",
       "publishedAt": "2026-01-06T18:10:32Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Written by Rohan Varshney , with support from Devon Mittow & Janice Lee . This article expands upon a presentation from the Feature Store Summit 2025, which can be viewed in full here . There is also another video available on the evolution of Lyft’s Feature Store from DE4AI 2024. Introduction and Core Purpose Lyft’s Feature Store stands as a core infrastructural pillar within its Data Platform or",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*YGtkZilNCULvGZ_qjB1Kuw.jpeg"
     },
     {
       "id": "26e87757c3d171729311",
@@ -1176,8 +1176,8 @@
       "sourceName": "Lyft Engineering",
       "url": "https://medium.com/p/1fd9b43cc01e",
       "publishedAt": "2025-12-15T19:31:01Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Image generated with ChatGPT (OpenAI), 2025. Intro When working with Python, memory management often feels like a solved problem. The garbage collector quietly does its job, and unlike C or C++, we rarely think about malloc or free. This doesn’t mean that there are no memory leaks in Python. Reference cycles, unreleased resources like connection pooling, global caches, etc can slowly inflate your ",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*QWBsfrlv7BNM8sZwFAsTfQ.png"
     },
     {
       "id": "f1d189eeaefec3850b8f",
@@ -1186,7 +1186,7 @@
       "url": "https://discord.com/blog/beginners-guide-to-custom-emojis",
       "publishedAt": "2025-12-12T00:00:00Z",
       "summary": "Emojis on Discord are special — you can make a little picture out of almost any symbol, in-joke, or bizarre late-night inspiration.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/63603f76620d3470d9bd3f1f_2022_EmojiSurvey_HEADER_2%20(1).png"
     },
     {
       "id": "006b962a64e61e58c66d",
@@ -1194,8 +1194,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/architecting-conversational-observability-for-cloud-applications/",
       "publishedAt": "2025-12-11T15:59:39Z",
-      "summary": "In this post, we walk through building a generative AI–powered troubleshooting assistant for Kubernetes. The goal is to give engineers a faster, self-service way to diagnose and resolve cluster issues, cut down Mean Time to Recovery (MTTR), and reduce the cycles experts spend finding the root cause of issues in complex distributed systems.",
-      "imageURL": null
+      "summary": "Modern cloud applications are commonly built as a collection of loosely coupled microservices running on services like Amazon Elastic Kubernetes Service (Amazon EKS) , Amazon Elastic Container Service (Amazon ECS) , or AWS Lambda . This architecture gives engineering teams flexibility and scalability, but its inherently distributed nature also makes troubleshooting more difficult. When something b",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/10/06/arch1266-img1.png"
     },
     {
       "id": "d106a257aea8d54c5d78",
@@ -1203,8 +1203,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/how-basfs-agriculture-solutions-drives-traceability-and-climate-action-by-tokenizing-cotton-value-chains-using-amazon-managed-blockchain/",
       "publishedAt": "2025-12-10T17:41:52Z",
-      "summary": "BASF Agricultural Solutions combines innovative products and digital tools with practical farmer knowledge. This post explores how Amazon Managed Blockchain can drive a positive change in the agricultural industry by tokenizing food and cotton value chains for traceability, climate action, and circularity.",
-      "imageURL": null
+      "summary": "BASF Agricultural Solutions combines innovative products and digital tools with practical farmer knowledge. With over a century of experience, BASF offers a broad portfolio spanning seeds, crop protection, soil management, plant health, and digital agriculture solutions. Through collaboration with farmers, scientists, and partners, BASF strives to meet societal needs sustainably while creating a l",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/03/13/Grafic-2.png"
     },
     {
       "id": "958edf1c8a9f95530ce0",
@@ -1212,8 +1212,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/she-architects-bringing-unique-perspectives-to-innovative-solutions-at-aws/",
       "publishedAt": "2025-12-08T16:37:15Z",
-      "summary": "Have you ever wondered what it is really like to be a woman in tech at one of the world's leading cloud companies? Or maybe you are curious about how diverse perspectives drive innovation beyond the buzzwords? Today, we are providing an insider's perspective on the role of a solutions architect (SA) at Amazon Web Services (AWS). However, this is not a typical corporate success story. We are three ",
-      "imageURL": null
+      "summary": "Have you ever wondered what it is really like to be a woman in tech at one of the world’s leading cloud companies? Or maybe you are curious about how diverse perspectives drive innovation beyond the buzzwords? Today, we are providing an insider’s perspective on the role of a solutions architect (SA) at Amazon Web Services (AWS). However, this is not a typical corporate success story. We are three ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/11/28/ARCHBLOG-1257_Kayalvizhi_2-scaled.jpg"
     },
     {
       "id": "c08964bb90b164eed7b0",
@@ -1222,7 +1222,7 @@
       "url": "https://discord.com/blog/discord-patch-notes-december-8-2025",
       "publishedAt": "2025-12-08T00:00:00Z",
       "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     },
     {
       "id": "d49e56c478f5247ca6c0",
@@ -1231,7 +1231,7 @@
       "url": "https://discord.com/blog/gift-ideas-for-the-discord-user",
       "publishedAt": "2025-12-08T00:00:00Z",
       "summary": "We’ve got plenty of gift ideas, from those who game through the night, to those who decorate their profile just right — let’s dig in!",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69370de739d6d3c5ec3739da_NitroHoliday_BlogHeader_Final_V2%20(1).png"
     },
     {
       "id": "61a409f1a683d28007d3",
@@ -1240,7 +1240,7 @@
       "url": "https://discord.com/blog/checkpoint-2025-discord-year-in-review",
       "publishedAt": "2025-12-04T00:00:00Z",
       "summary": "How many messages did you send? How long did you hang out in voice? Who’d you talk with the most? Stop by your end-of-year Checkpoint, a recap of the stuff YOU did on Discord throughout the year!",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/692f703325021d1d0a33f1eb_BlogBanner_1800x720%20(1).png"
     },
     {
       "id": "b797b7c3da94894e58ee",
@@ -1249,7 +1249,7 @@
       "url": "https://discord.com/blog/save-and-display-your-faves-add-discord-shop-marvel-rivals-items-to-your-profiles-wishlist",
       "publishedAt": "2025-12-02T00:00:00Z",
       "summary": "Keep track of all the stuff from the Shop you’ve been wanting to purchase with the new Wishlist feature. Display the stuff you’ve been eyeing on your profile, and if you’re lucky enough, maybe one of your friends may see it and gift it to you…",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6927808f2b033db8af5e4b59_Wishlist_Banner__MarvelRivals-Shop-1800x720.png"
     },
     {
       "id": "6b5c36c6acde0d0c4e53",
@@ -1258,7 +1258,7 @@
       "url": "https://discord.com/blog/bringing-in-game-commerce-to-discord-communities",
       "publishedAt": "2025-12-02T00:00:00Z",
       "summary": "By bringing commerce directly to official game communities, we're giving game developers the opportunity to benefit from these dynamics, creating incremental revenue that complements their existing storefronts.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/692616af8e8bab216f88af70_MarvelRivals-Shop-hero-BLOG-1800x720.png"
     },
     {
       "id": "b5260a8b3f426d35dbc0",
@@ -1266,8 +1266,8 @@
       "sourceName": "Slack Engineering",
       "url": "https://slack.engineering/?p=17645",
       "publishedAt": "2025-12-01T16:00:42Z",
-      "summary": "Slack’s Security Engineering team is responsible for protecting Slack’s core infrastructure and services. Our security event ingestion pipeline handles billions of events per day from a diverse array of data sources. Reviewing alerts produced by our security detection system is our primary responsibility during on-call shifts. We’re going to show you how we’re using AI…",
-      "imageURL": null
+      "summary": "Slack’s Security Engineering team is responsible for protecting Slack’s core infrastructure and services. Our security event ingestion pipeline handles billions of events per day from a diverse array of data sources. Reviewing alerts produced by our security detection system is our primary responsibility during on-call shifts. We’re going to show you how we’re using AI agents to optimize our worki",
+      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2025/11/investigation_round_simple_vertical_ad2b54.png?w=1020"
     },
     {
       "id": "5ac5c5374593e84b1090",
@@ -1275,8 +1275,8 @@
       "sourceName": "AWS Architecture Blog",
       "url": "https://aws.amazon.com/blogs/architecture/secure-amazon-elastic-vmware-service-amazon-evs-with-aws-network-firewall/",
       "publishedAt": "2025-11-26T16:22:03Z",
-      "summary": "In this post, we demonstrate how to utilize AWS Network Firewall to secure an Amazon EVS environment, using a centralized inspection architecture across an EVS cluster, VPCs, on-premises data centers and the internet. We walk through the implementation steps to deploy this architecture using AWS Network Firewall and AWS Transit Gateway.",
-      "imageURL": null
+      "summary": "Amazon Elastic VMware Service (Amazon EVS) helps organizations migrate, run, and scale VMware workloads natively on AWS. It delivers a VMware Cloud Foundation (VCF) environment that operates directly within your Amazon Virtual Private Cloud (Amazon VPC) on Amazon EC2 bare-metal instances. The solution helps customers accelerate cloud migrations and data center exits without needing to refactor exi",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/11/23/ARCHBLOG-1250-Figure1.png"
     },
     {
       "id": "2d4ddac195f7a62bc926",
@@ -1284,8 +1284,8 @@
       "sourceName": "Slack Engineering",
       "url": "https://slack.engineering/?p=17474",
       "publishedAt": "2025-11-19T18:00:39Z",
-      "summary": "Background A Voluntary Product Accessibility Template (VPAT) is a document that outlines how well a product aligns with accessibility (a11y) standards. Its primary purpose is to inform customers about a product’s a11y features, enabling them to make informed decisions before purchasing software. At Slack, we conducted a VPAT by a third party a11y vendor in…",
-      "imageURL": null
+      "summary": "Background A Voluntary Product Accessibility Template (VPAT) is a document that outlines how well a product aligns with accessibility (a11y) standards. Its primary purpose is to inform customers about a product’s a11y features, enabling them to make informed decisions before purchasing software. At Slack, we conducted a VPAT by a third party a11y vendor in 2024 following our significant UI change ",
+      "imageURL": "https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png"
     },
     {
       "id": "f1bf4166900a1dbe08c5",
@@ -1293,8 +1293,8 @@
       "sourceName": "Lyft Engineering",
       "url": "https://medium.com/p/547de6c950e1",
       "publishedAt": "2025-11-18T18:16:05Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Written by Yaroslav Yatsiuk At Lyft, machine learning (ML) is the engine behind our most critical business functions — from dispatch and pricing optimization to fraud detection and support automation. Our ML infrastructure serves thousands of production models making hundreds of millions of real-time predictions per day, supported by thousands of daily training jobs that keep ML models fresh and a",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*-r1saxCbUiFJf47gTbTyXg.png"
     },
     {
       "id": "fcc269a13804b55b989f",
@@ -1303,7 +1303,7 @@
       "url": "https://discord.com/blog/how-to-link-discord-to-popular-multiplayer-games",
       "publishedAt": "2025-11-14T00:00:00Z",
       "summary": "Some of the most popular multiplayer games have added the ability to directly link your Discord account to the game! Learn how to link your Discord account to some big-name titles and see what sorta perks it provides.",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/691519f81bc43f40055e52e6_image4.png"
     },
     {
       "id": "e95bfd2b04e3f3c08c35",
@@ -1312,7 +1312,7 @@
       "url": "https://discord.com/blog/how-to-share-what-youre-playing-listening-to-or-watching-as-your-status-on-discord",
       "publishedAt": "2025-11-14T00:00:00Z",
       "summary": "Playing a game right now? Listening to some tunes, or catching up on that one anime your friends won’t stop talking about? Learn how to show off what you’re up to as your Discord status and show @everyone what’s up!",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6903f034183efa9894483782_image10.png"
     },
     {
       "id": "a7a2e0e5c8e520807278",
@@ -1320,8 +1320,8 @@
       "sourceName": "Slack Engineering",
       "url": "https://slack.engineering/?p=17591",
       "publishedAt": "2025-11-06T16:00:47Z",
-      "summary": "We manage the build pipeline that delivers Quip and Slack Canvas’s backend. A year ago, we were chasing exciting ideas to help engineers ship better code, faster. But we had one huge problem: builds took 60 minutes. With a build that slow, the whole pipeline gets less agile, and feedback doesn’t come to engineers until…",
-      "imageURL": null
+      "summary": "We manage the build pipeline that delivers Quip and Slack Canvas’s backend. A year ago, we were chasing exciting ideas to help engineers ship better code, faster. But we had one huge problem: builds took 60 minutes . With a build that slow, the whole pipeline gets less agile, and feedback doesn’t come to engineers until far too late. We fixed this problem by combining modern, high-performance buil",
+      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2025/10/DevXP-Council-Presentation6-e1759869480617.png"
     },
     {
       "id": "426b01fe25d0bc40fdec",
@@ -1330,7 +1330,7 @@
       "url": "https://discord.com/blog/discord-update-november-6-2025-changelog",
       "publishedAt": "2025-11-06T00:00:00Z",
       "summary": "Here's the Discord Changelog from November 6, 2025, so you can stay informed on what’s new in recent app updates!",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/636042835883b97b259ef618_Fall_November.png"
     },
     {
       "id": "176f29f57e5c9c8a71ef",
@@ -1339,7 +1339,7 @@
       "url": "https://discord.com/blog/a-cornucopia-of-updates-make-discord-on-desktop-fresher-than-a-crisp-fall-breeze",
       "publishedAt": "2025-11-06T00:00:00Z",
       "summary": "This fall, emoji making gets faster, the Settings page gets a redesign, Group DMs are easier to customize, more games gain support for special Discord-powered capabilities, and Family Center gets some expanded features. Take a peek at what’s new this season!",
-      "imageURL": null
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/690bd1527f131ae7862bbc5b_image11.png"
     },
     {
       "id": "51afcae7765304365d0b",
@@ -1347,8 +1347,8 @@
       "sourceName": "Slack Engineering",
       "url": "https://slack.engineering/?p=17611",
       "publishedAt": "2025-10-23T18:17:56Z",
-      "summary": "Last year, I wrote a blog post titled Advancing Our Chef Infrastructure, where we explored the evolution of our Chef infrastructure over the years. We talked about the shift from a single Chef stack to a multi-stack model, and the challenges that came with it – from updating how we handle cookbook uploads to navigating…",
-      "imageURL": null
+      "summary": "Last year, I wrote a blog post titled Advancing Our Chef Infrastructure , where we explored the evolution of our Chef infrastructure over the years. We talked about the shift from a single Chef stack to a multi-stack model, and the challenges that came with it – from updating how we handle cookbook uploads to navigating the limitations around Chef searches. If you haven’t had a chance to read that",
+      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2025/10/env_flow.png?w=438"
     },
     {
       "id": "bc647d0fa6f7cbe875db",
@@ -1356,8 +1356,8 @@
       "sourceName": "Slack Engineering",
       "url": "https://slack.engineering/?p=17513",
       "publishedAt": "2025-10-07T16:33:12Z",
-      "summary": "It’s mid 2023 and we’ve identified some opportunities to improve our reliability. Fast forward to January 2025. Customer impact hours are reduced from the peak by 90% and continuing to trend downward. We’re a year and half into the Deploy Safety Program at Slack, improving the way we deploy, uplifting our safety culture and continuing…",
-      "imageURL": null
+      "summary": "It’s mid 2023 and we’ve identified some opportunities to improve our reliability. Fast forward to January 2025. Customer impact hours are reduced from the peak by 90% and continuing to trend downward. We’re a year and half into the Deploy Safety Program at Slack, improving the way we deploy, uplifting our safety culture and continuing our rate of change to meet business needs. Defining the problem",
+      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2025/05/Screenshot-2025-04-29-at-4.30.19 pm.png?w=640"
     },
     {
       "id": "c91a2b8493715910108d",
@@ -1365,8 +1365,8 @@
       "sourceName": "Lyft Engineering",
       "url": "https://medium.com/p/86a60dddd935",
       "publishedAt": "2025-10-07T14:41:38Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Credit to Brian Wu for creating the illustrations in this post. I joined Lyft in January of 2024, as a Data Scientist — Decisions, on the Rider Science Core Experience team. My journey at Lyft began with a starter project, which focussed on using the Rider Experience Score (RES) tool to measure long-term effects of various rider experiences at Lyft. In this blog post, I will discuss my experience ",
+      "imageURL": "https://cdn-images-1.medium.com/max/450/1*XmS2ckVGZJ6GDLfnTwp3UQ.png"
     },
     {
       "id": "934c269d5ee9f48c5079",
@@ -1374,7 +1374,7 @@
       "sourceName": "GitHub Engineering",
       "url": "https://github.blog/?p=90756",
       "publishedAt": "2025-09-15T16:00:00Z",
-      "summary": "GitHub is introducing post-quantum secure key exchange methods for SSH access to better protect Git data in transit. The post Post-quantum security for SSH access on GitHub appeared first on The GitHub Blog .",
+      "summary": "Today, we’re announcing some changes that will improve the security of accessing Git data over SSH. What’s changing? We’re adding a new post-quantum secure SSH key exchange algorithm, known alternately as sntrup761x25519-sha512 and sntrup761x25519-sha512@openssh.com , to our SSH endpoints for accessing Git data. This only affects SSH access and doesn’t impact HTTPS access at all. It also does not ",
       "imageURL": null
     },
     {
@@ -1383,8 +1383,8 @@
       "sourceName": "Lyft Engineering",
       "url": "https://medium.com/p/53b231dfecb5",
       "publishedAt": "2025-09-09T20:34:03Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Introduction Lyft started adopting Kotlin into our Android codebase in 2018. Fast forward 7 years, and we are finally done! Lyft Rider, Driver and Lyft Urban Solutions apps are now fully Kotlin-based. I joined Lyft in 2022, so this post will describe the efforts undertaken after that. Our motivation included several points: Kotlin code is more concise, and oftentimes, way more concise than Java. I",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*9HXuWJOvxM-TqitBdgZ6oQ.jpeg"
     },
     {
       "id": "29403cae201268f329e5",
@@ -1392,8 +1392,8 @@
       "sourceName": "Lyft Engineering",
       "url": "https://medium.com/p/9b7338e7c8bb",
       "publishedAt": "2025-08-14T19:34:57Z",
-      "summary": null,
-      "imageURL": null
+      "summary": "Written by Morteza Taiebat and Han Gong at Lyft. Introduction This post is authored by two current Lyft Data Scientists, Morteza Taiebat and Han Gong , who both began their journeys at the company as interns. They share their experiences leading up to their internships, the work they did while at Lyft, and what ultimately motivated them to return as full-time employees. Whether you’re a prospectiv",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*f5bDERtosR0e_DlgBWek-Q.jpeg"
     },
     {
       "id": "02f9cc60239f0f63170f",
@@ -1401,8 +1401,8 @@
       "sourceName": "GitHub Engineering",
       "url": "https://github.blog/?p=88639",
       "publishedAt": "2025-06-10T16:00:00Z",
-      "summary": "Our best practices for quickly identifying, resolving, and preventing issues at scale. The post How GitHub engineers tackle platform problems appeared first on The GitHub Blog .",
-      "imageURL": null
+      "summary": "In my spare time I enjoy building Gundam models, which are model kits to build iconic mechas from the Gundam universe. You might be wondering what this has to do with software engineering. Product engineers can be seen as the engineers who take these kits and build the Gundam itself. They are able to utilize all pieces and build a working product that is fun to collect or even play with! Platform ",
+      "imageURL": "https://github.blog/wp-content/uploads/2025/06/gundam.jpg?resize=1024%2C840"
     },
     {
       "id": "c8bef449782c2fba15d2",
@@ -1410,8 +1410,8 @@
       "sourceName": "GitHub Engineering",
       "url": "https://github.blog/?p=87730",
       "publishedAt": "2025-05-13T16:00:00Z",
-      "summary": "Plus, considerations in updating one of GitHub's oldest and most heavily used features. The post GitHub Issues search now supports nested queries and boolean operators: Here’s how we (re)built it appeared first on The GitHub Blog .",
-      "imageURL": null
+      "summary": "Originally, Issues search was limited by a simple, flat structure of queries. But with advanced search syntax , you can now construct searches using logical AND/OR operators and nested parentheses, pinpointing the exact set of issues you care about. Building this feature presented significant challenges: ensuring backward compatibility with existing searches, maintaining performance under high que",
+      "imageURL": "https://github.blog/wp-content/uploads/2025/05/3_issues_search_screenshot.png?resize=1024%2C411"
     }
   ]
 }
