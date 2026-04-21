@@ -1,13 +1,49 @@
 {
   "articles": [
     {
-      "id": "355a47b55c4fd2044752",
-      "title": "Ignition and TimescaleDB: the Perfect Pairing",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/ignition-and-timescaledb-perfect-pairing",
-      "publishedAt": "2026-04-17T16:41:35Z",
-      "summary": "Ignition's SQL Historian is already built to store tag history in PostgreSQL. However, vanilla PostgreSQL is not built for time-series workloads, so the team at Inductive Automation had to create a work-around, which makes direct queries difficult and still has limited performance. TimescaleDB is a PostgreSQL extension that works under the hood to make PostgreSQL one of the fastest time series dat",
+      "id": "2ec0e5cb3a13ed8c35b0",
+      "title": "We still need developer communities",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/21/we-still-need-developer-communities/",
+      "publishedAt": "2026-04-21T07:40:00Z",
+      "summary": "Ryan welcomes Mike Swift, co-founder and CEO of Major League Hacking, to the show to chat about the never-ending need for software developer communities and entry points into programming; MHL’s recent acquisition of DEV and how they’re creating a place for shared knowledge, building, and publishing; and why now is the best time to be both an artisan and a builder in a world with AI software develo",
       "imageURL": null
+    },
+    {
+      "id": "43831681b717c451325b",
+      "title": "Write Amplification in Postgres: The 3-4x Tax on Every Insert",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/write-amplification-in-postgres-the-3-4x-tax-on-every-insert",
+      "publishedAt": "2026-04-20T21:31:25Z",
+      "summary": "You're inserting 100 MB/sec of sensor data into Postgres. Your monitoring dashboard, meanwhile, is cheerfully reporting 300-400 MB/sec of disk writes. You check the math twice. You check it a third time. The math does not improve. Welcome to write amplification. This is the ratio between the logical data you intended to write and the physical I/O Postgres actually performs. For a typical insert-he",
+      "imageURL": null
+    },
+    {
+      "id": "4a44ebc7a820b82dafa0",
+      "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agents-week-in-review/",
+      "publishedAt": "2026-04-20T13:00:00Z",
+      "summary": "Today marks the end of our first Agents Week, an innovation week dedicated entirely to the age of agents. It couldn’t have been more timely: over the past year, agents have swiftly changed how people work. Coding agents are helping developers ship faster than ever. Support agents resolve tickets end-to-end. Research agents validate hypotheses across hundreds of sources in minutes. And people aren'",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6GiG5cEdgwoLU94AuUuLfS/f9022abc8ce823ef2468860474598b6f/BLOG-3239_2.png"
+    },
+    {
+      "id": "e40719c0813a678fd7ca",
+      "title": "The AI engineering stack we built internally — on the platform we ship",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/internal-ai-engineering-stack/",
+      "publishedAt": "2026-04-20T13:00:00Z",
+      "summary": "In the last 30 days, 93% of Cloudflare’s R&D organization used AI coding tools powered by infrastructure we built on our own platform. Eleven months ago, we undertook a major project: to truly integrate AI into our engineering stack. We needed to build the internal MCP servers, access layer, and AI tooling necessary for agents to be useful at Cloudflare. We pulled together engineers from across th",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3lMKwBTT3m7DDmS4BnoNhB/9002104b9c6c09cf72f4052d71e22363/BLOG-3270_2.png"
+    },
+    {
+      "id": "71154b09df9933e45530",
+      "title": "Orchestrating AI Code Review at scale",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ai-code-review/",
+      "publishedAt": "2026-04-20T13:00:00Z",
+      "summary": "Code review is a fantastic mechanism for catching bugs and sharing knowledge, but it is also one of the most reliable ways to bottleneck an engineering team. A merge request sits in a queue, a reviewer eventually context-switches to read the diff, they leave a handful of nitpicks about variable naming, the author responds, and the cycle repeats. Across our internal projects, the median wait time f",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7mAft27PsDQnNSNCvF7waU/fdd2c1c448e1863e34f71c124fa85ea1/BLOG-3284_2.jpg"
     },
     {
       "id": "4b82bfc529b418bb9522",
@@ -262,24 +298,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7eExar2kjoc2QSq6skzTf6/ba4ad79fa01eb060f8b14cd5afa342e5/BLOG-3221_2.png"
     },
     {
-      "id": "226f1a62a7935b5125f6",
-      "title": "Rearchitecting the Workflows control plane for the agentic era",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workflows-v2/",
-      "publishedAt": "2026-04-15T13:00:00Z",
-      "summary": "When we originally built Workflows , our durable execution engine for multi-step applications, it was designed for a world in which workflows were triggered by human actions, like a user signing up or placing an order. For use cases like onboarding flows, workflows only had to support one instance per person — and people can only click so fast. Over time, what we’ve actually seen is a quantitative",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/55bqaUjc30HJHe9spWYTo8/d8053955660553db8b64a484fb321ec7/BLOG-3116_2.png"
-    },
-    {
-      "id": "fdf1d46dfcff7e03e6b5",
-      "title": "Add voice to your agent",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/voice-agents/",
-      "publishedAt": "2026-04-15T13:00:00Z",
-      "summary": "For many of us, our first experiences with AI agents have been through typing into a chat box. And for those of us using agents day to day, we have likely gotten very good at writing detailed prompts or markdown files to guide them. But some of the moments where agents would be most useful are not always text-first. You might be on a long commute, juggling a few open sessions, or just wanting to s",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5IBi8TsQiJ18Um47zpqAIr/d284d47a8653c35bc7c027438a5a7a2c/unnamed__55_.png"
-    },
-    {
       "id": "9ddd90b6d25310c9d3a2",
       "title": "Why AI hasn't replaced human expertise—and what that means for your SaaS stack",
       "sourceName": "Stack Overflow Blog",
@@ -314,15 +332,6 @@
       "publishedAt": "2026-04-14T17:01:01Z",
       "summary": "Discover how Airbnb prioritizes user privacy while building a more connected community, empowering guests to engage socially, connect confidently, and maintain control of their personal data. By: Joy Jing ✨ Building a more connected community At Airbnb, our hosts and guests form the heart of our community. As shared by CEO Brian Chesky , we’re evolving into a more social ecosystem. Airbnb Experien",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*HQamSc0jqVwGvn_MxoY8kg.png"
-    },
-    {
-      "id": "97eb17129f7cae61ed85",
-      "title": "Securing non-human identities: automated revocation, OAuth, and scoped permissions",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/improved-developer-security/",
-      "publishedAt": "2026-04-14T13:00:10Z",
-      "summary": "Agents let you build software faster than ever, but securing your environment and the code you write — from both mistakes and malice — takes real effort. Open Web Application Security Project (OWASP) details a number of risks present in agentic AI systems, including the risk of credential leaks, user impersonation, and elevation of privilege. These risks can result in extreme damage to your enviro",
-      "imageURL": "https://images.ctfassets.net/zkvhlag99gkb/2p3RZFDklLn9cfQOVYq5vS/d40e6116c115c453095f8ed2d110f062/image3.png"
     },
     {
       "id": "cfdc717dcb910a9be398",
@@ -1349,15 +1358,6 @@
       "publishedAt": "2026-03-04T18:01:02Z",
       "summary": "How we changed our Observability as Code alert review process and cut development cycles from weeks to minutes. Observability as Code (OaC) — defining alerts, dashboards, and SLOs via code rather than UI — is table stakes for large engineering organizations. With OaC, observability adopts software development’s version control, code review, and testing processes, achieving the same level of discip",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Cy9Y4YIsQLRhjl15rMGqkQ.jpeg"
-    },
-    {
-      "id": "b4aba5ac0629335bf135",
-      "title": "AI-assisted coding needs more than vibes; it needs containers and sandboxes",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/04/ai-assisted-coding-vibes-hardened-containers-and-sandboxes/",
-      "publishedAt": "2026-03-04T05:40:00Z",
-      "summary": "In this sponsored episode, Ryan chats with Mark Cavage, President and COO of Docker, joins the show to dive into hardened containers and agent sandboxes.",
-      "imageURL": null
     },
     {
       "id": "219b5a5bc14cf30cd7fa",
