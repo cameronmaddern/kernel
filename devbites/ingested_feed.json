@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "16479ff194125481fd26",
+      "title": "How to get multiple agents to play nice at scale",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/22/how-to-get-multiple-agents-to-play-nice-at-scale/",
+      "publishedAt": "2026-04-22T04:40:00Z",
+      "summary": "Chase Roossin, group engineering manager, and Steven Kulesza, staff software engineer, from Intuit join the podcast to chat about what might be the hardest problem in engineering right now: getting multiple AI agents to work together in a complex system.",
+      "imageURL": null
+    },
+    {
+      "id": "111ed45c25577ef3cafa",
+      "title": "Building a fault-tolerant metrics storage system at Airbnb",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/26a01a6e7017",
+      "publishedAt": "2026-04-21T17:01:06Z",
+      "summary": "How we built a storage system that ingests 50 million samples per second and stores 2.5 petabytes of logical time series data. By : Rishabh Kumar Modern observability practice encourages instrumenting every meaningful code path. Over the past 15 years, open-source observability SDKs like Prometheus, OpenTelemetry, and StatsD have made deep instrumentation nearly ubiquitous. These days, most softwa",
+      "imageURL": "https://cdn-images-1.medium.com/max/861/1*5xLmDldWRiVWuP1uvD49Cg.jpeg"
+    },
+    {
+      "id": "fd4f1c98d886b64f1c19",
+      "title": "Real-time analytics: Oldcastle integrates Infor with Amazon Aurora and Amazon Quick Sight",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/real-time-analytics-oldcastle-integrates-infor-with-amazon-aurora-and-amazon-quick-sight/",
+      "publishedAt": "2026-04-21T16:37:12Z",
+      "summary": "This post is cowritten with Avdhesh Paliwal from Oldcastle. Oldcastle APG is one of the largest suppliers of construction materials in North America, including asphalt and concrete. The company also provides construction and paving services across more than 150 facilities. As the company migrated from on-premises systems to Infor Cloud ERP hosted on Amazon Web Services (AWS), they faced a critical",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/06/archblog-12911.png"
+    },
+    {
+      "id": "0415e9216c499b2fc257",
+      "title": "Modernizing the Facebook Groups Search to Unlock the Power of Community Knowledge",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23909",
+      "publishedAt": "2026-04-21T16:00:19Z",
+      "summary": "We’ve fundamentally transformed Facebook Groups Search to help people more reliably discover, sort through, and validate community content that’s most relevant to them. We’ve adopted a new hybrid retrieval architecture and implemented automated model-based evaluation to address the major friction points people experience when searching community content. Under this new framework, we’ve made tangib",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/Modernizing-FB-Groups-search-image-1.png"
+    },
+    {
+      "id": "195133a926630a4f9bd3",
+      "title": "Moving past bots vs. humans",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/past-bots-and-humans/",
+      "publishedAt": "2026-04-21T13:00:00Z",
+      "summary": "For us humans to interact with the online world, we need a gateway: keyboard, screen, browser, device. What is called \"human detection\" online are patterns that humans use when interacting with such devices. These patterns have changed in recent years: a startup CEO now uses their browser to summarize the news, a tech enthusiast automates the process to book their concert tickets when sales open a",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/61L0GkCvWVQl8TH2i2iwFp/899b2a1936aa7fbfaab45fca71d319d6/1.png"
+    },
+    {
       "id": "2ec0e5cb3a13ed8c35b0",
       "title": "We still need developer communities",
       "sourceName": "Stack Overflow Blog",
@@ -287,15 +332,6 @@
       "publishedAt": "2026-04-15T13:00:00Z",
       "summary": "Today we're launching the next chapter of Cloudflare Registrar: the Registrar API in beta . The Registrar API makes it possible to search for domains, check availability, and register them programmatically. Now, buying a domain the moment an idea starts to feel real no longer has to pull you out of the agentic workflow. A Registrar API has been one of the clearest asks from builders using Cloudfla",
       "imageURL": null
-    },
-    {
-      "id": "fcd241e8abf879ab4f8c",
-      "title": "Browser Run: give your agents a browser",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/browser-run-for-ai-agents/",
-      "publishedAt": "2026-04-15T13:00:00Z",
-      "summary": "AI agents need to interact with the web. To do that, they need a browser. They need to navigate sites, read pages, fill forms, extract data, and take screenshots. They need to observe whether things are working as expected, with a way for their humans to step in if needed. And they need to do all of this at scale. Today, we’re renaming Browser Rendering to Browser Run , and shipping key features t",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7eExar2kjoc2QSq6skzTf6/ba4ad79fa01eb060f8b14cd5afa342e5/BLOG-3221_2.png"
     },
     {
       "id": "9ddd90b6d25310c9d3a2",
@@ -1054,15 +1090,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/11/DevOps-Agent.png"
     },
     {
-      "id": "c0848df49ca819119993",
-      "title": "Friend Bubbles: Enhancing Social Discovery on Facebook Reels",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=23703",
-      "publishedAt": "2026-03-18T18:19:33Z",
-      "summary": "Friend bubbles in Facebook Reels highlight Reels your friends have liked or reacted to, helping you discover new content and making it easier to connect over shared interests. This article explains the technical architecture behind friend bubbles, including how machine learning estimates relationship strength and ranks content your friends have interacted with to create more opportunities for mean",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/03/Facebook-Friend-Bubbles.gif"
-    },
-    {
       "id": "183d845b664932ef3c23",
       "title": "Securing Production Debugging in Kubernetes",
       "sourceName": "Kubernetes Blog",
@@ -1340,15 +1367,6 @@
       "publishedAt": "2026-03-06T00:00:00Z",
       "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
-    },
-    {
-      "id": "7cf0520afb82aa815dee",
-      "title": "DeveloperWeek 2026: Making AI tools that are actually good",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/05/developerweek-2026/",
-      "publishedAt": "2026-03-05T17:00:00Z",
-      "summary": "From interoperability to knowledge architecture to creating AI tools people can actually use, here’s a recap of what we learned from DeveloperWeek 2026.",
-      "imageURL": null
     },
     {
       "id": "3c10f966f99cefef395e",
@@ -1639,15 +1657,6 @@
       "imageURL": null
     },
     {
-      "id": "a05c4def6f5702eec93e",
-      "title": "My Journey to Airbnb — Anna Sulkina",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/85216183d094",
-      "publishedAt": "2026-02-11T17:02:19Z",
-      "summary": "Anna Sulkina has always been a traveler, and we’re lucky her travels have brought her to Airbnb. Anna is a Senior Director of Engineering, and she’s responsible for Application & Cloud infrastructure. She brings over two decades of industry experience to Airbnb, including work spanning the stack from the frontend to the backend to the plumbing that makes everything come together. Anna is a mother,",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*eiZyGBIJvx3S5kREFK8wOw.jpeg"
-    },
-    {
       "id": "91e445bfdb23fb8ad8c5",
       "title": "Insights from our executive roundtable on AI and engineering productivity",
       "sourceName": "Dropbox Tech",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-01-29T12:00:00Z",
       "summary": "Software signatures carry an invisible expiration date. The container image or firmware you sign today might be deployed for 20 years, but the cryptographic signature protecting it may become untrustworthy within 10 years. SHA-1 certificates become worthless, weak RSA keys are banned, and quantum computers may crack today’s elliptic curve cryptography. The question isn’t whether our current signat",
       "imageURL": null
-    },
-    {
-      "id": "2279aac79f3e5d7f0951",
-      "title": "Litestream Writable VFS",
-      "sourceName": "Fly.io Blog",
-      "url": "https://fly.io/blog/litestream-writable-vfs/",
-      "publishedAt": "2026-01-29T00:00:00Z",
-      "summary": "I’m Ben Johnson, and I work on Litestream at Fly.io. Litestream is the missing backup/restore system for SQLite. It’s free, open-source software that should run anywhere, and you can read more about it here . Each time we write about it, we get a little bit better at golfing down a description of what Litestream is. Here goes: Litestream is a Unix-y tool for keeping a SQLite database synchronized ",
-      "imageURL": "/blog/litestream-writable-vfs/assets/write-path.png"
     }
   ]
 }
