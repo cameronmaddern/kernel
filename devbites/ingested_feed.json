@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "ce53f76ffe2c7cd53eda",
+      "title": "SELinux Volume Label Changes goes GA (and likely implications in v1.37)",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/",
+      "publishedAt": "2026-04-22T18:35:00Z",
+      "summary": "If you run Kubernetes on Linux with SELinux in enforcing mode, plan ahead: a future release (anticipated to be v1.37) is expected to turn the SELinuxMount feature gate on by default. This makes volume setup faster for most workloads, but it can break applications that still depend on the older recursive relabeling model in subtle ways (for example, sharing one volume between privileged and unprivi",
+      "imageURL": null
+    },
+    {
+      "id": "03c4bc40760f3b13fbe0",
+      "title": "PACIFIC enables multi-tenant, sovereign product carbon footprint exchange on the Catena-X data space using AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/pacific-enables-multi-tenant-sovereign-product-carbon-footprint-exchange-on-the-catena-x-data-space-using-aws/",
+      "publishedAt": "2026-04-22T15:33:54Z",
+      "summary": "This post is cowritten by Anil Akarsu and Dr. Renè Holschuh from BASF. BASF is a global chemical industry leader and active member of the Catena-X Automotive Network . It pioneers sustainable solutions that enable automotive organizations to track carbon emissions across complex supply chains. CircularTree transforms sustainability reporting through innovative digital solutions that systematically",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/15/ARCHBLOG-1358-1.png"
+    },
+    {
+      "id": "99592c967101781541a2",
+      "title": "TimescaleDB 2.26: 3.5x Faster time_bucket() Aggregations, 70x Faster Summary Queries, and Faster Multi-Column Lookups",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/timescaledb-2-26",
+      "publishedAt": "2026-04-22T13:00:14Z",
+      "summary": "Introduction TimescaleDB is built on a simple idea: you should be able to start on Postgres and keep scaling on Postgres, without introducing a second system. At scale, performance comes from two places: more hardware and more efficient execution. As datasets grow, faster queries increasingly depend on reducing the amount of work the database has to do by reading less data, using metadata where po",
+      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/TimescaleDB-aggregate-processing-comparison.png"
+    },
+    {
+      "id": "c06ade122cbde5a20412",
+      "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/making-rust-workers-reliable/",
+      "publishedAt": "2026-04-22T13:00:00Z",
+      "summary": "Rust Workers run on the Cloudflare Workers platform by compiling Rust to WebAssembly, but as we’ve found, WebAssembly has some sharp edges. When things go wrong with a panic or an unexpected abort, the runtime can be left in an undefined state. For users of Rust Workers, panics were historically fatal, poisoning the instance and possibly even bricking the Worker for a period of time. While we were",
+      "imageURL": null
+    },
+    {
       "id": "16479ff194125481fd26",
       "title": "How to get multiple agents to play nice at scale",
       "sourceName": "Stack Overflow Blog",
@@ -8,6 +44,15 @@
       "publishedAt": "2026-04-22T04:40:00Z",
       "summary": "Chase Roossin, group engineering manager, and Steven Kulesza, staff software engineer, from Intuit join the podcast to chat about what might be the hardest problem in engineering right now: getting multiple AI agents to work together in a complex system.",
       "imageURL": null
+    },
+    {
+      "id": "1156330cc1d70c82bd4c",
+      "title": "Kubernetes v1.36: ハル (Haru)",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/",
+      "publishedAt": "2026-04-22T00:00:00Z",
+      "summary": "Editors: Chad M. Crowell, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Utkarsh Umre Similar to previous releases, the release of Kubernetes v1.36 introduces new stable, beta, and alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community. This release consists of 70 enhancements. Of those enhancements,",
+      "imageURL": "https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/k8s-v1.36.svg"
     },
     {
       "id": "111ed45c25577ef3cafa",
@@ -26,6 +71,15 @@
       "publishedAt": "2026-04-21T16:37:12Z",
       "summary": "This post is cowritten with Avdhesh Paliwal from Oldcastle. Oldcastle APG is one of the largest suppliers of construction materials in North America, including asphalt and concrete. The company also provides construction and paving services across more than 150 facilities. As the company migrated from on-premises systems to Infor Cloud ERP hosted on Amazon Web Services (AWS), they faced a critical",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/06/archblog-12911.png"
+    },
+    {
+      "id": "ee3ac5717c45d645d50d",
+      "title": "Gateway API v1.5: Moving features to Stable",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/",
+      "publishedAt": "2026-04-21T16:30:00Z",
+      "summary": "The Kubernetes SIG Network community presents the release of Gateway API (v1.5)! Released on March 14, 2026, version 1.5 is our biggest release yet, and concentrates on moving existing Experimental features to Standard (Stable). The Gateway API v1.5.1 patch release is already available The Gateway API v1.5 brings six widely-requested feature promotions to the Standard channel (Gateway API's GA rel",
+      "imageURL": "https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/gateway-api-logo.svg"
     },
     {
       "id": "0415e9216c499b2fc257",
@@ -52,15 +106,6 @@
       "url": "https://stackoverflow.blog/2026/04/21/we-still-need-developer-communities/",
       "publishedAt": "2026-04-21T07:40:00Z",
       "summary": "Ryan welcomes Mike Swift, co-founder and CEO of Major League Hacking, to the show to chat about the never-ending need for software developer communities and entry points into programming; MHL’s recent acquisition of DEV and how they’re creating a place for shared knowledge, building, and publishing; and why now is the best time to be both an artisan and a builder in a world with AI software develo",
-      "imageURL": null
-    },
-    {
-      "id": "43831681b717c451325b",
-      "title": "Write Amplification in Postgres: The 3-4x Tax on Every Insert",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/write-amplification-in-postgres-the-3-4x-tax-on-every-insert",
-      "publishedAt": "2026-04-20T21:31:25Z",
-      "summary": "You're inserting 100 MB/sec of sensor data into Postgres. Your monitoring dashboard, meanwhile, is cheerfully reporting 300-400 MB/sec of disk writes. You check the math twice. You check it a third time. The math does not improve. Welcome to write amplification. This is the ratio between the logical data you intended to write and the physical I/O Postgres actually performs. For a typical insert-he",
       "imageURL": null
     },
     {
@@ -323,15 +368,6 @@
       "publishedAt": "2026-04-15T13:00:00Z",
       "summary": "While there have been small improvements along the way, the interface of technical products has not really changed since the dawn of the Internet. It still remains: clicking five pages deep, cross-referencing logs across tabs, and hunting for hidden toggles. AI gives us the opportunity to rethink all that. Instead of complexity spread over a sprawling graphical user interface: what if you could de",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2Iva79HIiHPUrK8NLukkwH/dd1cf1709ab04f6d5825124cecd20a5e/BLOG-3231_2.png"
-    },
-    {
-      "id": "ed384d8917aa0bebd5ca",
-      "title": "Register domains wherever you build: Cloudflare Registrar API now in beta",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/registrar-api-beta/",
-      "publishedAt": "2026-04-15T13:00:00Z",
-      "summary": "Today we're launching the next chapter of Cloudflare Registrar: the Registrar API in beta . The Registrar API makes it possible to search for domains, check availability, and register them programmatically. Now, buying a domain the moment an idea starts to feel real no longer has to pull you out of the agentic workflow. A Registrar API has been one of the clearest asks from builders using Cloudfla",
-      "imageURL": null
     },
     {
       "id": "9ddd90b6d25310c9d3a2",
@@ -1477,6 +1513,15 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/llm-and-human-labeling/headers/Machine Learning-Human Evaluations-1440x305-light.png"
     },
     {
+      "id": "3d23f8b0173fc922884a",
+      "title": "Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/02/26/ccm-new-metric-route-sync-total/",
+      "publishedAt": "2026-02-26T00:00:00Z",
+      "summary": "Kubernetes v1.36 introduces a new alpha counter metric route_controller_route_sync_total to the Cloud Controller Manager (CCM) route controller implementation at k8s.io/cloud-provider . This metric increments each time routes are synced with the cloud provider. A/B testing watch-based route reconciliation This metric was added to help operators validate the CloudControllerManagerWatchBasedRoutesRe",
+      "imageURL": null
+    },
+    {
       "id": "9d017a3ee485f1a04d8b",
       "title": "Open Source Contributor Spotlight: Kosta Tarasov and DataFusion",
       "sourceName": "Eaton Phil",
@@ -1753,51 +1798,6 @@
       "url": "http://antirez.com/news/159",
       "publishedAt": "2026-01-31T09:25:27Z",
       "summary": "In my YouTube channel, for some time now I started to refer to the process of writing software using AI assistance (soon to become just \"the process of writing software\", I believe) with the term \"Automatic Programming\". In case you didn't notice, automatic programming produces vastly different results with the same LLMs depending on the human that is guiding the process with their intuition, desi",
-      "imageURL": null
-    },
-    {
-      "id": "3a208c198b84eb18351a",
-      "title": "Sovereign failover – Design for digital sovereignty using the AWS European Sovereign Cloud",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/sovereign-failover-design-for-digital-sovereignty-using-the-aws-european-sovereign-cloud/",
-      "publishedAt": "2026-01-30T19:09:35Z",
-      "summary": "Organizations operating across multiple jurisdictions need to consider the impact of regulatory changes or geopolitical events on their access to cloud infrastructure. This post explains how to design failover architectures that span AWS partitions—including the AWS European Sovereign Cloud , AWS GovCloud (US) and other AWS Regions in the global infrastructure — so workloads can continue operating",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/01/29/l-archblog-1320-1-1024x482.jpeg"
-    },
-    {
-      "id": "45c7c1e5ff7ce8db4943",
-      "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/",
-      "publishedAt": "2026-01-30T16:00:00Z",
-      "summary": "I'm excited to announce the implementation of an improved conversion formula from cgroup v1 CPU shares to cgroup v2 CPU weight. This enhancement addresses critical issues with CPU priority allocation for Kubernetes workloads when running on systems with cgroup v2. Background Kubernetes was originally designed with cgroup v1 in mind, where CPU shares were defined simply by assigning the container's",
-      "imageURL": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/linear-conversion.png"
-    },
-    {
-      "id": "4a87a0a29f7a918aa1b2",
-      "title": "Celebrating our 2025 open-source contributions",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/",
-      "publishedAt": "2026-01-30T12:00:00Z",
-      "summary": "Last year, our engineers submitted over 375 pull requests that were merged into non–Trail of Bits repositories, touching more than 90 projects from cryptography libraries to the Rust compiler. This work reflects one of our driving values: “share what others can use.” The measure isn’t whether you share something, but whether it’s actually useful to someone else. This principle is why we publish ha",
-      "imageURL": null
-    },
-    {
-      "id": "526947647715457e7847",
-      "title": "How Artera enhances prostate cancer diagnostics using AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-artera-enhances-prostate-cancer-diagnostics-using-aws/",
-      "publishedAt": "2026-01-29T17:06:57Z",
-      "summary": "This post was co-written with Hariharan Ananthakrishnan from Artera. Artificial intelligence (AI) and machine learning (ML) are transforming cancer diagnosis and treatment, enabling faster and more accurate decisions for patients. One company at the forefront of this transformation is Artera , a precision medicine company developing an AI-powered platform for cancer treatment planning. The U.S. Fo",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/01/16/ARCH-13411.png"
-    },
-    {
-      "id": "8d48c5019fd9be207837",
-      "title": "Building cryptographic agility into Sigstore",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/",
-      "publishedAt": "2026-01-29T12:00:00Z",
-      "summary": "Software signatures carry an invisible expiration date. The container image or firmware you sign today might be deployed for 20 years, but the cryptographic signature protecting it may become untrustworthy within 10 years. SHA-1 certificates become worthless, weak RSA keys are banned, and quantum computers may crack today’s elliptic curve cryptography. The question isn’t whether our current signat",
       "imageURL": null
     }
   ]
