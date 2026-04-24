@@ -1,6 +1,69 @@
 {
   "articles": [
     {
+      "id": "97c0987e96a31b0dcbdc",
+      "title": "Lights, camera, open source!",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/24/lights-camera-open-source/",
+      "publishedAt": "2026-04-24T07:40:00Z",
+      "summary": "Ryan is joined on the show by Cult.Repo producers Emma Tracey and Josiah Mcgarvie to discuss making documentaries about open-source software and the people behind the major technologies that uphold the internet.",
+      "imageURL": null
+    },
+    {
+      "id": "5b91c98d47949b25160e",
+      "title": "Trivy, KICS, and the shape of supply chain attacks so far in 2026",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=89131",
+      "publishedAt": "2026-04-23T15:32:00Z",
+      "summary": "Catching the KICS push: what happened, and the case for open, fast collaboration In the past few weeks we’ve worked through two supply chain compromises on Docker Hub with a similar shape: first Trivy, now Checkmarx KICS. In both cases, stolen publisher credentials were used to push malicious images through legitimate publishing flows. In both cases, Docker’s infrastructure was not breached. And i",
+      "imageURL": null
+    },
+    {
+      "id": "4ece3d88e2129d4e63da",
+      "title": "Black box AI drift: AI tools are making design decisions nobody asked for",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/23/black-box-ai-drift-ai-tools-are-making-design-decisions-nobody-asked-for/",
+      "publishedAt": "2026-04-23T14:00:00Z",
+      "summary": "Prompts go in, output comes out, and the decisions made in between are hidden from view.",
+      "imageURL": null
+    },
+    {
+      "id": "01adc8bebf940d6d78b6",
+      "title": "Modernizing KYC with AWS serverless solutions and agentic AI for financial services",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/modernizing-kyc-with-aws-serverless-solutions-and-agentic-ai-for-financial-services/",
+      "publishedAt": "2026-04-23T13:20:43Z",
+      "summary": "Regulators worldwide require financial institutions to implement Know Your Customer (KYC) processes that help prevent money laundering, terrorist financing, fraud, and identity theft. KYC has evolved from a compliance checkbox to a core security function for financial institutions. Financial institutions must modernize their KYC architectures because of several factors: rising transaction volumes,",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/10/ARCHBLOG-1317-1.png"
+    },
+    {
+      "id": "ca53a2d81406ae3bb48b",
+      "title": "From 6 Seconds to Under 100ms: How the Embodied Carbon Observatory Separates Grid Improvement From Real Decarbonization With Tiger Data",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/how-embodied-carbon-observatory-separates-grid-improvement-real-decarbonization-tiger-data",
+      "publishedAt": "2026-04-23T13:00:00Z",
+      "summary": "A solo developer turns 40,000 Environmental Product Declarations and 25+ years of EPA grid data into an interactive map that answers a question no ESG rating agency publishes: is this plant actually decarbonizing, or did the grid just get cleaner? This is an installment of our Community Member Spotlight series , in which we invite our open source community members to share their work, spotlight wh",
+      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/td-dexdogs-spotlight-diagram-blog-v1.svg"
+    },
+    {
+      "id": "43da28e34f2dab568a3b",
+      "title": "Trailmark turns code into graphs",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/",
+      "publishedAt": "2026-04-23T12:00:00Z",
+      "summary": "We’re open-sourcing Trailmark , a library that parses source code into a queryable call graph of functions, classes, call relationships, and semantic metadata, then exposes that graph through a Python API that Claude skills can call directly. Install it now: uv pip install trailmark “Defenders think in lists. Attackers think in graphs. As long as this is true, attackers win.” John Lambert’s widely",
+      "imageURL": null
+    },
+    {
+      "id": "8019b2ac3e190b5a92de",
+      "title": "TiDB and the Rise of the AI-Native Database",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33254",
+      "publishedAt": "2026-04-23T02:19:46Z",
+      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways Data infrastructure, not models, will define AI-era competitive advantage. AI agents are becoming the primary database users. At Manus, they created 90%+ of new instances, 99% single-use. Extreme multi-tenancy is now core. TiDB supports millions o",
+      "imageURL": null
+    },
+    {
       "id": "ce53f76ffe2c7cd53eda",
       "title": "SELinux Volume Label Changes goes GA (and likely implications in v1.37)",
       "sourceName": "Kubernetes Blog",
@@ -17,15 +80,6 @@
       "publishedAt": "2026-04-22T15:33:54Z",
       "summary": "This post is cowritten by Anil Akarsu and Dr. Renè Holschuh from BASF. BASF is a global chemical industry leader and active member of the Catena-X Automotive Network . It pioneers sustainable solutions that enable automotive organizations to track carbon emissions across complex supply chains. CircularTree transforms sustainability reporting through innovative digital solutions that systematically",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/15/ARCHBLOG-1358-1.png"
-    },
-    {
-      "id": "99592c967101781541a2",
-      "title": "TimescaleDB 2.26: 3.5x Faster time_bucket() Aggregations, 70x Faster Summary Queries, and Faster Multi-Column Lookups",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/timescaledb-2-26",
-      "publishedAt": "2026-04-22T13:00:14Z",
-      "summary": "Introduction TimescaleDB is built on a simple idea: you should be able to start on Postgres and keep scaling on Postgres, without introducing a second system. At scale, performance comes from two places: more hardware and more efficient execution. As datasets grow, faster queries increasingly depend on reducing the amount of work the database has to do by reading less data, using metadata where po",
-      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/TimescaleDB-aggregate-processing-comparison.png"
     },
     {
       "id": "c06ade122cbde5a20412",
@@ -856,15 +910,6 @@
       "imageURL": null
     },
     {
-      "id": "f57ad6741dfc6d2058ff",
-      "title": "Building a News Roundup with Docker Agent, Docker Model Runner, and Skill",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88073",
-      "publishedAt": "2026-03-27T14:24:40Z",
-      "summary": "Hello, I’m Philippe, and I am a Principal Solutions Architect helping customers with their usage of Docker. I wanted a lightweight way to automate my IT news roundups without burning through AI credits. So I built a Docker Agent skill that uses the Brave Search API to fetch recent articles on a topic, then hands the results to a local model running with Docker Model Runner to analyze the stories a",
-      "imageURL": "https://www.docker.com/app/uploads/2026/03/Skills-newsround-fig-1.png"
-    },
-    {
       "id": "92b7c3427c009844aa1f",
       "title": "Prevent agentic identity theft",
       "sourceName": "Stack Overflow Blog",
@@ -1288,15 +1333,6 @@
       "imageURL": null
     },
     {
-      "id": "e043232be621e3baab7a",
-      "title": "Building a Voice-First AI Journal: What I Learned About AI Memory, Vector Search, and TiDB",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=32407",
-      "publishedAt": "2026-03-11T18:18:56Z",
-      "summary": "Key Takeaways Off-the-shelf memory frameworks can silently discard the details that matter most. A three-layer AI memory architecture delivers far better recall than any single abstraction. TiDB’s native vector search eliminates the two-database overhead of a Postgres + Pinecone setup. Model choice for synthesis tasks is a trust decision, not a cost decision. I was talking to Claude the other day ",
-      "imageURL": null
-    },
-    {
       "id": "5cee4143bbd3a30282ad",
       "title": "Six mistakes in ERC-4337 smart accounts",
       "sourceName": "Trail of Bits",
@@ -1360,15 +1396,6 @@
       "imageURL": null
     },
     {
-      "id": "154b0d32576bcecd8d1b",
-      "title": "Organizing productive platform teams",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/09/organizing-productive-platform-teams/",
-      "publishedAt": "2026-03-09T14:00:00Z",
-      "summary": "So many platforms feel heavy because they mirror the organization, not the architecture the organization claims to want.",
-      "imageURL": null
-    },
-    {
       "id": "196c9beacff88e72bd0d",
       "title": "Building on the Social Layer of Games: What’s New from GDC 2026",
       "sourceName": "Discord Blog",
@@ -1384,15 +1411,6 @@
       "url": "http://antirez.com/news/162",
       "publishedAt": "2026-03-08T16:08:41Z",
       "summary": "Those who cannot remember the past are condemned to repeat it. A sentence that I never really liked, and what is happening with AI, about software projects reimplementations, shows all the limits of such an idea. Many people are protesting the fairness of rewriting existing projects using AI. But, a good portion of such people, during the 90s, were already in the field: they followed the final par",
-      "imageURL": null
-    },
-    {
-      "id": "18d1a74adfd8d3bb91ce",
-      "title": "Building brains for bulldozers",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/06/building-brains-for-bulldozers/",
-      "publishedAt": "2026-03-06T08:40:00Z",
-      "summary": "Ryan chats with Kevin Peterson, CTO of Bedrock Robotics, about the evolution of self-driving technology and why robotics is now advancing; how real data is still relevant but simulation becomes essential for scale; and the future of robotics in addressing labor shortages and enhancing productivity.",
       "imageURL": null
     },
     {
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-02-02T00:00:00Z",
       "summary": "Make your first impression count with a profile that represents you how YOU want to be seen. Learn how to edit and customize your profile to have it rep you the right way.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/681939dfe8fd42947e36366d_2024_10_DiscordBlog_Educational-4.png"
-    },
-    {
-      "id": "cb8645b85e7921c0dc78",
-      "title": "Companies behind Postgres 18 development",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-02-02-companies-behind-postgres-18.html",
-      "publishedAt": "2026-02-02T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "5c9392a8684f6c565574",
-      "title": "Automatic programming",
-      "sourceName": "Salvatore Sanfilippo (antirez)",
-      "url": "http://antirez.com/news/159",
-      "publishedAt": "2026-01-31T09:25:27Z",
-      "summary": "In my YouTube channel, for some time now I started to refer to the process of writing software using AI assistance (soon to become just \"the process of writing software\", I believe) with the term \"Automatic Programming\". In case you didn't notice, automatic programming produces vastly different results with the same LLMs depending on the human that is guiding the process with their intuition, desi",
-      "imageURL": null
     }
   ]
 }
