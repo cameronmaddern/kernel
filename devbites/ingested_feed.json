@@ -1,12 +1,48 @@
 {
   "articles": [
     {
+      "id": "f8e1b7bcea6cf1c06b03",
+      "title": "Kubernetes v1.36: Fine-Grained Kubelet API Authorization Graduates to GA",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/",
+      "publishedAt": "2026-04-24T18:35:00Z",
+      "summary": "On behalf of Kubernetes SIG Auth and SIG Node, we are pleased to announce the graduation of fine-grained kubelet API authorization to General Availability (GA) in Kubernetes v1.36! The KubeletFineGrainedAuthz feature gate was introduced as an opt-in alpha feature in Kubernetes v1.32, then graduated to beta (enabled by default) in v1.33. Now, the feature is generally available and the feature gate ",
+      "imageURL": null
+    },
+    {
+      "id": "8a168309c7e5f5a50376",
+      "title": "Balance Relational Purity and Speed in High Frequency Systems",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/balance-relational-purity-speed-high-frequency-systems",
+      "publishedAt": "2026-04-24T12:41:52Z",
+      "summary": "Standard relational normalization is the bedrock of database design. It prevents data duplication and maintains integrity by splitting information into specialized tables. However, as your tables approach the 500 million row mark, the very joins that keep your data clean begin to degrade performance. You may notice p95 latencies creeping up even though your queries remain logically sound. This gui",
+      "imageURL": null
+    },
+    {
       "id": "97c0987e96a31b0dcbdc",
       "title": "Lights, camera, open source!",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/04/24/lights-camera-open-source/",
       "publishedAt": "2026-04-24T07:40:00Z",
-      "summary": "Ryan is joined on the show by Cult.Repo producers Emma Tracey and Josiah Mcgarvie to discuss making documentaries about open-source software and the people behind the major technologies that uphold the internet.",
+      "summary": "Ryan is joined on the show by Cult.Repo producers Emma Tracey and Josiah McGarvie to discuss making documentaries about open-source software and the people behind the major technologies that uphold the internet.",
+      "imageURL": null
+    },
+    {
+      "id": "379234d32657f22ce007",
+      "title": "Measure Less to Learn More: Using Fewer, Higher-quality Metrics to Capture What Matters",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/measure-less-to-learn-more-using-fewer-higher-quality-metrics-to-capture-what-matters",
+      "publishedAt": "2026-04-24T00:00:00Z",
+      "summary": "Too many experiment metrics can make meaningful changes harder to detect. Learn how Discord used simulations and Principal Component Analysis to maximize signal and reduce noise.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6806ad72843df60c11e54f23_image4.png"
+    },
+    {
+      "id": "dba00b9b9e15f8c36837",
+      "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/",
+      "publishedAt": "2026-04-23T18:35:00Z",
+      "summary": "After several years of development, User Namespaces support in Kubernetes reached General Availability (GA) with the v1.36 release. This is a Linux-only feature. For those of us working on low level container runtimes and rootless technologies, this has been a long awaited milestone. We finally reached the point where \"rootless\" security isolation can be used for Kubernetes workloads. This feature",
       "imageURL": null
     },
     {
@@ -35,15 +71,6 @@
       "publishedAt": "2026-04-23T13:20:43Z",
       "summary": "Regulators worldwide require financial institutions to implement Know Your Customer (KYC) processes that help prevent money laundering, terrorist financing, fraud, and identity theft. KYC has evolved from a compliance checkbox to a core security function for financial institutions. Financial institutions must modernize their KYC architectures because of several factors: rising transaction volumes,",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/10/ARCHBLOG-1317-1.png"
-    },
-    {
-      "id": "ca53a2d81406ae3bb48b",
-      "title": "From 6 Seconds to Under 100ms: How the Embodied Carbon Observatory Separates Grid Improvement From Real Decarbonization With Tiger Data",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/how-embodied-carbon-observatory-separates-grid-improvement-real-decarbonization-tiger-data",
-      "publishedAt": "2026-04-23T13:00:00Z",
-      "summary": "A solo developer turns 40,000 Environmental Product Declarations and 25+ years of EPA grid data into an interactive map that answers a question no ESG rating agency publishes: is this plant actually decarbonizing, or did the grid just get cleaner? This is an installment of our Community Member Spotlight series , in which we invite our open source community members to share their work, spotlight wh",
-      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/td-dexdogs-spotlight-diagram-blog-v1.svg"
     },
     {
       "id": "43da28e34f2dab568a3b",
@@ -132,7 +159,7 @@
       "sourceName": "Kubernetes Blog",
       "url": "https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/",
       "publishedAt": "2026-04-21T16:30:00Z",
-      "summary": "The Kubernetes SIG Network community presents the release of Gateway API (v1.5)! Released on March 14, 2026, version 1.5 is our biggest release yet, and concentrates on moving existing Experimental features to Standard (Stable). The Gateway API v1.5.1 patch release is already available The Gateway API v1.5 brings six widely-requested feature promotions to the Standard channel (Gateway API's GA rel",
+      "summary": "The Kubernetes SIG Network community presents the release of Gateway API (v1.5)! Released on February 27, 2026, version 1.5 is our biggest release yet, and concentrates on moving existing Experimental features to Standard (Stable). The Gateway API v1.5.1 patch release is already available. The Gateway API v1.5 brings six widely-requested feature promotions to the Standard channel (Gateway API's GA",
       "imageURL": "https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/gateway-api-logo.svg"
     },
     {
@@ -1284,7 +1311,7 @@
       "sourceName": "Airbnb Engineering (Medium)",
       "url": "https://medium.com/p/5fa7a81654fb",
       "publishedAt": "2026-03-12T18:55:19Z",
-      "summary": "How we built a destination recommendation model that helps users spark inspiration and narrow down choices to make journeys smoother. By: Weiwei Guo , Bin Xu , Sundara Rajan Srinivasavaradhan , Jie Tang , Xiaowei Liu , Bharathi Thangamani , Liwei He , Huiji Gao , Tracy Yu , Hui Gao , Stephanie Moyerman , Sanjeev Katariya Airbnb users in the trip planning stage may not have a clear idea of travel d",
+      "summary": "How we built a destination recommendation model that helps users spark inspiration and narrow down choices to make journeys smoother. By : Weiwei Guo , Bin Xu , Sundara Rajan Srinivasavaradhan , Jie Tang , Xiaowei Liu , Bharathi Thangamani , Liwei He , Huiji Gao , Tracy Yu , Hui Gao , Stephanie Moyerman , Sanjeev Katariya Airbnb users in the trip planning stage may not have a clear idea of travel ",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*GmYX3GemYdlNvs2tOLlFbQ.jpeg"
     },
     {
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-02-04T15:53:39Z",
       "summary": "Background Amazon Key empowers customers to securely manage access to their homes and businesses through innovative solutions. Through a suite of consumer and business products, the Amazon Key team is transforming how customers receive deliveries and manage access to their spaces. Our In-Garage Delivery service offers a secure and convenient solution for receiving Amazon packages and groceries dir",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/03/HLD-1.png"
-    },
-    {
-      "id": "47d30c54aa2c90744250",
-      "title": "Discord Patch Notes: February 4, 2026",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-patch-notes-february-4-2026",
-      "publishedAt": "2026-02-04T00:00:00Z",
-      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
-    },
-    {
-      "id": "00f6af6e2363f0085677",
-      "title": "Introducing Node Readiness Controller",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/",
-      "publishedAt": "2026-02-03T02:00:00Z",
-      "summary": "In the standard Kubernetes model, a node’s suitability for workloads hinges on a single binary \"Ready\" condition. However, in modern Kubernetes environments, nodes require complex infrastructure dependencies—such as network agents, storage drivers, GPU firmware, or custom health checks—to be fully operational before they can reliably host pods. Today, on behalf of the Kubernetes project, I am anno",
-      "imageURL": "./node-readiness-controller-logo.svg"
-    },
-    {
-      "id": "d1309b4304dc248caba8",
-      "title": "How to Customize Your Discord Profile",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/how-to-customize-your-discord-profile",
-      "publishedAt": "2026-02-02T00:00:00Z",
-      "summary": "Make your first impression count with a profile that represents you how YOU want to be seen. Learn how to edit and customize your profile to have it rep you the right way.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/681939dfe8fd42947e36366d_2024_10_DiscordBlog_Educational-4.png"
     }
   ]
 }
