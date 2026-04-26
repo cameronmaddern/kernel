@@ -10,15 +10,6 @@
       "imageURL": null
     },
     {
-      "id": "8a168309c7e5f5a50376",
-      "title": "Balance Relational Purity and Speed in High Frequency Systems",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/balance-relational-purity-speed-high-frequency-systems",
-      "publishedAt": "2026-04-24T12:41:52Z",
-      "summary": "Standard relational normalization is the bedrock of database design. It prevents data duplication and maintains integrity by splitting information into specialized tables. However, as your tables approach the 500 million row mark, the very joins that keep your data clean begin to degrade performance. You may notice p95 latencies creeping up even though your queries remain logically sound. This gui",
-      "imageURL": null
-    },
-    {
       "id": "97c0987e96a31b0dcbdc",
       "title": "Lights, camera, open source!",
       "sourceName": "Stack Overflow Blog",
@@ -1799,6 +1790,15 @@
       "publishedAt": "2026-02-04T15:53:39Z",
       "summary": "Background Amazon Key empowers customers to securely manage access to their homes and businesses through innovative solutions. Through a suite of consumer and business products, the Amazon Key team is transforming how customers receive deliveries and manage access to their spaces. Our In-Garage Delivery service offers a secure and convenient solution for receiving Amazon packages and groceries dir",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/03/HLD-1.png"
+    },
+    {
+      "id": "47d30c54aa2c90744250",
+      "title": "Discord Patch Notes: February 4, 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-patch-notes-february-4-2026",
+      "publishedAt": "2026-02-04T00:00:00Z",
+      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     }
   ]
 }
