@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "d6f038eb05e2487d3fc2",
+      "title": "Branimir Lambov from IBM on Cassandra",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-04-26-branimir-lambov-from-ibm-on-cassandra.html",
+      "publishedAt": "2026-04-26T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "f8e1b7bcea6cf1c06b03",
       "title": "Kubernetes v1.36: Fine-Grained Kubelet API Authorization Graduates to GA",
       "sourceName": "Kubernetes Blog",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-02-04T15:53:39Z",
       "summary": "Background Amazon Key empowers customers to securely manage access to their homes and businesses through innovative solutions. Through a suite of consumer and business products, the Amazon Key team is transforming how customers receive deliveries and manage access to their spaces. Our In-Garage Delivery service offers a secure and convenient solution for receiving Amazon packages and groceries dir",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/03/HLD-1.png"
-    },
-    {
-      "id": "47d30c54aa2c90744250",
-      "title": "Discord Patch Notes: February 4, 2026",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-patch-notes-february-4-2026",
-      "publishedAt": "2026-02-04T00:00:00Z",
-      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     }
   ]
 }
