@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "7d8d8bec67150eb5bdb6",
+      "title": "Your LLM issues are really data issues",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/28/your-llm-issues-are-really-data-issues/",
+      "publishedAt": "2026-04-28T07:40:00Z",
+      "summary": "Ryan welcomes Harsha Chintalapani, co-founder and CTO at Collate and co-creator of Open Metadata, to the show to discuss why AI and LLMs struggle with real-time, structured production data.",
+      "imageURL": null
+    },
+    {
+      "id": "200ae3a88a6f5d4b274e",
+      "title": "Kubernetes v1.36: Mutable Pod Resources for Suspended Jobs (beta)",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/",
+      "publishedAt": "2026-04-27T18:35:00Z",
+      "summary": "Kubernetes v1.36 promotes the ability to modify container resource requests and limits in the pod template of a suspended Job to beta. First introduced as alpha in v1.35, this feature allows queue controllers and cluster administrators to adjust CPU, memory, GPU, and extended resource specifications on a Job while it is suspended, before it starts or resumes running. Why mutable pod resources for ",
+      "imageURL": null
+    },
+    {
+      "id": "1deb3899daea90a2654d",
+      "title": "Deloitte optimizes EKS environment provisioning and achieves 89% faster testing environments using Amazon EKS and vCluster",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/deloitte-optimizes-eks-environment-provisioning-and-achieves-89-faster-testing-environments-using-amazon-eks-and-vcluster/",
+      "publishedAt": "2026-04-27T17:47:34Z",
+      "summary": "Managing multiple Amazon Elastic Kubernetes Service (Amazon EKS) clusters for development and testing environments can present significant operational and cost challenges for enterprises. Deloitte, a global professional services organization, faced these challenges while provisioning dedicated Amazon EKS clusters for their quality assurance (QA) testing environments. In this post, we explore how D",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2026/04/07/image-1-4.png"
+    },
+    {
+      "id": "5e18e71637098805ef23",
+      "title": "Welcome to the “find out” stage of AI",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/27/welcome-to-the-find-out-stage-of-ai/",
+      "publishedAt": "2026-04-27T13:56:07Z",
+      "summary": "AI companies are looking a little different after going through renewal cycle.",
+      "imageURL": null
+    },
+    {
+      "id": "c855bc81059cedf0b650",
+      "title": "What an AI Harness Actually Needs Beyond a Model",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33292",
+      "publishedAt": "2026-04-27T13:01:31Z",
+      "summary": "Key Takeaways The harness, not the model, determines whether agent state is portable and recoverable. Memory is runtime state that belongs in the architecture from the start, not bolted on later. State lock-in is the real risk: switching frameworks can mean losing the agent’s entire operating history. Framework migrations and task interruptions both trace back to the same root cause: state stored ",
+      "imageURL": null
+    },
+    {
       "id": "d6f038eb05e2487d3fc2",
       "title": "Branimir Lambov from IBM on Cassandra",
       "sourceName": "Eaton Phil",
@@ -16,6 +61,15 @@
       "url": "https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/",
       "publishedAt": "2026-04-24T18:35:00Z",
       "summary": "On behalf of Kubernetes SIG Auth and SIG Node, we are pleased to announce the graduation of fine-grained kubelet API authorization to General Availability (GA) in Kubernetes v1.36! The KubeletFineGrainedAuthz feature gate was introduced as an opt-in alpha feature in Kubernetes v1.32, then graduated to beta (enabled by default) in v1.33. Now, the feature is generally available and the feature gate ",
+      "imageURL": null
+    },
+    {
+      "id": "8a168309c7e5f5a50376",
+      "title": "Balance Relational Purity and Speed in High Frequency Systems",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/balance-relational-purity-speed-high-frequency-systems",
+      "publishedAt": "2026-04-24T12:41:52Z",
+      "summary": "Standard relational normalization is the bedrock of database design. It prevents data duplication and maintains integrity by splitting information into specialized tables. However, as your tables approach the 500 million row mark, the very joins that keep your data clean begin to degrade performance. You may notice p95 latencies creeping up even though your queries remain logically sound. This gui",
       "imageURL": null
     },
     {
@@ -1297,15 +1351,6 @@
       "imageURL": null
     },
     {
-      "id": "b38afd603e08a4151a37",
-      "title": "Why You Should Replace Stored Procedures with a Service Layer",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=32427",
-      "publishedAt": "2026-03-12T19:35:58Z",
-      "summary": "Key Takeaways Stored procedures create deployment friction, version control drift, and observability gaps that worsen at scale. A service layer replaces them with testable, debuggable, independently scalable application code. Co-locating the service with the database preserves low latency while unlocking modern tooling and libraries. Migration can be incremental — start with new functionality and ",
-      "imageURL": "https://static.pingcap.com/files/2026/03/13114342/image-8.png"
-    },
-    {
       "id": "783c65ea77f07f18a6c4",
       "title": "Recommending travel destinations to help users explore",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -1322,15 +1367,6 @@
       "publishedAt": "2026-03-12T16:00:00Z",
       "summary": "For years, accessibility feedback at GitHub didn’t have a clear place to go. Unlike typical product feedback, accessibility issues don’t belong to any single team—they cut across the entire ecosystem. For example, a screen reader user might report a broken workflow that touches navigation, authentication, and settings. A keyboard-only user might hit a trap in a shared component used across dozens ",
       "imageURL": "https://github.blog/wp-content/uploads/2026/03/Screenshot-2026-03-11-at-12.37.19-PM.png?resize=1395%2C244"
-    },
-    {
-      "id": "cdda5dad6ac6945a6c4d",
-      "title": "The context problem: Why enterprise AI needs more than foundation models",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/12/enterprise-ai-needs-more-than-foundation-models/",
-      "publishedAt": "2026-03-12T13:00:00Z",
-      "summary": "The difference between AI that impresses people in demos and AI that drives production value is context.",
-      "imageURL": null
     },
     {
       "id": "41a17c360497f729233e",
@@ -1367,15 +1403,6 @@
       "publishedAt": "2026-03-11T11:00:00Z",
       "summary": "Account abstraction transforms fixed “private key can do anything” models into programmable systems that enable batching, recovery and spending limits, and flexible gas payment. But that programmability introduces risks: a single bug can be as catastrophic as leaking a private key. After auditing dozens of ERC‑4337 smart accounts, we’ve identified six vulnerability patterns that frequently appear.",
       "imageURL": "https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/erc4337-figure-1_hu_28689ebdbcaa7f49.webp"
-    },
-    {
-      "id": "9eafb2ce8dd8c92b759f",
-      "title": "Even the chip makers are making LLMs",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/10/even-the-chip-makers-are-making-llms/",
-      "publishedAt": "2026-03-10T07:40:00Z",
-      "summary": "Ryan welcomes Kari Briski, NVIDIA’s VP of Generative AI Software for Enterprise, to the show to explore how a chip manufacturer got into the model development game.",
-      "imageURL": null
     },
     {
       "id": "3c75339b4f397f4b6d06",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-02-07T00:00:00Z",
       "summary": "You Are Here Where to next? The cost of turning written business logic into code has dropped to zero. Or, at best, near-zero. The cost of integrating services and libraries, the plumbing of the code world, has dropped to zero. Or, at best, near-zero. The cost of building efficient, reliable, secure, end-to-end systems is starting to drop, but slowly. Where does that leave those of us who have buil",
       "imageURL": null
-    },
-    {
-      "id": "e1cc0a2d0c1ba7a985a0",
-      "title": "How Convera built fine-grained API authorization with Amazon Verified Permissions",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-convera-built-fine-grained-api-authorization-with-amazon-verified-permissions/",
-      "publishedAt": "2026-02-05T21:21:54Z",
-      "summary": "Convera processes billions in cross-border payment volume yearly for businesses and financial institutions worldwide. As their platform grew, they needed a robust authorization system that could protect sensitive financial data while maintaining operational efficiency across their global network. In this post, we share how Convera used Amazon Verified Permissions to build a fine-grained authorizat",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/02/image-archblog-11401.png"
-    },
-    {
-      "id": "0036f2d9e96981500693",
-      "title": "My AI Adoption Journey",
-      "sourceName": "Mitchell Hashimoto",
-      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
-      "publishedAt": "2026-02-05T00:00:00Z",
-      "summary": null,
-      "imageURL": null
-    },
-    {
-      "id": "d70d8d181551887592a5",
-      "title": "Mastering millisecond latency and millions of events: The event-driven architecture behind the Amazon Key Suite",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/mastering-millisecond-latency-and-millions-of-events-the-event-driven-architecture-behind-the-amazon-key-suite/",
-      "publishedAt": "2026-02-04T15:53:39Z",
-      "summary": "Background Amazon Key empowers customers to securely manage access to their homes and businesses through innovative solutions. Through a suite of consumer and business products, the Amazon Key team is transforming how customers receive deliveries and manage access to their spaces. Our In-Garage Delivery service offers a secure and convenient solution for receiving Amazon packages and groceries dir",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/03/HLD-1.png"
     }
   ]
 }
