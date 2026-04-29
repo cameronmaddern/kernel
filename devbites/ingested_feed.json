@@ -1,12 +1,66 @@
 {
   "articles": [
     {
+      "id": "f4f5af48a43ca72cc607",
+      "title": "Optimization vs. Architecture: Knowing the Difference",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/optimization-vs-architecture-knowing-the-difference",
+      "publishedAt": "2026-04-29T02:21:18Z",
+      "summary": "There are two kinds of database performance problems. The first kind responds to optimization. You add an index, queries speed up, the improvement holds. Done. The second kind responds to optimization temporarily. You add an index, queries speed up, then slow down again as data grows. You partition the table, scans get faster, then the partition count becomes its own management burden. You upgrade",
+      "imageURL": null
+    },
+    {
+      "id": "705ed9c330e321ed8e28",
+      "title": "Kubernetes v1.36: Staleness Mitigation and Observability for Controllers",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/",
+      "publishedAt": "2026-04-28T18:35:00Z",
+      "summary": "Staleness in Kubernetes controllers is a problem that affects many controllers, and is something may affect controller behavior in subtle ways. It is usually not until it is too late, when a controller in production has already taken incorrect action, that staleness is found to be an issue due to some underlying assumption made by the controller author. Some issues caused by staleness include cont",
+      "imageURL": null
+    },
+    {
+      "id": "0d9f1942c26e15809658",
+      "title": "Skipper: Building Airbnb’s embedded workflow engine",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/f6c34552146f",
+      "publishedAt": "2026-04-28T17:01:02Z",
+      "summary": "How Airbnb built a lightweight workflow engine to solve durable execution. By : Ricardo Gamba , Andriy Sergiyenko Introduction: The durable execution problem Picture this hypothetical flow: A host submits an insurance claim about their listing to Airbnb. The system needs to validate the claim, run trust and safety checks, assess estimates, process the payout, and send notifications. Halfway throug",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*9L1YAq8PzAM7YN7lEOvW_g.png"
+    },
+    {
+      "id": "fe31ac8d945bd6f5e045",
+      "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
+      "publishedAt": "2026-04-28T13:00:00Z",
+      "summary": "In the first quarter of 2026, government-directed shutdowns figured prominently, with prolonged Internet blackouts in both Uganda and Iran, a stark contrast to the lack of observed government-directed shutdowns in the same quarter a year prior. This quarter, we also observed a number of Internet disruptions caused by power outages , including three separate collapses of Cuba's national electrical ",
+      "imageURL": null
+    },
+    {
+      "id": "c42916fc38117ce51e15",
+      "title": "Turning scattered knowledge into trusted intelligence: Stack Internal 2026.3",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/28/turn-scattered-knowledge-into-trusted-intelligence/",
+      "publishedAt": "2026-04-28T13:00:00Z",
+      "summary": "Now generally available in the 2026.3 release, Ingestion transforms siloed content into structured, verified knowledge—optimized for both your teams and AI.",
+      "imageURL": null
+    },
+    {
       "id": "7d8d8bec67150eb5bdb6",
       "title": "Your LLM issues are really data issues",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/04/28/your-llm-issues-are-really-data-issues/",
       "publishedAt": "2026-04-28T07:40:00Z",
       "summary": "Ryan welcomes Harsha Chintalapani, co-founder and CTO at Collate and co-creator of Open Metadata, to the show to discuss why AI and LLMs struggle with real-time, structured production data.",
+      "imageURL": null
+    },
+    {
+      "id": "434fee2b0869a15a7497",
+      "title": "Ghostty Is Leaving GitHub",
+      "sourceName": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/writing/ghostty-leaving-github",
+      "publishedAt": "2026-04-28T00:00:00Z",
+      "summary": null,
       "imageURL": null
     },
     {
@@ -37,15 +91,6 @@
       "imageURL": null
     },
     {
-      "id": "c855bc81059cedf0b650",
-      "title": "What an AI Harness Actually Needs Beyond a Model",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33292",
-      "publishedAt": "2026-04-27T13:01:31Z",
-      "summary": "Key Takeaways The harness, not the model, determines whether agent state is portable and recoverable. Memory is runtime state that belongs in the architecture from the start, not bolted on later. State lock-in is the real risk: switching frameworks can mean losing the agent’s entire operating history. Framework migrations and task interruptions both trace back to the same root cause: state stored ",
-      "imageURL": null
-    },
-    {
       "id": "d6f038eb05e2487d3fc2",
       "title": "Branimir Lambov from IBM on Cassandra",
       "sourceName": "Eaton Phil",
@@ -61,15 +106,6 @@
       "url": "https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/",
       "publishedAt": "2026-04-24T18:35:00Z",
       "summary": "On behalf of Kubernetes SIG Auth and SIG Node, we are pleased to announce the graduation of fine-grained kubelet API authorization to General Availability (GA) in Kubernetes v1.36! The KubeletFineGrainedAuthz feature gate was introduced as an opt-in alpha feature in Kubernetes v1.32, then graduated to beta (enabled by default) in v1.33. Now, the feature is generally available and the feature gate ",
-      "imageURL": null
-    },
-    {
-      "id": "8a168309c7e5f5a50376",
-      "title": "Balance Relational Purity and Speed in High Frequency Systems",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/balance-relational-purity-speed-high-frequency-systems",
-      "publishedAt": "2026-04-24T12:41:52Z",
-      "summary": "Standard relational normalization is the bedrock of database design. It prevents data duplication and maintains integrity by splitting information into specialized tables. However, as your tables approach the 500 million row mark, the very joins that keep your data clean begin to degrade performance. You may notice p95 latencies creeping up even though your queries remain logically sound. This gui",
       "imageURL": null
     },
     {
@@ -494,15 +530,6 @@
       "publishedAt": "2026-04-15T13:01:00Z",
       "summary": "Today, we're introducing Project Think: the next generation of the Agents SDK . Project Think is a set of new primitives for building long-running agents (durable execution, sub-agents, sandboxed code execution, persistent sessions) and an opinionated base class that wires them all together. Use the primitives to build exactly what you need, or use the base class to get started fast. Something hap",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6yokfTVcg8frH4snf7c4sp/2306d721650b4956b28e2198f7cf915d/BLOG-3200_2.png"
-    },
-    {
-      "id": "8cd58f2f3d3464f50be1",
-      "title": "Introducing Agent Lee - a new interface to the Cloudflare stack",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/introducing-agent-lee/",
-      "publishedAt": "2026-04-15T13:00:00Z",
-      "summary": "While there have been small improvements along the way, the interface of technical products has not really changed since the dawn of the Internet. It still remains: clicking five pages deep, cross-referencing logs across tabs, and hunting for hidden toggles. AI gives us the opportunity to rethink all that. Instead of complexity spread over a sprawling graphical user interface: what if you could de",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2Iva79HIiHPUrK8NLukkwH/dd1cf1709ab04f6d5825124cecd20a5e/BLOG-3231_2.png"
     },
     {
       "id": "9ddd90b6d25310c9d3a2",
@@ -1342,13 +1369,13 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68090f03d6cb868fab0af03c_2024_10_DiscordBlog_CompanyAnnoucements-1.png"
     },
     {
-      "id": "34327531520945d3aa86",
-      "title": "Open source for awkward robots",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/13/open-source-for-awkward-robots/",
-      "publishedAt": "2026-03-13T07:40:00Z",
-      "summary": "Ryan is joined by Jan Liphardt, CEO and co-founder of OpenMind, to chat about the rapidly evolving world of humanoid robotics and what it means for humans, why OpenMind is building an open-source operating system for robots that processes logic in natural language, and how putting Asimov’s Laws on the blockchain might be the key to robotics guardrails.",
-      "imageURL": null
+      "id": "b38afd603e08a4151a37",
+      "title": "Why You Should Replace Stored Procedures with a Service Layer",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=32427",
+      "publishedAt": "2026-03-12T19:35:58Z",
+      "summary": "Key Takeaways Stored procedures create deployment friction, version control drift, and observability gaps that worsen at scale. A service layer replaces them with testable, debuggable, independently scalable application code. Co-locating the service with the database preserves low latency while unlocking modern tooling and libraries. Migration can be incremental — start with new functionality and ",
+      "imageURL": "https://static.pingcap.com/files/2026/03/13114342/image-8.png"
     },
     {
       "id": "783c65ea77f07f18a6c4",
@@ -1711,15 +1738,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/64121f8765e921a28f9a2b54_Discord%20HQ%20-%202.png"
     },
     {
-      "id": "09cca119c8ce79d76842",
-      "title": "Safeguarding dynamic configuration changes at scale",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/5aca5222ed68",
-      "publishedAt": "2026-02-18T17:01:01Z",
-      "summary": "How Airbnb ships dynamic config changes safely and reliably. By Cosmo Qiu , Bo Teng , Siyuan Zhou , Ankur Soni , Willis Harvey Dynamic configuration is a core infrastructure capability in modern systems. It allows developers to change runtime behavior without restarting or redeploying services, even as the number of services and requests grows. In practice, that might mean rolling out a new addres",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*v2VDklQn1NHAx-MiR8DYMQ.png"
-    },
-    {
       "id": "b7da1629366787c33139",
       "title": "Carelessness versus craftsmanship in cryptography",
       "sourceName": "Trail of Bits",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-02-11T17:00:00Z",
       "summary": "Improving engineering productivity is crucial to the work we do at Dropbox. The more quickly we can deliver high-quality features to our customers, the more value they can get from our products. This rapid iteration has been key to developing tools like Dropbox Dash , context-aware AI that connects to all your work apps, so you can search, ask questions about, and organize all your content. In the",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/cto-roundtable/cto-roundtable-1440x305-light.png"
-    },
-    {
-      "id": "e5797067617ffb0be586",
-      "title": "Paths of MySQL, vector search edition",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-02-08-paths-of-mysql-vector-search-edition.html",
-      "publishedAt": "2026-02-08T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "48f5dfdd0f5b06164f8e",
-      "title": "You Are Here",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/02/07/you-are-here",
-      "publishedAt": "2026-02-07T00:00:00Z",
-      "summary": "You Are Here Where to next? The cost of turning written business logic into code has dropped to zero. Or, at best, near-zero. The cost of integrating services and libraries, the plumbing of the code world, has dropped to zero. Or, at best, near-zero. The cost of building efficient, reliable, secure, end-to-end systems is starting to drop, but slowly. Where does that leave those of us who have buil",
-      "imageURL": null
     }
   ]
 }
