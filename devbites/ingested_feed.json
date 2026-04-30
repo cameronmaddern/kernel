@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "904bf452d767ff12fca5",
+      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+      "publishedAt": "2026-04-30T13:00:00Z",
+      "summary": "Coding agents are great at building software. But to deploy to production they need three things from the cloud they want to host their app — an account, a way to pay, and an API token. Until now these have been tasks that humans handle directly. Increasingly, agents handle them on the user’s behalf. The agent needs to perform all the tasks a human customer can. They’re given higher-order problems",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5Y4grvxbS3wPfLYOGPV0PE/230d2f439ff9ea8cc75fe6cde9469792/image8.png"
+    },
+    {
+      "id": "5b3804a19c506c1aa2e6",
+      "title": "Kubernetes v1.36: Tiered Memory Protection with Memory QoS",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/",
+      "publishedAt": "2026-04-29T18:35:00Z",
+      "summary": "On behalf of SIG Node, we are pleased to announce updates to the Memory QoS feature (alpha) in Kubernetes v1.36. Memory QoS uses the cgroup v2 memory controller to give the kernel better guidance on how to treat container memory. It was first introduced in v1.22 and updated in v1.27. In Kubernetes v1.36, we're introducing: opt-in memory reservation, tiered protection by QoS class, observability me",
+      "imageURL": null
+    },
+    {
+      "id": "b0db3f16ba67c3a19ea4",
+      "title": "TiDB Cloud Premium Public Preview: Predictable Performance, Elastic Scale, Enterprise Isolation",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33334",
+      "publishedAt": "2026-04-29T18:23:37Z",
+      "summary": "Key Takeaways Public Preview is live on AWS (Oregon, Tokyo, Singapore, Sydney) and Alibaba Cloud (Singapore). Dedicated isolation with elastic RCU scaling, removing the trade-off between predictability and cost. Built for mission-critical workloads like multi-tenant SaaS, Web3, and high-scale production apps. Pricing starts at $1,800 / month for ~5,000 RCUs, with storage metered separately. Cloud-",
+      "imageURL": null
+    },
+    {
+      "id": "e66aa81f67eab36715eb",
+      "title": "Extending Ruzzy with LibAFL",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/",
+      "publishedAt": "2026-04-29T11:00:00Z",
+      "summary": "LibAFL is all the rage in the fuzzing community these days, especially with LLVM’s libFuzzer being placed in maintenance mode . Written in Rust, LibAFL claims improved performance, modularity, state-of-the-art fuzzing techniques, and libFuzzer compatibility . For these reasons, I set out to add LibAFL support to Ruzzy , our coverage-guided fuzzer for pure Ruby code and Ruby C extensions. This give",
+      "imageURL": null
+    },
+    {
       "id": "f4f5af48a43ca72cc607",
       "title": "Optimization vs. Architecture: Knowing the Difference",
       "sourceName": "Timescale",
@@ -8,6 +44,33 @@
       "publishedAt": "2026-04-29T02:21:18Z",
       "summary": "There are two kinds of database performance problems. The first kind responds to optimization. You add an index, queries speed up, the improvement holds. Done. The second kind responds to optimization temporarily. You add an index, queries speed up, then slow down again as data grows. You partition the table, scans get faster, then the partition count becomes its own management burden. You upgrade",
       "imageURL": null
+    },
+    {
+      "id": "04b5d706b731012e92d9",
+      "title": "Everything we announced at Sessions 2026",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+      "publishedAt": "2026-04-29T00:00:00Z",
+      "summary": "We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png"
+    },
+    {
+      "id": "4483fd09e7898dae561d",
+      "title": "Giving agents the ability to pay",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/giving-agents-the-ability-to-pay",
+      "publishedAt": "2026-04-29T00:00:00Z",
+      "summary": "Link’s wallet for agents gives agents programmatic access to Link, including the ability to generate a one-time-use card or Shared Payment Token (SPT) backed by the cards and bank accounts already in your wallet. It’s built on Stripe’s new Issuing for agents.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png"
+    },
+    {
+      "id": "7d083902e3b043ce0df0",
+      "title": "You’ve Got (Too Much) Mail: Behind the Scenes of the 3/25/26 Voice Outage",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/behind-the-scenes-of-the-3-25-26-voice-outage",
+      "publishedAt": "2026-04-29T00:00:00Z",
+      "summary": "On March 25th, voice and video on Discord suffered major degradation beginning at 12:13 PDT, lasting a little over three hours. Learn how the issue originated, how it affected systems across Discord, how we recovered, and how we’re preventing the same problem from reoccurring.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69f2444973213ba625d60106_2024_10_DiscordBlog_Safety-1.png"
     },
     {
       "id": "705ed9c330e321ed8e28",
@@ -88,6 +151,15 @@
       "url": "https://stackoverflow.blog/2026/04/27/welcome-to-the-find-out-stage-of-ai/",
       "publishedAt": "2026-04-27T13:56:07Z",
       "summary": "AI companies are looking a little different after going through renewal cycle.",
+      "imageURL": null
+    },
+    {
+      "id": "c855bc81059cedf0b650",
+      "title": "What an AI Harness Actually Needs Beyond a Model",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33292",
+      "publishedAt": "2026-04-27T13:01:31Z",
+      "summary": "Key Takeaways The harness, not the model, determines whether agent state is portable and recoverable. Memory is runtime state that belongs in the architecture from the start, not bolted on later. State lock-in is the real risk: switching frameworks can mean losing the agent’s entire operating history. Framework migrations and task interruptions both trace back to the same root cause: state stored ",
       "imageURL": null
     },
     {
@@ -521,15 +593,6 @@
       "publishedAt": "2026-04-15T14:00:00Z",
       "summary": "Are you still \"human-in-the-loop,\" or have you moved to \"human-on-the-loop,\" overseeing a bot that’s doing the driving?",
       "imageURL": null
-    },
-    {
-      "id": "4da5b334b859c3c1079f",
-      "title": "Project Think: building the next generation of AI agents on Cloudflare",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/project-think/",
-      "publishedAt": "2026-04-15T13:01:00Z",
-      "summary": "Today, we're introducing Project Think: the next generation of the Agents SDK . Project Think is a set of new primitives for building long-running agents (durable execution, sub-agents, sandboxed code execution, persistent sessions) and an opinionated base class that wires them all together. Use the primitives to build exactly what you need, or use the base class to get started fast. Something hap",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6yokfTVcg8frH4snf7c4sp/2306d721650b4956b28e2198f7cf915d/BLOG-3200_2.png"
     },
     {
       "id": "9ddd90b6d25310c9d3a2",
@@ -1342,15 +1405,6 @@
       "imageURL": null
     },
     {
-      "id": "e9932f7d8a5c7d794d92",
-      "title": "How TiDB X Creates Indexes at 5.5M Rows/s with Near-Zero Business Impact",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=32503",
-      "publishedAt": "2026-03-16T14:26:51Z",
-      "summary": "Key Takeaways TiDB X builds indexes at up to 5.5M rows/s — 72x faster than traditional online DDL. DXF splits index tasks across multiple nodes, scaling throughput near-linearly. Global Sort eliminates SST overlaps, reducing compactions and stabilizing TiKV performance. Elastic worker clusters offload index computation from production, keeping QPS and latency stable. Adding an index has always bee",
-      "imageURL": "https://static.pingcap.com/files/2026/03/16072643/316f9084-9a7b-49d0-99fa-8bfc80b420a1.png"
-    },
-    {
       "id": "5a9ea20a0ebdfb5c8635",
       "title": "Domain expertise still wanted: the latest trends in AI-assisted knowledge for developers",
       "sourceName": "Stack Overflow Blog",
@@ -1367,15 +1421,6 @@
       "publishedAt": "2026-03-16T00:00:00Z",
       "summary": "The threat landscape online has shifted dramatically. Many online platforms are left to reinvent safety tools from scratch. That’s the gap ROOST was built to close — and it’s why open-sourcing battle-tested tools like Osprey matters so much.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68090f03d6cb868fab0af03c_2024_10_DiscordBlog_CompanyAnnoucements-1.png"
-    },
-    {
-      "id": "b38afd603e08a4151a37",
-      "title": "Why You Should Replace Stored Procedures with a Service Layer",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=32427",
-      "publishedAt": "2026-03-12T19:35:58Z",
-      "summary": "Key Takeaways Stored procedures create deployment friction, version control drift, and observability gaps that worsen at scale. A service layer replaces them with testable, debuggable, independently scalable application code. Co-locating the service with the database preserves low latency while unlocking modern tooling and libraries. Migration can be incremental — start with new functionality and ",
-      "imageURL": "https://static.pingcap.com/files/2026/03/13114342/image-8.png"
     },
     {
       "id": "783c65ea77f07f18a6c4",
@@ -1547,24 +1592,6 @@
       "publishedAt": "2026-03-03T01:06:47Z",
       "summary": "My (hypothetical) SRECon26 keynote One year ago, Fred Hebert and I delivered the closing keynote at SRECon25. Looking back on it now, I can hardly connect with how I felt then. Here’s what I’d say one year later. Crossposted from here. Hey, it’s almost time for SRECon 2026 ! (I can’t go, but YOU really should!) Which means it was almost a year ago that Fred Hebert and I were up on stage, deliverin",
       "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%216A3s%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb8458b4-f5fe-4e53-a5a7-94cbe057e946_467x374.jpeg?w=375&#038;ssl=1"
-    },
-    {
-      "id": "9858fa8b4ec193fa7584",
-      "title": "Supporting additional payment methods for agentic commerce",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/supporting-additional-payment-methods-for-agentic-commerce",
-      "publishedAt": "2026-03-03T00:00:00Z",
-      "summary": "Stripe is now the first and only provider that supports both agentic network tokens and buy now, pay later tokens in agentic commerce through a single primitive.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/2pBffvdyWZ4iIQ8ehw3kKH/d93634dc4e88f9981292b333f534d04f/index-tokenization-2.png"
-    },
-    {
-      "id": "e4f08652d280a01e0b6d",
-      "title": "Can AI agents build real Stripe integrations? We built a benchmark to find out",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/can-ai-agents-build-real-stripe-integrations",
-      "publishedAt": "2026-03-02T00:00:00Z",
-      "summary": "State-of-the-art LLMs can now solve a majority of scoped coding problems, but it’s an open question whether they can fully autonomously manage software engineering projects. We spent months building evaluation environments to benchmark how well AI agents can create real Stripe integrations.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3eECFWnjwVnp7EForWM9lL/2ab86dd9a7c6b61fe6b7d6b8009f2598/Index-New_2x__1_.png"
     },
     {
       "id": "b25389c1cfddc0beb630",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-02-15T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
-    },
-    {
-      "id": "f9b2876745d060b30c44",
-      "title": "How low-bit inference enables efficient AI",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/machine-learning/how-low-bit-inference-enables-efficient-ai",
-      "publishedAt": "2026-02-12T18:00:00Z",
-      "summary": "In just the past few years, large machine learning models have made incredible strides. Today’s models are not only remarkably capable but also achieve impressive results across a range of applications, from software engineering and scientific research to content creation and data analysis. With the arrival of models like Kimi-K2.5 and GLM-5 , the pace of progress shows no sign of slowing down. (K",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/low-bit-inference/headers/MachineLearning-Low-Bit Inference-375x150-dark.png"
-    },
-    {
-      "id": "e4d88d45af3093a81bda",
-      "title": "Spotlight on SIG Architecture: API Governance",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/",
-      "publishedAt": "2026-02-12T00:00:00Z",
-      "summary": "This is the fifth interview of a SIG Architecture Spotlight series that covers the different subprojects, and we will be covering SIG Architecture: API Governance . In this SIG Architecture spotlight we talked with Jordan Liggitt , lead of the API Governance sub-project. Introduction FM: Hello Jordan, thank you for your availability. Tell us a bit about yourself, your role and how you got involved",
-      "imageURL": null
-    },
-    {
-      "id": "91e445bfdb23fb8ad8c5",
-      "title": "Insights from our executive roundtable on AI and engineering productivity",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/culture/insights-from-our-executive-roundtable-on-ai-and-engineering-productivity",
-      "publishedAt": "2026-02-11T17:00:00Z",
-      "summary": "Improving engineering productivity is crucial to the work we do at Dropbox. The more quickly we can deliver high-quality features to our customers, the more value they can get from our products. This rapid iteration has been key to developing tools like Dropbox Dash , context-aware AI that connects to all your work apps, so you can search, ask questions about, and organize all your content. In the",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/cto-roundtable/cto-roundtable-1440x305-light.png"
     }
   ]
 }
