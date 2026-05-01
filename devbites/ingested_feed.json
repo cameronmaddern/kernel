@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "636fb7347d11b904362e",
+      "title": "Time is a construct but it can still break your software",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/01/time-is-a-construct-but-it-can-break-your-software/",
+      "publishedAt": "2026-05-01T07:40:00Z",
+      "summary": "Ryan welcomes Jason Williams, senior software engineer at Bloomberg and the creator of Rust-based JavaScript engine Boa, to the show to dive into why date and time handling in JavaScript is so difficult and how the Temporal proposal aims to fix it.",
+      "imageURL": null
+    },
+    {
+      "id": "12a4c5d318f377e5576e",
+      "title": "When AI Agent Memory Outgrows SQLite: How to Tell, and What to Move to Next",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33380",
+      "publishedAt": "2026-04-30T18:54:27Z",
+      "summary": "Key Takeaways SQLite is the right default for local, single-user agent memory. Keep it if you do not need shared recall or cross-device continuity. The signal to move on is sync logic accumulating around SQLite, not the file getting too big. Patching SQLite with metadata tables, file sync, and a separate vector store costs as much as a real backend without the ergonomics of one. TiDB Cloud Zero gi",
+      "imageURL": null
+    },
+    {
+      "id": "6b220076ef8aba3062e0",
+      "title": "Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/",
+      "publishedAt": "2026-04-30T18:35:00Z",
+      "summary": "Following the graduation of Pod-Level Resources to Beta in v1.34 and the General Availability (GA) of In-Place Pod Vertical Scaling in v1.35, the Kubernetes community is thrilled to announce that In-Place Pod-Level Resources Vertical Scaling has graduated to Beta in v1.36! This feature is now enabled by default via the InPlacePodLevelResourcesVerticalScaling feature gate. It allows users to update",
+      "imageURL": null
+    },
+    {
+      "id": "548064d23eb865ce96e4",
+      "title": "The Worst Coder in the World goes agentic: building a leaderboard cracking AI",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/04/30/worst-coder-in-the-world-goes-agentic/",
+      "publishedAt": "2026-04-30T16:00:00Z",
+      "summary": "Agents are everywhere, so isn't it fitting that the Worst Coder in the World goes agentic? A coding newbie explores the challenges and rewards of building an agent for work—and trying to learn a few things about coding along the way.",
+      "imageURL": null
+    },
+    {
+      "id": "d6bb97ad73ad2b66a8c4",
+      "title": "From Security Blocked to Prod Ready: ClickHouse on Docker Hardened Images",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88880",
+      "publishedAt": "2026-04-30T15:55:07Z",
+      "summary": "In November 2025, a team self-hosting Langfuse , an open-source LLM observability platform, on Kubernetes uploaded their ClickHouse image to AWS ECR as part of their production preparation. They found that the pipeline scanner had returned three critical vulnerabilities – not in ClickHouse, but in the base image. Their security team saw the findings and blocked the deployment before it ever reache",
+      "imageURL": "https://www.docker.com/app/uploads/2026/04/image1-1.png"
+    },
+    {
+      "id": "672ea0c0eb9dde4a35db",
+      "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/post-quantum-ipsec/",
+      "publishedAt": "2026-04-30T14:00:00Z",
+      "summary": "While more than two-thirds of human-generated TLS traffic to Cloudflare is already protected by post-quantum cryptography, the world of site-to-site networking has been a different story. For years, the IPsec community remained caught between the high bar of Internet-scale interoperability and the niche requirements of specialized hardware. That gap is now closing. Earlier this month, we announced",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1y7QgyWMG5xGTtYGcwyqTX/48b625d0178c746dbdfba70ee1d2e259/image1.png"
+    },
+    {
       "id": "904bf452d767ff12fca5",
       "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
       "sourceName": "Cloudflare Blog",
@@ -8,6 +62,15 @@
       "publishedAt": "2026-04-30T13:00:00Z",
       "summary": "Coding agents are great at building software. But to deploy to production they need three things from the cloud they want to host their app — an account, a way to pay, and an API token. Until now these have been tasks that humans handle directly. Increasingly, agents handle them on the user’s behalf. The agent needs to perform all the tasks a human customer can. They’re given higher-order problems",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5Y4grvxbS3wPfLYOGPV0PE/230d2f439ff9ea8cc75fe6cde9469792/image8.png"
+    },
+    {
+      "id": "c14c2eef635a7068146a",
+      "title": "It's time to be right.",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/04/30/be-right",
+      "publishedAt": "2026-04-30T00:00:00Z",
+      "summary": "It’s time to be right. Outcomes continue to matter. Earlier this week, I spoke at AI Dev 26. This is what I spoke about there. I’ve been making money, in some form, building software for nearly 30 years. The last five months have been the most exciting of that entire time. I’m extremely optimistic about the future of software, and the future of software engineering as a field. But I have a hypothe",
+      "imageURL": "/blog/images/aidev_hyp.png"
     },
     {
       "id": "5b3804a19c506c1aa2e6",
@@ -155,11 +218,11 @@
     },
     {
       "id": "c855bc81059cedf0b650",
-      "title": "What an AI Harness Actually Needs Beyond a Model",
+      "title": "What an AI Agent Harness Actually Needs Beyond a Model",
       "sourceName": "PingCAP / TiDB",
       "url": "https://www.pingcap.com/?p=33292",
       "publishedAt": "2026-04-27T13:01:31Z",
-      "summary": "Key Takeaways The harness, not the model, determines whether agent state is portable and recoverable. Memory is runtime state that belongs in the architecture from the start, not bolted on later. State lock-in is the real risk: switching frameworks can mean losing the agent’s entire operating history. Framework migrations and task interruptions both trace back to the same root cause: state stored ",
+      "summary": "Key Takeaways The harness, not the model, decides if agent state is portable, durable, and recoverable. Agent memory is runtime state. Treat it as architecture from the start, not a plugin added later. The real risk is state lock-in. Switching frameworks should not mean losing the agent’s operating history. TiDB Cloud Zero gives you an independent, MySQL-compatible state substrate any harness can ",
       "imageURL": null
     },
     {
@@ -348,7 +411,7 @@
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/04/21/we-still-need-developer-communities/",
       "publishedAt": "2026-04-21T07:40:00Z",
-      "summary": "Ryan welcomes Mike Swift, co-founder and CEO of Major League Hacking, to the show to chat about the never-ending need for software developer communities and entry points into programming; MHL’s recent acquisition of DEV and how they’re creating a place for shared knowledge, building, and publishing; and why now is the best time to be both an artisan and a builder in a world with AI software develo",
+      "summary": "Ryan welcomes Mike Swift, co-founder and CEO of Major League Hacking, to the show to chat about the never-ending need for software developer communities and entry points into programming; MLH’s recent acquisition of DEV and how they’re creating a place for shared knowledge, building, and publishing; and why now is the best time to be both an artisan and a builder in a world with AI software develo",
       "imageURL": null
     },
     {
@@ -548,15 +611,6 @@
       "publishedAt": "2026-04-16T10:46:46Z",
       "summary": "The proof of work is the wrong analogy: finding hash collisions, while exponentially harder with N, is guaranteed to find, with enough work, some S so that H(S) satisfies N, so an asymmetry of resources used will see the side with more \"work ability\" eventually winning. But bugs are different: 1. Different LLMs executions take different branches, but eventually the possible branches based on the c",
       "imageURL": null
-    },
-    {
-      "id": "9ba15f9ea9e76fe22bdd",
-      "title": "Cloudflare Email Service: now in public beta. Ready for your agents",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/email-for-agents/",
-      "publishedAt": "2026-04-16T06:00:00Z",
-      "summary": "Email is the most accessible interface in the world. It is ubiquitous. There’s no need for a custom chat application, no custom SDK for each channel. Everyone already has an email address, which means everyone can already interact with your application or agent. And your agent can interact with anyone. If you are building an application, you already rely on email for signups, notifications, and in",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4aGV0BVpbrj3ql5TubPMXx/b85351f13c5fae93a27d11e20a5fc11e/BLOG-3210_2.png"
     },
     {
       "id": "8143ecc9e1a5a70211e1",
@@ -991,15 +1045,6 @@
       "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/03/quic-diagram.png?w=512"
     },
     {
-      "id": "a19994292bcb7bae18a9",
-      "title": "Docker Sandboxes: Run Agents in YOLO Mode, Safely",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88205",
-      "publishedAt": "2026-03-31T16:39:16Z",
-      "summary": "Agents have crossed a threshold. Over a quarter of all production code is now AI-authored, and developers who use agents are merging roughly 60% more pull requests . But these gains only come when you let agents run autonomously. And to unlock that, you have to get out of the way. That means letting agents run without stopping to ask permission at every step, often called YOLO mode. Doing that on ",
-      "imageURL": null
-    },
-    {
       "id": "dc1311bacbfd6759bb48",
       "title": "Meta Adaptive Ranking Model: Bending the Inference Scaling Curve to Serve LLM-Scale Models for Ads",
       "sourceName": "Meta Engineering",
@@ -1324,15 +1369,6 @@
       "imageURL": null
     },
     {
-      "id": "311976d1dbb36ece234c",
-      "title": "How to Instantly Restore a Dropped Table in TiDB",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=32614",
-      "publishedAt": "2026-03-18T19:10:36Z",
-      "summary": "Key Takeaways FLASHBACK TABLE recovers a dropped table in under a second with all data and schema intact. Recovery works at table, database, and cluster scope via FLASHBACK TABLE , FLASHBACK DATABASE , and FLASHBACK CLUSTER . Stale Read queries let you inspect any historical version of a table within the GC lifetime window. The default recovery window is 10 minutes (configurable via tidb_gc_life_t",
-      "imageURL": null
-    },
-    {
       "id": "9d7a5064f92c2d5a6edb",
       "title": "AI-powered event response for Amazon EKS",
       "sourceName": "AWS Architecture Blog",
@@ -1387,30 +1423,12 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/dspy/headers/Machine Learning-Optimizing Dash relevancy judge with DSPy-1440x305-light.png"
     },
     {
-      "id": "a913d2c931b4a7f97a87",
-      "title": "Keeping the lights on for open source",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/17/keeping-the-lights-on-for-open-source/",
-      "publishedAt": "2026-03-17T16:00:00Z",
-      "summary": "Ryan sits down with Chainguard CEO Dan Lorenc to chat about how his team is keeping the foundation of the internet—open source projects—alive by forking archived but widely-used repos to provide security maintenance and dependency upgrades.",
-      "imageURL": null
-    },
-    {
       "id": "40c3742790f2dee29753",
       "title": "The Invisible Rewrite: Modernizing the Kubernetes Image Promoter",
       "sourceName": "Kubernetes Blog",
       "url": "https://kubernetes.io/blog/2026/03/17/image-promoter-rewrite/",
       "publishedAt": "2026-03-17T00:00:00Z",
       "summary": "Every container image you pull from registry.k8s.io got there through kpromo , the Kubernetes image promoter. It copies images from staging registries to production, signs them with cosign , replicates signatures across more than 20 regional mirrors, and generates SLSA provenance attestations. If this tool breaks, no Kubernetes release ships. Over the past few weeks, we rewrote its core from scrat",
-      "imageURL": null
-    },
-    {
-      "id": "5a9ea20a0ebdfb5c8635",
-      "title": "Domain expertise still wanted: the latest trends in AI-assisted knowledge for developers",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/16/domain-expertise-still-wanted-the-latest-trends-in-ai/",
-      "publishedAt": "2026-03-16T14:00:00Z",
-      "summary": "In February, we surveyed our users with research designed in partnership with OpenAI and found out that more developers than ever are using AI at work to learn, they are using other traditional online resources to validate but still find trust in AI a major barrier.",
       "imageURL": null
     },
     {
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-02-18T02:42:30Z",
       "summary": "90% new material, a clearer mission, and a rogues gallery of contributors. The second edition of Observability Engineering is almost done. Originally posted here. Last week I got to meet Martin Fowler for the first time in person. This was an exciting moment for me. Martin ranks high on my personal pantheon; he is, so far as I can tell, hardly ever wrong. Martin Fowler, me, and Nathen Harvey, at t",
       "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%218RWJ%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f4894f1-c0b4-4651-981b-54401808e8e8_1024x768.jpeg?resize=600%2C450&#038;ssl=1"
-    },
-    {
-      "id": "d55372f2afb32ab0adb0",
-      "title": "Notes on clarifying man pages",
-      "sourceName": "Julia Evans",
-      "url": "https://jvns.ca/blog/2026/02/18/man-pages/",
-      "publishedAt": "2026-02-18T00:00:00Z",
-      "summary": "Hello! After spending some time working on the Git man pages last year, I’ve been thinking a little more about what makes a good man page. I’ve spent a lot of time writing cheat sheets for tools (tcpdump, git, dig, etc) which have a man page as their primary documentation. This is because I often find the man pages hard to navigate to get the information I want. Lately I’ve wondering – could the m",
-      "imageURL": "https://jvns.ca/images/dash.webp"
-    },
-    {
-      "id": "453f1492afb29b4de972",
-      "title": "Generating vector embeddings for semantic search locally",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-02-15-generating-vector-embeddings-locally.html",
-      "publishedAt": "2026-02-15T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
     }
   ]
 }
