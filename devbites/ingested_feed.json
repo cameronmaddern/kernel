@@ -1,6 +1,69 @@
 {
   "articles": [
     {
+      "id": "537925b8f556501df2d1",
+      "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/code-orange-fail-small-complete/",
+      "publishedAt": "2026-05-01T21:07:30Z",
+      "summary": "Over the past two and a bit quarters, we've undertaken an intensive engineering effort, internally code-named \" Code Orange: Fail Small \", focused on making Cloudflare's infrastructure more resilient, secure, and reliable for every customer. Earlier this month, the Cloudflare team finished this work. While improving resiliency will never be a “job done” and will always be a top priority across our",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/27Qu0u1iTXZ6MNI4GabAWs/b47737d63334808155e7dd8148818e06/3278-chart.png"
+    },
+    {
+      "id": "bf8df16d8688e2245968",
+      "title": "HiveMQ and TimescaleDB: It just works!",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/hivemq-and-timescaledb-it-just-works",
+      "publishedAt": "2026-05-01T17:57:13Z",
+      "summary": "A few years ago I was working at a plant that manufactured explosives for the oilfield. One of the most important steps in the process was measuring very precise quantities of explosive powder for every charge. The way it worked was that we (and by we, I mean machines) would dose out a specific quantity of powder, then transfer that powder to a second container to verify the weight. If the weight ",
+      "imageURL": null
+    },
+    {
+      "id": "3c7a3d5980ec96ee2a78",
+      "title": "How Meta Is Strengthening End-to-End Encrypted Backups",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23929",
+      "publishedAt": "2026-05-01T16:00:58Z",
+      "summary": "The HSM-based Backup Key Vault Meta’s HSM-based Backup Key Vault provides the foundation for end-to-end encrypted backups for WhatsApp and Messenger. The system allows people to protect their backed-up message history with a recovery code, ensuring that the recovery code is stored in tamper-resistant hardware security modules (HSMs) and is inaccessible to Meta, cloud storage providers, or any thir",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/05/Over-the-Air-Fleet-Key-Distribution.png"
+    },
+    {
+      "id": "87fe8f2f7a053ee4146e",
+      "title": "How We Built mem9: Lessons From Shipping Persistent Memory for AI Agents",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33389",
+      "publishedAt": "2026-05-01T16:00:36Z",
+      "summary": "Key Takeaways mem9 started as a customer request in March 2026, not a roadmap. We shipped a prototype before we wrote a plan. Agent memory is not a storage problem. It is an engineering problem at the intersection of ingestion, ranking, evaluation, and product judgment. A memory API alone is not a product. People want to see, inspect, trust, and correct what an agent remembers. mem9 runs on TiDB C",
+      "imageURL": null
+    },
+    {
+      "id": "825e893d910a84ba0475",
+      "title": "Dispatches from O'Reilly: Fast Paths and Slow Paths",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/01/dispatches-from-o-reilly-fast-paths-and-slow-paths/",
+      "publishedAt": "2026-05-01T14:00:00Z",
+      "summary": "Selective control in autonomous AI systems: Why governing every decision breaks autonomy—and how runtime control actually works at scale",
+      "imageURL": null
+    },
+    {
+      "id": "14ca62e812875c5c3094",
+      "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/dynamic-workflows/",
+      "publishedAt": "2026-05-01T13:00:00Z",
+      "summary": "When we first launched Workers eight years ago, it was a direct-to-developers platform. Over the years, we have expanded and scaled the ecosystem so that platforms could not only build on Workers directly, but they could also enable their customers to ship code to us through many multi-tenant applications. We now see on Workers: Applications where users describe what they want, and the AI writes t",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3D8fGfZalW4N4h7QngR8tN/59ef281c194cfcba12ea6cfb6ec240d7/image2.png"
+    },
+    {
+      "id": "539e8dbe95eb2caaeb06",
+      "title": "A Virtual Agent team at Docker: How the Coding Agent Sandboxes team uses a fleet of agents to ship faster",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88831",
+      "publishedAt": "2026-05-01T13:00:00Z",
+      "summary": "I work on Coding Agent Sandboxes, aka “sbx” at Docker. The project provides secure, microVM-based isolation for running AI coding agents like Claude Code, Gemini, Codex, Docker Agent and Kiro. Agents get full autonomy inside a sandbox (their own Docker daemon, network, filesystem) without touching your host system. Over the past couple of weeks, we built something on top of it: a virtual team of s",
+      "imageURL": "https://www.docker.com/app/uploads/2026/04/image1.png"
+    },
+    {
       "id": "636fb7347d11b904362e",
       "title": "Time is a construct but it can still break your software",
       "sourceName": "Stack Overflow Blog",
@@ -97,15 +160,6 @@
       "url": "https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/",
       "publishedAt": "2026-04-29T11:00:00Z",
       "summary": "LibAFL is all the rage in the fuzzing community these days, especially with LLVM’s libFuzzer being placed in maintenance mode . Written in Rust, LibAFL claims improved performance, modularity, state-of-the-art fuzzing techniques, and libFuzzer compatibility . For these reasons, I set out to add LibAFL support to Ruzzy , our coverage-guided fuzzer for pure Ruby code and Ruby C extensions. This give",
-      "imageURL": null
-    },
-    {
-      "id": "f4f5af48a43ca72cc607",
-      "title": "Optimization vs. Architecture: Knowing the Difference",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/optimization-vs-architecture-knowing-the-difference",
-      "publishedAt": "2026-04-29T02:21:18Z",
-      "summary": "There are two kinds of database performance problems. The first kind responds to optimization. You add an index, queries speed up, the improvement holds. Done. The second kind responds to optimization temporarily. You add an index, queries speed up, then slow down again as data grows. You partition the table, scans get faster, then the partition count becomes its own management burden. You upgrade",
       "imageURL": null
     },
     {
@@ -586,24 +640,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/35SxJbQfntIscpotc0GBt8/48ae11213d7483c9b488321baacf78e7/BLOG-3269_2.png"
     },
     {
-      "id": "34f8a20f259721795f4c",
-      "title": "AI Search: the search primitive for your agents",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ai-search-agent-primitive/",
-      "publishedAt": "2026-04-16T13:00:22Z",
-      "summary": "Every agent needs search: Coding agents search millions of files across repos, or support agents search customer tickets and internal docs. The use cases are different, but the underlying problem is the same: get the right information to the model at the right time. If you're building search yourself, you need a vector index, an indexing pipeline that parses and chunks your documents, and somethin",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1b8NdFL2HDBy8FqBHEI679/f17ed98d45fb9b42a616e0b464460489/BLOG-3240_2.png"
-    },
-    {
-      "id": "f6c8b82a825158419823",
-      "title": "Deploy Postgres and MySQL databases with PlanetScale + Workers",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/deploy-planetscale-postgres-with-workers/",
-      "publishedAt": "2026-04-16T13:00:22Z",
-      "summary": "Cloudflare announced our PlanetScale partnership last September to give Cloudflare Workers direct access to Postgres and MySQL databases for fast, full-stack applications. Soon, we’re bringing our technologies even closer: you’ll be able to create PlanetScale Postgres and MySQL databases directly from the Cloudflare dashboard and API, and have them billed to your Cloudflare account. You choose the",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5Tj4gJrV5hxlIWxlmoXVZe/7661c1e47c0c868b88301b5f4aca4441/BLOG-3213_2.png"
-    },
-    {
       "id": "48400e1b376ddaca9520",
       "title": "AI cybersecurity is not proof of work",
       "sourceName": "Salvatore Sanfilippo (antirez)",
@@ -1027,15 +1063,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/25/ARCHBLOG-1174-image-1.png"
     },
     {
-      "id": "5d0fabcd892c11ab50a3",
-      "title": "Run and Iterate on LLMs Faster with Docker Model Runner on DGX Station",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=87656",
-      "publishedAt": "2026-03-31T17:57:17Z",
-      "summary": "Back in October, we showed how Docker Model Runner on the NVIDIA DGX Spark makes it remarkably easy to run large AI models locally with the same familiar Docker experience developers already trust. That post struck a chord: hundreds of developers discovered that a compact desktop system paired with Docker Model Runner could replace complex GPU setups and cloud API calls. Recently at NVIDIA GTC 202",
-      "imageURL": null
-    },
-    {
       "id": "d968ad92038a5f847104",
       "title": "From Custom to Open: Scalable Network Probing and HTTP/3 Readiness with Prometheus",
       "sourceName": "Slack Engineering",
@@ -1088,15 +1115,6 @@
       "publishedAt": "2026-03-31T07:40:00Z",
       "summary": "Ryan hosts SmartBear’s VP of AI and Architecture Fitz Nowlan to explore how we’re moving away from old assumptions about software development, the challenges of testing MCP servers as LLM-driven agents introduce non-determinism that breaks tradition, and how data locality and data construction are becoming more valuable when source code is so easy to generate.",
       "imageURL": null
-    },
-    {
-      "id": "f2449a0cd7a1bc35763b",
-      "title": "AI for American-Produced Cement and Concrete",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=23769",
-      "publishedAt": "2026-03-30T16:00:34Z",
-      "summary": "Meta is continuing its long-term roadmap to help the construction industry leverage AI to produce high-quality and more sustainable concrete mixes, as well as those exclusively produced in the United States. Concurrent with the 2026 American Concrete Institute (ACI) Spring Convention, Meta is releasing a new AI model for designing concrete mixes – Bayesian Optimization for Concrete (BOxCrete) , as",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/03/Meta-Rosemount-Data-Center.png"
     },
     {
       "id": "08e79d29f73eeee86da7",
@@ -1306,15 +1324,6 @@
       "imageURL": null
     },
     {
-      "id": "22a8625a4cfb3ac522f2",
-      "title": "Building a Voice-First AI Journal: How to Add a Knowledgeable Tutor",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=32594",
-      "publishedAt": "2026-03-19T19:04:28Z",
-      "summary": "Key Takeaways A Socratic voice tutor can share a journal app’s entire stack—one codebase, two products. Static knowledge plus RAG over source code gives an AI tutor both reliability and depth. TiDB’s native vector search keeps relational data and embeddings in one database with no Pinecone sidecar. A single mode column on the facts table prevents study noise from polluting personal context. I give",
-      "imageURL": "https://static.pingcap.com/files/2026/03/20073641/image-9.png"
-    },
-    {
       "id": "d0f97516ce330eafec19",
       "title": "How Slack Rebuilt Notifications 📣",
       "sourceName": "Slack Engineering",
@@ -1330,15 +1339,6 @@
       "url": "https://stackoverflow.blog/2026/03/19/ai-is-becoming-a-second-brain-at-the-expense-of-your-first-one/",
       "publishedAt": "2026-03-19T14:01:58Z",
       "summary": "The risk isn’t just that we’ll get lazy and become lousy at critical thinking; the risk is that we’ll outsource our judgement and lose the ability to make qualitative, moral, and interpersonal judgments altogether.",
-      "imageURL": null
-    },
-    {
-      "id": "c5d99da652fc032581b6",
-      "title": "Building a global engineering team (plus AI agents) with Netlify",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/19/building-a-global-engineering-team-netlify/",
-      "publishedAt": "2026-03-19T07:40:00Z",
-      "summary": "Dana Lawson, CTO of Netlify, shares her insights on leading a lean, globally distributed engineering team that powers 5% of the internet.",
       "imageURL": null
     },
     {
