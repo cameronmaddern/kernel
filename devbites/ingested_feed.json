@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "e76ed71126a0169709f8",
+      "title": "Postgres Extensions Cheat Sheet: Replace 7 Databases With SQL",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/postgres-extensions-cheat-sheet",
+      "publishedAt": "2026-05-02T20:47:24Z",
+      "summary": "This post is a practical companion to It's 2026, Just Use Postgres . That post makes the architectural case for consolidating on Postgres. This one shows you how. Below are working SQL examples for each use case. Every extension listed here is available on Tiger Cloud with no additional setup. If you're self-hosting, each section links to the extension's repo. What you'll be able to do after readi",
+      "imageURL": null
+    },
+    {
+      "id": "737867704797d125400e",
+      "title": "Testing Vue components in the browser",
+      "sourceName": "Julia Evans",
+      "url": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/",
+      "publishedAt": "2026-05-02T00:00:00Z",
+      "summary": "Hello! One of my long term projects on here is figuring out how to write frontend Javascript without using Node or any other server JS runtime. One issue I run into a lot in my frontend JS projects is that I don’t know how to write tests for them. I’ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some No",
+      "imageURL": null
+    },
+    {
+      "id": "91a05dc8ab9502574eb3",
+      "title": "Automating Hermitage to see how transactions differ in MySQL and MariaDB",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-05-02-automating-hermitage.html",
+      "publishedAt": "2026-05-02T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "537925b8f556501df2d1",
       "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
       "sourceName": "Cloudflare Blog",
@@ -10,12 +37,12 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/27Qu0u1iTXZ6MNI4GabAWs/b47737d63334808155e7dd8148818e06/3278-chart.png"
     },
     {
-      "id": "bf8df16d8688e2245968",
-      "title": "HiveMQ and TimescaleDB: It just works!",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/hivemq-and-timescaledb-it-just-works",
-      "publishedAt": "2026-05-01T17:57:13Z",
-      "summary": "A few years ago I was working at a plant that manufactured explosives for the oilfield. One of the most important steps in the process was measuring very precise quantities of explosive powder for every charge. The way it worked was that we (and by we, I mean machines) would dose out a specific quantity of powder, then transfer that powder to a second container to verify the weight. If the weight ",
+      "id": "590d306878c2142eefea",
+      "title": "Kubernetes v1.36: Pod-Level Resource Managers (Alpha)",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/",
+      "publishedAt": "2026-05-01T18:35:00Z",
+      "summary": "Kubernetes v1.36 introduces Pod-Level Resource Managers as an alpha feature, bringing a more flexible and powerful resource management model to performance-sensitive workloads. This enhancement extends the kubelet's Topology, CPU, and Memory Managers to support pod-level resource specifications ( .spec.resources ), evolving them from a strictly per-container allocation model to a pod-centric one. ",
       "imageURL": null
     },
     {
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-02-19T00:00:00Z",
       "summary": "Discord uses Osprey to quickly detect and remove new types of harm from putting our customers at risk. Now we’re open-sourcing this tool so others can do the same.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68c465a0050ca83bcc5934ef_image2.png"
-    },
-    {
-      "id": "016d0923d03638153a79",
-      "title": "How to Change Your Theme to Bring Your Vibe to Discord",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/bring-your-vibe-to-discord-with-new-themes-in-nitro",
-      "publishedAt": "2026-02-19T00:00:00Z",
-      "summary": "Add a splash of personality and make Discord pop by changing Discord’s color scheme! Learn how to adjust the look of Discord on both desktop and mobile.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/64121f8765e921a28f9a2b54_Discord%20HQ%20-%202.png"
-    },
-    {
-      "id": "b7da1629366787c33139",
-      "title": "Carelessness versus craftsmanship in cryptography",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/",
-      "publishedAt": "2026-02-18T12:00:00Z",
-      "summary": "Two popular AES libraries, aes-js and pyaes, “helpfully” provide a default IV in their AES-CTR API, leading to a large number of key/IV reuse bugs. These bugs potentially affect thousands of downstream projects. When we shared one of these bugs with an affected vendor, strongSwan, the maintainer provided a model response for security vendors. The aes-js/pyaes maintainer, on the other hand, has tak",
-      "imageURL": null
-    },
-    {
-      "id": "0a636615551d63d81c1e",
-      "title": "Martin Fowler told me the second edition should be shorter (it’s twice as long) (xpost)",
-      "sourceName": "Charity Majors",
-      "url": "https://charity.wtf/?p=10335",
-      "publishedAt": "2026-02-18T02:42:30Z",
-      "summary": "90% new material, a clearer mission, and a rogues gallery of contributors. The second edition of Observability Engineering is almost done. Originally posted here. Last week I got to meet Martin Fowler for the first time in person. This was an exciting moment for me. Martin ranks high on my personal pantheon; he is, so far as I can tell, hardly ever wrong. Martin Fowler, me, and Nathen Harvey, at t",
-      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%218RWJ%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f4894f1-c0b4-4651-981b-54401808e8e8_1024x768.jpeg?resize=600%2C450&#038;ssl=1"
     }
   ]
 }
