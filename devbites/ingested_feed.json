@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "880a2fb0a3d98a473b40",
+      "title": "What (un)exactly do you mean by semantic search?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/05/what-un-exactly-do-you-mean-by-semantic-search/",
+      "publishedAt": "2026-05-05T07:40:00Z",
+      "summary": "Ryan welcomes Bryan O’Grady, Head of Field Research and Solutions Architecture at Qdrant, to discuss the differences between traditional text search engines powered by Lucene and modern vector databases, when vector search’s exact-match needs work for things like logs and security analytics and when semantic search works for user-facing discovery and non-exact results, and how Qdrant is growing in",
+      "imageURL": null
+    },
+    {
+      "id": "e1430d589dc45f345eec",
+      "title": "Redis array type: short story of a long development",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/164",
+      "publishedAt": "2026-05-04T14:21:45Z",
+      "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation kinda part time (kinda because many weeks were actually full time, sometimes to detach yourself from the keyboard is complicated), and even before LLMs the implementation was likely something I could do i",
+      "imageURL": null
+    },
+    {
+      "id": "feaea0b1a1b7b3f0653c",
+      "title": "Discord Patch Notes: May 4, 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-patch-notes-may-4-2026",
+      "publishedAt": "2026-05-04T00:00:00Z",
+      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
+    },
+    {
+      "id": "39ec720fc016d6492d61",
+      "title": "Links to CSS colour palettes",
+      "sourceName": "Julia Evans",
+      "url": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/",
+      "publishedAt": "2026-05-04T00:00:00Z",
+      "summary": "A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead. But one thing I missed about Tailwind was the colour palette ( here as CSS ). If I wanted a light blue I could just use blue-100 and if I didn’t like it maybe try blue-200 or blue-50 . I’m not very good with colours so it makes a big difference to me to have a reasonable colour palette that somebo",
+      "imageURL": null
+    },
+    {
       "id": "e76ed71126a0169709f8",
       "title": "Postgres Extensions Cheat Sheet: Replace 7 Databases With SQL",
       "sourceName": "Timescale",
@@ -65,11 +101,11 @@
     },
     {
       "id": "825e893d910a84ba0475",
-      "title": "Dispatches from O'Reilly: Fast Paths and Slow Paths",
+      "title": "Dispatches from O'Reilly: Fast paths and slow paths",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/05/01/dispatches-from-o-reilly-fast-paths-and-slow-paths/",
       "publishedAt": "2026-05-01T14:00:00Z",
-      "summary": "Selective control in autonomous AI systems: Why governing every decision breaks autonomy—and how runtime control actually works at scale",
+      "summary": "Selective control in autonomous AI systems: Why governing every decision breaks autonomy—and how runtime control actually works at scale.",
       "imageURL": null
     },
     {
@@ -294,7 +330,7 @@
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/04/27/welcome-to-the-find-out-stage-of-ai/",
       "publishedAt": "2026-04-27T13:56:07Z",
-      "summary": "AI companies are looking a little different after going through renewal cycle.",
+      "summary": "AI companies are looking a little different after going through a few renewal cycles.",
       "imageURL": null
     },
     {
@@ -1360,15 +1396,6 @@
       "imageURL": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f514.png"
     },
     {
-      "id": "27e1a3c9ed7f255e1831",
-      "title": "AI is becoming a second brain at the expense of your first one",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/19/ai-is-becoming-a-second-brain-at-the-expense-of-your-first-one/",
-      "publishedAt": "2026-03-19T14:01:58Z",
-      "summary": "The risk isn’t just that we’ll get lazy and become lousy at critical thinking; the risk is that we’ll outsource our judgement and lose the ability to make qualitative, moral, and interpersonal judgments altogether.",
-      "imageURL": null
-    },
-    {
       "id": "522fd8f1cc9c3675e749",
       "title": "Testing the impact of Adaptive Pricing across 1.5M subscription checkout sessions",
       "sourceName": "Stripe Blog",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-02-22T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
-    },
-    {
-      "id": "db223c2f496fbc1f3b45",
-      "title": "Using threat modeling and prompt injection to audit Comet",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/",
-      "publishedAt": "2026-02-20T16:00:00Z",
-      "summary": "Before launching their Comet browser, Perplexity hired us to test the security of their AI-powered browsing features. Using adversarial testing guided by our TRAIL threat model, we demonstrated how four prompt injection techniques could extract users’ private information from Gmail by exploiting the browser’s AI assistant. The vulnerabilities we found reflect how AI agents behave when external con",
-      "imageURL": "https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/using-threat-modeling-and-prompt-injection-to-audit-comet-image-1_hu_ec7b70f1e492cd9d.webp"
-    },
-    {
-      "id": "edbffd3647937f4cb6de",
-      "title": "First I wrote the wrong book, then I wrote the right book (xpost)",
-      "sourceName": "Charity Majors",
-      "url": "https://charity.wtf/?p=10344",
-      "publishedAt": "2026-02-19T03:35:45Z",
-      "summary": "I’m not sure whether to say “thank you” or “HOW COULD YOU DO THIS TO ME”, but this one goes out to all the people who sent me advice on buying software last fall. This is the second in a two-part episode. The first part ended on a ✨cliffhanger!!!✨ — so if you missed the first episode, catch up here: Martin Fowler told me the second edition should be shorter (it’s twice as long) Charity Majors Six ",
-      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%218RWJ%21%2Cw_140%2Ch_140%2Cc_fill%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep%2Cg_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f4894f1-c0b4-4651-981b-54401808e8e8_1024x768.jpeg?resize=140%2C140&#038;ssl=1"
-    },
-    {
-      "id": "d32747c3141561a6a59e",
-      "title": "Osprey: Open Sourcing our Rule Engine",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/osprey-open-sourcing-our-rule-engine",
-      "publishedAt": "2026-02-19T00:00:00Z",
-      "summary": "Discord uses Osprey to quickly detect and remove new types of harm from putting our customers at risk. Now we’re open-sourcing this tool so others can do the same.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68c465a0050ca83bcc5934ef_image2.png"
     }
   ]
 }
