@@ -1,12 +1,84 @@
 {
   "articles": [
     {
+      "id": "faedb21d3ab406abe7b0",
+      "title": "Autovacuum: The Tax You're Always Paying",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/the-autovacuum-tax",
+      "publishedAt": "2026-05-05T19:04:21Z",
+      "summary": "You open pg_stat_activity during a write peak and there it is. Autovacuum. Again. You've tuned this three times. You wrote a runbook for it. At this point it has its own section in the quarterly database review. The table it's working on hasn't seen a single UPDATE in six months. Every write is an INSERT. Old data gets dropped by partition, not deleted row by row. By every reasonable intuition abo",
+      "imageURL": null
+    },
+    {
+      "id": "865bcd7d72f14b35c482",
+      "title": "Kubernetes v1.36: Declarative Validation Graduates to GA",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/05/kubernetes-v1-36-declarative-validation-ga/",
+      "publishedAt": "2026-05-05T18:35:00Z",
+      "summary": "In Kubernetes v1.36, Declarative Validation for Kubernetes native types has reached General Availability (GA). For users, this means more reliable, predictable, and better-documented APIs. By moving to a declarative model, the project also unlocks the future ability to publish validation rules via OpenAPI and integrate with ecosystem tools like Kubebuilder. For contributors and ecosystem developer",
+      "imageURL": null
+    },
+    {
+      "id": "2ff5a8dba527b70e734b",
+      "title": "Monitoring reliably at scale",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/ca6483040930",
+      "publishedAt": "2026-05-05T17:01:01Z",
+      "summary": "Designing monitoring that works when everything else doesn’t. By : Abdurrahman J. Allawala Introduction When an incident hits, teams lean on observability to answer the only questions that matter: what’s broken, and why? Monitoring systems are designed to help you answer these questions, and they usually do. But what happens when your observability stack is dependent on the same systems that are f",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*aJtIFusWxXwGeCwkaawo2w.jpeg"
+    },
+    {
+      "id": "7ec57e6d58007312f101",
+      "title": "From SSH to REST: A Security-Driven Modernization of Slack’s EMR Data Pipelines",
+      "sourceName": "Slack Engineering",
+      "url": "https://slack.engineering/?p=17774",
+      "publishedAt": "2026-05-05T14:00:01Z",
+      "summary": "Excerpt By 2024, Slack’s data platform had accumulated 700+ SSH-based operators orchestrating critical data pipelines. We’re talking daily search indexing that processed terabytes of data, analytics jobs powering business intelligence, the whole shebang. Every single one of these jobs required direct SSH access to production AWS Elastic MapReduce (EMR) clusters. We had a massive security surface, ",
+      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/04/Figure2_v2_wp_safe.png?w=640"
+    },
+    {
+      "id": "c34ad38ae00be4239351",
+      "title": "Generate Images Locally with Docker Model Runner and Open WebUI",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88080",
+      "publishedAt": "2026-05-05T13:00:00Z",
+      "summary": "We’ve all been there: you need to generate a few images for a project, you fire up an AI image service, and suddenly you’re wondering what happens to your prompts, how many credits you have left, or why that “safe content” filter rejected your perfectly reasonable request for a dragon wearing a business suit. What if you could skip all of that and run the whole thing on your own machine, with a sl",
+      "imageURL": "https://www.docker.com/app/uploads/2026/03/Generate-image-with-Open-WebUI-fig-1.png"
+    },
+    {
+      "id": "f99dae2971b0b9580796",
+      "title": "C/C++ checklist challenges, solved",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/",
+      "publishedAt": "2026-05-05T11:00:00Z",
+      "summary": "We recently added a C/C++ security checklist to the Testing Handbook and challenged readers to spot the bugs in two code samples : a deceptively simple Linux ping program and a Windows driver registry handler. If you found the inet_ntoa global buffer gotcha or the missing RTL_QUERY_REGISTRY_TYPECHECK flag, nice work. If not, here’s a full walkthrough of both challenges, plus a deep dive into how t",
+      "imageURL": "https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/cc-checklist-challenges-solved-image-1_hu_fe8665a0cbfe6e6b.webp"
+    },
+    {
+      "id": "92a9b7ec8311e670d3a0",
+      "title": "Precision Container Security with Docker and Black Duck",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=89219",
+      "publishedAt": "2026-05-05T08:00:00Z",
+      "summary": "The complexity of modern containerized applications often leaves developers drowning in a sea of “noise”—vulnerabilities that exist in the file system but pose zero actual risk to the application. The integration between Black Duck and Docker Hardened Images (DHI) provides a definitive answer to this challenge. By combining Docker’s secure-by-default foundations, using VEX (Vulnerability Exploitab",
+      "imageURL": null
+    },
+    {
       "id": "880a2fb0a3d98a473b40",
       "title": "What (un)exactly do you mean by semantic search?",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/05/05/what-un-exactly-do-you-mean-by-semantic-search/",
       "publishedAt": "2026-05-05T07:40:00Z",
       "summary": "Ryan welcomes Bryan O’Grady, Head of Field Research and Solutions Architecture at Qdrant, to discuss the differences between traditional text search engines powered by Lucene and modern vector databases, when vector search’s exact-match needs work for things like logs and security analytics and when semantic search works for user-facing discovery and non-exact results, and how Qdrant is growing in",
+      "imageURL": null
+    },
+    {
+      "id": "3951e89e78f61cf3d317",
+      "title": "Kubernetes v1.36: Admission Policies That Can't Be Deleted",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/",
+      "publishedAt": "2026-05-04T18:35:00Z",
+      "summary": "If you've ever tried to enforce a security policy across a fleet of Kubernetes clusters, you've probably run into a frustrating chicken-and-egg problem. Your admission policies are API objects, which means they don't exist until someone creates them, and they can be deleted by anyone with the right permissions. There's always a window during cluster bootstrap where your policies aren't active yet,",
       "imageURL": null
     },
     {
@@ -34,15 +106,6 @@
       "url": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/",
       "publishedAt": "2026-05-04T00:00:00Z",
       "summary": "A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead. But one thing I missed about Tailwind was the colour palette ( here as CSS ). If I wanted a light blue I could just use blue-100 and if I didn’t like it maybe try blue-200 or blue-50 . I’m not very good with colours so it makes a big difference to me to have a reasonable colour palette that somebo",
-      "imageURL": null
-    },
-    {
-      "id": "e76ed71126a0169709f8",
-      "title": "Postgres Extensions Cheat Sheet: Replace 7 Databases With SQL",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/postgres-extensions-cheat-sheet",
-      "publishedAt": "2026-05-02T20:47:24Z",
-      "summary": "This post is a practical companion to It's 2026, Just Use Postgres . That post makes the architectural case for consolidating on Postgres. This one shows you how. Below are working SQL examples for each use case. Every extension listed here is available on Tiger Cloud with no additional setup. If you're self-hosting, each section links to the extension's repo. What you'll be able to do after readi",
       "imageURL": null
     },
     {
@@ -1054,15 +1117,6 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/magic-pocket-compaction/headers/Infrastructure-Optimizing compaction in Magic Pocket-1440x305-light.png"
     },
     {
-      "id": "025d61004cd45e4bb18d",
-      "title": "Gemma 4 is Here: Now Available on Docker Hub",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88429",
-      "publishedAt": "2026-04-02T16:16:56Z",
-      "summary": "Docker Hub is quickly becoming the home for AI models, serving millions of developers and bringing together a curated lineup that spans lightweight edge models to high-performance LLMs, all packaged as OCI artifacts. Today, we’re excited to welcome Gemma 4 , the latest generation of lightweight, state-of-the-art open models. Built on the same technology behind Gemini, Gemma 4 introduces three arch",
-      "imageURL": null
-    },
-    {
       "id": "7cad52b864fed2208c15",
       "title": "What the AI trust gap means for enterprise SaaS",
       "sourceName": "Stack Overflow Blog",
@@ -1070,15 +1124,6 @@
       "publishedAt": "2026-04-02T13:00:00Z",
       "summary": "Adoption and trust are moving in diametrically opposed directions, and that gap has real implications for organizations deciding how to spend money on software.",
       "imageURL": null
-    },
-    {
-      "id": "23fe9bcc0fc47d76d377",
-      "title": "Docker Offload now Generally Available: The Full Power of Docker, for Every Developer, Everywhere.",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88380",
-      "publishedAt": "2026-04-02T13:00:00Z",
-      "summary": "Docker Desktop is one of the most widely used developer tools in the world, yet for millions of enterprise developers, running it simply hasn’t been an option. The environments they rely on, such as virtual desktop infrastructure (VDI) platforms and managed desktops, often lack the resources or capabilities needed to run Docker Desktop. As enterprises scaled to support remote and contractor teams,",
-      "imageURL": "https://www.docker.com/app/uploads/2025/07/WAD-offload2.gif"
     },
     {
       "id": "49dd0c04af5326209760",
@@ -1753,51 +1798,6 @@
       "url": "http://notes.eatonphil.com/2026-02-25-i-started-a-company.html",
       "publishedAt": "2026-02-25T00:00:00Z",
       "summary": "I quit my job at EnterpriseDB hacking on PostgreSQL products last month to start a company researching and writing about software infrastructure. I believe there is space for analysis that is more focused on code than TechCrunch or The Register, more open to covering corporate software development than LWN.net, and (as much as I love some of these folks) less biased than VCs writing about their ow",
-      "imageURL": null
-    },
-    {
-      "id": "5c0a52a9aba6c91cf663",
-      "title": "SFQ: Simple, Stateless, Stochastic Fairness",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/02/25/sfq",
-      "publishedAt": "2026-02-25T00:00:00Z",
-      "summary": "SFQ: Simple, Stateless, Stochastic Fairness Roll the dice. .subtitle { margin-bottom: 15px; color: #666; font-size: 14px; } .container { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; } .sim-wrapper { display: flex; flex-direction: column; align-items: center; } .sim-wrapper h2 { margin: 0 0 10px 0; font-size: 16px; } canvas { background: white; border: 1px solid #ccc; } .cont",
-      "imageURL": null
-    },
-    {
-      "id": "54f35ead1b8fcd0109b1",
-      "title": "Academic publications & Airbnb Tech: 2025 year in review",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/7d79f57d3b52",
-      "publishedAt": "2026-02-24T18:36:39Z",
-      "summary": "2025 was a big year for research at Airbnb, as we made significant progress toward our mission to use AI, data science, and machine learning to become the best travel and living platform. Specifically, we doubled down on our presence at long-standing venues like KDD and CIKM — two of the most selective conferences in machine learning. At the same time, we expanded our research footprint by sharing",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*FfdFpfjGZODh7ltZ2W2Mrg.jpeg"
-    },
-    {
-      "id": "d01f2eaace528bf36c75",
-      "title": "Implementing a clear room Z80 / ZX Spectrum emulator with Claude Code",
-      "sourceName": "Salvatore Sanfilippo (antirez)",
-      "url": "http://antirez.com/news/160",
-      "publishedAt": "2026-02-24T17:58:02Z",
-      "summary": "Anthropic recently released a blog post with the description of an experiment in which the last version of Opus, the 4.6, was instructed to write a C compiler in Rust, in a “clean room” setup. The experiment methodology left me dubious about the kind of point they wanted to make. Why not provide the agent with the ISA documentation? Why Rust? Writing a C compiler is exactly a giant graph manipulat",
-      "imageURL": null
-    },
-    {
-      "id": "99fe81ac12f4beb45b38",
-      "title": "Getting Global Age Assurance Right: What We Got Wrong and What's Changing",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/getting-global-age-assurance-right-what-we-got-wrong-and-whats-changing",
-      "publishedAt": "2026-02-24T00:00:00Z",
-      "summary": "Discord's CTO addresses community concerns about age assurance: no mass ID collection, new vendor transparency commitments, and a delayed global launch until second half of 2026.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67d0c4e0932bb59c7f6271e5_2024_10_DiscordBlog_UsingDiscord-1.png"
-    },
-    {
-      "id": "a2ec1f0db9529c3cd3b7",
-      "title": "We have pgvector at home",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-02-22-we-have-pgvector-at-home.html",
-      "publishedAt": "2026-02-22T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
     }
   ]
