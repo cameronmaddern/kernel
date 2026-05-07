@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "48ebd82b80ebaa1afbbc",
+      "title": "How we replaced NGINX-Ingress at Stack Overflow",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/06/how-we-replaced-nginx-ingress-at-stack-overflow/",
+      "publishedAt": "2026-05-06T18:47:46Z",
+      "summary": "Ingress-NGINX had been handling our traffic routing since moving to Kubernetes, but when it was announced it would be retired, we were forced to consider a new traffic routing solution.",
+      "imageURL": null
+    },
+    {
+      "id": "c028e7e5d1bf1512bf4d",
+      "title": "Kubernetes v1.36: Server-Side Sharded List and Watch",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/",
+      "publishedAt": "2026-05-06T18:35:00Z",
+      "summary": "As Kubernetes clusters grow to tens of thousands of nodes, controllers that watch high-cardinality resources like Pods face a scaling wall. Every replica of a horizontally scaled controller receives the full stream of events from the API server, paying the CPU, memory, and network cost to deserialize everything, only to discard the objects it is not responsible for. Scaling out the controller does",
+      "imageURL": null
+    },
+    {
+      "id": "2d851a835ee6aaecc3f6",
+      "title": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/de-tld-outage-dnssec/",
+      "publishedAt": "2026-05-06T17:00:00Z",
+      "summary": "On May 5, 2026, at roughly 19:30 UTC, DENIC, the registry operator for the .de country-code top-level domain (TLD), started publishing incorrect DNSSEC signatures for the .de zone. Any validating DNS resolver receiving these signatures was required by the DNSSEC specification to reject them and return SERVFAIL to clients, including 1.1.1.1 , the public DNS resolver operated by Cloudflare. The coun",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4hF64h72z4oKRg28w0mDJm/7f535cf687750f9ea730c27fa5e729e3/BLOG-3309_2.png"
+    },
+    {
       "id": "faedb21d3ab406abe7b0",
       "title": "Autovacuum: The Tax You're Always Paying",
       "sourceName": "Timescale",
@@ -69,7 +96,7 @@
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/05/05/what-un-exactly-do-you-mean-by-semantic-search/",
       "publishedAt": "2026-05-05T07:40:00Z",
-      "summary": "Ryan welcomes Bryan O’Grady, Head of Field Research and Solutions Architecture at Qdrant, to discuss the differences between traditional text search engines powered by Lucene and modern vector databases, when vector search’s exact-match needs work for things like logs and security analytics and when semantic search works for user-facing discovery and non-exact results, and how Qdrant is growing in",
+      "summary": "Ryan welcomes Brian O’Grady, Head of Field Research and Solutions Architecture at Qdrant, to discuss the differences between traditional text search engines powered by Lucene and modern vector databases, when vector search’s exact-match needs work for things like logs and security analytics and when semantic search works for user-facing discovery and non-exact results, and how Qdrant is growing in",
       "imageURL": null
     },
     {
@@ -757,15 +784,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5j6AEIF1GMhnHuJD08VQtw/9e65e2badc5fd1e75557230e8f455ccc/BLOG-3266_2.png"
     },
     {
-      "id": "8b457065532222504a6e",
-      "title": "Artifacts: versioned storage that speaks Git",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
-      "publishedAt": "2026-04-16T13:01:00Z",
-      "summary": "Agents have changed how we think about source control, file systems, and persisting state. Developers and agents are generating more code than ever — more code will be written over the next 5 years than in all of programming history — and it’s driven an order-of-magnitude change in the scale of the systems needed to meet this demand. Source control platforms are especially struggling here: they we",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/35SxJbQfntIscpotc0GBt8/48ae11213d7483c9b488321baacf78e7/BLOG-3269_2.png"
-    },
-    {
       "id": "48400e1b376ddaca9520",
       "title": "AI cybersecurity is not proof of work",
       "sourceName": "Salvatore Sanfilippo (antirez)",
@@ -1405,15 +1423,6 @@
       "imageURL": null
     },
     {
-      "id": "0b38f86ed0e684551b27",
-      "title": "After all the hype, was 2025 really the year of AI agents?",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/20/was-2025-really-the-year-of-ai-agents/",
-      "publishedAt": "2026-03-20T07:40:00Z",
-      "summary": "Ryan is joined by Stefan Weitz, CEO and co-founder of the HumanX Conference, for a conversation on how AI has evolved in the last year.",
-      "imageURL": null
-    },
-    {
       "id": "5680bd67d22c1a9d9303",
       "title": "Three of the biggest fraud trends from MRC Vegas 2026",
       "sourceName": "Stripe Blog",
@@ -1789,15 +1798,6 @@
       "url": "https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/",
       "publishedAt": "2026-02-25T12:00:00Z",
       "summary": "If you’ve ever done Linux memory forensics, you know the frustration: without debug symbols that match the exact kernel version, you’re stuck. These symbols aren’t typically installed on production systems and must be sourced from external repositories, which quickly become outdated when systems receive updates. If you’ve ever tried to analyze a memory dump only to discover that no one has publish",
-      "imageURL": null
-    },
-    {
-      "id": "69e38f205765909ff291",
-      "title": "I started a software research company",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-02-25-i-started-a-company.html",
-      "publishedAt": "2026-02-25T00:00:00Z",
-      "summary": "I quit my job at EnterpriseDB hacking on PostgreSQL products last month to start a company researching and writing about software infrastructure. I believe there is space for analysis that is more focused on code than TechCrunch or The Register, more open to covering corporate software development than LWN.net, and (as much as I love some of these folks) less biased than VCs writing about their ow",
       "imageURL": null
     }
   ]
