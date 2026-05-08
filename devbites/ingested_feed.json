@@ -1,8 +1,71 @@
 {
   "articles": [
     {
+      "id": "38d70a8c651dac60a784",
+      "title": "AI giveth and AI taketh CPU",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/08/ai-giveth-and-ai-taketh-cpu/",
+      "publishedAt": "2026-05-08T07:40:00Z",
+      "summary": "Recorded on the floor of HumanX, Ryan is joined by AMD CTO Mark Papermaster to discuss AMD’s silicon strategy for AI borne of their long history of heterogeneous CPU/GPU computing, how chipmakers are dealing the wide range of AI workloads from training to inference, and the paradox of agents both eating up all the compute and helping AMD accelerate chip innovation.",
+      "imageURL": null
+    },
+    {
+      "id": "9afd8fa54c15d59ec2ed",
+      "title": "Building for the future",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/building-for-the-future/",
+      "publishedAt": "2026-05-07T20:15:12Z",
+      "summary": "This afternoon, we sent the following email to our global team. One of our core values at Cloudflare is transparency, and we believe it's important that you hear this directly from us because it’s a major moment at Cloudflare. Team: We are writing to let you know directly that we’ve made the decision to reduce Cloudflare’s workforce by more than 1,100 employees globally. The way we work at Cloudfl",
+      "imageURL": null
+    },
+    {
+      "id": "15c2ac0adacbad52cc5e",
+      "title": "Kubernetes v1.36: More Drivers, New Features, and the Next Era of DRA",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/",
+      "publishedAt": "2026-05-07T18:35:00Z",
+      "summary": "Dynamic Resource Allocation (DRA) has fundamentally changed how platform administrators handle hardware accelerators and specialized resources in Kubernetes. In the v1.36 release, DRA continues to mature, bringing a wave of feature graduations, critical usability improvements, and new capabilities that extend the flexibility of DRA to native resources like memory and CPU, and support for ResourceC",
+      "imageURL": null
+    },
+    {
+      "id": "46983b9e8a1cf49cfc3a",
+      "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
+      "publishedAt": "2026-05-07T13:00:00Z",
+      "summary": "On April 29, 2026, a Linux kernel local privilege escalation vulnerability was publicly disclosed under the name \"Copy Fail\" ( CVE-2026-31431 ). Cloudflare’s Security and Engineering teams began assessing the vulnerability as soon as it was disclosed. We reviewed the exploit technique, evaluated exposure across our infrastructure, and validated that our existing behavioral detections could identif",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5uqfOddH7biQaTjtgQOist/5c16c08bf3e5ce2f9030d6f98d2403cb/BLOG-3308_2.png"
+    },
+    {
+      "id": "d6cd1a84e2e679b9718f",
+      "title": "Comparing Different Approaches to Sandboxing",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=89226",
+      "publishedAt": "2026-05-07T13:00:00Z",
+      "summary": "“ AI agents will become the primary way we interact with computers in the future. They will be able to understand our needs and preferences, and proactively help us with tasks and decision making. “ Satya Nadella CEO of Microsoft Whether you are a software engineer, a product manager, or a designer, this quote should fundamentally change how we approach our daily routine. We are no longer just bui",
+      "imageURL": "https://www.docker.com/app/uploads/2026/04/image5.png"
+    },
+    {
+      "id": "1a1d4f1334fd168dbfea",
+      "title": "Five Warning Signs Your Database Needs Different Architecture",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/five-warning-signs-your-database-needs-different-architecture",
+      "publishedAt": "2026-05-07T11:40:41Z",
+      "summary": "Every database has bad days. A slow query after a schema change. A spike in replication lag during a traffic surge. An autovacuum job that runs long enough to make you nervous. Those are tuning problems. They have tuning solutions. A senior engineer can fix them in a day, sometimes in an hour, and the fix holds. You move on. But there's a different category of symptom. The kind that comes back. Th",
+      "imageURL": null
+    },
+    {
+      "id": "a9479616f6fbc1b44ba4",
+      "title": "Stock Up in the New Rust Shop! Enjoy a Discord-Only 20% Sale on Most Items until 5/21",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/rust-shop-on-discord-launch-sale",
+      "publishedAt": "2026-05-07T00:00:00Z",
+      "summary": "Starting today, you can now browse, purchase, and even gift and wishlist in-game items for Rust directly in Discord! See how it all works, and learn about a hefty two-week Discord-exclusive launch discount on a wide selection of officially-made Rust items.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69fb913580d2452bfe2fd43a_RUST-Shop-blog-1800x720.png"
+    },
+    {
       "id": "48ebd82b80ebaa1afbbc",
-      "title": "How we replaced NGINX-Ingress at Stack Overflow",
+      "title": "How we replaced Ingress-NGINX at Stack Overflow",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/05/06/how-we-replaced-nginx-ingress-at-stack-overflow/",
       "publishedAt": "2026-05-06T18:47:46Z",
@@ -26,15 +89,6 @@
       "publishedAt": "2026-05-06T17:00:00Z",
       "summary": "On May 5, 2026, at roughly 19:30 UTC, DENIC, the registry operator for the .de country-code top-level domain (TLD), started publishing incorrect DNSSEC signatures for the .de zone. Any validating DNS resolver receiving these signatures was required by the DNSSEC specification to reject them and return SERVFAIL to clients, including 1.1.1.1 , the public DNS resolver operated by Cloudflare. The coun",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4hF64h72z4oKRg28w0mDJm/7f535cf687750f9ea730c27fa5e729e3/BLOG-3309_2.png"
-    },
-    {
-      "id": "faedb21d3ab406abe7b0",
-      "title": "Autovacuum: The Tax You're Always Paying",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/the-autovacuum-tax",
-      "publishedAt": "2026-05-05T19:04:21Z",
-      "summary": "You open pg_stat_activity during a write peak and there it is. Autovacuum. Again. You've tuned this three times. You wrote a runbook for it. At this point it has its own section in the quarterly database review. The table it's working on hasn't seen a single UPDATE in six months. Every write is an INSERT. Old data gets dropped by partition, not deleted row by row. By every reasonable intuition abo",
-      "imageURL": null
     },
     {
       "id": "865bcd7d72f14b35c482",
@@ -766,24 +820,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/PQC-Readiness-Levels-Blues.png"
     },
     {
-      "id": "de1174396b724b7c6382",
-      "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ai-platform/",
-      "publishedAt": "2026-04-16T14:05:00Z",
-      "summary": "AI models are changing quickly: the best model to use for agentic coding today might in three months be a completely different model from a different provider. On top of this, real-world use cases often require calling more than one model. Your customer support agent might use a fast, cheap model to classify a user's message; a large, reasoning model to plan its actions; and a lightweight model to",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2ez5tichGEEn5k6SzCgWLm/380a685b14ee9732fdf87c6f88c8f39e/BLOG-3209_2.png"
-    },
-    {
-      "id": "f249476a535f9d3dd35c",
-      "title": "Building the foundation for running extra-large language models",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/high-performance-llms/",
-      "publishedAt": "2026-04-16T14:00:00Z",
-      "summary": "An agent needs to be powered by a large language model. A few weeks ago, we announced that Workers AI is officially entering the arena for hosting large open-source models like Moonshot’s Kimi K2.5. Since then, we’ve made Kimi K2.5 3x faster and have more model additions in-flight. These models have been the backbone of a lot of the agentic products, harnesses, and tools that we have been launchin",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5j6AEIF1GMhnHuJD08VQtw/9e65e2badc5fd1e75557230e8f455ccc/BLOG-3266_2.png"
-    },
-    {
       "id": "48400e1b376ddaca9520",
       "title": "AI cybersecurity is not proof of work",
       "sourceName": "Salvatore Sanfilippo (antirez)",
@@ -1108,15 +1144,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/Meta-KernalEvolve-REA-image1.png"
     },
     {
-      "id": "6248f64271be86f8f389",
-      "title": "Defending Your Software Supply Chain: What Every Engineering Team Should Do Now",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88434",
-      "publishedAt": "2026-04-02T18:14:40Z",
-      "summary": "The software supply chain is under sustained attack. Not from a single threat actor or a single incident, but from an ecosystem-wide campaign that has been escalating for months and shows no signs of slowing down. This week, axios , the HTTP client library downloaded 83 million times per week and present in roughly 80% of cloud environments, was compromised via a hijacked maintainer account . Two ",
-      "imageURL": null
-    },
-    {
       "id": "d67a0b747bb159f0f8a8",
       "title": "My Journey to Airbnb — Jonathan Woodard",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -1357,15 +1384,6 @@
       "url": "https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/",
       "publishedAt": "2026-03-24T11:00:00Z",
       "summary": "Using dimensional analysis, you can categorically rule out a whole category of logic and arithmetic bugs that plague DeFi formulas. No code changes required, just better reasoning! One of the first lessons in physics is learning to think in terms of dimensions . Physicists can often spot a flawed formula in seconds just by checking whether the dimensions make sense. I once had a teacher who even k",
-      "imageURL": null
-    },
-    {
-      "id": "47ab80fc290cb7a6574f",
-      "title": "Multi-stage attacks are the Final Fantasy bosses of security",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/24/multi-stage-attacks-are-the-final-fantasy-bosses-of-security/",
-      "publishedAt": "2026-03-24T07:40:00Z",
-      "summary": "Ryan welcomes Gee Rittenhouse, VP of Security at AWS, to the show to discuss the complexities of multi-stage attacks in cybersecurity and how these attacks unfold, the challenges in detecting them, and the evolving role of AI in both enhancing security and creating new vulnerabilities.",
       "imageURL": null
     },
     {
@@ -1780,24 +1798,6 @@
       "url": "http://notes.eatonphil.com/2026-02-26-datafusion-contributor-spotlight-kosta-tarasov.html",
       "publishedAt": "2026-02-26T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "4136a1a070fa1015966f",
-      "title": "6,000 AWS accounts, three people, one platform: Lessons learned",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/6000-aws-accounts-three-people-one-platform-lessons-learned/",
-      "publishedAt": "2026-02-25T19:47:07Z",
-      "summary": "This post is cowritten by Julius Blank from ProGlove. As software-as-a-service (SaaS) platforms grow, balancing speed of innovation with strong security and tenant data isolation becomes critical. While the same AWS Identity and Access Management (IAM) mechanisms secure both shared and dedicated environments, establishing a hard security boundary is often easier in an account-per-tenant model beca",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/17/ARCHBLOG-1310-1.png"
-    },
-    {
-      "id": "38b67e5a31a695f29fe8",
-      "title": "mquire: Linux memory forensics without external dependencies",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/",
-      "publishedAt": "2026-02-25T12:00:00Z",
-      "summary": "If you’ve ever done Linux memory forensics, you know the frustration: without debug symbols that match the exact kernel version, you’re stuck. These symbols aren’t typically installed on production systems and must be sourced from external repositories, which quickly become outdated when systems receive updates. If you’ve ever tried to analyze a memory dump only to discover that no one has publish",
       "imageURL": null
     }
   ]
