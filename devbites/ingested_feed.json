@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "4e5b8cdf014eada8a013",
+      "title": "Kubernetes v1.36: Moving Volume Group Snapshots to GA",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/",
+      "publishedAt": "2026-05-08T18:35:00Z",
+      "summary": "Volume group snapshots were introduced as an Alpha feature with the Kubernetes v1.27 release, moved to Beta in v1.32, and to a second Beta in v1.34. We are excited to announce that in the Kubernetes v1.36 release, support for volume group snapshots has reached General Availability (GA) . The support for volume group snapshots relies on a set of extension APIs for group snapshots . These APIs allow",
+      "imageURL": null
+    },
+    {
+      "id": "96c0800b84963fb2fef4",
+      "title": "No Dumb Questions: What is an MCP server and why do I care?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/08/no-dumb-questions-mcp/",
+      "publishedAt": "2026-05-08T16:00:00Z",
+      "summary": "Welcome to No Dumb Questions, a column where our least technical writer asks our technical staff the simple, basic tech questions people are afraid to ask. In this first entry, Stack's Director of Ecosystem Strategy Ben Marconi teaches us the basics of MCP servers and why they matter.",
+      "imageURL": null
+    },
+    {
+      "id": "69340edbfe632bb2e0f8",
+      "title": "How Relational Complexity Crushes Real-Time Dashboards",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/how-relational-complexity-crushes-real-time-dashboards",
+      "publishedAt": "2026-05-08T15:33:00Z",
+      "summary": "When your Shared Buffer Hits cross 100,000 for a simple dashboard refresh, you have hit the wall of relational scaling. A simple query that used to return in 100ms now takes 1.5 seconds. You’ve added indexes and tuned the buffer pool, but the performance gains are fleeting. Your largest tables crossed 500M rows , and the joins that once felt elegant are now a weight dragging down your entire syste",
+      "imageURL": null
+    },
+    {
       "id": "38d70a8c651dac60a784",
       "title": "AI giveth and AI taketh CPU",
       "sourceName": "Stack Overflow Blog",
@@ -8,6 +35,24 @@
       "publishedAt": "2026-05-08T07:40:00Z",
       "summary": "Recorded on the floor of HumanX, Ryan is joined by AMD CTO Mark Papermaster to discuss AMD’s silicon strategy for AI borne of their long history of heterogeneous CPU/GPU computing, how chipmakers are dealing the wide range of AI workloads from training to inference, and the paradox of agents both eating up all the compute and helping AMD accelerate chip innovation.",
       "imageURL": null
+    },
+    {
+      "id": "59e17ce8c2e2408e59a8",
+      "title": "How Discord Automates ScyllaDB Clusters at Scale",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/how-discord-automates-scylladb-clusters-at-scale",
+      "publishedAt": "2026-05-08T00:00:00Z",
+      "summary": "You've been asked to stand up a brand-new database cluster, meaning a whole day of configuring dozens of nodes, validating replication, wiring up dual-write pipelines… what if this whole ordeal took less than two hours? This is how we got ourselves into this exact mess, and how we made our way out of it.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69fb97b51217ebb66107035c_2024_10_DiscordBlog_DevandEngineers-5.png"
+    },
+    {
+      "id": "e798d740b5d9a3954b44",
+      "title": "What is a Context Platform? A New Pattern for AI Agents in Production",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33450",
+      "publishedAt": "2026-05-07T21:03:21Z",
+      "summary": "Key Takeaways A context platform is a single operational data layer that unifies vector search, structured queries, and real-time analytics in one system. AI apps fail in production because of the data layer, not the model. The stitched stack of vector DB, relational DB, and cache breaks at production scale. Three requirements: a unified SQL interface, real-time freshness, and elastic scale. Matur",
+      "imageURL": "https://static.pingcap.com/files/2026/05/08125503/image.png"
     },
     {
       "id": "9afd8fa54c15d59ec2ed",
@@ -44,15 +89,6 @@
       "publishedAt": "2026-05-07T13:00:00Z",
       "summary": "“ AI agents will become the primary way we interact with computers in the future. They will be able to understand our needs and preferences, and proactively help us with tasks and decision making. “ Satya Nadella CEO of Microsoft Whether you are a software engineer, a product manager, or a designer, this quote should fundamentally change how we approach our daily routine. We are no longer just bui",
       "imageURL": "https://www.docker.com/app/uploads/2026/04/image5.png"
-    },
-    {
-      "id": "1a1d4f1334fd168dbfea",
-      "title": "Five Warning Signs Your Database Needs Different Architecture",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/five-warning-signs-your-database-needs-different-architecture",
-      "publishedAt": "2026-05-07T11:40:41Z",
-      "summary": "Every database has bad days. A slow query after a schema change. A spike in replication lag during a traffic surge. An autovacuum job that runs long enough to make you nervous. Those are tuning problems. They have tuning solutions. A senior engineer can fix them in a day, sometimes in an hour, and the fix holds. You move on. But there's a different category of symptom. The kind that comes back. Th",
-      "imageURL": null
     },
     {
       "id": "a9479616f6fbc1b44ba4",
@@ -1333,15 +1369,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/17/ARCHBLOG-1295-1-1.jpeg"
     },
     {
-      "id": "c333b8503626b8bfed28",
-      "title": "Building shared coding guidelines for AI (and people too)",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/",
-      "publishedAt": "2026-03-26T14:00:00Z",
-      "summary": "Coding guidelines and standards for agents need to be a little different—more explicit, demonstrative of patterns, and obvious.",
-      "imageURL": null
-    },
-    {
       "id": "20d22e484460ca253d81",
       "title": "Reducing our monorepo size to improve developer velocity",
       "sourceName": "Dropbox Tech",
@@ -1385,15 +1412,6 @@
       "publishedAt": "2026-03-24T11:00:00Z",
       "summary": "Using dimensional analysis, you can categorically rule out a whole category of logic and arithmetic bugs that plague DeFi formulas. No code changes required, just better reasoning! One of the first lessons in physics is learning to think in terms of dimensions . Physicists can often spot a flawed formula in seconds just by checking whether the dimensions make sense. I once had a teacher who even k",
       "imageURL": null
-    },
-    {
-      "id": "562819fb58c23134a36b",
-      "title": "TiDB Cloud Zero Public Preview: Get a Database in 1 Second, Claim It in 3 Clicks",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=32592",
-      "publishedAt": "2026-03-24T05:32:16Z",
-      "summary": "Key Takeaways Launch a production-grade database in one second — no signup or setup required. SKILL command enables instant use directly inside AI agents. 30-day temporary instances support fast prototyping and experimentation. Three-click claim converts it into a persistent TiDB Cloud database. Data and schema migrate automatically with zero disruption. Built for agent-first workflows, removing t",
-      "imageURL": "https://static.pingcap.com/files/2026/03/22222009/TiDB-Cloud-Zero-Preview-home.png"
     },
     {
       "id": "477426f0bb026d2eaa8a",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-02-26T17:00:00Z",
       "summary": "When someone uses Dropbox Dash to search or ask a question, it follows a retrieval-augmented generation (RAG) pattern. This means our AI first retrieves relevant company information and then uses that information to generate responses. To produce those answers, it relies on enterprise search to retrieve company-specific context and then uses that context to ground the response. Rather than respond",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/llm-and-human-labeling/headers/Machine Learning-Human Evaluations-1440x305-light.png"
-    },
-    {
-      "id": "3d23f8b0173fc922884a",
-      "title": "Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/02/26/ccm-new-metric-route-sync-total/",
-      "publishedAt": "2026-02-26T00:00:00Z",
-      "summary": "Kubernetes v1.36 introduces a new alpha counter metric route_controller_route_sync_total to the Cloud Controller Manager (CCM) route controller implementation at k8s.io/cloud-provider . This metric increments each time routes are synced with the cloud provider. A/B testing watch-based route reconciliation This metric was added to help operators validate the CloudControllerManagerWatchBasedRoutesRe",
-      "imageURL": null
-    },
-    {
-      "id": "9d017a3ee485f1a04d8b",
-      "title": "Open Source Contributor Spotlight: Kosta Tarasov and DataFusion",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-02-26-datafusion-contributor-spotlight-kosta-tarasov.html",
-      "publishedAt": "2026-02-26T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
     }
   ]
 }
