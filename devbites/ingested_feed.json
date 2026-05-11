@@ -163,6 +163,15 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/03/Generate-image-with-Open-WebUI-fig-1.png"
     },
     {
+      "id": "f99dae2971b0b9580796",
+      "title": "C/C++ checklist challenges, solved",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/",
+      "publishedAt": "2026-05-05T11:00:00Z",
+      "summary": "We recently added a C/C++ security checklist to the Testing Handbook and challenged readers to spot the bugs in two code samples : a deceptively simple Linux ping program and a Windows driver registry handler. If you found the inet_ntoa global buffer gotcha or the missing RTL_QUERY_REGISTRY_TYPECHECK flag, nice work. If not, here’s a full walkthrough of both challenges, plus a deep dive into how t",
+      "imageURL": "https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/cc-checklist-challenges-solved-image-1_hu_fe8665a0cbfe6e6b.webp"
+    },
+    {
       "id": "92a9b7ec8311e670d3a0",
       "title": "Precision Container Security with Docker and Black Duck",
       "sourceName": "Docker Blog",
@@ -388,6 +397,15 @@
       "imageURL": null
     },
     {
+      "id": "e66aa81f67eab36715eb",
+      "title": "Extending Ruzzy with LibAFL",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/",
+      "publishedAt": "2026-04-29T11:00:00Z",
+      "summary": "LibAFL is all the rage in the fuzzing community these days, especially with LLVM’s libFuzzer being placed in maintenance mode . Written in Rust, LibAFL claims improved performance, modularity, state-of-the-art fuzzing techniques, and libFuzzer compatibility . For these reasons, I set out to add LibAFL support to Ruzzy , our coverage-guided fuzzer for pure Ruby code and Ruby C extensions. This give",
+      "imageURL": null
+    },
+    {
       "id": "04b5d706b731012e92d9",
       "title": "Everything we announced at Sessions 2026",
       "sourceName": "Stripe Blog",
@@ -575,6 +593,15 @@
       "publishedAt": "2026-04-23T13:20:43Z",
       "summary": "Regulators worldwide require financial institutions to implement Know Your Customer (KYC) processes that help prevent money laundering, terrorist financing, fraud, and identity theft. KYC has evolved from a compliance checkbox to a core security function for financial institutions. Financial institutions must modernize their KYC architectures because of several factors: rising transaction volumes,",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/10/ARCHBLOG-1317-1.png"
+    },
+    {
+      "id": "43da28e34f2dab568a3b",
+      "title": "Trailmark turns code into graphs",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/",
+      "publishedAt": "2026-04-23T12:00:00Z",
+      "summary": "We’re open-sourcing Trailmark , a library that parses source code into a queryable call graph of functions, classes, call relationships, and semantic metadata, then exposes that graph through a Python API that Claude skills can call directly. Install it now: uv pip install trailmark “Defenders think in lists. Attackers think in graphs. As long as this is true, attackers win.” John Lambert’s widely",
+      "imageURL": null
     },
     {
       "id": "8019b2ac3e190b5a92de",
@@ -775,6 +802,15 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1nKDxB6OkUr1fpVKGWEugC/8fc4dbf0bd1ec45e30010a223982487e/image2.png"
     },
     {
+      "id": "2510c61125589be8440e",
+      "title": "We beat Google’s zero-knowledge proof of quantum cryptanalysis",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/",
+      "publishedAt": "2026-04-17T11:00:00Z",
+      "summary": "Two weeks ago, Google’s Quantum AI group published a zero-knowledge proof of a quantum circuit so optimized, they concluded that first-generation quantum computers will break elliptic curve cryptography keys in as little as 9 minutes. Today, Trail of Bits is publishing our own zero-knowledge proof that significantly improves Google’s on all metrics. Our result is not due to some quantum breakthrou",
+      "imageURL": "https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis-image-1_hu_47d2ce2b7e2f854.webp"
+    },
+    {
       "id": "080a6982e17667127c6c",
       "title": "No country left behind with sovereign AI",
       "sourceName": "Stack Overflow Blog",
@@ -964,6 +1000,15 @@
       "imageURL": null
     },
     {
+      "id": "66730a32f7efea941ac1",
+      "title": "Master C and C++ with our new Testing Handbook chapter",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/",
+      "publishedAt": "2026-04-09T11:00:00Z",
+      "summary": "We added a new chapter to our Testing Handbook: a comprehensive security checklist for C and C++ code . We’ve identified a broad range of common bug classes, known footguns, and API gotchas across C and C++ codebases and organized them into sections covering Linux, Windows, and seccomp. Whereas other handbook chapters focus on static and dynamic analysis, this chapter offers a strong basis for man",
+      "imageURL": null
+    },
+    {
       "id": "4d13fcf466bb2d448da7",
       "title": "Spec Driven Development isn't Waterfall",
       "sourceName": "Marc Brooker",
@@ -1027,6 +1072,15 @@
       "imageURL": "https://static.pingcap.com/files/2026/04/01081738/970d1568-3686-42ac-8180-f4d4883954c1.png"
     },
     {
+      "id": "3192390f8d2df38e05c1",
+      "title": "What we learned about TEE security from auditing WhatsApp's Private Inference",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/",
+      "publishedAt": "2026-04-07T11:00:00Z",
+      "summary": "WhatsApp’s new “Private Inference” feature represents one of the most ambitious attempts to combine end-to-end encryption with AI-powered capabilities, such as message summarization. To make this possible, Meta built a system that processes encrypted user messages inside trusted execution environments (TEEs), secure hardware enclaves designed so that not even Meta can access the plaintext. Our now",
+      "imageURL": null
+    },
+    {
       "id": "f0877e7c8177f1aee53e",
       "title": "He designed C++ to solve your code problems",
       "sourceName": "Stack Overflow Blog",
@@ -1088,6 +1142,15 @@
       "publishedAt": "2026-04-03T16:00:00Z",
       "summary": "Pull requests are the beating heart of GitHub. As engineers, this is where we spend a good portion of our time. And at GitHub’s scale—where pull requests can range from tiny one-line fixes to changes spanning thousands of files and millions of lines—the pull request review experience has to stay fast and responsive. We recently shipped the new React-based experience for the Files changed tab (now ",
       "imageURL": "https://github.blog/wp-content/uploads/2026/04/3.png?resize=960%2C1340"
+    },
+    {
+      "id": "a59e2961a36f65328179",
+      "title": "Simplifying MBA obfuscation with CoBRA",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/",
+      "publishedAt": "2026-04-03T11:00:00Z",
+      "summary": "Mixed Boolean-Arithmetic (MBA) obfuscation disguises simple operations like x + y behind tangles of arithmetic and bitwise operators. Malware authors and software protectors rely on it because no standard simplification technique covers both domains simultaneously; algebraic simplifiers don’t understand bitwise logic, and Boolean minimizers can’t handle arithmetic. We’re releasing CoBRA , an open-",
+      "imageURL": null
     },
     {
       "id": "c12b7e4def8e835d469a",
@@ -1162,6 +1225,15 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/27/ML-ARCHBLOG-1344-image-1.png"
     },
     {
+      "id": "7b435c9435780846b6cd",
+      "title": "Mutation testing for the agentic era",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/",
+      "publishedAt": "2026-04-01T11:00:00Z",
+      "summary": "Code coverage is one of the most dangerous quality metrics in software testing. Many developers fail to realize that code coverage lies by omission: it measures execution, not verification. Test suites with high coverage can obfuscate the fact that critical functionality is untested as software develops over time. We saw this when mutation testing uncovered a high-severity Arkis protocol vulnerabi",
+      "imageURL": null
+    },
+    {
       "id": "4c131c6b9cc2ab5a8dc0",
       "title": "MULTIPLAYER SEQUEL TO ACCLAIMED AAAA GAME “THE LAST MEADOW” ANNOUNCED: PLAYABLE NOW",
       "sourceName": "Discord Blog",
@@ -1214,6 +1286,15 @@
       "publishedAt": "2026-03-31T14:30:00Z",
       "summary": "An AI agent implements a feature. The code compiles. The tests pass. It still misses the point. The wrong kind of correct. Most of our software tooling is optimized for the failures humans used to make. Agents fail differently. They usually don't break the build. They disable the failing test. They reuse the nearest pattern. They preserve the old path and add a new one beside it. Everything looks ",
       "imageURL": null
+    },
+    {
+      "id": "c69d1b6422e7c32d3491",
+      "title": "How we made Trail of Bits AI-native (so far)",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/",
+      "publishedAt": "2026-03-31T11:00:00Z",
+      "summary": "This post is adapted from a talk I gave at [un]prompted , the AI security practitioner conference. Thanks to Gadi Evron for inviting me to speak. You can watch the recorded presentation below or download the slides . Most companies hand out ChatGPT licenses and wait for the productivity numbers to move. We built a system instead. A year ago, about 5% of Trail of Bits was on board with our AI initi",
+      "imageURL": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/remedies_hu_467a5bd562219c7f.webp"
     },
     {
       "id": "659f714b65abb62c25fe",
@@ -1297,6 +1378,15 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/monorepo/headers/Infrastructure-Reducing monorepo size-1440x305-light.png"
     },
     {
+      "id": "2d53da69c2cdfd0fe753",
+      "title": "Try our new dimensional analysis Claude plugin",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/",
+      "publishedAt": "2026-03-25T11:00:00Z",
+      "summary": "We’re releasing a new Claude plugin for developing and auditing code that implements dimensional analysis, a technique we explored in our most recent blog post . Most LLM-based security skills ask the model to find bugs. Our new dimensional-analysis plugin for Claude Code takes a different approach: it uses the LLM to annotate your codebase with dimensional types, then flags mismatches mechanicall",
+      "imageURL": "https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/try-our-new-dimensional-analysis-claude-plugin-image-1_hu_7d3093e4aab4ef47.webp"
+    },
+    {
       "id": "d3b665f9c47888c3e2ef",
       "title": "What about juniors?",
       "sourceName": "Marc Brooker",
@@ -1313,6 +1403,15 @@
       "publishedAt": "2026-03-24T17:01:01Z",
       "summary": "How Airbnb built forecasting models resilient enough to survive a global pandemic and whatever shock comes next. By : Harrison Katz The week everything broke In March 2020, the forecasting models that had served us well in stable times faced a new challenge: predicting outcomes in a world that had suddenly changed. At Airbnb, many of the financial metrics we forecast depend on two separate events:",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*HC0FvtGMOcsE3d138wRDRw.jpeg"
+    },
+    {
+      "id": "dde0403805a8cd2828f6",
+      "title": "Spotting issues in DeFi with dimensional analysis",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/",
+      "publishedAt": "2026-03-24T11:00:00Z",
+      "summary": "Using dimensional analysis, you can categorically rule out a whole category of logic and arithmetic bugs that plague DeFi formulas. No code changes required, just better reasoning! One of the first lessons in physics is learning to think in terms of dimensions . Physicists can often spot a flawed formula in seconds just by checking whether the dimensions make sense. I once had a teacher who even k",
+      "imageURL": null
     },
     {
       "id": "477426f0bb026d2eaa8a",
@@ -1531,6 +1630,15 @@
       "imageURL": null
     },
     {
+      "id": "5cee4143bbd3a30282ad",
+      "title": "Six mistakes in ERC-4337 smart accounts",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/",
+      "publishedAt": "2026-03-11T11:00:00Z",
+      "summary": "Account abstraction transforms fixed “private key can do anything” models into programmable systems that enable batching, recovery and spending limits, and flexible gas payment. But that programmability introduces risks: a single bug can be as catastrophic as leaking a private key. After auditing dozens of ERC‑4337 smart accounts, we’ve identified six vulnerability patterns that frequently appear.",
+      "imageURL": "https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/erc4337-figure-1_hu_28689ebdbcaa7f49.webp"
+    },
+    {
       "id": "3c75339b4f397f4b6d06",
       "title": "Analyzing first-party fraud trends: Account, free trial, and refund abuse",
       "sourceName": "Stripe Blog",
@@ -1691,114 +1799,6 @@
       "publishedAt": "2026-02-26T17:00:00Z",
       "summary": "When someone uses Dropbox Dash to search or ask a question, it follows a retrieval-augmented generation (RAG) pattern. This means our AI first retrieves relevant company information and then uses that information to generate responses. To produce those answers, it relies on enterprise search to retrieve company-specific context and then uses that context to ground the response. Rather than respond",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/llm-and-human-labeling/headers/Machine Learning-Human Evaluations-1440x305-light.png"
-    },
-    {
-      "id": "3d23f8b0173fc922884a",
-      "title": "Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/02/26/ccm-new-metric-route-sync-total/",
-      "publishedAt": "2026-02-26T00:00:00Z",
-      "summary": "Kubernetes v1.36 introduces a new alpha counter metric route_controller_route_sync_total to the Cloud Controller Manager (CCM) route controller implementation at k8s.io/cloud-provider . This metric increments each time routes are synced with the cloud provider. A/B testing watch-based route reconciliation This metric was added to help operators validate the CloudControllerManagerWatchBasedRoutesRe",
-      "imageURL": null
-    },
-    {
-      "id": "9d017a3ee485f1a04d8b",
-      "title": "Open Source Contributor Spotlight: Kosta Tarasov and DataFusion",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-02-26-datafusion-contributor-spotlight-kosta-tarasov.html",
-      "publishedAt": "2026-02-26T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "4136a1a070fa1015966f",
-      "title": "6,000 AWS accounts, three people, one platform: Lessons learned",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/6000-aws-accounts-three-people-one-platform-lessons-learned/",
-      "publishedAt": "2026-02-25T19:47:07Z",
-      "summary": "This post is cowritten by Julius Blank from ProGlove. As software-as-a-service (SaaS) platforms grow, balancing speed of innovation with strong security and tenant data isolation becomes critical. While the same AWS Identity and Access Management (IAM) mechanisms secure both shared and dedicated environments, establishing a hard security boundary is often easier in an account-per-tenant model beca",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/17/ARCHBLOG-1310-1.png"
-    },
-    {
-      "id": "69e38f205765909ff291",
-      "title": "I started a software research company",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-02-25-i-started-a-company.html",
-      "publishedAt": "2026-02-25T00:00:00Z",
-      "summary": "I quit my job at EnterpriseDB hacking on PostgreSQL products last month to start a company researching and writing about software infrastructure. I believe there is space for analysis that is more focused on code than TechCrunch or The Register, more open to covering corporate software development than LWN.net, and (as much as I love some of these folks) less biased than VCs writing about their ow",
-      "imageURL": null
-    },
-    {
-      "id": "5c0a52a9aba6c91cf663",
-      "title": "SFQ: Simple, Stateless, Stochastic Fairness",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/02/25/sfq",
-      "publishedAt": "2026-02-25T00:00:00Z",
-      "summary": "SFQ: Simple, Stateless, Stochastic Fairness Roll the dice. .subtitle { margin-bottom: 15px; color: #666; font-size: 14px; } .container { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; } .sim-wrapper { display: flex; flex-direction: column; align-items: center; } .sim-wrapper h2 { margin: 0 0 10px 0; font-size: 16px; } canvas { background: white; border: 1px solid #ccc; } .cont",
-      "imageURL": null
-    },
-    {
-      "id": "d01f2eaace528bf36c75",
-      "title": "Implementing a clear room Z80 / ZX Spectrum emulator with Claude Code",
-      "sourceName": "Salvatore Sanfilippo (antirez)",
-      "url": "http://antirez.com/news/160",
-      "publishedAt": "2026-02-24T17:58:02Z",
-      "summary": "Anthropic recently released a blog post with the description of an experiment in which the last version of Opus, the 4.6, was instructed to write a C compiler in Rust, in a “clean room” setup. The experiment methodology left me dubious about the kind of point they wanted to make. Why not provide the agent with the ISA documentation? Why Rust? Writing a C compiler is exactly a giant graph manipulat",
-      "imageURL": null
-    },
-    {
-      "id": "99fe81ac12f4beb45b38",
-      "title": "Getting Global Age Assurance Right: What We Got Wrong and What's Changing",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/getting-global-age-assurance-right-what-we-got-wrong-and-whats-changing",
-      "publishedAt": "2026-02-24T00:00:00Z",
-      "summary": "Discord's CTO addresses community concerns about age assurance: no mass ID collection, new vendor transparency commitments, and a delayed global launch until second half of 2026.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67d0c4e0932bb59c7f6271e5_2024_10_DiscordBlog_UsingDiscord-1.png"
-    },
-    {
-      "id": "a2ec1f0db9529c3cd3b7",
-      "title": "We have pgvector at home",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-02-22-we-have-pgvector-at-home.html",
-      "publishedAt": "2026-02-22T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "edbffd3647937f4cb6de",
-      "title": "First I wrote the wrong book, then I wrote the right book (xpost)",
-      "sourceName": "Charity Majors",
-      "url": "https://charity.wtf/?p=10344",
-      "publishedAt": "2026-02-19T03:35:45Z",
-      "summary": "I’m not sure whether to say “thank you” or “HOW COULD YOU DO THIS TO ME”, but this one goes out to all the people who sent me advice on buying software last fall. This is the second in a two-part episode. The first part ended on a ✨cliffhanger!!!✨ — so if you missed the first episode, catch up here: Martin Fowler told me the second edition should be shorter (it’s twice as long) Charity Majors Six ",
-      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%218RWJ%21%2Cw_140%2Ch_140%2Cc_fill%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep%2Cg_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f4894f1-c0b4-4651-981b-54401808e8e8_1024x768.jpeg?resize=140%2C140&#038;ssl=1"
-    },
-    {
-      "id": "d32747c3141561a6a59e",
-      "title": "Osprey: Open Sourcing our Rule Engine",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/osprey-open-sourcing-our-rule-engine",
-      "publishedAt": "2026-02-19T00:00:00Z",
-      "summary": "Discord uses Osprey to quickly detect and remove new types of harm from putting our customers at risk. Now we’re open-sourcing this tool so others can do the same.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68c465a0050ca83bcc5934ef_image2.png"
-    },
-    {
-      "id": "016d0923d03638153a79",
-      "title": "How to Change Your Theme to Bring Your Vibe to Discord",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/bring-your-vibe-to-discord-with-new-themes-in-nitro",
-      "publishedAt": "2026-02-19T00:00:00Z",
-      "summary": "Add a splash of personality and make Discord pop by changing Discord’s color scheme! Learn how to adjust the look of Discord on both desktop and mobile.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/64121f8765e921a28f9a2b54_Discord%20HQ%20-%202.png"
-    },
-    {
-      "id": "0a636615551d63d81c1e",
-      "title": "Martin Fowler told me the second edition should be shorter (it’s twice as long) (xpost)",
-      "sourceName": "Charity Majors",
-      "url": "https://charity.wtf/?p=10335",
-      "publishedAt": "2026-02-18T02:42:30Z",
-      "summary": "90% new material, a clearer mission, and a rogues gallery of contributors. The second edition of Observability Engineering is almost done. Originally posted here. Last week I got to meet Martin Fowler for the first time in person. This was an exciting moment for me. Martin ranks high on my personal pantheon; he is, so far as I can tell, hardly ever wrong. Martin Fowler, me, and Nathen Harvey, at t",
-      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%218RWJ%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f4894f1-c0b4-4651-981b-54401808e8e8_1024x768.jpeg?resize=600%2C450&#038;ssl=1"
     }
   ]
 }
