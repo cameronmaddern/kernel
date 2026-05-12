@@ -1,6 +1,105 @@
 {
   "articles": [
     {
+      "id": "c277e3e574af9e2a1ff6",
+      "title": "Connecting the dots for accurate AI",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/12/connecting-the-dots-for-accurate-ai/",
+      "publishedAt": "2026-05-12T07:40:00Z",
+      "summary": "At HumanX, Ryan is joined by Philip Rathle, CTO at Neo4j to discuss what knowledge context means for AI agents, how limitations like stale training data make the model-only approach to agents a bad fit for enterprise environments, and how Graph RAG raises the bar for accuracy and reduces context rot by combining vectors with a knowledge graph so agents are more targeted and connected.",
+      "imageURL": null
+    },
+    {
+      "id": "b87a6c0c7354a0dc56c0",
+      "title": "From Preview to Production: TiDB Cloud Dedicated on Microsoft Azure is Now Generally Available",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33491",
+      "publishedAt": "2026-05-11T19:08:45Z",
+      "summary": "Key Takeaways TiDB Cloud Dedicated on Microsoft Azure is Generally Available, with a 99.99% uptime SLA and three-AZ resilience at parity with our AWS and GCP environments. Available today in Japan East and East US 2, with additional Azure regions on request. Purchasable through the Azure Marketplace, with billing against committed Azure spend. For teams standardized on Azure, distributed SQL has b",
+      "imageURL": null
+    },
+    {
+      "id": "e2392c81b5b57a033938",
+      "title": "Choosing between single or multiple organizations in AWS Organizations",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/choosing-between-single-or-multiple-organizations-in-aws-organizations/",
+      "publishedAt": "2026-05-11T18:56:38Z",
+      "summary": "Organizations face critical architectural decisions that can impact their operations for years to come. Recently, I had the opportunity to collaborate with a cloud migration advisor on a question that challenges many enterprises during their cloud adoption journey: Is it better to maintain a single organization or implement multiple organizations? This same question was also asked on re:Post . Thi",
+      "imageURL": null
+    },
+    {
+      "id": "fd38e6bb9325f355de8f",
+      "title": "When the Sensor Starts Thinking: SnortML, Agentic AI, and the Evolving Architecture of Intrusion Detection",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/11/when-the-sensor-starts-thinking-snortml-agentic-ai-and-the-evolving-architecture-of-intrusion-detection/",
+      "publishedAt": "2026-05-11T16:25:54Z",
+      "summary": "Signature-based detection has always known what it was looking for. Machine learning and autonomous agents are changing the question entirely, shifting from \"does this match a known pattern?\" to \"does this actually make sense in context?\"",
+      "imageURL": null
+    },
+    {
+      "id": "c6b15354faff3da759cb",
+      "title": "OAuth 2.0 – Device flow explained for Engineers, especially for Backend Engineers",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/11/oauth-2-0-device-flow-explained-for-engineers-especially-for-backend-engineers/",
+      "publishedAt": "2026-05-11T16:11:05Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "c5a9b612fcb5a9ed7329",
+      "title": "Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23959",
+      "publishedAt": "2026-05-11T16:00:55Z",
+      "summary": "We’re rolling out version 1.1 of Labyrinth, the encrypted storage system and protocol that secures messages and history on Messenger. Labyrinth 1.1 enhances the reliability of end-to-end encrypted backups with a new sub-protocol that helps messages survive the loss of a device, a switched device, and long gaps between sign-ins. Read our updated white paper, “ The Labyrinth Encrypted Message Storag",
+      "imageURL": null
+    },
+    {
+      "id": "1afd2b96b6ca2d9738d3",
+      "title": "Introducing the Heap, the software engineering blog for everyone",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/11/introducing-the-heap-the-software-engineering-blog-for-everyone/",
+      "publishedAt": "2026-05-11T14:03:48Z",
+      "summary": "If you’ve got something you’ve been dying to share with the Stack Overflow community but don’t quite have a place to share it, we've got you.",
+      "imageURL": null
+    },
+    {
+      "id": "39d99a4e46d038f06589",
+      "title": "Compile-Time Map and Compile-Time Mutable Variable with C++26 Reflection",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/11/compile-time-map-and-compile-time-mutable-variable-with-c-26-reflection/",
+      "publishedAt": "2026-05-11T13:55:00Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "553562413e6d1413e5a7",
+      "title": "Five vertical SaaS insights from Sessions 2026",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/vertical-saas-insights-sessions-2026",
+      "publishedAt": "2026-05-11T00:00:00Z",
+      "summary": "At Stripe Sessions and our inaugural SaaS Platform Leaders Summit, vertical SaaS leaders shared how they’re staying differentiated as AI raises the bar for software. The takeaways: why payments and financial services create moats that AI can’t easily replicate, how platforms are moving from AI experimentation to monetization, and why platforms are expected to lead the way on agentic commerce.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6cEmsrSa4sI1LamZFsHMdv/437806562a9b76619e3b2f981e0c6938/Index_image_NEW.png"
+    },
+    {
+      "id": "6b6c4a7de1afeca12cc7",
+      "title": "Nitro Now Comes with Xbox Game Pass and New Benefits. Welcome to Nitro Rewards.",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/nitro-rewards",
+      "publishedAt": "2026-05-11T00:00:00Z",
+      "summary": "As we hit Nitro’s 10-year anniversary, we're launching Nitro Rewards: a brand-new benefits program built with some of the biggest names in gaming. See what’s coming for Nitro members, for no added cost.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69fb944c4e112d34c82f95b7_Blog_Banner.png"
+    },
+    {
+      "id": "88975c5a0328dca72941",
+      "title": "How to Use Nitro: A Beginner’s Guide to Discord’s Premium Subscription",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/beginners-guide-to-nitro",
+      "publishedAt": "2026-05-11T00:00:00Z",
+      "summary": "What’s Discord Nitro all about? What perks does it give, and how can you get it? If you’re looking to expand your Nitro knowledge, you’re in the right place.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a01d7c22acd73032a040029_image2.png"
+    },
+    {
       "id": "4e5b8cdf014eada8a013",
       "title": "Kubernetes v1.36: Moving Volume Group Snapshots to GA",
       "sourceName": "Kubernetes Blog",
@@ -1081,15 +1180,6 @@
       "imageURL": null
     },
     {
-      "id": "f0877e7c8177f1aee53e",
-      "title": "He designed C++ to solve your code problems",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/07/he-designed-c-to-solve-your-code-problems/",
-      "publishedAt": "2026-04-07T07:40:00Z",
-      "summary": "Ryan welcomes Bjarne Stroustrup, designer of C++ and professor at Columbia, to the show to dive into all things C++, from its history to where it's going today.",
-      "imageURL": null
-    },
-    {
       "id": "29928ebb802b52012c3e",
       "title": "How agents, digital wallets, and trust are rewriting checkout",
       "sourceName": "Stripe Blog",
@@ -1153,15 +1243,6 @@
       "imageURL": null
     },
     {
-      "id": "c12b7e4def8e835d469a",
-      "title": "Seizing the means of messenger production",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/03/seizing-the-means-of-messenger-production/",
-      "publishedAt": "2026-04-03T07:40:00Z",
-      "summary": "Ryan sits down with Galen Wolfe-Pauly, CEO of Tlon, to chat about calm computing and how humans can take back ownership of their data and digital world.",
-      "imageURL": null
-    },
-    {
       "id": "cd385e68e33221f34c21",
       "title": "Who contributed to DataFusion 53",
       "sourceName": "Eaton Phil",
@@ -1196,15 +1277,6 @@
       "publishedAt": "2026-04-02T17:00:00Z",
       "summary": "Magic Pocket is the core Dropbox storage system—a custom-built, exabyte-scale blob storage system designed for durability, availability, scale, and efficiency. It holds user content, which means it must be safe, fast, and cost-effective to scale with the company. For Dropbox, storage efficiency really matters. We measure it by looking at how much total disk space we use compared to how much user d",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/magic-pocket-compaction/headers/Infrastructure-Optimizing compaction in Magic Pocket-1440x305-light.png"
-    },
-    {
-      "id": "7cad52b864fed2208c15",
-      "title": "What the AI trust gap means for enterprise SaaS",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/02/what-the-ai-trust-gap-means-for-enterprise-saas/",
-      "publishedAt": "2026-04-02T13:00:00Z",
-      "summary": "Adoption and trust are moving in diametrically opposed directions, and that gap has real implications for organizations deciding how to spend money on software.",
-      "imageURL": null
     },
     {
       "id": "49dd0c04af5326209760",
@@ -1261,15 +1333,6 @@
       "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/03/quic-diagram.png?w=512"
     },
     {
-      "id": "dc1311bacbfd6759bb48",
-      "title": "Meta Adaptive Ranking Model: Bending the Inference Scaling Curve to Serve LLM-Scale Models for Ads",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=23771",
-      "publishedAt": "2026-03-31T16:00:17Z",
-      "summary": "Meta continues to lead the industry in utilizing groundbreaking AI Recommendation Systems (RecSys) to deliver better experiences for people, and better results for advertisers. To reach the next frontier of performance, we are scaling Meta’s Ads Recommender runtime models to LLM-scale & complexity to further a deeper understanding of people’s interests and intent. This increase in scale & complexi",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/03/Meta-Adaptive-Ranking-Model-image-1.png"
-    },
-    {
       "id": "cde09b14b1c72a25c5f7",
       "title": "Agent-driven development in Copilot Applied Science",
       "sourceName": "GitHub Engineering",
@@ -1295,15 +1358,6 @@
       "publishedAt": "2026-03-31T11:00:00Z",
       "summary": "This post is adapted from a talk I gave at [un]prompted , the AI security practitioner conference. Thanks to Gadi Evron for inviting me to speak. You can watch the recorded presentation below or download the slides . Most companies hand out ChatGPT licenses and wait for the productivity numbers to move. We built a system instead. A year ago, about 5% of Trail of Bits was on board with our AI initi",
       "imageURL": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/remedies_hu_467a5bd562219c7f.webp"
-    },
-    {
-      "id": "659f714b65abb62c25fe",
-      "title": "How can you test your code when you don’t know what’s in it?",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/31/how-can-you-test-your-code-when-you-don-t-know-what-s-in-it/",
-      "publishedAt": "2026-03-31T07:40:00Z",
-      "summary": "Ryan hosts SmartBear’s VP of AI and Architecture Fitz Nowlan to explore how we’re moving away from old assumptions about software development, the challenges of testing MCP servers as LLM-driven agents introduce non-determinism that breaks tradition, and how data locality and data construction are becoming more valuable when source code is so easy to generate.",
-      "imageURL": null
     },
     {
       "id": "08e79d29f73eeee86da7",
@@ -1333,15 +1387,6 @@
       "imageURL": null
     },
     {
-      "id": "92b7c3427c009844aa1f",
-      "title": "Prevent agentic identity theft",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/03/27/prevent-agentic-identity-theft/",
-      "publishedAt": "2026-03-27T07:40:00Z",
-      "summary": "Ryan is joined by Nancy Wang, CTO of 1Password, to discuss the security challenges local agents present, how enterprises can create robust governance of credentials through zero-knowledge architecture, and the implications of agent intent and misuse in a world where AI agents are becoming more and more integrated into everyday applications.",
-      "imageURL": null
-    },
-    {
       "id": "14dad629e7f36874f7c7",
       "title": "How Multi-Factor Authentication Helps Keep Your Discord Account Safe",
       "sourceName": "Discord Blog",
@@ -1349,15 +1394,6 @@
       "publishedAt": "2026-03-27T00:00:00Z",
       "summary": "A Discord account is more than just your username and avatar. That’s why it’s important to help keep your account safe and secure by using Multi-Factor Authentication, SMS Backup Authentication & QR Code Login. Learn how to keep your account more secure in the following blog post!",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/61f2eb202125983477455f6e_Discord-2FA-Blog-Header.png"
-    },
-    {
-      "id": "eeb78c85d722ab984c2d",
-      "title": "Four Data Architecture Decisions That Make or Break Agentic Systems",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=32767",
-      "publishedAt": "2026-03-26T20:48:46Z",
-      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways Agentic systems need architectures built for isolation, elasticity, and constant change. Separating compute from storage — and workloads from each other — is critical to scaling reliably. Cost visibility helps teams manage fast-growing agent workl",
-      "imageURL": null
     },
     {
       "id": "cf4b5ae7c5e5644d8fc5",
@@ -1639,15 +1675,6 @@
       "imageURL": "https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/erc4337-figure-1_hu_28689ebdbcaa7f49.webp"
     },
     {
-      "id": "3c75339b4f397f4b6d06",
-      "title": "Analyzing first-party fraud trends: Account, free trial, and refund abuse",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse",
-      "publishedAt": "2026-03-10T00:00:00Z",
-      "summary": "From November 2025 to February 2026, our models detected 6.2x more abusive free trials across the Stripe network. This is part of a broader shift toward first-party fraud, where legitimate users abuse policies by setting up multiple accounts, cycling through free trials, or exploiting refunds.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Q9QOcOKdwnmutUW8UEFOM/0b06bc4a1e35569bf711188f4927e120/fpft-updated-index.png"
-    },
-    {
       "id": "5cd5abfebac4465c6da3",
       "title": "Unfortunately, Sprites Now Speak MCP",
       "sourceName": "Fly.io Blog",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-03-01T09:55:09Z",
       "summary": "Here LLM and coding agents can find: 1. Exhaustive documentation about Redis commands and data types. 2. Patterns commonly used. 3. Configuration hints. 4. Algorithms that can be mounted using Redis commands. https://redis.antirez.com/ Some humans claim this documentation is actually useful for actual people, as well :) I'm posting this to make sure search engines will index it. Comments",
       "imageURL": null
-    },
-    {
-      "id": "6a5656002dd43d178944",
-      "title": "Before You Migrate: Five Surprising Ingress-NGINX Behaviors You Need to Know",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/02/27/ingress-nginx-before-you-migrate/",
-      "publishedAt": "2026-02-27T15:30:00Z",
-      "summary": "As announced November 2025, Kubernetes will retire Ingress-NGINX in March 2026. Despite its widespread usage, Ingress-NGINX is full of surprising defaults and side effects that are probably present in your cluster today. This blog highlights these behaviors so that you can migrate away safely and make a conscious decision about which behaviors to keep. This post also compares Ingress-NGINX with Ga",
-      "imageURL": null
-    },
-    {
-      "id": "8c1ebcdfa26c65c08234",
-      "title": "Digital Transformation at Santander: How Platform Engineering is Revolutionizing Cloud Infrastructure",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/digital-transformation-at-santander-how-platform-engineering-is-revolutionizing-cloud-infrastructure/",
-      "publishedAt": "2026-02-26T17:54:12Z",
-      "summary": "This post is cowritten by Julio Bando from Santander. Santander faced a significant technical challenge in managing an infrastructure that processes billions of daily transactions across more than 200 critical systems. The expansion into diverse financial services, including investment banking, wealth management, insurance, and payment solutions, had created unprecedented technological complexity,",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/01/26/ARCHBLOG-12991.png"
-    },
-    {
-      "id": "1f14c3f7732727256507",
-      "title": "Using LLMs to amplify human labeling and improve Dash search relevance",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/machine-learning/llm-human-labeling-improving-search-relevance-dropbox-dash",
-      "publishedAt": "2026-02-26T17:00:00Z",
-      "summary": "When someone uses Dropbox Dash to search or ask a question, it follows a retrieval-augmented generation (RAG) pattern. This means our AI first retrieves relevant company information and then uses that information to generate responses. To produce those answers, it relies on enterprise search to retrieve company-specific context and then uses that context to ground the response. Rather than respond",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/february/llm-and-human-labeling/headers/Machine Learning-Human Evaluations-1440x305-light.png"
     }
   ]
 }
