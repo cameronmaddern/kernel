@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "id": "5822bde7620d339adc26",
+      "title": "How Braze’s CTO is rethinking engineering for the agentic area",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/13/rethinking-engineering-for-the-agentic-area/",
+      "publishedAt": "2026-05-13T07:40:00Z",
+      "summary": "Jon Hyman, co-founder and CTO of Braze, shares how he's led the company's engineering organization over nearly 15 years of growth — and how they transformed into an AI-first team in just a few months.",
+      "imageURL": null
+    },
+    {
+      "id": "5387bd750c814db9d33a",
+      "title": "Docker AI Governance: Unlock Agent Autonomy, Safely",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=89531",
+      "publishedAt": "2026-05-12T18:00:09Z",
+      "summary": "Introducing Docker AI Governance: centralized control over how agents execute, what they can reach on the network, which credentials they can use, and which MCP tools they can call, so every developer in your company can run AI agents safely, wherever they work. Your laptop is the new prod Agents are the biggest productivity unlock the modern workplace has seen in a generation, and engineering is ",
+      "imageURL": null
+    },
+    {
+      "id": "ff9e55be4158f23edef4",
+      "title": "You Shipped It Fast. But Did You Ship It Right?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/",
+      "publishedAt": "2026-05-12T16:41:40Z",
+      "summary": "Why AI-accelerated teams keep breaking production — and what the ones that don't are doing differently",
+      "imageURL": null
+    },
+    {
+      "id": "39483f9c1077b167ee12",
+      "title": "Building a Google Drive Sync Engine that Survives MV3 Service Workers",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/12/building-a-google-drive-sync-engine-that-survives-mv3-service-workers/",
+      "publishedAt": "2026-05-12T16:20:21Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "a2432d3283ba495c80cc",
+      "title": "Migrating Data Ingestion Systems at Meta Scale",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23963",
+      "publishedAt": "2026-05-12T16:00:57Z",
+      "summary": "Meta’s data ingestion system, which our engineering teams leverage for up-to-date snapshots of the social graph, has recently undergone a significant revamp to enhance its reliability at scale. Moving from our legacy system to our new architecture required a large-scale migration of our entire data ingestion system. We’re sharing the solutions and strategies that enabled a successful large-scale s",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/05/Migrating-Data-Ingestion-Systems-at-Meta-Scale-image-1-e1778517437665.png"
+    },
+    {
+      "id": "28a635654a2c1ee8e2d0",
+      "title": "Building hybrid multi-tenant architecture for stateful services on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/building-hybrid-multi-tenant-architecture-for-stateful-services-on-aws/",
+      "publishedAt": "2026-05-12T13:26:49Z",
+      "summary": "Running a large-scale ad-serving infrastructure presents unique challenges when balancing tenant isolation with operational efficiency. Our infrastructure handles millions of requests per second and generates billions of dollars in annual advertising revenue, serving ads across multiple properties and systems. The cellular architecture problem Earlier, we had a cellular architecture where we alloc",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/30/image-hybrid-mt1.png"
+    },
+    {
+      "id": "e5d8f4a8f909c8cf7289",
+      "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/quic-death-spiral-fix/",
+      "publishedAt": "2026-05-12T13:00:00Z",
+      "summary": "CUBIC, standardized in RFC 9438 , is the default congestion controller in Linux, and as a result governs how most TCP and QUIC connections on the public Internet probe for available bandwidth, back off when they detect loss, and recover afterward. At Cloudflare, our open-source implementation of QUIC, quiche , uses CUBIC as its default congestion controller, meaning this code is in the critical pa",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2f9eyD4uXGCNm7Ni7yHhLB/55f2b686d474173dca610fa74796299d/BLOG-3273_image5.png"
+    },
+    {
+      "id": "434771092434556ce6d4",
+      "title": "Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./",
+      "publishedAt": "2026-05-12T11:00:00Z",
+      "summary": "Go’s native fuzzing is useful, but it stands far behind state-of-the-art tooling that the Rust, C, and C++ ecosystems offer with LibAFL and AFL++. Path constraints are hard to solve. Structured inputs usually need handmade parsing. It doesn’t even detect several common bug classes, such as integer overflows, goroutine leaks, data races, and execution timeouts. So to make it better, we built gosent",
+      "imageURL": null
+    },
+    {
       "id": "c277e3e574af9e2a1ff6",
       "title": "Connecting the dots for accurate AI",
       "sourceName": "Stack Overflow Blog",
@@ -78,7 +150,7 @@
       "sourceName": "Stripe Blog",
       "url": "https://stripe.com/blog/vertical-saas-insights-sessions-2026",
       "publishedAt": "2026-05-11T00:00:00Z",
-      "summary": "At Stripe Sessions and our inaugural SaaS Platform Leaders Summit, vertical SaaS leaders shared how they’re staying differentiated as AI raises the bar for software. The takeaways: why payments and financial services create moats that AI can’t easily replicate, how platforms are moving from AI experimentation to monetization, and why platforms are expected to lead the way on agentic commerce.",
+      "summary": "AI is forcing platforms to expand beyond pure software. See how vertical SaaS platforms are using payments, financial services, and agentic commerce to build more durable businesses.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6cEmsrSa4sI1LamZFsHMdv/437806562a9b76619e3b2f981e0c6938/Index_image_NEW.png"
     },
     {
@@ -892,15 +964,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3i0DbxnemIuOa0tSlgeHul/762f6315b90436796a458d98270eccc5/BLOG-3236_2.png"
     },
     {
-      "id": "e9e1069c51afffc1cb78",
-      "title": "Introducing Flagship: feature flags built for the age of AI",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/flagship/",
-      "publishedAt": "2026-04-17T13:00:00Z",
-      "summary": "AI is writing more code than ever. AI-assisted contributions now account for a rapidly growing share of new code across the platform. Agentic coding tools like OpenCode and Claude Code are shipping entire features in minutes. AI-generated code entering production is only going to accelerate. But the bigger shift isn't just speed — it's autonomy. Today, an AI agent writes code and a human reviews, ",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1nKDxB6OkUr1fpVKGWEugC/8fc4dbf0bd1ec45e30010a223982487e/image2.png"
-    },
-    {
       "id": "2510c61125589be8440e",
       "title": "We beat Google’s zero-knowledge proof of quantum cryptanalysis",
       "sourceName": "Trail of Bits",
@@ -1036,15 +1099,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*HQamSc0jqVwGvn_MxoY8kg.png"
     },
     {
-      "id": "cfdc717dcb910a9be398",
-      "title": "Who needs VCs when you have friends like these?",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/14/who-needs-vcs-when-you-have-friends-like-these/",
-      "publishedAt": "2026-04-14T07:40:00Z",
-      "summary": "Ryan welcomes Runpod co-founder and CEO Zhen Lu to discuss circumventing VC money by going straight to your community for funding, how Zhen balances founder intuition with user feedback when the community is the one backing the project, and Runpod’s journey from basement servers to global infrastructure partnerships with a software-layer approach and data-first paradigm.",
-      "imageURL": null
-    },
-    {
       "id": "14426ae98818ce508564",
       "title": "Managing context in long-run agentic applications",
       "sourceName": "Slack Engineering",
@@ -1063,22 +1117,13 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/03/image17.png"
     },
     {
-      "id": "499701560d82e6984f53",
-      "title": "The messy truth of your AI strategies",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/10/the-messy-truth-of-your-ai-strategies/",
-      "publishedAt": "2026-04-10T07:40:00Z",
-      "summary": "Ryan welcomes Hema Raghavan, co-founder and head of engineering at Kumo.ai, to dive into all the messy stuff that comes with implementing AI, from pipeline sprawl to shadow AI.",
-      "imageURL": null
-    },
-    {
       "id": "a3923cdec75cf25a4056",
       "title": "S3 is the New Network: Rethinking Data Architecture for AI Agents",
       "sourceName": "PingCAP / TiDB",
       "url": "https://www.pingcap.com/?p=32939",
       "publishedAt": "2026-04-09T18:52:49Z",
       "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways S3’s durability and global availability remove the need to co-locate data with compute. Decoupled storage enables ephemeral clusters, event-driven workflows, and automatic tiering. TiDB X uses S3 as its shared backend for independent scaling and f",
-      "imageURL": "https://static.pingcap.com/files/2026/04/10111323/image.png"
+      "imageURL": "https://static.pingcap.com/files/2026/04/10111323/image-1024x565.png"
     },
     {
       "id": "71f8fbe148585e45db34",
@@ -1088,15 +1133,6 @@
       "publishedAt": "2026-04-09T16:00:34Z",
       "summary": "At Meta, WebRTC powers real-time audio and video across various platforms. But forking a large open-source project like WebRTC within our monorepo presents unique challenges – over time, an internal fork can drift behind upstream, cutting itself off from community upgrades. We’re sharing how we escaped this “forking trap” – from building a dual-stack architecture that enabled safe A/B testing acro",
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/Meta-WebRTC-escaping-the-fork-image-1.png?w=916"
-    },
-    {
-      "id": "afd8b05857e20220495e",
-      "title": "Gen Z needs a knowledge base (and so do you)",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/09/gen-z-needs-a-knowledge-base-and-so-do-you/",
-      "publishedAt": "2026-04-09T16:00:00Z",
-      "summary": "AI tool use is inescapable...especially if you're a young person trying to get an edge in an increasingly difficult job market. But cognitive offloading is dangerous, no matter what age you are. Building a knowledge base can save your brain and skills from atrophy.",
-      "imageURL": null
     },
     {
       "id": "66730a32f7efea941ac1",
@@ -1132,15 +1168,6 @@
       "url": "https://engineering.fb.com/?p=23871",
       "publishedAt": "2026-04-08T18:25:26Z",
       "summary": "As AI increases developer speed and productivity it also increases the need for safeguards. On this episode of the Meta Tech Podcast, Pascal Hartig sits down with Ishwari and Joe from Meta’s Configurations team to discuss how Meta makes config rollouts safe at scale. Listen in to learn about canarying and progressive rollouts, the health checks and monitoring signals used to catch regressions earl",
-      "imageURL": null
-    },
-    {
-      "id": "4c7775e2b716b3dbe378",
-      "title": "Reclaim Developer Hours through Smarter Vulnerability Prioritization with Docker and Mend.io",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88539",
-      "publishedAt": "2026-04-08T18:23:51Z",
-      "summary": "We recently announced the integration between Mend.io and Docker Hardened Images (DHI) provides a seamless framework for managing container security. By automatically distinguishing between base image vulnerabilities and application-layer risks, it uses VEX statements to differentiate between exploitable vulnerabilities and non-exploitable vulnerabilities, allowing your team to prioritize what rea",
       "imageURL": null
     },
     {
@@ -1250,15 +1277,6 @@
       "publishedAt": "2026-04-03T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
-    },
-    {
-      "id": "ede5ba83447afaee9e51",
-      "title": "KernelEvolve: How Meta’s Ranking Engineer Agent Optimizes AI Infrastructure",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=23820",
-      "publishedAt": "2026-04-02T19:59:46Z",
-      "summary": "This is the second post in the Ranking Engineer Agent blog series exploring the autonomous AI capabilities accelerating Meta’s Ads Ranking innovation. The previous post introduced Ranking Engineer Agent’s ML exploration capability , which autonomously designs, executes, and analyzes ranking model experiments. This post covers how to optimize the low-level infrastructure that makes those models run",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/Meta-KernalEvolve-REA-image1.png"
     },
     {
       "id": "d67a0b747bb159f0f8a8",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-03-03T01:06:47Z",
       "summary": "My (hypothetical) SRECon26 keynote One year ago, Fred Hebert and I delivered the closing keynote at SRECon25. Looking back on it now, I can hardly connect with how I felt then. Here’s what I’d say one year later. Crossposted from here. Hey, it’s almost time for SRECon 2026 ! (I can’t go, but YOU really should!) Which means it was almost a year ago that Fred Hebert and I were up on stage, deliverin",
       "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%216A3s%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb8458b4-f5fe-4e53-a5a7-94cbe057e946_467x374.jpeg?w=375&#038;ssl=1"
-    },
-    {
-      "id": "b25389c1cfddc0beb630",
-      "title": "Source-available projects and their AI contribution policies",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-03-02-source-available-projects-and-their-ai-contribution-policies.html",
-      "publishedAt": "2026-03-02T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "b86d2fa612e045c9d892",
-      "title": "Redis patterns for coding",
-      "sourceName": "Salvatore Sanfilippo (antirez)",
-      "url": "http://antirez.com/news/161",
-      "publishedAt": "2026-03-01T09:55:09Z",
-      "summary": "Here LLM and coding agents can find: 1. Exhaustive documentation about Redis commands and data types. 2. Patterns commonly used. 3. Configuration hints. 4. Algorithms that can be mounted using Redis commands. https://redis.antirez.com/ Some humans claim this documentation is actually useful for actual people, as well :) I'm posting this to make sure search engines will index it. Comments",
-      "imageURL": null
     }
   ]
 }
