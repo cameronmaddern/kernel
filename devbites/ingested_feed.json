@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "fc1b25833add771e6edd",
+      "title": "Kubernetes v1.36: Advancing Workload-Aware Scheduling",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/13/kubernetes-v1-36-advancing-workload-aware-scheduling/",
+      "publishedAt": "2026-05-13T18:35:00Z",
+      "summary": "AI/ML and batch workloads introduce unique scheduling challenges that go beyond simple Pod-by-Pod scheduling. In Kubernetes v1.35, we introduced the first tranche of workload-aware scheduling improvements, featuring the foundational Workload API alongside basic gang scheduling support built on a Pod-based framework, and an opportunistic batching feature to efficiently process identical Pods. Kuber",
+      "imageURL": null
+    },
+    {
+      "id": "66cd8401f96b63f34ddd",
+      "title": "Viaduct 1.0 and the future of Airbnb’s data mesh",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/6bab4ec98b89",
+      "publishedAt": "2026-05-13T17:01:01Z",
+      "summary": "Moving from an internal tool to a community-driven, production-ready data mesh. By : Ryan Tanner , Raymie Stata , Adam Miskiewicz Introduction We’re excited to announce the 1.0 release of the Viaduct. This release marks a shift from Viaduct being an Airbnb-internal tool that happens to be open source to a true community-driven project with a stable public API. The 1.0 release includes substantial ",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*uxoiyQybKqmOHm_AdF1kVg.jpeg"
+    },
+    {
+      "id": "bc877532dc119e7127b0",
+      "title": "Streaming CloudWatch metrics to VPC-based OpenTelemetry collectors using Lambda",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/streaming-cloudwatch-metrics-to-vpc-based-opentelemetry-collectors-using-lambda/",
+      "publishedAt": "2026-05-13T15:45:50Z",
+      "summary": "Organizations are increasingly drawn to open-source observability frameworks like OpenTelemetry. They seek to reduce costs associated with third-party licensing and avoid vendor lock-in. Combining OpenTelemetry collectors with Amazon CloudWatch Metric Streams helps enterprises pursue their observability goals while eliminating third-party licensing fees and achieving sub-minute latency for real-ti",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/27/ARCH-1325-image-1.png"
+    },
+    {
+      "id": "9eee6376dc91363f8b72",
+      "title": "Reel Friends: Building Social Discovery that Scales to Billions",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23982",
+      "publishedAt": "2026-05-13T13:00:44Z",
+      "summary": "On its face the new Friend Bubbles feature looks simple enough. It highlights Reels your friends have watched and reacted to. But sometimes the features that seem the most straightforward require the deepest engineering work. On this episode of the Meta Tech Podcast, Pascal Hartig chats with Subasree and Joseph, two software engineers from the Facebook Reels team, about what it took to bring Frien",
+      "imageURL": null
+    },
+    {
+      "id": "69b349e4be20bb37eedf",
+      "title": "Browser Run: now running on Cloudflare Containers, it’s faster and more scalable",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/browser-run-containers/",
+      "publishedAt": "2026-05-13T13:00:00Z",
+      "summary": "We’ve enabled higher usage limits, faster performance, and better reliability for Browser Run by rebuilding on top of Cloudflare’s Containers . You can now spin up 60 browsers per minute via the Workers binding and run up to 120 concurrently — 4x the previous limit. Also, Quick Action response times dropped more than 50%. You don't need to change anything: these improvements are live today. On top",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3eIJK055QLIl3ay12TIhfQ/9d988169efadb16cb5b18b539b62aa55/image3.png"
+    },
+    {
+      "id": "2179fc1abf91cbd87f84",
+      "title": "NIST Narrows the NVD: What Container Security Programs Should Reassess",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=88996",
+      "publishedAt": "2026-05-13T10:38:28Z",
+      "summary": "On April 15, NIST announced a prioritized enrichment model for the National Vulnerability Database. Most CVEs will still be published, but fewer will receive the CVSS scores, CPE mappings, and CWE classifications that container scanners and compliance programs have historically relied on. The change formalizes a drift that has been visible to anyone pulling NVD feeds for the past two years. What s",
+      "imageURL": null
+    },
+    {
       "id": "5822bde7620d339adc26",
       "title": "How Braze’s CTO is rethinking engineering for the agentic area",
       "sourceName": "Stack Overflow Blog",
@@ -8,6 +62,24 @@
       "publishedAt": "2026-05-13T07:40:00Z",
       "summary": "Jon Hyman, co-founder and CTO of Braze, shares how he's led the company's engineering organization over nearly 15 years of growth — and how they transformed into an AI-first team in just a few months.",
       "imageURL": null
+    },
+    {
+      "id": "7d69aeb135ab006fbdd1",
+      "title": "Celebrate Discord’s 11th Birthday with an Exclusive Set of Emoji and Wallpapers",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/celebrate-discords-11th-birthday-with-an-exclusive-set-of-emoji-and-wallpapers",
+      "publishedAt": "2026-05-13T00:00:00Z",
+      "summary": "Discord is turning 11 this year! To celebrate, we made over twenty Discord-themed emojis, along with over twenty wallpapers, and even a digital poster for everyone to download, for free!",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a03ba0af460a93816fbc072_Birthday%20Blog%20Header.jpg"
+    },
+    {
+      "id": "659ee31b6243a7ad424e",
+      "title": "Kubernetes v1.36: PSI Metrics for Kubernetes Graduates to GA",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/12/kubernetes-v1-36-psi-metrics-ga/",
+      "publishedAt": "2026-05-12T18:35:00Z",
+      "summary": "Since its original implementation in the Linux kernel in 2018, Pressure Stall Information (PSI) has provided users with the high-fidelity signals needed to identify resource saturation before it becomes an outage. Unlike traditional utilization metrics, PSI tells the story of tasks stalled and time lost, all in nicely-packaged percentages of time across the CPU, memory, and I/O. With the recent re",
+      "imageURL": "https://kubernetes.io/images/kubeletPSI_kubelet_cpu_usage_rate_graph.png"
     },
     {
       "id": "5387bd750c814db9d33a",
@@ -955,15 +1027,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1Cjj8uXbZRCrQVAxirTo7y/d62b5b798990540e78825747ff24afec/image3.png"
     },
     {
-      "id": "721871c943f65b943aa0",
-      "title": "Agents Week: network performance update",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/network-performance-agents-week/",
-      "publishedAt": "2026-04-17T13:00:00Z",
-      "summary": "When it comes to the Internet, performance is everything. Every millisecond shaved off a connection is a better experience for the real people using the applications and websites you build. That's why, at Cloudflare, we measure our performance constantly and share updates on a regular basis. In our last performance post , published during Birthday Week 2025, we shared that Cloudflare was the faste",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3i0DbxnemIuOa0tSlgeHul/762f6315b90436796a458d98270eccc5/BLOG-3236_2.png"
-    },
-    {
       "id": "2510c61125589be8440e",
       "title": "We beat Google’s zero-knowledge proof of quantum cryptanalysis",
       "sourceName": "Trail of Bits",
@@ -1108,15 +1171,6 @@
       "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/03/pydantic_ai_agentic_loop.png?w=842"
     },
     {
-      "id": "db178cf3fcac51aa2a18",
-      "title": "How to Analyze Hugging Face for Arm64 Readiness",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88350",
-      "publishedAt": "2026-04-13T15:59:37Z",
-      "summary": "This post is a collaboration between Docker and Arm, demonstrating how Docker MCP Toolkit and the Arm MCP Server work together to scan Hugging Face Spaces for Arm64 Readiness. In our previous post , we walked through migrating a legacy C++ application with AVX2 intrinsics to Arm64 using Docker MCP Toolkit and the Arm MCP Server – code conversion, SIMD intrinsic rewrites, compiler flag changes, the",
-      "imageURL": "https://www.docker.com/app/uploads/2026/03/image17.png"
-    },
-    {
       "id": "a3923cdec75cf25a4056",
       "title": "S3 is the New Network: Rethinking Data Architecture for AI Agents",
       "sourceName": "PingCAP / TiDB",
@@ -1232,15 +1286,6 @@
       "publishedAt": "2026-04-06T21:14:13Z",
       "summary": "Amazon SageMaker HyperPod offers an end-to-end experience supporting the full lifecycle of AI development—from interactive experimentation and training to inference and post-training workflows. The SageMaker HyperPod Inference Operator is a Kubernetes controller that manages the deployment and lifecycle of models on HyperPod clusters, offering flexible deployment interfaces (kubectl, Python SDK, S",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/31/ARCHBLOG-1389-1.png"
-    },
-    {
-      "id": "e12bd0f788d1a13353e0",
-      "title": "How Meta Used AI to Map Tribal Knowledge in Large-Scale Data Pipelines",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=23840",
-      "publishedAt": "2026-04-06T16:00:50Z",
-      "summary": "AI coding assistants are powerful but only as good as their understanding of your codebase. When we pointed AI agents at one of Meta’s large-scale data processing pipelines – spanning four repositories, three languages, and over 4,100 files – we quickly found that they weren’t making useful edits quickly enough. We fixed this by building a pre-compute engine: a swarm of 50+ specialized AI agents t",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/AI-Pre-Compute-Engine.png"
     },
     {
       "id": "495966aeccfaea03f1a2",
@@ -1754,51 +1799,6 @@
       "publishedAt": "2026-03-06T00:00:00Z",
       "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
-    },
-    {
-      "id": "3c10f966f99cefef395e",
-      "title": "It wasn’t a culture problem: Upleveling alert development at Airbnb",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/01e2290eb0f5",
-      "publishedAt": "2026-03-04T18:01:02Z",
-      "summary": "How we changed our Observability as Code alert review process and cut development cycles from weeks to minutes. Observability as Code (OaC) — defining alerts, dashboards, and SLOs via code rather than UI — is table stakes for large engineering organizations. With OaC, observability adopts software development’s version control, code review, and testing processes, achieving the same level of discip",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Cy9Y4YIsQLRhjl15rMGqkQ.jpeg"
-    },
-    {
-      "id": "219b5a5bc14cf30cd7fa",
-      "title": "Tracing Discord's Elixir Systems (Without Melting Everything)",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/tracing-discords-elixir-systems-without-melting-everything",
-      "publishedAt": "2026-03-04T00:00:00Z",
-      "summary": "Join Senior Software Engineer Nick Krichevsky as he explains how Discord added distributed tracing to Elixir's message passing and optimized it to handle millions of concurrent users.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69a86c2c6af0e7ddd8398c2f_2024_10_DiscordBlog_Safety-2.png"
-    },
-    {
-      "id": "5ce85cb1030ff9429cd9",
-      "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=94225",
-      "publishedAt": "2026-03-03T18:45:09Z",
-      "summary": "So much of what you interact with on GitHub depends on search—obviously the search bars and filtering experiences like the GitHub Issues page, but it is also the core of the releases page, projects page, the counts for issues and pull requests, and more. Given that search is such a core part of the GitHub platform, we’ve spent the last year making it even more durable. That means, less time spent ",
-      "imageURL": "https://github.blog/wp-content/uploads/2026/03/CCR.png?resize=1280%2C720"
-    },
-    {
-      "id": "15de23c7f77184856b9f",
-      "title": "The Hidden Price Tag: Uncovering Hidden Costs in Cloud Architectures with the AWS Well-Architected Framework",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/the-hidden-price-tag-uncovering-hidden-costs-in-cloud-architectures-with-the-aws-well-architected-framework/",
-      "publishedAt": "2026-03-03T16:08:00Z",
-      "summary": "AWS and cloud computing changed how businesses operate. Organizations now store, process, and manage data in the cloud at scale while treating compute resources as a utility. Cloud architecture requires weighing trade-offs to find solutions that fit your specific requirements. Failing to follow best practices in cloud architecture design can lead to undesirable results and hidden costs, such as th",
-      "imageURL": null
-    },
-    {
-      "id": "8b961bafdedfca4c3f53",
-      "title": "My (hypothetical) SRECon26 keynote (xpost)",
-      "sourceName": "Charity Majors",
-      "url": "https://charity.wtf/?p=10365",
-      "publishedAt": "2026-03-03T01:06:47Z",
-      "summary": "My (hypothetical) SRECon26 keynote One year ago, Fred Hebert and I delivered the closing keynote at SRECon25. Looking back on it now, I can hardly connect with how I felt then. Here’s what I’d say one year later. Crossposted from here. Hey, it’s almost time for SRECon 2026 ! (I can’t go, but YOU really should!) Which means it was almost a year ago that Fred Hebert and I were up on stage, deliverin",
-      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%216A3s%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb8458b4-f5fe-4e53-a5a7-94cbe057e946_467x374.jpeg?w=375&#038;ssl=1"
     }
   ]
 }
