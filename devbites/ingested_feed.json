@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "9663f11343c739e6c33d",
+      "title": "Observability and human intuition in an AI world",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/15/observability-and-human-intuition-in-an-ai-world/",
+      "publishedAt": "2026-05-15T07:40:00Z",
+      "summary": "In this two for one episode recorded at HumanX, Ryan is first joined by Christine Yen, CEO of Honeycomb, to discuss how AI compresses the software development lifecycle, making observability about capturing the right telemetry. Then, Spiros Xanthos, founder and CEO of Resolve AI, shares with us how AI coding increases code volume but decreases human intuition, making production operations harder t",
+      "imageURL": null
+    },
+    {
+      "id": "13646c50bd6fb95dcc47",
+      "title": "A few words on DS4",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/165",
+      "publishedAt": "2026-05-14T22:22:45Z",
+      "summary": "I didn’t expect DwarfStar 4 (https://github.com/antirez/ds4) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few things happened together: the release of a quasi-frontier model that is large and fast enough to change the game of local inference, and the fact that it works extremely well with an extremely asymmetri",
+      "imageURL": null
+    },
+    {
+      "id": "a6fe0d0f5229e3ee0612",
+      "title": "The True Cost of Database Optimization: Engineering Time",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/the-true-cost-of-database-optimization-engineering-time",
+      "publishedAt": "2026-05-14T20:36:27Z",
+      "summary": "\"We can fix the performance issue with better indexes, smarter partitioning, and some vacuum tuning. It's cheaper than switching.\" You've heard this sentence. You may have said this sentence. The optimization wasn't cheap. It just felt like it was. \"Cheaper than what\" is the question nobody asks. The optimization doesn't show up on an invoice. It costs engineering time. And engineering time has a ",
+      "imageURL": null
+    },
+    {
+      "id": "dedcac98a1f35cb19988",
+      "title": "Kubernetes v1.36: Deprecation and removal of Service ExternalIPs",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-of-service-externalips/",
+      "publishedAt": "2026-05-14T18:35:00Z",
+      "summary": "The .spec.externalIPs field for Service was an early attempt to provide cloud-load-balancer-like functionality for non-cloud clusters. Unfortunately, the API assumes that every user in the cluster is fully trusted, and in any situation where that is not the case, it enables various security exploits, as described in CVE-2020-8554 . Since Kubernetes 1.21, the Kubernetes project has recommended that",
+      "imageURL": null
+    },
+    {
+      "id": "5dd1aedbd05e32bf9d5e",
+      "title": "From latency to instant: Modernizing GitHub Issues navigation performance",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=96052",
+      "publishedAt": "2026-05-14T16:00:00Z",
+      "summary": "When you’re working through a backlog—opening an issue, jumping to a linked thread, then back to the list—latency isn’t just a metric. It’s a context switch. Even small delays add up, and they hit hardest at the exact moments developers are trying to stay in flow. It’s not that GitHub Issues was “slow” in isolation; it’s that too many navigations still paid the cost of redundant data fetching, bre",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/05/trafficDistro.png?resize=1024%2C336"
+    },
+    {
+      "id": "b84df364a0e52a94e035",
+      "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
+      "publishedAt": "2026-05-14T13:00:00Z",
+      "summary": "At Cloudflare, we are heavy users of ClickHouse, an open-source analytical database management system. We redesigned one of our largest ClickHouse tables to add a column to the partitioning key. The change enabled per-tenant retention on a table that serves hundreds of internal teams. The design went through several rounds of revision and review with engineers across multiple teams before we lande",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6d3ywoUP3OE2DCRAJtAgF7/5aa62c5702a923e30889ebf787925ae8/BLOG-3299_image4.png"
+    },
+    {
       "id": "fc1b25833add771e6edd",
       "title": "Kubernetes v1.36: Advancing Workload-Aware Scheduling",
       "sourceName": "Kubernetes Blog",
@@ -259,15 +313,6 @@
       "url": "https://stackoverflow.blog/2026/05/08/no-dumb-questions-mcp/",
       "publishedAt": "2026-05-08T16:00:00Z",
       "summary": "Welcome to No Dumb Questions, a column where our least technical writer asks our technical staff the simple, basic tech questions people are afraid to ask. In this first entry, Stack's Director of Ecosystem Strategy Ben Marconi teaches us the basics of MCP servers and why they matter.",
-      "imageURL": null
-    },
-    {
-      "id": "69340edbfe632bb2e0f8",
-      "title": "How Relational Complexity Crushes Real-Time Dashboards",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/how-relational-complexity-crushes-real-time-dashboards",
-      "publishedAt": "2026-05-08T15:33:00Z",
-      "summary": "When your Shared Buffer Hits cross 100,000 for a simple dashboard refresh, you have hit the wall of relational scaling. A simple query that used to return in 100ms now takes 1.5 seconds. You’ve added indexes and tuned the buffer pool, but the performance gains are fleeting. Your largest tables crossed 500M rows , and the joins that once felt elegant are now a weight dragging down your entire syste",
       "imageURL": null
     },
     {
@@ -649,15 +694,6 @@
       "imageURL": null
     },
     {
-      "id": "04b5d706b731012e92d9",
-      "title": "Everything we announced at Sessions 2026",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
-      "publishedAt": "2026-04-29T00:00:00Z",
-      "summary": "We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png"
-    },
-    {
       "id": "4483fd09e7898dae561d",
       "title": "Giving agents the ability to pay",
       "sourceName": "Stripe Blog",
@@ -665,6 +701,15 @@
       "publishedAt": "2026-04-29T00:00:00Z",
       "summary": "Link’s wallet for agents gives agents programmatic access to Link, including the ability to generate a one-time-use card or Shared Payment Token (SPT) backed by the cards and bank accounts already in your wallet. It’s built on Stripe’s new Issuing for agents.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png"
+    },
+    {
+      "id": "04b5d706b731012e92d9",
+      "title": "Everything we announced at Sessions 2026",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+      "publishedAt": "2026-04-29T00:00:00Z",
+      "summary": "We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png"
     },
     {
       "id": "7d083902e3b043ce0df0",
@@ -1018,15 +1063,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4aOVSF1i241gGUwrPrhLfC/21a4f5984b89e56b1ec637f8dbe3c794/1.png"
     },
     {
-      "id": "3a8ef7e4f05ae128645d",
-      "title": "Agents that remember: introducing Agent Memory",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/introducing-agent-memory/",
-      "publishedAt": "2026-04-17T13:00:00Z",
-      "summary": "As developers build increasingly sophisticated agents on Cloudflare, one of the biggest challenges they face is getting the right information into context at the right time. The quality of results produced by models is directly tied to the quality of context they operate with, but even as context window sizes grow past one million (1M) tokens, context rot remains an unsolved problem. A natural ten",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1Cjj8uXbZRCrQVAxirTo7y/d62b5b798990540e78825747ff24afec/image3.png"
-    },
-    {
       "id": "2510c61125589be8440e",
       "title": "We beat Google’s zero-knowledge proof of quantum cryptanalysis",
       "sourceName": "Trail of Bits",
@@ -1123,15 +1159,6 @@
       "url": "https://stackoverflow.blog/2026/04/15/human-input-needed-take-our-survey-on-ai-agents/",
       "publishedAt": "2026-04-15T14:00:00Z",
       "summary": "Are you still \"human-in-the-loop,\" or have you moved to \"human-on-the-loop,\" overseeing a bot that’s doing the driving?",
-      "imageURL": null
-    },
-    {
-      "id": "9ddd90b6d25310c9d3a2",
-      "title": "Why AI hasn't replaced human expertise—and what that means for your SaaS stack",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/15/why-ai-hasn-t-replaced-human-expertise/",
-      "publishedAt": "2026-04-15T13:00:00Z",
-      "summary": "The most valuable AI tools in your enterprise stack do more than generate answers. They help developers determine which answers to trust.",
       "imageURL": null
     },
     {
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-03-09T18:00:00Z",
       "summary": "The community around Kubernetes includes a number of Special Interest Groups (SIGs) and Working Groups (WGs) facilitating discussions on important topics between interested contributors. Today, we're excited to announce the formation of the AI Gateway Working Group , a new initiative focused on developing standards and best practices for networking infrastructure that supports AI workloads in Kube",
       "imageURL": null
-    },
-    {
-      "id": "196c9beacff88e72bd0d",
-      "title": "Building on the Social Layer of Games: What’s New from GDC 2026",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/building-on-the-social-layer-of-games-whats-new-from-gdc-2026",
-      "publishedAt": "2026-03-09T00:00:00Z",
-      "summary": "At GDC 2026, Discord gives developers more ways to close the gap between connection and play.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69ab2ba75deb42d5757ebfe2_MarvelRivals-AccLinking-hero-BLOG-March-1800x720.png"
-    },
-    {
-      "id": "36595751c2a875183913",
-      "title": "GNU and the AI reimplementations",
-      "sourceName": "Salvatore Sanfilippo (antirez)",
-      "url": "http://antirez.com/news/162",
-      "publishedAt": "2026-03-08T16:08:41Z",
-      "summary": "Those who cannot remember the past are condemned to repeat it. A sentence that I never really liked, and what is happening with AI, about software projects reimplementations, shows all the limits of such an idea. Many people are protesting the fairness of rewriting existing projects using AI. But, a good portion of such people, during the 90s, were already in the field: they followed the final par",
-      "imageURL": null
-    },
-    {
-      "id": "fefbccbab868be968f2d",
-      "title": "Discord Patch Notes: March 6, 2026",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-patch-notes-march-6-2026",
-      "publishedAt": "2026-03-06T00:00:00Z",
-      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     }
   ]
 }
