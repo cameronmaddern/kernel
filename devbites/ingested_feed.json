@@ -1,12 +1,66 @@
 {
   "articles": [
     {
+      "id": "d940fcf74770a77eb800",
+      "title": "Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total/",
+      "publishedAt": "2026-05-15T18:35:00Z",
+      "summary": "This article was originally published with the wrong date. It was later republished, dated the 15th of May 2026. Kubernetes v1.36 introduces a new alpha counter metric route_controller_route_sync_total to the Cloud Controller Manager (CCM) route controller implementation at k8s.io/cloud-provider . This metric increments each time routes are synced with the cloud provider. A/B testing watch-based r",
+      "imageURL": null
+    },
+    {
+      "id": "bb0e2305e7ede039a1cc",
+      "title": "Kubernetes v1.36: Mixed Version Proxy Graduates to Beta",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/",
+      "publishedAt": "2026-05-15T18:00:00Z",
+      "summary": "Back in Kubernetes 1.28, we introduced the Mixed Version Proxy (MVP) as an Alpha feature (under the feature gate UnknownVersionInteroperabilityProxy ) in a previous blog post . The goal was simple but critical: make cluster upgrades safer by ensuring that requests for resources not yet known to an older API server are correctly routed to a newer peer API server, instead of returning an incorrect 4",
+      "imageURL": null
+    },
+    {
+      "id": "ff2c396065a7397e0290",
+      "title": "No Dumb Questions: What is cloud computing and why is everyone doing it?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/15/no-dumb-questions-cloud-computing/",
+      "publishedAt": "2026-05-15T16:00:00Z",
+      "summary": "In this No Dumb Questions, Phoebe is joined by Stack Overflow’s tech lead for the infrastructure team, Josh Zhang, to learn about the cloud, compute, and data centers.",
+      "imageURL": null
+    },
+    {
+      "id": "6d937b1e99680bfd1b95",
+      "title": "Why Giant IN Clauses Slow Down Your App",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/why-giant-in-clauses-slow-down-your-app",
+      "publishedAt": "2026-05-15T14:34:25Z",
+      "summary": "Your indexes are perfect , your CPU is healthy, but your p99 latency is spiking . When you look at the logs, you see a standard IN clause fetching data for a few thousand users. It looks harmless, but for high-growth databases, this single query pattern becomes a significant performance burden. This guide explains how switching to ANY(ARRAY[]) reduces query planning time and prevents your query pl",
+      "imageURL": null
+    },
+    {
+      "id": "697e98906d9b915c25ee",
+      "title": "Custom MCP Catalogs and Profiles: Advancing Enterprise MCP Adoption",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=89593",
+      "publishedAt": "2026-05-15T13:00:00Z",
+      "summary": "We’re excited to announce the general availability of Custom Catalogs and Profiles for managing Model Context Protocol (MCP) servers. These two complementary capabilities fundamentally change how teams package, distribute, and manage AI tooling. Custom MCP Catalogs let organizations curate and distribute approved collections of MCP servers. MCP Profiles enable individual developers to easily build",
+      "imageURL": "https://www.docker.com/app/uploads/2026/05/image5.png"
+    },
+    {
       "id": "9663f11343c739e6c33d",
       "title": "Observability and human intuition in an AI world",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/05/15/observability-and-human-intuition-in-an-ai-world/",
       "publishedAt": "2026-05-15T07:40:00Z",
       "summary": "In this two for one episode recorded at HumanX, Ryan is first joined by Christine Yen, CEO of Honeycomb, to discuss how AI compresses the software development lifecycle, making observability about capturing the right telemetry. Then, Spiros Xanthos, founder and CEO of Resolve AI, shares with us how AI coding increases code volume but decreases human intuition, making production operations harder t",
+      "imageURL": null
+    },
+    {
+      "id": "17dceae0d030b226017a",
+      "title": "Moving away from Tailwind, and learning to structure my CSS",
+      "sourceName": "Julia Evans",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "publishedAt": "2026-05-15T00:00:00Z",
+      "summary": "Hello! 8 years ago, I wrote excitedly about discovering Tailwind . At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites! I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and",
       "imageURL": null
     },
     {
@@ -19,13 +73,13 @@
       "imageURL": null
     },
     {
-      "id": "a6fe0d0f5229e3ee0612",
-      "title": "The True Cost of Database Optimization: Engineering Time",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/the-true-cost-of-database-optimization-engineering-time",
-      "publishedAt": "2026-05-14T20:36:27Z",
-      "summary": "\"We can fix the performance issue with better indexes, smarter partitioning, and some vacuum tuning. It's cheaper than switching.\" You've heard this sentence. You may have said this sentence. The optimization wasn't cheap. It just felt like it was. \"Cheaper than what\" is the question nobody asks. The optimization doesn't show up on an invoice. It costs engineering time. And engineering time has a ",
-      "imageURL": null
+      "id": "a195d86f57063fd204b0",
+      "title": "One Agent, One Sandbox, One Database: Inside the Kimi K2.6 Architecture",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33561",
+      "publishedAt": "2026-05-14T19:35:04Z",
+      "summary": "Key Takeaways Kimi K2.6’s agent website builder runs on TiDB Cloud, supporting millions of agent-created tenants without per-tenant database instances. Per-tenant Postgres (Supabase, Neon) and schema-per-tenant Postgres both failed: One on cost, the other on isolation. Agent data infrastructure is now a four-axis race: Long-tail tenants, mutable schemas, burst absorption, and second-scale create/d",
+      "imageURL": "https://static.pingcap.com/files/2026/05/15113517/image-9.png"
     },
     {
       "id": "dedcac98a1f35cb19988",
@@ -51,7 +105,7 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
       "publishedAt": "2026-05-14T13:00:00Z",
-      "summary": "At Cloudflare, we are heavy users of ClickHouse, an open-source analytical database management system. We redesigned one of our largest ClickHouse tables to add a column to the partitioning key. The change enabled per-tenant retention on a table that serves hundreds of internal teams. The design went through several rounds of revision and review with engineers across multiple teams before we lande",
+      "summary": "At Cloudflare, we are heavy users of ClickHouse, an open source online analytical processing (OLAP) database. Every day, we make millions of calls to ClickHouse to determine how much users should be billed for their usage of Cloudflare products. If we don't finish those jobs in a timely fashion, the invoices become very difficult to reconcile. This pipeline powers hundreds of millions of dollars i",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6d3ywoUP3OE2DCRAJtAgF7/5aa62c5702a923e30889ebf787925ae8/BLOG-3299_image4.png"
     },
     {
@@ -134,6 +188,15 @@
       "publishedAt": "2026-05-12T18:35:00Z",
       "summary": "Since its original implementation in the Linux kernel in 2018, Pressure Stall Information (PSI) has provided users with the high-fidelity signals needed to identify resource saturation before it becomes an outage. Unlike traditional utilization metrics, PSI tells the story of tasks stalled and time lost, all in nicely-packaged percentages of time across the CPU, memory, and I/O. With the recent re",
       "imageURL": "https://kubernetes.io/images/kubeletPSI_kubelet_cpu_usage_rate_graph.png"
+    },
+    {
+      "id": "ffb036b74953dd9c4573",
+      "title": "TiDB SCaiLE Europe 2026: Speaker Lineup and Session Preview",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33526",
+      "publishedAt": "2026-05-12T18:05:37Z",
+      "summary": "Agentic AI changes the database problem. A single user action can trigger many agent steps. However, each agent needs state, memory, transactions, analytics, and retrieval to stay consistent under real production load. That pressure exposes the weak points in stacks built from separate OLTP databases, vector stores, warehouses, and sync pipelines. TiDB SCaiLE Europe 2026 takes on that infrastructu",
+      "imageURL": "https://static.pingcap.com/files/2026/05/14135722/image-1-1024x341.png"
     },
     {
       "id": "5387bd750c814db9d33a",
@@ -1153,30 +1216,12 @@
       "imageURL": null
     },
     {
-      "id": "fed43cb2b22e7bb8ff03",
-      "title": "Human input needed: take our survey on AI agents",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/15/human-input-needed-take-our-survey-on-ai-agents/",
-      "publishedAt": "2026-04-15T14:00:00Z",
-      "summary": "Are you still \"human-in-the-loop,\" or have you moved to \"human-on-the-loop,\" overseeing a bot that’s doing the driving?",
-      "imageURL": null
-    },
-    {
       "id": "bac0b3e4cacacd38339b",
       "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
       "sourceName": "Mitchell Hashimoto",
       "url": "https://mitchellh.com/writing/simdutf-no-libcxx",
       "publishedAt": "2026-04-15T00:00:00Z",
       "summary": null,
-      "imageURL": null
-    },
-    {
-      "id": "3b2ea37354d1c6a1968e",
-      "title": "Why We Chose the Harder Path: Docker Hardened Images, One Year Later",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88726",
-      "publishedAt": "2026-04-14T21:48:03Z",
-      "summary": "We’re coming up on a year since launching Docker Hardened Images (DHI) last May, and crossing a milestone earlier this month made me stop and reflect on what we’ve actually been building. Earlier this month, we crossed over 500k daily pulls of DHIs, and over 25k continuously patched OS level artifacts in our SLSA Build Level 3 pipeline. From the time we launched the free DHI Community tier at the ",
       "imageURL": null
     },
     {
@@ -1196,15 +1241,6 @@
       "publishedAt": "2026-04-13T17:17:16Z",
       "summary": "Excerpt In complex, long-running agentic systems, maintaining alignment and coherent reasoning between agents requires careful design. In this second article of our series, we explore these challenges and the mechanisms we built to keep teams of agents working productively over long time spans. We present a range of complementary techniques that balance the conflicting requirements of continuity a",
       "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/03/pydantic_ai_agentic_loop.png?w=842"
-    },
-    {
-      "id": "a3923cdec75cf25a4056",
-      "title": "S3 is the New Network: Rethinking Data Architecture for AI Agents",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=32939",
-      "publishedAt": "2026-04-09T18:52:49Z",
-      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways S3’s durability and global availability remove the need to co-locate data with compute. Decoupled storage enables ephemeral clusters, event-driven workflows, and automatic tiering. TiDB X uses S3 as its shared backend for independent scaling and f",
-      "imageURL": "https://static.pingcap.com/files/2026/04/10111323/image-1024x565.png"
     },
     {
       "id": "71f8fbe148585e45db34",
@@ -1268,15 +1304,6 @@
       "publishedAt": "2026-04-07T17:01:01Z",
       "summary": "A production-tested approach for moving a large-scale metrics pipeline from StatsD to OpenTelemetry and Prometheus. By: Eugene Ma , Natasha Aleksandrova When migrating to a new monitoring system, you’ll want to frontload the work to collect all your metrics. This exposes bottlenecks at full write scale and unblocks the migration of assets which require real data for validation, such as dashboards ",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Qht9BRRs2R_HZ05CelourQ.jpeg"
-    },
-    {
-      "id": "90521afe80f45e723256",
-      "title": "Reducing P999 Latency in Distributed Databases with TiDB 8.5",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=32819",
-      "publishedAt": "2026-04-07T13:00:46Z",
-      "summary": "Key Takeaways Tail latency — not averages — is what breaks SLOs in distributed OLTP systems. Production clusters saw P999 drop from tens of seconds to sub-100ms after upgrading to TiDB 8.5, with no workload changes. The largest gains came from eliminating rare-but-catastrophic stalls: GC pauses, lock contention, and storage snapshot overhead. TiDB 8.5 optimizes across the full stack by removing un",
-      "imageURL": "https://static.pingcap.com/files/2026/04/01081738/970d1568-3686-42ac-8180-f4d4883954c1.png"
     },
     {
       "id": "3192390f8d2df38e05c1",
@@ -1771,33 +1798,6 @@
       "url": "https://fly.io/blog/unfortunately-mcp/",
       "publishedAt": "2026-03-10T00:00:00Z",
       "summary": "Sprites are disposable cloud computers. They appear instantly, always include durable filesystems, and cost practically nothing when idle. They’re the best and safest place on the Internet to run agents and we want you to create dozens of them . Sprites are a place to run agents; the first thing you should think to do with a new Sprite is to type claude (or gemini or codex ). We’ve put a lot of ef",
-      "imageURL": null
-    },
-    {
-      "id": "ddaa47e92f545a8af021",
-      "title": "Examples for the tcpdump and dig man pages",
-      "sourceName": "Julia Evans",
-      "url": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
-      "publishedAt": "2026-03-10T00:00:00Z",
-      "summary": "Hello! My big takeaway from last month’s musings about man pages was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools’ man pages. Here they are: the dig man page (now with examples) the tcpdump man page examples (this one is an update to the previous examples) the goal: include the most basic examples The goal here was really j",
-      "imageURL": null
-    },
-    {
-      "id": "f5be77fdc72a6694016c",
-      "title": "Your Data is Made Powerful By Context (so stop destroying it already) (xpost)",
-      "sourceName": "Charity Majors",
-      "url": "https://charity.wtf/?p=10380",
-      "publishedAt": "2026-03-09T22:10:14Z",
-      "summary": "Your Data Is Made Powerful By Context (so stop destroying it already) In logs as in life, the relationships are the most important part. AI doesn’t fix this. It makes it worse. ( cross-posted ) After twenty years of devops , most software engineers still treat observability like a fire alarm — something you check when things are already on fire. Not a feedback loop you use to validate every change",
-      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%21OFqQ%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F040c3242-0148-4054-abfc-9351c175650c_800x1058.jpeg?w=487&#038;ssl=1"
-    },
-    {
-      "id": "89336d8008f68163a6c4",
-      "title": "Announcing the AI Gateway Working Group",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/03/09/announcing-ai-gateway-wg/",
-      "publishedAt": "2026-03-09T18:00:00Z",
-      "summary": "The community around Kubernetes includes a number of Special Interest Groups (SIGs) and Working Groups (WGs) facilitating discussions on important topics between interested contributors. Today, we're excited to announce the formation of the AI Gateway Working Group , a new initiative focused on developing standards and best practices for networking infrastructure that supports AI workloads in Kube",
       "imageURL": null
     }
   ]
