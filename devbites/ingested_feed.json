@@ -1,6 +1,87 @@
 {
   "articles": [
     {
+      "id": "ae0f76d5fdacdaf923eb",
+      "title": "Your fridge could be a threat to national security",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/19/your-fridge-could-be-a-threat-to-national-security/",
+      "publishedAt": "2026-05-19T07:40:00Z",
+      "summary": "On the floor of HumanX, Ryan is joined by Adam Meyers, Senior VP of Counter Adversary Operations at Crowdstrike, for a deep dive on their latest Global Threat Report that tracks over 281 adversaries across nation states, e-crime, and hacktivist organizations.",
+      "imageURL": null
+    },
+    {
+      "id": "c955f888c1d78b23fd05",
+      "title": "A new EDIT tool for LLM agents",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/166",
+      "publishedAt": "2026-05-19T07:26:03Z",
+      "summary": "Right now I'm working to an agent for my DS4 project. Local inference is token-poor, it's a battlefield where optimizations count. I was quite surprised by the fact the EDIT tool everybody is using right now forces the LLM to emit the old version of the text verbatim. This CAS (check and set) mode of operation, where I say EDIT old=\"foo\" new=\"bar\" is needed because there are often colliding edits ",
+      "imageURL": null
+    },
+    {
+      "id": "fb3aadaa9ef2fe253f5f",
+      "title": "Interviews Aren’t About You (Sorry)",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/18/interviews-aren-t-about-you-sorry/",
+      "publishedAt": "2026-05-18T16:02:44Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "4048e44805c4882df6f7",
+      "title": "Coding Agent Horror Stories: The Security Crisis Threatening Developer Infrastructure",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=89646",
+      "publishedAt": "2026-05-18T13:00:00Z",
+      "summary": "This is issue 1 of a new series called Coding Agent Horror Stories where we examine critical security failures in the AI coding agent ecosystem and how Docker Sandboxes provide enterprise-grade protection against these threats. AI coding agents are everywhere. According to Anthropic’s 2026 Agentic Coding Trends Report, developers are now using AI in roughly 60% of their work. The report describes ",
+      "imageURL": "https://www.docker.com/app/uploads/2026/05/image2-1.png"
+    },
+    {
+      "id": "582d245f878fd9dd3b8b",
+      "title": "“You can't vibe code scale”: What the AI hype gets wrong about software engineering",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/18/what-the-ai-hype-gets-wrong/",
+      "publishedAt": "2026-05-18T07:40:00Z",
+      "summary": "Because someone still has to own the consequences of what gets built and whether it can function at scale.",
+      "imageURL": null
+    },
+    {
+      "id": "4c9b12981d46eb0accba",
+      "title": "Project Glasswing: what Mythos showed us",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cyber-frontier-models/",
+      "publishedAt": "2026-05-18T06:00:00Z",
+      "summary": "For the last few months, we've been testing a range of security-focused LLMs on our own infrastructure. These LLMs help identify potential vulnerabilities in our own systems, so we can fix them – and they also show us what attackers are going to be able to do with the latest models. None of these LLMs has captured more attention than Mythos Preview, from Anthropic. A few weeks ago, we were invited",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5St6rLRq9wkuxwmLHZ88CV/b4eb948c917ef7f7b0028ccc8ec0aefe/image2.png"
+    },
+    {
+      "id": "60b12a1f76d59ee5975e",
+      "title": "Every Voice and Video Call on Discord Is Now End-to-End Encrypted",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/every-voice-and-video-call-on-discord-is-now-end-to-end-encrypted",
+      "publishedAt": "2026-05-18T00:00:00Z",
+      "summary": "As of March 2026, E2EE is now enforced for every voice and video call on Discord. This represents a multi-year commitment, and Discord’s VP of Engineering is here to talk about why it matters.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a025bd747acaa792ad3ddad_image1.png"
+    },
+    {
+      "id": "375c4bf3ec9ae6471618",
+      "title": "Serving files over HTTP three ways: synchronous, epoll, and io_uring",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-05-18-serving-files-three-ways.html",
+      "publishedAt": "2026-05-18T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
+      "id": "1135e7b343bebaa3ff8c",
+      "title": "What's Easy Now? What's Hard Now?",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/05/18/whats-easy-whats-hard",
+      "publishedAt": "2026-05-18T00:00:00Z",
+      "summary": "What’s Easy Now? What’s Hard Now? This is the fourth in a series about how AI is changing software development, after It’s time to be right. , What about juniors? , and My heuristics are wrong. What now? . It stands alone, but if you found this interesting you may also find those interesting. I’ve been spending a lot of time thinking about the shape of the capabilities of coding agents. What they’",
+      "imageURL": "/blog/images/op_amp_sqrt.png"
+    },
+    {
       "id": "d940fcf74770a77eb800",
       "title": "Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager",
       "sourceName": "Kubernetes Blog",
@@ -991,15 +1072,6 @@
       "imageURL": null
     },
     {
-      "id": "16479ff194125481fd26",
-      "title": "How to get multiple agents to play nice at scale",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/22/how-to-get-multiple-agents-to-play-nice-at-scale/",
-      "publishedAt": "2026-04-22T04:40:00Z",
-      "summary": "Chase Roossin, group engineering manager, and Steven Kulesza, staff software engineer, from Intuit join the podcast to chat about what might be the hardest problem in engineering right now: getting multiple AI agents to work together in a complex system.",
-      "imageURL": null
-    },
-    {
       "id": "1156330cc1d70c82bd4c",
       "title": "Kubernetes v1.36: ハル (Haru)",
       "sourceName": "Kubernetes Blog",
@@ -1052,15 +1124,6 @@
       "publishedAt": "2026-04-21T13:00:00Z",
       "summary": "For us humans to interact with the online world, we need a gateway: keyboard, screen, browser, device. What is called \"human detection\" online are patterns that humans use when interacting with such devices. These patterns have changed in recent years: a startup CEO now uses their browser to summarize the news, a tech enthusiast automates the process to book their concert tickets when sales open a",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/61L0GkCvWVQl8TH2i2iwFp/899b2a1936aa7fbfaab45fca71d319d6/1.png"
-    },
-    {
-      "id": "2ec0e5cb3a13ed8c35b0",
-      "title": "We still need developer communities",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/21/we-still-need-developer-communities/",
-      "publishedAt": "2026-04-21T07:40:00Z",
-      "summary": "Ryan welcomes Mike Swift, co-founder and CEO of Major League Hacking, to the show to chat about the never-ending need for software developer communities and entry points into programming; MLH’s recent acquisition of DEV and how they’re creating a place for shared knowledge, building, and publishing; and why now is the best time to be both an artisan and a builder in a world with AI software develo",
-      "imageURL": null
     },
     {
       "id": "4a44ebc7a820b82dafa0",
@@ -1117,15 +1180,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4zPrHtLf1BbHxQXQHTK1Qs/21a75531129332d749210d67b2c330ad/BLOG-3263_2.png"
     },
     {
-      "id": "94b262becb7ed984af50",
-      "title": "Unweight: how we compressed an LLM 22% without sacrificing quality",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/unweight-tensor-compression/",
-      "publishedAt": "2026-04-17T13:00:00Z",
-      "summary": "Running inference within 50ms of 95% of the world's Internet-connected population means being ruthlessly efficient with GPU memory. Last year we improved memory utilization with Infire , our Rust-based inference engine, and eliminated cold-starts with Omni , our model scheduling platform. Now we are tackling the next big bottleneck in our inference platform: model weights. Generating a single toke",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4aOVSF1i241gGUwrPrhLfC/21a4f5984b89e56b1ec637f8dbe3c794/1.png"
-    },
-    {
       "id": "2510c61125589be8440e",
       "title": "We beat Google’s zero-knowledge proof of quantum cryptanalysis",
       "sourceName": "Trail of Bits",
@@ -1133,24 +1187,6 @@
       "publishedAt": "2026-04-17T11:00:00Z",
       "summary": "Two weeks ago, Google’s Quantum AI group published a zero-knowledge proof of a quantum circuit so optimized, they concluded that first-generation quantum computers will break elliptic curve cryptography keys in as little as 9 minutes. Today, Trail of Bits is publishing our own zero-knowledge proof that significantly improves Google’s on all metrics. Our result is not due to some quantum breakthrou",
       "imageURL": "https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis-image-1_hu_47d2ce2b7e2f854.webp"
-    },
-    {
-      "id": "080a6982e17667127c6c",
-      "title": "No country left behind with sovereign AI",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/17/no-country-left-behind-with-sovereign-ai/",
-      "publishedAt": "2026-04-17T07:40:00Z",
-      "summary": "Ryan welcomes Stephen Watt, distinguished engineer and VP of Red Hat’s Office of the CTO, to chat about digital sovereignty and sovereign AI.",
-      "imageURL": null
-    },
-    {
-      "id": "b7fd6e45e1e3ba71f65c",
-      "title": "Why MicroVMs: The Architecture Behind Docker Sandboxes",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88631",
-      "publishedAt": "2026-04-16T17:14:19Z",
-      "summary": "Last week, we launched Docker Sandboxes with a bold goal: to deliver the strongest agent isolation in the market. This post unpacks that claim, how microVMs enable it, and some of the architectural choices we made in this approach. The Problem With Every Other Approach Every sandboxing model asks you to give something up. We looked at the top four approaches. Full VMs offer strong isolation, but g",
-      "imageURL": "https://www.docker.com/app/uploads/2026/04/Screenshot-2026-04-09-at-3.23.44-PM-2320x1302.png"
     },
     {
       "id": "6f04529aa5fc624dede2",
@@ -1763,42 +1799,6 @@
       "publishedAt": "2026-03-12T00:00:00Z",
       "summary": "A future where we buy with AI agents feels inevitable. Making it actually work is harder. These lessons from the first wave of agentic commerce are meant to help sellers decide what to tackle, avoid common bottlenecks, and get ahead of what’s coming.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3JPDWTTYPpM2YcBISc8vag/7b023bd06d150e886a75df88a73c41d2/Index_preview.png"
-    },
-    {
-      "id": "91799656f5bc02f1bbd1",
-      "title": "You’re Now Discord Official: Developers, Claim Your Game and Verify Your Server",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/claim-your-game",
-      "publishedAt": "2026-03-12T00:00:00Z",
-      "summary": "Developers can now claim and customize their game’s profiles on Discord. Curate your game’s presence on the platform to help people discover more about your game, and get your server verified in the process! Read on to see how it works.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69b0462c05e2cfb5433031ce_game-claiming-blog-1800x720.png"
-    },
-    {
-      "id": "1e127fc811cae8caefd3",
-      "title": "Mojo's not (yet) Python",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-03-12-mojos-not-yet-python.html",
-      "publishedAt": "2026-03-12T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "5cee4143bbd3a30282ad",
-      "title": "Six mistakes in ERC-4337 smart accounts",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/",
-      "publishedAt": "2026-03-11T11:00:00Z",
-      "summary": "Account abstraction transforms fixed “private key can do anything” models into programmable systems that enable batching, recovery and spending limits, and flexible gas payment. But that programmability introduces risks: a single bug can be as catastrophic as leaking a private key. After auditing dozens of ERC‑4337 smart accounts, we’ve identified six vulnerability patterns that frequently appear.",
-      "imageURL": "https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/erc4337-figure-1_hu_28689ebdbcaa7f49.webp"
-    },
-    {
-      "id": "5cd5abfebac4465c6da3",
-      "title": "Unfortunately, Sprites Now Speak MCP",
-      "sourceName": "Fly.io Blog",
-      "url": "https://fly.io/blog/unfortunately-mcp/",
-      "publishedAt": "2026-03-10T00:00:00Z",
-      "summary": "Sprites are disposable cloud computers. They appear instantly, always include durable filesystems, and cost practically nothing when idle. They’re the best and safest place on the Internet to run agents and we want you to create dozens of them . Sprites are a place to run agents; the first thing you should think to do with a new Sprite is to type claude (or gemini or codex ). We’ve put a lot of ef",
-      "imageURL": null
     }
   ]
 }
