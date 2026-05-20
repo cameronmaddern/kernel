@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "f1c9200d7a3392e29263",
+      "title": "Pack your agentic stack in Slack",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/20/pack-your-agentic-stack-in-slack/",
+      "publishedAt": "2026-05-20T04:45:00Z",
+      "summary": "Ryan welcomes Jaime DeLanghe, chief product officer at Slack, to chat about how they’re preparing to integrate everybody’s agents in their chat application.",
+      "imageURL": null
+    },
+    {
+      "id": "0068b5b07dde6b1974da",
+      "title": "Meet Gordon: Docker’s AI Agent For Your Entire Container Workflow",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=89714",
+      "publishedAt": "2026-05-19T19:08:04Z",
+      "summary": "Gordon understands your environment, proposes fixes, and takes action across your entire Docker workflow. Now generally available. Image 1: Gordon in Docker Desktop Why Gordon Exists Developers are more productive than ever. AI coding assistants are writing code, merging PRs and cutting review cycles. But the moment something breaks in a container, or a teammate hands you a service and says “ship ",
+      "imageURL": "https://www.docker.com/app/uploads/2026/05/dd-gordon.png"
+    },
+    {
+      "id": "f6875363a98dde0fe9b7",
+      "title": "Scaling Airbnb’s identity graph with a unified knowledge graph infrastructure",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/ebac467b7836",
+      "publishedAt": "2026-05-19T17:01:01Z",
+      "summary": "How Airbnb shifts from PaaS to an internal knowledge graph infrastructure at scale. By: Lucen Zhao , Shukun Yang , Ashish Jain Knowledge graphs offer a natural and powerful way to represent relationships between entities. Many real-world systems are fundamentally about connections. Airbnb’s identity graph captures relationships between users in a graph database. The identity graph serves aggregate",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Xt7N4e5yNMVkM7bhbKsWhg.jpeg"
+    },
+    {
+      "id": "7369ce763ae6ef14609f",
+      "title": "How ALS GeoAnalytics LITHOLENS ™ revolutionizes core logging through machine learning with Amazon EKS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-als-geoanalytics-litholens-revolutionizes-core-logging-through-machine-learning-with-amazon-eks/",
+      "publishedAt": "2026-05-19T15:09:36Z",
+      "summary": "In the mining industry, accurate geological analysis is required for improving mine design and development. Traditionally, this involved labor-intensive and time-consuming on-site inspections of drill core samples, often conducted in remote and challenging environments. ALS GeoAnalytics has streamlined this process through its LITHOLENS platform, a machine learning (ML)-powered system that uses de",
+      "imageURL": "https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png"
+    },
+    {
+      "id": "aa6db7d484451fc5df86",
+      "title": "How Synthesia optimizes generative AI video inference on Amazon EC2 G7e instances",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-synthesia-optimizes-generative-ai-video-inference-on-amazon-ec2-g7e-instances/",
+      "publishedAt": "2026-05-19T15:06:40Z",
+      "summary": "Synthesia , an enterprise-focused AI video platform, has transformed content creation, helping everyone to create video content without cameras or microphones. To achieve this, Synthesia allows its users to create video avatars that synthesize the likeness and voice of real people. Synthesia achieves this through a series of in-house developed models based on various architectures, including laten",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/05/05/ARCHBLOG-1422-image-1.png"
+    },
+    {
+      "id": "5cbdd3731fa208d622a4",
+      "title": "Announcing Claude Managed Agents on Cloudflare",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/claude-managed-agents/",
+      "publishedAt": "2026-05-19T13:00:00Z",
+      "summary": "Cloudflare and Anthropic have collaborated to integrate Claude Managed Agents with Cloudflare Sandboxes. Our new integration gives you more control over your agent sandboxes, secures connections to private services, and improves observability. In the past year, Cloudflare’s Developer Platform has expanded to give more developers the tools they need to run agents at scale. This includes: Sandboxes ",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6nYyreZYWyaKo6Xf2XjmtM/5cc21576a83e223a2cf67e8ed3fde928/image5.png"
+    },
+    {
       "id": "ae0f76d5fdacdaf923eb",
       "title": "Your fridge could be a threat to national security",
       "sourceName": "Stack Overflow Blog",
@@ -11,11 +65,11 @@
     },
     {
       "id": "c955f888c1d78b23fd05",
-      "title": "A new EDIT tool for LLM agents",
+      "title": "Alternatives for the EDIT tool of LLM agents",
       "sourceName": "Salvatore Sanfilippo (antirez)",
       "url": "http://antirez.com/news/166",
       "publishedAt": "2026-05-19T07:26:03Z",
-      "summary": "Right now I'm working to an agent for my DS4 project. Local inference is token-poor, it's a battlefield where optimizations count. I was quite surprised by the fact the EDIT tool everybody is using right now forces the LLM to emit the old version of the text verbatim. This CAS (check and set) mode of operation, where I say EDIT old=\"foo\" new=\"bar\" is needed because there are often colliding edits ",
+      "summary": "EDIT: of course this was already done in the past! I had little doubts but people just confirmed me about it on Twitter :) But, keep reading: the CRC32 compromise at the end is an interesting tradeoff, and this is a good discussion to have in general. Right now I'm working to an agent for my DS4 project. Local inference is token-poor, it's a battlefield where optimizations count. I was quite surpr",
       "imageURL": null
     },
     {
@@ -132,7 +186,7 @@
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/05/15/observability-and-human-intuition-in-an-ai-world/",
       "publishedAt": "2026-05-15T07:40:00Z",
-      "summary": "In this two for one episode recorded at HumanX, Ryan is first joined by Christine Yen, CEO of Honeycomb, to discuss how AI compresses the software development lifecycle, making observability about capturing the right telemetry. Then, Spiros Xanthos, founder and CEO of Resolve AI, shares with us how AI coding increases code volume but decreases human intuition, making production operations harder t",
+      "summary": "In this two-for-one episode recorded at HumanX, Ryan is first joined by Christine Yen, CEO of Honeycomb, to discuss how AI compresses the software development lifecycle, making observability about capturing the right telemetry. Then, Spiros Xanthos, founder and CEO of Resolve AI, shares with us how AI coding increases code volume but decreases human intuition, making production operations harder t",
       "imageURL": null
     },
     {
@@ -1000,24 +1054,6 @@
       "imageURL": null
     },
     {
-      "id": "5b91c98d47949b25160e",
-      "title": "Trivy, KICS, and the shape of supply chain attacks so far in 2026",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=89131",
-      "publishedAt": "2026-04-23T15:32:00Z",
-      "summary": "Catching the KICS push: what happened, and the case for open, fast collaboration In the past few weeks we’ve worked through two supply chain compromises on Docker Hub with a similar shape: first Trivy, now Checkmarx KICS. In both cases, stolen publisher credentials were used to push malicious images through legitimate publishing flows. In both cases, Docker’s infrastructure was not breached. And i",
-      "imageURL": null
-    },
-    {
-      "id": "4ece3d88e2129d4e63da",
-      "title": "Black box AI drift: AI tools are making design decisions nobody asked for",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/23/black-box-ai-drift-ai-tools-are-making-design-decisions-nobody-asked-for/",
-      "publishedAt": "2026-04-23T14:00:00Z",
-      "summary": "Prompts go in, output comes out, and the decisions made in between are hidden from view.",
-      "imageURL": null
-    },
-    {
       "id": "01adc8bebf940d6d78b6",
       "title": "Modernizing KYC with AWS serverless solutions and agentic AI for financial services",
       "sourceName": "AWS Architecture Blog",
@@ -1169,15 +1205,6 @@
       "publishedAt": "2026-04-17T13:02:00Z",
       "summary": "Web pages have grown 6-9% heavier every year for the past decade, spurred by the web becoming more framework-driven, interactive, and media-rich. Nothing about that trajectory is changing. What is changing is how often those pages get rebuilt and how many clients request them. Both are skyrocketing because of agents. Shared dictionaries shrink asset transfers from servers to browsers so pages load",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2g2NBi1d4eqLAgksGetult/ea05b48519edfa8cccde6d6531700ce1/image5.png"
-    },
-    {
-      "id": "04aee7c522915d68d590",
-      "title": "Redirects for AI Training enforces canonical content",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ai-redirects/",
-      "publishedAt": "2026-04-17T13:00:00Z",
-      "summary": "Cloudflare's Wrangler CLI has published several major versions over the past six years, each containing at least some critical changes to commands, configuration, or how developers interact with the platform. Like any actively maintained open-source project, we keep documentation for older versions available. The v1 documentation carries a deprecation banner, a noindex meta tag , and canonical tag",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4zPrHtLf1BbHxQXQHTK1Qs/21a75531129332d749210d67b2c330ad/BLOG-3263_2.png"
     },
     {
       "id": "2510c61125589be8440e",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-03-16T00:00:00Z",
       "summary": "The threat landscape online has shifted dramatically. Many online platforms are left to reinvent safety tools from scratch. That’s the gap ROOST was built to close — and it’s why open-sourcing battle-tested tools like Osprey matters so much.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68090f03d6cb868fab0af03c_2024_10_DiscordBlog_CompanyAnnoucements-1.png"
-    },
-    {
-      "id": "783c65ea77f07f18a6c4",
-      "title": "Recommending travel destinations to help users explore",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/5fa7a81654fb",
-      "publishedAt": "2026-03-12T18:55:19Z",
-      "summary": "How we built a destination recommendation model that helps users spark inspiration and narrow down choices to make journeys smoother. By : Weiwei Guo , Bin Xu , Sundara Rajan Srinivasavaradhan , Jie Tang , Xiaowei Liu , Bharathi Thangamani , Liwei He , Huiji Gao , Tracy Yu , Hui Gao , Stephanie Moyerman , Sanjeev Katariya Airbnb users in the trip planning stage may not have a clear idea of travel ",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*GmYX3GemYdlNvs2tOLlFbQ.jpeg"
-    },
-    {
-      "id": "ed3eafbd13a4682acdc5",
-      "title": "Continuous AI for accessibility: How GitHub transforms feedback into inclusion",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=94451",
-      "publishedAt": "2026-03-12T16:00:00Z",
-      "summary": "For years, accessibility feedback at GitHub didn’t have a clear place to go. Unlike typical product feedback, accessibility issues don’t belong to any single team—they cut across the entire ecosystem. For example, a screen reader user might report a broken workflow that touches navigation, authentication, and settings. A keyboard-only user might hit a trap in a shared component used across dozens ",
-      "imageURL": "https://github.blog/wp-content/uploads/2026/03/Screenshot-2026-03-11-at-12.37.19-PM.png?resize=1395%2C244"
-    },
-    {
-      "id": "41a17c360497f729233e",
-      "title": "10 things we learned building for the first generation of agentic commerce",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/10-lessons",
-      "publishedAt": "2026-03-12T00:00:00Z",
-      "summary": "A future where we buy with AI agents feels inevitable. Making it actually work is harder. These lessons from the first wave of agentic commerce are meant to help sellers decide what to tackle, avoid common bottlenecks, and get ahead of what’s coming.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3JPDWTTYPpM2YcBISc8vag/7b023bd06d150e886a75df88a73c41d2/Index_preview.png"
     }
   ]
 }
