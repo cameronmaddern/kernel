@@ -1,12 +1,48 @@
 {
   "articles": [
     {
+      "id": "567fb06c7c85393b6cf5",
+      "title": "Cyber resilience on AWS: A reference approach for recovery from ransomware and destructive events",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/cyber-resilience-on-aws-a-reference-approach-for-recovery-from-ransomware-and-destructive-events/",
+      "publishedAt": "2026-05-20T17:32:57Z",
+      "summary": "Cyber resilience is the ability to recover workloads to a known-good state after an adversary has affected the environment. Prevention works to keep threat actors out and detection works to find them quickly. Cyber resilience focuses on recovery: restoring a trustworthy environment when backups, credentials, or parts of the infrastructure can no longer be assumed to be safe. For organizations runn",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/05/14/image-1-6.png"
+    },
+    {
       "id": "f1c9200d7a3392e29263",
       "title": "Pack your agentic stack in Slack",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/05/20/pack-your-agentic-stack-in-slack/",
       "publishedAt": "2026-05-20T04:45:00Z",
       "summary": "Ryan welcomes Jaime DeLanghe, chief product officer at Slack, to chat about how they’re preparing to integrate everybody’s agents in their chat application.",
+      "imageURL": null
+    },
+    {
+      "id": "938bde021c9e56c5fb1e",
+      "title": "Announcing etcd 3.7.0-beta.0",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/20/etcd-370-beta/",
+      "publishedAt": "2026-05-20T00:00:00Z",
+      "summary": "SIG-Etcd announces the availability of the first beta release of etcd v3.7.0 . This new version of the popular distributed database and key Kubernetes component includes the long-requested RangeStream feature, as well as a refactoring and cleanup of multiple legacy components and interfaces. v3.7 will deliver improved security, better operational reliability, and an improved experience for working",
+      "imageURL": null
+    },
+    {
+      "id": "0b6a6475dca9f0b9224f",
+      "title": "Yeunjoo Choi from Igalia on Chromium",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-05-20-yeunjoo-choi-on-chromium.html",
+      "publishedAt": "2026-05-20T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
+      "id": "7f84eb999e301715024a",
+      "title": "Agentic software development hypothesis",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/05/20/hypothesis",
+      "publishedAt": "2026-05-20T00:00:00Z",
+      "summary": "Agentic software development hypothesis This is the quality content you come here for, right? Agentic Software Development Hypothesis: Weak form : Any coding task for which a complete specification is available will become trivial. Strong form : Any coding task for which a deterministic oracle is available will become trivial. First objection: Few meaningful tasks have a complete specification. Se",
       "imageURL": null
     },
     {
@@ -132,7 +168,7 @@
       "sourceName": "Marc Brooker",
       "url": "http://brooker.co.za/blog/2026/05/18/whats-easy-whats-hard",
       "publishedAt": "2026-05-18T00:00:00Z",
-      "summary": "What’s Easy Now? What’s Hard Now? This is the fourth in a series about how AI is changing software development, after It’s time to be right. , What about juniors? , and My heuristics are wrong. What now? . It stands alone, but if you found this interesting you may also find those interesting. I’ve been spending a lot of time thinking about the shape of the capabilities of coding agents. What they’",
+      "summary": "What’s Easy Now? What’s Hard Now? Take it easy. This is the fourth in a series about how AI is changing software development, after It’s time to be right. , What about juniors? , and My heuristics are wrong. What now? . It stands alone, but if you found this interesting you may also find those interesting. I’ve been spending a lot of time thinking about the shape of the capabilities of coding agen",
       "imageURL": "/blog/images/op_amp_sqrt.png"
     },
     {
@@ -339,7 +375,7 @@
       "sourceName": "Docker Blog",
       "url": "https://www.docker.com/?p=89531",
       "publishedAt": "2026-05-12T18:00:09Z",
-      "summary": "Introducing Docker AI Governance: centralized control over how agents execute, what they can reach on the network, which credentials they can use, and which MCP tools they can call, so every developer in your company can run AI agents safely, wherever they work. Your laptop is the new prod Agents are the biggest productivity unlock the modern workplace has seen in a generation, and engineering is ",
+      "summary": "Introducing Docker AI Governance : centralized control over how agents execute, what they can reach on the network, which credentials they can use, and which MCP tools they can call, so every developer in your company can run AI agents safely, wherever they work. Your laptop is the new prod Agents are the biggest productivity unlock the modern workplace has seen in a generation, and engineering is",
       "imageURL": null
     },
     {
@@ -1763,42 +1799,6 @@
       "publishedAt": "2026-03-18T00:00:00Z",
       "summary": "Music To Build Agents By I don't have this problem, because I don't use a mouse. Press play, then start reading: Want to learn how to think about agent policy? Start with Goethe’s Der Zauberlehrling . So come along, you old broomstick! Dress yourself in rotten rags! You’ve long been a servant; Obey my orders now! When I talk to customers and teams around me about agents and agent policy, and the w",
       "imageURL": null
-    },
-    {
-      "id": "08f2f20a2b1a3cb9e880",
-      "title": "From vendors to vanguard: Airbnb’s hard-won lessons in observability ownership",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/3811bf6c1ac3",
-      "publishedAt": "2026-03-17T17:01:02Z",
-      "summary": "How a complex, large-scale migration to an in-house observability platform led to superior tooling, consistent data, and a fundamental reset of the developer experience. By: Callum Jones , Rong Hu Observability — the function of providing visibility into the performance and reliability of applications using metrics, logs and traces — is one of the most important tools of the Infrastructure group a",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*7z8dKfmBs_h7_oXXNhx-PQ.jpeg"
-    },
-    {
-      "id": "1bd3a9b041c2a76bf928",
-      "title": "How we optimized Dash's relevance judge with DSPy",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/machine-learning/optimizing-dropbox-dash-relevance-judge-with-dspy",
-      "publishedAt": "2026-03-17T17:00:00Z",
-      "summary": "Dropbox Dash brings your files, messages, and team’s knowledge together in one place, so you can ask questions and get useful answers that are actually grounded in your company’s context. Under the hood, that experience relies heavily on one deceptively simple capability: reliably judging which results are relevant to a query at scale. Relevance judges are used across multiple pipelines like ranki",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/dspy/headers/Machine Learning-Optimizing Dash relevancy judge with DSPy-1440x305-light.png"
-    },
-    {
-      "id": "40c3742790f2dee29753",
-      "title": "The Invisible Rewrite: Modernizing the Kubernetes Image Promoter",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/03/17/image-promoter-rewrite/",
-      "publishedAt": "2026-03-17T00:00:00Z",
-      "summary": "Every container image you pull from registry.k8s.io got there through kpromo , the Kubernetes image promoter. It copies images from staging registries to production, signs them with cosign , replicates signatures across more than 20 regional mirrors, and generates SLSA provenance attestations. If this tool breaks, no Kubernetes release ships. Over the past few weeks, we rewrote its core from scrat",
-      "imageURL": null
-    },
-    {
-      "id": "fe806dda9d7ea4244598",
-      "title": "How ROOST is Advancing Online Safety",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/how-roost-is-advancing-online-safety",
-      "publishedAt": "2026-03-16T00:00:00Z",
-      "summary": "The threat landscape online has shifted dramatically. Many online platforms are left to reinvent safety tools from scratch. That’s the gap ROOST was built to close — and it’s why open-sourcing battle-tested tools like Osprey matters so much.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68090f03d6cb868fab0af03c_2024_10_DiscordBlog_CompanyAnnoucements-1.png"
     }
   ]
 }
