@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "41aef5a40c62e030e99d",
+      "title": "Breaking your AI storage bottlenecks",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/22/breaking-your-ai-storage-bottlenecks/",
+      "publishedAt": "2026-05-22T07:40:00Z",
+      "summary": "Recorded at HumanX, Ryan sits down with Garima Kapoor and Anand Babu Periasamy, co-founders and co-CEOs of MinIO, to chat about eliminating the storage bottlenecks that leave GPUs underutilized, their partnership with NVIDIA on the new STX reference architecture, and why modern AI infrastructure is converging on S3-compatible object storage.",
+      "imageURL": null
+    },
+    {
+      "id": "21949b98bb24285761af",
+      "title": "Announcing Claude Compliance API support with Cloudflare CASB",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/casb-anthropic-integration/",
+      "publishedAt": "2026-05-21T17:00:00Z",
+      "summary": "Today, we are extending Cloudflare’s cloud access security broker (CASB) to support the Claude Compliance API . Security and compliance teams can now monitor Claude usage directly in the Cloudflare dashboard. No endpoint agents required. Enterprise security teams have long struggled to see how users interact with sanctioned and unsanctioned applications. The rapid adoption of AI applications has m",
+      "imageURL": null
+    },
+    {
+      "id": "ac44377e3f5a5c6d72a7",
+      "title": "Introducing Nova, our internal platform for coding agents",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/machine-learning/introducing-nova-our-internal-platform-for-coding-agents",
+      "publishedAt": "2026-05-21T16:00:00Z",
+      "summary": "Coding agents are becoming an important part of software development. Their most obvious use is helping developers write code faster. But code is only one part of building and operating software. At Dropbox scale, agents also need to work within a large monorepo , validate code changes in Dropbox’s full engineering environment, and incorporate context from across the engineering lifecycle. Develop",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/may/nova/headers/Machine Learning-Nova for agent assisted dev-1440x305-light.png"
+    },
+    {
+      "id": "179697d14abfc13aa964",
+      "title": "Coding agents are giving everyone decision fatigue",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/21/coding-agents-are-giving-everyone-decision-fatigue/",
+      "publishedAt": "2026-05-21T14:19:27Z",
+      "summary": "With much of a software engineer’s time moving from writing code to structuring prompts and reviewing code, the workday is getting denser and more intense. Can AI solve the problems it's causing?",
+      "imageURL": null
+    },
+    {
+      "id": "77f7ad1ef55f991d683d",
+      "title": "Making It Easier Than Ever to Connect with Friends in League & VAL!",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/making-it-easier-than-ever-to-connect-with-friends-in-league-val",
+      "publishedAt": "2026-05-21T00:00:00Z",
+      "summary": "Starting soon, you’ll be able to link your Discord and Riot accounts to sync your friends lists, show your in-game activity as your Discord status, and invite your Discord friends directly to your League or VAL lobby.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a0f41117da8d7b799ea1a1b_Riot-Integration-blog-gameart-centercrop-1800x720.png"
+    },
+    {
       "id": "567fb06c7c85393b6cf5",
       "title": "Cyber resilience on AWS: A reference approach for recovery from ransomware and destructive events",
       "sourceName": "AWS Architecture Blog",
@@ -1027,15 +1072,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2026/04/07/image-1-4.png"
     },
     {
-      "id": "5e18e71637098805ef23",
-      "title": "Welcome to the “find out” stage of AI",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/27/welcome-to-the-find-out-stage-of-ai/",
-      "publishedAt": "2026-04-27T13:56:07Z",
-      "summary": "AI companies are looking a little different after going through a few renewal cycles.",
-      "imageURL": null
-    },
-    {
       "id": "c855bc81059cedf0b650",
       "title": "What an AI Agent Harness Actually Needs Beyond a Model",
       "sourceName": "PingCAP / TiDB",
@@ -1060,15 +1096,6 @@
       "url": "https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/",
       "publishedAt": "2026-04-24T18:35:00Z",
       "summary": "On behalf of Kubernetes SIG Auth and SIG Node, we are pleased to announce the graduation of fine-grained kubelet API authorization to General Availability (GA) in Kubernetes v1.36! The KubeletFineGrainedAuthz feature gate was introduced as an opt-in alpha feature in Kubernetes v1.32, then graduated to beta (enabled by default) in v1.33. Now, the feature is generally available and the feature gate ",
-      "imageURL": null
-    },
-    {
-      "id": "97c0987e96a31b0dcbdc",
-      "title": "Lights, camera, open source!",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/24/lights-camera-open-source/",
-      "publishedAt": "2026-04-24T07:40:00Z",
-      "summary": "Ryan is joined on the show by Cult.Repo producers Emma Tracey and Josiah McGarvie to discuss making documentaries about open-source software and the people behind the major technologies that uphold the internet.",
       "imageURL": null
     },
     {
@@ -1232,15 +1259,6 @@
       "publishedAt": "2026-04-17T13:05:00Z",
       "summary": "The web has always had to adapt to new standards. It learned to speak to web browsers, and then it learned to speak to search engines. Now, it needs to speak to AI agents. Today, we are excited to introduce isitagentready.com — a new tool to help site owners understand how they can make their sites optimized for agents, from guiding agents on how to authenticate, to controlling what content agents",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/sGg5lZjafjQ398V7hYyMv/93e112a34754e2065ffbf6445ebc4500/unnamed.png"
-    },
-    {
-      "id": "21627b0e4724f1d26827",
-      "title": "Shared Dictionaries: compression that keeps up with the agentic web",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/shared-dictionaries/",
-      "publishedAt": "2026-04-17T13:02:00Z",
-      "summary": "Web pages have grown 6-9% heavier every year for the past decade, spurred by the web becoming more framework-driven, interactive, and media-rich. Nothing about that trajectory is changing. What is changing is how often those pages get rebuilt and how many clients request them. Both are skyrocketing because of agents. Shared dictionaries shrink asset transfers from servers to browsers so pages load",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2g2NBi1d4eqLAgksGetult/ea05b48519edfa8cccde6d6531700ce1/image5.png"
     },
     {
       "id": "2510c61125589be8440e",
@@ -1780,24 +1798,6 @@
       "url": "https://kubernetes.io/blog/2026/03/18/securing-production-debugging-in-kubernetes/",
       "publishedAt": "2026-03-18T18:00:00Z",
       "summary": "During production debugging, the fastest route is often broad access such as cluster-admin (a ClusterRole that grants administrator-level access), shared bastions/jump boxes, or long-lived SSH keys. It works in the moment, but it comes with two common problems: auditing becomes difficult, and temporary exceptions have a way of becoming routine. This post offers my recommendations for good practice",
-      "imageURL": null
-    },
-    {
-      "id": "ce41b29f97a2217ca65e",
-      "title": "Introducing the Machine Payments Protocol",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/machine-payments-protocol",
-      "publishedAt": "2026-03-18T00:00:00Z",
-      "summary": "We’re launching the Machine Payments Protocol (MPP), an open standard, internet-native way for agents to pay—co-authored by Tempo and Stripe. Businesses on Stripe can accept payments over MPP in a few lines of code using our PaymentIntents API.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5XnKM1MhctFUry2VRGpdHI/7d68233cb5e62da2b590136c7918a559/MPP-index.png"
-    },
-    {
-      "id": "65a3bc48f68d04ecd225",
-      "title": "Music To Build Agents By",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/03/18/apprentice",
-      "publishedAt": "2026-03-18T00:00:00Z",
-      "summary": "Music To Build Agents By I don't have this problem, because I don't use a mouse. Press play, then start reading: Want to learn how to think about agent policy? Start with Goethe’s Der Zauberlehrling . So come along, you old broomstick! Dress yourself in rotten rags! You’ve long been a servant; Obey my orders now! When I talk to customers and teams around me about agents and agent policy, and the w",
       "imageURL": null
     }
   ]
