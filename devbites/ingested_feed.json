@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "3ebda4e43b1cb53dcfed",
+      "title": "Understanding Why OS RAM and Postgres Buffer Cache Compete",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/understanding-why-os-ram-postgres-buffer-cache-compete",
+      "publishedAt": "2026-05-22T14:51:13Z",
+      "summary": "You just doubled the RAM on your database server to handle a climb in p95 latency. You expect the extra memory to absorb your growing dataset and bring those 45ms spikes back down to 8ms. Instead, the dashboard shows minimal improvement. Write latency remains high, and query response times stay variable. The problem isn’t that you added too little RAM. It’s that you gave most of it to the wrong la",
+      "imageURL": null
+    },
+    {
+      "id": "f5f9a07a3adfc4032b34",
+      "title": "Dispatches from O'Reilly: The accidental orchestrator",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/22/dispatches-from-o-reilly-the-accidental-orchestrator/",
+      "publishedAt": "2026-05-22T14:00:00Z",
+      "summary": "Experiments in agentic engineering and AI-driven development",
+      "imageURL": null
+    },
+    {
+      "id": "8a65f6fccf3d463e2496",
+      "title": "We hardened zizmor's GitHub Actions static analyzer",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/",
+      "publishedAt": "2026-05-22T11:00:00Z",
+      "summary": "In March 2026, attackers exploited a pull_request_target misconfiguration in the aquasecurity/trivy-action GitHub Action to exfiltrate organization and repository secrets, then used those credentials to backdoor LiteLLM on PyPI (see Trivy’s post-mortem for the full timeline). zizmor is a static analyzer that GitHub Actions users run to catch exactly these misconfigurations before they ship. When G",
+      "imageURL": "https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/pipeline_hu_50937b9976f313d5.webp"
+    },
+    {
       "id": "41aef5a40c62e030e99d",
       "title": "Breaking your AI storage bottlenecks",
       "sourceName": "Stack Overflow Blog",
@@ -98,6 +125,15 @@
       "publishedAt": "2026-05-19T19:08:04Z",
       "summary": "Gordon understands your environment, proposes fixes, and takes action across your entire Docker workflow. Now generally available. Image 1: Gordon in Docker Desktop Why Gordon Exists Developers are more productive than ever. AI coding assistants are writing code, merging PRs and cutting review cycles. But the moment something breaks in a container, or a teammate hands you a service and says “ship ",
       "imageURL": "https://www.docker.com/app/uploads/2026/05/dd-gordon.png"
+    },
+    {
+      "id": "a34bce22cc1efaebff21",
+      "title": "TiDB SCaiLE Europe 2026: Why Engineers Building Agentic AI Should Be in Stockholm on 4 June",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33646",
+      "publishedAt": "2026-05-19T17:24:10Z",
+      "summary": "Key Takeaways When and where: Thursday, 4 June 2026, 09:00–19:30 at Epicenter Stockholm. Registration is free . Who’s speaking: Bolt, LHV Bank, AWS, Zilliz, Ververica, and more alongside TiDB engineering, all on a single track. What you’ll get: Practical depth on MySQL migration, native vector search, agent memory, and streaming decisions for agentic AI. The keynote: TiDB Co-Founder and CTO Ed Hua",
+      "imageURL": "https://static.pingcap.com/files/2026/05/22084748/image-11-1024x341.png"
     },
     {
       "id": "f6875363a98dde0fe9b7",
@@ -241,15 +277,6 @@
       "url": "https://stackoverflow.blog/2026/05/15/no-dumb-questions-cloud-computing/",
       "publishedAt": "2026-05-15T16:00:00Z",
       "summary": "In this No Dumb Questions, Phoebe is joined by Stack Overflow’s tech lead for the infrastructure team, Josh Zhang, to learn about the cloud, compute, and data centers.",
-      "imageURL": null
-    },
-    {
-      "id": "6d937b1e99680bfd1b95",
-      "title": "Why Giant IN Clauses Slow Down Your App",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/why-giant-in-clauses-slow-down-your-app",
-      "publishedAt": "2026-05-15T14:34:25Z",
-      "summary": "Your indexes are perfect , your CPU is healthy, but your p99 latency is spiking . When you look at the logs, you see a standard IN clause fetching data for a few thousand users. It looks harmless, but for high-growth databases, this single query pattern becomes a significant performance burden. This guide explains how switching to ANY(ARRAY[]) reduces query planning time and prevents your query pl",
       "imageURL": null
     },
     {
@@ -1036,15 +1063,6 @@
       "imageURL": null
     },
     {
-      "id": "7d8d8bec67150eb5bdb6",
-      "title": "Your LLM issues are really data issues",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/28/your-llm-issues-are-really-data-issues/",
-      "publishedAt": "2026-04-28T07:40:00Z",
-      "summary": "Ryan welcomes Harsha Chintalapani, co-founder and CTO at Collate and co-creator of Open Metadata, to the show to discuss why AI and LLMs struggle with real-time, structured production data.",
-      "imageURL": null
-    },
-    {
       "id": "434fee2b0869a15a7497",
       "title": "Ghostty Is Leaving GitHub",
       "sourceName": "Mitchell Hashimoto",
@@ -1321,15 +1339,6 @@
       "url": "http://notes.eatonphil.com/2026-04-16-who-even-uses-jemalloc-anyway.html",
       "publishedAt": "2026-04-16T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "3d18b34f8ddd191c4f88",
-      "title": "What Happens to a Database When the User is an AI agent",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33120",
-      "publishedAt": "2026-04-15T21:38:57Z",
-      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways Agents are becoming the primary database users , with fundamentally different needs: speed over ease of use, ephemerality over durability. Elastic scale is non-negotiable. Separating compute from storage (like TiDB X) handles agent activity spikes",
       "imageURL": null
     },
     {
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-03-18T18:23:37Z",
       "summary": "Cloud environments with dozens of microservices are now easier to manage than ever, and modern DevOps teams are well-equipped to balance rapid deployments with operational stability — even as monitoring tools surface thousands of daily signals. AWS DevOps Agent is a fully managed autonomous AI Agent that resolves and proactively prevents incidents, continuously improving reliability and performanc",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/11/DevOps-Agent.png"
-    },
-    {
-      "id": "183d845b664932ef3c23",
-      "title": "Securing Production Debugging in Kubernetes",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/03/18/securing-production-debugging-in-kubernetes/",
-      "publishedAt": "2026-03-18T18:00:00Z",
-      "summary": "During production debugging, the fastest route is often broad access such as cluster-admin (a ClusterRole that grants administrator-level access), shared bastions/jump boxes, or long-lived SSH keys. It works in the moment, but it comes with two common problems: auditing becomes difficult, and temporary exceptions have a way of becoming routine. This post offers my recommendations for good practice",
-      "imageURL": null
     }
   ]
 }
