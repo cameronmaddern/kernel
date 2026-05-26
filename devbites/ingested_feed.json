@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "b0d10ef0be0c40525782",
+      "title": "Do you have what it takes to run AI in production?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/26/do-you-have-what-it-takes-to-run-ai-in-production/",
+      "publishedAt": "2026-05-26T07:40:00Z",
+      "summary": "From the floor of HumanX, Ryan Donovan is joined by Peter Salanki, CTO and co-founder of CoreWeave, to chat about what it really takes to run AI in production; the growing importance of observability, utilization, and scheduling; and Peter’s advice for avoiding the trap of over-architecting too early.",
+      "imageURL": null
+    },
+    {
+      "id": "5c1bf23fc60d4b100a94",
+      "title": "Distributing LLM inference in DwarfStar",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/167",
+      "publishedAt": "2026-05-25T14:54:59Z",
+      "summary": "High end NVIDIA cards, and the server and power needed to run them, cost a lot of money, especially if you plan to reach enough VRAM to run massive models. The alternative, so far, has been Apple hardware, or the DGX Spark that, even if severely limited because of memory bandwidth, still allows to run LLMs prompt processing (prefill) fast enough. The Mac Studio provided up to 512GB unified memory,",
+      "imageURL": null
+    },
+    {
       "id": "3ebda4e43b1cb53dcfed",
       "title": "Understanding Why OS RAM and Postgres Buffer Cache Compete",
       "sourceName": "Timescale",
@@ -1054,15 +1072,6 @@
       "imageURL": null
     },
     {
-      "id": "c42916fc38117ce51e15",
-      "title": "Turning scattered knowledge into trusted intelligence: Stack Internal 2026.3",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/28/turn-scattered-knowledge-into-trusted-intelligence/",
-      "publishedAt": "2026-04-28T13:00:00Z",
-      "summary": "Now generally available in the 2026.3 release, Ingestion transforms siloed content into structured, verified knowledge—optimized for both your teams and AI.",
-      "imageURL": null
-    },
-    {
       "id": "434fee2b0869a15a7497",
       "title": "Ghostty Is Leaving GitHub",
       "sourceName": "Mitchell Hashimoto",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-03-19T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
-    },
-    {
-      "id": "9d7a5064f92c2d5a6edb",
-      "title": "AI-powered event response for Amazon EKS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/ai-powered-event-response-for-amazon-eks/",
-      "publishedAt": "2026-03-18T18:23:37Z",
-      "summary": "Cloud environments with dozens of microservices are now easier to manage than ever, and modern DevOps teams are well-equipped to balance rapid deployments with operational stability — even as monitoring tools surface thousands of daily signals. AWS DevOps Agent is a fully managed autonomous AI Agent that resolves and proactively prevents incidents, continuously improving reliability and performanc",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/11/DevOps-Agent.png"
     }
   ]
 }
