@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "621d165c0ccc5522f645",
+      "title": "Reconciling the Past: Correcting Records for Unfixed Kubernetes CVEs",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/",
+      "publishedAt": "2026-05-26T17:30:00Z",
+      "summary": "The Kubernetes project relies on transparency to empower cluster administrators and security researchers. One important way we do that is by publishing CVE records into the Common Vulnerabilities and Exposures database. As part of our ongoing effort to mature the official Kubernetes CVE Feed , we have identified some discrepancies. CVE records for a few older, unfixed issues incorrectly include a ",
+      "imageURL": null
+    },
+    {
+      "id": "e4e51e285f5b02e224fd",
+      "title": "The Postgres Developer's Guide to Vector Index Tradeoffs",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/the-postgres-developers-guide-to-vector-index-tradeoffs",
+      "publishedAt": "2026-05-26T14:23:55Z",
+      "summary": "Vector search in Postgres usually starts simply. You add an embedding column, run a nearest-neighbor query, and order by distance. SELECT content FROM documents ORDER BY embedding '[0.1, 0.2, ...]' LIMIT 10; For a while, that is enough. That simplicity breaks down as the workload becomes real. The table grows, filters become part of the query path, and recall starts affecting user experience. The ",
+      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/05/digram-A.png"
+    },
+    {
+      "id": "6c3bc8f490a66bb8f573",
+      "title": "The Untrusted Autonomous Workload: How AI Coding Agents Reshape What Isolation Has to Do",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=90124",
+      "publishedAt": "2026-05-26T13:00:00Z",
+      "summary": "Earlier this year I mass-migrated my blog to Astro using Claude Code. 146 posts. 6,024 images. Canonical URLs, JSON-LD markup, sitemap generation, the whole stack. I’d spent hours writing a skills file to teach the agent about my blog’s architecture, how deployment worked, what not to touch. And it worked. Claude Code rewrote components, fixed trailing-slash mismatches across hundreds of pages, ad",
+      "imageURL": "https://www.docker.com/app/uploads/2026/05/image4.jpg"
+    },
+    {
       "id": "b0d10ef0be0c40525782",
       "title": "Do you have what it takes to run AI in production?",
       "sourceName": "Stack Overflow Blog",
@@ -16,15 +43,6 @@
       "url": "http://antirez.com/news/167",
       "publishedAt": "2026-05-25T14:54:59Z",
       "summary": "High end NVIDIA cards, and the server and power needed to run them, cost a lot of money, especially if you plan to reach enough VRAM to run massive models. The alternative, so far, has been Apple hardware, or the DGX Spark that, even if severely limited because of memory bandwidth, still allows to run LLMs prompt processing (prefill) fast enough. The Mac Studio provided up to 512GB unified memory,",
-      "imageURL": null
-    },
-    {
-      "id": "3ebda4e43b1cb53dcfed",
-      "title": "Understanding Why OS RAM and Postgres Buffer Cache Compete",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/understanding-why-os-ram-postgres-buffer-cache-compete",
-      "publishedAt": "2026-05-22T14:51:13Z",
-      "summary": "You just doubled the RAM on your database server to handle a climb in p95 latency. You expect the extra memory to absorb your growing dataset and bring those 45ms spikes back down to 8ms. Instead, the dashboard shows minimal improvement. Write latency remains high, and query response times stay variable. The problem isn’t that you added too little RAM. It’s that you gave most of it to the wrong la",
       "imageURL": null
     },
     {
@@ -955,15 +973,6 @@
       "imageURL": null
     },
     {
-      "id": "d6bb97ad73ad2b66a8c4",
-      "title": "From Security Blocked to Prod Ready: ClickHouse on Docker Hardened Images",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88880",
-      "publishedAt": "2026-04-30T15:55:07Z",
-      "summary": "In November 2025, a team self-hosting Langfuse , an open-source LLM observability platform, on Kubernetes uploaded their ClickHouse image to AWS ECR as part of their production preparation. They found that the pipeline scanner had returned three critical vulnerabilities – not in ClickHouse, but in the base image. Their security team saw the findings and blocked the deployment before it ever reache",
-      "imageURL": "https://www.docker.com/app/uploads/2026/04/image1-1.png"
-    },
-    {
       "id": "672ea0c0eb9dde4a35db",
       "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
       "sourceName": "Cloudflare Blog",
@@ -1787,15 +1796,6 @@
       "title": "Developer Spotlight: Somtochi Onyekwere from Fly.io",
       "sourceName": "Eaton Phil",
       "url": "http://notes.eatonphil.com/2026-03-19-developer-spotlight-somtochi-onyekwere.html",
-      "publishedAt": "2026-03-19T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "0ada9b1d6b3987b44ba4",
-      "title": "A static site generator and website transferring under 20kB",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-03-19-a-static-site-generator.html",
       "publishedAt": "2026-03-19T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
