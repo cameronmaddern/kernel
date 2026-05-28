@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "f1ac8d193ccbb105ed89",
+      "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/",
+      "publishedAt": "2026-05-27T17:25:00Z",
+      "summary": "On Tuesday, May 26, Iran’s vice president announced that Internet access had started to be restored in the country after being cut off almost three months ago, following the launch of U.S. and Israeli attacks on February 28. Cloudflare Radar data confirms increased activity and indicates a partial restoration of the Internet in Iran. In this blog post, we’ll examine a range of data points that pro",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5otxM2P75Aqb1IDbY8l6Cv/1405b5bb93a80b6c8c860dba014ab8e0/BLOG-3321_image13.png"
+    },
+    {
+      "id": "0049c81da54e1d93c884",
+      "title": "Agents on a leash: Agentic AI remains mostly single-agent and monitored at work",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/",
+      "publishedAt": "2026-05-27T14:00:00Z",
+      "summary": "AI’s impact on software engineering continues, and more and more of that AI is packaged as agents as results from our newest pulse survey show agentic usage has almost doubled (59%) since we last asked about it in our annual Developer Survey",
+      "imageURL": null
+    },
+    {
+      "id": "bf437d13f5ce16e05650",
+      "title": "Mitigating CVE-2026-31431 (“Copy Fail”) in Docker Engine",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=89343",
+      "publishedAt": "2026-05-27T13:00:00Z",
+      "summary": "CVE-2026-31431 is a Linux kernel vulnerability that was recently disclosed. This CVE does not compromise Docker infrastructure. That said, Docker Engine’s default profiles prior to v29.4.3 allowed containers to create AF_ALG sockets, which is the syscall surface the exploit uses. You are not exposed if you are running Docker Engine v29.4.3 or later, OR a patched host kernel. If either of those is ",
+      "imageURL": null
+    },
+    {
+      "id": "1406d112b1e844ea07d6",
+      "title": "How ApexAnalytica Runs Building Telemetry, Transactional Data, and RAG on a Single Postgres Instance",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/how-apexanalytica-runs-building-telemetry-transactional-data-rag-on-single-postgres-instance",
+      "publishedAt": "2026-05-27T12:47:00Z",
+      "summary": "A solo developer with 25 years in building automation uses TimescaleDB hypertables and time_bucket materialized views to power a 12-month hourly heat map dashboard that used to scan millions of half-hourly meter readings on vanilla Postgres. He builds a production SaaS that ingests BMS telemetry from 38 buildings across care homes, hotels, gyms, garden centers, offices, veterinary practices, and d",
+      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/05/apex-analytica.png"
+    },
+    {
+      "id": "ffd1319f1db1061d2e19",
+      "title": "Expanding Stripe Radar to protect more of your business",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business",
+      "publishedAt": "2026-05-27T00:00:00Z",
+      "summary": "Radar now blocks high-risk transactions across all supported payment methods; defends against new fraud types like multi-account abuse and pay-as-you-go abuse, regardless of which payment processor you use; and gives platforms new tools to evaluate and mitigate merchant risk on and off Stripe.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg"
+    },
+    {
       "id": "621d165c0ccc5522f645",
       "title": "Reconciling the Past: Correcting Records for Unfixed Kubernetes CVEs",
       "sourceName": "Kubernetes Blog",
@@ -10,13 +55,13 @@
       "imageURL": null
     },
     {
-      "id": "e4e51e285f5b02e224fd",
-      "title": "The Postgres Developer's Guide to Vector Index Tradeoffs",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/the-postgres-developers-guide-to-vector-index-tradeoffs",
-      "publishedAt": "2026-05-26T14:23:55Z",
-      "summary": "Vector search in Postgres usually starts simply. You add an embedding column, run a nearest-neighbor query, and order by distance. SELECT content FROM documents ORDER BY embedding '[0.1, 0.2, ...]' LIMIT 10; For a while, that is enough. That simplicity breaks down as the workload becomes real. The table grows, filters become part of the query path, and recall starts affecting user experience. The ",
-      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/05/digram-A.png"
+      "id": "4a2ae659fe1d9ee68026",
+      "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23988",
+      "publishedAt": "2026-05-26T16:00:01Z",
+      "summary": "We’re introducing SilverTorch, a reimagining of recommendation systems that unifies all retrieval components for user generated content under a unified architecture. SilverTorch shows up to 23.7x higher throughput compared to the state-of-the-art approaches. It’s also showing 20.9x more compute cost efficiency compared to a CPU-based solution while also improving accuracy. Our research paper, “ Si",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/05/SilverTorch-Index-as-Model-architecture.png"
     },
     {
       "id": "6c3bc8f490a66bb8f573",
@@ -51,7 +96,7 @@
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/05/22/dispatches-from-o-reilly-the-accidental-orchestrator/",
       "publishedAt": "2026-05-22T14:00:00Z",
-      "summary": "Experiments in agentic engineering and AI-driven development",
+      "summary": "Experiments in agentic engineering and AI-driven development.",
       "imageURL": null
     },
     {
@@ -928,15 +973,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3D8fGfZalW4N4h7QngR8tN/59ef281c194cfcba12ea6cfb6ec240d7/image2.png"
     },
     {
-      "id": "539e8dbe95eb2caaeb06",
-      "title": "A Virtual Agent team at Docker: How the Coding Agent Sandboxes team uses a fleet of agents to ship faster",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88831",
-      "publishedAt": "2026-05-01T13:00:00Z",
-      "summary": "I work on Coding Agent Sandboxes, aka “sbx” at Docker. The project provides secure, microVM-based isolation for running AI coding agents like Claude Code, Gemini, Codex, Docker Agent and Kiro. Agents get full autonomy inside a sandbox (their own Docker daemon, network, filesystem) without touching your host system. Over the past couple of weeks, we built something on top of it: a virtual team of s",
-      "imageURL": "https://www.docker.com/app/uploads/2026/04/image1.png"
-    },
-    {
       "id": "636fb7347d11b904362e",
       "title": "Time is a construct but it can still break your software",
       "sourceName": "Stack Overflow Blog",
@@ -961,15 +997,6 @@
       "url": "https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/",
       "publishedAt": "2026-04-30T18:35:00Z",
       "summary": "Following the graduation of Pod-Level Resources to Beta in v1.34 and the General Availability (GA) of In-Place Pod Vertical Scaling in v1.35, the Kubernetes community is thrilled to announce that In-Place Pod-Level Resources Vertical Scaling has graduated to Beta in v1.36! This feature is now enabled by default via the InPlacePodLevelResourcesVerticalScaling feature gate. It allows users to update",
-      "imageURL": null
-    },
-    {
-      "id": "548064d23eb865ce96e4",
-      "title": "The Worst Coder in the World goes agentic: building a leaderboard cracking AI",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/04/30/worst-coder-in-the-world-goes-agentic/",
-      "publishedAt": "2026-04-30T16:00:00Z",
-      "summary": "Agents are everywhere, so isn't it fitting that the Worst Coder in the World goes agentic? A coding newbie explores the challenges and rewards of building an agent for work—and trying to learn a few things about coding along the way.",
       "imageURL": null
     },
     {
@@ -1288,15 +1315,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7mAft27PsDQnNSNCvF7waU/fdd2c1c448e1863e34f71c124fa85ea1/BLOG-3284_2.jpg"
     },
     {
-      "id": "4b82bfc529b418bb9522",
-      "title": "Introducing the Agent Readiness score. Is your site agent-ready?",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/agent-readiness/",
-      "publishedAt": "2026-04-17T13:05:00Z",
-      "summary": "The web has always had to adapt to new standards. It learned to speak to web browsers, and then it learned to speak to search engines. Now, it needs to speak to AI agents. Today, we are excited to introduce isitagentready.com — a new tool to help site owners understand how they can make their sites optimized for agents, from guiding agents on how to authenticate, to controlling what content agents",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/sGg5lZjafjQ398V7hYyMv/93e112a34754e2065ffbf6445ebc4500/unnamed.png"
-    },
-    {
       "id": "2510c61125589be8440e",
       "title": "We beat Google’s zero-knowledge proof of quantum cryptanalysis",
       "sourceName": "Trail of Bits",
@@ -1421,15 +1439,6 @@
       "publishedAt": "2026-04-08T20:00:04Z",
       "summary": "In modern microservices architectures, configuration management remains one of the most challenging operational concerns. Two gaps emerge as organizations scale: handling tenant metadata that changes faster than cache TTL allows, and scaling the metadata service itself without creating a performance bottleneck. Traditional caching strategies force an uncomfortable trade-off: either accept stale te",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/03/ARCHBLOG-1417-image-11.png"
-    },
-    {
-      "id": "b42dbddbbe4a7ccc220f",
-      "title": "Trust But Canary: Configuration Safety at Scale",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=23871",
-      "publishedAt": "2026-04-08T18:25:26Z",
-      "summary": "As AI increases developer speed and productivity it also increases the need for safeguards. On this episode of the Meta Tech Podcast, Pascal Hartig sits down with Ishwari and Joe from Meta’s Configurations team to discuss how Meta makes config rollouts safe at scale. Listen in to learn about canarying and progressive rollouts, the health checks and monitoring signals used to catch regressions earl",
-      "imageURL": null
     },
     {
       "id": "715c75d48b24f86161cb",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-03-19T00:00:00Z",
       "summary": "Adaptive Pricing is now available for subscriptions, allowing businesses to automatically localize prices in 150+ countries while Stripe handles currency conversion. In an A/B test across 1.5 million subscription checkouts, businesses saw 4.7% higher conversion and 5.4% higher LTV per session, on average.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Ee0jsPU0no73KBQtvLZSs/3f8e7c460e2e394b0deb3aba8af00fcc/Blog_Index_2x__1_.png"
-    },
-    {
-      "id": "92271301647b9abd07e0",
-      "title": "Developer Spotlight: Somtochi Onyekwere from Fly.io",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-03-19-developer-spotlight-somtochi-onyekwere.html",
-      "publishedAt": "2026-03-19T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
     }
   ]
 }
