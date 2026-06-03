@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "e44394c1f5aba454f32e",
+      "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy (xpost)",
+      "sourceName": "Charity Majors",
+      "url": "https://charity.wtf/?p=10439",
+      "publishedAt": "2026-06-02T21:33:32Z",
+      "summary": "Both sides are grappling with a real existential threat, and both sides feel like they are screaming into the void. There is a way to close the gap and get everyone pulling in the same direction.. Xposted from substack. I recently attended a talk where one of the presenters made some pretty… astonishing claims about what they had achieved by the pure, uncut power of vibe coding. Difficult engineer",
+      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%21osVW%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab105aa3-8686-445a-a9d9-024dcaa2500a_1401x477.png?resize=660%2C225&#038;ssl=1"
+    },
+    {
+      "id": "89bb6bdc595473b86689",
+      "title": "When history fails you, borrow from geography",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/915a72b91b5c",
+      "publishedAt": "2026-06-02T17:01:04Z",
+      "summary": "How Airbnb used sequential geographic recovery signals and prior propagation to generate reliable corridor-level forecasts when local data was scarce. By: Harrison Katz The problem with unprecedented shocks Almost every forecasting system is built on the same implicit assumption: the future will resemble the past. You train on historical data, you validate on holdout periods, and you trust that pa",
+      "imageURL": "https://cdn-images-1.medium.com/max/1014/1*Ym09gqq_vppk2nU_9kw_cw.png"
+    },
+    {
+      "id": "298a5477a2c15b0f6c03",
+      "title": "How to Secure AI Agents: A Practical Overview for Development Teams",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=90499",
+      "publishedAt": "2026-06-02T16:11:02Z",
+      "summary": "In our State of Agentic AI report , 45% of organizations said they struggle to ensure the tools their agents use are secure and enterprise-ready. That number reflects a broader reality: AI agents are moving into production faster than the security practices around them are maturing. The challenge is not that organizations lack security awareness. It’s that agents behave fundamentally differently f",
+      "imageURL": "https://www.docker.com/app/uploads/2026/06/docker_AI-Agent-Threat-Model-2320x1217.jpg"
+    },
+    {
+      "id": "b734d6a9d1c202eb6d18",
+      "title": "Automating contract intelligence with Doczy.ai™ on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/automating-contract-intelligence-with-doczy-ai-on-aws/",
+      "publishedAt": "2026-06-02T14:06:32Z",
+      "summary": "Extracting actionable insights from thousands of contracts and legal documents remains a challenge. For organizations, critical business information is locked in unstructured documents such as contracts, legal agreements, provider arrangements, and vendor invoices. Extracting and operationalizing this information has traditionally been a manual, error-prone, and resource-intensive process. This le",
+      "imageURL": "https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png"
+    },
+    {
+      "id": "e657d31577d2c46d56cb",
+      "title": "The Engineering Calendar Is the Database Bill Nobody Tracks",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/the-engineering-calendar-is-the-database-bill-nobody-tracks",
+      "publishedAt": "2026-06-02T13:54:23Z",
+      "summary": "The database bill went up 40% last quarter, and everybody noticed. Finance noticed. You had a meeting about it. Somebody made a slide with a trend line that looked bad enough to earn its own agenda item. The other database bill probably did not make the deck. It lives on the engineering calendar: weekly database reviews, monthly capacity checks, Slack threads about replica lag, onboarding sessions",
+      "imageURL": null
+    },
+    {
       "id": "cc09c7bdb4ec6ee98cd1",
       "title": "What it takes to be a player in the international AI game​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿​​​﻿​﻿‌‍​‌‌‍​‍‌‍​‌​﻿‌﻿​﻿‌‌​‍﻿‌‌‍‌‍​﻿​‍‌‍​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿‌‍‌‍‌​​﻿‍‌​‍﻿‌​﻿‍​​﻿‌‌​﻿​﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‍​​﻿​﻿​﻿‍‌​﻿​​‌‍‌‌​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍​​﻿‍‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿​​​﻿​﻿‌‍​‌‌‍​‍‌‍​‌​﻿‌﻿​﻿‌‌​‍﻿‌‌‍‌‍​﻿​‍‌‍​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿‌‍‌‍‌​​﻿‍‌​‍﻿‌​﻿‍​​﻿‌‌​﻿​﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‍​​﻿​﻿​﻿‍‌​﻿​​‌‍‌‌​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍​​﻿‍‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -33,7 +78,7 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
       "publishedAt": "2026-06-01T16:53:39Z",
-      "summary": "Cloudflare's core is the centralized data centers that run our control plane, billing, and analytics -- distinct from the globally distributed edge that handles user traffic. Core servers are bare metal, and when issues happen during reboot, the consequences can cascade fast. Their boot sequence is orchestrated by UEFI , the modern firmware standard that initializes hardware and hands off control ",
+      "summary": "Cloudflare's core is the centralized data centers that run our control plane, billing, and analytics — distinct from the globally distributed edge that handles user traffic. Core servers are bare metal, and when issues happen during reboot, the consequences can cascade fast. Their boot sequence is orchestrated by UEFI , the modern firmware standard that initializes hardware and hands off control t",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6x6QmYn2eTSTq2sncxLGKy/4b7dcbe2ed23feec5382f59ec6e271fc/image__8_.png"
     },
     {
@@ -116,15 +161,6 @@
       "publishedAt": "2026-05-28T13:00:00Z",
       "summary": "Cloudflare processes more than a billion events every second. Our network spans 330+ cities in 120+ countries. Behind every HTTP request, every Worker invocation, every R2 read operation, there is data, and a lot of it. For years, that data was not very easy to access. It lived in dozens of production databases, ClickHouse clusters, Kafka streams, Google Cloud buckets, BigQuery datasets, and a lon",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/47E8uC26eDC4XrOibNlGCi/4b1e083bb76de4f09404bdac07e5f03a/image5.png"
-    },
-    {
-      "id": "b722b56d9d9b463010f3",
-      "title": "Unify Your Plant-Floor Data with Claude Code and TimescaleDB",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/unify-plant-floor-data-claude-code-timescaledb",
-      "publishedAt": "2026-05-28T10:00:00Z",
-      "summary": "A typical plant floor speaks many protocols. Three of the most popular are Modbus/TCP, OPC UA, and MQTT. None of these define how a tag is named or how a timestamp is recorded. One source might stamp readings in local time; the next in UTC. One device uses snake_case , the other kebab-case . Each mismatch fragments the Unified Namespace (UNS) you set out to build. Closing those gaps by hand is the",
-      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/05/BUILDING-UNS-ADAPTERS---2.png"
     },
     {
       "id": "d5dc8739bb879923cd3e",
@@ -890,15 +926,6 @@
       "publishedAt": "2026-05-07T13:00:00Z",
       "summary": "On April 29, 2026, a Linux kernel local privilege escalation vulnerability was publicly disclosed under the name \"Copy Fail\" ( CVE-2026-31431 ). Cloudflare’s Security and Engineering teams began assessing the vulnerability as soon as it was disclosed. We reviewed the exploit technique, evaluated exposure across our infrastructure, and validated that our existing behavioral detections could identif",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5uqfOddH7biQaTjtgQOist/5c16c08bf3e5ce2f9030d6f98d2403cb/BLOG-3308_2.png"
-    },
-    {
-      "id": "d6cd1a84e2e679b9718f",
-      "title": "Comparing Different Approaches to Sandboxing",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=89226",
-      "publishedAt": "2026-05-07T13:00:00Z",
-      "summary": "“ AI agents will become the primary way we interact with computers in the future. They will be able to understand our needs and preferences, and proactively help us with tasks and decision making. “ Satya Nadella CEO of Microsoft Whether you are a software engineer, a product manager, or a designer, this quote should fundamentally change how we approach our daily routine. We are no longer just bui",
-      "imageURL": "https://www.docker.com/app/uploads/2026/04/image5.png"
     },
     {
       "id": "a9479616f6fbc1b44ba4",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-03-24T17:01:01Z",
       "summary": "How Airbnb built forecasting models resilient enough to survive a global pandemic and whatever shock comes next. By : Harrison Katz The week everything broke In March 2020, the forecasting models that had served us well in stable times faced a new challenge: predicting outcomes in a world that had suddenly changed. At Airbnb, many of the financial metrics we forecast depend on two separate events:",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*HC0FvtGMOcsE3d138wRDRw.jpeg"
-    },
-    {
-      "id": "dde0403805a8cd2828f6",
-      "title": "Spotting issues in DeFi with dimensional analysis",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/",
-      "publishedAt": "2026-03-24T11:00:00Z",
-      "summary": "Using dimensional analysis, you can categorically rule out a whole category of logic and arithmetic bugs that plague DeFi formulas. No code changes required, just better reasoning! One of the first lessons in physics is learning to think in terms of dimensions . Physicists can often spot a flawed formula in seconds just by checking whether the dimensions make sense. I once had a teacher who even k",
-      "imageURL": null
-    },
-    {
-      "id": "477426f0bb026d2eaa8a",
-      "title": "How Stripe Radar helps prevent free trial abuse",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse",
-      "publishedAt": "2026-03-24T00:00:00Z",
-      "summary": "Radar now helps prevent free trial abuse with just one click. When enabled, Radar predicts the presence of abusive behavior that violates common trial terms, such as repeated trial signup or missed cancellations, with 90% accuracy.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/23lASLziC4DNmD8xdKQHqu/99291ee057701ba5d661881830c72ff7/Radar-index.png"
-    },
-    {
-      "id": "16d061d6a105f84ab3e6",
-      "title": "Discord Update: March 24, 2026 Changelog",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-update-march-24-2026-changelog",
-      "publishedAt": "2026-03-24T00:00:00Z",
-      "summary": "Here's the Discord Changelog from March 24, 2026, so you can stay informed on what’s new in recent app updates!",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/65e0d5d41a1beac596a12aaa_March%20Changelog%20Headers.png"
     }
   ]
 }
