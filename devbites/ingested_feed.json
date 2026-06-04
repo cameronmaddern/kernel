@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "c04370217709b6fb5420",
+      "title": "Align your architecture backlog with Tech Roadmap Prioritization (TRP)",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/align-your-architecture-backlog-with-tech-roadmap-prioritization-trp/",
+      "publishedAt": "2026-06-03T18:08:51Z",
+      "summary": "What do the organizations that succeed at digital transformation have in common? They align business and technical stakeholders around a shared plan before writing a single line of code. Yet research from McKinsey shows that 70 percent of transformations fail. Stakeholder misalignment and the inability to scale initiatives beyond initial pilots are patterns we see repeatedly across these failures.",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/02/ARCHBLOG-1360-1.png"
+    },
+    {
+      "id": "b4a742f100036dea86f3",
+      "title": "Enforcing the First AS in BGP AS_PATHs",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/enforce-first-as-bgp/",
+      "publishedAt": "2026-06-03T17:00:00Z",
+      "summary": "Some recent route hijacks reported by Spamhaus captured our attention. In many of these hijack attempts, an apparent bad actor took advantage of unused autonomous system numbers , or ASNs. Notably in these hijacks, the actor appears to be creating fake AS_PATHs toward destinations, misdirecting traffic down an unexpected path. By creating forged AS_PATHs, the hijacker is attempting to lead traffic",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/GRO488rbjQjXDht7DyzL0/dc61e2e2cc4029ba4b15c235d1104ac1/BLOG-3306_image5.png"
+    },
+    {
+      "id": "0dfd708e367e2a4481e7",
+      "title": "Building highly available Oracle databases with Amazon FSx for NetApp ONTAP",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/building-highly-available-oracle-databases-with-amazon-fsx-for-netapp-ontap/",
+      "publishedAt": "2026-06-03T15:51:22Z",
+      "summary": "Oracle databases power mission-critical enterprise applications, making their continuous availability essential for business operations. Traditional Oracle high availability (HA) solutions require complex clustering software, expensive shared storage arrays, and specialized database administration teams. These conventional approaches often introduce single points of failure while demanding signifi",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/05/22/archblog-1212-image-1.png"
+    },
+    {
+      "id": "ff843c8bfc94877834b3",
+      "title": "The sorry state of skill distribution",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/",
+      "publishedAt": "2026-06-03T11:00:00Z",
+      "summary": "Public skill marketplaces are being flooded with malicious skills that steal credentials, exfiltrate data, and hijack agents. In response, a segment of the security industry released skill scanners, a new family of tools designed to detect malicious skills before they’re installed. But we tested them, and they don’t work. We recently bypassed ClawHub’s malicious skill detector , Cisco’s agent skil",
+      "imageURL": "https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/figure1_hu_7e9b7e229e88e196.webp"
+    },
+    {
+      "id": "a4ea1631235d99c18845",
+      "title": "Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program",
+      "publishedAt": "2026-06-03T00:00:00Z",
+      "summary": "We moved quickly to help Stripe businesses take advantage of DCAP and capture interchange savings while protecting authorization rates. Here’s what we did.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/JzGrj59MBDaLNm9e1akgN/e43d83ae9015d74511b815aadec81ee9/dcap-index-2.jpg"
+    },
+    {
       "id": "e44394c1f5aba454f32e",
       "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy (xpost)",
       "sourceName": "Charity Majors",
@@ -1396,15 +1441,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/61L0GkCvWVQl8TH2i2iwFp/899b2a1936aa7fbfaab45fca71d319d6/1.png"
     },
     {
-      "id": "4a44ebc7a820b82dafa0",
-      "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/agents-week-in-review/",
-      "publishedAt": "2026-04-20T13:00:00Z",
-      "summary": "Today marks the end of our first Agents Week, an innovation week dedicated entirely to the age of agents. It couldn’t have been more timely: over the past year, agents have swiftly changed how people work. Coding agents are helping developers ship faster than ever. Support agents resolve tickets end-to-end. Research agents validate hypotheses across hundreds of sources in minutes. And people aren'",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6GiG5cEdgwoLU94AuUuLfS/f9022abc8ce823ef2468860474598b6f/BLOG-3239_2.png"
-    },
-    {
       "id": "2510c61125589be8440e",
       "title": "We beat Google’s zero-knowledge proof of quantum cryptanalysis",
       "sourceName": "Trail of Bits",
@@ -1756,15 +1792,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/61f2eb202125983477455f6e_Discord-2FA-Blog-Header.png"
     },
     {
-      "id": "cf4b5ae7c5e5644d8fc5",
-      "title": "Architecting for agentic AI development on AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/architecting-for-agentic-ai-development-on-aws/",
-      "publishedAt": "2026-03-26T17:29:57Z",
-      "summary": "If you’re architecting cloud systems for AI development on AWS, you’ve likely discovered that traditional architectures create friction for AI agents. Many cloud teams are experimenting with AI coding assistants but quickly discover a gap between what these tools promise and what their architectures allow. When an AI agent generates code, it often takes minutes—or hours—before you can validate whe",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/17/ARCHBLOG-1295-1-1.jpeg"
-    },
-    {
       "id": "20d22e484460ca253d81",
       "title": "Reducing our monorepo size to improve developer velocity",
       "sourceName": "Dropbox Tech",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-03-25T17:00:00Z",
       "summary": "At Dropbox, almost every product change flows through a single place: our server monorepo. A monorepo is a single, shared Git repository that contains many services and libraries used across the company. Instead of splitting code across dozens of smaller repositories, we keep a large portion of our backend infrastructure in one place. That architecture makes cross-service development easier, but i",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/monorepo/headers/Infrastructure-Reducing monorepo size-1440x305-light.png"
-    },
-    {
-      "id": "2d53da69c2cdfd0fe753",
-      "title": "Try our new dimensional analysis Claude plugin",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/",
-      "publishedAt": "2026-03-25T11:00:00Z",
-      "summary": "We’re releasing a new Claude plugin for developing and auditing code that implements dimensional analysis, a technique we explored in our most recent blog post . Most LLM-based security skills ask the model to find bugs. Our new dimensional-analysis plugin for Claude Code takes a different approach: it uses the LLM to annotate your codebase with dimensional types, then flags mismatches mechanicall",
-      "imageURL": "https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/try-our-new-dimensional-analysis-claude-plugin-image-1_hu_7d3093e4aab4ef47.webp"
-    },
-    {
-      "id": "d3b665f9c47888c3e2ef",
-      "title": "What about juniors?",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/03/25/ic-junior",
-      "publishedAt": "2026-03-25T00:00:00Z",
-      "summary": "What about juniors? Start at the beginning. Last week I wrote about how the role of the most senior tech ICs has changed. Today, I wanted to share some thoughts on a more difficult topic: how the role of junior software engineers, folks just starting out on their career, has changed or will change. First, the good news. In last week’s post, I wrote this about senior folks: It’s hard to admit where",
-      "imageURL": "/blog/images/railways.jpg"
-    },
-    {
-      "id": "81a2ea0bd562b7167ee4",
-      "title": "What COVID did to our forecasting models (and what we built to handle the next shock)",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/ccbf0e1f7fa9",
-      "publishedAt": "2026-03-24T17:01:01Z",
-      "summary": "How Airbnb built forecasting models resilient enough to survive a global pandemic and whatever shock comes next. By : Harrison Katz The week everything broke In March 2020, the forecasting models that had served us well in stable times faced a new challenge: predicting outcomes in a world that had suddenly changed. At Airbnb, many of the financial metrics we forecast depend on two separate events:",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*HC0FvtGMOcsE3d138wRDRw.jpeg"
     }
   ]
 }
