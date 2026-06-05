@@ -1,6 +1,87 @@
 {
   "articles": [
     {
+      "id": "6813881d72c4a42b4594",
+      "title": "Making the OWASP top ten in the vibe code era​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
+      "publishedAt": "2026-06-05T07:40:00Z",
+      "summary": "Ryan welcomes back Tanya Janca, now part of the OWASP Top 10 team, to discuss what changed in the latest OWASP Top 10 release, how the list shifted from “outdated components” to a broader software supply chain focus, and why they added memory safety and vibe-coding as awareness items.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​",
+      "imageURL": null
+    },
+    {
+      "id": "1352808d03430df6603d",
+      "title": "Hardened Images Explained: Fewer CVEs, Smaller Attack Surface",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=90754",
+      "publishedAt": "2026-06-04T17:02:51Z",
+      "summary": "When security teams scan their container environments for the first time, they often discover hundreds of known vulnerabilities, and almost none of them trace back to application code. The overwhelming majority come from packages that shipped with the base image: shells, compilers, debug utilities, and libraries the application never calls. In a software supply chain built on containers, the base ",
+      "imageURL": "https://www.docker.com/app/uploads/2026/06/docker_hree-Pillars-of-Container-Image-Hardening-2320x1218.jpg"
+    },
+    {
+      "id": "649056b2db3d5c6888b4",
+      "title": "Sitar-agent: Building a reliable dynamic configuration sidecar at scale",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/b7e00c152068",
+      "publishedAt": "2026-06-04T17:01:04Z",
+      "summary": "How Airbnb built a Kubernetes sidecar to deliver dynamic configuration reliably at scale. By : Bo Teng , Cosmo Qiu , Siyuan Zhou , Ankur Soni , Xin Huang , Willis Harvey Introduction In our previous post , we explored Airbnb’s dynamic configuration system, Sitar, with a focus on service architecture and configuration change safety. Now for the harder question: once a config change is committed, wh",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*KW0bD9Rtf6A9wyE79jZqrA.jpeg"
+    },
+    {
+      "id": "bca98e8d36aa065528de",
+      "title": "VoidZero is joining Cloudflare",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+      "publishedAt": "2026-06-04T12:59:00Z",
+      "summary": "VoidZero, the company behind Vite , Vitest , Rolldown , Oxc , and Vite+ , is joining Cloudflare. As part of this change, all team members of VoidZero are joining Cloudflare, too. Before saying anything else, we want to make the most important thing clear: Vite, Vitest, Rolldown, Oxc, and Vite+ will stay open source, vendor-agnostic, and community-driven. Nothing about that changes. Cloudflare's mi",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5gfeiRZUa5M8NfzsnMJ4FA/99600ef4053942f890316e9145a5cc72/BLOG-VOID_2.png"
+    },
+    {
+      "id": "eccb0a8fda18611a20bf",
+      "title": "New ways to turn global demand into revenue",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue",
+      "publishedAt": "2026-06-04T00:00:00Z",
+      "summary": "At Sessions 2026, Stripe unveiled dozens of products and capabilities to help businesses turn global demand into revenue. See how to go global faster with localized checkout and Adaptive Pricing, smarter fraud tools, multicurrency treasury support, and automated tax compliance.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png"
+    },
+    {
+      "id": "2b6bd5520043c773e2a5",
+      "title": "The future of agentic commerce is here",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.events/acnext_seattle?utm_campaign=TD0976N7Lv4IS9ymCxV2jTAHH",
+      "publishedAt": "2026-06-04T00:00:00Z",
+      "summary": "Explore how AI agents are transforming commerce at Stripe’s Agentic Commerce Next roadshow. Reserve your spot in Seattle.",
+      "imageURL": null
+    },
+    {
+      "id": "d6ca5a60f6fd47c14c3a",
+      "title": "Rethinking risk in the age of AI",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.events/stripeforumseattle1?utm_campaign=T5QX6Eo2zn5AP8iIGrUCWB7FFhttps%3A%2F%2Fstripe.events%2Facnext_seattle%3Futm_campaign%3DTD0976N7Lv4IS9ymCxV2jTAHH",
+      "publishedAt": "2026-06-04T00:00:00Z",
+      "summary": "Join senior risk and payments leaders in Seattle to explore how AI is reshaping fraud strategy. Seats are limited.",
+      "imageURL": null
+    },
+    {
+      "id": "239b5753caafed9c7659",
+      "title": "Discord Patch Notes: June 4, 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-patch-notes-june-4-2026",
+      "publishedAt": "2026-06-04T00:00:00Z",
+      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
+    },
+    {
+      "id": "18d827684053615fb56d",
+      "title": "What is Software Supply Chain Security?",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=90779",
+      "publishedAt": "2026-06-03T18:24:39Z",
+      "summary": "Software supply chain attacks have accelerated faster than most security teams anticipated. Sonatype’s 2026 State of the Software Supply Chain report identified more than 454,000 new malicious packages published to open source repositories in 2025, bringing the cumulative total to over 1.2 million since 2019. The blast radius keeps expanding as organizations consume more open source software, ship",
+      "imageURL": "https://www.docker.com/app/uploads/2026/06/docker_Where-Your-Software-Supply-Chain-is-Exposed-2320x1218.jpg"
+    },
+    {
       "id": "c04370217709b6fb5420",
       "title": "Align your architecture backlog with Tech Roadmap Prioritization (TRP)",
       "sourceName": "AWS Architecture Blog",
@@ -8,6 +89,15 @@
       "publishedAt": "2026-06-03T18:08:51Z",
       "summary": "What do the organizations that succeed at digital transformation have in common? They align business and technical stakeholders around a shared plan before writing a single line of code. Yet research from McKinsey shows that 70 percent of transformations fail. Stakeholder misalignment and the inability to scale initiatives beyond initial pilots are patterns we see repeatedly across these failures.",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/02/ARCHBLOG-1360-1.png"
+    },
+    {
+      "id": "500d2f2b8f9e8fc58fdb",
+      "title": "Lights Out, Systems On: Validating Instant Power Loss Readiness",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24022",
+      "publishedAt": "2026-06-03T17:00:44Z",
+      "summary": "We’re introducing Instantaneous PowerLoss Storm, a new testing paradigm within Meta’s infrastructure for handling and mitigating instant or zero-notice power loss in our data centers. We’re sharing: how we built readiness to tolerate instant failures into our existing systems with defense-in-depth strategies; tradeoffs made in implementing it, and how we validated our readiness. Disaster preparedn",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/06/Validating-PowerLoss-Readiness-Meta-image-2c.png"
     },
     {
       "id": "b4a742f100036dea86f3",
@@ -694,15 +784,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3eIJK055QLIl3ay12TIhfQ/9d988169efadb16cb5b18b539b62aa55/image3.png"
     },
     {
-      "id": "2179fc1abf91cbd87f84",
-      "title": "NIST Narrows the NVD: What Container Security Programs Should Reassess",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=88996",
-      "publishedAt": "2026-05-13T10:38:28Z",
-      "summary": "On April 15, NIST announced a prioritized enrichment model for the National Vulnerability Database. Most CVEs will still be published, but fewer will receive the CVSS scores, CPE mappings, and CWE classifications that container scanners and compliance programs have historically relied on. The change formalizes a drift that has been visible to anyone pulling NVD feeds for the past two years. What s",
-      "imageURL": null
-    },
-    {
       "id": "5822bde7620d339adc26",
       "title": "How Braze’s CTO is rethinking engineering for the agentic area​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌‍‌‍‌‌‌‍​﻿​﻿​﻿‌‍​﻿‌‍‌​​﻿‌‌​‍﻿‌​﻿‌‍​﻿‍​‌‍​‍​﻿‍‌​‍﻿‌​﻿‌​​﻿‌‌​﻿​‌​﻿‌‌​‍﻿‌​﻿‍​​﻿‌‌​﻿‍​‌‍‌‍​‍﻿‌​﻿‌‌​﻿‌‍‌‍‌‍​﻿​‍‌‍‌‍‌‍​‍‌‍‌‍​﻿​﻿​﻿‍‌​﻿​‍​﻿​﻿‌‍​﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌‍‌‍‌‌‌‍​﻿​﻿​﻿‌‍​﻿‌‍‌​​﻿‌‌​‍﻿‌​﻿‌‍​﻿‍​‌‍​‍​﻿‍‌​‍﻿‌​﻿‌​​﻿‌‌​﻿​‌​﻿‌‌​‍﻿‌​﻿‍​​﻿‌‌​﻿‍​‌‍‌‍​‍﻿‌​﻿‌‌​﻿‌‍‌‍‌‍​﻿​‍‌‍‌‍‌‍​‍‌‍‌‍​﻿​﻿​﻿‍‌​﻿​‍​﻿​﻿‌‍​﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -737,15 +818,6 @@
       "publishedAt": "2026-05-12T18:05:37Z",
       "summary": "Agentic AI changes the database problem. A single user action can trigger many agent steps. However, each agent needs state, memory, transactions, analytics, and retrieval to stay consistent under real production load. That pressure exposes the weak points in stacks built from separate OLTP databases, vector stores, warehouses, and sync pipelines. TiDB SCaiLE Europe 2026 takes on that infrastructu",
       "imageURL": "https://static.pingcap.com/files/2026/05/14135722/image-1-1024x341.png"
-    },
-    {
-      "id": "5387bd750c814db9d33a",
-      "title": "Docker AI Governance: Unlock Agent Autonomy, Safely",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=89531",
-      "publishedAt": "2026-05-12T18:00:09Z",
-      "summary": "Introducing Docker AI Governance : centralized control over how agents execute, what they can reach on the network, which credentials they can use, and which MCP tools they can call, so every developer in your company can run AI agents safely, wherever they work. Your laptop is the new prod Agents are the biggest productivity unlock the modern workplace has seen in a generation, and engineering is",
-      "imageURL": null
     },
     {
       "id": "ff9e55be4158f23edef4",
@@ -916,15 +988,6 @@
       "url": "https://stackoverflow.blog/2026/05/08/no-dumb-questions-mcp/",
       "publishedAt": "2026-05-08T16:00:00Z",
       "summary": "Welcome to No Dumb Questions, a column where our least technical writer asks our technical staff the simple, basic tech questions people are afraid to ask. In this first entry, Stack's Director of Ecosystem Strategy Ben Marconi teaches us the basics of MCP servers and why they matter. ​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍",
-      "imageURL": null
-    },
-    {
-      "id": "38d70a8c651dac60a784",
-      "title": "AI giveth and AI taketh CPU​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿​‌‌‍‌​​﻿‍‌​﻿​‍​﻿​‌​﻿‌‌​﻿‍‌​‍﻿‌‌‍‌​​﻿​﻿​﻿‍‌​﻿‌​​‍﻿‌​﻿‌​​﻿‌‌​﻿‌﻿​﻿​‍​‍﻿‌‌‍​‌​﻿‍​​﻿​‌​﻿‌‌​‍﻿‌‌‍​﻿​﻿‍‌‌‍‌​​﻿‌​​﻿​​​﻿‍‌​﻿​​​﻿​‌​﻿‌​​﻿​﻿​﻿​​​﻿‍​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿​‌‌‍‌​​﻿‍‌​﻿​‍​﻿​‌​﻿‌‌​﻿‍‌​‍﻿‌‌‍‌​​﻿​﻿​﻿‍‌​﻿‌​​‍﻿‌​﻿‌​​﻿‌‌​﻿‌﻿​﻿​‍​‍﻿‌‌‍​‌​﻿‍​​﻿​‌​﻿‌‌​‍﻿‌‌‍​﻿​﻿‍‌‌‍‌​​﻿‌​​﻿​​​﻿‍‌​﻿​​​﻿​‌​﻿‌​​﻿​﻿​﻿​​​﻿‍​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/05/08/ai-giveth-and-ai-taketh-cpu/",
-      "publishedAt": "2026-05-08T07:40:00Z",
-      "summary": "Recorded on the floor of HumanX, Ryan is joined by AMD CTO Mark Papermaster to discuss AMD’s silicon strategy for AI borne of their long history of heterogeneous CPU/GPU computing, how chipmakers are dealing the wide range of AI workloads from training to inference, and the paradox of agents both eating up all the compute and helping AMD accelerate chip innovation. ​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌",
       "imageURL": null
     },
     {
@@ -1207,15 +1270,6 @@
       "imageURL": null
     },
     {
-      "id": "4483fd09e7898dae561d",
-      "title": "Giving agents the ability to pay",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/giving-agents-the-ability-to-pay",
-      "publishedAt": "2026-04-29T00:00:00Z",
-      "summary": "Link’s wallet for agents gives agents programmatic access to Link, including the ability to generate a one-time-use card or Shared Payment Token (SPT) backed by the cards and bank accounts already in your wallet. It’s built on Stripe’s new Issuing for agents.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png"
-    },
-    {
       "id": "04b5d706b731012e92d9",
       "title": "Everything we announced at Sessions 2026",
       "sourceName": "Stripe Blog",
@@ -1223,6 +1277,15 @@
       "publishedAt": "2026-04-29T00:00:00Z",
       "summary": "We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png"
+    },
+    {
+      "id": "4483fd09e7898dae561d",
+      "title": "Giving agents the ability to pay",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/giving-agents-the-ability-to-pay",
+      "publishedAt": "2026-04-29T00:00:00Z",
+      "summary": "Link’s wallet for agents gives agents programmatic access to Link, including the ability to generate a one-time-use card or Shared Payment Token (SPT) backed by the cards and bank accounts already in your wallet. It’s built on Stripe’s new Issuing for agents.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png"
     },
     {
       "id": "7d083902e3b043ce0df0",
@@ -1432,15 +1495,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/Modernizing-FB-Groups-search-image-1.png"
     },
     {
-      "id": "195133a926630a4f9bd3",
-      "title": "Moving past bots vs. humans",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/past-bots-and-humans/",
-      "publishedAt": "2026-04-21T13:00:00Z",
-      "summary": "For us humans to interact with the online world, we need a gateway: keyboard, screen, browser, device. What is called \"human detection\" online are patterns that humans use when interacting with such devices. These patterns have changed in recent years: a startup CEO now uses their browser to summarize the news, a tech enthusiast automates the process to book their concert tickets when sales open a",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/61L0GkCvWVQl8TH2i2iwFp/899b2a1936aa7fbfaab45fca71d319d6/1.png"
-    },
-    {
       "id": "2510c61125589be8440e",
       "title": "We beat Google’s zero-knowledge proof of quantum cryptanalysis",
       "sourceName": "Trail of Bits",
@@ -1529,15 +1583,6 @@
       "publishedAt": "2026-04-13T17:17:16Z",
       "summary": "Excerpt In complex, long-running agentic systems, maintaining alignment and coherent reasoning between agents requires careful design. In this second article of our series, we explore these challenges and the mechanisms we built to keep teams of agents working productively over long time spans. We present a range of complementary techniques that balance the conflicting requirements of continuity a",
       "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/03/pydantic_ai_agentic_loop.png?w=842"
-    },
-    {
-      "id": "71f8fbe148585e45db34",
-      "title": "Escaping the Fork: How Meta Modernized WebRTC Across 50+ Use Cases",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=23856",
-      "publishedAt": "2026-04-09T16:00:34Z",
-      "summary": "At Meta, WebRTC powers real-time audio and video across various platforms. But forking a large open-source project like WebRTC within our monorepo presents unique challenges – over time, an internal fork can drift behind upstream, cutting itself off from community upgrades. We’re sharing how we escaped this “forking trap” – from building a dual-stack architecture that enabled safe A/B testing acro",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/04/Meta-WebRTC-escaping-the-fork-image-1.png?w=916"
     },
     {
       "id": "66730a32f7efea941ac1",
@@ -1675,15 +1720,6 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/magic-pocket-compaction/headers/Infrastructure-Optimizing compaction in Magic Pocket-1440x305-light.png"
     },
     {
-      "id": "49dd0c04af5326209760",
-      "title": "Insights from Shoptalk 2026: How agents are changing retail",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/shoptalk-2026",
-      "publishedAt": "2026-04-02T00:00:00Z",
-      "summary": "Retailers know search and discovery have already shifted. What comes next is less settled. From embedded checkout to emerging third-party surfaces, here’s how ecommerce and AI leaders are integrating agentic commerce.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5aI5xOfce2H0wZlLKZzIgv/02ddf4d2c099f39d2a63c70e5e794195/3_agentic_trends_-_1500x1500_-_7.png"
-    },
-    {
       "id": "93738ffebf1686e322be",
       "title": "Automate safety monitoring with computer vision and generative AI",
       "sourceName": "AWS Architecture Blog",
@@ -1763,42 +1799,6 @@
       "publishedAt": "2026-03-30T15:36:36Z",
       "summary": "This post is cowritten with Yuri Brigance, and Usman M. Khan from Aigen. Aigen builds autonomous robots designed to help farmers remove herbicide-resistant weeds and improve crop yield through AI-driven technology. These robots operate without chemicals, using renewable energy, and provide real-time, field-level data to enhance decision-making. Using advanced computer vision AI, Aigen’s robots aut",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/23/ARCHBLOG-1379-image-1.jpeg"
-    },
-    {
-      "id": "a6c3bbd478f8854f9568",
-      "title": "Kubernetes v1.36 Sneak Peek",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/",
-      "publishedAt": "2026-03-30T00:00:00Z",
-      "summary": "Kubernetes v1.36 is coming at the end of April 2026. This release will include removals and deprecations, and it is packed with an impressive number of enhancements. Here are some of the features we are most excited about in this cycle! Please note that this information reflects the current state of v1.36 development and may change before release. The Kubernetes API removal and deprecation process",
-      "imageURL": null
-    },
-    {
-      "id": "5d4d28a23ebee8780a79",
-      "title": "Taking multi-master MariaDB for a spin, reproducing a Jepsen report",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-03-29-taking-galera-for-a-spin.html",
-      "publishedAt": "2026-03-29T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "14dad629e7f36874f7c7",
-      "title": "How Multi-Factor Authentication Helps Keep Your Discord Account Safe",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/keeping-discord-safe-and-sound",
-      "publishedAt": "2026-03-27T00:00:00Z",
-      "summary": "A Discord account is more than just your username and avatar. That’s why it’s important to help keep your account safe and secure by using Multi-Factor Authentication, SMS Backup Authentication & QR Code Login. Learn how to keep your account more secure in the following blog post!",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/61f2eb202125983477455f6e_Discord-2FA-Blog-Header.png"
-    },
-    {
-      "id": "20d22e484460ca253d81",
-      "title": "Reducing our monorepo size to improve developer velocity",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/infrastructure/reducing-our-monorepo-size-to-improve-developer-velocity",
-      "publishedAt": "2026-03-25T17:00:00Z",
-      "summary": "At Dropbox, almost every product change flows through a single place: our server monorepo. A monorepo is a single, shared Git repository that contains many services and libraries used across the company. Instead of splitting code across dozens of smaller repositories, we keep a large portion of our backend infrastructure in one place. That architecture makes cross-service development easier, but i",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/monorepo/headers/Infrastructure-Reducing monorepo size-1440x305-light.png"
     }
   ]
 }
