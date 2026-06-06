@@ -1,12 +1,48 @@
 {
   "articles": [
     {
+      "id": "827c0350dae5ec8c8cef",
+      "title": "What is AI Governance? Frameworks, Principles, and Best Practices",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=90819",
+      "publishedAt": "2026-06-05T18:39:35Z",
+      "summary": "AI agents are moving fast. According to our State of Agentic AI report , 60% of organizations already have AI agents in production, yet 40% cite security and compliance as the number-one barrier to scaling them further. And that gap between adoption and oversight is exactly where AI governance lives. As AI takes on higher-stakes decisions and agents begin operating with greater autonomy, the organ",
+      "imageURL": "https://www.docker.com/app/uploads/2026/06/docker_Why-AI-Governance-Matters-2320x1218.jpg"
+    },
+    {
+      "id": "50cf9db0a84eebe2ce66",
+      "title": "Your AI bill is out of control. Cloudflare can fix it now.",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
+      "publishedAt": "2026-06-05T13:00:00Z",
+      "summary": "There isn't a CIO on the planet not worried about AI spend right now. CFOs are increasingly nervous, too. For fear of falling behind, many companies have pushed their employees to use AI as aggressively as possible. The edict was clear: \"Move fast, we'll figure out the bill later.\" And for the most part, it worked: AI has been genuinely transformational for the teams that leaned in. But the costs ",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6sH9TwbSEn2Ct9UFuC0SAq/1a1330737879497b0e2511ac28baaed5/BLOG-3331_image1.png"
+    },
+    {
+      "id": "710c951751da4037862b",
+      "title": "Row vs Columnar Storage for Analytics: Why PostgreSQL Scans Are Slower Than They Should Be",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/row-vs-columnar-storage-analytics-postgresql-scans",
+      "publishedAt": "2026-06-05T12:48:04Z",
+      "summary": "Here's a query that runs on most time-series tables: SELECT time_bucket('1 hour', ts) AS hour, avg(temperature), max(temperature) FROM sensor_readings WHERE ts > now() - interval '7 days' GROUP BY hour ORDER BY hour; The query needs two columns: ts and temperature. The table has 15 columns. Postgres reads all 15 columns for every row that matches the WHERE clause. That's not a bug. It's how row-or",
+      "imageURL": null
+    },
+    {
       "id": "6813881d72c4a42b4594",
       "title": "Making the OWASP top ten in the vibe code era​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
       "publishedAt": "2026-06-05T07:40:00Z",
       "summary": "Ryan welcomes back Tanya Janca, now part of the OWASP Top 10 team, to discuss what changed in the latest OWASP Top 10 release, how the list shifted from “outdated components” to a broader software supply chain focus, and why they added memory safety and vibe-coding as awareness items.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​",
+      "imageURL": null
+    },
+    {
+      "id": "b84b239d9a6121d3fd14",
+      "title": "The Laptop Return that Broke a RAG Pipeline",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33719",
+      "publishedAt": "2026-06-04T21:17:56Z",
+      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways Semantic similarity isn’t factual correctness. Stale or out-of-scope docs still look “similar”, and that gap is where RAG breaks. The missing data lives in columns, not vectors. This is a database problem, not an embeddings one. Hybrid search comb",
       "imageURL": null
     },
     {
@@ -170,15 +206,6 @@
       "publishedAt": "2026-06-02T14:06:32Z",
       "summary": "Extracting actionable insights from thousands of contracts and legal documents remains a challenge. For organizations, critical business information is locked in unstructured documents such as contracts, legal agreements, provider arrangements, and vendor invoices. Extracting and operationalizing this information has traditionally been a manual, error-prone, and resource-intensive process. This le",
       "imageURL": "https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png"
-    },
-    {
-      "id": "e657d31577d2c46d56cb",
-      "title": "The Engineering Calendar Is the Database Bill Nobody Tracks",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/the-engineering-calendar-is-the-database-bill-nobody-tracks",
-      "publishedAt": "2026-06-02T13:54:23Z",
-      "summary": "The database bill went up 40% last quarter, and everybody noticed. Finance noticed. You had a meeting about it. Somebody made a slide with a trend line that looked bad enough to earn its own agenda item. The other database bill probably did not make the deck. It lives on the engineering calendar: weekly database reviews, monthly capacity checks, Slack threads about replica lag, onboarding sessions",
-      "imageURL": null
     },
     {
       "id": "cc09c7bdb4ec6ee98cd1",
@@ -578,11 +605,11 @@
     },
     {
       "id": "fb3aadaa9ef2fe253f5f",
-      "title": "Interviews Aren’t About You (Sorry)​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​‌‍‌​‌‍​‍‌‍​‌​﻿​﻿​﻿​﻿‌‍​﻿​﻿​‌​‍﻿‌​﻿‌﻿​﻿‍‌​﻿‌‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿​​​﻿‌‍​‍﻿‌‌‍​‌‌‍‌‍‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌‌​﻿‌‍​﻿‍​​﻿​﻿​﻿‍‌​﻿​‌‌‍‌‍​﻿‍‌‌‍​‌​﻿‍‌‌‍‌‌​﻿‌‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​‌‍‌​‌‍​‍‌‍​‌​﻿​﻿​﻿​﻿‌‍​﻿​﻿​‌​‍﻿‌​﻿‌﻿​﻿‍‌​﻿‌‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿​​​﻿‌‍​‍﻿‌‌‍​‌‌‍‌‍‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌‌​﻿‌‍​﻿‍​​﻿​﻿​﻿‍‌​﻿​‌‌‍‌‍​﻿‍‌‌‍​‌​﻿‍‌‌‍‌‌​﻿‌‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "title": "Interviews aren’t about you (sorry)​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​‌‍‌​‌‍​‍‌‍​‌​﻿​﻿​﻿​﻿‌‍​﻿​﻿​‌​‍﻿‌​﻿‌﻿​﻿‍‌​﻿‌‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿​​​﻿‌‍​‍﻿‌‌‍​‌‌‍‌‍‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌‌​﻿‌‍​﻿‍​​﻿​﻿​﻿‍‌​﻿​‌‌‍‌‍​﻿‍‌‌‍​‌​﻿‍‌‌‍‌‌​﻿‌‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​‌‍‌​‌‍​‍‌‍​‌​﻿​﻿​﻿​﻿‌‍​﻿​﻿​‌​‍﻿‌​﻿‌﻿​﻿‍‌​﻿‌‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿​​​﻿‌‍​‍﻿‌‌‍​‌‌‍‌‍‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌‌​﻿‌‍​﻿‍​​﻿​﻿​﻿‍‌​﻿​‌‌‍‌‍​﻿‍‌‌‍​‌​﻿‍‌‌‍‌‌​﻿‌‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/05/18/interviews-aren-t-about-you-sorry/",
       "publishedAt": "2026-05-18T16:02:44Z",
-      "summary": null,
+      "summary": "What interviewers are actually looking for is very different from you'd assume if you're the one sweating in the hotseat.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍",
       "imageURL": null
     },
     {
@@ -665,15 +692,6 @@
       "publishedAt": "2026-05-15T16:00:00Z",
       "summary": "In this No Dumb Questions, Phoebe is joined by Stack Overflow’s tech lead for the infrastructure team, Josh Zhang, to learn about the cloud, compute, and data centers. ​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿",
       "imageURL": null
-    },
-    {
-      "id": "697e98906d9b915c25ee",
-      "title": "Custom MCP Catalogs and Profiles: Advancing Enterprise MCP Adoption",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=89593",
-      "publishedAt": "2026-05-15T13:00:00Z",
-      "summary": "We’re excited to announce the general availability of Custom Catalogs and Profiles for managing Model Context Protocol (MCP) servers. These two complementary capabilities fundamentally change how teams package, distribute, and manage AI tooling. Custom MCP Catalogs let organizations curate and distribute approved collections of MCP servers. MCP Profiles enable individual developers to easily build",
-      "imageURL": "https://www.docker.com/app/uploads/2026/05/image5.png"
     },
     {
       "id": "9663f11343c739e6c33d",
@@ -821,7 +839,7 @@
     },
     {
       "id": "ff9e55be4158f23edef4",
-      "title": "You Shipped It Fast. But Did You Ship It Right?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‍‌​﻿‌‍​﻿‌‌​﻿​‌​﻿​﻿​﻿‍​​﻿‍‌​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​​​﻿​​​﻿‌﻿​‍﻿‌‌‍​‍​﻿‍​​﻿​﻿​﻿‌‍​‍﻿‌​﻿‌‍​﻿‌‌​﻿​‍​﻿‌​‌‍‌‌​﻿‌‌‌‍​‍​﻿​﻿‌‍‌‍‌‍​‍​﻿‌‍‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‍‌​﻿‌‍​﻿‌‌​﻿​‌​﻿​﻿​﻿‍​​﻿‍‌​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​​​﻿​​​﻿‌﻿​‍﻿‌‌‍​‍​﻿‍​​﻿​﻿​﻿‌‍​‍﻿‌​﻿‌‍​﻿‌‌​﻿​‍​﻿‌​‌‍‌‌​﻿‌‌‌‍​‍​﻿​﻿‌‍‌‍‌‍​‍​﻿‌‍‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "title": "You shipped it fast. But did you ship it right?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‍‌​﻿‌‍​﻿‌‌​﻿​‌​﻿​﻿​﻿‍​​﻿‍‌​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​​​﻿​​​﻿‌﻿​‍﻿‌‌‍​‍​﻿‍​​﻿​﻿​﻿‌‍​‍﻿‌​﻿‌‍​﻿‌‌​﻿​‍​﻿‌​‌‍‌‌​﻿‌‌‌‍​‍​﻿​﻿‌‍‌‍‌‍​‍​﻿‌‍‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‍‌​﻿‌‍​﻿‌‌​﻿​‌​﻿​﻿​﻿‍​​﻿‍‌​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​​​﻿​​​﻿‌﻿​‍﻿‌‌‍​‍​﻿‍​​﻿​﻿​﻿‌‍​‍﻿‌​﻿‌‍​﻿‌‌​﻿​‍​﻿‌​‌‍‌‌​﻿‌‌‌‍​‍​﻿​﻿‌‍‌‍‌‍​‍​﻿‌‍‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/",
       "publishedAt": "2026-05-12T16:41:40Z",
@@ -1414,15 +1432,6 @@
       "imageURL": null
     },
     {
-      "id": "8019b2ac3e190b5a92de",
-      "title": "TiDB and the Rise of the AI-Native Database",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33254",
-      "publishedAt": "2026-04-23T02:19:46Z",
-      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways Data infrastructure, not models, will define AI-era competitive advantage. AI agents are becoming the primary database users. At Manus, they created 90%+ of new instances, 99% single-use. Extreme multi-tenancy is now core. TiDB supports millions o",
-      "imageURL": null
-    },
-    {
       "id": "ce53f76ffe2c7cd53eda",
       "title": "SELinux Volume Label Changes goes GA (and likely implications in v1.37)",
       "sourceName": "Kubernetes Blog",
@@ -1439,15 +1448,6 @@
       "publishedAt": "2026-04-22T15:33:54Z",
       "summary": "This post is cowritten by Anil Akarsu and Dr. Renè Holschuh from BASF. BASF is a global chemical industry leader and active member of the Catena-X Automotive Network . It pioneers sustainable solutions that enable automotive organizations to track carbon emissions across complex supply chains. CircularTree transforms sustainability reporting through innovative digital solutions that systematically",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/15/ARCHBLOG-1358-1.png"
-    },
-    {
-      "id": "c06ade122cbde5a20412",
-      "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/making-rust-workers-reliable/",
-      "publishedAt": "2026-04-22T13:00:00Z",
-      "summary": "Rust Workers run on the Cloudflare Workers platform by compiling Rust to WebAssembly, but as we’ve found, WebAssembly has some sharp edges. When things go wrong with a panic or an unexpected abort, the runtime can be left in an undefined state. For users of Rust Workers, panics were historically fatal, poisoning the instance and possibly even bricking the Worker for a period of time. While we were",
-      "imageURL": null
     },
     {
       "id": "1156330cc1d70c82bd4c",
