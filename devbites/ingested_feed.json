@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "22af742187f5c6ed4437",
+      "title": "A new era for software testing",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/168",
+      "publishedAt": "2026-06-07T09:46:06Z",
+      "summary": "Automatic programming dramatically speeds up writing software in certain use cases and in the right hands. In my experience the output does not reach the structural quality and economy of complexity of the best hand-written software. However, not all the software is stellar, and my feeling is that automatic programming surpasses most of the times (and if well managed) the quality of decently devel",
+      "imageURL": null
+    },
+    {
       "id": "6651348c822d9967997c",
       "title": "Python 3.14 garbage collection rigamarole",
       "sourceName": "Eaton Phil",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-03-31T14:30:00Z",
       "summary": "An AI agent implements a feature. The code compiles. The tests pass. It still misses the point. The wrong kind of correct. Most of our software tooling is optimized for the failures humans used to make. Agents fail differently. They usually don't break the build. They disable the failing test. They reuse the nearest pattern. They preserve the old path and add a new one beside it. Everything looks ",
       "imageURL": null
-    },
-    {
-      "id": "c69d1b6422e7c32d3491",
-      "title": "How we made Trail of Bits AI-native (so far)",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/",
-      "publishedAt": "2026-03-31T11:00:00Z",
-      "summary": "This post is adapted from a talk I gave at [un]prompted , the AI security practitioner conference. Thanks to Gadi Evron for inviting me to speak. You can watch the recorded presentation below or download the slides . Most companies hand out ChatGPT licenses and wait for the productivity numbers to move. We built a system instead. A year ago, about 5% of Trail of Bits was on board with our AI initi",
-      "imageURL": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/remedies_hu_467a5bd562219c7f.webp"
     }
   ]
 }
