@@ -1,12 +1,66 @@
 {
   "articles": [
     {
+      "id": "7c514e82c05eea606d7a",
+      "title": "How Dropbox uses MCP and Dash to close the design-to-code security gap",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/security/dropbox-mcp-dash-design-code-security",
+      "publishedAt": "2026-06-12T18:00:00Z",
+      "summary": "Every security team knows the drill: a new feature goes through design review, a threat model is produced, mitigations are agreed upon, and then development begins. In many cases, by the time implementation reaches code review, the process where engineers review code changes before they go live, the original security requirements are no longer visible in the workflow. A threat model, which outline",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/june/mcp-dash/headers/Security-Using MCP to close the design to code security gap-1440x305-light.png"
+    },
+    {
+      "id": "5d6b5110530cb2306050",
+      "title": "Developers are emotionally attached to their tools​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‌‌‍‌‌‌‍‌​​﻿​‍‌‍​‍​﻿‌​​﻿‌‍‌‍‌‍​‍﻿‌​﻿​﻿​﻿‌​‌‍​‍​﻿‍​​‍﻿‌​﻿‌​‌‍‌‍‌‍​﻿‌‍​‍​‍﻿‌‌‍​‍​﻿‌‌​﻿‌‌​﻿​‍​‍﻿‌​﻿​‍‌‍​‍‌‍​﻿‌‍​﻿​﻿​‍​﻿‌‌‌‍​﻿​﻿​‌‌‍​﻿‌‍‌‌​﻿‌​​﻿‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‌‌‍‌‌‌‍‌​​﻿​‍‌‍​‍​﻿‌​​﻿‌‍‌‍‌‍​‍﻿‌​﻿​﻿​﻿‌​‌‍​‍​﻿‍​​‍﻿‌​﻿‌​‌‍‌‍‌‍​﻿‌‍​‍​‍﻿‌‌‍​‍​﻿‌‌​﻿‌‌​﻿​‍​‍﻿‌​﻿​‍‌‍​‍‌‍​﻿‌‍​﻿​﻿​‍​﻿‌‌‌‍​﻿​﻿​‌‌‍​﻿‌‍‌‌​﻿‌​​﻿‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/06/12/developers-are-emotionally-attached-to-their-tools/",
+      "publishedAt": "2026-06-12T07:40:00Z",
+      "summary": "Ryan welcomes Trisha Gee, a Java champion and developer productivity advocate, to explore how AI is transforming the role of IDEs and the broader developer experience; the relevance of traditional tools, muscle memory, the risks of hype; and how to adapt workflows for AI-driven development.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌",
+      "imageURL": null
+    },
+    {
+      "id": "4405525f8cd34f7129e0",
+      "title": "Agentic Testing: Where Agents Fit in the E2E Testing Stack",
+      "sourceName": "Slack Engineering",
+      "url": "https://slack.engineering/?p=17854",
+      "publishedAt": "2026-06-11T14:15:28Z",
+      "summary": "Abstract Agent-driven end-to-end (E2E) tests add a new exploratory layer to testing, but should they replace traditional deterministic tests? We ran more than 200 agentic E2E workflows using the Playwright MCP, Playwright CLI, and agent-generated Playwright tests in test workspaces using non-production data to find out how agentic testing could fit into both our and your testing stacks. 1. From Jo",
+      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/06/Screenshot-2026-06-09-at-2.10.42-PM.png?w=640"
+    },
+    {
+      "id": "02c911b8a44a729111bd",
+      "title": "Docker Hardened Images enhanced vulnerability scanning with Docker and Aikido",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=91063",
+      "publishedAt": "2026-06-11T12:00:00Z",
+      "summary": "Aikido now scans Docker Hardened Images (DHI) with built-in VEX support. Vulnerabilities that Docker has verified as non-exploitable drop out of the queue automatically, so developers spend their time on findings that actually matter. This post walks through what changed, why it matters, and how users can benefit from the new integration. Why teams are drowning in CVEs Modern application teams dro",
+      "imageURL": null
+    },
+    {
       "id": "c02a7ad268c99ddd294b",
       "title": "When the cost of code approaches zero, what does engineering leadership look like?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿‌‌​﻿‌﻿​﻿‌‌‌‍‌‌‌‍‌‍‌‍‌‌​﻿​​​‍﻿‌​﻿‌﻿‌‍‌‍​﻿‍​​﻿‍‌​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‍​​﻿‌‌​﻿‌﻿​﻿‍​​‍﻿‌​﻿‍‌‌‍​﻿​﻿‌​‌‍​‍​﻿‍​​﻿​‌​﻿‍‌‌‍‌‍‌‍‌‍‌‍‌‍​﻿‌‍‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿‌‌​﻿‌﻿​﻿‌‌‌‍‌‌‌‍‌‍‌‍‌‌​﻿​​​‍﻿‌​﻿‌﻿‌‍‌‍​﻿‍​​﻿‍‌​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‍​​﻿‌‌​﻿‌﻿​﻿‍​​‍﻿‌​﻿‍‌‌‍​﻿​﻿‌​‌‍​‍​﻿‍​​﻿​‌​﻿‍‌‌‍‌‍‌‍‌‍‌‍‌‍​﻿‌‍‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/06/11/engineering-leadership-zero-cost-code/",
       "publishedAt": "2026-06-11T07:40:00Z",
       "summary": "On this episode of Leaders of Code, Eric Anderson, director of engineering at Intuit, joins Stack Overflow engineering director Ben Matthews to talk about what happens to software teams when AI makes code generation seemingly free.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​",
+      "imageURL": null
+    },
+    {
+      "id": "347d8f71fbd6ed405a24",
+      "title": "Stripe Projects adds new agent integrations, more providers, and custom developer controls",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+      "publishedAt": "2026-06-11T00:00:00Z",
+      "summary": "Our data shows that agents are now fully capable of independently writing code and integrating with APIs like Stripe’s. And yet, many of the steps adjacent to writing code are still too hard for agents to do on their own. We’re expanding Stripe Projects to solve this.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/4mPcNGGQ44X1tyxR5NqLkf/c5c51591187eaebeb1291d662bee2356/projects-index.jpg"
+    },
+    {
+      "id": "9590e972743cfb02ac80",
+      "title": "Build Persistent, Scalable AI Agent Memory with TiDB",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33786",
+      "publishedAt": "2026-06-10T15:53:53Z",
+      "summary": "Key Takeaways Agent memory is an infrastructure pattern, not a model feature: Store the past outside the model and inject the relevant slice into each prompt. Every memory system reduces to one loop: Store a row, embed it, search for the nearest vectors, and inject the matches. TiDB holds text, vectors, and metadata in a single table, so filtering and vector (or hybrid BM25) search run in one quer",
       "imageURL": null
     },
     {
@@ -44,6 +98,15 @@
       "publishedAt": "2026-06-10T13:00:00Z",
       "summary": "For most of the Internet’s history, public and private infrastructure operated as separate worlds. Public applications lived behind content delivery networks (CDNs) and web application firewalls (WAFs). Private applications lived behind virtual private networks (VPNs), firewalls, and separate operational stacks. We think that distinction is becoming obsolete. Many of the applications organizations",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3dPNpYW2ByViLaO237MJf/c535f739bb0949b908d529bf62e9ad54/1-connectivity-models_2x__4_.png"
+    },
+    {
+      "id": "463b70b9df5e5b038987",
+      "title": "Updated Requirements to How Apps Access Data in Servers",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/updated-requirements-to-how-apps-access-data-in-servers",
+      "publishedAt": "2026-06-10T00:00:00Z",
+      "summary": "Discord is updating requirements to how apps access certain data within servers, changing the review threshold and requiring annual review. Here's what's changing and why.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a288b1f807541d41908c42b_image1.png"
     },
     {
       "id": "73305c6893e6460537c8",
@@ -115,6 +178,15 @@
       "url": "https://www.pingcap.com/?p=33759",
       "publishedAt": "2026-06-08T15:43:43Z",
       "summary": "Key Takeaways Memory is what users feel. State is what engineers must get right. Most agent failures are state failures, not model failures. Memory depends on retrieval precision, not just persistence. As agents manage their own state, isolation, hybrid retrieval, and governance become product primitives. There is a moment using an AI agent that ruins you a little, because once you have felt it, y",
+      "imageURL": null
+    },
+    {
+      "id": "407056c837637702f65f",
+      "title": "What can 500 years of journalism teach developers about AI trustworthiness?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‌​‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‍​‌‍‌‍‌‍​﻿​‍﻿‌​﻿‌​​﻿​​‌‍‌‍‌‍​‍​‍﻿‌​﻿‌​​﻿​‌​﻿‌‍​﻿‍​​‍﻿‌‌‍​‌​﻿​​​﻿​﻿‌‍‌‌​‍﻿‌​﻿‌‌‌‍​‍​﻿​​​﻿‍‌​﻿‌​​﻿​﻿‌‍‌‍​﻿‌‍​﻿‌​‌‍‌​‌‍‌‍‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‌​‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‍​‌‍‌‍‌‍​﻿​‍﻿‌​﻿‌​​﻿​​‌‍‌‍‌‍​‍​‍﻿‌​﻿‌​​﻿​‌​﻿‌‍​﻿‍​​‍﻿‌‌‍​‌​﻿​​​﻿​﻿‌‍‌‌​‍﻿‌​﻿‌‌‌‍​‍​﻿​​​﻿‍‌​﻿‌​​﻿​﻿‌‍‌‍​﻿‌‍​﻿‌​‌‍‌​‌‍‌‍‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/06/08/what-can-500-years-of-journalism-teach-developers-about-ai-trustworthiness/",
+      "publishedAt": "2026-06-08T14:00:00Z",
+      "summary": "AI reliability issues stem from three separate architectural challenges that keep getting lumped into the same category. Prompt engineering alone can't fix them. But the sourcing and verification frameworks media organizations have used for centuries translate into clear engineering solutions developers can implement today.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿",
       "imageURL": null
     },
     {
@@ -757,15 +829,6 @@
       "imageURL": null
     },
     {
-      "id": "4048e44805c4882df6f7",
-      "title": "Coding Agent Horror Stories: The Security Crisis Threatening Developer Infrastructure",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=89646",
-      "publishedAt": "2026-05-18T13:00:00Z",
-      "summary": "This is issue 1 of a new series called Coding Agent Horror Stories where we examine critical security failures in the AI coding agent ecosystem and how Docker Sandboxes provide enterprise-grade protection against these threats. AI coding agents are everywhere. According to Anthropic’s 2026 Agentic Coding Trends Report, developers are now using AI in roughly 60% of their work. The report describes ",
-      "imageURL": "https://www.docker.com/app/uploads/2026/05/image2-1.png"
-    },
-    {
       "id": "582d245f878fd9dd3b8b",
       "title": "“You can't vibe code scale”: What the AI hype gets wrong about software engineering​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‌‌‍​﻿‌‍​﻿​﻿‌﻿​﻿​‍​﻿​‌​﻿​﻿​﻿‌‍​‍﻿‌​﻿‌﻿​﻿‌​​﻿‍​​﻿‌​​‍﻿‌​﻿‌​​﻿​‌‌‍​‍​﻿​​​‍﻿‌​﻿‍​​﻿​‍​﻿‌​​﻿​﻿​‍﻿‌​﻿​​​﻿‌​‌‍​‌​﻿‍​‌‍‌‍‌‍‌‍​﻿‌‌‌‍​‌‌‍​‌​﻿​﻿‌‍‌​‌‍​﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‌‌‍​﻿‌‍​﻿​﻿‌﻿​﻿​‍​﻿​‌​﻿​﻿​﻿‌‍​‍﻿‌​﻿‌﻿​﻿‌​​﻿‍​​﻿‌​​‍﻿‌​﻿‌​​﻿​‌‌‍​‍​﻿​​​‍﻿‌​﻿‍​​﻿​‍​﻿‌​​﻿​﻿​‍﻿‌​﻿​​​﻿‌​‌‍​‌​﻿‍​‌‍‌‍‌‍‌‍​﻿‌‌‌‍​‌‌‍​‌​﻿​﻿‌‍‌​‌‍​﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -1063,24 +1126,6 @@
       "imageURL": null
     },
     {
-      "id": "fd38e6bb9325f355de8f",
-      "title": "When the Sensor Starts Thinking: SnortML, Agentic AI, and the Evolving Architecture of Intrusion Detection​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿​﻿‌‍‌‍​﻿​﻿‍‌​﻿‌﻿​﻿‌﻿​﻿​‌‌‍​‍​‍﻿‌​﻿​﻿​﻿‌​‌‍‌‌​﻿‌‍​‍﻿‌​﻿‌​‌‍‌​​﻿‍‌​﻿‍​​‍﻿‌​﻿‍​​﻿‌‍​﻿‌​​﻿​‌​‍﻿‌‌‍‌‌‌‍​﻿‌‍‌‌‌‍‌‍‌‍​﻿​﻿‌﻿​﻿​‌​﻿​‌‌‍‌‍​﻿​​‌‍‌‌‌‍‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿​﻿‌‍‌‍​﻿​﻿‍‌​﻿‌﻿​﻿‌﻿​﻿​‌‌‍​‍​‍﻿‌​﻿​﻿​﻿‌​‌‍‌‌​﻿‌‍​‍﻿‌​﻿‌​‌‍‌​​﻿‍‌​﻿‍​​‍﻿‌​﻿‍​​﻿‌‍​﻿‌​​﻿​‌​‍﻿‌‌‍‌‌‌‍​﻿‌‍‌‌‌‍‌‍‌‍​﻿​﻿‌﻿​﻿​‌​﻿​‌‌‍‌‍​﻿​​‌‍‌‌‌‍‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/05/11/when-the-sensor-starts-thinking-snortml-agentic-ai-and-the-evolving-architecture-of-intrusion-detection/",
-      "publishedAt": "2026-05-11T16:25:54Z",
-      "summary": "Signature-based detection has always known what it was looking for. Machine learning and autonomous agents are changing the question entirely, shifting from \"does this match a known pattern?\" to \"does this actually make sense in context?\"​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍",
-      "imageURL": null
-    },
-    {
-      "id": "c6b15354faff3da759cb",
-      "title": "OAuth 2.0 – Device flow explained for Engineers, especially for Backend Engineers​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‌‌‍​﻿​﻿​‍​﻿‌‍​﻿‌​​﻿​​‌‍​﻿​﻿​﻿​‍﻿‌​﻿‌‌​﻿‌‌​﻿​​​﻿​‍​‍﻿‌​﻿‌​​﻿​‍​﻿​﻿‌‍‌‍​‍﻿‌​﻿‍‌​﻿​​​﻿‍‌‌‍‌​​‍﻿‌​﻿​​‌‍‌‌​﻿‍‌​﻿​​​﻿​‌‌‍​﻿​﻿‌﻿​﻿​﻿​﻿‌‍‌‍‌‌​﻿‌‍‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‌‌‍​﻿​﻿​‍​﻿‌‍​﻿‌​​﻿​​‌‍​﻿​﻿​﻿​‍﻿‌​﻿‌‌​﻿‌‌​﻿​​​﻿​‍​‍﻿‌​﻿‌​​﻿​‍​﻿​﻿‌‍‌‍​‍﻿‌​﻿‍‌​﻿​​​﻿‍‌‌‍‌​​‍﻿‌​﻿​​‌‍‌‌​﻿‍‌​﻿​​​﻿​‌‌‍​﻿​﻿‌﻿​﻿​﻿​﻿‌‍‌‍‌‌​﻿‌‍‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/05/11/oauth-2-0-device-flow-explained-for-engineers-especially-for-backend-engineers/",
-      "publishedAt": "2026-05-11T16:11:05Z",
-      "summary": null,
-      "imageURL": null
-    },
-    {
       "id": "c5a9b612fcb5a9ed7329",
       "title": "Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable",
       "sourceName": "Meta Engineering",
@@ -1333,15 +1378,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3D8fGfZalW4N4h7QngR8tN/59ef281c194cfcba12ea6cfb6ec240d7/image2.png"
     },
     {
-      "id": "12a4c5d318f377e5576e",
-      "title": "When AI Agent Memory Outgrows SQLite: How to Tell, and What to Move to Next",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33380",
-      "publishedAt": "2026-04-30T18:54:27Z",
-      "summary": "Key Takeaways SQLite is the right default for local, single-user agent memory. Keep it if you do not need shared recall or cross-device continuity. The signal to move on is sync logic accumulating around SQLite, not the file getting too big. Patching SQLite with metadata tables, file sync, and a separate vector store costs as much as a real backend without the ergonomics of one. TiDB Cloud Zero gi",
-      "imageURL": null
-    },
-    {
       "id": "6b220076ef8aba3062e0",
       "title": "Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta",
       "sourceName": "Kubernetes Blog",
@@ -1378,15 +1414,6 @@
       "imageURL": null
     },
     {
-      "id": "04b5d706b731012e92d9",
-      "title": "Everything we announced at Sessions 2026",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
-      "publishedAt": "2026-04-29T00:00:00Z",
-      "summary": "We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png"
-    },
-    {
       "id": "4483fd09e7898dae561d",
       "title": "Giving agents the ability to pay",
       "sourceName": "Stripe Blog",
@@ -1394,6 +1421,15 @@
       "publishedAt": "2026-04-29T00:00:00Z",
       "summary": "Link’s wallet for agents gives agents programmatic access to Link, including the ability to generate a one-time-use card or Shared Payment Token (SPT) backed by the cards and bank accounts already in your wallet. It’s built on Stripe’s new Issuing for agents.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png"
+    },
+    {
+      "id": "04b5d706b731012e92d9",
+      "title": "Everything we announced at Sessions 2026",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+      "publishedAt": "2026-04-29T00:00:00Z",
+      "summary": "We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png"
     },
     {
       "id": "7d083902e3b043ce0df0",
@@ -1711,15 +1747,6 @@
       "imageURL": null
     },
     {
-      "id": "29928ebb802b52012c3e",
-      "title": "How agents, digital wallets, and trust are rewriting checkout",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/global-checkout-trends",
-      "publishedAt": "2026-04-07T00:00:00Z",
-      "summary": "We analyzed checkout activity across more than 20K businesses, surveyed shoppers and ecommerce leaders, and gathered insights from businesses on the Stripe network to understand what’s changing in online conversion.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/ldkId6Rz1TQvWrVdACbe0/c3c1a161b959d5714171ee73b4e79fcc/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png"
-    },
-    {
       "id": "0a0c8791c404efbffa87",
       "title": "The Building Block Economy",
       "sourceName": "Mitchell Hashimoto",
@@ -1771,33 +1798,6 @@
       "url": "http://notes.eatonphil.com/2026-04-03-who-contributed-to-datafusion-53.html",
       "publishedAt": "2026-04-03T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "68c4f22d6c9f64e16156",
-      "title": "Improving storage efficiency in Magic Pocket, our immutable blob store",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/infrastructure/improving-storage-efficiency-in-magic-pocket-our-immutable-blob-store",
-      "publishedAt": "2026-04-02T17:00:00Z",
-      "summary": "Magic Pocket is the core Dropbox storage system—a custom-built, exabyte-scale blob storage system designed for durability, availability, scale, and efficiency. It holds user content, which means it must be safe, fast, and cost-effective to scale with the company. For Dropbox, storage efficiency really matters. We measure it by looking at how much total disk space we use compared to how much user d",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/march/magic-pocket-compaction/headers/Infrastructure-Optimizing compaction in Magic Pocket-1440x305-light.png"
-    },
-    {
-      "id": "93738ffebf1686e322be",
-      "title": "Automate safety monitoring with computer vision and generative AI",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/automate-safety-monitoring-with-computer-vision-and-generative-ai/",
-      "publishedAt": "2026-04-01T18:59:02Z",
-      "summary": "Workplace safety has improved dramatically over the past several decades. According to the Bureau of Labor Statistics, occupational injury rates in the United States have declined by more than 60% since the early 1970s . This is driven by stronger regulations, better training programs, and a growing culture of safety-first operations. Despite this progress, the International Labour Organization re",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/27/ML-ARCHBLOG-1344-image-1.png"
-    },
-    {
-      "id": "7b435c9435780846b6cd",
-      "title": "Mutation testing for the agentic era",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/",
-      "publishedAt": "2026-04-01T11:00:00Z",
-      "summary": "Code coverage is one of the most dangerous quality metrics in software testing. Many developers fail to realize that code coverage lies by omission: it measures execution, not verification. Test suites with high coverage can obfuscate the fact that critical functionality is untested as software develops over time. We saw this when mutation testing uncovered a high-severity Arkis protocol vulnerabi",
       "imageURL": null
     }
   ]
