@@ -109,6 +109,15 @@
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/4mPcNGGQ44X1tyxR5NqLkf/c5c51591187eaebeb1291d662bee2356/projects-index.jpg"
     },
     {
+      "id": "0a6fd91bf815f3a9a7c0",
+      "title": "This week in infrastructure",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-06-11-this-week-in-infrastructure.html",
+      "publishedAt": "2026-06-11T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "9590e972743cfb02ac80",
       "title": "Build Persistent, Scalable AI Agent Memory with TiDB",
       "sourceName": "PingCAP / TiDB",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-04-03T16:00:00Z",
       "summary": "Pull requests are the beating heart of GitHub. As engineers, this is where we spend a good portion of our time. And at GitHub’s scale—where pull requests can range from tiny one-line fixes to changes spanning thousands of files and millions of lines—the pull request review experience has to stay fast and responsive. We recently shipped the new React-based experience for the Files changed tab (now ",
       "imageURL": "https://github.blog/wp-content/uploads/2026/04/3.png?resize=960%2C1340"
-    },
-    {
-      "id": "a59e2961a36f65328179",
-      "title": "Simplifying MBA obfuscation with CoBRA",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/",
-      "publishedAt": "2026-04-03T11:00:00Z",
-      "summary": "Mixed Boolean-Arithmetic (MBA) obfuscation disguises simple operations like x + y behind tangles of arithmetic and bitwise operators. Malware authors and software protectors rely on it because no standard simplification technique covers both domains simultaneously; algebraic simplifiers don’t understand bitwise logic, and Boolean minimizers can’t handle arithmetic. We’re releasing CoBRA , an open-",
-      "imageURL": null
     }
   ]
 }
