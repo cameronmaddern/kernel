@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "476ac39f5346a1a08c1f",
+      "title": "AI demands more engineering discipline. Not less (xpost)",
+      "sourceName": "Charity Majors",
+      "url": "https://charity.wtf/?p=10460",
+      "publishedAt": "2026-06-15T05:38:29Z",
+      "summary": "If you lived through the shift from handcrafted server pets to immutable infrastructure, you should sense something oddly familiar about what’s happening now. Crossposted from AI demands more engineering discipline. Not less. A few days back I wrote a piece called “ AI enthusiasts are in a race against time, AI skeptics are in a race against entropy .” I have notes on a whole pile of AI-related to",
+      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%213g6N%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87a779c4-2e63-495a-aa1b-b44f1558a24f_903x241.png?w=556&#038;ssl=1"
+    },
+    {
+      "id": "3f998dd3ae716b5c1f9a",
+      "title": "Database Branching for AI Agents: How TINE Solves the Schema Drift Problem",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=33867",
+      "publishedAt": "2026-06-15T05:03:08Z",
+      "summary": "Key Takeaways AI agents iterating against a shared database produce three compounding failure modes: schema drift, irreproducible state, and rollback gaps. These are structural outcomes, not edge cases. TINE binds every agent iteration to a Git commit, a TiDB branch, and a sandbox runtime. Any prior state is precisely recoverable from that three-way pointer. TiDB Cloud’s Copy-on-Write branching ma",
+      "imageURL": "https://static.pingcap.com/files/2026/06/14215558/image-5-1024x523.png"
+    },
+    {
+      "id": "632cd79d37fc15808c8a",
+      "title": "Spotlight on SIG Storage",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
+      "publishedAt": "2026-06-15T00:00:00Z",
+      "summary": "In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project moving forward. This time, we catch up with SIG Storage , the group responsible for persistent data, volume management, and the interfaces that connect Kubernetes workloads to the storage systems beneath them. We spoke with Xing Yang , Co-Chair of SIG Storage and Software Engineer at VMware by Broa",
+      "imageURL": null
+    },
+    {
       "id": "7c514e82c05eea606d7a",
       "title": "How Dropbox uses MCP and Dash to close the design-to-code security gap",
       "sourceName": "Dropbox Tech",
@@ -1216,15 +1243,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69fb97b51217ebb66107035c_2024_10_DiscordBlog_DevandEngineers-5.png"
     },
     {
-      "id": "e798d740b5d9a3954b44",
-      "title": "What is a Context Platform? A New Pattern for AI Agents in Production",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33450",
-      "publishedAt": "2026-05-07T21:03:21Z",
-      "summary": "Key Takeaways A context platform is a single operational data layer that unifies vector search, structured queries, and real-time analytics in one system. AI apps fail in production because of the data layer, not the model. The stitched stack of vector DB, relational DB, and cache breaks at production scale. Three requirements: a unified SQL interface, real-time freshness, and elastic scale. Matur",
-      "imageURL": "https://static.pingcap.com/files/2026/05/08125503/image.png"
-    },
-    {
       "id": "9afd8fa54c15d59ec2ed",
       "title": "Building for the future",
       "sourceName": "Cloudflare Blog",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-04-06T21:14:13Z",
       "summary": "Amazon SageMaker HyperPod offers an end-to-end experience supporting the full lifecycle of AI development—from interactive experimentation and training to inference and post-training workflows. The SageMaker HyperPod Inference Operator is a Kubernetes controller that manages the deployment and lifecycle of models on HyperPod clusters, offering flexible deployment interfaces (kubectl, Python SDK, S",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/31/ARCHBLOG-1389-1.png"
-    },
-    {
-      "id": "495966aeccfaea03f1a2",
-      "title": "Discord Patch Notes: April 6, 2026",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-patch-notes-april-6-2026",
-      "publishedAt": "2026-04-06T00:00:00Z",
-      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
-    },
-    {
-      "id": "f1404b45019c6c360f33",
-      "title": "The uphill climb of making diff lines performant",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=94994",
-      "publishedAt": "2026-04-03T16:00:00Z",
-      "summary": "Pull requests are the beating heart of GitHub. As engineers, this is where we spend a good portion of our time. And at GitHub’s scale—where pull requests can range from tiny one-line fixes to changes spanning thousands of files and millions of lines—the pull request review experience has to stay fast and responsive. We recently shipped the new React-based experience for the Files changed tab (now ",
-      "imageURL": "https://github.blog/wp-content/uploads/2026/04/3.png?resize=960%2C1340"
     }
   ]
 }
