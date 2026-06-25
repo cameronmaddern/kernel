@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "a994e1ad2614d1307fe5",
+      "title": "Make AI Boring Again (xpost)",
+      "sourceName": "Charity Majors",
+      "url": "https://charity.wtf/?p=10475",
+      "publishedAt": "2026-06-24T19:57:33Z",
+      "summary": "On the ethics of engagement, the problem with purity politics, and a world worth fighting for Crossposted from here. I am a contrarian who likes to argue and complain a lot. Because of this, I have never been inclined to block people who argue with me or complain about my work, or even lash out at me with some hostility. I could say a lot of noble sounding things about how I value debate and open ",
+      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%21UVCm%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c7f553b-23da-4aca-baee-80abe60d9fad_859x289.png?w=535&#038;ssl=1"
+    },
+    {
+      "id": "1924dfdef89b1b22c367",
+      "title": "Spotlight on WG Device Management",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/06/24/wg-device-management-spotlight-2026/",
+      "publishedAt": "2026-06-24T18:00:00Z",
+      "summary": "The rising popularity of AI, Edge, and Telecommunications workloads on Kubernetes has led to new requirements for hardware management. We now need hardware specification beyond CPU time and memory allocations. This includes allocating GPUs, TPUs, network interfaces, and other hardware, sometimes after pod start and occasionally through time-sharing. Efficiently managing this specialized hardware i",
+      "imageURL": null
+    },
+    {
+      "id": "5c814bdb8f0b9420b995",
+      "title": "Postgres Sorting at Scale Needs More Than ORDER BY",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/postgres-sorting-at-scale-order-by",
+      "publishedAt": "2026-06-24T13:06:04Z",
+      "summary": "Your dashboard query ran in 180ms at 10 million rows. Six months later, at 500 million rows, it takes 4 seconds. Nothing changed in the schema. The index is still there. So what happened? The index on (device_id, ts DESC) looks like it covers the query. And it does, up to a point. The trouble starts when that index outgrows your shared buffer pool and random I/O takes over. At that point, ORDER BY",
+      "imageURL": null
+    },
+    {
+      "id": "7c6111284e721a5c261a",
+      "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/oauth-for-all/",
+      "publishedAt": "2026-06-24T06:00:00Z",
+      "summary": "Cloudflare provides services that help run 20% of the web, but we don’t do it alone. Developers on our platform use a myriad of tools and services from other companies too. Cloudflare provides a rich API for our platform that enables developers to create automations, CI/CD, and integrations that glue together the various parts of their infrastructure. Earlier this month, we announced self-managed ",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/tbiQb2wX9zyyC2n6cOMmv/706bacb728d5abef09117c3893ec288d/hydra_upgrade_diagram.png"
+    },
+    {
       "id": "ee0bb6bac6ebc81c83f4",
       "title": "The post-quantum EO is an important milestone. Now it’s time to get to work",
       "sourceName": "Cloudflare Blog",
@@ -233,15 +269,6 @@
       "publishedAt": "2026-06-19T13:00:00Z",
       "summary": "Everyone's writing code with AI agents today. But the moment an agent needs to deploy something — and needs to sign up and create an account — it slams face-first into a wall built for humans: a browser-based OAuth flow, a dashboard to click through, an API token to copy-paste, a multi-factor authentication prompt to satisfy. For an interactive copilot sitting next to a developer, that's annoying.",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6joSXmAJAARgyGphPhXGla/9c3e8cef6f269df6a9c458495c5fe40b/image2.png"
-    },
-    {
-      "id": "0ebd38a994fc3bf558a2",
-      "title": "Why Your PostgreSQL Partition Key Is Creating a Write Bottleneck",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/why-postgresql-partition-key-creating-write-bottleneck",
-      "publishedAt": "2026-06-19T11:23:00Z",
-      "summary": "At 50K inserts per second, a skewed partition key can concentrate 40K of those inserts onto a single partition. That one partition bottlenecks your entire write path while the other 199 sit idle. When most teams add partitioning to a high-volume table, they partition by whatever column they already filter on. For a SaaS product, that typically means region_id . For a logistics platform, it's wareh",
-      "imageURL": null
     },
     {
       "id": "81bb19345c0f173bd31f",
@@ -1171,15 +1198,6 @@
       "imageURL": null
     },
     {
-      "id": "21949b98bb24285761af",
-      "title": "Announcing Claude Compliance API support with Cloudflare CASB",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/casb-anthropic-integration/",
-      "publishedAt": "2026-05-21T17:00:00Z",
-      "summary": "Today, we are extending Cloudflare’s cloud access security broker (CASB) to support the Claude Compliance API . Security and compliance teams can now monitor Claude usage directly in the Cloudflare dashboard. No endpoint agents required. Enterprise security teams have long struggled to see how users interact with sanctioned and unsanctioned applications. The rapid adoption of AI applications has m",
-      "imageURL": null
-    },
-    {
       "id": "ac44377e3f5a5c6d72a7",
       "title": "Introducing Nova, our internal platform for coding agents",
       "sourceName": "Dropbox Tech",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-04-24T00:00:00Z",
       "summary": "Too many experiment metrics can make meaningful changes harder to detect. Learn how Discord used simulations and Principal Component Analysis to maximize signal and reduce noise.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6806ad72843df60c11e54f23_image4.png"
-    },
-    {
-      "id": "29d2bad6bd5652668e8b",
-      "title": "How We Built a Smarter Pickup Experience for Gated Communities",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/47416e9df029",
-      "publishedAt": "2026-04-23T19:16:44Z",
-      "summary": "If you live in a gated community, you’ve been there: You request a ride from your apartment complex, expect your driver to come to you as usual, and then — your driver’s car icon just stops right at the front gate. You watch helplessly as the ETA ticks up. A chat message comes in: “Hey, how do I get in?” You scramble to remember the gate code. They try it. It doesn’t work. You end up meeting them ",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*cxVOjt0GnB5tRXbNktweOA.jpeg"
-    },
-    {
-      "id": "dba00b9b9e15f8c36837",
-      "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/",
-      "publishedAt": "2026-04-23T18:35:00Z",
-      "summary": "After several years of development, User Namespaces support in Kubernetes reached General Availability (GA) with the v1.36 release. This is a Linux-only feature. For those of us working on low level container runtimes and rootless technologies, this has been a long awaited milestone. We finally reached the point where \"rootless\" security isolation can be used for Kubernetes workloads. This feature",
-      "imageURL": null
     }
   ]
 }
