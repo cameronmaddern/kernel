@@ -10,6 +10,15 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/06/EU-AI-Act-Risk-Classification-2320x1218.png"
     },
     {
+      "id": "2856b365b9bfc9c5676c",
+      "title": "The feature in OxCaml that more languages should steal",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-06-27-the-feature-in-oxcaml-more-languages-should-steal.html",
+      "publishedAt": "2026-06-27T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "09fb0e5cb2f624fa5322",
       "title": "Open source maintainership in the age of AI",
       "sourceName": "Kubernetes Blog",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-04-29T00:00:00Z",
       "summary": "On March 25th, voice and video on Discord suffered major degradation beginning at 12:13 PDT, lasting a little over three hours. Learn how the issue originated, how it affected systems across Discord, how we recovered, and how we’re preventing the same problem from reoccurring.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69f2444973213ba625d60106_2024_10_DiscordBlog_Safety-1.png"
-    },
-    {
-      "id": "705ed9c330e321ed8e28",
-      "title": "Kubernetes v1.36: Staleness Mitigation and Observability for Controllers",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/",
-      "publishedAt": "2026-04-28T18:35:00Z",
-      "summary": "Staleness in Kubernetes controllers is a problem that affects many controllers, and is something may affect controller behavior in subtle ways. It is usually not until it is too late, when a controller in production has already taken incorrect action, that staleness is found to be an issue due to some underlying assumption made by the controller author. Some issues caused by staleness include cont",
-      "imageURL": null
     }
   ]
 }
