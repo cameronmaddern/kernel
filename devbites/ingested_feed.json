@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "029f27c0cb48c8c6370c",
+      "title": "Why intent prediction needs more than an LLM​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‌​﻿​​‌‍‌‍​﻿‌​​﻿‌‌​﻿​​​﻿‍‌‌‍​﻿​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‌​﻿‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​‌​﻿​‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​‌‍​﻿​‍﻿‌​﻿‌‌​﻿‌‌​﻿‌‌​﻿‌‍‌‍‌‌​﻿‍​​﻿​‍​﻿​‌‌‍‌‌‌‍​‌​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‌​﻿​​‌‍‌‍​﻿‌​​﻿‌‌​﻿​​​﻿‍‌‌‍​﻿​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‌​﻿‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​‌​﻿​‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​‌‍​﻿​‍﻿‌​﻿‌‌​﻿‌‌​﻿‌‌​﻿‌‍‌‍‌‌​﻿‍​​﻿​‍​﻿​‌‌‍‌‌‌‍​‌​﻿‌﻿​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/06/30/why-intent-prediction-needs-more-than-an-llm/",
+      "publishedAt": "2026-06-30T07:40:00Z",
+      "summary": "Ryan sits down with Frank Portman, CTO at Yobi, to talk about why next-token prediction, though great for language, isn’t the right inductive bias for forecasting human behavior. They discuss how Yobi builds a “foundation model of behavior” using transformers and graph neural networks instead of chat-style LLMs, and what it takes to run millions of personalization decisions per second while keepin",
+      "imageURL": null
+    },
+    {
+      "id": "659ddb1d1a563a04d9f3",
+      "title": "Lessons learned from scaling to 1 million Lambda functions",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/lessons-learned-from-scaling-to-1-million-lambda-functions/",
+      "publishedAt": "2026-06-29T17:21:05Z",
+      "summary": "In this post, we share our journey and the lessons learned from building and running a fully serverless, multi-account software as a service (SaaS) platform at scale. We’ll explore why true scale-to-zero is critical, how we handle quota management, why engaging AWS service teams early saved us from outages, and which unexpected practices emerged once we scaled from thousands to over a million func",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/17/ARCHBLOG-1323-1.png"
+    },
+    {
+      "id": "72e6a9787b36d2a90e5c",
+      "title": "Preventing data exfiltration in machine learning environments with Amazon SageMaker AI",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/preventing-data-exfiltration-in-machine-learning-environments-with-amazon-sagemaker-ai/",
+      "publishedAt": "2026-06-29T17:16:48Z",
+      "summary": "If you’re building machine learning solutions with sensitive data, you face a persistent challenge: preventing data exfiltration while enabling data scientists to work productively. iBusiness , an AI-driven fintech organization, needed its data scientists to work with sensitive data to fine-tune and improve machine learning models. As the data science team scaled, traditional air-gapped environmen",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/02/ARCHBLOG-1385-1.png"
+    },
+    {
+      "id": "7abdc52d3fe04b272792",
+      "title": "Dual-token authentication for Nakama game servers with Amazon Cognito on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/dual-token-authentication-for-nakama-game-servers-with-amazon-cognito-on-aws/",
+      "publishedAt": "2026-06-29T17:09:54Z",
+      "summary": "When your game server needs both a managed identity provider and its own session system, players face a broken experience if authentication forces a redirect or stalls gameplay. Dual-token authentication for Nakama game servers with Amazon Cognito solves this by connecting two independent session systems, each with its own token lifecycle, without interrupting the player. This post shows you how. ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/17/ARCHBLOG-1497-1-1.png"
+    },
+    {
+      "id": "beb5bf1f770b5a6a8e53",
+      "title": "How Small Postgres Metadata Tables Quietly Throttle Your Largest Queries",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/small-postgres-metadata-tables",
+      "publishedAt": "2026-06-29T13:34:12Z",
+      "summary": "Most time-series performance work starts with the obvious suspect: the fact table. Five hundred million rows of sensor readings, hundreds of daily partitions, an autovacuum worker fighting write load. That is where engineers go first. That is where the Optimization Treadmill lives. But after reading this guide, you'll know how to find a different class of slowdown hiding in the opposite direction,",
+      "imageURL": null
+    },
+    {
+      "id": "b573a0b7e4a0edd1d8ca",
+      "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/77146fba8a08",
+      "publishedAt": "2026-06-29T13:01:02Z",
+      "summary": "Authors: Lequn Wang , J iangwei Pan , and Linas Baltrunas Figure 1. Autoregressive homepage generation. GenPage builds a Netflix homepage one row or entity at a time, each one conditioned on what’s already on the page and the user’s context. Introduction The Netflix homepage is the first thing users see when they open the app and the primary way they discover content to enjoy. Almost every part of",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*NurrizMgC7_QbsGuuW42Dg.gif"
+    },
+    {
       "id": "a0974d3a65cecbad5cef",
       "title": "What Does EU AI Act Compliance Require?",
       "sourceName": "Docker Blog",
@@ -109,15 +163,6 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/06/image.png"
     },
     {
-      "id": "1fa1ab062b6fde3b0a13",
-      "title": "What You’re Really Owning When You Self-Host TimescaleDB",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/self-hosting-timescaledb-platform-ownership",
-      "publishedAt": "2026-06-25T13:51:54Z",
-      "summary": "Why operating TimescaleDB for mission-critical applications becomes a sustained platform engineering investment. Written by the team that builds TimescaleDB and operates Tiger Cloud across thousands of production deployments. Abstract Most engineers who evaluate TimescaleDB believe they are making a database decision. By the time customers depend on the application in production, they discover the",
-      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/06/single-vs-prod.png"
-    },
-    {
       "id": "0e1a4fb0b00cfc080a55",
       "title": "How we built saga rollbacks for Cloudflare Workflows",
       "sourceName": "Cloudflare Blog",
@@ -187,7 +232,7 @@
       "url": "https://blog.cloudflare.com/post-quantum-eo-2026/",
       "publishedAt": "2026-06-23T18:25:18Z",
       "summary": "On June 22, 2026, President Trump signed Executive Order 14412 , \"Securing the Nation Against Advanced Cryptographic Attacks.\" The order sets a December 31, 2030, deadline for federal agencies to transition their most sensitive systems to post-quantum encryption , and a December 31, 2031, deadline for post-quantum authentication . The EO also directs federal contractors to comply with post-quantum",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/399EKuhN38jLx1pAGEgx3z/1f93784f4c98df9a108b5c8d1803218b/BLOG-3360_3.png"
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4ZPdZZj0jIz2ZFsgOdTLnW/b3633cb8438622a4af0bba1ad63c799d/Screenshot_2026-06-29_at_12.23.04.png"
     },
     {
       "id": "20427d0aa368687226fe",
@@ -386,15 +431,6 @@
       "publishedAt": "2026-06-19T23:52:02Z",
       "summary": "By Parth Jain , Rakesh Sukumar , Yingwu Zhao , Renzo Sanchez-Silva & Nathan Fisher How we built a living map of our distributed infrastructure to help engineers understand dependencies, troubleshoot faster, and keep Netflix running smoothly for our members around the world. The Puzzle with a Thousand Pieces Picture this: It’s 3am, and an engineer gets paged. One of our critical services is showing",
       "imageURL": "https://cdn-images-1.medium.com/max/799/1*t_oo96UujawlqwGtmBBm7Q.png"
-    },
-    {
-      "id": "ce871b2dc47dfd135e06",
-      "title": "VMAF v1: Good Is Not Good Enough",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/60d7e4244ea8",
-      "publishedAt": "2026-06-19T23:50:05Z",
-      "summary": "By Christos G. Bampis , Zhi Li , Kyle Swanson, Nil Fons Miret and Pavan Madhusudanarao Will this encode look good to Netflix members? Does switching to a new codec improve quality at the same bitrate and by how much? What is the best way to encode a movie title given a target bitrate budget? For years, VMAF has reliably helped us answer those questions and deliver an optimized quality of experienc",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*4Ymg7tqfTpT3SUSQX92smw.png"
     },
     {
       "id": "39d7875dcd6fd3598633",
@@ -1261,15 +1297,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/05/SilverTorch-Index-as-Model-architecture.png"
     },
     {
-      "id": "b0d10ef0be0c40525782",
-      "title": "Do you have what it takes to run AI in production?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿‌‌​﻿‌‌‌‍‌‍​﻿‌​​﻿​‌‌‍​‍‌‍‌​​‍﻿‌‌‍‌‍‌‍​‍​﻿‍‌​﻿​﻿​‍﻿‌​﻿‌​‌‍​‍​﻿‍​​﻿​​​‍﻿‌‌‍​‌​﻿​‍​﻿‌‌‌‍​‌​‍﻿‌​﻿​‌‌‍​﻿‌‍​‌‌‍​﻿​﻿‌﻿‌‍‌​‌‍​‌‌‍​‍​﻿‌﻿‌‍​‍​﻿​​‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿‌‌​﻿‌‌‌‍‌‍​﻿‌​​﻿​‌‌‍​‍‌‍‌​​‍﻿‌‌‍‌‍‌‍​‍​﻿‍‌​﻿​﻿​‍﻿‌​﻿‌​‌‍​‍​﻿‍​​﻿​​​‍﻿‌‌‍​‌​﻿​‍​﻿‌‌‌‍​‌​‍﻿‌​﻿​‌‌‍​﻿‌‍​‌‌‍​﻿​﻿‌﻿‌‍‌​‌‍​‌‌‍​‍​﻿‌﻿‌‍​‍​﻿​​‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/05/26/do-you-have-what-it-takes-to-run-ai-in-production/",
-      "publishedAt": "2026-05-26T07:40:00Z",
-      "summary": "From the floor of HumanX, Ryan Donovan is joined by Peter Salanki, CTO and co-founder of CoreWeave, to chat about what it really takes to run AI in production; the growing importance of observability, utilization, and scheduling; and Peter’s advice for avoiding the trap of over-architecting too early. ​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌",
-      "imageURL": null
-    },
-    {
       "id": "5c1bf23fc60d4b100a94",
       "title": "Distributing LLM inference in DwarfStar",
       "sourceName": "Salvatore Sanfilippo (antirez)",
@@ -1558,15 +1585,6 @@
       "imageURL": null
     },
     {
-      "id": "e2392c81b5b57a033938",
-      "title": "Choosing between single or multiple organizations in AWS Organizations",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/choosing-between-single-or-multiple-organizations-in-aws-organizations/",
-      "publishedAt": "2026-05-11T18:56:38Z",
-      "summary": "Organizations face critical architectural decisions that can impact their operations for years to come. Recently, I had the opportunity to collaborate with a cloud migration advisor on a question that challenges many enterprises during their cloud adoption journey: Is it better to maintain a single organization or implement multiple organizations? This same question was also asked on re:Post . Thi",
-      "imageURL": null
-    },
-    {
       "id": "c5a9b612fcb5a9ed7329",
       "title": "Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable",
       "sourceName": "Meta Engineering",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-04-29T18:35:00Z",
       "summary": "On behalf of SIG Node, we are pleased to announce updates to the Memory QoS feature (alpha) in Kubernetes v1.36. Memory QoS uses the cgroup v2 memory controller to give the kernel better guidance on how to treat container memory. It was first introduced in v1.22 and updated in v1.27. In Kubernetes v1.36, we're introducing: opt-in memory reservation, tiered protection by QoS class, observability me",
       "imageURL": null
-    },
-    {
-      "id": "e66aa81f67eab36715eb",
-      "title": "Extending Ruzzy with LibAFL",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/",
-      "publishedAt": "2026-04-29T11:00:00Z",
-      "summary": "LibAFL is all the rage in the fuzzing community these days, especially with LLVM’s libFuzzer being placed in maintenance mode . Written in Rust, LibAFL claims improved performance, modularity, state-of-the-art fuzzing techniques, and libFuzzer compatibility . For these reasons, I set out to add LibAFL support to Ruzzy , our coverage-guided fuzzer for pure Ruby code and Ruby C extensions. This give",
-      "imageURL": null
-    },
-    {
-      "id": "7d083902e3b043ce0df0",
-      "title": "You’ve Got (Too Much) Mail: Behind the Scenes of the 3/25/26 Voice Outage",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/behind-the-scenes-of-the-3-25-26-voice-outage",
-      "publishedAt": "2026-04-29T00:00:00Z",
-      "summary": "On March 25th, voice and video on Discord suffered major degradation beginning at 12:13 PDT, lasting a little over three hours. Learn how the issue originated, how it affected systems across Discord, how we recovered, and how we’re preventing the same problem from reoccurring.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69f2444973213ba625d60106_2024_10_DiscordBlog_Safety-1.png"
     }
   ]
 }
