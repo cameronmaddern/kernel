@@ -1,12 +1,66 @@
 {
   "articles": [
     {
+      "id": "635cc22979281982f316",
+      "title": "10 Years of Meta’s Commitment to Python",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24128",
+      "publishedAt": "2026-06-30T16:00:46Z",
+      "summary": "This year marks Meta’s 10th consecutive year as a sponsor of the Python Software Foundation (PSF) , the charitable organization dedicated to advancing, supporting, and protecting the open-source Python programming language and the community that sustains it. Python is one of the world’s most influential programming languages, and we use it across our engineering stack, from the backend of our apps",
+      "imageURL": null
+    },
+    {
+      "id": "39b2f36bb45464d12e47",
+      "title": "How Float Runs an AI Energy Company on a 3-Person Team with Tiger Data",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/how-float-runs-ai-energy-company-3-person-team-tiger-data",
+      "publishedAt": "2026-06-30T11:00:05Z",
+      "summary": "Danish startup achieves 99.3% compression on 1Hz smart meter data, powering real-time appliance-level energy analytics for hundreds of homes. Float is a Danish AI and energy startup that collects 1Hz smart meter data from hundreds of homes and disaggregates it into per-appliance consumption using a proprietary ML model. The entire system depends on one architectural bet: that compression on their ",
+      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/06/float-tiger-data-architecture-diagram.svg"
+    },
+    {
+      "id": "1ecbead8836eb6e50e41",
+      "title": "Shipping post-quantum cryptography to Python",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/",
+      "publishedAt": "2026-06-30T11:00:00Z",
+      "summary": "Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quan",
+      "imageURL": null
+    },
+    {
       "id": "029f27c0cb48c8c6370c",
       "title": "Why intent prediction needs more than an LLM​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‌​﻿​​‌‍‌‍​﻿‌​​﻿‌‌​﻿​​​﻿‍‌‌‍​﻿​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‌​﻿‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​‌​﻿​‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​‌‍​﻿​‍﻿‌​﻿‌‌​﻿‌‌​﻿‌‌​﻿‌‍‌‍‌‌​﻿‍​​﻿​‍​﻿​‌‌‍‌‌‌‍​‌​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‌​﻿​​‌‍‌‍​﻿‌​​﻿‌‌​﻿​​​﻿‍‌‌‍​﻿​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‌​﻿‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​‌​﻿​‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​‌‍​﻿​‍﻿‌​﻿‌‌​﻿‌‌​﻿‌‌​﻿‌‍‌‍‌‌​﻿‍​​﻿​‍​﻿​‌‌‍‌‌‌‍​‌​﻿‌﻿​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/06/30/why-intent-prediction-needs-more-than-an-llm/",
       "publishedAt": "2026-06-30T07:40:00Z",
       "summary": "Ryan sits down with Frank Portman, CTO at Yobi, to talk about why next-token prediction, though great for language, isn’t the right inductive bias for forecasting human behavior. They discuss how Yobi builds a “foundation model of behavior” using transformers and graph neural networks instead of chat-style LLMs, and what it takes to run millions of personalization decisions per second while keepin",
+      "imageURL": null
+    },
+    {
+      "id": "ab90f1b608e27eaff440",
+      "title": "Discord is Now on Meta Quest: Reach Out to Your Servers While in VR",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-is-now-on-meta-quest-reach-out-to-your-servers-while-in-vr",
+      "publishedAt": "2026-06-30T00:00:00Z",
+      "summary": "Starting today, Discord is now available to download directly from Meta’s Horizon App Store. No more sideloading. No more using the web app. Grab it using the link in this blog, or at discord.com/download.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a42fb78addf50b41deb42cf_image2.png"
+    },
+    {
+      "id": "952848bbecfd62e2f298",
+      "title": "Cost Attribution in Discord’s API",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/cost-attribution-in-discords-api",
+      "publishedAt": "2026-06-30T00:00:00Z",
+      "summary": "Discord's API spans 1700+ endpoints across hundreds of Kubernetes deployments. The challenge: tracking per-feature hosting costs without restructuring. Jim Benton helps explain how Discord tackled the situation.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67f597ab8965032c232c7d4a_image4.png"
+    },
+    {
+      "id": "dc797abaea3842fd8519",
+      "title": "TiDB Completes Independent Security Assessment by NCC Group",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34000",
+      "publishedAt": "2026-06-29T20:06:29Z",
+      "summary": "Key Takeaways NCC Group’s 45-day white-box assessment found zero critical, high, or medium severity issues across 20 repositories. All eight findings were rated Low , spanning default configuration hardening and dependency hygiene. TiDB integrated gosec into CI, updated dependencies, and NCC Group verified that mTLS and authentication controls work when configured. TiDB is working toward secure-by",
       "imageURL": null
     },
     {
@@ -35,15 +89,6 @@
       "publishedAt": "2026-06-29T17:09:54Z",
       "summary": "When your game server needs both a managed identity provider and its own session system, players face a broken experience if authentication forces a redirect or stalls gameplay. Dual-token authentication for Nakama game servers with Amazon Cognito solves this by connecting two independent session systems, each with its own token lifecycle, without interrupting the player. This post shows you how. ",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/17/ARCHBLOG-1497-1-1.png"
-    },
-    {
-      "id": "beb5bf1f770b5a6a8e53",
-      "title": "How Small Postgres Metadata Tables Quietly Throttle Your Largest Queries",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/small-postgres-metadata-tables",
-      "publishedAt": "2026-06-29T13:34:12Z",
-      "summary": "Most time-series performance work starts with the obvious suspect: the fact table. Five hundred million rows of sensor readings, hundreds of daily partitions, an autovacuum worker fighting write load. That is where engineers go first. That is where the Optimization Treadmill lives. But after reading this guide, you'll know how to find a different class of slowdown hiding in the opposite direction,",
-      "imageURL": null
     },
     {
       "id": "b573a0b7e4a0edd1d8ca",
@@ -1477,15 +1522,6 @@
       "imageURL": null
     },
     {
-      "id": "a195d86f57063fd204b0",
-      "title": "One Agent, One Sandbox, One Database: Inside the Kimi K2.6 Architecture",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33561",
-      "publishedAt": "2026-05-14T19:35:04Z",
-      "summary": "Key Takeaways Kimi K2.6’s agent website builder runs on TiDB Cloud, supporting millions of agent-created tenants without per-tenant database instances. Per-tenant Postgres (Supabase, Neon) and schema-per-tenant Postgres both failed: One on cost, the other on isolation. Agent data infrastructure is now a four-axis race: Long-tail tenants, mutable schemas, burst absorption, and second-scale create/d",
-      "imageURL": "https://static.pingcap.com/files/2026/05/15113517/image-9.png"
-    },
-    {
       "id": "dedcac98a1f35cb19988",
       "title": "Kubernetes v1.36: Deprecation and removal of Service ExternalIPs",
       "sourceName": "Kubernetes Blog",
@@ -1762,42 +1798,6 @@
       "url": "https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/",
       "publishedAt": "2026-05-01T18:35:00Z",
       "summary": "Kubernetes v1.36 introduces Pod-Level Resource Managers as an alpha feature, bringing a more flexible and powerful resource management model to performance-sensitive workloads. This enhancement extends the kubelet's Topology, CPU, and Memory Managers to support pod-level resource specifications ( .spec.resources ), evolving them from a strictly per-container allocation model to a pod-centric one. ",
-      "imageURL": null
-    },
-    {
-      "id": "3c7a3d5980ec96ee2a78",
-      "title": "How Meta Is Strengthening End-to-End Encrypted Backups",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=23929",
-      "publishedAt": "2026-05-01T16:00:58Z",
-      "summary": "The HSM-based Backup Key Vault Meta’s HSM-based Backup Key Vault provides the foundation for end-to-end encrypted backups for WhatsApp and Messenger. The system allows people to protect their backed-up message history with a recovery code, ensuring that the recovery code is stored in tamper-resistant hardware security modules (HSMs) and is inaccessible to Meta, cloud storage providers, or any thir",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/05/Over-the-Air-Fleet-Key-Distribution.png"
-    },
-    {
-      "id": "6b220076ef8aba3062e0",
-      "title": "Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/",
-      "publishedAt": "2026-04-30T18:35:00Z",
-      "summary": "Following the graduation of Pod-Level Resources to Beta in v1.34 and the General Availability (GA) of In-Place Pod Vertical Scaling in v1.35, the Kubernetes community is thrilled to announce that In-Place Pod-Level Resources Vertical Scaling has graduated to Beta in v1.36! This feature is now enabled by default via the InPlacePodLevelResourcesVerticalScaling feature gate. It allows users to update",
-      "imageURL": null
-    },
-    {
-      "id": "c14c2eef635a7068146a",
-      "title": "It's time to be right.",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/04/30/be-right",
-      "publishedAt": "2026-04-30T00:00:00Z",
-      "summary": "It’s time to be right. Outcomes continue to matter. Earlier this week, I spoke at AI Dev 26. This is what I spoke about there. I’ve been making money, in some form, building software for nearly 30 years. The last five months have been the most exciting of that entire time. I’m extremely optimistic about the future of software, and the future of software engineering as a field. But I have a hypothe",
-      "imageURL": "/blog/images/aidev_hyp.png"
-    },
-    {
-      "id": "5b3804a19c506c1aa2e6",
-      "title": "Kubernetes v1.36: Tiered Memory Protection with Memory QoS",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/",
-      "publishedAt": "2026-04-29T18:35:00Z",
-      "summary": "On behalf of SIG Node, we are pleased to announce updates to the Memory QoS feature (alpha) in Kubernetes v1.36. Memory QoS uses the cgroup v2 memory controller to give the kernel better guidance on how to treat container memory. It was first introduced in v1.22 and updated in v1.27. In Kubernetes v1.36, we're introducing: opt-in memory reservation, tiered protection by QoS class, observability me",
       "imageURL": null
     }
   ]
