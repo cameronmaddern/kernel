@@ -10,15 +10,6 @@
       "imageURL": null
     },
     {
-      "id": "188abbf92e92e6804b5d",
-      "title": "In defense of AI mandates (xpost)",
-      "sourceName": "Charity Majors",
-      "url": "https://charity.wtf/?p=10491",
-      "publishedAt": "2026-07-02T19:53:48Z",
-      "summary": "When you need to execute a coordinated change on a tight timeline, a mandate might be the best and most honest way to fund it. Crossposted from here. I’ve been writing a series of pieces on lessons learned from our AI journey at Honeycomb . I’ve written about the tension between enthusiasts and skeptics , the need for engineering rigor , and the ethics of using tools with externalities and a seedy",
-      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%214uzU%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ef931a8-ad69-4d92-9ddf-8f25d8e3c984_2166x619.png?w=556&#038;ssl=1"
-    },
-    {
       "id": "353294973c4ef8fad0fe",
       "title": "AI's Physical Constraints: How AI Rewired the Data Center",
       "sourceName": "Timescale",
@@ -154,15 +145,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67f597ab8965032c232c7d4a_image4.png"
     },
     {
-      "id": "dc797abaea3842fd8519",
-      "title": "TiDB Completes Independent Security Assessment by NCC Group",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34000",
-      "publishedAt": "2026-06-29T20:06:29Z",
-      "summary": "Key Takeaways NCC Group’s 45-day white-box assessment found zero critical, high, or medium severity issues across 20 repositories. All eight findings were rated Low , spanning default configuration hardening and dependency hygiene. TiDB integrated gosec into CI, updated dependencies, and NCC Group verified that mTLS and authentication controls work when configured. TiDB is working toward secure-by",
-      "imageURL": null
-    },
-    {
       "id": "659ddb1d1a563a04d9f3",
       "title": "Lessons learned from scaling to 1 million Lambda functions",
       "sourceName": "AWS Architecture Blog",
@@ -262,15 +244,6 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/06/docker_Build-time-vs.-post-build-SBOM-generation-2320x1218.jpg"
     },
     {
-      "id": "2dfdb55035e552bcf71b",
-      "title": "When Amazon Aurora Stops Scaling: The Ceiling You Can’t Buy Your Way Past",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33974",
-      "publishedAt": "2026-06-25T20:18:45Z",
-      "summary": "Key Takeaways Amazon Aurora writes run on one primary instance. The largest, db.r8g.48xlarge, is the ceiling. Read replicas and Serverless v2 add no write capacity; sharding does, but you maintain it. Amazon Aurora Limitless scales writes only for PostgreSQL, not Aurora MySQL. TiDB scales writes by adding nodes and speaks MySQL, so no app rewrite. If you have ever run Amazon Aurora at scale, you k",
-      "imageURL": "https://static.pingcap.com/files/2026/06/26131905/image-8-1024x563.png"
-    },
-    {
       "id": "ad560176af8bf972ec0b",
       "title": "Inspect Volcano workloads faster with Headlamp",
       "sourceName": "Kubernetes Blog",
@@ -334,15 +307,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6494b1e02e40699d67a766e6_Summer_June.png"
     },
     {
-      "id": "a994e1ad2614d1307fe5",
-      "title": "Make AI Boring Again (xpost)",
-      "sourceName": "Charity Majors",
-      "url": "https://charity.wtf/?p=10475",
-      "publishedAt": "2026-06-24T19:57:33Z",
-      "summary": "On the ethics of engagement, the problem with purity politics, and a world worth fighting for Crossposted from here. I am a contrarian who likes to argue and complain a lot. Because of this, I have never been inclined to block people who argue with me or complain about my work, or even lash out at me with some hostility. I could say a lot of noble sounding things about how I value debate and open ",
-      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%21UVCm%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c7f553b-23da-4aca-baee-80abe60d9fad_859x289.png?w=535&#038;ssl=1"
-    },
-    {
       "id": "1924dfdef89b1b22c367",
       "title": "Spotlight on WG Device Management",
       "sourceName": "Kubernetes Blog",
@@ -359,15 +323,6 @@
       "publishedAt": "2026-06-24T06:00:00Z",
       "summary": "Cloudflare provides services that help run 20% of the web, but we don’t do it alone. Developers on our platform use a myriad of tools and services from other companies too. Cloudflare provides a rich API for our platform that enables developers to create automations, CI/CD, and integrations that glue together the various parts of their infrastructure. Earlier this month, we announced self-managed ",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/tbiQb2wX9zyyC2n6cOMmv/706bacb728d5abef09117c3893ec288d/hydra_upgrade_diagram.png"
-    },
-    {
-      "id": "518f767b397d6c357d55",
-      "title": "The Fintech AI Platform: Why Agents Need One Database, Not Five",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33958",
-      "publishedAt": "2026-06-23T18:49:21Z",
-      "summary": "Key Takeaways An agent reading from five separate data systems inherits the weakest consistency guarantee among them. In a payment flow, one stale read can become a double-spend, and the failure is intermittent and hard to catch. A unified data layer lets an agent read transactional state and semantic memory from one consistent store. Consolidation is a real migration, but choosing the data founda",
-      "imageURL": "https://static.pingcap.com/files/2026/06/26112656/image-7-1024x640.png"
     },
     {
       "id": "ee0bb6bac6ebc81c83f4",
@@ -766,24 +721,6 @@
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/IYHFX88nVQ5KvJ2RqEkJW/7bbe337431623665790bda509375b96e/image2.png"
     },
     {
-      "id": "476ac39f5346a1a08c1f",
-      "title": "AI demands more engineering discipline. Not less (xpost)",
-      "sourceName": "Charity Majors",
-      "url": "https://charity.wtf/?p=10460",
-      "publishedAt": "2026-06-15T05:38:29Z",
-      "summary": "If you lived through the shift from handcrafted server pets to immutable infrastructure, you should sense something oddly familiar about what’s happening now. Crossposted from AI demands more engineering discipline. Not less. A few days back I wrote a piece called “ AI enthusiasts are in a race against time, AI skeptics are in a race against entropy .” I have notes on a whole pile of AI-related to",
-      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%213g6N%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87a779c4-2e63-495a-aa1b-b44f1558a24f_903x241.png?w=556&#038;ssl=1"
-    },
-    {
-      "id": "3f998dd3ae716b5c1f9a",
-      "title": "Database Branching for AI Agents: How TINE Solves the Schema Drift Problem",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33867",
-      "publishedAt": "2026-06-15T05:03:08Z",
-      "summary": "Key Takeaways AI agents iterating against a shared database produce three compounding failure modes: schema drift, irreproducible state, and rollback gaps. These are structural outcomes, not edge cases. TINE binds every agent iteration to a Git commit, a TiDB branch, and a sandbox runtime. Any prior state is precisely recoverable from that three-way pointer. TiDB Cloud’s Copy-on-Write branching ma",
-      "imageURL": "https://static.pingcap.com/files/2026/06/14215558/image-5-1024x523.png"
-    },
-    {
       "id": "632cd79d37fc15808c8a",
       "title": "Spotlight on SIG Storage",
       "sourceName": "Kubernetes Blog",
@@ -856,15 +793,6 @@
       "imageURL": null
     },
     {
-      "id": "636d78e89af02888ef8a",
-      "title": "Conway’s Law in Reverse: Why AI Agents Need One Database, Not Ten",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33835",
-      "publishedAt": "2026-06-11T21:12:37Z",
-      "summary": "Key Takeaways A single agent step reads state, retrieves memory, checks a fact, and writes a decision. Across six systems, that means six round trips and a stale read. A stale read in an app is a page refresh. In an agent, it is a wrong decision already taken. The properties agents demand (scale, cheap concurrency, online change, isolation, one engine, branching) are the marks of a well-built oper",
-      "imageURL": "https://static.pingcap.com/files/2026/06/12140323/Screenshot-2026-06-12-at-5.02.35-PM-1024x401.png"
-    },
-    {
       "id": "4405525f8cd34f7129e0",
       "title": "Agentic Testing: Where Agents Fit in the E2E Testing Stack",
       "sourceName": "Slack Engineering",
@@ -917,15 +845,6 @@
       "publishedAt": "2026-06-10T18:42:08Z",
       "summary": "Written by Rohit Channe and Simran Mirchandani at Lyft. Motivation At Lyft, data isn’t just a resource — it’s woven into everything we do. Metrics drive key forecasts, steer operational decisions, and put our boldest hypotheses to the test. But as Lyft scaled, products launched and evolved, and team members came and went, we found ourselves at risk of different teams using different definitions fo",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*9r1bGT0StHEZaLhFgNhI7A.png"
-    },
-    {
-      "id": "9590e972743cfb02ac80",
-      "title": "Build Persistent, Scalable AI Agent Memory with TiDB",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33786",
-      "publishedAt": "2026-06-10T15:53:53Z",
-      "summary": "Key Takeaways Agent memory is an infrastructure pattern, not a model feature: Store the past outside the model and inject the relevant slice into each prompt. Every memory system reduces to one loop: Store a row, embed it, search for the nearest vectors, and inject the matches. TiDB holds text, vectors, and metadata in a single table, so filtering and vector (or hybrid BM25) search run in one quer",
-      "imageURL": null
     },
     {
       "id": "a3fa861f94e2d1bb4e5a",
@@ -1036,15 +955,6 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/06/docker_SSC-Security-Best-Practices-2320x1218.jpg"
     },
     {
-      "id": "ccfa5c9f15530bf39cd0",
-      "title": "The Model Resets. The State Remains.",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33759",
-      "publishedAt": "2026-06-08T15:43:43Z",
-      "summary": "Key Takeaways Memory is what users feel. State is what engineers must get right. Most agent failures are state failures, not model failures. Memory depends on retrieval precision, not just persistence. As agents manage their own state, isolation, hybrid retrieval, and governance become product primitives. There is a moment using an AI agent that ruins you a little, because once you have felt it, y",
-      "imageURL": null
-    },
-    {
       "id": "407056c837637702f65f",
       "title": "What can 500 years of journalism teach developers about AI trustworthiness?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‌​‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‍​‌‍‌‍‌‍​﻿​‍﻿‌​﻿‌​​﻿​​‌‍‌‍‌‍​‍​‍﻿‌​﻿‌​​﻿​‌​﻿‌‍​﻿‍​​‍﻿‌‌‍​‌​﻿​​​﻿​﻿‌‍‌‌​‍﻿‌​﻿‌‌‌‍​‍​﻿​​​﻿‍‌​﻿‌​​﻿​﻿‌‍‌‍​﻿‌‍​﻿‌​‌‍‌​‌‍‌‍‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‌​‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‍​‌‍‌‍‌‍​﻿​‍﻿‌​﻿‌​​﻿​​‌‍‌‍‌‍​‍​‍﻿‌​﻿‌​​﻿​‌​﻿‌‍​﻿‍​​‍﻿‌‌‍​‌​﻿​​​﻿​﻿‌‍‌‌​‍﻿‌​﻿‌‌‌‍​‍​﻿​​​﻿‍‌​﻿‌​​﻿​﻿‌‍‌‍​﻿‌‍​﻿‌​‌‍‌​‌‍‌‍‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -1114,15 +1024,6 @@
       "url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
       "publishedAt": "2026-06-05T07:40:00Z",
       "summary": "Ryan welcomes back Tanya Janca, now part of the OWASP Top 10 team, to discuss what changed in the latest OWASP Top 10 release, how the list shifted from “outdated components” to a broader software supply chain focus, and why they added memory safety and vibe-coding as awareness items.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​",
-      "imageURL": null
-    },
-    {
-      "id": "b84b239d9a6121d3fd14",
-      "title": "The Laptop Return that Broke a RAG Pipeline",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33719",
-      "publishedAt": "2026-06-04T21:17:56Z",
-      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways Semantic similarity isn’t factual correctness. Stale or out-of-scope docs still look “similar”, and that gap is where RAG breaks. The missing data lives in columns, not vectors. This is a database problem, not an embeddings one. Hybrid search comb",
       "imageURL": null
     },
     {
@@ -1214,24 +1115,6 @@
       "publishedAt": "2026-06-03T00:00:00Z",
       "summary": "We moved quickly to help Stripe businesses take advantage of DCAP and capture interchange savings while protecting authorization rates. Here’s what we did.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/JzGrj59MBDaLNm9e1akgN/e43d83ae9015d74511b815aadec81ee9/dcap-index-2.jpg"
-    },
-    {
-      "id": "e44394c1f5aba454f32e",
-      "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy (xpost)",
-      "sourceName": "Charity Majors",
-      "url": "https://charity.wtf/?p=10439",
-      "publishedAt": "2026-06-02T21:33:32Z",
-      "summary": "Both sides are grappling with a real existential threat, and both sides feel like they are screaming into the void. There is a way to close the gap and get everyone pulling in the same direction.. Xposted from substack. I recently attended a talk where one of the presenters made some pretty… astonishing claims about what they had achieved by the pure, uncut power of vibe coding. Difficult engineer",
-      "imageURL": "https://i0.wp.com/substackcdn.com/image/fetch/%24s_%21osVW%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab105aa3-8686-445a-a9d9-024dcaa2500a_1401x477.png?resize=660%2C225&#038;ssl=1"
-    },
-    {
-      "id": "a35f71f22754d3c0b5f2",
-      "title": "Beyond Context Windows: Memory is the Runtime for Production Agents",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33693",
-      "publishedAt": "2026-06-02T20:33:20Z",
-      "summary": "Key Takeaways Context windows are not memory. Production agents need durable systems for persistence, updates, expiration, and deletion. Agent memory has two sides: cognitive context and workspace evidence. Memory must be designed around type, scope, and time. Reliable memory requires recall, forgetting, consistency, observability, and policy controls. mem9, drive9, and TiDB Cloud unify agent memo",
-      "imageURL": "https://static.pingcap.com/files/2026/06/04124932/image-1-1024x559.png"
     },
     {
       "id": "89bb6bdc595473b86689",
@@ -1439,15 +1322,6 @@
       "publishedAt": "2026-05-20T00:00:00Z",
       "summary": "Agentic software development hypothesis This is the quality content you come here for, right? Agentic Software Development Hypothesis: Weak form : Any coding task for which a complete specification is available will become trivial. Strong form : Any coding task for which a deterministic oracle is available will become trivial. First objection: Few meaningful tasks have a complete specification. Se",
       "imageURL": null
-    },
-    {
-      "id": "a34bce22cc1efaebff21",
-      "title": "TiDB SCaiLE Europe 2026: Why Engineers Building Agentic AI Should Be in Stockholm on 4 June",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33646",
-      "publishedAt": "2026-05-19T17:24:10Z",
-      "summary": "Key Takeaways When and where: Thursday, 4 June 2026, 09:00–19:30 at Epicenter Stockholm. Registration is free . Who’s speaking: Bolt, LHV Bank, AWS, Zilliz, Ververica, and more alongside TiDB engineering, all on a single track. What you’ll get: Practical depth on MySQL migration, native vector search, agent memory, and streaming decisions for agentic AI. The keynote: TiDB Co-Founder and CTO Ed Hua",
-      "imageURL": "https://static.pingcap.com/files/2026/05/22084748/image-11-1024x341.png"
     },
     {
       "id": "f6875363a98dde0fe9b7",
@@ -1799,6 +1673,132 @@
       "publishedAt": "2026-05-02T00:00:00Z",
       "summary": "Hello! One of my long term projects on here is figuring out how to write frontend Javascript without using Node or any other server JS runtime. One issue I run into a lot in my frontend JS projects is that I don’t know how to write tests for them. I’ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some No",
       "imageURL": null
+    },
+    {
+      "id": "91a05dc8ab9502574eb3",
+      "title": "Automating Hermitage to see how transactions differ in MySQL and MariaDB",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-05-02-automating-hermitage.html",
+      "publishedAt": "2026-05-02T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
+      "id": "590d306878c2142eefea",
+      "title": "Kubernetes v1.36: Pod-Level Resource Managers (Alpha)",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/",
+      "publishedAt": "2026-05-01T18:35:00Z",
+      "summary": "Kubernetes v1.36 introduces Pod-Level Resource Managers as an alpha feature, bringing a more flexible and powerful resource management model to performance-sensitive workloads. This enhancement extends the kubelet's Topology, CPU, and Memory Managers to support pod-level resource specifications ( .spec.resources ), evolving them from a strictly per-container allocation model to a pod-centric one. ",
+      "imageURL": null
+    },
+    {
+      "id": "6b220076ef8aba3062e0",
+      "title": "Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/",
+      "publishedAt": "2026-04-30T18:35:00Z",
+      "summary": "Following the graduation of Pod-Level Resources to Beta in v1.34 and the General Availability (GA) of In-Place Pod Vertical Scaling in v1.35, the Kubernetes community is thrilled to announce that In-Place Pod-Level Resources Vertical Scaling has graduated to Beta in v1.36! This feature is now enabled by default via the InPlacePodLevelResourcesVerticalScaling feature gate. It allows users to update",
+      "imageURL": null
+    },
+    {
+      "id": "c14c2eef635a7068146a",
+      "title": "It's time to be right.",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/04/30/be-right",
+      "publishedAt": "2026-04-30T00:00:00Z",
+      "summary": "It’s time to be right. Outcomes continue to matter. Earlier this week, I spoke at AI Dev 26. This is what I spoke about there. I’ve been making money, in some form, building software for nearly 30 years. The last five months have been the most exciting of that entire time. I’m extremely optimistic about the future of software, and the future of software engineering as a field. But I have a hypothe",
+      "imageURL": "/blog/images/aidev_hyp.png"
+    },
+    {
+      "id": "5b3804a19c506c1aa2e6",
+      "title": "Kubernetes v1.36: Tiered Memory Protection with Memory QoS",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/",
+      "publishedAt": "2026-04-29T18:35:00Z",
+      "summary": "On behalf of SIG Node, we are pleased to announce updates to the Memory QoS feature (alpha) in Kubernetes v1.36. Memory QoS uses the cgroup v2 memory controller to give the kernel better guidance on how to treat container memory. It was first introduced in v1.22 and updated in v1.27. In Kubernetes v1.36, we're introducing: opt-in memory reservation, tiered protection by QoS class, observability me",
+      "imageURL": null
+    },
+    {
+      "id": "e66aa81f67eab36715eb",
+      "title": "Extending Ruzzy with LibAFL",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/",
+      "publishedAt": "2026-04-29T11:00:00Z",
+      "summary": "LibAFL is all the rage in the fuzzing community these days, especially with LLVM’s libFuzzer being placed in maintenance mode . Written in Rust, LibAFL claims improved performance, modularity, state-of-the-art fuzzing techniques, and libFuzzer compatibility . For these reasons, I set out to add LibAFL support to Ruzzy , our coverage-guided fuzzer for pure Ruby code and Ruby C extensions. This give",
+      "imageURL": null
+    },
+    {
+      "id": "7d083902e3b043ce0df0",
+      "title": "You’ve Got (Too Much) Mail: Behind the Scenes of the 3/25/26 Voice Outage",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/behind-the-scenes-of-the-3-25-26-voice-outage",
+      "publishedAt": "2026-04-29T00:00:00Z",
+      "summary": "On March 25th, voice and video on Discord suffered major degradation beginning at 12:13 PDT, lasting a little over three hours. Learn how the issue originated, how it affected systems across Discord, how we recovered, and how we’re preventing the same problem from reoccurring.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69f2444973213ba625d60106_2024_10_DiscordBlog_Safety-1.png"
+    },
+    {
+      "id": "705ed9c330e321ed8e28",
+      "title": "Kubernetes v1.36: Staleness Mitigation and Observability for Controllers",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/",
+      "publishedAt": "2026-04-28T18:35:00Z",
+      "summary": "Staleness in Kubernetes controllers is a problem that affects many controllers, and is something may affect controller behavior in subtle ways. It is usually not until it is too late, when a controller in production has already taken incorrect action, that staleness is found to be an issue due to some underlying assumption made by the controller author. Some issues caused by staleness include cont",
+      "imageURL": null
+    },
+    {
+      "id": "0d9f1942c26e15809658",
+      "title": "Skipper: Building Airbnb’s embedded workflow engine",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/f6c34552146f",
+      "publishedAt": "2026-04-28T17:01:02Z",
+      "summary": "How Airbnb built a lightweight workflow engine to solve durable execution. By : Ricardo Gamba , Andriy Sergiyenko Introduction: The durable execution problem Picture this hypothetical flow: A host submits an insurance claim about their listing to Airbnb. The system needs to validate the claim, run trust and safety checks, assess estimates, process the payout, and send notifications. Halfway throug",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*9L1YAq8PzAM7YN7lEOvW_g.png"
+    },
+    {
+      "id": "434fee2b0869a15a7497",
+      "title": "Ghostty Is Leaving GitHub",
+      "sourceName": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/writing/ghostty-leaving-github",
+      "publishedAt": "2026-04-28T00:00:00Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "200ae3a88a6f5d4b274e",
+      "title": "Kubernetes v1.36: Mutable Pod Resources for Suspended Jobs (beta)",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/",
+      "publishedAt": "2026-04-27T18:35:00Z",
+      "summary": "Kubernetes v1.36 promotes the ability to modify container resource requests and limits in the pod template of a suspended Job to beta. First introduced as alpha in v1.35, this feature allows queue controllers and cluster administrators to adjust CPU, memory, GPU, and extended resource specifications on a Job while it is suspended, before it starts or resumes running. Why mutable pod resources for ",
+      "imageURL": null
+    },
+    {
+      "id": "d6f038eb05e2487d3fc2",
+      "title": "Branimir Lambov from IBM on Cassandra",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-04-26-branimir-lambov-from-ibm-on-cassandra.html",
+      "publishedAt": "2026-04-26T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
+      "id": "f8e1b7bcea6cf1c06b03",
+      "title": "Kubernetes v1.36: Fine-Grained Kubelet API Authorization Graduates to GA",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/",
+      "publishedAt": "2026-04-24T18:35:00Z",
+      "summary": "On behalf of Kubernetes SIG Auth and SIG Node, we are pleased to announce the graduation of fine-grained kubelet API authorization to General Availability (GA) in Kubernetes v1.36! The KubeletFineGrainedAuthz feature gate was introduced as an opt-in alpha feature in Kubernetes v1.32, then graduated to beta (enabled by default) in v1.33. Now, the feature is generally available and the feature gate ",
+      "imageURL": null
+    },
+    {
+      "id": "379234d32657f22ce007",
+      "title": "Measure Less to Learn More: Using Fewer, Higher-quality Metrics to Capture What Matters",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/measure-less-to-learn-more-using-fewer-higher-quality-metrics-to-capture-what-matters",
+      "publishedAt": "2026-04-24T00:00:00Z",
+      "summary": "Too many experiment metrics can make meaningful changes harder to detect. Learn how Discord used simulations and Principal Component Analysis to maximize signal and reduce noise.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6806ad72843df60c11e54f23_image4.png"
     }
   ]
 }
