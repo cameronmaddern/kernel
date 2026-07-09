@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "256da1ab2b010eca81bf",
+      "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=97282",
+      "publishedAt": "2026-07-08T21:11:56Z",
+      "summary": "“Where are the docs?” It’s a question nobody on a product team enjoys answering. The honest reply is usually some variant of “behind.” A writer is staring at a closed pull request, trying to reverse-engineer what changed. The pull request’s author has already moved on. By the time the doc actually publishes, the feature has shipped, sometimes more than once. That used to be us on the Aspire team (",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/07/diagram.png?resize=1024%2C355"
+    },
+    {
+      "id": "ff0de4324d692f81e5e0",
+      "title": "The Data Layer for the AI Data Center",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/data-layer-ai-data-center",
+      "publishedAt": "2026-07-08T13:47:46Z",
+      "summary": "This is Part II of a two-part series on the AI data center stack. Part I, AI's Physical Constraints: How AI Rewired the Data Center , explains why AI capacity has become constrained by the physical data center stack: accelerators, memory, cooling, power, time, and water. Physical Plant Telemetry Is Now a Data-Layer Requirement In an AI data center, the workload no longer stops at the server bounda",
+      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/07/diagram-1.png"
+    },
+    {
+      "id": "c3b103b19d2b2c3e843f",
+      "title": "Introducing Meerkat: an experiment in global consensus",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/meerkat-introduction/",
+      "publishedAt": "2026-07-08T13:00:00Z",
+      "summary": "Many internal services at Cloudflare need to read and modify the same control-plane state from across our 330+ global data centers. They need guarantees that different readers never see inconsistent state, and that the system remains available for writes even when some data centers or links fail. But Cloudflare’s network runs across the entire Internet, and the Internet is an unpredictable place. ",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/Ie5OrNyD2MJVN47XewDiD/52d0c61577c39f026ed49d5035a8d7cd/BLOG-3347_image4.png"
+    },
+    {
+      "id": "96932e913fc149f56d84",
+      "title": "Your Laptop Is the New Production Environment",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=92055",
+      "publishedAt": "2026-07-08T13:00:00Z",
+      "summary": "A few years ago, the most powerful AI tools in a developer’s workflow helped write code. Today, they can do much more. It’s increasingly common to hand an AI agent a task like: Read this repository, refactor the authentication service to match the new specification, run the test suite, and open a pull request if everything passes. The agent reads files, analyzes dependencies, executes commands, mo",
+      "imageURL": "https://www.docker.com/app/uploads/2026/07/image3.png"
+    },
+    {
+      "id": "f52a3dc504073d1ded7b",
+      "title": "Announcing etcd v3.7.0",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/",
+      "publishedAt": "2026-07-08T12:00:00Z",
+      "summary": "This article is a mirror of the original announcement Today, SIG etcd is releasing etcd v3.7.0 , the latest minor release of the popular distributed key-value store and core Kubernetes component. v3.7 ships the long-requested RangeStream feature, delivers several other performance improvements, removes the last remnants of the legacy v2store, and completes a major protobuf overhaul. You can downlo",
+      "imageURL": null
+    },
+    {
+      "id": "2e7f6df5a6016557451a",
+      "title": "Mutation testing comes to DAML",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/07/08/mutation-testing-comes-to-daml/",
+      "publishedAt": "2026-07-08T11:00:00Z",
+      "summary": "In April we released Mewt , our open-source mutation-testing engine that finds the gaps in your test suite. Today we’re expanding it with support for DAML, the language Canton Network applications are written in. Mewt now reads DAML, generates several classes of mutants (including two built for DAML’s authorization primitives), and runs them through your existing test suite to count how many mutan",
+      "imageURL": null
+    },
+    {
       "id": "54770c952cd38085621a",
       "title": "What's left for infrastructure-as-code after AI moves in?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌‌‌‍​‍‌‍‌​​﻿‌﻿​﻿‌‍‌‍‌​​﻿​‍​‍﻿‌‌‍​﻿‌‍‌‌‌‍​‍‌‍​﻿​‍﻿‌​﻿‌​‌‍​‍​﻿‍​​﻿‍​​‍﻿‌​﻿‍​​﻿​‍‌‍‌‍​﻿‍‌​‍﻿‌​﻿​﻿‌‍‌​‌‍‌‍‌‍​‍​﻿​‍‌‍​﻿​﻿‍​‌‍​‍‌‍​﻿​﻿‌‌‌‍​﻿‌‍​‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌‌‌‍​‍‌‍‌​​﻿‌﻿​﻿‌‍‌‍‌​​﻿​‍​‍﻿‌‌‍​﻿‌‍‌‌‌‍​‍‌‍​﻿​‍﻿‌​﻿‌​‌‍​‍​﻿‍​​﻿‍​​‍﻿‌​﻿‍​​﻿​‍‌‍‌‍​﻿‍‌​‍﻿‌​﻿​﻿‌‍‌​‌‍‌‍‌‍​‍​﻿​‍‌‍​﻿​﻿‍​‌‍​‍‌‍​﻿​﻿‌‌‌‍​﻿‌‍​‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -73,13 +127,13 @@
       "imageURL": null
     },
     {
-      "id": "353294973c4ef8fad0fe",
-      "title": "AI's Physical Constraints: How AI Rewired the Data Center",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/how-ai-rewired-the-data-center",
-      "publishedAt": "2026-07-02T19:34:34Z",
-      "summary": "For most of the cloud era, a server rack was a five to twenty kilowatt object. You could fill a room with them, move air across the front, and the building stayed an ordinary building. A single current AI rack, NVIDIA's GB300 NVL72, draws about 132 to 140 kilowatts, with the GPUs alone accounting for more than a hundred. That is close to an order of magnitude more power in the same floor space as ",
-      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/07/diagram-2.png"
+      "id": "67f6d4ba3f58a3a5572e",
+      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
+      "sourceName": "Dan Luu",
+      "url": "https://danluu.com/ai-coding/",
+      "publishedAt": "2026-07-03T00:00:00Z",
+      "summary": "I've been using AI fairly heavily since last November and the whole thing is a funny experience . An agent will do something that, if a human did it, you'd immediately fire them. My reaction, of course, is to act as if this is great and spin up a thousand agents so they can do even more of that. Mid-last year, I had GPT (maybe 5.0 or 5.1) try to find the source of a bug . Naturally, this code didn",
+      "imageURL": null
     },
     {
       "id": "006b7d5bc342dba554b8",
@@ -982,15 +1036,6 @@
       "imageURL": null
     },
     {
-      "id": "25aea6f04ad3d9e8c80e",
-      "title": "Route public traffic to private applications with Cloudflare",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/private-origins-dns-routing/",
-      "publishedAt": "2026-06-10T13:00:00Z",
-      "summary": "For most of the Internet’s history, public and private infrastructure operated as separate worlds. Public applications lived behind content delivery networks (CDNs) and web application firewalls (WAFs). Private applications lived behind virtual private networks (VPNs), firewalls, and separate operational stacks. We think that distinction is becoming obsolete. Many of the applications organizations",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3dPNpYW2ByViLaO237MJf/c535f739bb0949b908d529bf62e9ad54/1-connectivity-models_2x__4_.png"
-    },
-    {
       "id": "463b70b9df5e5b038987",
       "title": "Updated Requirements to How Apps Access Data in Servers",
       "sourceName": "Discord Blog",
@@ -1115,15 +1160,6 @@
       "publishedAt": "2026-06-06T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
-    },
-    {
-      "id": "827c0350dae5ec8c8cef",
-      "title": "What is AI Governance? Frameworks, Principles, and Best Practices",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=90819",
-      "publishedAt": "2026-06-05T18:39:35Z",
-      "summary": "AI agents are moving fast. According to our State of Agentic AI report , 60% of organizations already have AI agents in production, yet 40% cite security and compliance as the number-one barrier to scaling them further. And that gap between adoption and oversight is exactly where AI governance lives. As AI takes on higher-stakes decisions and agents begin operating with greater autonomy, the organ",
-      "imageURL": "https://www.docker.com/app/uploads/2026/06/docker_Why-AI-Governance-Matters-2320x1218.jpg"
     },
     {
       "id": "6813881d72c4a42b4594",
@@ -1762,42 +1798,6 @@
       "url": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/",
       "publishedAt": "2026-05-04T00:00:00Z",
       "summary": "A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead. But one thing I missed about Tailwind was the colour palette ( here as CSS ). If I wanted a light blue I could just use blue-100 and if I didn’t like it maybe try blue-200 or blue-50 . I’m not very good with colours so it makes a big difference to me to have a reasonable colour palette that somebo",
-      "imageURL": null
-    },
-    {
-      "id": "737867704797d125400e",
-      "title": "Testing Vue components in the browser",
-      "sourceName": "Julia Evans",
-      "url": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/",
-      "publishedAt": "2026-05-02T00:00:00Z",
-      "summary": "Hello! One of my long term projects on here is figuring out how to write frontend Javascript without using Node or any other server JS runtime. One issue I run into a lot in my frontend JS projects is that I don’t know how to write tests for them. I’ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some No",
-      "imageURL": null
-    },
-    {
-      "id": "91a05dc8ab9502574eb3",
-      "title": "Automating Hermitage to see how transactions differ in MySQL and MariaDB",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-05-02-automating-hermitage.html",
-      "publishedAt": "2026-05-02T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "590d306878c2142eefea",
-      "title": "Kubernetes v1.36: Pod-Level Resource Managers (Alpha)",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/",
-      "publishedAt": "2026-05-01T18:35:00Z",
-      "summary": "Kubernetes v1.36 introduces Pod-Level Resource Managers as an alpha feature, bringing a more flexible and powerful resource management model to performance-sensitive workloads. This enhancement extends the kubelet's Topology, CPU, and Memory Managers to support pod-level resource specifications ( .spec.resources ), evolving them from a strictly per-container allocation model to a pod-centric one. ",
-      "imageURL": null
-    },
-    {
-      "id": "6b220076ef8aba3062e0",
-      "title": "Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/",
-      "publishedAt": "2026-04-30T18:35:00Z",
-      "summary": "Following the graduation of Pod-Level Resources to Beta in v1.34 and the General Availability (GA) of In-Place Pod Vertical Scaling in v1.35, the Kubernetes community is thrilled to announce that In-Place Pod-Level Resources Vertical Scaling has graduated to Beta in v1.36! This feature is now enabled by default via the InPlacePodLevelResourcesVerticalScaling feature gate. It allows users to update",
       "imageURL": null
     }
   ]
