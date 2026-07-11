@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "a78d018ab54e430db1e1",
+      "title": "HTAP Was Right. AI Agents Are Proving Why.",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34241",
+      "publishedAt": "2026-07-10T19:15:05Z",
+      "summary": "Key Moments HTAP already unifies transactional and analytical data, years before LTAP framed it as unsolved. Every AI agent mixes transactional and analytical work in one loop, which makes it an HTAP workload. For autonomous agents, inconsistent data isn’t just lag, it’s incorrect reasoning. When Databricks introduced LTAP (Lake Transactional and Analytical Processing) at this year’s Data + AI Sum",
+      "imageURL": "https://static.pingcap.com/files/2026/07/10115126/image-1024x618.png"
+    },
+    {
+      "id": "95281e788c2686b279f7",
+      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=97467",
+      "publishedAt": "2026-07-10T15:57:47Z",
+      "summary": "Give an agent better tools and it should do better work. That’s the instinct, anyway. When you open a pull request, Copilot code review reads the diff and explores the surrounding code to find the problems that matter before they ship. To do that, it used its own code exploration tools. So when we swapped in the better-maintained, shared tools that power the Copilot CLI, grep , glob , and view , w",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/07/1.png?resize=1024%2C478"
+    },
+    {
+      "id": "fe917b3c66903abf95c0",
+      "title": "Improving Smart Tiered Cache for Public Cloud Regions",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
+      "publishedAt": "2026-07-10T13:00:00Z",
+      "summary": "In 2021, we shipped Smart Tiered Cache . The idea: for each origin behind your site, Cloudflare picks the single best upper-tier data center to route through, based on real-time latency. Flip one switch, and we find the fastest path from our network to your origin. That works as long as an origin IP lives in one fixed place. Public cloud origins usually don't. They sit behind anycast or regional u",
+      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1pLDhUXVPPshpZr9zeP4bb/cecf1530616ab1d6097597d5d26039a7/BLOG-3328_image6.png"
+    },
+    {
       "id": "83ae17be2797dacf0905",
       "title": "Building more than just an agent harness​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -35,6 +62,15 @@
       "publishedAt": "2026-07-09T14:00:00Z",
       "summary": "RSA and ECC, cryptographic algorithms that we’ve all relied on for decades, are vulnerable to the attack of sufficiently advanced quantum computers. Such quantum computers do not exist yet, but they seem to be coming sooner than expected. Luckily, the solution is already available: migrate to ML-KEM encryption and ML-DSA signatures, which are designed to be resistant to quantum attack. They were s",
       "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3OKVqLAZqT4c91Te27LsF3/8c4a30f1f7d1ba896a8593f0331202ae/image3.png"
+    },
+    {
+      "id": "5796a8932b59cf2052e2",
+      "title": "The Multi-Tenant Agent Database: Why the Scale Problem Just Inverted",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34183",
+      "publishedAt": "2026-07-09T13:14:02Z",
+      "summary": "Key Takeaways Coding is dead means the code is no longer the artifact that matters. The verified outcome is. An agent is a runtime, skills, and an environment. The environment is the part everyone ignores and the part that matters most. Agent workloads invert the scale problem: Not one dataset too large for one machine, but tens of millions of databases too small to each deserve one . TiDB X puts ",
+      "imageURL": "https://static.pingcap.com/files/2026/07/10111546/DSC4640-1024x684.jpg"
     },
     {
       "id": "256da1ab2b010eca81bf",
@@ -107,6 +143,15 @@
       "publishedAt": "2026-07-07T16:32:21Z",
       "summary": "This post is co-written by Nishanth Charlakola from S&P Global. Organizations have a requirement to build high availability and disaster recovery (HA/DR) solutions for their complex SQL Server infrastructure to maintain data availability and integrity. With the rapid pace of cloud adoption, businesses across different industries have realized the value of a successful proof of concept (POC) for an",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/26/archblog-1222-image-1.jpeg"
+    },
+    {
+      "id": "86c8a40cef005a8e6e78",
+      "title": "The Infrastructure You Choose Is the Company You Become",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34198",
+      "publishedAt": "2026-07-07T14:32:04Z",
+      "summary": "Key Takeaways Choosing a database for scale is a ten-year decision that caps how far you can grow. As capabilities converge, buyers choose on taste and judgment. The primary user is now the agent, not the human. Hence one agent, one database . The audacious requests are where the next product directions start. What you believe determines what you design . Believing in Growth: A Hard Question From ",
+      "imageURL": null
     },
     {
       "id": "20cee94b041726825a51",
@@ -892,15 +937,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/08/ARCHBLOG-1447-image-1.png"
     },
     {
-      "id": "9f6cce6de269d4763be3",
-      "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
-      "publishedAt": "2026-06-15T13:00:00Z",
-      "summary": "Today, we’re excited to share that key members of the team at Ensemble AI are joining Cloudflare to help accelerate our work in AI infrastructure and make it easier for developers to run powerful AI models efficiently at scale. Ensemble AI, founded in 2023 in San Francisco, has spent the last few years focused on one of the most important challenges in AI: making large models faster, smaller, and ",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/IYHFX88nVQ5KvJ2RqEkJW/7bbe337431623665790bda509375b96e/image2.png"
-    },
-    {
       "id": "3f998dd3ae716b5c1f9a",
       "title": "Database Branching for AI Agents: How TINE Solves the Schema Drift Problem",
       "sourceName": "PingCAP / TiDB",
@@ -1189,15 +1225,6 @@
       "imageURL": null
     },
     {
-      "id": "b84b239d9a6121d3fd14",
-      "title": "The Laptop Return that Broke a RAG Pipeline",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33719",
-      "publishedAt": "2026-06-04T21:17:56Z",
-      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways Semantic similarity isn’t factual correctness. Stale or out-of-scope docs still look “similar”, and that gap is where RAG breaks. The missing data lives in columns, not vectors. This is a database problem, not an embeddings one. Hybrid search comb",
-      "imageURL": null
-    },
-    {
       "id": "649056b2db3d5c6888b4",
       "title": "Sitar-agent: Building a reliable dynamic configuration sidecar at scale",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -1286,15 +1313,6 @@
       "publishedAt": "2026-06-03T00:00:00Z",
       "summary": "We moved quickly to help Stripe businesses take advantage of DCAP and capture interchange savings while protecting authorization rates. Here’s what we did.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/JzGrj59MBDaLNm9e1akgN/e43d83ae9015d74511b815aadec81ee9/dcap-index-2.jpg"
-    },
-    {
-      "id": "a35f71f22754d3c0b5f2",
-      "title": "Beyond Context Windows: Memory is the Runtime for Production Agents",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33693",
-      "publishedAt": "2026-06-02T20:33:20Z",
-      "summary": "Key Takeaways Context windows are not memory. Production agents need durable systems for persistence, updates, expiration, and deletion. Agent memory has two sides: cognitive context and workspace evidence. Memory must be designed around type, scope, and time. Reliable memory requires recall, forgetting, consistency, observability, and policy controls. mem9, drive9, and TiDB Cloud unify agent memo",
-      "imageURL": "https://static.pingcap.com/files/2026/06/04124932/image-1-1024x559.png"
     },
     {
       "id": "89bb6bdc595473b86689",
@@ -1475,15 +1493,6 @@
       "publishedAt": "2026-05-20T00:00:00Z",
       "summary": "Agentic software development hypothesis This is the quality content you come here for, right? Agentic Software Development Hypothesis: Weak form : Any coding task for which a complete specification is available will become trivial. Strong form : Any coding task for which a deterministic oracle is available will become trivial. First objection: Few meaningful tasks have a complete specification. Se",
       "imageURL": null
-    },
-    {
-      "id": "a34bce22cc1efaebff21",
-      "title": "TiDB SCaiLE Europe 2026: Why Engineers Building Agentic AI Should Be in Stockholm on 4 June",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33646",
-      "publishedAt": "2026-05-19T17:24:10Z",
-      "summary": "Key Takeaways When and where: Thursday, 4 June 2026, 09:00–19:30 at Epicenter Stockholm. Registration is free . Who’s speaking: Bolt, LHV Bank, AWS, Zilliz, Ververica, and more alongside TiDB engineering, all on a single track. What you’ll get: Practical depth on MySQL migration, native vector search, agent memory, and streaming decisions for agentic AI. The keynote: TiDB Co-Founder and CTO Ed Hua",
-      "imageURL": "https://static.pingcap.com/files/2026/05/22084748/image-11-1024x341.png"
     },
     {
       "id": "f6875363a98dde0fe9b7",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-05-04T14:21:45Z",
       "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation kinda part time (kinda because many weeks were actually full time, sometimes to detach yourself from the keyboard is complicated), and even before LLMs the implementation was likely something I could do i",
       "imageURL": null
-    },
-    {
-      "id": "feaea0b1a1b7b3f0653c",
-      "title": "Discord Patch Notes: May 4, 2026",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-patch-notes-may-4-2026",
-      "publishedAt": "2026-05-04T00:00:00Z",
-      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     }
   ]
 }
