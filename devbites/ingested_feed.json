@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "8dbc909dc5cf968c8a54",
+      "title": "How MAPFRE USA modernized fraud claims with Amazon EMR Serverless",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-mapfre-usa-modernized-fraud-claims-with-amazon-emr-serverless/",
+      "publishedAt": "2026-07-13T09:26:59Z",
+      "summary": "Insurance fraud remains a significant challenge for the insurance industry. Fraudulent claims can increase loss costs, reduce trust, and consume investigation capacity that could otherwise be focused on serving customers. Traditional fraud detection approaches typically rely on rules-based controls, manual investigation triggers, historical claim patterns, and structured-data-only analysis. These ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/30/ARCHBLOG-1452-1.png"
+    },
+    {
       "id": "a78d018ab54e430db1e1",
       "title": "HTAP Was Right. AI Agents Are Proving Why.",
       "sourceName": "PingCAP / TiDB",
@@ -1511,15 +1520,6 @@
       "publishedAt": "2026-05-19T15:09:36Z",
       "summary": "In the mining industry, accurate geological analysis is required for improving mine design and development. Traditionally, this involved labor-intensive and time-consuming on-site inspections of drill core samples, often conducted in remote and challenging environments. ALS GeoAnalytics has streamlined this process through its LITHOLENS platform, a machine learning (ML)-powered system that uses de",
       "imageURL": "https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png"
-    },
-    {
-      "id": "aa6db7d484451fc5df86",
-      "title": "How Synthesia optimizes generative AI video inference on Amazon EC2 G7e instances",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-synthesia-optimizes-generative-ai-video-inference-on-amazon-ec2-g7e-instances/",
-      "publishedAt": "2026-05-19T15:06:40Z",
-      "summary": "Synthesia , an enterprise-focused AI video platform, has transformed content creation, helping everyone to create video content without cameras or microphones. To achieve this, Synthesia allows its users to create video avatars that synthesize the likeness and voice of real people. Synthesia achieves this through a series of in-house developed models based on various architectures, including laten",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/05/05/ARCHBLOG-1422-image-1.png"
     },
     {
       "id": "c955f888c1d78b23fd05",
