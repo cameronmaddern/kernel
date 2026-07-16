@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "e646e5eba5aa90b1fd80",
+      "title": "Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24251",
+      "publishedAt": "2026-07-15T17:00:52Z",
+      "summary": "Hierarchical Interest Representation is a research area for Meta Ads. We’re exploring an upstream representation layer over the universe of Ads entities – users, advertisers, products, services – learning unified embeddings that connect users’ inferred interests with the breadth of what advertisers offer in their deep funnel ads. The innovations in Hierarchical Interest Representation are an in-ho",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/07/image1.jpg"
+    },
+    {
+      "id": "666811e45cb8b29709d1",
+      "title": "How bitdrift scaled to 121 million concurrent gRPC connections on Amazon CloudFront for live telemetry sporting events",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-bitdrift-scaled-to-121-million-concurrent-grpc-connections-on-amazon-cloudfront-for-live-telemetry-sporting-events/",
+      "publishedAt": "2026-07-15T15:27:47Z",
+      "summary": "When 121 million mobile devices establish persistent gRPC connections to your origin infrastructure within seconds of a live broadcast, the routing policy behind your DNS records matters far more than it does at normal traffic levels. The wrong policy can concentrate all your connections onto a single origin endpoint, turning a scaling success into an outage. bitdrift , a mobile observability plat",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/14/Picture1-5.png"
+    },
+    {
       "id": "8dbc909dc5cf968c8a54",
       "title": "How Mapfre USA modernized fraud claims with Amazon EMR Serverless",
       "sourceName": "AWS Architecture Blog",
@@ -38,12 +56,12 @@
     },
     {
       "id": "1bddb3b0171fce2cc7bd",
-      "title": "A broken DNSSEC rollover took down .AL. Now 1.1.1.1 tells you when validation is bypassed",
+      "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
       "publishedAt": "2026-07-14T13:00:00Z",
-      "summary": "On July 3, 2026, the Albanian communications authority (AKEP), the operator of the .AL country-code top-level domain (TLD) of Albania, attempted a DNSSEC key rollover. Something went wrong, resulting in DNSSEC validation failures. Any validating DNS resolver receiving these signatures was required by the DNSSEC specification to reject them and return errors to clients. That includes 1.1.1.1 , the ",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4AHysIybSQRvTzjfb37Eq0/b2b988abd17b006479c10979aea6b792/BLOG-3376_image5.png"
+      "summary": "On July 3, 2026, the Albanian communications authority (AKEP), the operator of the .al country-code top-level domain (TLD) of Albania, attempted a DNSSEC key rollover. Something went wrong, resulting in DNSSEC validation failures. Any validating DNS resolver receiving these signatures was required by the DNSSEC specification to reject them and return errors to clients. That includes 1.1.1.1 , the ",
+      "imageURL": null
     },
     {
       "id": "8afa05f299fca6660ba1",
@@ -106,7 +124,7 @@
       "url": "https://blog.cloudflare.com/introducing-precursor/",
       "publishedAt": "2026-07-13T13:00:00Z",
       "summary": "Bot mitigation is an adversarial game: attackers adapt, defenders respond, and the cycle continues. At Cloudflare, we stay ahead by combining visibility across our global network with signals from the client-side environment. At the network level, we analyze over 1 trillion requests per day to understand reputation, patterns, and anomalies across more than 20% of the web. On the client side, we’ve",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7HGyTpEcRUXpf3oeEV2uCM/1b6b635c945db2d2cf7b6d03970aec10/BLOG-3362_image2.png"
+      "imageURL": null
     },
     {
       "id": "da25033d2414d81ff07c",
@@ -158,9 +176,9 @@
       "title": "Improving Smart Tiered Cache for Public Cloud Regions",
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
-      "publishedAt": "2026-07-10T13:00:00Z",
+      "publishedAt": "2026-07-10T12:00:00Z",
       "summary": "In 2021, we shipped Smart Tiered Cache . The idea: for each origin behind your site, Cloudflare picks the single best upper-tier data center to route through, based on real-time latency. Flip one switch, and we find the fastest path from our network to your origin. That works as long as an origin IP lives in one fixed place. Public cloud origins usually don't. They sit behind anycast or regional u",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1pLDhUXVPPshpZr9zeP4bb/cecf1530616ab1d6097597d5d26039a7/BLOG-3328_image6.png"
+      "imageURL": null
     },
     {
       "id": "83ae17be2797dacf0905",
@@ -194,9 +212,9 @@
       "title": "Why we cannot wait for better post-quantum signature algorithms",
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
-      "publishedAt": "2026-07-09T14:00:00Z",
+      "publishedAt": "2026-07-09T13:40:47Z",
       "summary": "RSA and ECC, cryptographic algorithms that we’ve all relied on for decades, are vulnerable to the attack of sufficiently advanced quantum computers. Such quantum computers do not exist yet, but they seem to be coming sooner than expected. Luckily, the solution is already available: migrate to ML-KEM encryption and ML-DSA signatures, which are designed to be resistant to quantum attack. They were s",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3OKVqLAZqT4c91Te27LsF3/8c4a30f1f7d1ba896a8593f0331202ae/image3.png"
+      "imageURL": null
     },
     {
       "id": "5796a8932b59cf2052e2",
@@ -226,15 +244,6 @@
       "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/07/diagram-1.png"
     },
     {
-      "id": "c3b103b19d2b2c3e843f",
-      "title": "Introducing Meerkat: an experiment in global consensus",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/meerkat-introduction/",
-      "publishedAt": "2026-07-08T13:00:00Z",
-      "summary": "Many internal services at Cloudflare need to read and modify the same control-plane state from across our 330+ global data centers. They need guarantees that different readers never see inconsistent state, and that the system remains available for writes even when some data centers or links fail. But Cloudflare’s network runs across the entire Internet, and the Internet is an unpredictable place. ",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/Ie5OrNyD2MJVN47XewDiD/52d0c61577c39f026ed49d5035a8d7cd/BLOG-3347_image4.png"
-    },
-    {
       "id": "96932e913fc149f56d84",
       "title": "Your Laptop Is the New Production Environment",
       "sourceName": "Docker Blog",
@@ -242,6 +251,15 @@
       "publishedAt": "2026-07-08T13:00:00Z",
       "summary": "A few years ago, the most powerful AI tools in a developer’s workflow helped write code. Today, they can do much more. It’s increasingly common to hand an AI agent a task like: Read this repository, refactor the authentication service to match the new specification, run the test suite, and open a pull request if everything passes. The agent reads files, analyzes dependencies, executes commands, mo",
       "imageURL": "https://www.docker.com/app/uploads/2026/07/image3.png"
+    },
+    {
+      "id": "c3b103b19d2b2c3e843f",
+      "title": "Introducing Meerkat: an experiment in global consensus",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/meerkat-introduction/",
+      "publishedAt": "2026-07-08T12:00:00Z",
+      "summary": "Many internal services at Cloudflare need to read and modify the same control-plane state from across our 330+ global data centers. They need guarantees that different readers never see inconsistent state, and that the system remains available for writes even when some data centers or links fail. But Cloudflare’s network runs across the entire Internet, and the Internet is an unpredictable place. ",
+      "imageURL": null
     },
     {
       "id": "f52a3dc504073d1ded7b",
@@ -293,7 +311,7 @@
       "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
-      "publishedAt": "2026-07-07T13:00:00Z",
+      "publishedAt": "2026-07-07T12:00:00Z",
       "summary": "Today, the UK government launched the Cyber Resilience Pledge : a voluntary framework inviting organizations to commit to foundational cybersecurity governance, board-level accountability, and comprehensive cybersecurity coverage across supply chains. Cloudflare is proud to join the pledge’s founding cohort of signatories and continue our long-standing work with the Department of Science, Innovati",
       "imageURL": null
     },
@@ -331,7 +349,7 @@
       "url": "https://blog.cloudflare.com/workers-cache/",
       "publishedAt": "2026-07-06T13:00:00Z",
       "summary": "Today we are launching Workers Cache : a tiered cache that sits in front of your Worker, configured by a single line of Wrangler config and the same Cache-Control headers you already know. When Workers Cache is enabled, every cacheable request to your Worker hits Cloudflare's cache first. If there's a fresh cached response, Cloudflare returns it directly — your Worker doesn't run, and you don't pa",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2Xyk1rkPl9p44y48mdoPk/2178d252281c0165e03e7cb9245a4c3a/BLOG-3262_image1.png"
+      "imageURL": null
     },
     {
       "id": "eb6a64e26f3f0a2dc257",
@@ -379,31 +397,13 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/06/Meta-AI-Storage-Blueprint-image-1.png"
     },
     {
-      "id": "cb51fdc1bab74ebe99bb",
-      "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/monetization-gateway/",
-      "publishedAt": "2026-07-01T13:00:00Z",
-      "summary": "Today, we are announcing the Cloudflare Monetization Gateway, an engine that will give Cloudflare customers the ability to charge for any asset protected by Cloudflare: web pages, datasets, APIs, or MCP tools. It will provide a single control plane to manage payment policies and access controls across your applications, while also protecting your origin from high payment volumes by handling paymen",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/775Xg4N8Ic9Vk7Y4dvMgTE/0267b9f7672fd65d7c329553eb567d8c/BLOG-3342_2.png"
-    },
-    {
-      "id": "8c7780c82311272e50e5",
-      "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
-      "publishedAt": "2026-07-01T13:00:00Z",
-      "summary": "One year ago, we declared Content Independence Day . At the time, we could see what many in the industry were beginning to sense: the fundamental economics of the Internet were shifting. AI adoption was accelerating, publishers were experiencing rapid declines in referral traffic, and AI companies were crawling the web at unprecedented scale, often without clearly declaring intent, and almost alwa",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3M69Z8Mu3wANYivgEMbUqZ/e891d57b2569c021bad63c0bfeca0530/BLOG-3368_2.png"
-    },
-    {
       "id": "6eb058e0b9889cfba42b",
       "title": "Making AI search smarter",
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
       "publishedAt": "2026-07-01T13:00:00Z",
       "summary": "Search drives most experiences on the web. It's how we get things done, and how nearly everything on the web gets found — the creators, the merchants, the answer to whatever you just typed into a box. For nearly 30 years, that discovery journey ran on a simple bargain: let a search engine crawl your content, and it sends you visitors. You turned those visitors into a business — through ads, subscr",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3zED8SPiCSPFBL13KA1ifg/0cbe54a3c863e365318ccb9e33cfad11/BLOG-3339_2.png"
+      "imageURL": null
     },
     {
       "id": "1e385a440887bdfdc3f9",
@@ -412,7 +412,25 @@
       "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "publishedAt": "2026-07-01T13:00:00Z",
       "summary": "One year ago, we declared the first Content Independence Day , and we gave website owners the means to take back control of their content. The deal between crawlers and website owners that had held up for 30 years — we crawl you, and you get referrals — was no longer true. AI was taking everything and sending back nothing, presenting an existential threat to website owners. And so we launched a on",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3XlnMWyLXLpLgWLP7hgRGP/d01b9b60c513a7904558fdc674fb74b3/BLOG-3337_2.png"
+      "imageURL": null
+    },
+    {
+      "id": "cb51fdc1bab74ebe99bb",
+      "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/monetization-gateway/",
+      "publishedAt": "2026-07-01T13:00:00Z",
+      "summary": "Today, we are announcing the Cloudflare Monetization Gateway, an engine that will give Cloudflare customers the ability to charge for any asset protected by Cloudflare: web pages, datasets, APIs, or MCP tools. It will provide a single control plane to manage payment policies and access controls across your applications, while also protecting your origin from high payment volumes by handling paymen",
+      "imageURL": null
+    },
+    {
+      "id": "8c7780c82311272e50e5",
+      "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+      "publishedAt": "2026-07-01T13:00:00Z",
+      "summary": "One year ago, we declared Content Independence Day . At the time, we could see what many in the industry were beginning to sense: the fundamental economics of the Internet were shifting. AI adoption was accelerating, publishers were experiencing rapid declines in referral traffic, and AI companies were crawling the web at unprecedented scale, often without clearly declaring intent, and almost alwa",
+      "imageURL": null
     },
     {
       "id": "6f0293ca6bb08a975f1c",
@@ -430,7 +448,7 @@
       "url": "https://blog.cloudflare.com/attribution-business-insights/",
       "publishedAt": "2026-07-01T06:00:00Z",
       "summary": "Original content is the lifeblood of conversations and curiosities. Imagine a world without it: we could find a thousand ways to regurgitate the same material that’s already been created, but we would witness the decline of fresh ideas and arguments. Website owners fuel the ecosystem of ideas, news, and interesting tidbits, but they face the increasingly complex challenge of managing traffic to th",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/44iTYHoY6xZ0tmWlxmVg4k/e4defd336a295f2887ec41bb1ca5a629/image4.png"
+      "imageURL": null
     },
     {
       "id": "635cc22979281982f316",
@@ -637,7 +655,7 @@
       "url": "https://blog.cloudflare.com/rollbacks-for-workflows/",
       "publishedAt": "2026-06-25T13:00:00Z",
       "summary": "Cloudflare Workflows allows you to build durable, multi-step applications with built-in retries and state persistence across long-running processes. When a Workflow executes, each step can call external systems, retry failures, and persist state across restarts. But if one step fails, it may leave earlier work from completed steps in an inconsistent or partial state. Today we’re shipping saga roll",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1j8xfDeKb3FCgE2Ktxf4fq/723e2b9e34189747d3c8eb65f906fb41/BLOG-3317_image6.png"
+      "imageURL": null
     },
     {
       "id": "06290eb4a3f3ef60c42e",
@@ -673,7 +691,7 @@
       "url": "https://blog.cloudflare.com/oauth-for-all/",
       "publishedAt": "2026-06-24T06:00:00Z",
       "summary": "Cloudflare provides services that help run 20% of the web, but we don’t do it alone. Developers on our platform use a myriad of tools and services from other companies too. Cloudflare provides a rich API for our platform that enables developers to create automations, CI/CD, and integrations that glue together the various parts of their infrastructure. Earlier this month, we announced self-managed ",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/tbiQb2wX9zyyC2n6cOMmv/706bacb728d5abef09117c3893ec288d/hydra_upgrade_diagram.png"
+      "imageURL": null
     },
     {
       "id": "518f767b397d6c357d55",
@@ -691,7 +709,7 @@
       "url": "https://blog.cloudflare.com/post-quantum-eo-2026/",
       "publishedAt": "2026-06-23T18:25:18Z",
       "summary": "On June 22, 2026, President Trump signed Executive Order 14412 , \"Securing the Nation Against Advanced Cryptographic Attacks.\" The order sets a December 31, 2030, deadline for federal agencies to transition their most sensitive systems to post-quantum encryption , and a December 31, 2031, deadline for post-quantum authentication . The EO also directs federal contractors to comply with post-quantum",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4ZPdZZj0jIz2ZFsgOdTLnW/b3633cb8438622a4af0bba1ad63c799d/Screenshot_2026-06-29_at_12.23.04.png"
+      "imageURL": null
     },
     {
       "id": "20427d0aa368687226fe",
@@ -772,7 +790,7 @@
       "url": "https://blog.cloudflare.com/hyper-bug/",
       "publishedAt": "2026-06-22T18:00:00Z",
       "summary": "The Images service, built in Rust on Workers , runs on every machine in Cloudflare’s edge network. To handle client connections, we use hyper , an open-source HTTP library for Rust. Last year, we introduced the Images binding to enable custom, programmatic workflows for processing remote images in Workers. At the end of 2025, we rearchitected the binding to provide a more direct, local connection ",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/25KzBWgTy4UfdPbzJOg1lO/9c179230f783e9012624a8a9d99b7dac/image4.png"
+      "imageURL": null
     },
     {
       "id": "fe000a0dc5c187e5529e",
@@ -898,7 +916,7 @@
       "url": "https://blog.cloudflare.com/temporary-accounts/",
       "publishedAt": "2026-06-19T13:00:00Z",
       "summary": "Everyone's writing code with AI agents today. But the moment an agent needs to deploy something — and needs to sign up and create an account — it slams face-first into a wall built for humans: a browser-based OAuth flow, a dashboard to click through, an API token to copy-paste, a multi-factor authentication prompt to satisfy. For an interactive copilot sitting next to a developer, that's annoying.",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6joSXmAJAARgyGphPhXGla/9c3e8cef6f269df6a9c458495c5fe40b/image2.png"
+      "imageURL": null
     },
     {
       "id": "81bb19345c0f173bd31f",
@@ -925,7 +943,7 @@
       "url": "https://blog.cloudflare.com/build-your-own-vulnerability-harness/",
       "publishedAt": "2026-06-18T17:59:40Z",
       "summary": "A few weeks ago, we published our initial findings from Project Glasswing , looking at what happens when you point frontier security models at an enterprise codebase. We also explored how our defensive structures adapt to protect our infrastructure and customers from threats posed by frontier AI . Since then, the AI ecosystem has continued to shift rapidly — developers who've built tightly around ",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/65jRLGhBLnc1IvleCfC7rh/7246ae5bb6b63d7e7ee655704f224200/BLOG-3344_2.png"
+      "imageURL": null
     },
     {
       "id": "f227761e311afa76876e",
@@ -934,7 +952,7 @@
       "url": "https://blog.cloudflare.com/celebrating-12-years-of-project-galileo/",
       "publishedAt": "2026-06-18T13:00:00Z",
       "summary": "Twelve years ago this month, Cloudflare launched an ambitious project built on a simple idea: people shouldn’t be knocked offline just because someone more powerful disagrees with them. Today, Project Galileo provides free access to cybersecurity services to more than 3,400 websites belonging to journalists, human rights defenders, and other nonprofit organizations in 120 countries. We continue to",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5zpBBx4zy05RzFxIgPaU0e/387446f9439c2d4a5c39a9bb4bf69151/image1.jpg"
+      "imageURL": null
     },
     {
       "id": "5e7c0b2d17031a1e9954",
@@ -979,7 +997,7 @@
       "url": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
       "publishedAt": "2026-06-17T19:35:00Z",
       "summary": "2026 is the year agent harnesses go to production. The software that controls the model’s access to the outside world — harnesses like Codex, Claude Code, OpenCode, Pi, and Project Think — has matured to the point where teams are deploying agents as real, load-bearing infrastructure, not just prototypes. But building agents that survive production is hard. We learned this firsthand building Projec",
-      "imageURL": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5U50mjNZpg7RD3fb0pOLLs/5e20ad63c1e6ab92cf5d334b79996c1a/image5.png"
+      "imageURL": null
     },
     {
       "id": "c2932f29f629d60e3b86",
@@ -1549,15 +1567,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a0f41117da8d7b799ea1a1b_Riot-Integration-blog-gameart-centercrop-1800x720.png"
     },
     {
-      "id": "567fb06c7c85393b6cf5",
-      "title": "Cyber resilience on AWS: A reference approach for recovery from ransomware and destructive events",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/cyber-resilience-on-aws-a-reference-approach-for-recovery-from-ransomware-and-destructive-events/",
-      "publishedAt": "2026-05-20T17:32:57Z",
-      "summary": "Cyber resilience is the ability to recover workloads to a known-good state after an adversary has affected the environment. Prevention works to keep threat actors out and detection works to find them quickly. Cyber resilience focuses on recovery: restoring a trustworthy environment when backups, credentials, or parts of the infrastructure can no longer be assumed to be safe. For organizations runn",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/17/revblog-1142-images-1.png"
-    },
-    {
       "id": "938bde021c9e56c5fb1e",
       "title": "Announcing etcd 3.7.0-beta.0",
       "sourceName": "Kubernetes Blog",
@@ -1700,15 +1709,6 @@
       "publishedAt": "2026-05-13T17:01:01Z",
       "summary": "Moving from an internal tool to a community-driven, production-ready data mesh. By : Ryan Tanner , Raymie Stata , Adam Miskiewicz Introduction We’re excited to announce the 1.0 release of the Viaduct. This release marks a shift from Viaduct being an Airbnb-internal tool that happens to be open source to a true community-driven project with a stable public API. The 1.0 release includes substantial ",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*uxoiyQybKqmOHm_AdF1kVg.jpeg"
-    },
-    {
-      "id": "9eee6376dc91363f8b72",
-      "title": "Reel Friends: Building Social Discovery that Scales to Billions",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=23982",
-      "publishedAt": "2026-05-13T13:00:44Z",
-      "summary": "On its face the new Friend Bubbles feature looks simple enough. It highlights Reels your friends have watched and reacted to. But sometimes the features that seem the most straightforward require the deepest engineering work. On this episode of the Meta Tech Podcast, Pascal Hartig chats with Subasree and Joseph, two software engineers from the Facebook Reels team, about what it took to bring Frien",
-      "imageURL": null
     },
     {
       "id": "7d69aeb135ab006fbdd1",
