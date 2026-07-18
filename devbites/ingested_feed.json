@@ -1,12 +1,93 @@
 {
   "articles": [
     {
+      "id": "5ffe688d30d66734d7c8",
+      "title": "In-House LLM Serving at Netflix",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/a5a8e799ea2c",
+      "publishedAt": "2026-07-17T21:32:39Z",
+      "summary": "By AI Platform’s Model Runtime team and Inference team Introduction Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather than a separate ML silo. Some of those decisions weren’t obvious, and a few revealed their trade-offs only under production load. Th",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*GKGOrp0xddZwHomMhiSeCA.png"
+    },
+    {
+      "id": "6650138bebb35fc2b0ac",
+      "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
+      "publishedAt": "2026-07-17T21:30:43Z",
+      "summary": "Cloudflare has deployed new Web Application Firewall (WAF) protections for two critical vulnerabilities affecting WordPress. The protections address an Unauthenticated Remote Code Execution (RCE) vulnerability in WordPress's REST API and a related SQL Injection vulnerability. The WordPress security team disclosed the vulnerabilities to Cloudflare before public release so that we could prepare prot",
+      "imageURL": null
+    },
+    {
+      "id": "c5889e9f1c02e738909c",
+      "title": "What's New in Tiger Cloud: Bigger Performance Gains, Wider Platform Reach, Better Visibility",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
+      "publishedAt": "2026-07-17T18:51:12Z",
+      "summary": "This year, we've focused on improving three areas that define the Tiger Cloud experience: Scale without splitting your architecture: Compression becomes a performance advantage. UPDATE and DELETE on compressed data run up to 160x faster, summary queries up to 70x faster. Storage scales to 80,000 IOPS and 64 TB on demand. Spend less time configuring, more time shipping: Tiger Console auto-tunes hyp",
+      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/07/create_hypertable.png"
+    },
+    {
+      "id": "cbde4eab477d9e01a416",
+      "title": "The cost of saying yes has changed",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=97604",
+      "publishedAt": "2026-07-17T16:46:47Z",
+      "summary": "The most expensive part of a small feature request used to be writing the code. Now it’s usually the meeting about whether or not to write the code. That’s a real shift, and it quietly breaks a lot of engineering instincts. Engineers learn early that most “small asks” aren’t small: they need tests, a rollout plan, someone to think through the edge cases and own the behavior after it ships. A two-h",
+      "imageURL": null
+    },
+    {
+      "id": "f11c3024efff3b4ee903",
+      "title": "Eclipse Dataspace Components on AWS: Cost optimization strategies",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-cost-optimization-strategies/",
+      "publishedAt": "2026-07-17T16:03:47Z",
+      "summary": "When you deploy Eclipse Dataspace Components (EDC) connectors on AWS, one of the first challenges you face is predicting and controlling the cost of the required infrastructure. Without clear benchmarks, it is difficult to make informed decisions about workload sizing, environment configuration, and long-term investment. Part 1 of this 3-part blog series covered the fundamentals of data space arch",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/04/ARCHBLOG-1441-1.png"
+    },
+    {
+      "id": "34ac5e9307634f8d773f",
+      "title": "Eclipse Dataspace Components on AWS: Architecture patterns in production",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-architecture-patterns-in-production/",
+      "publishedAt": "2026-07-17T16:03:44Z",
+      "summary": "Running Eclipse Dataspace Components (EDC) connectors in production on AWS requires deliberate architecture decisions around isolation, managed services, and security layering. In Part 1 of this series, we covered the fundamentals of data space architectures and EDC per the International Data Space Association’s (IDSA) standards. If you are new to EDC, we recommend starting there. We showed how co",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/10/ARCHBLOG-1440-1.png"
+    },
+    {
+      "id": "e2d2d68bf1d8bc973531",
+      "title": "Eclipse Dataspace Components on AWS: Data sharing fundamentals",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-data-sharing-fundamentals/",
+      "publishedAt": "2026-07-17T16:03:40Z",
+      "summary": "This three-part blog series guides you through implementing Eclipse Dataspace Components (EDC) on AWS, from foundational concept to production deployment. Part 1 establishes the theoretical foundation with IDSA standards, the Dataspace Protocol (DSP), and core EDC architecture. Part 2 provides production-ready AWS deployment patterns using services like Amazon Elastic Container Service (Amazon ECS",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/10/ARCHBLOG-1439-1.png"
+    },
+    {
+      "id": "2752d60d10f4d6365903",
+      "title": "From One Week to 22 Minutes: How Bolt Migrated MySQL to TiDB",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34264",
+      "publishedAt": "2026-07-17T14:12:12Z",
+      "summary": "Key Takeaways Beyond a terabyte per table, MySQL hits an operational ceiling: week-long schema changes, single-threaded backups, and vertical-only write scaling. Sharding proxies just relocate the problem. Bolt ran Vitess and walked away; a natively distributed database shards below the SQL layer, invisibly to developers. On TiDB, a schema change that took over a week on MySQL runs in 22 minutes ,",
+      "imageURL": "https://static.pingcap.com/files/2026/07/17111123/DSC4844-1-1024x683.jpg"
+    },
+    {
       "id": "3baa0cdf77644dc7e501",
       "title": "Developers who move fast still need to do it together​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/07/17/devs-who-move-fast-still-need-to-do-it-together/",
       "publishedAt": "2026-07-17T07:40:00Z",
       "summary": "At MS Build, Ryan is joined by Cassidy Williams, Senior Director of Developer Advocacy at GitHub and former Stack Overflow Podcast host, to discuss how agentic coding is shifting dev work towards higher-level strategy while increasing decision fatigue; why human taste, community feedback, and mentorship are becoming more essential than ever for developer careers; and the new GitHub Copilot announc",
+      "imageURL": null
+    },
+    {
+      "id": "34111744bc3bd638af64",
+      "title": "Learning a few things about running SQLite",
+      "sourceName": "Julia Evans",
+      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+      "publishedAt": "2026-07-17T00:00:00Z",
+      "summary": "Hello! I’ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a bunch of blog posts about how it is totally fine to use SQLite in production for a small site and I think it is totally fine, but what I did not fully appreciate is that SQLite is still a database, databases are complicated",
       "imageURL": null
     },
     {
@@ -107,6 +188,15 @@
       "publishedAt": "2026-07-14T16:10:08Z",
       "summary": "Over the past few years, we’ve been on a journey to modernise how we run Amazon Elastic Compute Cloud (EC2) instances at Slack. In our first post, Advancing Our Chef Infrastructure , we shared how we moved from a single Chef stack to a resilient, multi-stack setup with versioned cookbook deployments and safer promotion workflows. This afforded us far more reliability and operational control across",
       "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/05/1.png?w=640"
+    },
+    {
+      "id": "c02c34b9cb2785d9dc06",
+      "title": "TiDB Cloud Cross-Region PiTR: Disaster Recovery Without a Second Production Stack",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34276",
+      "publishedAt": "2026-07-14T15:19:34Z",
+      "summary": "Key Takeaways Cross-Region PiTR delivers region-level DR from backup data, not a duplicate live cluster or second production footprint required. RPO is minute-level: Mean 75s or less, P99 at 90s, P9999 at 120s. RTO is hour-level and tunable via restore cluster sizing and backup frequency. Recovery points are verified: Data and metadata must reach the secondary region before a timestamp is exposed ",
+      "imageURL": null
     },
     {
       "id": "1bddb3b0171fce2cc7bd",
@@ -287,15 +377,6 @@
       "publishedAt": "2026-07-08T21:11:56Z",
       "summary": "“Where are the docs?” It’s a question nobody on a product team enjoys answering. The honest reply is usually some variant of “behind.” A writer is staring at a closed pull request, trying to reverse-engineer what changed. The pull request’s author has already moved on. By the time the doc actually publishes, the feature has shipped, sometimes more than once. That used to be us on the Aspire team (",
       "imageURL": "https://github.blog/wp-content/uploads/2026/07/diagram.png?resize=1024%2C355"
-    },
-    {
-      "id": "ff0de4324d692f81e5e0",
-      "title": "The Data Layer for the AI Data Center",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/data-layer-ai-data-center",
-      "publishedAt": "2026-07-08T13:47:46Z",
-      "summary": "This is Part II of a two-part series on the AI data center stack. Part I, AI's Physical Constraints: How AI Rewired the Data Center , explains why AI capacity has become constrained by the physical data center stack: accelerators, memory, cooling, power, time, and water. Physical Plant Telemetry Is Now a Data-Layer Requirement In an AI data center, the workload no longer stops at the server bounda",
-      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/07/diagram-1.png"
     },
     {
       "id": "96932e913fc149f56d84",
@@ -946,15 +1027,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*BffuQUAFrEhYzynBKsVPLA.png"
     },
     {
-      "id": "9cb4bf2d8decef168c64",
-      "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/4623f0a9c5af",
-      "publishedAt": "2026-06-19T23:53:06Z",
-      "summary": "By Winston Chou, Adrien Alexandre, Lars Olds, Yi Zhang, Garrett Hagemann, and Nathan Kallus Introduction Imagine asking a data agent to analyze the causal relationship between two variables, such as the effect of watching a popular Netflix show on long-term member retention. It queries your data, runs a regression, and confidently returns an answer. How much should you trust it? Can you be confide",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*7midjxNL3H3BlZvQy4seSA.png"
-    },
-    {
       "id": "39d7875dcd6fd3598633",
       "title": "Dispatches from O'Reilly: From capabilities to responsibilities​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​﻿​﻿​​‌‍​‍​﻿‍‌​﻿‍‌​﻿‌‌‌‍‌‍​﻿‌﻿​‍﻿‌​﻿‌﻿‌‍​﻿‌‍​‍​﻿‍‌​‍﻿‌​﻿‌​‌‍‌​‌‍‌​​﻿‍​​‍﻿‌‌‍​‍‌‍‌‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍‌​​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿‍‌​﻿‌​​﻿​​‌‍​‌​﻿​﻿​﻿​‍‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​﻿​﻿​​‌‍​‍​﻿‍‌​﻿‍‌​﻿‌‌‌‍‌‍​﻿‌﻿​‍﻿‌​﻿‌﻿‌‍​﻿‌‍​‍​﻿‍‌​‍﻿‌​﻿‌​‌‍‌​‌‍‌​​﻿‍​​‍﻿‌‌‍​‍‌‍‌‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍‌​​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿‍‌​﻿‌​​﻿​​‌‍​‌​﻿​﻿​﻿​‍‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -1042,15 +1114,6 @@
       "url": "http://brooker.co.za/blog/2026/06/18/my-blog-and-ai",
       "publishedAt": "2026-06-18T00:00:00Z",
       "summary": "Is this blog written by AI? No. None of the human-readable text on this blog is written by AI, and I have no plans to change that. The weird grammar, incorrect assumptions, spelling errors, and annoying tics are all mine. Including the em dashes. I don’t use LLMs for writing. On this blog, or in my professional life. I use agents extensively for brainstorming, research, summarizing, checking facts",
-      "imageURL": null
-    },
-    {
-      "id": "3b64828489b7de83b63d",
-      "title": "Bringing more agent harnesses and frameworks to Cloudflare, starting with Flue",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
-      "publishedAt": "2026-06-17T19:35:00Z",
-      "summary": "2026 is the year agent harnesses go to production. The software that controls the model’s access to the outside world — harnesses like Codex, Claude Code, OpenCode, Pi, and Project Think — has matured to the point where teams are deploying agents as real, load-bearing infrastructure, not just prototypes. But building agents that survive production is hard. We learned this firsthand building Projec",
       "imageURL": null
     },
     {
@@ -1171,15 +1234,6 @@
       "imageURL": null
     },
     {
-      "id": "636d78e89af02888ef8a",
-      "title": "Conway’s Law in Reverse: Why AI Agents Need One Database, Not Ten",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33835",
-      "publishedAt": "2026-06-11T21:12:37Z",
-      "summary": "Key Takeaways A single agent step reads state, retrieves memory, checks a fact, and writes a decision. Across six systems, that means six round trips and a stale read. A stale read in an app is a page refresh. In an agent, it is a wrong decision already taken. The properties agents demand (scale, cheap concurrency, online change, isolation, one engine, branching) are the marks of a well-built oper",
-      "imageURL": "https://static.pingcap.com/files/2026/06/12140323/Screenshot-2026-06-12-at-5.02.35-PM-1024x401.png"
-    },
-    {
       "id": "4405525f8cd34f7129e0",
       "title": "Agentic Testing: Where Agents Fit in the E2E Testing Stack",
       "sourceName": "Slack Engineering",
@@ -1216,6 +1270,15 @@
       "imageURL": null
     },
     {
+      "id": "0c703a03118ea46270eb",
+      "title": "Of forks and clones and package management",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-07-11-of-forks-and-clones-and-package-management.html",
+      "publishedAt": "2026-06-11T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "5f37f7f7131827ce959e",
       "title": "Metric Semantic Layer: How Lyft Governs and Scales Key Data Definitions",
       "sourceName": "Lyft Engineering",
@@ -1223,15 +1286,6 @@
       "publishedAt": "2026-06-10T18:42:08Z",
       "summary": "Written by Rohit Channe and Simran Mirchandani at Lyft. Motivation At Lyft, data isn’t just a resource — it’s woven into everything we do. Metrics drive key forecasts, steer operational decisions, and put our boldest hypotheses to the test. But as Lyft scaled, products launched and evolved, and team members came and went, we found ourselves at risk of different teams using different definitions fo",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*9r1bGT0StHEZaLhFgNhI7A.png"
-    },
-    {
-      "id": "9590e972743cfb02ac80",
-      "title": "Build Persistent, Scalable AI Agent Memory with TiDB",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33786",
-      "publishedAt": "2026-06-10T15:53:53Z",
-      "summary": "Key Takeaways Agent memory is an infrastructure pattern, not a model feature: Store the past outside the model and inject the relevant slice into each prompt. Every memory system reduces to one loop: Store a row, embed it, search for the nearest vectors, and inject the matches. TiDB holds text, vectors, and metadata in a single table, so filtering and vector (or hybrid BM25) search run in one quer",
-      "imageURL": null
     },
     {
       "id": "a3fa861f94e2d1bb4e5a",
@@ -1405,15 +1459,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/06/Validating-PowerLoss-Readiness-Meta-image-2c.png"
     },
     {
-      "id": "0dfd708e367e2a4481e7",
-      "title": "Building highly available Oracle databases with Amazon FSx for NetApp ONTAP",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/building-highly-available-oracle-databases-with-amazon-fsx-for-netapp-ontap/",
-      "publishedAt": "2026-06-03T15:51:22Z",
-      "summary": "Oracle databases power mission-critical enterprise applications, making their continuous availability essential for business operations. Traditional Oracle high availability (HA) solutions require complex clustering software, expensive shared storage arrays, and specialized database administration teams. These conventional approaches often introduce single points of failure while demanding signifi",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/05/22/archblog-1212-image-1.png"
-    },
-    {
       "id": "ff843c8bfc94877834b3",
       "title": "The sorry state of skill distribution",
       "sourceName": "Trail of Bits",
@@ -1439,24 +1484,6 @@
       "publishedAt": "2026-06-02T17:01:04Z",
       "summary": "How Airbnb used sequential geographic recovery signals and prior propagation to generate reliable corridor-level forecasts when local data was scarce. By: Harrison Katz The problem with unprecedented shocks Almost every forecasting system is built on the same implicit assumption: the future will resemble the past. You train on historical data, you validate on holdout periods, and you trust that pa",
       "imageURL": "https://cdn-images-1.medium.com/max/1014/1*Ym09gqq_vppk2nU_9kw_cw.png"
-    },
-    {
-      "id": "b734d6a9d1c202eb6d18",
-      "title": "Automating contract intelligence with Doczy.ai™ on AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/automating-contract-intelligence-with-doczy-ai-on-aws/",
-      "publishedAt": "2026-06-02T14:06:32Z",
-      "summary": "Extracting actionable insights from thousands of contracts and legal documents remains a challenge. For organizations, critical business information is locked in unstructured documents such as contracts, legal agreements, provider arrangements, and vendor invoices. Extracting and operationalizing this information has traditionally been a manual, error-prone, and resource-intensive process. This le",
-      "imageURL": "https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png"
-    },
-    {
-      "id": "bbc335ad86f0e24385ac",
-      "title": "Scaling oncology patient support: How New York Cancer and Blood Specialists transformed customer experience with AWS and Pronetx, now part of Caylent",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/scaling-oncology-patient-support-how-new-york-cancer-and-blood-specialists-transformed-customer-experience-with-aws-and-pronetx-now-part-of-caylent/",
-      "publishedAt": "2026-06-01T21:45:52Z",
-      "summary": "As one of the United States’ leading oncology and hematology providers, the goal of New York Cancer and Blood Specialists (NYCBS) is to provide comprehensive and compassionate care to patients. The organization handles more than 250,000 patient calls every year across over 100 specialized queues and wanted to optimize its manual call handling process. This post details how NYCBS partnered with Ama",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/01/ARCHBLOG-1455-1.png"
     },
     {
       "id": "f7ef0b8579a131155098",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-05-08T18:35:00Z",
       "summary": "Volume group snapshots were introduced as an Alpha feature with the Kubernetes v1.27 release, moved to Beta in v1.32, and to a second Beta in v1.34. We are excited to announce that in the Kubernetes v1.36 release, support for volume group snapshots has reached General Availability (GA) . The support for volume group snapshots relies on a set of extension APIs for group snapshots . These APIs allow",
       "imageURL": null
-    },
-    {
-      "id": "59e17ce8c2e2408e59a8",
-      "title": "How Discord Automates ScyllaDB Clusters at Scale",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/how-discord-automates-scylladb-clusters-at-scale",
-      "publishedAt": "2026-05-08T00:00:00Z",
-      "summary": "You've been asked to stand up a brand-new database cluster, meaning a whole day of configuring dozens of nodes, validating replication, wiring up dual-write pipelines… what if this whole ordeal took less than two hours? This is how we got ourselves into this exact mess, and how we made our way out of it.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69fb97b51217ebb66107035c_2024_10_DiscordBlog_DevandEngineers-5.png"
-    },
-    {
-      "id": "15c2ac0adacbad52cc5e",
-      "title": "Kubernetes v1.36: More Drivers, New Features, and the Next Era of DRA",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/",
-      "publishedAt": "2026-05-07T18:35:00Z",
-      "summary": "Dynamic Resource Allocation (DRA) has fundamentally changed how platform administrators handle hardware accelerators and specialized resources in Kubernetes. In the v1.36 release, DRA continues to mature, bringing a wave of feature graduations, critical usability improvements, and new capabilities that extend the flexibility of DRA to native resources like memory and CPU, and support for ResourceC",
-      "imageURL": null
-    },
-    {
-      "id": "a9479616f6fbc1b44ba4",
-      "title": "Stock Up in the New Rust Shop! Enjoy a Discord-Only 20% Sale on Most Items until 5/21",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/rust-shop-on-discord-launch-sale",
-      "publishedAt": "2026-05-07T00:00:00Z",
-      "summary": "Starting today, you can now browse, purchase, and even gift and wishlist in-game items for Rust directly in Discord! See how it all works, and learn about a hefty two-week Discord-exclusive launch discount on a wide selection of officially-made Rust items.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/69fb913580d2452bfe2fd43a_RUST-Shop-blog-1800x720.png"
     }
   ]
 }
