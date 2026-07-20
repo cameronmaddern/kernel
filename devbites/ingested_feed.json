@@ -1054,6 +1054,15 @@
       "imageURL": null
     },
     {
+      "id": "062fad96416859039b19",
+      "title": "Observing Go's garbage collector, old and new",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-07-19-observing-gos-garbage-collector-old-and-new.html",
+      "publishedAt": "2026-06-19T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "bc82f3d8cd6c343471f1",
       "title": "Meet Alice. Alice is impatient.",
       "sourceName": "Marc Brooker",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-05-11T00:00:00Z",
       "summary": "What’s Discord Nitro all about? What perks does it give, and how can you get it? If you’re looking to expand your Nitro knowledge, you’re in the right place.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a01d7c22acd73032a040029_image2.png"
-    },
-    {
-      "id": "4e5b8cdf014eada8a013",
-      "title": "Kubernetes v1.36: Moving Volume Group Snapshots to GA",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/",
-      "publishedAt": "2026-05-08T18:35:00Z",
-      "summary": "Volume group snapshots were introduced as an Alpha feature with the Kubernetes v1.27 release, moved to Beta in v1.32, and to a second Beta in v1.34. We are excited to announce that in the Kubernetes v1.36 release, support for volume group snapshots has reached General Availability (GA) . The support for volume group snapshots relies on a set of extension APIs for group snapshots . These APIs allow",
-      "imageURL": null
     }
   ]
 }
