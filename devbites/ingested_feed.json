@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "5bd6beb83c1f9a50cd32",
+      "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
+      "publishedAt": "2026-07-24T17:25:28Z",
+      "summary": "Border Gateway Protocol ( BGP ) is the de facto routing protocol of the Internet. It offers built-in mechanisms to allow entities, represented by Autonomous Systems (ASes), to express how they want to send and receive traffic on the Internet. One such mechanism is path attributes , which carry essential routing information and metadata for their associated route. The path selection algorithm proce",
+      "imageURL": null
+    },
+    {
+      "id": "610cc187aca374099f15",
+      "title": "Agentic AI Needs Guardrails, Not Guesswork",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=92407",
+      "publishedAt": "2026-07-24T17:19:36Z",
+      "summary": "What does it take to secure AI agents without slowing developers down? A recent panel explored the answer I recently joined Zach Lloyd, founder and CEO of Warp ; Gavriel Cohen, co-founder and CEO of NanoCo and creator of NanoClaw ; and moderator Moriah Hara, founder of a community of more than 3,000 CISOs and a three-time Fortune 500 CISO , for a discussion on one of the biggest challenges facing ",
+      "imageURL": null
+    },
+    {
+      "id": "f925a22ea690ad075ab8",
+      "title": "No Dumb Questions: What is the AI bottleneck? How does context engineering fix it?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍‌​﻿​﻿‌‍​‍​﻿‌‍​﻿​‍‌‍‌‌​﻿‍‌​﻿​‌​‍﻿‌​﻿‍​‌‍‌‌‌‍​‍​﻿‍‌​‍﻿‌​﻿‌​​﻿‍​‌‍‌​‌‍‌‌​‍﻿‌‌‍​‍‌‍​‌​﻿‌​​﻿​‍​‍﻿‌‌‍​‍​﻿‌‌​﻿‌﻿​﻿‌​​﻿‌‍‌‍​﻿​﻿​﻿​﻿‌‍​﻿​​​﻿‌﻿​﻿​﻿​﻿​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍‌​﻿​﻿‌‍​‍​﻿‌‍​﻿​‍‌‍‌‌​﻿‍‌​﻿​‌​‍﻿‌​﻿‍​‌‍‌‌‌‍​‍​﻿‍‌​‍﻿‌​﻿‌​​﻿‍​‌‍‌​‌‍‌‌​‍﻿‌‌‍​‍‌‍​‌​﻿‌​​﻿​‍​‍﻿‌‌‍​‍​﻿‌‌​﻿‌﻿​﻿‌​​﻿‌‍‌‍​﻿​﻿​﻿​﻿‌‍​﻿​​​﻿‌﻿​﻿​﻿​﻿​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/07/24/no-dumb-questions-ai-bottleneck/",
+      "publishedAt": "2026-07-24T16:00:00Z",
+      "summary": "In this No Dumb Questions, Stack's Director of Data Science Michael Foree teaches Phoebe about AI context, context engineering, and what she can do to become a better context engineer. ​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿",
+      "imageURL": null
+    },
+    {
+      "id": "ccad69ac8ee6fc936b69",
+      "title": "The Agent Context Plane: How One Cluster Fixed the $50K Agent Bug",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34331",
+      "publishedAt": "2026-07-24T14:32:46Z",
+      "summary": "Key Takeaways The analytics stack was built for people to read data, not for agents to act on it. Every added system is another consistency gap. Agent loops on a warehouse are expensive. One EV-charging platform burned $50,000 in a day of testing and projected $130,000 a month at scale. One cluster changed the economics. On TiDB , agent confidence rose from a 74% cold start to roughly 93%. An agen",
+      "imageURL": null
+    },
+    {
+      "id": "256569436250a7ca6e16",
+      "title": "The Hidden Cost of Postgres Constraints at Scale",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/hidden-cost-postgres-constraints-scale",
+      "publishedAt": "2026-07-24T14:30:49Z",
+      "summary": "Your ingest workers are queuing. pg_stat_activity shows lock waits. The blocked query is not a slow SELECT. It's your bulk INSERT, waiting on the devices table. You added a FOREIGN KEY there months ago. You added a UNIQUE constraint on the readings table to catch duplicates. Both were the right call. At 100 devices and 10,000 rows, you never felt them. At 50K inserts per second, they've become the",
+      "imageURL": null
+    },
+    {
       "id": "940e51e18a9119e8c42c",
       "title": "Partnerships can keep open source sustainable​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​​﻿‍‌​﻿‍‌​﻿​‍​﻿​‌​﻿​‍​﻿​​​﻿​‍​‍﻿‌​﻿​‌‌‍‌‍​﻿​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿​​​﻿​﻿​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌‍‌‍​‍​﻿‌﻿​‍﻿‌‌‍​‌​﻿‌﻿​﻿‍​​﻿‌‌​﻿‍​​﻿​‍​﻿‍​​﻿‌﻿​﻿​﻿​﻿​‌​﻿​﻿‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​​﻿‍‌​﻿‍‌​﻿​‍​﻿​‌​﻿​‍​﻿​​​﻿​‍​‍﻿‌​﻿​‌‌‍‌‍​﻿​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿​​​﻿​﻿​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌‍‌‍​‍​﻿‌﻿​‍﻿‌‌‍​‌​﻿‌﻿​﻿‍​​﻿‌‌​﻿‍​​﻿​‍​﻿‍​​﻿‌﻿​﻿​﻿​﻿​‌​﻿​﻿‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -10,6 +55,15 @@
       "imageURL": null
     },
     {
+      "id": "209a29a8e8337ab7bac2",
+      "title": "Turn And Face The Strange",
+      "sourceName": "Fly.io Blog",
+      "url": "https://fly.io/blog/kurt-scott-money-sprites/",
+      "publishedAt": "2026-07-24T00:00:00Z",
+      "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
+      "imageURL": "/static/images/cta-dog.webp"
+    },
+    {
       "id": "e8f4b82241ccd98a05b3",
       "title": "Introducing Cache Response Rules",
       "sourceName": "Cloudflare Blog",
@@ -17,6 +71,15 @@
       "publishedAt": "2026-07-23T18:40:38Z",
       "summary": "Today we’re excited to announce Cache Response Rules. These are a new rule type that runs after an origin server replies but before Cloudflare caches the content. If you've ever been irked watching something that should easily sail out of cache get dragged back to the origin by a stray Set-Cookie or wrong Cache-Control , headers that are sometimes hard or impossible to strip or change on the origi",
       "imageURL": null
+    },
+    {
+      "id": "e41abda7a136ebef0ae6",
+      "title": "Why Agent Memory Needs a Database That Can Write Back",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34350",
+      "publishedAt": "2026-07-22T20:08:21Z",
+      "summary": "Key Takeaways Retrieval-only memory accumulates contradictions, so agents repeat mistakes. Production memory needs controlled writes, deduplication, staleness management, and cross-type queries. The two-store pattern breaks on consistency, complexity, and an open write-back loop. TiDB reads, joins, and writes back corrected state in one ACID engine. I’ve spent the last year helping enterprise team",
+      "imageURL": "https://static.pingcap.com/files/2026/07/24125029/image-1-1024x576.png"
     },
     {
       "id": "5d5f1d035419d6cc0f0e",
@@ -145,6 +208,15 @@
       "imageURL": null
     },
     {
+      "id": "141eedd761a492fd4fd1",
+      "title": "ACID at Scale: Where ORMs and MySQL Disagree",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34362",
+      "publishedAt": "2026-07-20T20:53:52Z",
+      "summary": "Key Takeaways Your ORM assumes one database with real transactions. Sharded MySQL quietly breaks that assumption. Cross-shard writes turn one ORM transaction into several, and ACID does not span them. The failures are silent: Partial writes, phantom state, and bugs you cannot reproduce. Distributed SQL restores the single-database contract, so the ORM’s assumptions hold again. If you have ever wat",
+      "imageURL": "https://static.pingcap.com/files/2026/07/24131410/image-2-1024x603.png"
+    },
+    {
       "id": "1f9b3059a0a1b2a43f28",
       "title": "How our universal content processing platform Riviera evolved for AI and beyond",
       "sourceName": "Dropbox Tech",
@@ -188,15 +260,6 @@
       "publishedAt": "2026-07-17T21:30:43Z",
       "summary": "Cloudflare has deployed new Web Application Firewall (WAF) protections for two critical vulnerabilities affecting WordPress. The protections address an Unauthenticated Remote Code Execution (RCE) vulnerability in WordPress's REST API and a related SQL Injection vulnerability. The WordPress security team disclosed the vulnerabilities to Cloudflare before public release so that we could prepare prot",
       "imageURL": null
-    },
-    {
-      "id": "c5889e9f1c02e738909c",
-      "title": "What's New in Tiger Cloud: Bigger Performance Gains, Wider Platform Reach, Better Visibility",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
-      "publishedAt": "2026-07-17T18:51:12Z",
-      "summary": "This year, we've focused on improving three areas that define the Tiger Cloud experience: Scale without splitting your architecture: Compression becomes a performance advantage. UPDATE and DELETE on compressed data run up to 160x faster, summary queries up to 70x faster. Storage scales to 80,000 IOPS and 64 TB on demand. Spend less time configuring, more time shipping: Tiger Console auto-tunes hyp",
-      "imageURL": "https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/07/create_hypertable.png"
     },
     {
       "id": "cbde4eab477d9e01a416",
@@ -528,7 +591,7 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
       "publishedAt": "2026-07-09T14:00:00Z",
-      "summary": "RSA and ECC, cryptographic algorithms that we’ve all relied on for decades, are vulnerable to the attack of sufficiently advanced quantum computers. Such quantum computers do not exist yet, but they seem to be coming sooner than expected. Luckily, the solution is already available: migrate to ML-KEM encryption and ML-DSA signatures, which are designed to be resistant to quantum attack. They were s",
+      "summary": "RSA and ECC, cryptographic algorithms that we have all relied on for decades, are vulnerable to the attack of sufficiently advanced quantum computers. Such quantum computers do not exist yet, but they seem to be coming sooner than expected. Luckily, the solution is already available: migrate to ML-KEM encryption and ML-DSA signatures, which are designed to be resistant to quantum attack. They were",
       "imageURL": null
     },
     {
@@ -901,24 +964,6 @@
       "imageURL": "https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/cluster-api-dashboard.png"
     },
     {
-      "id": "6d9d70ed2f582a132bce",
-      "title": "How to Generate an SBOM for Container Workflows",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=91638",
-      "publishedAt": "2026-06-25T20:44:07Z",
-      "summary": "According to Omdia’s 2026 software supply chain security report , 86% of organizations find SBOM generation challenging. A major driver is tool sprawl: teams cobbling together different scanners for different artifact types, getting inconsistent output across pipelines, and spending engineering time reconciling the results rather than acting on them. SBOMs have become important to how security tea",
-      "imageURL": "https://www.docker.com/app/uploads/2026/06/docker_Build-time-vs.-post-build-SBOM-generation-2320x1218.jpg"
-    },
-    {
-      "id": "2dfdb55035e552bcf71b",
-      "title": "When Amazon Aurora Stops Scaling: The Ceiling You Can’t Buy Your Way Past",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33974",
-      "publishedAt": "2026-06-25T20:18:45Z",
-      "summary": "Key Takeaways Amazon Aurora writes run on one primary instance. The largest, db.r8g.48xlarge, is the ceiling. Read replicas and Serverless v2 add no write capacity; sharding does, but you maintain it. Amazon Aurora Limitless scales writes only for PostgreSQL, not Aurora MySQL. TiDB scales writes by adding nodes and speaks MySQL, so no app rewrite. If you have ever run Amazon Aurora at scale, you k",
-      "imageURL": "https://static.pingcap.com/files/2026/06/26131905/image-8-1024x563.png"
-    },
-    {
       "id": "ad560176af8bf972ec0b",
       "title": "Inspect Volcano workloads faster with Headlamp",
       "sourceName": "Kubernetes Blog",
@@ -989,15 +1034,6 @@
       "publishedAt": "2026-06-24T06:00:00Z",
       "summary": "Cloudflare provides services that help run 20% of the web, but we don’t do it alone. Developers on our platform use a myriad of tools and services from other companies too. Cloudflare provides a rich API for our platform that enables developers to create automations, CI/CD, and integrations that glue together the various parts of their infrastructure. Earlier this month, we announced self-managed ",
       "imageURL": null
-    },
-    {
-      "id": "518f767b397d6c357d55",
-      "title": "The Fintech AI Platform: Why Agents Need One Database, Not Five",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33958",
-      "publishedAt": "2026-06-23T18:49:21Z",
-      "summary": "Key Takeaways An agent reading from five separate data systems inherits the weakest consistency guarantee among them. In a payment flow, one stale read can become a double-spend, and the failure is intermittent and hard to catch. A unified data layer lets an agent read transactional state and semantic memory from one consistent store. Consolidation is a real migration, but choosing the data founda",
-      "imageURL": "https://static.pingcap.com/files/2026/06/26112656/image-7-1024x640.png"
     },
     {
       "id": "ee0bb6bac6ebc81c83f4",
@@ -1079,15 +1115,6 @@
       "publishedAt": "2026-06-22T21:35:01Z",
       "summary": "By Alvin Bao , Alex Petrov , Jennifer Lai , Aidan Sherr , and Samartha Chandrashekar As a part of the journey to transition Netflix’s compute infrastructure to be more Kubernetes-native, we have leaned into incorporating components from the Kubernetes ecosystem into our container platform Titus . One example of this is our use of Kueue , a cloud-native job queueing system for batch workloads, whic",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*MfDuB407Rq81AHZEbhARWA.png"
-    },
-    {
-      "id": "54a3bc9a15e31760f547",
-      "title": "How we found a bug in the hyper HTTP library",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/hyper-bug/",
-      "publishedAt": "2026-06-22T18:00:00Z",
-      "summary": "The Images service, built in Rust on Workers , runs on every machine in Cloudflare’s edge network. To handle client connections, we use hyper , an open-source HTTP library for Rust. Last year, we introduced the Images binding to enable custom, programmatic workflows for processing remote images in Workers. At the end of 2025, we rearchitected the binding to provide a more direct, local connection ",
-      "imageURL": null
     },
     {
       "id": "fe000a0dc5c187e5529e",
@@ -1297,15 +1324,6 @@
       "imageURL": null
     },
     {
-      "id": "3f998dd3ae716b5c1f9a",
-      "title": "Database Branching for AI Agents: How TINE Solves the Schema Drift Problem",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=33867",
-      "publishedAt": "2026-06-15T05:03:08Z",
-      "summary": "Key Takeaways AI agents iterating against a shared database produce three compounding failure modes: schema drift, irreproducible state, and rollback gaps. These are structural outcomes, not edge cases. TINE binds every agent iteration to a Git commit, a TiDB branch, and a sandbox runtime. Any prior state is precisely recoverable from that three-way pointer. TiDB Cloud’s Copy-on-Write branching ma",
-      "imageURL": "https://static.pingcap.com/files/2026/06/14215558/image-5-1024x523.png"
-    },
-    {
       "id": "632cd79d37fc15808c8a",
       "title": "Spotlight on SIG Storage",
       "sourceName": "Kubernetes Blog",
@@ -1358,15 +1376,6 @@
       "publishedAt": "2026-06-12T11:00:00Z",
       "summary": "What happens when the bits of an RSA private key are heavily biased toward 0 instead of being randomly generated? The public key’s bits could be biased enough for us to detect these incorrectly generated keys in the wild. Together with Hanno Böck of the badkeys project, we found hundreds of unique keys that not only have this property, but can be quickly factored. We also found the bug that led to",
       "imageURL": "https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/shortsleevekeys_figure1_hu_49c6698c7e83848f.webp"
-    },
-    {
-      "id": "5d6b5110530cb2306050",
-      "title": "Developers are emotionally attached to their tools​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‌‌‍‌‌‌‍‌​​﻿​‍‌‍​‍​﻿‌​​﻿‌‍‌‍‌‍​‍﻿‌​﻿​﻿​﻿‌​‌‍​‍​﻿‍​​‍﻿‌​﻿‌​‌‍‌‍‌‍​﻿‌‍​‍​‍﻿‌‌‍​‍​﻿‌‌​﻿‌‌​﻿​‍​‍﻿‌​﻿​‍‌‍​‍‌‍​﻿‌‍​﻿​﻿​‍​﻿‌‌‌‍​﻿​﻿​‌‌‍​﻿‌‍‌‌​﻿‌​​﻿‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‌‌‍‌‌‌‍‌​​﻿​‍‌‍​‍​﻿‌​​﻿‌‍‌‍‌‍​‍﻿‌​﻿​﻿​﻿‌​‌‍​‍​﻿‍​​‍﻿‌​﻿‌​‌‍‌‍‌‍​﻿‌‍​‍​‍﻿‌‌‍​‍​﻿‌‌​﻿‌‌​﻿​‍​‍﻿‌​﻿​‍‌‍​‍‌‍​﻿‌‍​﻿​﻿​‍​﻿‌‌‌‍​﻿​﻿​‌‌‍​﻿‌‍‌‌​﻿‌​​﻿‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/06/12/developers-are-emotionally-attached-to-their-tools/",
-      "publishedAt": "2026-06-12T07:40:00Z",
-      "summary": "Ryan welcomes Trisha Gee, a Java champion and developer productivity advocate, to explore how AI is transforming the role of IDEs and the broader developer experience; the relevance of traditional tools, muscle memory, the risks of hype; and how to adapt workflows for AI-driven development.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌",
-      "imageURL": null
     },
     {
       "id": "4405525f8cd34f7129e0",
@@ -1789,15 +1798,6 @@
       "url": "http://antirez.com/news/165",
       "publishedAt": "2026-05-14T22:22:45Z",
       "summary": "I didn’t expect DwarfStar 4 (https://github.com/antirez/ds4) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few things happened together: the release of a quasi-frontier model that is large and fast enough to change the game of local inference, and the fact that it works extremely well with an extremely asymmetri",
-      "imageURL": null
-    },
-    {
-      "id": "dedcac98a1f35cb19988",
-      "title": "Kubernetes v1.36: Deprecation and removal of Service ExternalIPs",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-of-service-externalips/",
-      "publishedAt": "2026-05-14T18:35:00Z",
-      "summary": "The .spec.externalIPs field for Service was an early attempt to provide cloud-load-balancer-like functionality for non-cloud clusters. Unfortunately, the API assumes that every user in the cluster is fully trusted, and in any situation where that is not the case, it enables various security exploits, as described in CVE-2020-8554 . Since Kubernetes 1.21, the Kubernetes project has recommended that",
       "imageURL": null
     }
   ]
