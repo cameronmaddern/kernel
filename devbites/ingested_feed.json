@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "38844699ad076c43f47e",
+      "title": "Eval-driven development: Lessons from evaluating GenAI at scale",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/e817e5ae5788",
+      "publishedAt": "2026-07-28T17:01:03Z",
+      "summary": "How Airbnb teams build trustworthy Generative AI products by treating evaluation as a first-class engineering discipline; not an afterthought. Nestled into the lush hillside, this stunning modern retreat features striking natural wood architecture, terraced balconies, and a serene landscape. By: Rohit Girme , Dan Miller , Mia Zhao , Lifan Yang , Clint Kelly Introduction Generative AI breaks a lot ",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*XK40dh-lXviuXXY_WhUCUA.jpeg"
+    },
+    {
+      "id": "4220e9f5a211796fb76d",
+      "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
+      "publishedAt": "2026-07-28T13:00:00Z",
+      "summary": "Like most infrastructure, the Internet's fragility is easy to overlook — as long as it's working. When it fails, its complexity comes into full view. Cloudflare is in a unique position to detect and document the moments when one of the interrelated systems the Internet depends on breaks down and connectivity suffers as a result. Each quarter, we summarize the disruptions we detect and annotate on ",
+      "imageURL": null
+    },
+    {
+      "id": "3b0f014c68fd095752c8",
+      "title": "Coding Agent Horror Stories: The 29 Million Secret Problem",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=92541",
+      "publishedAt": "2026-07-28T13:00:00Z",
+      "summary": "This is Part 4 of our AI Coding Agent Horror Stories series, a look at real security incidents involving AI coding agents, and how Docker Sandboxes keeps credentials out of an agent’s reach at the execution layer. In Part 1 , we walked through six categories of AI coding agent failures and why they keep happening. The agent runs as you, with your filesystem permissions and your credentials, and no",
+      "imageURL": "https://www.docker.com/app/uploads/2026/07/image2-1.png"
+    },
+    {
+      "id": "53a9c0b8566b179134d0",
+      "title": "How we use /goal to find bugs in Patch the Planet",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/07/28/how-we-use-goal-to-find-bugs-in-patch-the-planet/",
+      "publishedAt": "2026-07-28T11:00:00Z",
+      "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet , our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again an",
+      "imageURL": "https://blog.trailofbits.com/2026/07/28/how-we-use-goal-to-find-bugs-in-patch-the-planet/goal_ptp_figure_3_hu_2a14b2f59f76ba60.webp"
+    },
+    {
+      "id": "b692e9402d0a83744df2",
+      "title": "The real AI risk is inside the labs",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/172",
+      "publishedAt": "2026-07-28T09:00:11Z",
+      "summary": "Amodei in his latest blog post wrote a mix of agreeable things and things that I believe misrepresent where the real risk of AI is located. I want to focus my attention on why, among all the risks, open weight models constitute the mildest one. I write these words as a person who strongly believes AI may be very dangerous in the near future: 1. Exactly like what happened during the OpenAI / HF inc",
+      "imageURL": null
+    },
+    {
       "id": "a0db9ea02f64364a6567",
       "title": "You need reliable AI context for your site reliability​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿​​​﻿‍‌​﻿‌​‌‍​‌‌‍​﻿​﻿‌﻿‌‍​‌​‍﻿‌‌‍‌‌‌‍​‍​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​﻿​﻿​‍​‍﻿‌​﻿‍​​﻿‍‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‌‌​﻿​​‌‍‌‌​﻿‌﻿​﻿‌‍‌‍​‌​﻿​﻿‌‍‌​​﻿‍‌​﻿‌‌​﻿​﻿‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿​​​﻿‍‌​﻿‌​‌‍​‌‌‍​﻿​﻿‌﻿‌‍​‌​‍﻿‌‌‍‌‌‌‍​‍​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​﻿​﻿​‍​‍﻿‌​﻿‍​​﻿‍‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‌‌​﻿​​‌‍‌‌​﻿‌﻿​﻿‌‍‌‍​‌​﻿​﻿‌‍‌​​﻿‍‌​﻿‌‌​﻿​﻿‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -946,15 +991,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*NurrizMgC7_QbsGuuW42Dg.gif"
     },
     {
-      "id": "a0974d3a65cecbad5cef",
-      "title": "What Does EU AI Act Compliance Require?",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=91879",
-      "publishedAt": "2026-06-27T03:11:14Z",
-      "summary": "For teams building AI-governed systems, the EU AI Act adds compliance obligations to every stage of the development lifecycle, from documenting training data to reporting incidents in production. With phased enforcement already underway, now is the time to assess where your workflows stand. The EU AI Act ( Regulation (EU) 2024/1689 ) is the world’s first comprehensive AI regulation. It entered int",
-      "imageURL": "https://www.docker.com/app/uploads/2026/06/EU-AI-Act-Risk-Classification-2320x1218.png"
-    },
-    {
       "id": "2856b365b9bfc9c5676c",
       "title": "The feature in OxCaml that more languages should steal",
       "sourceName": "Eaton Phil",
@@ -1060,15 +1096,6 @@
       "url": "https://kubernetes.io/blog/2026/06/24/wg-device-management-spotlight-2026/",
       "publishedAt": "2026-06-24T18:00:00Z",
       "summary": "The rising popularity of AI, Edge, and Telecommunications workloads on Kubernetes has led to new requirements for hardware management. We now need hardware specification beyond CPU time and memory allocations. This includes allocating GPUs, TPUs, network interfaces, and other hardware, sometimes after pod start and occasionally through time-sharing. Efficiently managing this specialized hardware i",
-      "imageURL": null
-    },
-    {
-      "id": "7c6111284e721a5c261a",
-      "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/oauth-for-all/",
-      "publishedAt": "2026-06-24T06:00:00Z",
-      "summary": "Cloudflare provides services that help run 20% of the web, but we don’t do it alone. Developers on our platform use a myriad of tools and services from other companies too. Cloudflare provides a rich API for our platform that enables developers to create automations, CI/CD, and integrations that glue together the various parts of their infrastructure. Earlier this month, we announced self-managed ",
       "imageURL": null
     },
     {
@@ -1771,33 +1798,6 @@
       "url": "http://notes.eatonphil.com/2026-05-18-serving-files-three-ways.html",
       "publishedAt": "2026-05-18T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "1135e7b343bebaa3ff8c",
-      "title": "What's Easy Now? What's Hard Now?",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/05/18/whats-easy-whats-hard",
-      "publishedAt": "2026-05-18T00:00:00Z",
-      "summary": "What’s Easy Now? What’s Hard Now? Take it easy. This is the fourth in a series about how AI is changing software development, after It’s time to be right. , What about juniors? , and My heuristics are wrong. What now? . It stands alone, but if you found this interesting you may also find those interesting. I’ve been spending a lot of time thinking about the shape of the capabilities of coding agen",
-      "imageURL": "/blog/images/op_amp_sqrt.png"
-    },
-    {
-      "id": "d940fcf74770a77eb800",
-      "title": "Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total/",
-      "publishedAt": "2026-05-15T18:35:00Z",
-      "summary": "This article was originally published with the wrong date. It was later republished, dated the 15th of May 2026. Kubernetes v1.36 introduces a new alpha counter metric route_controller_route_sync_total to the Cloud Controller Manager (CCM) route controller implementation at k8s.io/cloud-provider . This metric increments each time routes are synced with the cloud provider. A/B testing watch-based r",
-      "imageURL": null
-    },
-    {
-      "id": "bb0e2305e7ede039a1cc",
-      "title": "Kubernetes v1.36: Mixed Version Proxy Graduates to Beta",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/",
-      "publishedAt": "2026-05-15T18:00:00Z",
-      "summary": "Back in Kubernetes 1.28, we introduced the Mixed Version Proxy (MVP) as an Alpha feature (under the feature gate UnknownVersionInteroperabilityProxy ) in a previous blog post . The goal was simple but critical: make cluster upgrades safer by ensuring that requests for resources not yet known to an older API server are correctly routed to a newer peer API server, instead of returning an incorrect 4",
       "imageURL": null
     }
   ]
