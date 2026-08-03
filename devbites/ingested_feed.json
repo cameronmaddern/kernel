@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "b8d158559b2144432ce3",
+      "title": "Welcome to Agents Week",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agents-week-welcome/",
+      "publishedAt": "2026-08-02T16:00:00Z",
+      "summary": "This week is Agents Week. As we started thinking about and planning the week, we wrestled with a broader question of what it means to support this new era of agents and what a purpose-built foundation for agents actually looks like. Which brought us to a simpler framing: what is an Agent Cloud? We quickly realized however, that our framing was wrong. Not because it’s the wrong question to ask, but",
+      "imageURL": null
+    },
+    {
       "id": "b0823cf5f26c3b02739b",
       "title": "Docker OIDC connections for GitHub Actions available for Docker Orgs",
       "sourceName": "Docker Blog",
@@ -1024,15 +1033,6 @@
       "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
       "publishedAt": "2026-07-01T13:00:00Z",
       "summary": "Search drives most experiences on the web. It's how we get things done, and how nearly everything on the web gets found — the creators, the merchants, the answer to whatever you just typed into a box. For nearly 30 years, that discovery journey ran on a simple bargain: let a search engine crawl your content, and it sends you visitors. You turned those visitors into a business — through ads, subscr",
-      "imageURL": null
-    },
-    {
-      "id": "1e385a440887bdfdc3f9",
-      "title": "Your site, your rules: new AI traffic options for all customers",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-      "publishedAt": "2026-07-01T13:00:00Z",
-      "summary": "One year ago, we declared the first Content Independence Day , and we gave website owners the means to take back control of their content. The deal between crawlers and website owners that had held up for 30 years — we crawl you, and you get referrals — was no longer true. AI was taking everything and sending back nothing, presenting an existential threat to website owners. And so we launched a on",
       "imageURL": null
     },
     {
