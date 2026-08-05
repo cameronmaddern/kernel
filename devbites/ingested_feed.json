@@ -1,6 +1,87 @@
 {
   "articles": [
     {
+      "id": "e2c1d98816f2201645d9",
+      "title": "Turn one giant AI-generated pull request to a reviewable stack",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=97894",
+      "publishedAt": "2026-08-04T16:47:18Z",
+      "summary": "Think about the last big feature you shipped. Be honest. Did you cram it into one giant pull request, or did you split it into smaller scoped pull requests? For years, you have silently had to decide between watching a pull request grow so large that reviewing it becomes a nightmare or breaking it into a chain of smaller pull requests that you have to babysit, sync by hand, and untangle conflicts ",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/08/pr-size-counter.gif?resize=1024%2C260"
+    },
+    {
+      "id": "ff39df353d2c33b7c016",
+      "title": "The Software Supply Chain Is Under Siege. Devs Are Still the First Line of Defense",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=92640",
+      "publishedAt": "2026-08-04T15:10:16Z",
+      "summary": "A new report from Omdia focuses on security issues in the software supply chain, how organizations are responding, and where the biggest gaps remain In the heat map of cybersecurity vulnerabilities today, among the most intense hot spots is the software supply chain. In fact, it was the shift of the modern attack surface away from isolated systems to the software supply chain that connects them—an",
+      "imageURL": "https://www.docker.com/app/uploads/2026/07/Omdia_02_1920x1080-5.png"
+    },
+    {
+      "id": "e3bdcbca976f26578006",
+      "title": "The Agent Development Lifecycle has arrived on Cloudflare",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agent-development-lifecycle/",
+      "publishedAt": "2026-08-04T13:00:00Z",
+      "summary": "Engineering managers spent the past few decades figuring out ways for many programmers to work together on a shared codebase. This work dates all the way back to the “Systems Development Lifecycle” ( RAND, 1975 ) - today commonly referred to as the “Software Development Lifecycle” (SDLC), which defines the following phases: Plan Design Implement Test Deploy Maintain Retire AI has made the step tha",
+      "imageURL": null
+    },
+    {
+      "id": "00270719c43b63aec582",
+      "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/wallets/",
+      "publishedAt": "2026-08-04T13:00:00Z",
+      "summary": "Today, it is difficult for AI agents to try out new APIs. They often have to navigate through a login page designed for humans and not agents, contact a human to add a payment method, generate an API key, and then figure out how to call the API. This flow is very difficult for agents for two reasons: Agents do not have a stable identifier to sign up for an API, and they do not have a native way to",
+      "imageURL": null
+    },
+    {
+      "id": "66c525830998ca43f6e6",
+      "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ci-workflows/",
+      "publishedAt": "2026-08-04T13:00:00Z",
+      "summary": "We are moving toward a world in which you can store, build, test, and deploy your code fully on Cloudflare. We built the first piece with Artifacts , versioned code storage that scales to millions of repos. We have stitched the store, build, and deploy steps together with the CI SDK , built on Cloudflare Workflows , so that you can run your continuous integration (CI) pipeline on Cloudflare. You c",
+      "imageURL": null
+    },
+    {
+      "id": "ff5cddcf30ea2c2ac69b",
+      "title": "How Cloudflare enforces engineering standards using AI",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/engineering-standards-enforcement/",
+      "publishedAt": "2026-08-04T13:00:00Z",
+      "summary": "Over the past four months, our AI code reviewer has flagged nearly a quarter of a million deviations from Cloudflare engineering standards (what we’ll call “violations” in this post) and blocked 16,000 merges. Our spec reviewer agent has evaluated close to 600 technical designs against the same standards before implementation began. Both systems draw from the Cloudflare Codex, a shared source of e",
+      "imageURL": null
+    },
+    {
+      "id": "1bb6dbc9f8bf0fdb423c",
+      "title": "Introducing: Cloudflare Agents",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
+      "publishedAt": "2026-08-04T13:00:00Z",
+      "summary": "We're bringing together everything you need to deploy and manage hosted agents on Cloudflare, starting with observability. We've spent the last nine years building a developer platform, and agents are the perfect use case. They're really just another type of application, but what you need to build them — model access , durable runtime , orchestration , sandboxed execution , persistent storage — ha",
+      "imageURL": null
+    },
+    {
+      "id": "a850a1c8cf83902e325c",
+      "title": "Your agent can now debug Workers with local tracing",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/local-tracing/",
+      "publishedAt": "2026-08-04T13:00:00Z",
+      "summary": "Starting today, wrangler dev and vite dev automatically capture OpenTelemetry traces for local Worker invocations. When Cloudflare's tooling detects an agent session, it points the agent to the Local Explorer API , a local debugging API where it can query those traces. You do not need to install an SDK, enable tracing, configure your agent, or even mention observability in the prompt. A prompt can",
+      "imageURL": null
+    },
+    {
+      "id": "798d9a298d9796dba60f",
+      "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/astro-issue-triage/",
+      "publishedAt": "2026-08-04T13:00:00Z",
+      "summary": "Everyone is talking about software factories: the idea that AI agents can be assembled into a pipeline that produces working software on their own, the way a factory turns raw materials into finished goods. There’s endless debate over whether that’s actually possible, how far the automation can really go, and whether the “loops” people are demoing count for anything. Some have already written them",
+      "imageURL": null
+    },
+    {
       "id": "1936240a6be64688943c",
       "title": "Your MVP doesn’t need a Kubernetes cluster​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿​‌‌‍‌‌​﻿​﻿‌‍​﻿​﻿‌‌‌‍‌‌​﻿​﻿​‍﻿‌​﻿​‌​﻿​‌‌‍​‍​﻿‌‌​‍﻿‌​﻿‌​‌‍​‌​﻿​‍​﻿​​​‍﻿‌​﻿‍​​﻿‌‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌​​﻿‍‌‌‍‌‍​﻿​﻿​﻿‍​​﻿​‍‌‍​‍​﻿​‍​﻿‍‌‌‍​﻿​﻿​‌‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿​‌‌‍‌‌​﻿​﻿‌‍​﻿​﻿‌‌‌‍‌‌​﻿​﻿​‍﻿‌​﻿​‌​﻿​‌‌‍​‍​﻿‌‌​‍﻿‌​﻿‌​‌‍​‌​﻿​‍​﻿​​​‍﻿‌​﻿‍​​﻿‌‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌​​﻿‍‌‌‍‌‍​﻿​﻿​﻿‍​​﻿​‍‌‍​‍​﻿​‍​﻿‍‌‌‍​﻿​﻿​‌‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -8,6 +89,15 @@
       "publishedAt": "2026-08-04T07:40:00Z",
       "summary": "Ryan welcomes Anurag Goel, CEO and co-founder of Render, to discuss why most startups shouldn’t start by managing their Kubernetes and cloud infrastructure. ​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍",
       "imageURL": null
+    },
+    {
+      "id": "06a431262d2fcd680f4c",
+      "title": "Squircles, Styles, and Spacing: How Your Feedback is Helping Improve Mobile",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/improving-mobile-with-squircles-styles-and-spacing",
+      "publishedAt": "2026-08-04T00:00:00Z",
+      "summary": "We're working to more closely match your mobile and desktop experiences, including changes to server icons and the chat bar. (Did we mention Ash, the OG dark theme, is back?)",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a70ce2458ab09e58b7d5218_Blog%20Hero%20-%201800x720%20-%201x.png"
     },
     {
       "id": "0d4808deec19045455fb",
@@ -141,7 +231,7 @@
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/07/31/dispatches-from-o-reilly-the-best-risk-mitigation-strategy-in-data-a-single-source-of-truth/",
       "publishedAt": "2026-07-31T14:08:31Z",
-      "summary": "Your semantic layer is a risk mitigation strategy. Not risk in the abstract, compliance-framework sense, but the practical, operational risk that quietly drains organizations every day..​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍",
+      "summary": "Your semantic layer is a risk mitigation strategy. Not risk in the abstract, compliance-framework sense, but the practical, operational risk that quietly drains organizations every day.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿",
       "imageURL": null
     },
     {
@@ -421,7 +511,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-rabbit.webp"
+      "imageURL": "/static/images/cta-turtle.webp"
     },
     {
       "id": "e8f4b82241ccd98a05b3",
@@ -523,15 +613,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*KJ9lshQ8N_AqxrArGj7BoQ.jpeg"
     },
     {
-      "id": "2603a69780ad7769a98f",
-      "title": "How the 2026 World Cup affected Internet traffic",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
-      "publishedAt": "2026-07-21T12:59:40Z",
-      "summary": "For 96 years, the World Cup has been a global phenomenon, uniting nations and communities through a shared love of sportsmanship. While its popularity is nothing new, what is novel today is how rare a truly collective global experience has become. In an era defined by microtrends and algorithmic bubbles, it is increasingly uncommon for people across most countries to engage in the exact same event",
-      "imageURL": null
-    },
-    {
       "id": "cf7993615d96bda40568",
       "title": "The future of development is full-stack​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -565,15 +646,6 @@
       "url": "https://mattrickard.com/pushing-47m-commits-an-hour",
       "publishedAt": "2026-07-21T00:00:00Z",
       "summary": "The winning software teams will throw away orders of magnitude more code than they merge. I ran a benchmark against the custom git server I’m building, 4.79 million pushes per hour to a single repository across 1,408 branches (p50, 322ms). 27.8 million clones per hour of a repository containing the NextJS starter template (p50, 220ms). 4.79M commits won’t make it to master, but the frontier labs a",
-      "imageURL": null
-    },
-    {
-      "id": "540f90446a941654d12b",
-      "title": "Cloudflare Internal DNS is now generally available",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/internal-dns/",
-      "publishedAt": "2026-07-20T20:59:31Z",
-      "summary": "Starting today, Cloudflare Internal DNS is generally available. Cloudflare Internal DNS provides authoritative and recursive DNS for private networks on the same global network and control plane customers already use for public DNS, Zero Trust, networking, and application services. Internal DNS — sometimes also referred to as private DNS — is one of the last pieces of enterprise infrastructure sti",
       "imageURL": null
     },
     {
@@ -620,15 +692,6 @@
       "publishedAt": "2026-07-17T21:32:39Z",
       "summary": "By AI Platform’s Model Runtime team and Inference team Introduction Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather than a separate ML silo. Some of those decisions weren’t obvious, and a few revealed their trade-offs only under production load. Th",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*GKGOrp0xddZwHomMhiSeCA.png"
-    },
-    {
-      "id": "6650138bebb35fc2b0ac",
-      "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
-      "publishedAt": "2026-07-17T21:30:43Z",
-      "summary": "Cloudflare has deployed new Web Application Firewall (WAF) protections for two critical vulnerabilities affecting WordPress. The protections address an Unauthenticated Remote Code Execution (RCE) vulnerability in WordPress's REST API and a related SQL Injection vulnerability. The WordPress security team disclosed the vulnerabilities to Cloudflare before public release so that we could prepare prot",
-      "imageURL": null
     },
     {
       "id": "cbde4eab477d9e01a416",
@@ -721,15 +784,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/09/ARCHBLOG-1496-1.png"
     },
     {
-      "id": "1decf3903f6bfc449949",
-      "title": "AI Agents Explained: How to Build with Them Safely",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92279",
-      "publishedAt": "2026-07-16T13:00:00Z",
-      "summary": "Agents have moved from demos to daily work faster than almost anyone planned for. In our State of Agentic AI report , 60% of organizations already run AI agents in production, and yet 40% name security and compliance as the number-one thing holding them back from scaling further. That gap, between what teams have already shipped and what they can safely operate, is the real story of AI agents righ",
-      "imageURL": "https://www.docker.com/app/uploads/2026/07/docker_What-are-AI-Agents_blog-images_070626_v1-2320x1218.jpg"
-    },
-    {
       "id": "e646e5eba5aa90b1fd80",
       "title": "Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization",
       "sourceName": "Meta Engineering",
@@ -793,15 +847,6 @@
       "imageURL": null
     },
     {
-      "id": "1bddb3b0171fce2cc7bd",
-      "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
-      "publishedAt": "2026-07-14T13:00:00Z",
-      "summary": "On July 3, 2026, the Albanian communications authority (AKEP), the operator of the .al country-code top-level domain (TLD) of Albania, attempted a DNSSEC key rollover. Something went wrong, resulting in DNSSEC validation failures. Any validating DNS resolver receiving these signatures was required by the DNSSEC specification to reject them and return errors to clients. That includes 1.1.1.1 , the ",
-      "imageURL": null
-    },
-    {
       "id": "c0495916da6c37caf70d",
       "title": "Your AI is only as responsible as you are​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‍​​﻿​‌​﻿‍​​﻿‌‍​﻿​​‌‍​‍​﻿‌﻿​‍﻿‌​﻿‌﻿‌‍​‍​﻿‌﻿​﻿​‍​‍﻿‌​﻿‌​‌‍​‍‌‍​‌​﻿‌‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​​﻿‌‌​‍﻿‌​﻿​﻿‌‍​‍​﻿‌﻿​﻿‌﻿‌‍‌‍‌‍‌​​﻿‍‌‌‍​‌​﻿‍​‌‍‌‌​﻿‍‌‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‍​​﻿​‌​﻿‍​​﻿‌‍​﻿​​‌‍​‍​﻿‌﻿​‍﻿‌​﻿‌﻿‌‍​‍​﻿‌﻿​﻿​‍​‍﻿‌​﻿‌​‌‍​‍‌‍​‌​﻿‌‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​​﻿‌‌​‍﻿‌​﻿​﻿‌‍​‍​﻿‌﻿​﻿‌﻿‌‍‌‍‌‍‌​​﻿‍‌‌‍​‌​﻿‍​‌‍‌‌​﻿‍‌‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -845,15 +890,6 @@
       "publishedAt": "2026-07-13T16:00:50Z",
       "summary": "TL; DR At Meta’s scale, a few milliseconds of latency degradation can have a significant negative impact on ads performance. When a Linux kernel upgrade risked regressing latency across Meta’s ad serving fleet, we turned to sched_ext — the upstream, BPF-based extensible scheduling framework — to build a scheduling policy customized to the Ads delivery workload. The result: a 28% reduction in ads r",
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/07/image1.webp"
-    },
-    {
-      "id": "8e31d791b1ab6fad6517",
-      "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/introducing-precursor/",
-      "publishedAt": "2026-07-13T13:00:00Z",
-      "summary": "Bot mitigation is an adversarial game: attackers adapt, defenders respond, and the cycle continues. At Cloudflare, we stay ahead by combining visibility across our global network with signals from the client-side environment. At the network level, we analyze over 1 trillion requests per day to understand reputation, patterns, and anomalies across more than 20% of the web. On the client side, we’ve",
-      "imageURL": null
     },
     {
       "id": "da25033d2414d81ff07c",
@@ -901,15 +937,6 @@
       "imageURL": "https://github.blog/wp-content/uploads/2026/07/1.png?resize=1024%2C478"
     },
     {
-      "id": "fe917b3c66903abf95c0",
-      "title": "Improving Smart Tiered Cache for Public Cloud Regions",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
-      "publishedAt": "2026-07-10T12:00:00Z",
-      "summary": "In 2021, we shipped Smart Tiered Cache . The idea: for each origin behind your site, Cloudflare picks the single best upper-tier data center to route through, based on real-time latency. Flip one switch, and we find the fastest path from our network to your origin. That works as long as an origin IP lives in one fixed place. Public cloud origins usually don't. They sit behind anycast or regional u",
-      "imageURL": null
-    },
-    {
       "id": "83ae17be2797dacf0905",
       "title": "Building more than just an agent harness​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -935,15 +962,6 @@
       "publishedAt": "2026-07-09T22:01:15Z",
       "summary": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding Project Written by Sagar Baronia at Lyft. A Different Kind of Day One Most onboarding journeys follow a familiar arc: orientation sessions, benefits enrollment, setting up your laptop, and gradually finding your footing over the first few weeks. Mine followed that arc too, but with an additional thread",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*eJIjiV1qsbDNRc_uYHopWw.jpeg"
-    },
-    {
-      "id": "e431d21c219b7ed6266c",
-      "title": "Why we cannot wait for better post-quantum signature algorithms",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
-      "publishedAt": "2026-07-09T14:00:00Z",
-      "summary": "RSA and ECC, cryptographic algorithms that we have all relied on for decades, are vulnerable to the attack of sufficiently advanced quantum computers. Such quantum computers do not exist yet, but they seem to be coming sooner than expected. Luckily, the solution is already available: migrate to ML-KEM encryption and ML-DSA signatures, which are designed to be resistant to quantum attack. They were",
-      "imageURL": null
     },
     {
       "id": "5796a8932b59cf2052e2",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-05-26T17:30:00Z",
       "summary": "The Kubernetes project relies on transparency to empower cluster administrators and security researchers. One important way we do that is by publishing CVE records into the Common Vulnerabilities and Exposures database. As part of our ongoing effort to mature the official Kubernetes CVE Feed , we have identified some discrepancies. CVE records for a few older, unfixed issues incorrectly include a ",
       "imageURL": null
-    },
-    {
-      "id": "5c1bf23fc60d4b100a94",
-      "title": "Distributing LLM inference in DwarfStar",
-      "sourceName": "Salvatore Sanfilippo (antirez)",
-      "url": "http://antirez.com/news/167",
-      "publishedAt": "2026-05-25T14:54:59Z",
-      "summary": "High end NVIDIA cards, and the server and power needed to run them, cost a lot of money, especially if you plan to reach enough VRAM to run massive models. The alternative, so far, has been Apple hardware, or the DGX Spark that, even if severely limited because of memory bandwidth, still allows to run LLMs prompt processing (prefill) fast enough. The Mac Studio provided up to 512GB unified memory,",
-      "imageURL": null
-    },
-    {
-      "id": "8a65f6fccf3d463e2496",
-      "title": "Bringing full YAML anchor support to zizmor",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/",
-      "publishedAt": "2026-05-22T11:00:00Z",
-      "summary": "In March 2026, attackers exploited a pull_request_target misconfiguration in the aquasecurity/trivy-action GitHub Action to exfiltrate organization and repository secrets, then used those credentials to backdoor LiteLLM on PyPI (see Trivy’s post-mortem for the full timeline). zizmor is a static analyzer that GitHub Actions users run to catch exactly these misconfigurations before they ship. When G",
-      "imageURL": "https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/pipeline_hu_50937b9976f313d5.webp"
     }
   ]
 }
