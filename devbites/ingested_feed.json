@@ -1,6 +1,105 @@
 {
   "articles": [
     {
+      "id": "117b7c0d74795bc54d9d",
+      "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
+      "publishedAt": "2026-08-05T23:24:51Z",
+      "summary": "We're honored to announce that Cloudflare is the only vendor that has been recognized as a Visionary in both the 2026 Gartner® Magic Quadrant™ for SASE Platforms and the 2026 Gartner® Magic Quadrant™ for Security Service Edge reports. To us, this validates our architectural choices and, more importantly, reflects the trust our customers place in us to navigate an increasingly complex security land",
+      "imageURL": null
+    },
+    {
+      "id": "e90e04dd478fae65deaf",
+      "title": "From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=23996",
+      "publishedAt": "2026-08-05T19:20:20Z",
+      "summary": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequence learning for ads recommendations , we showed how modeling the order and timing of user actions ( rather than relying on static, manually engineered sparse features) produces r",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/05/Multi-stage-Model-Overview.png"
+    },
+    {
+      "id": "0a7af6e09c2f803bea64",
+      "title": "The Agent Access Model",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/the-agent-access-model/",
+      "publishedAt": "2026-08-05T13:00:41Z",
+      "summary": "For the last twelve years, enterprise security has moved away from trusting the network. BeyondCorp made the case that a request's origin, inside the corporate perimeter or on the open Internet, should not decide whether it is allowed. Identity and device health should. That model won: it now underpins much of Zero Trust. Google’s BeyondCorp assumed a specific principal: a human at a device, actin",
+      "imageURL": null
+    },
+    {
+      "id": "a6715dadf2425ab3abac",
+      "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
+      "publishedAt": "2026-08-05T13:00:01Z",
+      "summary": "Sam Rhea is Cloudflare’s Chief Information Officer. I knew we had a problem about six months ago when a member of our sales organization reached out to me asking for API keys. Keys plural. They used AI to build what they described as a SuperApp that would transform our go-to-market teams. All they needed was production access to about a dozen systems of record at Cloudflare and admin permissions t",
+      "imageURL": null
+    },
+    {
+      "id": "eb39e1b5923c62a7fc85",
+      "title": "Cloudflare OS: an open platform for agents, apps, and work",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
+      "publishedAt": "2026-08-05T13:00:00Z",
+      "summary": "Every organization has a mission, a reason for being. Organizations pass that mission — along with their terminology, procedures, systems, standards, and ways of working — to their people. People, in turn, take this context together with their own experience and work towards the mission. Work can take many forms, from code, to documents and slides, to relationships, to outcomes in the physical wor",
+      "imageURL": null
+    },
+    {
+      "id": "a27f66aabb23881b929e",
+      "title": "WriteGuard: fine-grained controls for MCP Servers",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
+      "publishedAt": "2026-08-05T13:00:00Z",
+      "summary": "Let’s imagine the Case of the Endlessly Closing Tickets. The bug tickets start closing at noon. Nobody thinks much of it. Joe moved a few tickets to Done, and Joe is having a productive afternoon. Then the pace picks up. By 4 p.m., thousands of tickets have been closed, all by Joe. Joe is a good engineer. Joe is not a thousand-tickets-an-hour engineer. We learn that he has several background agent",
+      "imageURL": null
+    },
+    {
+      "id": "4fd4ad313eec1e444e8e",
+      "title": "Catching rogue AI behavior with identity-aware analytics",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
+      "publishedAt": "2026-08-05T13:00:00Z",
+      "summary": "When you look at your AI bill, it can be hard to tell if anything is amiss. You first need a baseline so you can see what has changed, whether it’s an agent that’s gone wild or an employee whose usage has spiked 10x. Being able to spot those shifts lets you start investigating, and so far, it’s been hard to see them. Knowing who is doing what with AI is one of the key challenges organizations are ",
+      "imageURL": null
+    },
+    {
+      "id": "080e18ffded8b9a3447a",
+      "title": "Governance Is a Developer Experience Problem",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=92675",
+      "publishedAt": "2026-08-05T13:00:00Z",
+      "summary": "This is the third post of a 3-part series by Docker Captain Karan Verma. Catch up on Part 1: Your Laptop Is the New Production Environment and Part 2: Runtime Enforcement, Not Runtime Advice . The conversation around AI governance often starts with security. That’s understandable. When autonomous systems can execute commands, access tools, and interact with production-adjacent environments, organi",
+      "imageURL": "https://www.docker.com/app/uploads/2026/07/image1-2.png"
+    },
+    {
+      "id": "1f606ef577cecfb83f27",
+      "title": "A few notes on AWS Nitro Enclaves: KMS integration",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
+      "publishedAt": "2026-08-05T11:00:00Z",
+      "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t",
+      "imageURL": null
+    },
+    {
+      "id": "1296f320c2e139405031",
+      "title": "Explorers, exploiters, and the myth of the 100x engineer​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​‌‍‌​​﻿​﻿​﻿‌‍‌‍​‍​﻿‌﻿‌‍‌‍‌‍‌‌​‍﻿‌​﻿‍​‌‍‌‍​﻿‌﻿​﻿‌​​‍﻿‌​﻿‌​​﻿‌​‌‍​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​‌‌‍‌​‌‍​‍​‍﻿‌‌‍​‌‌‍​‍‌‍​﻿​﻿‌‌‌‍‌​​﻿‌​‌‍‌‌‌‍​﻿​﻿‌‌‌‍‌​​﻿‍‌​﻿‍‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​‌‍‌​​﻿​﻿​﻿‌‍‌‍​‍​﻿‌﻿‌‍‌‍‌‍‌‌​‍﻿‌​﻿‍​‌‍‌‍​﻿‌﻿​﻿‌​​‍﻿‌​﻿‌​​﻿‌​‌‍​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​‌‌‍‌​‌‍​‍​‍﻿‌‌‍​‌‌‍​‍‌‍​﻿​﻿‌‌‌‍‌​​﻿‌​‌‍‌‌‌‍​﻿​﻿‌‌‌‍‌​​﻿‍‌​﻿‍‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/08/05/the-myth-of-the-100x-engineer/",
+      "publishedAt": "2026-08-05T07:40:00Z",
+      "summary": "The “find the special ones and promote their traits” approach isn’t the best or only way to drive AI adoption and productivity on an engineering team. ​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌",
+      "imageURL": null
+    },
+    {
+      "id": "02628c909d5fe44688b4",
+      "title": "Touring The Consensus, six months in",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-08-05-touring-the-consensus-six-months-in.html",
+      "publishedAt": "2026-08-05T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "e2c1d98816f2201645d9",
       "title": "Turn one giant AI-generated pull request to a reviewable stack",
       "sourceName": "GitHub Engineering",
@@ -17,6 +116,15 @@
       "publishedAt": "2026-08-04T15:10:16Z",
       "summary": "A new report from Omdia focuses on security issues in the software supply chain, how organizations are responding, and where the biggest gaps remain In the heat map of cybersecurity vulnerabilities today, among the most intense hot spots is the software supply chain. In fact, it was the shift of the modern attack surface away from isolated systems to the software supply chain that connects them—an",
       "imageURL": "https://www.docker.com/app/uploads/2026/07/Omdia_02_1920x1080-5.png"
+    },
+    {
+      "id": "0170038b020c2a1c428e",
+      "title": "Migrating Real-Time Data into TiDB with Debezium CDC",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34481",
+      "publishedAt": "2026-08-04T13:00:17Z",
+      "summary": "Key Takeaways Use TiDB DM for MySQL-only moves. Reach for Debezium and Kafka when the source is not MySQL, or you need a reusable change stream. One pipeline, any source. Debezium captures from MySQL, PostgreSQL, Oracle, and seven other databases; only the source connector changes. No proprietary drivers. TiDB speaks the MySQL protocol, so the Debezium JDBC sink writes over a standard jdbc:mysql:/",
+      "imageURL": "https://static.pingcap.com/files/2026/08/05054720/image-1-1024x492.png"
     },
     {
       "id": "e3bdcbca976f26578006",
@@ -289,15 +397,6 @@
       "imageURL": null
     },
     {
-      "id": "8657be8d8827e7f57827",
-      "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
-      "publishedAt": "2026-07-30T13:00:00Z",
-      "summary": "As of June 23, 2026, cdnjs, one of the Internet's busiest open-source CDNs, is running exclusively on Cloudflare’s Developer Platform . Along the way, cdnjs surfaced limits in the platform, and the platform grew to meet them. cdnjs is a free, open-source content delivery network for JavaScript and CSS libraries. Instead of using a bundler or self-hosting jQuery, Bootstrap, or Lodash, you drop a ta",
-      "imageURL": null
-    },
-    {
       "id": "f9573d2636f81041b214",
       "title": "Building secure Uniswap v4 hooks",
       "sourceName": "Trail of Bits",
@@ -331,15 +430,6 @@
       "url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
       "publishedAt": "2026-07-29T14:06:38Z",
       "summary": "The tools themselves are new and their capabilities are in constant flux. If your kitchen knife kept changing shape, weight, and edge, you’d have to relearn it every time; that’s a hard tool to build trust in. But it also points to a flaw in how you use that tool, the process around it, and the way the tool reinforces the process.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​",
-      "imageURL": null
-    },
-    {
-      "id": "a5879f2468e06048756d",
-      "title": "Post-quantum authentication to origins is now supported",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins/",
-      "publishedAt": "2026-07-29T13:00:00Z",
-      "summary": "Cloudflare's Authenticated Origin Pulls and Custom Origin Trust Store now support post-quantum authentication. Here we’ll explain how you can configure fully post-quantum secure mutually authenticated TLS connections to your origin server, dive into the engineering details of how we built it, make a shameful confession, and finally explain how this work fits into our overall post-quantum migration",
       "imageURL": null
     },
     {
@@ -388,15 +478,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*XK40dh-lXviuXXY_WhUCUA.jpeg"
     },
     {
-      "id": "4220e9f5a211796fb76d",
-      "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
-      "publishedAt": "2026-07-28T13:00:00Z",
-      "summary": "Like most infrastructure, the Internet's fragility is easy to overlook — as long as it's working. When it fails, its complexity comes into full view. Cloudflare is in a unique position to detect and document the moments when one of the interrelated systems the Internet depends on breaks down and connectivity suffers as a result. Each quarter, we summarize the disruptions we detect and annotate on ",
-      "imageURL": null
-    },
-    {
       "id": "3b0f014c68fd095752c8",
       "title": "Coding Agent Horror Stories: The 29 Million Secret Problem",
       "sourceName": "Docker Blog",
@@ -442,30 +523,12 @@
       "imageURL": null
     },
     {
-      "id": "05725279e4862fae3b7c",
-      "title": "We’re open-sourcing our privacy proxy CLI",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
-      "publishedAt": "2026-07-27T13:00:00Z",
-      "summary": "Debugging privacy-preserving protocols is hard. Oblivious HTTP has several different steps across four different parties, not to mention binary HTTP encoding and details spread across many draft RFCs. We've taken what we've learned operating protocols like Oblivious HTTP at the scale of millions of requests per second, and wrapped it up in a nice, clean CLI tool — that we are open-sourcing today. ",
-      "imageURL": null
-    },
-    {
       "id": "752aa65b6686469d83bc",
       "title": "Being Linux Torvalds",
       "sourceName": "Salvatore Sanfilippo (antirez)",
       "url": "http://antirez.com/news/171",
       "publishedAt": "2026-07-25T11:20:55Z",
       "summary": "(This blog post was adapted from the transcription obtained from my YouTube video at https://www.youtube.com/watch?v=l6lxgYeVZqs) When Linus Torvalds developed the first Linux kernel, he had studied the Minix sources, he had studied computer architecture, he had the base knowledge needed, and he was obviously a very brilliant programmer. But that operation of writing a minimal yet working Unix ker",
-      "imageURL": null
-    },
-    {
-      "id": "5bd6beb83c1f9a50cd32",
-      "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
-      "publishedAt": "2026-07-24T17:25:28Z",
-      "summary": "Border Gateway Protocol ( BGP ) is the de facto routing protocol of the Internet. It offers built-in mechanisms to allow entities, represented by Autonomous Systems (ASes), to express how they want to send and receive traffic on the Internet. One such mechanism is path attributes , which carry essential routing information and metadata for their associated route. The path selection algorithm proce",
       "imageURL": null
     },
     {
@@ -512,15 +575,6 @@
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
       "imageURL": "/static/images/cta-turtle.webp"
-    },
-    {
-      "id": "e8f4b82241ccd98a05b3",
-      "title": "Introducing Cache Response Rules",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/introducing-cache-response-rules/",
-      "publishedAt": "2026-07-23T18:40:38Z",
-      "summary": "Today we’re excited to announce Cache Response Rules. These are a new rule type that runs after an origin server replies but before Cloudflare caches the content. If you've ever been irked watching something that should easily sail out of cache get dragged back to the origin by a stray Set-Cookie or wrong Cache-Control , headers that are sometimes hard or impossible to strip or change on the origi",
-      "imageURL": null
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -766,15 +820,6 @@
       "imageURL": null
     },
     {
-      "id": "cb0e519b308a0b2560f4",
-      "title": "From the Captain’s Chair: Mohammad-Ali A’râbi",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92217",
-      "publishedAt": "2026-07-16T17:15:44Z",
-      "summary": "Docker Captains are leaders from the developer community that are both experts in their field and are passionate about sharing their Docker knowledge with others. “From the Captain’s Chair” is a blog series where we get a closer look at one Captain to learn more about them and their experiences. Today we are interviewing Mohammad-Ali A’râbi, a Docker Captain based in the sunniest German city, Frei",
-      "imageURL": "https://www.docker.com/app/uploads/2026/07/image5.jpg"
-    },
-    {
       "id": "2c4497fdbfe49f9c521d",
       "title": "Prioritize your AWS Health alerts using AWS User Notifications",
       "sourceName": "AWS Architecture Blog",
@@ -962,15 +1007,6 @@
       "publishedAt": "2026-07-09T22:01:15Z",
       "summary": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding Project Written by Sagar Baronia at Lyft. A Different Kind of Day One Most onboarding journeys follow a familiar arc: orientation sessions, benefits enrollment, setting up your laptop, and gradually finding your footing over the first few weeks. Mine followed that arc too, but with an additional thread",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*eJIjiV1qsbDNRc_uYHopWw.jpeg"
-    },
-    {
-      "id": "5796a8932b59cf2052e2",
-      "title": "The Multi-Tenant Agent Database: Why the Scale Problem Just Inverted",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34183",
-      "publishedAt": "2026-07-09T13:14:02Z",
-      "summary": "Key Takeaways Coding is dead means the code is no longer the artifact that matters. The verified outcome is. An agent is a runtime, skills, and an environment. The environment is the part everyone ignores and the part that matters most. Agent workloads invert the scale problem: Not one dataset too large for one machine, but tens of millions of databases too small to each deserve one . TiDB X puts ",
-      "imageURL": "https://static.pingcap.com/files/2026/07/10111546/DSC4640-1024x684.jpg"
     },
     {
       "id": "256da1ab2b010eca81bf",
@@ -1432,15 +1468,6 @@
       "imageURL": null
     },
     {
-      "id": "81bb19345c0f173bd31f",
-      "title": "You don’t understand DNS like you think you do​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍​﻿‌‍‌‌‌‍​﻿​﻿‌‌‌‍​‌​﻿​‍​﻿‍‌​﻿‍​​‍﻿‌​﻿​‍​﻿​‍​﻿​​​﻿​﻿​‍﻿‌​﻿‌​‌‍​‍​﻿​​​﻿‌﻿​‍﻿‌‌‍​‍​﻿‍​‌‍‌​‌‍​﻿​‍﻿‌​﻿‍‌​﻿‌‌‌‍​‍‌‍​‌​﻿‌‌​﻿​﻿​﻿​‌‌‍​‌‌‍‌​‌‍​﻿​﻿‌‌​﻿‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍​﻿‌‍‌‌‌‍​﻿​﻿‌‌‌‍​‌​﻿​‍​﻿‍‌​﻿‍​​‍﻿‌​﻿​‍​﻿​‍​﻿​​​﻿​﻿​‍﻿‌​﻿‌​‌‍​‍​﻿​​​﻿‌﻿​‍﻿‌‌‍​‍​﻿‍​‌‍‌​‌‍​﻿​‍﻿‌​﻿‍‌​﻿‌‌‌‍​‍‌‍​‌​﻿‌‌​﻿​﻿​﻿​‌‌‍​‌‌‍‌​‌‍​﻿​﻿‌‌​﻿‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/06/19/you-don-t-understand-dns-like-you-think-you-do/",
-      "publishedAt": "2026-06-19T07:40:00Z",
-      "summary": "Ryan welcomes Cricket Liu, DNS expert and Chief Evangelist at Infoblox, to the show to talk all things DNS. They cover the evolution of one of the oldest DNS server implementations, BIND, and what the future holds for protected DNS configurations; the realities of security threats like DDoS and DNS spoofing; and why outages often trace back to a lack of understanding of DNS’s fundamental role.​​​​",
-      "imageURL": null
-    },
-    {
       "id": "062fad96416859039b19",
       "title": "Observing Go's garbage collector, old and new",
       "sourceName": "Eaton Phil",
@@ -1702,15 +1729,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     },
     {
-      "id": "500d2f2b8f9e8fc58fdb",
-      "title": "Lights Out, Systems On: Validating Instant Power Loss Readiness",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24022",
-      "publishedAt": "2026-06-03T17:00:44Z",
-      "summary": "We’re introducing Instantaneous PowerLoss Storm, a new testing paradigm within Meta’s infrastructure for handling and mitigating instant or zero-notice power loss in our data centers. We’re sharing: how we built readiness to tolerate instant failures into our existing systems with defense-in-depth strategies; tradeoffs made in implementing it, and how we validated our readiness. Disaster preparedn",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/06/Validating-PowerLoss-Readiness-Meta-image-2c.png"
-    },
-    {
       "id": "ff843c8bfc94877834b3",
       "title": "The sorry state of skill distribution",
       "sourceName": "Trail of Bits",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-05-28T00:00:00Z",
       "summary": "How some of the most popular Roblox games have integrated Discord account linking to enhance social features and safety capabilities for official community servers.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a17a67a014ad9969c3caf1e_image4.png"
-    },
-    {
-      "id": "ffd1319f1db1061d2e19",
-      "title": "Expanding Stripe Radar to protect more of your business",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business",
-      "publishedAt": "2026-05-27T00:00:00Z",
-      "summary": "Radar now blocks high-risk transactions across all supported payment methods; defends against new fraud types like multi-account abuse and pay-as-you-go abuse, regardless of which payment processor you use; and gives platforms new tools to evaluate and mitigate merchant risk on and off Stripe.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg"
-    },
-    {
-      "id": "621d165c0ccc5522f645",
-      "title": "Reconciling the Past: Correcting Records for Unfixed Kubernetes CVEs",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/",
-      "publishedAt": "2026-05-26T17:30:00Z",
-      "summary": "The Kubernetes project relies on transparency to empower cluster administrators and security researchers. One important way we do that is by publishing CVE records into the Common Vulnerabilities and Exposures database. As part of our ongoing effort to mature the official Kubernetes CVE Feed , we have identified some discrepancies. CVE records for a few older, unfixed issues incorrectly include a ",
-      "imageURL": null
     }
   ]
 }
