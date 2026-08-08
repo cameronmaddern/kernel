@@ -1,21 +1,57 @@
 {
   "articles": [
     {
+      "id": "381d5922193bb94069de",
+      "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/0f3468349607",
+      "publishedAt": "2026-08-07T16:01:02Z",
+      "summary": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API Authors: Nilesh Mishra and Ajit Koti This is the third entry of a multi-part blog series describing how we built a Real-Time Distributed Graph (RDG). In Part 1 , we discussed the motivation for creating the RDG and the architecture of the data processing pipeline that populates it. In Part ",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*X_O1wdMIVfm9upb2tLXD9A.png"
+    },
+    {
+      "id": "4ba778657c38aa674699",
+      "title": "Unveiling good and bad behaviors on the Agentic Internet",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+      "publishedAt": "2026-08-07T13:01:00Z",
+      "summary": "The Internet isn’t a single lane of traffic. For a long time, the rule of thumb in web security was that bots are bad, while humans are good. Of course, we’re far past this generalization. Humans can be fraudulent, and bots can be helpful at different levels. Site owners actively want some automated traffic to interact with our sites to make the Internet functional and discoverable. To complicate ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZCHB9VT6PFY8DZNPV0SX1SS.png"
+    },
+    {
+      "id": "8552fc65505e1988aa97",
+      "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
+      "publishedAt": "2026-08-07T13:00:00Z",
+      "summary": "Since launching in 2020, Cloudflare Radar has provided one-of-a-kind insight into Internet traffic on a global scale. The open data that Radar publishes from our global network is used by a variety of experts in different domains: human rights advocates, journalists, academic researchers, network operators, and more. Today, as part of Agents Week , Radar is beta-launching a new tool: Radar Researc",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZCGV8J1HF1P5HPSDNRYWTR7.png"
+    },
+    {
+      "id": "b42dc3689e555f8f21a0",
+      "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/community-program-refresh/",
+      "publishedAt": "2026-08-07T13:00:00Z",
+      "summary": "As a platform for helping build a better Internet, Cloudflare helps turn ideas into real products and experiences around the world. Across communities and backgrounds, developers build with Cloudflare using the tools they love, shaping what comes next for the Internet while inspiring, collaborating with, and teaching others. The community is where some of Cloudflare’s best moments happen. Students",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZCB5TGPAH6A73FHJ2QHFR7T.png"
+    },
+    {
+      "id": "009218646f3e9b546321",
+      "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
+      "publishedAt": "2026-08-07T13:00:00Z",
+      "summary": "AI Gateway and Workers AI first started as distinct products, but over time, we noticed our users were converging. With AI Gateway, you can proxy requests to any model provider and get built-in observability, logging, access, and security. On Workers AI, we host models on the GPU infrastructure that we manage, exposing an API endpoint you can leverage to access inference-as-a-service. The architec",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZA5VCX2R70YMT8M56D89B37.png"
+    },
+    {
       "id": "4e7185b25f352eacd815",
       "title": "How to be fearlessly AI native​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍​﻿‌‍‌​​﻿‌‍‌‍‌​​﻿‍‌​﻿‌​‌‍​‌​﻿‍​​‍﻿‌​﻿‌‍‌‍‌‌‌‍​‍​﻿‌‍​‍﻿‌​﻿‌​​﻿​‍​﻿‌​​﻿​﻿​‍﻿‌​﻿‍​‌‍‌‌‌‍‌‌​﻿​‌​‍﻿‌‌‍​‍​﻿‌‌‌‍​‍​﻿​﻿​﻿‍‌​﻿​‌‌‍‌‌‌‍‌‍​﻿​​​﻿‌​​﻿‌​​﻿​‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍​﻿‌‍‌​​﻿‌‍‌‍‌​​﻿‍‌​﻿‌​‌‍​‌​﻿‍​​‍﻿‌​﻿‌‍‌‍‌‌‌‍​‍​﻿‌‍​‍﻿‌​﻿‌​​﻿​‍​﻿‌​​﻿​﻿​‍﻿‌​﻿‍​‌‍‌‌‌‍‌‌​﻿​‌​‍﻿‌‌‍​‍​﻿‌‌‌‍​‍​﻿​﻿​﻿‍‌​﻿​‌‌‍‌‌‌‍‌‍​﻿​​​﻿‌​​﻿‌​​﻿​‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/08/07/how-to-be-fearlessly-ai-native/",
       "publishedAt": "2026-08-07T07:40:00Z",
       "summary": "Ryan welcomes McLaren Stanley, Senior Principal Engineer for Amazon Stores, to discuss what it actually takes to make teams AI native, why agentic engineering is shifting code bottlenecks downstream to testing and deployment, and why robust validation is essential to build trust and enable “fearless commits.”​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍",
-      "imageURL": null
-    },
-    {
-      "id": "57e413ecc4b37f07c84b",
-      "title": "Why Attend TiDB SCaiLE 2026: Same Complexity, Different Clock Speeds",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34542",
-      "publishedAt": "2026-08-06T20:04:58Z",
-      "summary": "Key Takeaways TiDB SCaiLE 2026 runs October 15 at the Computer History Museum in Mountain View, CA, as a single-day program. The agenda splits into two tracks, AI-Native: Infinite Agents and Enterprise: Infinite Data, that sit on the same data foundation so sessions connect rather than compete. Sessions are practitioner-led and selected for real numbers and real tradeoffs, including talks from tea",
       "imageURL": null
     },
     {
@@ -118,15 +154,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/05/Multi-stage-Model-Overview.png"
     },
     {
-      "id": "53477e3a33a5cb157dd7",
-      "title": "Open Source Data Layers Will Win the AI Future",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34513",
-      "publishedAt": "2026-08-05T19:20:17Z",
-      "summary": "Key Takeaways AI changed the cost of rewriting application code, not the cost of moving durable state. The data layer is where control actually persists. A closed data platform makes your roadmap, pricing, and deployment options someone else’s decision, and the deeper the integration, the harder that is to reverse. Open source is not only protection from lock-in. It is a place to build advantage. ",
-      "imageURL": "https://static.pingcap.com/files/2026/08/06115331/image-2-1024x512.png"
-    },
-    {
       "id": "0a7af6e09c2f803bea64",
       "title": "The Agent Access Model",
       "sourceName": "Cloudflare Blog",
@@ -226,15 +253,6 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/07/Omdia_02_1920x1080-5.png"
     },
     {
-      "id": "0170038b020c2a1c428e",
-      "title": "Migrating Real-Time Data into TiDB with Debezium CDC",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34481",
-      "publishedAt": "2026-08-04T13:00:17Z",
-      "summary": "Key Takeaways Use TiDB DM for MySQL-only moves. Reach for Debezium and Kafka when the source is not MySQL, or you need a reusable change stream. One pipeline, any source. Debezium captures from MySQL, PostgreSQL, Oracle, and seven other databases; only the source connector changes. No proprietary drivers. TiDB speaks the MySQL protocol, so the Debezium JDBC sink writes over a standard jdbc:mysql:/",
-      "imageURL": "https://static.pingcap.com/files/2026/08/05054720/image-1-1024x492.png"
-    },
-    {
       "id": "e3bdcbca976f26578006",
       "title": "The Agent Development Lifecycle has arrived on Cloudflare",
       "sourceName": "Cloudflare Blog",
@@ -271,33 +289,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ4XJH53PWRDTBHRX5D3VJH4.png"
     },
     {
-      "id": "1bb6dbc9f8bf0fdb423c",
-      "title": "Introducing: Cloudflare Agents",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
-      "publishedAt": "2026-08-04T13:00:00Z",
-      "summary": "We're bringing together everything you need to deploy and manage hosted agents on Cloudflare, starting with observability. We've spent the last nine years building a developer platform, and agents are the perfect use case. They're really just another type of application, but what you need to build them — model access , durable runtime , orchestration , sandboxed execution , persistent storage — ha",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ4WGXSXP7S27P8VKV4F0D2N.png"
-    },
-    {
-      "id": "a850a1c8cf83902e325c",
-      "title": "Your agent can now debug Workers with local tracing",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/local-tracing/",
-      "publishedAt": "2026-08-04T13:00:00Z",
-      "summary": "Starting today, wrangler dev and vite dev automatically capture OpenTelemetry traces for local Worker invocations. When Cloudflare's tooling detects an agent session, it points the agent to the Local Explorer API , a local debugging API where it can query those traces. You do not need to install an SDK, enable tracing, configure your agent, or even mention observability in the prompt. A prompt can",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ4VE2P2E0N8JGH2VJ245E2G.png"
-    },
-    {
-      "id": "798d9a298d9796dba60f",
-      "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/astro-issue-triage/",
-      "publishedAt": "2026-08-04T13:00:00Z",
-      "summary": "Everyone is talking about software factories: the idea that AI agents can be assembled into a pipeline that produces working software on their own, the way a factory turns raw materials into finished goods. There’s endless debate over whether that’s actually possible, how far the automation can really go, and whether the “loops” people are demoing count for anything. Some have already written them",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ4HKHHS409626RAQN3HX651.png"
-    },
-    {
       "id": "1936240a6be64688943c",
       "title": "Your MVP doesn’t need a Kubernetes cluster​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿​‌‌‍‌‌​﻿​﻿‌‍​﻿​﻿‌‌‌‍‌‌​﻿​﻿​‍﻿‌​﻿​‌​﻿​‌‌‍​‍​﻿‌‌​‍﻿‌​﻿‌​‌‍​‌​﻿​‍​﻿​​​‍﻿‌​﻿‍​​﻿‌‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌​​﻿‍‌‌‍‌‍​﻿​﻿​﻿‍​​﻿​‍‌‍​‍​﻿​‍​﻿‍‌‌‍​﻿​﻿​‌‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿​‌‌‍‌‌​﻿​﻿‌‍​﻿​﻿‌‌‌‍‌‌​﻿​﻿​‍﻿‌​﻿​‌​﻿​‌‌‍​‍​﻿‌‌​‍﻿‌​﻿‌​‌‍​‌​﻿​‍​﻿​​​‍﻿‌​﻿‍​​﻿‌‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌​​﻿‍‌‌‍‌‍​﻿​﻿​﻿‍​​﻿​‍‌‍​‍​﻿​‍​﻿‍‌‌‍​﻿​﻿​‌‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -332,15 +323,6 @@
       "publishedAt": "2026-08-03T16:00:00Z",
       "summary": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0 , which was released on June 30th of this year! Gateway API has become the standard for modern, role-oriented, and expressive service networking in Kubernetes. In previous releases, Gateway API established a production-grade foundation for HTTP and TLS layer 7 traffic. With version 1.6.0, Gateway API takes ",
       "imageURL": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/gateway-api-logo.svg"
-    },
-    {
-      "id": "eaa0372b22c5242a6f0d",
-      "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-computer/",
-      "publishedAt": "2026-08-03T13:15:24Z",
-      "summary": "The most capable agents have something simple in common: they are given their own computer to work with. Coding agents work this way. You give them a filesystem, a shell, tools, packages, and the ability to run code. They inspect the environment, make changes, test their work, and keep going. The computer gives the model a familiar way to act on the world. At Cloudflare, we’re working hard to prov",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ0Q510F63VHS6DFGP9SAV3H.png"
     },
     {
       "id": "c93ac246c472bf7d2bca",
@@ -430,15 +412,6 @@
       "url": "https://www.docker.com/?p=92620",
       "publishedAt": "2026-07-30T19:31:47Z",
       "summary": "Over the past few months, I’ve noticed something unmistakable in my conversations with customers. We’re no longer talking about what AI agents are capable of and whether they can transform the way we build software. We know the answer. They can. They already are. The conversations I’m having now instead revolve around a much more sensitive, much more nuanced question: Can we trust these systems? C",
-      "imageURL": null
-    },
-    {
-      "id": "854c3a86be375d3ae72b",
-      "title": "Vector Search Meets Distributed SQL: Why Agentic AI Does Not Need Another Database",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34465",
-      "publishedAt": "2026-07-30T16:31:33Z",
-      "summary": "Key Takeaways Every system added to an AI stack holds a copy or a slice of the same data, and every copy needs its own ingestion path, its own operators, and its own sync job. A vector is meaning encoded as numbers. Comparing a billion of them exhaustively is not affordable, which is why approximate nearest neighbor indexes exist. TiDB feeds its columnar store, vector index , and full-text index t",
       "imageURL": null
     },
     {
@@ -559,15 +532,6 @@
       "imageURL": null
     },
     {
-      "id": "04c4bfb48f527677524b",
-      "title": "TiDB Log Compaction: Faster Point-in-Time Recovery for Large Clusters",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34335",
-      "publishedAt": "2026-07-28T06:25:48Z",
-      "summary": "Key Takeaways Long recovery windows make PITR restore expensive: fragmented log files, many small writes through TiKV, and RocksDB write amplification afterward. Log compaction converts backed-up logs into sorted SST files offline. Restore imports those SSTs and replays logs only for uncompacted ranges. Internal benchmarks cut log restore time by 52% to 99%, and made restore feasible on a 206.6 Ti",
-      "imageURL": null
-    },
-    {
       "id": "752aa65b6686469d83bc",
       "title": "Being Linux Torvalds",
       "sourceName": "Salvatore Sanfilippo (antirez)",
@@ -595,15 +559,6 @@
       "imageURL": null
     },
     {
-      "id": "ccad69ac8ee6fc936b69",
-      "title": "The Agent Context Plane: How One Cluster Fixed the $50K Agent Bug",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34331",
-      "publishedAt": "2026-07-24T14:32:46Z",
-      "summary": "Key Takeaways The analytics stack was built for people to read data, not for agents to act on it. Every added system is another consistency gap. Agent loops on a warehouse are expensive. One EV-charging platform burned $50,000 in a day of testing and projected $130,000 a month at scale. One cluster changed the economics. On TiDB , agent confidence rose from a 74% cold start to roughly 93%. An agen",
-      "imageURL": null
-    },
-    {
       "id": "940e51e18a9119e8c42c",
       "title": "Partnerships can keep open source sustainable​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​​﻿‍‌​﻿‍‌​﻿​‍​﻿​‌​﻿​‍​﻿​​​﻿​‍​‍﻿‌​﻿​‌‌‍‌‍​﻿​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿​​​﻿​﻿​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌‍‌‍​‍​﻿‌﻿​‍﻿‌‌‍​‌​﻿‌﻿​﻿‍​​﻿‌‌​﻿‍​​﻿​‍​﻿‍​​﻿‌﻿​﻿​﻿​﻿​‌​﻿​﻿‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​​﻿‍‌​﻿‍‌​﻿​‍​﻿​‌​﻿​‍​﻿​​​﻿​‍​‍﻿‌​﻿​‌‌‍‌‍​﻿​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿​​​﻿​﻿​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌‍‌‍​‍​﻿‌﻿​‍﻿‌‌‍​‌​﻿‌﻿​﻿‍​​﻿‌‌​﻿‍​​﻿​‍​﻿‍​​﻿‌﻿​﻿​﻿​﻿​‌​﻿​﻿‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -619,7 +574,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-kitty.webp"
+      "imageURL": "/static/images/cta-turtle.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -629,15 +584,6 @@
       "publishedAt": "2026-07-23T00:00:00Z",
       "summary": "This is part of a series of exercises on benchmarking, evals, and experimental design ( 1 , 2 , 3 , 4 , 5 , 6 ) 1 . We're going to look at three questions, which are presented before the answers to give you time to think about the questions before seeing the answers. 29. A friend of mine is reviewing performance orders of magnitude to prep for computer performance interviews and found that https:/",
       "imageURL": "https://danluu.com/images/exercise-7/deep-swe.png"
-    },
-    {
-      "id": "e41abda7a136ebef0ae6",
-      "title": "Why Agent Memory Needs a Database That Can Write Back",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34350",
-      "publishedAt": "2026-07-22T20:08:21Z",
-      "summary": "Key Takeaways Retrieval-only memory accumulates contradictions, so agents repeat mistakes. Production memory needs controlled writes, deduplication, staleness management, and cross-type queries. The two-store pattern breaks on consistency, complexity, and an open write-back loop. TiDB reads, joins, and writes back corrected state in one ACID engine. I’ve spent the last year helping enterprise team",
-      "imageURL": "https://static.pingcap.com/files/2026/07/24125029/image-1-1024x576.png"
     },
     {
       "id": "5d5f1d035419d6cc0f0e",
@@ -748,15 +694,6 @@
       "imageURL": null
     },
     {
-      "id": "141eedd761a492fd4fd1",
-      "title": "ACID at Scale: Where ORMs and MySQL Disagree",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34362",
-      "publishedAt": "2026-07-20T20:53:52Z",
-      "summary": "Key Takeaways Your ORM assumes one database with real transactions. Sharded MySQL quietly breaks that assumption. Cross-shard writes turn one ORM transaction into several, and ACID does not span them. The failures are silent: Partial writes, phantom state, and bugs you cannot reproduce. Distributed SQL restores the single-database contract, so the ORM’s assumptions hold again. If you have ever wat",
-      "imageURL": "https://static.pingcap.com/files/2026/07/24131410/image-2-1024x603.png"
-    },
-    {
       "id": "1f9b3059a0a1b2a43f28",
       "title": "How our universal content processing platform Riviera evolved for AI and beyond",
       "sourceName": "Dropbox Tech",
@@ -829,15 +766,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/10/ARCHBLOG-1439-1.png"
     },
     {
-      "id": "2752d60d10f4d6365903",
-      "title": "From One Week to 22 Minutes: How Bolt Migrated MySQL to TiDB",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34264",
-      "publishedAt": "2026-07-17T14:12:12Z",
-      "summary": "Key Takeaways Beyond a terabyte per table, MySQL hits an operational ceiling: week-long schema changes, single-threaded backups, and vertical-only write scaling. Sharding proxies just relocate the problem. Bolt ran Vitess and walked away; a natively distributed database shards below the SQL layer, invisibly to developers. On TiDB, a schema change that took over a week on MySQL runs in 22 minutes ,",
-      "imageURL": "https://static.pingcap.com/files/2026/07/17111123/DSC4844-1-1024x683.jpg"
-    },
-    {
       "id": "3baa0cdf77644dc7e501",
       "title": "Developers who move fast still need to do it together​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "sourceName": "Stack Overflow Blog",
@@ -853,15 +781,6 @@
       "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
       "publishedAt": "2026-07-17T00:00:00Z",
       "summary": "Hello! I’ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a bunch of blog posts about how it is totally fine to use SQLite in production for a small site and I think it is totally fine, but what I did not fully appreciate is that SQLite is still a database, databases are complicated",
-      "imageURL": null
-    },
-    {
-      "id": "bf547c133355b1d279de",
-      "title": "Novita Artifact Hosting + TiDB: Deploying AI-Generated Apps With One SDK Call",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34258",
-      "publishedAt": "2026-07-16T17:52:57Z",
-      "summary": "Key Moments Most AI-generated code never reaches production because deployment, not code quality, is the blocker. Novita Artifact Hosting takes an agent’s sandbox output to a live URL with one SDK call. Adding database=True to the deploy call provisions a TiDB Cloud instance, runs migrations, and injects DATABASE_URL automatically. TiDB fits agent-built apps because it is MySQL compatible and requ",
       "imageURL": null
     },
     {
@@ -1477,15 +1396,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Te9vjGxhHK7jMmpSO6sy2Q.png"
     },
     {
-      "id": "a672cb1ec1b65c0d5f37",
-      "title": "Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/587b1f2de928",
-      "publishedAt": "2026-06-19T23:53:47Z",
-      "summary": "by Emily Gill Each year, we bring the Analytics Engineering community together for an Analytics Summit — a multi-day internal conference to share analytical deliverables across Netflix, discuss analytic practice, and build relationships within the community. This post is one of several topics presented at the Summit highlighting the breadth and impact of Analytics work across different areas of th",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*4KfGZI5-3PaxEU_tMjp9NQ.png"
-    },
-    {
       "id": "062fad96416859039b19",
       "title": "Observing Go's garbage collector, old and new",
       "sourceName": "Eaton Phil",
@@ -1799,6 +1709,96 @@
       "publishedAt": "2026-05-28T14:15:20Z",
       "summary": "In early 2023, Slack faced a foundational challenge: serving Large Language Models (LLMs) at enterprise scale with the security, reliability, and performance our customers expect. Over three years, we evolved from basic infrastructure to orchestrating a sophisticated multi-cloud architecture. We didn’t just want shiny new models; we needed a system resilient to regional outages and GPU scarcity. O",
       "imageURL": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f4bc.png"
+    },
+    {
+      "id": "d5dc8739bb879923cd3e",
+      "title": "Solo founding is at an all-time high: Top performers have these traits in common",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/top-solo-founder-traits",
+      "publishedAt": "2026-05-28T00:00:00Z",
+      "summary": "In 2025, solo founders in the top decile generated 61 times the revenue of the median solo founder in their first six months. We analyzed the data to understand what drives that gap.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3YiEqV9ZoR97PiMWsrHnVE/c44cc91c0be0ed35d4c024609a1a097a/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png"
+    },
+    {
+      "id": "97ba49941aa06e8f7e76",
+      "title": "Official Discord Integrations for Steal a Brainrot, Grow a Garden, Brookhaven RP, and more",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/official-discord-integrations-for-steal-a-brainrot-grow-a-garden-brookhaven-rp-and-more",
+      "publishedAt": "2026-05-28T00:00:00Z",
+      "summary": "How some of the most popular Roblox games have integrated Discord account linking to enhance social features and safety capabilities for official community servers.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a17a67a014ad9969c3caf1e_image4.png"
+    },
+    {
+      "id": "ffd1319f1db1061d2e19",
+      "title": "Expanding Stripe Radar to protect more of your business",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business",
+      "publishedAt": "2026-05-27T00:00:00Z",
+      "summary": "Radar now blocks high-risk transactions across all supported payment methods; defends against new fraud types like multi-account abuse and pay-as-you-go abuse, regardless of which payment processor you use; and gives platforms new tools to evaluate and mitigate merchant risk on and off Stripe.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg"
+    },
+    {
+      "id": "621d165c0ccc5522f645",
+      "title": "Reconciling the Past: Correcting Records for Unfixed Kubernetes CVEs",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/",
+      "publishedAt": "2026-05-26T17:30:00Z",
+      "summary": "The Kubernetes project relies on transparency to empower cluster administrators and security researchers. One important way we do that is by publishing CVE records into the Common Vulnerabilities and Exposures database. As part of our ongoing effort to mature the official Kubernetes CVE Feed , we have identified some discrepancies. CVE records for a few older, unfixed issues incorrectly include a ",
+      "imageURL": null
+    },
+    {
+      "id": "5c1bf23fc60d4b100a94",
+      "title": "Distributing LLM inference in DwarfStar",
+      "sourceName": "Salvatore Sanfilippo (antirez)",
+      "url": "http://antirez.com/news/167",
+      "publishedAt": "2026-05-25T14:54:59Z",
+      "summary": "High end NVIDIA cards, and the server and power needed to run them, cost a lot of money, especially if you plan to reach enough VRAM to run massive models. The alternative, so far, has been Apple hardware, or the DGX Spark that, even if severely limited because of memory bandwidth, still allows to run LLMs prompt processing (prefill) fast enough. The Mac Studio provided up to 512GB unified memory,",
+      "imageURL": null
+    },
+    {
+      "id": "8a65f6fccf3d463e2496",
+      "title": "Bringing full YAML anchor support to zizmor",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/",
+      "publishedAt": "2026-05-22T11:00:00Z",
+      "summary": "In March 2026, attackers exploited a pull_request_target misconfiguration in the aquasecurity/trivy-action GitHub Action to exfiltrate organization and repository secrets, then used those credentials to backdoor LiteLLM on PyPI (see Trivy’s post-mortem for the full timeline). zizmor is a static analyzer that GitHub Actions users run to catch exactly these misconfigurations before they ship. When G",
+      "imageURL": "https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/pipeline_hu_50937b9976f313d5.webp"
+    },
+    {
+      "id": "ac44377e3f5a5c6d72a7",
+      "title": "Introducing Nova, our internal platform for coding agents",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/machine-learning/introducing-nova-our-internal-platform-for-coding-agents",
+      "publishedAt": "2026-05-21T16:00:00Z",
+      "summary": "Coding agents are becoming an important part of software development. Their most obvious use is helping developers write code faster. But code is only one part of building and operating software. At Dropbox scale, agents also need to work within a large monorepo , validate code changes in Dropbox’s full engineering environment, and incorporate context from across the engineering lifecycle. Develop",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/may/nova/headers/Machine Learning-Nova for agent assisted dev-1440x305-light.png"
+    },
+    {
+      "id": "77f7ad1ef55f991d683d",
+      "title": "Making It Easier Than Ever to Connect with Friends in League & VAL!",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/making-it-easier-than-ever-to-connect-with-friends-in-league-val",
+      "publishedAt": "2026-05-21T00:00:00Z",
+      "summary": "Link your Discord and Riot accounts to sync your friends lists, show your in-game activity as your Discord status, and invite your Discord friends directly to your League or VAL lobby.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a0f41117da8d7b799ea1a1b_Riot-Integration-blog-gameart-centercrop-1800x720.png"
+    },
+    {
+      "id": "938bde021c9e56c5fb1e",
+      "title": "Announcing etcd 3.7.0-beta.0",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/05/20/etcd-370-beta/",
+      "publishedAt": "2026-05-20T00:00:00Z",
+      "summary": "SIG-Etcd announces the availability of the first beta release of etcd v3.7.0 . This new version of the popular distributed database and key Kubernetes component includes the long-requested RangeStream feature, as well as a refactoring and cleanup of multiple legacy components and interfaces. v3.7 will deliver improved security, better operational reliability, and an improved experience for working",
+      "imageURL": null
+    },
+    {
+      "id": "0b6a6475dca9f0b9224f",
+      "title": "Yeunjoo Choi from Igalia on Chromium",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-05-20-yeunjoo-choi-on-chromium.html",
+      "publishedAt": "2026-05-20T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
     }
   ]
 }
