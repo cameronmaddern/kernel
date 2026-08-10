@@ -757,15 +757,6 @@
       "imageURL": null
     },
     {
-      "id": "d7d169aba500ee31a448",
-      "title": "Pushing 4.7M Commits an Hour",
-      "sourceName": "Matt Rickard",
-      "url": "https://mattrickard.com/pushing-47m-commits-an-hour",
-      "publishedAt": "2026-07-21T00:00:00Z",
-      "summary": "The winning software teams will throw away orders of magnitude more code than they merge. I ran a benchmark against the custom git server I’m building, 4.79 million pushes per hour to a single repository across 1,408 branches (p50, 322ms). 27.8 million clones per hour of a repository containing the NextJS starter template (p50, 220ms). 4.79M commits won’t make it to master, but the frontier labs a",
-      "imageURL": null
-    },
-    {
       "id": "141eedd761a492fd4fd1",
       "title": "ACID at Scale: Where ORMs and MySQL Disagree",
       "sourceName": "PingCAP / TiDB",
@@ -1799,6 +1790,15 @@
       "publishedAt": "2026-05-28T14:15:20Z",
       "summary": "In early 2023, Slack faced a foundational challenge: serving Large Language Models (LLMs) at enterprise scale with the security, reliability, and performance our customers expect. Over three years, we evolved from basic infrastructure to orchestrating a sophisticated multi-cloud architecture. We didn’t just want shiny new models; we needed a system resilient to regional outages and GPU scarcity. O",
       "imageURL": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f4bc.png"
+    },
+    {
+      "id": "d5dc8739bb879923cd3e",
+      "title": "Solo founding is at an all-time high: Top performers have these traits in common",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/top-solo-founder-traits",
+      "publishedAt": "2026-05-28T00:00:00Z",
+      "summary": "In 2025, solo founders in the top decile generated 61 times the revenue of the median solo founder in their first six months. We analyzed the data to understand what drives that gap.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3YiEqV9ZoR97PiMWsrHnVE/c44cc91c0be0ed35d4c024609a1a097a/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png"
     }
   ]
 }
