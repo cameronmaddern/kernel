@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "8cd1240ab3157e8e6a05",
+      "title": "Solving integration woes with a hackathon",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/08/14/solving-integration-woes-with-a-hackathon/",
+      "publishedAt": "2026-08-14T07:40:00Z",
+      "summary": "Ryan welcomes Meryll Blanchet, Director of Engineering for Adobe Brand Visibility, to chat about Adobe’s recent acquisition of Semrush, how Adobe Brand Visibility was born from Semrush’s AI visibility product and Adobe’s LLM Optimizer, and how Adobe used a three-day internal hackathon instead of a large-scale infrastructure integration to quickly deliver value to customers.",
+      "imageURL": null
+    },
+    {
+      "id": "d99f99b648a3f4615195",
+      "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
+      "publishedAt": "2026-08-13T19:58:01Z",
+      "summary": "At a time when looking down at our devices is a ritual in daily life, a natural phenomenon that demands our attention communally upward is a welcome event. On Wednesday, August 12, a total solar eclipse swept from the North Atlantic across Europe, moving over Iceland and northern Spain and Portugal, with a deep partial eclipse over the rest of Western Europe, all near local sunset. This was the fi",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZY9E03GZQKFZPVFDA5EKNGP.png"
+    },
+    {
+      "id": "809199b008ecf346b8f9",
+      "title": "Track generative AI costs with Amazon Bedrock inference profiles",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/track-generative-ai-costs-with-amazon-bedrock-inference-profiles/",
+      "publishedAt": "2026-08-13T15:59:39Z",
+      "summary": "Tracking generative AI costs is a common challenge when multiple teams share a single foundation model through Amazon Bedrock . Your HR team answers policy questions, Accounting analyzes financial documents with it, and IT troubleshoots infrastructure issues. All three use the same foundation model. But usage shows up as one line item on the bill. As a result, finance can’t charge back each depart",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/03/ARCHBLOG-1453-1.png"
+    },
+    {
+      "id": "1bbfb9a74ee14364b370",
+      "title": "Recovery strategies to meet data residency requirements",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/recovery-strategies-to-meet-data-residency-requirements/",
+      "publishedAt": "2026-08-13T14:05:39Z",
+      "summary": "Data residency requirements can affect how government agencies, regulated industries such as financial services, healthcare, and power and utilities, and businesses that make residency commitments plan for the recovery of their critical workloads on AWS. These requirements must be considered and balanced against applicable workload recovery objectives. This post assumes familiarity with AWS Region",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/12/ARCHBLOG-1530-1.png"
+    },
+    {
+      "id": "5fd06b6421851c8c6eee",
+      "title": "Certificate Transparency Monitoring is now generally available",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
+      "publishedAt": "2026-08-13T13:00:00Z",
+      "summary": "Since we launched Certificate Transparency Monitoring in public beta in 2019, we've been emailing subscribers whenever a new TLS certificate appears in a public Certificate Transparency (CT) log for one of their domains. Today, it's turned on for more than 650,000 customer domains. It's an early warning that someone, somewhere, has issued a certificate for a hostname in your zone, giving you a cha",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZQPYFA4V0A6ZGSYZDJGASME.png"
+    },
+    {
       "id": "adf9de127627a3acabf6",
       "title": "Reducing Text2SQL latency with parameterized query templates",
       "sourceName": "AWS Architecture Blog",
@@ -160,6 +205,15 @@
       "url": "https://www.pingcap.com/?p=34582",
       "publishedAt": "2026-08-10T13:00:00Z",
       "summary": "Key Takeaways Agentic AI architecture has five layers: reasoning, tools, memory, state, and guardrails. Frameworks handle the first two; your storage choice handles the rest. Vector search solves semantic retrieval only. It does not provide authoritative records, durable workflow state, or transactional updates. Production agents store far more than embeddings: structured facts, execution state, t",
+      "imageURL": null
+    },
+    {
+      "id": "2950090732eedf643421",
+      "title": "What's the best programming language for coding agents?",
+      "sourceName": "Dan Luu",
+      "url": "https://danluu.com/pl-tokens/",
+      "publishedAt": "2026-08-09T00:00:00Z",
+      "summary": "This somewhat widely cited post (I keep seeing it cited, anyway) suggests that dynamic languages and/or languages that represent things more concisely are more token efficient. It seems to be cited enough that LLM search results agree. For example, when I searched for \"dynamic vs static language token cost\" (no quotes), Google's AI summary opened with Dynamically typed languages generally have a l",
       "imageURL": null
     },
     {
@@ -379,15 +433,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7CJ0VE6ERSW1KPEN5DGYJX.png"
     },
     {
-      "id": "4fd4ad313eec1e444e8e",
-      "title": "Catching rogue AI behavior with identity-aware analytics",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
-      "publishedAt": "2026-08-05T13:00:00Z",
-      "summary": "When you look at your AI bill, it can be hard to tell if anything is amiss. You first need a baseline so you can see what has changed, whether it’s an agent that’s gone wild or an employee whose usage has spiked 10x. Being able to spot those shifts lets you start investigating, and so far, it’s been hard to see them. Knowing who is doing what with AI is one of the key challenges organizations are ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7B4V2YNVJJXE8VE6E5ZK5E.png"
-    },
-    {
       "id": "080e18ffded8b9a3447a",
       "title": "Governance Is a Developer Experience Problem",
       "sourceName": "Docker Blog",
@@ -449,15 +494,6 @@
       "publishedAt": "2026-08-04T13:00:17Z",
       "summary": "Key Takeaways Use TiDB DM for MySQL-only moves. Reach for Debezium and Kafka when the source is not MySQL, or you need a reusable change stream. One pipeline, any source. Debezium captures from MySQL, PostgreSQL, Oracle, and seven other databases; only the source connector changes. No proprietary drivers. TiDB speaks the MySQL protocol, so the Debezium JDBC sink writes over a standard jdbc:mysql:/",
       "imageURL": "https://static.pingcap.com/files/2026/08/05054720/image-1-1024x492.png"
-    },
-    {
-      "id": "e3bdcbca976f26578006",
-      "title": "The Agent Development Lifecycle has arrived on Cloudflare",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/agent-development-lifecycle/",
-      "publishedAt": "2026-08-04T13:00:00Z",
-      "summary": "Engineering managers spent the past few decades figuring out ways for many programmers to work together on a shared codebase. This work dates all the way back to the “Systems Development Lifecycle” ( RAND, 1975 ) - today commonly referred to as the “Software Development Lifecycle” (SDLC), which defines the following phases: Plan Design Implement Test Deploy Maintain Retire AI has made the step tha",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ6A4Q5CY65JFVVYMJCV4AG7.png"
     },
     {
       "id": "1936240a6be64688943c",
@@ -880,6 +916,15 @@
       "url": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/",
       "publishedAt": "2026-07-21T00:00:00Z",
       "summary": "Hello! I’m on a funny journey right now where I’m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend. It’s kind of an interesting journey because it doesn’t necessarily feel “easy” to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there’s a lot I need to learn. So here are some Dja",
+      "imageURL": null
+    },
+    {
+      "id": "d7d169aba500ee31a448",
+      "title": "Pushing 4.7M Commits an Hour",
+      "sourceName": "Matt Rickard",
+      "url": "https://mattrickard.com/pushing-47m-commits-an-hour",
+      "publishedAt": "2026-07-21T00:00:00Z",
+      "summary": "The winning software teams will throw away orders of magnitude more code than they merge. I ran a benchmark against the custom git server I’m building, 4.79 million pushes per hour to a single repository across 1,408 branches (p50, 322ms). 27.8 million clones per hour of a repository containing the NextJS starter template (p50, 220ms). 4.79M commits won’t make it to master, but the frontier labs a",
       "imageURL": null
     },
     {
@@ -1324,15 +1369,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/02/ARCHBLOG-1385-1.png"
     },
     {
-      "id": "7abdc52d3fe04b272792",
-      "title": "Dual-token authentication for Nakama game servers with Amazon Cognito on AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/dual-token-authentication-for-nakama-game-servers-with-amazon-cognito-on-aws/",
-      "publishedAt": "2026-06-29T17:09:54Z",
-      "summary": "When your game server needs both a managed identity provider and its own session system, players face a broken experience if authentication forces a redirect or stalls gameplay. Dual-token authentication for Nakama game servers with Amazon Cognito solves this by connecting two independent session systems, each with its own token lifecycle, without interrupting the player. This post shows you how. ",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/17/ARCHBLOG-1497-1-1.png"
-    },
-    {
       "id": "b573a0b7e4a0edd1d8ca",
       "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
       "sourceName": "Netflix TechBlog",
@@ -1459,15 +1495,6 @@
       "imageURL": null
     },
     {
-      "id": "d9174a4009dd980a8086",
-      "title": "The 2026 Developer Survey is now open (for human developers only)!",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/06/23/the-2026-developer-survey-is-now-open-for-human-developers-only/",
-      "publishedAt": "2026-06-23T14:00:00Z",
-      "summary": "Once again, we're asking for your help to take the temperature of software development.",
-      "imageURL": null
-    },
-    {
       "id": "3361c70f1fbf1a70b73b",
       "title": "Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix",
       "sourceName": "Netflix TechBlog",
@@ -1511,15 +1538,6 @@
       "publishedAt": "2026-06-22T16:50:00Z",
       "summary": "What happens when you clear dozens of Trail of Bits engineers’ schedules, pair them with every open-source maintainer they can contact, and unleash the latest frontier models like GPT-5.5-Cyber on critical open-source targets? Thanks to our partnership with OpenAI and its Daybreak initiative, we can report that the impact is hundreds of discovered bugs, 64 pull requests, and 51 issues filed across",
       "imageURL": "https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/ptp-image-1.gif"
-    },
-    {
-      "id": "1ab337ffc9ce50ea1959",
-      "title": "Secure multi-tenant RAG with Amazon Bedrock and Verified Permissions",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/secure-multi-tenant-rag-with-amazon-bedrock-and-verified-permissions/",
-      "publishedAt": "2026-06-22T16:49:13Z",
-      "summary": "Large organizations building internal generative AI applications face a recurring challenge: controlling which teams or departments can access which documents, without duplicating infrastructure for each group. Within a single tenant, employees from a specific department should only access material assigned to that department. However, executives, with a wider span of control, will require access ",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/10/ARCHBLOG-1492-1.png"
     },
     {
       "id": "5ad90e34ef63e2060448",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-06-04T00:00:00Z",
       "summary": "Explore how AI agents are transforming commerce at Stripe’s Agentic Commerce Next roadshow. Reserve your spot in Seattle.",
       "imageURL": null
-    },
-    {
-      "id": "d6ca5a60f6fd47c14c3a",
-      "title": "Rethinking risk in the age of AI",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.events/stripeforumseattle1?utm_campaign=T5QX6Eo2zn5AP8iIGrUCWB7FFhttps%3A%2F%2Fstripe.events%2Facnext_seattle%3Futm_campaign%3DTD0976N7Lv4IS9ymCxV2jTAHH",
-      "publishedAt": "2026-06-04T00:00:00Z",
-      "summary": "Join senior risk and payments leaders in Seattle to explore how AI is reshaping fraud strategy. Seats are limited.",
-      "imageURL": null
-    },
-    {
-      "id": "239b5753caafed9c7659",
-      "title": "Discord Patch Notes: June 4, 2026",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-patch-notes-june-4-2026",
-      "publishedAt": "2026-06-04T00:00:00Z",
-      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     }
   ]
 }
