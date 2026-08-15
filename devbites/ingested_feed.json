@@ -1,12 +1,75 @@
 {
   "articles": [
     {
+      "id": "569e9c1c78c47a11c443",
+      "title": "No Dumb Questions: What is AI context architecture? Why not just build your own?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/08/14/ndq-ai-context-architecture-build-buy/",
+      "publishedAt": "2026-08-14T18:00:00Z",
+      "summary": "In this No Dumb Questions, Phoebe asks Stack’s Engineering Manager Doug Whitley and Product Manager Ash Zade everything she wants to know about AI context architecture. What exactly is it? Why is it so important? What makes for good AI context architecture? Why buy one when you can build your own?",
+      "imageURL": null
+    },
+    {
+      "id": "0c3a166931d4b57e0989",
+      "title": "How Cloudflare detects MCP traffic and helps secure it",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/mcp-security-updates/",
+      "publishedAt": "2026-08-14T13:12:12Z",
+      "summary": "Most companies designed their resource permissions with a human user in mind. A senior engineer may be able to deploy to production, query a sensitive database, or revoke another user's access. Those privileges come with risk, but that risk has traditionally been bounded by two assumptions: the engineer will use human judgment, and the engineer can only act at human speed. An engineer who sees an ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M005HG1H0K802B4Y17SX9NQ5.png"
+    },
+    {
+      "id": "99a5478b68b82d078b06",
+      "title": "Secure all your internal vibe-coded applications — in one click",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/workers-protected-by-access/",
+      "publishedAt": "2026-08-14T13:00:00Z",
+      "summary": "AI has enabled employees across every team to build applications faster than ever before. But that speed is also what's keeping every CISO up at night: any employee can build an application, deploy it to the public Internet, and accidentally expose internal work or company data. Today, we're launching new tools to make it easy to keep your applications hosted on Workers private. You can now apply ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZW0HXCQS1KX2QJ1MD5YT1JP.png"
+    },
+    {
+      "id": "8615a4b31ffbd4bd0cb9",
+      "title": "Reproducible ESP32 Firmware Development with Docker and Docker Sandboxes",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=92784",
+      "publishedAt": "2026-08-14T13:00:00Z",
+      "summary": "Firmware development has always been challenging: mismatched toolchains, “it works on my machine” builds, and the tension between maintaining legacy products and shipping new features. In this article we explore how you can use Docker and Docker sandboxes to ease firmware development, especially for ESP32 projects. Nowadays, teams end up supporting multiple hardware revisions, several ESP-IDF rele",
+      "imageURL": null
+    },
+    {
+      "id": "d3576bf82ede7bd918cf",
+      "title": "Continuous Aggregate Refresh, Demystified: Invalidation, Lookback, and Late-Arriving Data",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/continuous-aggregate-refresh-demystified",
+      "publishedAt": "2026-08-14T12:00:28Z",
+      "summary": "Yesterday the shift dashboard reported 41,900 units across an eight-hour window. Today the same query over the same eight hours reports 43,100. Nobody shipped a code change and nobody edited a row after the fact, so why did the number move? A plant-floor historian had lost its uplink, buffered locally, and flushed overnight, landing rows that carry their original timestamps. The raw table was corr",
+      "imageURL": "https://assets.tigerdata.com/blog/2026/08/Creating-continuousaggregate.svg"
+    },
+    {
+      "id": "c0352c4d1bb93d78c5b0",
+      "title": "Serverless vehicle tracking at scale: Bosch L.OS on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/serverless-vehicle-tracking-at-scale-bosch-l-os-on-aws/",
+      "publishedAt": "2026-08-14T10:02:13Z",
+      "summary": "When Bosch Mobility Platform Solutions set out to unify vehicle tracking across India’s fragmented spot logistics market, they faced a daunting reality: dozens of telematics providers, incompatible data formats, and thousands of concurrent tracking requests — all needing real-time resolution. The result was L.OS, a serverless platform on AWS that standardizes this chaos into a single visibility la",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/13/ARCHBLOG-1243-1.png"
+    },
+    {
       "id": "8cd1240ab3157e8e6a05",
       "title": "Solving integration woes with a hackathon",
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/08/14/solving-integration-woes-with-a-hackathon/",
       "publishedAt": "2026-08-14T07:40:00Z",
       "summary": "Ryan welcomes Meryll Blanchet, Director of Engineering for Adobe Brand Visibility, to chat about Adobe’s recent acquisition of Semrush, how Adobe Brand Visibility was born from Semrush’s AI visibility product and Adobe’s LLM Optimizer, and how Adobe used a three-day internal hackathon instead of a large-scale infrastructure integration to quickly deliver value to customers.",
+      "imageURL": null
+    },
+    {
+      "id": "abebed6fbc89d84f5709",
+      "title": "Hourly updates to jobs and the feed",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-08-14-hourly-updates.html",
+      "publishedAt": "2026-08-14T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
     },
     {
@@ -151,7 +214,7 @@
       "url": "https://stripe.com/blog/mapping-the-ai-economy",
       "publishedAt": "2026-08-11T00:00:00Z",
       "summary": "AI companies are undergoing rapid global expansion while achieving unprecedented rates of growth. We analyzed Stripe data to understand where global demand is the strongest, and how companies can build to best capture that demand.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3zq67gzl09NDsPhwwSKpiS/fd27e91b9ee2461e4b8f359780f6bbe6/Blog_index_image.png"
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3zq67gzl09NDsPhwwSKpiS/420f8b42b6aff303aa6293fbc6ff3283/Hero_image_optimized_for_ratio_bigger_labels_darker_bigger_disclaimer_3x.png"
     },
     {
       "id": "d948ecd6776f0c29d74b",
@@ -280,15 +343,6 @@
       "imageURL": null
     },
     {
-      "id": "498e9914d2451ccc15a4",
-      "title": "What pg_stat_statements Actually Tells You About Your Queries",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/what-pg_stat_statements-actually-tells-you-about-your-queries",
-      "publishedAt": "2026-08-07T04:00:00Z",
-      "summary": "Your slowest query is rarely your most expensive one. A 4-second report that runs twice a day costs your database 8 seconds. A 3-millisecond lookup that runs 40,000 times a minute costs it two minutes of CPU every sixty seconds. Only one of those shows up in a slow query log, and it is the wrong one. pg_stat_statements settles this argument. It keeps a running total of every top-level statement yo",
-      "imageURL": null
-    },
-    {
       "id": "57e413ecc4b37f07c84b",
       "title": "Why Attend TiDB SCaiLE 2026: Same Complexity, Different Clock Speeds",
       "sourceName": "PingCAP / TiDB",
@@ -413,24 +467,6 @@
       "publishedAt": "2026-08-05T13:00:01Z",
       "summary": "Sam Rhea is Cloudflare’s Chief Information Officer. I knew we had a problem about six months ago when a member of our sales organization reached out to me asking for API keys. Keys plural. They used AI to build what they described as a SuperApp that would transform our go-to-market teams. All they needed was production access to about a dozen systems of record at Cloudflare and admin permissions t",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7KNN2D04NCEJK30R669DBR.png"
-    },
-    {
-      "id": "eb39e1b5923c62a7fc85",
-      "title": "Cloudflare OS: an open platform for agents, apps, and work",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-os/",
-      "publishedAt": "2026-08-05T13:00:00Z",
-      "summary": "Every organization has a mission, a reason for being. Organizations pass that mission — along with their terminology, procedures, systems, standards, and ways of working — to their people. People, in turn, take this context together with their own experience and work towards the mission. Work can take many forms, from code, to documents and slides, to relationships, to outcomes in the physical wor",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7PDXE4XKZZQV409JNYTS85.png"
-    },
-    {
-      "id": "a27f66aabb23881b929e",
-      "title": "WriteGuard: fine-grained controls for MCP Servers",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
-      "publishedAt": "2026-08-05T13:00:00Z",
-      "summary": "Let’s imagine the Case of the Endlessly Closing Tickets. The bug tickets start closing at noon. Nobody thinks much of it. Joe moved a few tickets to Done, and Joe is having a productive afternoon. Then the pace picks up. By 4 p.m., thousands of tickets have been closed, all by Joe. Joe is a good engineer. Joe is not a thousand-tickets-an-hour engineer. We learn that he has several background agent",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7CJ0VE6ERSW1KPEN5DGYJX.png"
     },
     {
       "id": "080e18ffded8b9a3447a",
@@ -766,15 +802,6 @@
       "imageURL": null
     },
     {
-      "id": "610cc187aca374099f15",
-      "title": "Agentic AI Needs Guardrails, Not Guesswork",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92407",
-      "publishedAt": "2026-07-24T17:19:36Z",
-      "summary": "What does it take to secure AI agents without slowing developers down? A recent panel explored the answer I recently joined Zach Lloyd, founder and CEO of Warp ; Gavriel Cohen, co-founder and CEO of NanoCo and creator of NanoClaw ; and moderator Moriah Hara, founder of a community of more than 3,000 CISOs and a three-time Fortune 500 CISO , for a discussion on one of the biggest challenges facing ",
-      "imageURL": null
-    },
-    {
       "id": "f925a22ea690ad075ab8",
       "title": "No Dumb Questions: What is the AI bottleneck? How does context engineering fix it?",
       "sourceName": "Stack Overflow Blog",
@@ -808,7 +835,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-turtle.webp"
+      "imageURL": "/static/images/cta-cat.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1360,15 +1387,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/17/ARCHBLOG-1323-1.png"
     },
     {
-      "id": "72e6a9787b36d2a90e5c",
-      "title": "Preventing data exfiltration in machine learning environments with Amazon SageMaker AI",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/preventing-data-exfiltration-in-machine-learning-environments-with-amazon-sagemaker-ai/",
-      "publishedAt": "2026-06-29T17:16:48Z",
-      "summary": "If you’re building machine learning solutions with sensitive data, you face a persistent challenge: preventing data exfiltration while enabling data scientists to work productively. iBusiness , an AI-driven fintech organization, needed its data scientists to work with sensitive data to fine-tune and improve machine learning models. As the data science team scaled, traditional air-gapped environmen",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/02/ARCHBLOG-1385-1.png"
-    },
-    {
       "id": "b573a0b7e4a0edd1d8ca",
       "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
       "sourceName": "Netflix TechBlog",
@@ -1483,15 +1501,6 @@
       "url": "https://engineering.fb.com/?p=24113",
       "publishedAt": "2026-06-23T16:00:38Z",
       "summary": "Smart glasses like the Ray-Ban Meta and Oakley Meta Vanguards need to pack enough energy to power features like cameras, speakers, AI workloads, and even a display. But it all has to fit into the glasses’ temple arms. So how do you place a battery with enough power to run a pair of smart glasses all day into a form factor narrower than an adult’s pinky finger? You have to rethink how batteries are",
-      "imageURL": null
-    },
-    {
-      "id": "e90818e994bbd259ece2",
-      "title": "Your AI shipped a backend that boots. That is the whole problem.",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/06/23/your-ai-shipped-a-backend-that-boots-that-is-the-whole-problem/",
-      "publishedAt": "2026-06-23T14:08:58Z",
-      "summary": null,
       "imageURL": null
     },
     {
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-06-04T00:00:00Z",
       "summary": "At Sessions 2026, Stripe unveiled dozens of products and capabilities to help businesses turn global demand into revenue. See how to go global faster with localized checkout and Adaptive Pricing, smarter fraud tools, multicurrency treasury support, and automated tax compliance.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png"
-    },
-    {
-      "id": "2b6bd5520043c773e2a5",
-      "title": "The future of agentic commerce is here",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.events/acnext_seattle?utm_campaign=TD0976N7Lv4IS9ymCxV2jTAHH",
-      "publishedAt": "2026-06-04T00:00:00Z",
-      "summary": "Explore how AI agents are transforming commerce at Stripe’s Agentic Commerce Next roadshow. Reserve your spot in Seattle.",
-      "imageURL": null
     }
   ]
 }
