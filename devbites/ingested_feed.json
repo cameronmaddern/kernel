@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "47b488ba6509097cea39",
+      "title": "The road to ACID transactions in Cassandra 6",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-08-16-transactions-in-cassandra.html",
+      "publishedAt": "2026-08-16T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "569e9c1c78c47a11c443",
       "title": "No Dumb Questions: What is AI context architecture? Why not just build your own?",
       "sourceName": "Stack Overflow Blog",
@@ -835,7 +844,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-cat.webp"
+      "imageURL": "/static/images/cta-kitty.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-06-04T17:01:04Z",
       "summary": "How Airbnb built a Kubernetes sidecar to deliver dynamic configuration reliably at scale. By : Bo Teng , Cosmo Qiu , Siyuan Zhou , Ankur Soni , Xin Huang , Willis Harvey Introduction In our previous post , we explored Airbnb’s dynamic configuration system, Sitar, with a focus on service architecture and configuration change safety. Now for the harder question: once a config change is committed, wh",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*KW0bD9Rtf6A9wyE79jZqrA.jpeg"
-    },
-    {
-      "id": "eccb0a8fda18611a20bf",
-      "title": "New ways to turn global demand into revenue",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue",
-      "publishedAt": "2026-06-04T00:00:00Z",
-      "summary": "At Sessions 2026, Stripe unveiled dozens of products and capabilities to help businesses turn global demand into revenue. See how to go global faster with localized checkout and Adaptive Pricing, smarter fraud tools, multicurrency treasury support, and automated tax compliance.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png"
     }
   ]
 }
