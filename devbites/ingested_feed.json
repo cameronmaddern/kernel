@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "5691fca6eefce285e392",
+      "title": "What does an agentic SDLC actually look like?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/08/18/what-does-an-agentic-sdlc-actually-look-like/",
+      "publishedAt": "2026-08-18T07:40:00Z",
+      "summary": "Ryan welcomes Suneet Malhotra, Senior Manager of Test Engineering at Motorola Solutions, to chat about building end-to-end agentic SDLC pipelines using MCPs, using Cohen’s kappa to evaluate multiple LLMs-as-judges, and how you can improve requirements by shifting QA left through a specification enrichment stage immediately after the design phase.",
+      "imageURL": null
+    },
+    {
+      "id": "637e7d3a7ec23e971a86",
+      "title": "Make zero CVEs your new default",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=92719",
+      "publishedAt": "2026-08-17T13:00:00Z",
+      "summary": "Supply-chain attacks have stopped being isolated incidents somewhere in the past year. The compromises now reach the tools the industry trusts to defend itself, with Trivy and KICS among this year’s targets . Mark Lechner, Docker’s Chief Information Security Officer, called the latest wave ‘a permanent shift in the threat landscape’ , and the months since have borne that out. The volume is growing",
+      "imageURL": "https://www.docker.com/app/uploads/2026/08/Screenshot-2026-08-05-at-14-49-37-Hardened-Images-catalog-Docker-Hub.png"
+    },
+    {
+      "id": "f1acc8b7bb28ac144b77",
+      "title": "New currency capabilities for global businesses to cut FX costs",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/reduce-fx-costs-with-stripe",
+      "publishedAt": "2026-08-17T00:00:00Z",
+      "summary": "Two product upgrades make it easy for global businesses to manage FX entirely on Stripe. We’re expanding multicurrency settlement to more markets and currencies, and we’re introducing the ability to convert currencies instantly—all on Stripe.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/7xgfnyZq3lIBjWIuhI5cph/a0cc8cc59d2b78c690252633e9fb33e3/Blog___Index_new__1250_x_1250_.png"
+    },
+    {
+      "id": "cb42944b171bbb76cec0",
+      "title": "A letter to the Discord community in Brazil",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/a-letter-to-the-discord-community-in-brazil",
+      "publishedAt": "2026-08-17T00:00:00Z",
+      "summary": "On the order from Brazil's ANPD to suspend screensharing and video features in the country, how we're complying, and our commitment to our community in Brazil.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68090f03d6cb868fab0af03c_2024_10_DiscordBlog_CompanyAnnoucements-1.png"
+    },
+    {
       "id": "47b488ba6509097cea39",
       "title": "The road to ACID transactions in Cassandra 6",
       "sourceName": "Eaton Phil",
@@ -757,15 +793,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*XK40dh-lXviuXXY_WhUCUA.jpeg"
     },
     {
-      "id": "3b0f014c68fd095752c8",
-      "title": "Coding Agent Horror Stories: The 29 Million Secret Problem",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92541",
-      "publishedAt": "2026-07-28T13:00:00Z",
-      "summary": "This is Part 4 of our AI Coding Agent Horror Stories series, a look at real security incidents involving AI coding agents, and how Docker Sandboxes keeps credentials out of an agent’s reach at the execution layer. In Part 1 , we walked through six categories of AI coding agent failures and why they keep happening. The agent runs as you, with your filesystem permissions and your credentials, and no",
-      "imageURL": "https://www.docker.com/app/uploads/2026/07/image2-1.png"
-    },
-    {
       "id": "53a9c0b8566b179134d0",
       "title": "How we use /goal to find bugs in Patch the Planet",
       "sourceName": "Trail of Bits",
@@ -844,7 +871,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-kitty.webp"
+      "imageURL": "/static/images/cta-dog.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1477,15 +1504,6 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/june/dash-chat-dspy/headers/Machine Learning-How we used DSPy to optimize Dash chat-1440x305-light.png"
     },
     {
-      "id": "06290eb4a3f3ef60c42e",
-      "title": "Code isn’t the only thing causing your production failures",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/06/25/code-isnt-causing-your-production-failures/",
-      "publishedAt": "2026-06-25T07:40:00Z",
-      "summary": "Ryan sits down with Anish Agarwal, CEO and co-founder of Traversal, to chat about why AI coding agents have made writing code easier but running it safely in production harder, why production failures are really caused by interactions between systems and not just the code itself, and how teams can troubleshoot more effectively when traditional observability tools are not enough for agentic AI work",
-      "imageURL": null
-    },
-    {
       "id": "806ca9bfebec7360f5ed",
       "title": "Discord Update: June 25, 2026 Changelog",
       "sourceName": "Discord Blog",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-06-07T09:46:06Z",
       "summary": "Automatic programming dramatically speeds up writing software in certain use cases and in the right hands. In my experience the output does not reach the structural quality and economy of complexity of the best hand-written software. However, not all the software is stellar, and my feeling is that automatic programming surpasses most of the times (and if well managed) the quality of decently devel",
       "imageURL": null
-    },
-    {
-      "id": "6651348c822d9967997c",
-      "title": "Python 3.14 garbage collection rigamarole",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-06-06-python-3-14-garbage-collection-rigamarole.html",
-      "publishedAt": "2026-06-06T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "649056b2db3d5c6888b4",
-      "title": "Sitar-agent: Building a reliable dynamic configuration sidecar at scale",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/b7e00c152068",
-      "publishedAt": "2026-06-04T17:01:04Z",
-      "summary": "How Airbnb built a Kubernetes sidecar to deliver dynamic configuration reliably at scale. By : Bo Teng , Cosmo Qiu , Siyuan Zhou , Ankur Soni , Xin Huang , Willis Harvey Introduction In our previous post , we explored Airbnb’s dynamic configuration system, Sitar, with a focus on service architecture and configuration change safety. Now for the harder question: once a config change is committed, wh",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*KW0bD9Rtf6A9wyE79jZqrA.jpeg"
     }
   ]
 }
