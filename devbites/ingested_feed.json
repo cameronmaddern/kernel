@@ -1,10 +1,55 @@
 {
   "articles": [
     {
-      "id": "5691fca6eefce285e392",
-      "title": "What does an agentic SDLC actually look like?",
+      "id": "c1a49ce9bd0f47f7d934",
+      "title": "Improving infrastructure efficiency for growing demand in the age of AI",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/infrastructure/improving-infrastructure-efficiency-for-growing-demand-in-the-age-of-ai",
+      "publishedAt": "2026-08-18T17:00:00Z",
+      "summary": "As demand for AI continues to grow, so does the infrastructure needed to support it. Much of the industry's attention has focused on building more: more data centers, more servers, and more power. But building new infrastructure is only part of the challenge. Engineering teams are also working within constraints on energy, cooling, hardware availability, and physical space, making it increasingly ",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/headers/Infrastructure-Improving efficiency and resource utilization across our infrastructure in the AI era-1440x305-light.png"
+    },
+    {
+      "id": "5e86ecac00b9168a89ef",
+      "title": "17,600 Actions: Agent Security Is a Systems Problem",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=92915",
+      "publishedAt": "2026-08-18T16:00:00Z",
+      "summary": "Everyone has been talking about the OpenAI/Hugging Face incident, and I was initially skeptical that Docker had much to add. After several weeks of customer conversations, I think we do. The useful lesson is not that an AI agent escaped a sandbox. It is what 17,600 actions expose about security systems designed for human tempo. Hugging Face reconstructed approximately 17,600 attacker actions acros",
+      "imageURL": null
+    },
+    {
+      "id": "411d04f48fcfcf468f2c",
+      "title": "BGP Role model: tracking the adoption of RFC 9234",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
+      "publishedAt": "2026-08-18T15:21:32Z",
+      "summary": "Route leaks push traffic down paths it was never meant to take. We have written and spoken publicly in the past about route leaks in Border Gateway Protocol (BGP) , depicting these events as impactful incidents that cause misdirection of traffic through unintended network paths. BGP routing is driven by the relationships between Autonomous Systems (ASes), i.e., customer-provider and peer-peer. Cus",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M0AP04HK7ZM02ZWP3G59W4DP.png"
+    },
+    {
+      "id": "4532b2a7197e56227705",
+      "title": "Coding Agent Horror Stories: The Command You Already Approved",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=92821",
+      "publishedAt": "2026-08-18T13:00:00Z",
+      "summary": "This is Part 5 of our AI Coding Agent Horror Stories series, a look at real security incidents involving AI coding agents, and how Docker Sandboxes contain agent execution at the boundary rather than at the command line. In Part 1 , we walked through six categories of AI coding agent failures and why they keep happening. The agent runs as you, with your filesystem permissions and your credentials,",
+      "imageURL": "https://www.docker.com/app/uploads/2026/08/image1-1.png"
+    },
+    {
+      "id": "7ee5a110ae3284b06ae7",
+      "title": "Consistency is the new latency: AI at the data layer",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/consistency-is-the-new-latency-ai-at-the-data-layer/",
+      "publishedAt": "2026-08-18T11:13:20Z",
+      "summary": "As AI applications scale from reactive bots to autonomous agents, their reliability is bound to the speed and accuracy of the data layer beneath them. The integrity crisis nobody is talking about There’s a quiet assumption baked into most AI architectures today regarding data layer consistency, and it’s costing companies more than they realize. The assumption is that the data your AI agent reads i",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/17/ARCHBLOG-1404-1.png"
+    },
+    {
+      "id": "b18ec46a915d4c4b622c",
+      "title": "Building an agentic SDLC with a QA engineering mindset",
       "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/18/what-does-an-agentic-sdlc-actually-look-like/",
+      "url": "https://stackoverflow.blog/2026/08/18/building-an-agentic-sdlc-with-a-qa-engineering-mindset/",
       "publishedAt": "2026-08-18T07:40:00Z",
       "summary": "Ryan welcomes Suneet Malhotra, Senior Manager of Test Engineering at Motorola Solutions, to chat about building end-to-end agentic SDLC pipelines using MCPs, using Cohen’s kappa to evaluate multiple LLMs-as-judges, and how you can improve requirements by shifting QA left through a specification enrichment stage immediately after the design phase.",
       "imageURL": null
@@ -505,15 +550,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7NYA8BN3XM3K0Y64KJCWP4.png"
     },
     {
-      "id": "a6715dadf2425ab3abac",
-      "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
-      "publishedAt": "2026-08-05T13:00:01Z",
-      "summary": "Sam Rhea is Cloudflare’s Chief Information Officer. I knew we had a problem about six months ago when a member of our sales organization reached out to me asking for API keys. Keys plural. They used AI to build what they described as a SuperApp that would transform our go-to-market teams. All they needed was production access to about a dozen systems of record at Cloudflare and admin permissions t",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7KNN2D04NCEJK30R669DBR.png"
-    },
-    {
       "id": "080e18ffded8b9a3447a",
       "title": "Governance Is a Developer Experience Problem",
       "sourceName": "Docker Blog",
@@ -631,15 +667,6 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/07/image-1.png"
     },
     {
-      "id": "b0823cf5f26c3b02739b",
-      "title": "Docker OIDC connections for GitHub Actions available for Docker Orgs",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92559",
-      "publishedAt": "2026-07-31T16:30:48Z",
-      "summary": "Eliminate Stored Credentials in Your CI/CD Pipelines TL;DR: Docker now supports OpenID Connect (OIDC) for GitHub Actions. Your workflows can authenticate with short-lived, per-run tokens instead of stored PATs or OATs. No secrets to rotate, no credentials to leak. GitHub OIDC connections are available to organizations with Docker Team, Docker Business, or Docker Hardened Images (DHI) subscriptions",
-      "imageURL": "https://www.docker.com/app/uploads/2026/07/diagram-final.png"
-    },
-    {
       "id": "4953d4c2f69085a69dc8",
       "title": "Modeling Device Capabilities for Analytics",
       "sourceName": "Netflix TechBlog",
@@ -692,15 +719,6 @@
       "publishedAt": "2026-07-30T20:10:15Z",
       "summary": "Authors: Ying Li , Arjun Rao , Shradha Sehgal Introduction Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years to support diverse cont",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*7Jb6-3knD_VCB_wWN5M3Mw.png"
-    },
-    {
-      "id": "08b6b44f18b4bf3ac1a7",
-      "title": "The Future of Agentic AI Depends on Openness and Trust. That’s Why Docker Is Joining Nvidia’s Open Secure AI Alliance.",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92620",
-      "publishedAt": "2026-07-30T19:31:47Z",
-      "summary": "Over the past few months, I’ve noticed something unmistakable in my conversations with customers. We’re no longer talking about what AI agents are capable of and whether they can transform the way we build software. We know the answer. They can. They already are. The conversations I’m having now instead revolve around a much more sensitive, much more nuanced question: Can we trust these systems? C",
-      "imageURL": null
     },
     {
       "id": "854c3a86be375d3ae72b",
@@ -1414,15 +1432,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67f597ab8965032c232c7d4a_image4.png"
     },
     {
-      "id": "659ddb1d1a563a04d9f3",
-      "title": "Lessons learned from scaling to 1 million Lambda functions",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/lessons-learned-from-scaling-to-1-million-lambda-functions/",
-      "publishedAt": "2026-06-29T17:21:05Z",
-      "summary": "In this post, we share our journey and the lessons learned from building and running a fully serverless, multi-account software as a service (SaaS) platform at scale. We’ll explore why true scale-to-zero is critical, how we handle quota management, why engaging AWS service teams early saved us from outages, and which unexpected practices emerged once we scaled from thousands to over a million func",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/17/ARCHBLOG-1323-1.png"
-    },
-    {
       "id": "b573a0b7e4a0edd1d8ca",
       "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
       "sourceName": "Netflix TechBlog",
@@ -1789,15 +1798,6 @@
       "url": "https://fly.io/blog/building-agents-that-dont-break-themselves/",
       "publishedAt": "2026-06-08T00:00:00Z",
       "summary": "Building agents is fun. Rebuilding agents that break themselves… less so. A lot of Fly people are building agents with less of a penchant for self-destruction by teaching their agents to do anything risky in a Sprite. You get an agent that stays alive long enough to actually use its snazzy self-improvement features, and you can allow your agent to try things that would otherwise be battleship-scal",
-      "imageURL": null
-    },
-    {
-      "id": "22af742187f5c6ed4437",
-      "title": "A new era for software testing",
-      "sourceName": "Salvatore Sanfilippo (antirez)",
-      "url": "http://antirez.com/news/168",
-      "publishedAt": "2026-06-07T09:46:06Z",
-      "summary": "Automatic programming dramatically speeds up writing software in certain use cases and in the right hands. In my experience the output does not reach the structural quality and economy of complexity of the best hand-written software. However, not all the software is stellar, and my feeling is that automatic programming surpasses most of the times (and if well managed) the quality of decently devel",
       "imageURL": null
     }
   ]
