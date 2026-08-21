@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "509ebc167a081f7b7d8b",
+      "title": "Get rid of your CAPTCHA, the future of the web is bots",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/08/21/get-rid-of-your-captcha-the-future-of-the-web-is-bots/",
+      "publishedAt": "2026-08-21T07:40:00Z",
+      "summary": "Ryan chats with Brian Alvey, CTO at WordPress VIP, about how AI agents are changing the business models of the web, what parts of how we build our sites won’t survive our current digital evolution, and why your site will always need structured content.",
+      "imageURL": null
+    },
+    {
+      "id": "ba605015d2bcf9912337",
+      "title": "AI Won't Replace Project Managers, But It is Reshaping How Work Gets Done",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/08/20/ai-won-t-replace-project-managers-but-it-is-reshaping-how-work-gets-done/",
+      "publishedAt": "2026-08-20T19:05:40Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "2cf268c5fed3e2e7a7d5",
+      "title": "Quantum-Augmented Applications: Integrating Quantum Subroutines into Classical Software Stacks",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/08/20/quantum-augmented-applications-integrating-quantum-subroutines-into-classical-software-stacks/",
+      "publishedAt": "2026-08-20T18:43:39Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "512254c86ff662cb4052",
+      "title": "From all-or-nothing to task-based OAuth consent",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
+      "publishedAt": "2026-08-20T17:03:03Z",
+      "summary": "Since June, developers have created thousands of third-party OAuth apps on Cloudflare , with more than a million authorizations since. OAuth makes delegated access possible. It lets applications act on a user’s behalf without asking them to handle long-lived credentials or hand over a password. That model works well when an application can describe its access needs with a small set of scopes. Deve",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M0E2VFX1WXFF6TK51VFNP5V3.png"
+    },
+    {
+      "id": "bba9dddeea6ff5560738",
+      "title": "Docker Verified Publisher Applications Are Now Self-Serve",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=92968",
+      "publishedAt": "2026-08-20T17:00:00Z",
+      "summary": "Curating trusted content for the agentic software era While AI made it easier for organizations to keep up with the latest innovations, it also made it harder to know what to trust. When software is selected at machine speed, the question is no longer “is this popular?” It’s “do we know who published this?” Docker Hub has always been where developers go to answer that question. Starting today, sof",
+      "imageURL": null
+    },
+    {
+      "id": "aa5d50fd0f4bfe49698b",
+      "title": "From PHP to team lead of agents: rethinking judgment, review, and data with Google's Andi Gutmans (Part 1)",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/08/20/rethinking-judgment-review-andi-gutmans/",
+      "publishedAt": "2026-08-20T07:40:00Z",
+      "summary": "Andi Gutmans, head of Agentic Data Cloud at Google and co-creator of PHP, joins Leaders of Code to talk about why agentic development feels less like a break from the past and more like the next chapter of the same story. This is part one of a two-part conversation.",
+      "imageURL": null
+    },
+    {
       "id": "09b8b9ffd77df6de1be9",
       "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 1",
       "sourceName": "AWS Architecture Blog",
@@ -568,15 +622,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a739eab90b6719a4af75a42_image1.png"
     },
     {
-      "id": "117b7c0d74795bc54d9d",
-      "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
-      "publishedAt": "2026-08-05T23:24:51Z",
-      "summary": "We're honored to announce that Cloudflare is the only vendor that has been recognized as a Visionary in both the 2026 Gartner® Magic Quadrant™ for SASE Platforms and the 2026 Gartner® Magic Quadrant™ for Security Service Edge reports. To us, this validates our architectural choices and, more importantly, reflects the trust our customers place in us to navigate an increasingly complex security land",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7BWZQ3V6HEP8XX36S72VZE.png"
-    },
-    {
       "id": "e90e04dd478fae65deaf",
       "title": "From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking",
       "sourceName": "Meta Engineering",
@@ -701,15 +746,6 @@
       "publishedAt": "2026-08-03T13:00:00Z",
       "summary": "I work on Docker Sandboxes , so I spend a lot of time talking about isolation, microVMs, disposable filesystems, blast radii, all the good infrastructure things. But the Docker Sandboxes feature I keep reaching for in daily use is kits . Kits sound like a packaging detail until you try to use a sandbox for real work. An empty sandbox is a good boundary. It’s also (eventually) ephemeral and empty, ",
       "imageURL": "https://www.docker.com/app/uploads/2026/08/Screenshot-2026-07-31-at-23.05.29-2320x705.png"
-    },
-    {
-      "id": "c2c5a0039506367b2195",
-      "title": "Docker AI Governance: Audit Logs, Now Where Your Security Team Already Works",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92655",
-      "publishedAt": "2026-08-03T13:00:00Z",
-      "summary": "Now in Docker AI Governance: a single searchable record of every policy decision your agents trigger, streamed to the SIEM your security team already runs, so you can show what your agents did and what your policy stopped. Today, Docker AI Governance now streams every policy decision in your organization into the SIEM your security team already runs, with a searchable record of all of it in Docker",
-      "imageURL": "https://www.docker.com/app/uploads/2026/07/image-1.png"
     },
     {
       "id": "4953d4c2f69085a69dc8",
@@ -1360,15 +1396,6 @@
       "imageURL": null
     },
     {
-      "id": "eb6a64e26f3f0a2dc257",
-      "title": "The good, the bad, and the AI apps",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/03/the-good-the-bad-and-the-ai-apps/",
-      "publishedAt": "2026-07-03T07:40:00Z",
-      "summary": "Ryan welcomes Benny Chen, co-founder of Fireworks AI, to the show to explore what actually makes an AI application good or not, how to balance qualitative signals with quantitative metrics when evaluating AI, and how open-source eval protocols and community efforts are setting the standard for AI evaluation.",
-      "imageURL": null
-    },
-    {
       "id": "67f6d4ba3f58a3a5572e",
       "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
       "sourceName": "Dan Luu",
@@ -1384,15 +1411,6 @@
       "url": "https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/",
       "publishedAt": "2026-07-02T11:00:00Z",
       "summary": "We’re running Patch the Planet , an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest mode",
-      "imageURL": null
-    },
-    {
-      "id": "6c906231fdcffb6c7b63",
-      "title": "How do you turn AI coding chaos into a repeatable playbook?",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/02/ai-coding-chaos-into-a-repeatable-playbook/",
-      "publishedAt": "2026-07-02T07:40:00Z",
-      "summary": "Vivek Raghunathan, SVP of engineering at Snowflake, joins Leaders of Code at Snowflake Summit to break down the five-stage framework his org used to go from \"let chaos reign\" to a repeatable, org-wide system for AI-assisted engineering.",
       "imageURL": null
     },
     {
@@ -1420,15 +1438,6 @@
       "url": "https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/",
       "publishedAt": "2026-06-30T11:00:00Z",
       "summary": "Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quan",
-      "imageURL": null
-    },
-    {
-      "id": "029f27c0cb48c8c6370c",
-      "title": "Why intent prediction needs more than an LLM",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/06/30/why-intent-prediction-needs-more-than-an-llm/",
-      "publishedAt": "2026-06-30T07:40:00Z",
-      "summary": "Ryan sits down with Frank Portman, CTO at Yobi, to talk about why next-token prediction, though great for language, isn’t the right inductive bias for forecasting human behavior. They discuss how Yobi builds a “foundation model of behavior” using transformers and graph neural networks instead of chat-style LLMs, and what it takes to run millions of personalization decisions per second while keepin",
       "imageURL": null
     },
     {
@@ -1474,15 +1483,6 @@
       "url": "https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/",
       "publishedAt": "2026-06-26T18:00:00Z",
       "summary": "AI has really changed the game around software development. More people are leveraging AI than ever to contribute patches to projects they use. To me, this is a good thing as more folks will contribute patches rather than fork or not fix them. The main problem is that AI has made generating code fast but there has been very little improvement in maintaining code bases. In this post, we will highli",
-      "imageURL": null
-    },
-    {
-      "id": "dc1faf88994347c9e7fa",
-      "title": "Paging Charity! How can engineering leaders avoid becoming Bond villains?",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/06/26/paging-charity-how-can-engineering-leaders-avoid-becoming-bond-villains/",
-      "publishedAt": "2026-06-26T14:00:27Z",
-      "summary": "If you want your values to spread throughout the industry, the best thing you can possibly do is succeed and make others want to imitate you.",
       "imageURL": null
     },
     {
