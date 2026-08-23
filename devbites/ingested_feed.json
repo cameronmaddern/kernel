@@ -127,6 +127,15 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/13/ARCHBLOG-1465-1.png"
     },
     {
+      "id": "f5bcc0342b281c90f6eb",
+      "title": "My Journey from Traditional Monolithic Architecture to Distributed SQL",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://en.pingcap.com/?p=4072",
+      "publishedAt": "2026-08-19T18:57:00Z",
+      "summary": "Editor’s note: Bill Kendall wrote this post during his time at PingCAP. It was originally published in January 2022 and updated in August 2026 to reflect TiDB’s agent state stack. Key Takeaways Monolithic databases hit a hard ceiling: one machine, one failure domain, and a cost curve that steepens as you scale up. Distributed database architecture scales out instead of up, spreading data across no",
+      "imageURL": null
+    },
+    {
       "id": "1490bd9f0e0033357e89",
       "title": "How we knew COVID was over (and what our models had to unlearn)",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -251,6 +260,15 @@
       "publishedAt": "2026-08-17T00:00:00Z",
       "summary": "On the order from Brazil's ANPD to suspend screensharing and video features in the country, how we're complying, and our commitment to our community in Brazil.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68090f03d6cb868fab0af03c_2024_10_DiscordBlog_CompanyAnnoucements-1.png"
+    },
+    {
+      "id": "5c1052a6b247c228ad9b",
+      "title": "The benchmarkpocalypse",
+      "sourceName": "Dan Luu",
+      "url": "https://danluu.com/benchpocalypse/",
+      "publishedAt": "2026-08-17T00:00:00Z",
+      "summary": "There's been a lot of talk about the vulnpocalypse, to which I don't have much to add because I'm not a security person, but I haven't seen much discussion on the closely related (and to be fair, less serious, issue), the benchmarkpocalypse. While it's become easier than ever to make serious performance gains, it's also become easier than ever to reward hack a benchmark and make fake performance g",
+      "imageURL": null
     },
     {
       "id": "47b488ba6509097cea39",
@@ -1010,11 +1028,11 @@
     },
     {
       "id": "2a036d6a25178c63a484",
-      "title": "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires",
+      "title": "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires",
       "sourceName": "Dan Luu",
       "url": "https://danluu.com/exercise-7/",
       "publishedAt": "2026-07-23T00:00:00Z",
-      "summary": "This is part of a series of exercises on benchmarking, evals, and experimental design ( 1 , 2 , 3 , 4 , 5 , 6 ) 1 . We're going to look at three questions, which are presented before the answers to give you time to think about the questions before seeing the answers. 29. A friend of mine is reviewing performance orders of magnitude to prep for computer performance interviews and found that https:/",
+      "summary": "We're going to look at three questions, which are presented before the answers to give you time to think about the questions before seeing the answers. 29. A friend of mine is reviewing performance orders of magnitude to prep for computer performance interviews and found that https://github.com/sirupsen/napkin-math (5.4k stars) was the top hit. The README's tables include: Napkin Math performance ",
       "imageURL": "https://danluu.com/images/exercise-7/deep-swe.png"
     },
     {
@@ -1124,15 +1142,6 @@
       "publishedAt": "2026-07-21T00:00:00Z",
       "summary": "The winning software teams will throw away orders of magnitude more code than they merge. I ran a benchmark against the custom git server I’m building, 4.79 million pushes per hour to a single repository across 1,408 branches (p50, 322ms). 27.8 million clones per hour of a repository containing the NextJS starter template (p50, 220ms). 4.79M commits won’t make it to master, but the frontier labs a",
       "imageURL": null
-    },
-    {
-      "id": "141eedd761a492fd4fd1",
-      "title": "ACID at Scale: Where ORMs and MySQL Disagree",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34362",
-      "publishedAt": "2026-07-20T20:53:52Z",
-      "summary": "Key Takeaways Your ORM assumes one database with real transactions. Sharded MySQL quietly breaks that assumption. Cross-shard writes turn one ORM transaction into several, and ACID does not span them. The failures are silent: Partial writes, phantom state, and bugs you cannot reproduce. Distributed SQL restores the single-database contract, so the ORM’s assumptions hold again. If you have ever wat",
-      "imageURL": "https://static.pingcap.com/files/2026/07/24131410/image-2-1024x603.png"
     },
     {
       "id": "1f9b3059a0a1b2a43f28",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-06-09T17:01:02Z",
       "summary": "How Airbnb’s data engineers and analytics engineers built a consistent and flexible data modeling framework to support the expansion into Homes, Experiences, and Services. By : Patrick Lam , Namrata Lamba , Jamie Stober With the May 2025 Summer Release, Airbnb redesigned its app, relaunched Experiences, and debuted Services, pushing us beyond our traditional Homes focus. For the data teams, this m",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*YA43XKkY_UZ14AlxnF4png.jpeg"
-    },
-    {
-      "id": "a78c63a890f18ac10db2",
-      "title": "How We Moved Discord Voice to the Edge",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/how-we-moved-discord-voice-to-the-edge",
-      "publishedAt": "2026-06-09T00:00:00Z",
-      "summary": "Moving Discord’s voice and video onto Cloudflare's edge network. Closer servers, lower ping in most regions, and a few real bugs getting there.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a2840bb10082f32bf59f78a_2024_10_DiscordBlog_UsingDiscord-2.png"
     }
   ]
 }
