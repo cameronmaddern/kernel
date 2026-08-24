@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "66a879da5b76d97c78f5",
+      "title": "Another look at SQLite's WAL-Reset bug",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-08-23-another-look-at-sqlite-wal-reset.html",
+      "publishedAt": "2026-08-23T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "fc72f0a2782bbfa24200",
       "title": "Say it once: introducing Bot Preference Sync",
       "sourceName": "Cloudflare Blog",
@@ -260,15 +269,6 @@
       "publishedAt": "2026-08-17T00:00:00Z",
       "summary": "On the order from Brazil's ANPD to suspend screensharing and video features in the country, how we're complying, and our commitment to our community in Brazil.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68090f03d6cb868fab0af03c_2024_10_DiscordBlog_CompanyAnnoucements-1.png"
-    },
-    {
-      "id": "5c1052a6b247c228ad9b",
-      "title": "The benchmarkpocalypse",
-      "sourceName": "Dan Luu",
-      "url": "https://danluu.com/benchpocalypse/",
-      "publishedAt": "2026-08-17T00:00:00Z",
-      "summary": "There's been a lot of talk about the vulnpocalypse, to which I don't have much to add because I'm not a security person, but I haven't seen much discussion on the closely related (and to be fair, less serious, issue), the benchmarkpocalypse. While it's become easier than ever to make serious performance gains, it's also become easier than ever to reward hack a benchmark and make fake performance g",
-      "imageURL": null
     },
     {
       "id": "47b488ba6509097cea39",
@@ -1028,11 +1028,11 @@
     },
     {
       "id": "2a036d6a25178c63a484",
-      "title": "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires",
+      "title": "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires",
       "sourceName": "Dan Luu",
       "url": "https://danluu.com/exercise-7/",
       "publishedAt": "2026-07-23T00:00:00Z",
-      "summary": "We're going to look at three questions, which are presented before the answers to give you time to think about the questions before seeing the answers. 29. A friend of mine is reviewing performance orders of magnitude to prep for computer performance interviews and found that https://github.com/sirupsen/napkin-math (5.4k stars) was the top hit. The README's tables include: Napkin Math performance ",
+      "summary": "This is part of a series of exercises on benchmarking, evals, and experimental design ( 1 , 2 , 3 , 4 , 5 , 6 ) 1 . We're going to look at three questions, which are presented before the answers to give you time to think about the questions before seeing the answers. 29. A friend of mine is reviewing performance orders of magnitude to prep for computer performance interviews and found that https:/",
       "imageURL": "https://danluu.com/images/exercise-7/deep-swe.png"
     },
     {
