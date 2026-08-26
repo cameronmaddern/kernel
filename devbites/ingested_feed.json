@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "4c8d5dd6ec190e8255c0",
+      "title": "Moving from Minimus to Docker Hardened Images",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=93146",
+      "publishedAt": "2026-08-25T22:27:06Z",
+      "summary": "The hardened-images space gets better when more people are working on the problem, and Minimus has been a valuable part of that work. That changed this week, when they announced they are ending operations. Though we were competitors, we both believed strongly in the importance of reducing vulnerabilities at the foundation of the software supply chain. Their efforts to bring needed awareness to thi",
+      "imageURL": null
+    },
+    {
+      "id": "e279d12f841b1447f6a4",
+      "title": "Project Lighthouse — Part 3: Introducing project-lighthouse-anonymize",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/74f8b26653fb",
+      "publishedAt": "2026-08-25T17:01:02Z",
+      "summary": "Project Lighthouse — Part 3: Introducing project-lighthouse-anonymize The data in Project Lighthouse is powered by privacy-preserving anonymization code. We’ve put this code into open source, and published two new technical papers detailing the scalable algorithms and data quality frameworks behind it. By: Adam Bloomston Introduction In 2020, we launched Project Lighthouse, which we developed in p",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Z2EMY7FElWHf-TY6r69IOA.png"
+    },
+    {
+      "id": "4006a26f1e8525f9a8a4",
+      "title": "Why We Aren't Ready for C-3PO",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/why-we-arent-ready-for-c-3po",
+      "publishedAt": "2026-08-25T12:59:27Z",
+      "summary": "When people picture a robot, they picture C-3PO (or if you're a Trekkie, it's Lieutenant Commander Data and his brother Lore): a humanoid that walks into any room, understands what you say, picks up anything, and improvises when things go sideways. Decades of science fiction trained us to treat that as the target, the thing we are all building toward and almost have. For years the working assumpti",
+      "imageURL": null
+    },
+    {
+      "id": "613defb54efdb71fd3aa",
+      "title": "State divergence enables unauthorized access",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/",
+      "publishedAt": "2026-08-25T11:00:00Z",
+      "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK , that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live",
+      "imageURL": null
+    },
+    {
       "id": "36e2dd9933b8de9e18e7",
       "title": "Inside LinkedIn's cognitive memory agent for agentic personalization",
       "sourceName": "Stack Overflow Blog",
@@ -107,15 +143,6 @@
       "publishedAt": "2026-08-21T16:01:01Z",
       "summary": "Samuel Yeboah , Francesco Di Chiara and Mingliang Liu Today, Netflix runs two Flink autoscalers. That is exactly one more than we want. We built the first one in-house years ago, when there was no mature option suited to our platform. The second came from the Apache Flink community, and it can scale workloads our homegrown system was never designed for. We now run both in production and are steadi",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Rn81hdaUHY94Sf8S-GOHZA.png"
-    },
-    {
-      "id": "2a0624dcca4bddea7cec",
-      "title": "How to Tell Whether Your Slow Query Is a Planning or an Execution Problem",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/slow-query-planning-or-execution-problem",
-      "publishedAt": "2026-08-21T15:47:50Z",
-      "summary": "Every EXPLAIN ANALYZE prints two numbers at the bottom, and most engineers read only one of them. Planning Time is how long Postgres spent deciding how to answer your query, while Execution Time is how long it spent actually answering it. When latency climbs, those two numbers point to opposite fixes: plan caching and fewer partitions on one side, memory and storage layout on the other. Getting th",
-      "imageURL": null
     },
     {
       "id": "5326052fa9a2d9645776",
@@ -775,15 +802,6 @@
       "imageURL": "https://static.pingcap.com/files/2026/08/06115331/image-2-1024x512.png"
     },
     {
-      "id": "080e18ffded8b9a3447a",
-      "title": "Governance Is a Developer Experience Problem",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92675",
-      "publishedAt": "2026-08-05T13:00:00Z",
-      "summary": "This is the third post of a 3-part series by Docker Captain Karan Verma. Catch up on Part 1: Your Laptop Is the New Production Environment and Part 2: Runtime Enforcement, Not Runtime Advice . The conversation around AI governance often starts with security. That’s understandable. When autonomous systems can execute commands, access tools, and interact with production-adjacent environments, organi",
-      "imageURL": "https://www.docker.com/app/uploads/2026/07/image1-2.png"
-    },
-    {
       "id": "1f606ef577cecfb83f27",
       "title": "A few notes on AWS Nitro Enclaves: KMS integration",
       "sourceName": "Trail of Bits",
@@ -1087,7 +1105,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-cat.webp"
+      "imageURL": "/static/images/cta-kitty.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-06-10T18:42:08Z",
       "summary": "Written by Rohit Channe and Simran Mirchandani at Lyft. Motivation At Lyft, data isn’t just a resource — it’s woven into everything we do. Metrics drive key forecasts, steer operational decisions, and put our boldest hypotheses to the test. But as Lyft scaled, products launched and evolved, and team members came and went, we found ourselves at risk of different teams using different definitions fo",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*9r1bGT0StHEZaLhFgNhI7A.png"
-    },
-    {
-      "id": "463b70b9df5e5b038987",
-      "title": "Updated Requirements to How Apps Access Data in Servers",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/updated-requirements-to-how-apps-access-data-in-servers",
-      "publishedAt": "2026-06-10T00:00:00Z",
-      "summary": "Discord is updating requirements to how apps access certain data within servers, changing the review threshold and requiring annual review. Here's what's changing and why.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a288b1f807541d41908c42b_image1.png"
-    },
-    {
-      "id": "73305c6893e6460537c8",
-      "title": "Game On: Discord Is Backing the Next Generation of Dutch Gaming Founders",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/game-on-discord-is-backing-the-next-generation-of-dutch-gaming-founders",
-      "publishedAt": "2026-06-10T00:00:00Z",
-      "summary": "Together with Techleap, we’re launching the Gaming Founders Circle: a hands-on program for the most ambitious gaming companies in the Netherlands to provide participants with a direct line to the people, investors, and networks that help great games scale.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a2745e353a855b298f3162d_2024_10_DiscordBlog_UsingDiscord-3.png"
     }
   ]
 }
