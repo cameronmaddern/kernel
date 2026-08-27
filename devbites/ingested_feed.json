@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "029dcd6193e52a6b5306",
+      "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+      "publishedAt": "2026-08-27T17:02:35Z",
+      "summary": "Big Pineapple , the platform behind 1.1.1.1 , Gateway DNS , DNS Firewall , AS112 , and several other Cloudflare DNS services, stores over 250 billion DNS cache entries at any given time. At that scale, wasting a single byte per entry costs more than 250 gigabytes of memory across our fleet. Five successive changes to how cache entries are stored in memory cut the per-entry footprint by over 50%. A",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M117Y6R8CDGVT4K2XX6VQ2YX.png"
+    },
+    {
+      "id": "8cdbe670f5a32cd88b18",
+      "title": "14,000x Faster Planning for LIMIT Queries on Hypertables",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/faster-planning-for-limit-queries-on-hypertables",
+      "publishedAt": "2026-08-27T14:18:10Z",
+      "summary": "A very common query against a time-series table is fetching the latest row for a device : SELECT * FROM metrics WHERE device = 'D001' ORDER BY time DESC LIMIT 1; This should be instant. The row lives in the newest chunk, that chunk has an index on device , time , and reading it is one index scan. But on a hypertable with a few thousand chunks the query can take tens or hundreds of milliseconds bef",
+      "imageURL": null
+    },
+    {
+      "id": "31b763fcbea2ec860447",
+      "title": "Gallup scales real-time coaching for thousands with Amazon Bedrock",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/gallup-delivers-real-time-workplace-coaching-to-thousands-of-leaders-with-amazon-bedrock/",
+      "publishedAt": "2026-08-26T17:36:23Z",
+      "summary": "How Gallup turned 90 years of workplace science into an AI assistant that gives leaders personalized guidance in seconds, powered by Amazon Bedrock . Gallup delivers analytics and advice to help leaders and organizations solve their most pressing problems. With more than 90 years of experience and a global reach, Gallup has developed a uniquely deep understanding of workplace behavior and performa",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/22/ARCHBLOG-1630-1-1.png"
+    },
+    {
+      "id": "4d42a1e911bdc335d0b5",
+      "title": "Closing the AI agent trust gap with graduated autonomy",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/closing-the-ai-agent-trust-gap-with-graduated-autonomy/",
+      "publishedAt": "2026-08-26T17:33:03Z",
+      "summary": "How much to trust an AI agent is now a daily operational question. Agents read customer data, open tickets, process refunds, and delete accounts, yet most teams pick up a binary: full access or read-only. Full access is risky because agents fail unpredictably. Read-only leaves most of the agent’s value unused. The distance between what an agent could do and what an operator trusts it to do is the ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/25/ARCHBLOG-1524-1.png"
+    },
+    {
+      "id": "8061813586c580cf8801",
+      "title": "VMs won't contain cyber-capable agents",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
+      "publishedAt": "2026-08-26T11:00:00Z",
+      "summary": "As part of Patch the Planet , we received preview access to GPT 5.6-Cyber with a simple task: evaluate its cyber capabilities. Recent events inspired me to give it a challenge to work through: escape the VM I’d normally use for sandboxing. The target was a QEMU/KVM VM on my Linux dev machine (Debian Linux 12, AMD Zen3). It escaped the VM three different times. First, it used recently disclosed bug",
+      "imageURL": null
+    },
+    {
+      "id": "ec0d23ad72dbbbdd6b08",
+      "title": "Kubernetes v1.37: Garhwal",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
+      "publishedAt": "2026-08-26T00:00:00Z",
+      "summary": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community. This release consists of 67 enhancements. Of those",
+      "imageURL": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/k8s-v1.37.svg"
+    },
+    {
       "id": "4c8d5dd6ec190e8255c0",
       "title": "Moving from Minimus to Docker Hardened Images",
       "sourceName": "Docker Blog",
@@ -17,15 +71,6 @@
       "publishedAt": "2026-08-25T17:01:02Z",
       "summary": "Project Lighthouse — Part 3: Introducing project-lighthouse-anonymize The data in Project Lighthouse is powered by privacy-preserving anonymization code. We’ve put this code into open source, and published two new technical papers detailing the scalable algorithms and data quality frameworks behind it. By: Adam Bloomston Introduction In 2020, we launched Project Lighthouse, which we developed in p",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Z2EMY7FElWHf-TY6r69IOA.png"
-    },
-    {
-      "id": "4006a26f1e8525f9a8a4",
-      "title": "Why We Aren't Ready for C-3PO",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/why-we-arent-ready-for-c-3po",
-      "publishedAt": "2026-08-25T12:59:27Z",
-      "summary": "When people picture a robot, they picture C-3PO (or if you're a Trekkie, it's Lieutenant Commander Data and his brother Lore): a humanoid that walks into any room, understands what you say, picks up anything, and improvises when things go sideways. Decades of science fiction trained us to treat that as the target, the thing we are all building toward and almost have. For years the working assumpti",
-      "imageURL": null
     },
     {
       "id": "613defb54efdb71fd3aa",
@@ -52,6 +97,15 @@
       "url": "https://github.blog/?p=98354",
       "publishedAt": "2026-08-24T20:56:32Z",
       "summary": "More than one in four images on the web’s most popular home pages have alt text that’s missing, vague, or copied from adjacent images. That’s from WebAIM’s 2026 WebAIM Million report, which found that alt text,an HTML attribute containing text describing the content of an image, was missing on 16.2% of images across the top million home pages. Among the images that did have alt text, another 10.8%",
+      "imageURL": null
+    },
+    {
+      "id": "1e8f36a20ee292832ebe",
+      "title": "Open Weight Models Are Chapter One. The Data Layer Is the Rest of the Book.",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34675",
+      "publishedAt": "2026-08-24T20:29:23Z",
+      "summary": "Key Takeaways Open weight models are stage one of a four-stage sequence: artifact, factory, connective tissue, governance. Software took 30 years. AI is moving faster. The objections to open weight models, on support, security, liability, and economics, all hit open source a decade ago. Every one lost to time. Weights are not source code. You cannot diff a tensor, so the training recipe carries th",
       "imageURL": null
     },
     {
@@ -178,6 +232,15 @@
       "url": "https://stackoverflow.blog/2026/08/21/get-rid-of-your-captcha-the-future-of-the-web-is-bots/",
       "publishedAt": "2026-08-21T07:40:00Z",
       "summary": "Ryan chats with Brian Alvey, CTO at WordPress VIP, about how AI agents are changing the business models of the web, what parts of how we build our sites won’t survive our current digital evolution, and why your site will always need structured content.",
+      "imageURL": null
+    },
+    {
+      "id": "27b7e490bced9706f40c",
+      "title": "There's no reason for software to be slow anymore",
+      "sourceName": "Dan Luu",
+      "url": "https://danluu.com/perf-opt/",
+      "publishedAt": "2026-08-21T00:00:00Z",
+      "summary": "The other day, I saw a viral tweet saying that people talking about how LLMs are causing slow, bloated, code are going to eat crow once they re-write everything in super-optimized assembly. We're not quite at the point where we want to write everything in assembly , but some variant of what Nolan Lawson said about testing, you can choose how many bugs you want now , which I less eloquently noted h",
       "imageURL": null
     },
     {
@@ -377,6 +440,15 @@
       "publishedAt": "2026-08-17T00:00:00Z",
       "summary": "On the order from Brazil's ANPD to suspend screensharing and video features in the country, how we're complying, and our commitment to our community in Brazil.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/68090f03d6cb868fab0af03c_2024_10_DiscordBlog_CompanyAnnoucements-1.png"
+    },
+    {
+      "id": "5c1052a6b247c228ad9b",
+      "title": "The benchmarkpocalypse",
+      "sourceName": "Dan Luu",
+      "url": "https://danluu.com/benchpocalypse/",
+      "publishedAt": "2026-08-17T00:00:00Z",
+      "summary": "There's been a lot of talk about the vulnpocalypse, to which I don't have much to add because I'm not a security person, but I haven't seen much discussion on the closely related (and to be fair, less serious, issue), the benchmarkpocalypse. While it's become easier than ever to make serious performance gains, it's also become easier than ever to reward hack a benchmark and make fake performance g",
+      "imageURL": null
     },
     {
       "id": "47b488ba6509097cea39",
@@ -650,7 +722,7 @@
     },
     {
       "id": "2950090732eedf643421",
-      "title": "What's the best programming language for coding agents?",
+      "title": "How does programming language affect token efficiency and correctness?",
       "sourceName": "Dan Luu",
       "url": "https://danluu.com/pl-tokens/",
       "publishedAt": "2026-08-09T00:00:00Z",
@@ -755,15 +827,6 @@
       "publishedAt": "2026-08-06T13:00:00Z",
       "summary": "Your next customer may not find you through a search engine. Instead, they'll ask an AI assistant: \"how do I do X?\"; \"which option is best for someone like me?\"; \"just handle it for me\" and an agent will find the answer, weigh the options, and act on their behalf. Increasingly, the moment that determines whether a customer chooses you happens inside a model's response — before a human ever sees yo",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZA2SCKMZTHER9AEFBD0TPDP.png"
-    },
-    {
-      "id": "e10b6da166c5ecb8a20d",
-      "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/the-agentic-internet/",
-      "publishedAt": "2026-08-06T13:00:00Z",
-      "summary": "Our data shows that a lot of traffic from well-behaved bots is re-fetching pages that have not changed . Billions of requests. An enormous amount of machine effort, attached to no outcome at all. That's the signature of a web built for humans being visited by something else. Agents are here - not as a new kind of software, but as a new kind of visitor to the web. The web reshaped around this new v",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZA0FMHPRQW9N737YVV9WYRZ.png"
     },
     {
       "id": "2d4477469ef41d8d75cc",
@@ -1105,25 +1168,16 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-kitty.webp"
+      "imageURL": "/static/images/cta-turtle.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
-      "title": "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires",
+      "title": "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires",
       "sourceName": "Dan Luu",
       "url": "https://danluu.com/exercise-7/",
       "publishedAt": "2026-07-23T00:00:00Z",
-      "summary": "This is part of a series of exercises on benchmarking, evals, and experimental design ( 1 , 2 , 3 , 4 , 5 , 6 ) 1 . We're going to look at three questions, which are presented before the answers to give you time to think about the questions before seeing the answers. 29. A friend of mine is reviewing performance orders of magnitude to prep for computer performance interviews and found that https:/",
-      "imageURL": "https://danluu.com/images/exercise-7/deep-swe.png"
-    },
-    {
-      "id": "e41abda7a136ebef0ae6",
-      "title": "Why Agent Memory Needs a Database That Can Write Back",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34350",
-      "publishedAt": "2026-07-22T20:08:21Z",
-      "summary": "Key Takeaways Retrieval-only memory accumulates contradictions, so agents repeat mistakes. Production memory needs controlled writes, deduplication, staleness management, and cross-type queries. The two-store pattern breaks on consistency, complexity, and an open write-back loop. TiDB reads, joins, and writes back corrected state in one ACID engine. I’ve spent the last year helping enterprise team",
-      "imageURL": "https://static.pingcap.com/files/2026/07/24125029/image-1-1024x576.png"
+      "summary": "We're going to look at three different kinds of benchmarks, one set of calculations for baseline numbers for performance \"napkin math\" estimates, one set of AI model evals, and one on car tires. To build my intuition for things, I like thinking about them before seeing the explanation, so these are presented with the benchmark information first and the explanation later in case you want to think a",
+      "imageURL": "https://danluu.com/images/exercise-7/deep-swe.webp"
     },
     {
       "id": "5d5f1d035419d6cc0f0e",
@@ -1268,24 +1322,6 @@
       "publishedAt": "2026-07-17T16:03:47Z",
       "summary": "When you deploy Eclipse Dataspace Components (EDC) connectors on AWS, one of the first challenges you face is predicting and controlling the cost of the required infrastructure. Without clear benchmarks, it is difficult to make informed decisions about workload sizing, environment configuration, and long-term investment. Part 1 of this 3-part blog series covered the fundamentals of data space arch",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/04/ARCHBLOG-1441-1.png"
-    },
-    {
-      "id": "34ac5e9307634f8d773f",
-      "title": "Eclipse Dataspace Components on AWS: Architecture patterns in production",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-architecture-patterns-in-production/",
-      "publishedAt": "2026-07-17T16:03:44Z",
-      "summary": "Running Eclipse Dataspace Components (EDC) connectors in production on AWS requires deliberate architecture decisions around isolation, managed services, and security layering. In Part 1 of this series, we covered the fundamentals of data space architectures and EDC per the International Data Space Association’s (IDSA) standards. If you are new to EDC, we recommend starting there. We showed how co",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/10/ARCHBLOG-1440-1.png"
-    },
-    {
-      "id": "e2d2d68bf1d8bc973531",
-      "title": "Eclipse Dataspace Components on AWS: Data sharing fundamentals",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-data-sharing-fundamentals/",
-      "publishedAt": "2026-07-17T16:03:40Z",
-      "summary": "This three-part blog series guides you through implementing Eclipse Dataspace Components (EDC) on AWS, from foundational concept to production deployment. Part 1 establishes the theoretical foundation with IDSA standards, the Dataspace Protocol (DSP), and core EDC architecture. Part 2 provides production-ready AWS deployment patterns using services like Amazon Elastic Container Service (Amazon ECS",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/10/ARCHBLOG-1439-1.png"
     },
     {
       "id": "3baa0cdf77644dc7e501",
@@ -1763,42 +1799,6 @@
       "publishedAt": "2026-06-11T14:15:28Z",
       "summary": "Abstract Agent-driven end-to-end (E2E) tests add a new exploratory layer to testing, but should they replace traditional deterministic tests? We ran more than 200 agentic E2E workflows using the Playwright MCP, Playwright CLI, and agent-generated Playwright tests in test workspaces using non-production data to find out how agentic testing could fit into both our and your testing stacks. 1. From Jo",
       "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/06/Screenshot-2026-06-09-at-2.10.42-PM.png?w=640"
-    },
-    {
-      "id": "347d8f71fbd6ed405a24",
-      "title": "Stripe Projects adds new agent integrations, more providers, and custom developer controls",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
-      "publishedAt": "2026-06-11T00:00:00Z",
-      "summary": "Our data shows that agents are now fully capable of independently writing code and integrating with APIs like Stripe’s. And yet, many of the steps adjacent to writing code are still too hard for agents to do on their own. We’re expanding Stripe Projects to solve this.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/4mPcNGGQ44X1tyxR5NqLkf/c5c51591187eaebeb1291d662bee2356/projects-index.jpg"
-    },
-    {
-      "id": "0a6fd91bf815f3a9a7c0",
-      "title": "This week in infrastructure",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-06-11-this-week-in-infrastructure.html",
-      "publishedAt": "2026-06-11T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "0c703a03118ea46270eb",
-      "title": "Of forks and clones and package management",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-07-11-of-forks-and-clones-and-package-management.html",
-      "publishedAt": "2026-06-11T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "5f37f7f7131827ce959e",
-      "title": "Metric Semantic Layer: How Lyft Governs and Scales Key Data Definitions",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/56bee3643c29",
-      "publishedAt": "2026-06-10T18:42:08Z",
-      "summary": "Written by Rohit Channe and Simran Mirchandani at Lyft. Motivation At Lyft, data isn’t just a resource — it’s woven into everything we do. Metrics drive key forecasts, steer operational decisions, and put our boldest hypotheses to the test. But as Lyft scaled, products launched and evolved, and team members came and went, we found ourselves at risk of different teams using different definitions fo",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*9r1bGT0StHEZaLhFgNhI7A.png"
     }
   ]
 }
