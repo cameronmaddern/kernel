@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "01904d966ddbac17f962",
+      "title": "Prisma ORM with TiDB: The Serverless Setup Guide for AI Apps",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34714",
+      "publishedAt": "2026-08-28T16:44:33Z",
+      "summary": "Key Takeaways TiDB is MySQL-compatible, so Prisma connects with provider = \"mysql\" and existing MySQL schemas work unchanged. Use the @tidbcloud/prisma-adapter to query over HTTPS instead of TCP — this is required for serverless functions and edge runtimes (Vercel Edge, Cloudflare Workers) and avoids TiDB Cloud’s connection limits. The adapter only covers Prisma Client queries. Migrations, db push",
+      "imageURL": "https://static.pingcap.com/files/2026/08/26130631/image-5-1024x150.png"
+    },
+    {
+      "id": "63f9cc0e5c5c14dcfb66",
+      "title": "Time-Series Cardinality: Why One More Indexed Column Costs More Than a Million More Rows",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/time-series-cardinality",
+      "publishedAt": "2026-08-28T16:29:32Z",
+      "summary": "Cardinality is a consequence of how many dimensions you index your readings by. Here is where the curve bends, measured, and what you can do about it without leaving Postgres. Someone adds a firmware_ver column to the sensor table. It is one line of DDL, and it clears review in a minute. Two weeks later, the ingest job is missing its window, a dashboard query that used to return in milliseconds ta",
+      "imageURL": "https://assets.tigerdata.com/blog/2026/08/time-series-cardinality-1-1.png"
+    },
+    {
+      "id": "3e7c8a6145f26eef9bec",
+      "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/32f96320785e",
+      "publishedAt": "2026-08-28T16:01:02Z",
+      "summary": "By Emma Yanyang Kong , Aditya Deshpande , Asad Abbasi , Bowei Yan , David Fagnan , Ashish Rastogi , Dhaval Patel , Ray Zhang Introduction The Netflix experience is a journey of discovery. Every visual cue, from the artwork on a title to the video previews that autoplay while you browse, is there to connect you with a story you will love. We call these visual cues assets , and choosing the right on",
+      "imageURL": "https://cdn-images-1.medium.com/max/332/1*Tm2AJHCkMfTwtedhfmIAwA.png"
+    },
+    {
+      "id": "aceed5f29630c723f7ab",
+      "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/botbase-for-operators/",
+      "publishedAt": "2026-08-28T12:59:44Z",
+      "summary": "Last month, on our second Content Independence Day, we announced a couple of features designed to give website owners more visibility and control over automated traffic: BotBase added a searchable directory of known bots to the Cloudflare dashboard, while Business Insights helped owners understand how crawlers interact with their content. We know that the ecosystem of bots is vast, making it all t",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M0GDDRDD6CY3JE6JJQGJM761.png"
+    },
+    {
+      "id": "53454cc31f800ca9eea2",
+      "title": "When you keep AI Lean, you keep AI correct",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/08/28/when-you-keep-ai-lean-you-keep-ai-correct/",
+      "publishedAt": "2026-08-28T07:40:00Z",
+      "summary": "Ryan chats with Leo de Moura, Senior Principal Applied Scientist at AWS and the creator of the Lean language, about proving correctness in AI agents with the Lean language, how automated reasoning complements probabilistic AI models, and the use of AI for continuous code optimization.",
+      "imageURL": null
+    },
+    {
+      "id": "548fd4bfd4c0c2bdfd81",
+      "title": "Kubernetes v1.37: Metrics API graduates to stable",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
+      "publishedAt": "2026-08-27T18:30:00Z",
+      "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable ( v1 ). This API provides CPU and memory usage for nodes and Pods, and is the API behind commands such as kubectl top and resource-metrics-based autoscaling. For cluster operators and application developers, this graduation means that the API now has the stability guarantees associated with a Kubernetes stable API. The v1 API has the same ",
+      "imageURL": null
+    },
+    {
       "id": "029dcd6193e52a6b5306",
       "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
       "sourceName": "Cloudflare Blog",
@@ -8,15 +62,6 @@
       "publishedAt": "2026-08-27T17:02:35Z",
       "summary": "Big Pineapple , the platform behind 1.1.1.1 , Gateway DNS , DNS Firewall , AS112 , and several other Cloudflare DNS services, stores over 250 billion DNS cache entries at any given time. At that scale, wasting a single byte per entry costs more than 250 gigabytes of memory across our fleet. Five successive changes to how cache entries are stored in memory cut the per-entry footprint by over 50%. A",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M117Y6R8CDGVT4K2XX6VQ2YX.png"
-    },
-    {
-      "id": "8cdbe670f5a32cd88b18",
-      "title": "14,000x Faster Planning for LIMIT Queries on Hypertables",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/faster-planning-for-limit-queries-on-hypertables",
-      "publishedAt": "2026-08-27T14:18:10Z",
-      "summary": "A very common query against a time-series table is fetching the latest row for a device : SELECT * FROM metrics WHERE device = 'D001' ORDER BY time DESC LIMIT 1; This should be instant. The row lives in the newest chunk, that chunk has an index on device , time , and reading it is one index scan. But on a hypertable with a few thousand chunks the query can take tens or hundreds of milliseconds bef",
-      "imageURL": null
     },
     {
       "id": "31b763fcbea2ec860447",
@@ -820,15 +865,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZA53A5G2PQVSM15SFEAYVAS.png"
     },
     {
-      "id": "c541e8167ccee2f37860",
-      "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/aeo/",
-      "publishedAt": "2026-08-06T13:00:00Z",
-      "summary": "Your next customer may not find you through a search engine. Instead, they'll ask an AI assistant: \"how do I do X?\"; \"which option is best for someone like me?\"; \"just handle it for me\" and an agent will find the answer, weigh the options, and act on their behalf. Increasingly, the moment that determines whether a customer chooses you happens inside a model's response — before a human ever sees yo",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZA2SCKMZTHER9AEFBD0TPDP.png"
-    },
-    {
       "id": "2d4477469ef41d8d75cc",
       "title": "Discord Patch Notes: August 4, 2026",
       "sourceName": "Discord Blog",
@@ -1144,15 +1180,6 @@
       "imageURL": null
     },
     {
-      "id": "ccad69ac8ee6fc936b69",
-      "title": "The Agent Context Plane: How One Cluster Fixed the $50K Agent Bug",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34331",
-      "publishedAt": "2026-07-24T14:32:46Z",
-      "summary": "Key Takeaways The analytics stack was built for people to read data, not for agents to act on it. Every added system is another consistency gap. Agent loops on a warehouse are expensive. One EV-charging platform burned $50,000 in a day of testing and projected $130,000 a month at scale. One cluster changed the economics. On TiDB , agent confidence rose from a 74% cold start to roughly 93%. An agen",
-      "imageURL": null
-    },
-    {
       "id": "940e51e18a9119e8c42c",
       "title": "Partnerships can keep open source sustainable",
       "sourceName": "Stack Overflow Blog",
@@ -1168,7 +1195,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-turtle.webp"
+      "imageURL": "/static/images/cta-dog.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1450,15 +1477,6 @@
       "imageURL": "https://github.blog/wp-content/uploads/2026/07/1.png?resize=1024%2C478"
     },
     {
-      "id": "83ae17be2797dacf0905",
-      "title": "Building more than just an agent harness",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/",
-      "publishedAt": "2026-07-10T07:40:00Z",
-      "summary": "Live from Microsoft Build, Ryan is joined by Jay Parikh, Microsoft’s VP of AI Core, for a conversation on what enterprises need to build, deploy, and run AI agents at scale with demonstrable ROI; how Microsoft built an end-to-end agent development system that goes past just the harness; and how you can evaluate for reliability and correctness in models that get more intelligent and autonomous ever",
-      "imageURL": null
-    },
-    {
       "id": "dceca3e34a7603820650",
       "title": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding…",
       "sourceName": "Lyft Engineering",
@@ -1702,15 +1720,6 @@
       "imageURL": null
     },
     {
-      "id": "1acdcdff90c78db16536",
-      "title": "The Data Canary: How Netflix Validates Catalog Metadata",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/18b699d58e36",
-      "publishedAt": "2026-06-19T23:54:17Z",
-      "summary": "By Celina Amados At Netflix, our catalog metadata is crucial to our member experience, and a single corrupted data state can impact millions of viewers immediately. To protect streaming reliability, we built an automated data canary system that validates data transformations using production traffic. This canary detects issues in under 10 minutes, and blocks bad data from reaching our members. Int",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*SGzOXwhed2NX9LxcDNFhig.jpeg"
-    },
-    {
       "id": "062fad96416859039b19",
       "title": "Observing Go's garbage collector, old and new",
       "sourceName": "Eaton Phil",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-06-12T11:00:00Z",
       "summary": "What happens when the bits of an RSA private key are heavily biased toward 0 instead of being randomly generated? The public key’s bits could be biased enough for us to detect these incorrectly generated keys in the wild. Together with Hanno Böck of the badkeys project, we found hundreds of unique keys that not only have this property, but can be quickly factored. We also found the bug that led to",
       "imageURL": "https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/shortsleevekeys_figure1_hu_49c6698c7e83848f.webp"
-    },
-    {
-      "id": "4405525f8cd34f7129e0",
-      "title": "Agentic Testing: Where Agents Fit in the E2E Testing Stack",
-      "sourceName": "Slack Engineering",
-      "url": "https://slack.engineering/?p=17854",
-      "publishedAt": "2026-06-11T14:15:28Z",
-      "summary": "Abstract Agent-driven end-to-end (E2E) tests add a new exploratory layer to testing, but should they replace traditional deterministic tests? We ran more than 200 agentic E2E workflows using the Playwright MCP, Playwright CLI, and agent-generated Playwright tests in test workspaces using non-production data to find out how agentic testing could fit into both our and your testing stacks. 1. From Jo",
-      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/06/Screenshot-2026-06-09-at-2.10.42-PM.png?w=640"
     }
   ]
 }
