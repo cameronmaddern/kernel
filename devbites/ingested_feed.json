@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "29c56b0eccaaddb03b20",
+      "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
+      "publishedAt": "2026-08-28T18:30:00Z",
+      "summary": "Pod Certificate / Cluster Trust Bundles Blog Post Kubernetes brings a wealth of features that make it easy to run your production workloads securely and reliably. While aspects like scheduling, health checks and resource limits are probably at the front of your mind, one other important feature of Kubernetes is production identity — how your workload can authenticate to other systems in order to d",
+      "imageURL": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/pod-certificates-architecture.svg"
+    },
+    {
       "id": "01904d966ddbac17f962",
       "title": "Prisma ORM with TiDB: The Serverless Setup Guide for AI Apps",
       "sourceName": "PingCAP / TiDB",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-06-12T18:00:00Z",
       "summary": "Every security team knows the drill: a new feature goes through design review, a threat model is produced, mitigations are agreed upon, and then development begins. In many cases, by the time implementation reaches code review, the process where engineers review code changes before they go live, the original security requirements are no longer visible in the workflow. A threat model, which outline",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/june/mcp-dash/headers/Security-Using MCP to close the design to code security gap-1440x305-light.png"
-    },
-    {
-      "id": "3bb3ac7baea0df834964",
-      "title": "Factoring \"short-sleeve\" RSA keys with polynomials",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/",
-      "publishedAt": "2026-06-12T11:00:00Z",
-      "summary": "What happens when the bits of an RSA private key are heavily biased toward 0 instead of being randomly generated? The public key’s bits could be biased enough for us to detect these incorrectly generated keys in the wild. Together with Hanno Böck of the badkeys project, we found hundreds of unique keys that not only have this property, but can be quickly factored. We also found the bug that led to",
-      "imageURL": "https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/shortsleevekeys_figure1_hu_49c6698c7e83848f.webp"
     }
   ]
 }
