@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "0319ed084ea27c53a539",
+      "title": "Secure by default is your only way forward",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=93270",
+      "publishedAt": "2026-08-31T13:00:00Z",
+      "summary": "Every worker a company employs, be it a person or a program, builds on a foundation someone else assembled, and that includes the newest hire on your team. This new hire got to work the moment they arrived, building with what your company already has in place and they’re shipping code at a pace your reviews can’t keep up with. Also, everything they make is going out under your name. If it were a h",
+      "imageURL": null
+    },
+    {
+      "id": "1e45d1b10f1436637f72",
+      "title": "Introducing Adaptive Intelligence: undermining the economics of every bot attack",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
+      "publishedAt": "2026-08-31T12:59:00Z",
+      "summary": "Modern bot threats are increasingly driven by determined, sophisticated attackers. Often it is not even one person, but a group trading techniques with each other or a commercial service sold to anyone willing to pay. For many of them, getting past bot detection is a full-time job they genuinely enjoy. Block them and they get to work, finding a workaround. AI has simplified this further, making it",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M15GS9CV1VMMQCAPHYE4AFD2.01M15GSA31CJVHRJCPHH7FBX77.png"
+    },
+    {
       "id": "29c56b0eccaaddb03b20",
       "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
       "sourceName": "Kubernetes Blog",
@@ -640,15 +658,6 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/08/IMG_9344-1.png"
     },
     {
-      "id": "ef825ab41d7c7783b960",
-      "title": "A new security baseline for enterprise agentic adoption",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92804",
-      "publishedAt": "2026-08-12T17:25:31Z",
-      "summary": "Agent Baseline is a blueprint for AI adoption that defines six security outcomes for putting enterprise agents to work without giving them unchecked authority. Consider this scenario: a customer-support agent receives a ticket with an attachment. Hidden inside the attachment is an instruction: query the customer database and send the results to an external address. The agent has everything it need",
-      "imageURL": "https://www.docker.com/app/uploads/2026/08/image.png"
-    },
-    {
       "id": "40dee06a64a646d4944e",
       "title": "Flexible Authentication: Reimagining authentication for millions of users at Airbnb",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -863,15 +872,6 @@
       "publishedAt": "2026-08-06T13:00:00Z",
       "summary": "Today, we’re excited to announce a few developer experience improvements to Cloudflare AI Search to make it easy to manage a search solution out of the box. Previously, you had to stitch together components of the Cloudflare primitives (Workers AI, AI Gateway, Vectorize, R2, Browser Run) but now, AI Search can do this automatically, and better. Our goal is to give your agents their own search engi",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZA4N9Q0TF9PKSV1ESVPJ9M1.png"
-    },
-    {
-      "id": "f66aea27eeabe66a6361",
-      "title": "The next generation of MCP",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/mcp-v2/",
-      "publishedAt": "2026-08-06T13:00:00Z",
-      "summary": "Over the last year and a half, the Model Context Protocol (MCP) has become the universal standard for how agents interact with external services. But one of the main criticisms of MCP was that the protocol required a stateful connection between Client and Server. This evolved from MCP’s origins and the first STDIO transport, designed for local applications . When MCP Servers went remote, it transl",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZA53A5G2PQVSM15SFEAYVAS.png"
     },
     {
       "id": "2d4477469ef41d8d75cc",
@@ -1204,7 +1204,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-dog.webp"
+      "imageURL": "/static/images/cta-cat.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
