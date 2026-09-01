@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "0ee573a7839c2ad207b6",
+      "title": "The good ol’ days of building Java",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/01/the-good-ol-days-of-building-java/",
+      "publishedAt": "2026-09-01T07:40:00Z",
+      "summary": "Ryan sits down with Tim Lindholm, an early contributor to the Java language at Sun Microsystems, to chat about what it was like building one of the most popular programming languages ever at its inception, why it was strategically important for the Java team to create a cross-platform ABI to compete with Windows NT, and how applets were initially just an interesting demo.",
+      "imageURL": null
+    },
+    {
+      "id": "71fcfbea0ac74a6dc817",
+      "title": "Rerouting the Stream: How Lyft Moved to the Apache Flink Operator",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/36f20246d250",
+      "publishedAt": "2026-08-31T19:08:16Z",
+      "summary": "Written by Maheep Myneni , Arda Kuyumcu , and Prem Santosh Udaya Shankar at Lyft. Why We Migrated : Technical Debt Meets Modern Streaming Demands Over the past several quarters, Lyft’s Streaming Compute team retired our internally developed Flink Kubernetes operator and moved our entire streaming fleet onto the open-source Apache Flink Kubernetes operator. This post is about why we made the switch",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*fDPW6FgRQeqQXLJifjbxQg.jpeg"
+    },
+    {
+      "id": "bf6d6fa559145c52ebff",
+      "title": "How Companion.energy Reduced Query Latency 25x and Compressed Terabytes to Gigabytes with Tiger Cloud",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/companion-energy-case-study-tiger-data",
+      "publishedAt": "2026-08-31T19:04:26Z",
+      "summary": "Migrating real-time sensor telemetry from Azure PostgreSQL to managed TimescaleDB, we unlocked skip-scan optimizations and compression that turned a scaling crisis into an architecture that handles petabytes. About the Company & Team Most energy infrastructure today operates in isolation. A grocery store has solar panels and a battery, but they're not optimized together. An office building has mul",
+      "imageURL": "https://assets.tigerdata.com/blog/2026/08/energyplatform.svg"
+    },
+    {
+      "id": "56d533531e70b4ee9ec4",
+      "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
+      "publishedAt": "2026-08-31T18:30:00Z",
+      "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37! After a number of releases of work and testing, the built-in StorageVersionMigration API ( storagemigration.k8s.io/v1 ) and control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters. The problem with stale storage versions In Kubernetes, ",
+      "imageURL": null
+    },
+    {
+      "id": "32666d093ba2af855ece",
+      "title": "Testing cookie behavior across hundreds of web surfaces with our in-house auditor",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
+      "publishedAt": "2026-08-31T17:00:00Z",
+      "summary": "As AI and automation become a bigger part of digital experiences, it’s increasingly important that people stay in control of the choices they make. They should be able to benefit from new technology without losing the preferences they’ve already expressed. Cookie banners are one of the most familiar places where people express those preferences online. They’re also one of the most visible parts of",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/cookie-auditor/Security-Inside our in house cookie auditor-1440x305-light.png"
+    },
+    {
       "id": "0319ed084ea27c53a539",
       "title": "Secure by default is your only way forward",
       "sourceName": "Docker Blog",
@@ -11,7 +56,7 @@
     },
     {
       "id": "1e45d1b10f1436637f72",
-      "title": "Introducing Adaptive Intelligence: undermining the economics of every bot attack",
+      "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
       "publishedAt": "2026-08-31T12:59:00Z",
@@ -35,15 +80,6 @@
       "publishedAt": "2026-08-28T16:44:33Z",
       "summary": "Key Takeaways TiDB is MySQL-compatible, so Prisma connects with provider = \"mysql\" and existing MySQL schemas work unchanged. Use the @tidbcloud/prisma-adapter to query over HTTPS instead of TCP — this is required for serverless functions and edge runtimes (Vercel Edge, Cloudflare Workers) and avoids TiDB Cloud’s connection limits. The adapter only covers Prisma Client queries. Migrations, db push",
       "imageURL": "https://static.pingcap.com/files/2026/08/26130631/image-5-1024x150.png"
-    },
-    {
-      "id": "63f9cc0e5c5c14dcfb66",
-      "title": "Time-Series Cardinality: Why One More Indexed Column Costs More Than a Million More Rows",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/time-series-cardinality",
-      "publishedAt": "2026-08-28T16:29:32Z",
-      "summary": "Cardinality is a consequence of how many dimensions you index your readings by. Here is where the curve bends, measured, and what you can do about it without leaving Postgres. Someone adds a firmware_ver column to the sensor table. It is one line of DDL, and it clears review in a minute. Two weeks later, the ingest job is missing its window, a dashboard query that used to return in milliseconds ta",
-      "imageURL": "https://assets.tigerdata.com/blog/2026/08/time-series-cardinality-1-1.png"
     },
     {
       "id": "3e7c8a6145f26eef9bec",
@@ -182,7 +218,7 @@
     },
     {
       "id": "6ac773523d33884637e8",
-      "title": "The Cloudflare Blog – Brought to you by EmDash",
+      "title": "The Cloudflare Blog — brought to you by EmDash",
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
       "publishedAt": "2026-08-24T19:00:00Z",
@@ -245,7 +281,7 @@
     },
     {
       "id": "fc72f0a2782bbfa24200",
-      "title": "Say it once: introducing Bot Preference Sync",
+      "title": "Say it once: Introducing Bot Preference Sync",
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/bot-preference-sync/",
       "publishedAt": "2026-08-21T23:19:57Z",
@@ -1414,15 +1450,6 @@
       "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/05/1.png?w=640"
     },
     {
-      "id": "c0495916da6c37caf70d",
-      "title": "Your AI is only as responsible as you are",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/14/your-ai-is-only-as-responsible-as-you-are/",
-      "publishedAt": "2026-07-14T07:40:00Z",
-      "summary": "Recorded at Microsoft Build, Ryan welcomes Sarah Bird, Microsoft’s Chief Product Officer for Responsible AI, about how we can build and use AI responsibly with the NIST approach, why most irresponsible AI comes from experimentation without thought of impact, and how Microsoft is researching thoughtful human/AI workflow design to reduce unnecessary escalation.",
-      "imageURL": null
-    },
-    {
       "id": "b2c92f379c99649b446e",
       "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
       "sourceName": "Netflix TechBlog",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-06-18T00:00:00Z",
       "summary": "Is this blog written by AI? No. None of the human-readable text on this blog is written by AI, and I have no plans to change that. The weird grammar, incorrect assumptions, spelling errors, and annoying tics are all mine. Including the em dashes. I don’t use LLMs for writing. On this blog, or in my professional life. I use agents extensively for brainstorming, research, summarizing, checking facts",
       "imageURL": null
-    },
-    {
-      "id": "632cd79d37fc15808c8a",
-      "title": "Spotlight on SIG Storage",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
-      "publishedAt": "2026-06-15T00:00:00Z",
-      "summary": "In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project moving forward. This time, we catch up with SIG Storage , the group responsible for persistent data, volume management, and the interfaces that connect Kubernetes workloads to the storage systems beneath them. We spoke with Xing Yang , Co-Chair of SIG Storage and Software Engineer at VMware by Broa",
-      "imageURL": null
-    },
-    {
-      "id": "9594efad71c41f733e85",
-      "title": "Doing the rounds",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-06-15-doing-the-rounds.html",
-      "publishedAt": "2026-06-15T00:00:00Z",
-      "summary": "I'm leaving New York this December for the research triangle area of North Carolina. I've considered leaving New York many times for the same reason: lower cost of living to help me start a company without needing to force myself into a VC route. And now with The Consensus I have a project that 1) I fully believe in and 2) is going pretty well, so it's time to extend my runway. It has been a joy m",
-      "imageURL": null
-    },
-    {
-      "id": "7c514e82c05eea606d7a",
-      "title": "How Dropbox uses MCP and Dash to close the design-to-code security gap",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/security/dropbox-mcp-dash-design-code-security",
-      "publishedAt": "2026-06-12T18:00:00Z",
-      "summary": "Every security team knows the drill: a new feature goes through design review, a threat model is produced, mitigations are agreed upon, and then development begins. In many cases, by the time implementation reaches code review, the process where engineers review code changes before they go live, the original security requirements are no longer visible in the workflow. A threat model, which outline",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/june/mcp-dash/headers/Security-Using MCP to close the design to code security gap-1440x305-light.png"
     }
   ]
 }
