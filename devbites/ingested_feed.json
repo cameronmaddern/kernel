@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "4db85808102385e4d30e",
+      "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
+      "publishedAt": "2026-09-01T18:30:00Z",
+      "summary": "I am excited to announce that etcd RangeStream is graduating to beta in Kubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and etcd need to read a large collection, and makes peak usage more predictable. The cost of large reads The API server serves most list and watch requests from its in-memory watch cache. Populating that cache requires reading a resource's full state",
+      "imageURL": null
+    },
+    {
+      "id": "391dc354d825f75c8c64",
+      "title": "Why a 40-Year-Old Database Is Still Winning in the AI Era",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/why-40-year-old-database-still-winning-ai-era",
+      "publishedAt": "2026-09-01T17:00:25Z",
+      "summary": "There are still some fundamental truths that won't change. LLMs are making it dramatically easier to build software, so yes, we're going to have more applications, more agents, more workloads, and more data. But here's one thing that won't change: developers want to build on trusted foundations. They don't want to stitch together fragile, Rube Goldberg architectures. They want infrastructure they ",
+      "imageURL": null
+    },
+    {
+      "id": "b13ae8eb66af70e2227e",
+      "title": "Hybrid cloud orchestration: Modernizing on-premises infrastructure management with AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/hybrid-cloud-orchestration-modernizing-on-premises-infrastructure-management-with-aws/",
+      "publishedAt": "2026-09-01T14:01:10Z",
+      "summary": "This post demonstrates how to build a hybrid cloud orchestration solution that manages distributed on-premises infrastructure at scale using AWS serverless technologies. If you manage geographically dispersed data centers with thousands of servers that require bare-metal configuration, deployment, and ongoing lifecycle management, this solution provides centralized control while maintaining on-pre",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/26/ARCHBLOG-1372-1.png"
+    },
+    {
+      "id": "455c459d9a3063bc0e3d",
+      "title": "MCP went stateless: Is your AWS MCP server deployment well-architected?",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/mcp-went-stateless-is-your-aws-mcp-server-deployment-well-architected/",
+      "publishedAt": "2026-09-01T13:09:19Z",
+      "summary": "On July 28, 2026, MCP published its largest revision since launch , making the protocol core stateless and bringing remote MCP servers into alignment with AWS Well-Architected Framework best practices. The initialize handshake is gone, and so is the Mcp-Session-Id header that clients had to echo on every later request. Every request now carries its own protocol version and client context. A client",
+      "imageURL": "https://s.w.org/images/core/emoji/14.0.0/72x72/26a0.png"
+    },
+    {
+      "id": "3358acf7c004013790a7",
+      "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cache-transcoding/",
+      "publishedAt": "2026-09-01T12:59:00Z",
+      "summary": "Memory costs are increasing dramatically. Both RAM and hard disk drive prices have exploded over the past year. At Cloudflare, we run several massively distributed storage products (including our famous CDN) that rely on making efficient use of the memory we have deployed so we can continue to serve all of our customers. With this in mind, we prototyped a way to expand effective cache capacity. By",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M1DADS947G87BAG8BQJ5RZN6.01M1DADSZ25WXKD5DG1M70HJR8.png"
+    },
+    {
       "id": "0ee573a7839c2ad207b6",
       "title": "The good ol’ days of building Java",
       "sourceName": "Stack Overflow Blog",
@@ -17,15 +62,6 @@
       "publishedAt": "2026-08-31T19:08:16Z",
       "summary": "Written by Maheep Myneni , Arda Kuyumcu , and Prem Santosh Udaya Shankar at Lyft. Why We Migrated : Technical Debt Meets Modern Streaming Demands Over the past several quarters, Lyft’s Streaming Compute team retired our internally developed Flink Kubernetes operator and moved our entire streaming fleet onto the open-source Apache Flink Kubernetes operator. This post is about why we made the switch",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*fDPW6FgRQeqQXLJifjbxQg.jpeg"
-    },
-    {
-      "id": "bf6d6fa559145c52ebff",
-      "title": "How Companion.energy Reduced Query Latency 25x and Compressed Terabytes to Gigabytes with Tiger Cloud",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/companion-energy-case-study-tiger-data",
-      "publishedAt": "2026-08-31T19:04:26Z",
-      "summary": "Migrating real-time sensor telemetry from Azure PostgreSQL to managed TimescaleDB, we unlocked skip-scan optimizations and compression that turned a scaling crisis into an architecture that handles petabytes. About the Company & Team Most energy infrastructure today operates in isolation. A grocery store has solar panels and a battery, but they're not optimized together. An office building has mul",
-      "imageURL": "https://assets.tigerdata.com/blog/2026/08/energyplatform.svg"
     },
     {
       "id": "56d533531e70b4ee9ec4",
@@ -901,15 +937,6 @@
       "imageURL": null
     },
     {
-      "id": "54aa107c534ae4762378",
-      "title": "Cloudflare AI Search: give your agents a search engine for your data",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ai-search-easier/",
-      "publishedAt": "2026-08-06T13:00:00Z",
-      "summary": "Today, we’re excited to announce a few developer experience improvements to Cloudflare AI Search to make it easy to manage a search solution out of the box. Previously, you had to stitch together components of the Cloudflare primitives (Workers AI, AI Gateway, Vectorize, R2, Browser Run) but now, AI Search can do this automatically, and better. Our goal is to give your agents their own search engi",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZA4N9Q0TF9PKSV1ESVPJ9M1.png"
-    },
-    {
       "id": "2d4477469ef41d8d75cc",
       "title": "Discord Patch Notes: August 4, 2026",
       "sourceName": "Discord Blog",
@@ -1240,7 +1267,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-cat.webp"
+      "imageURL": "/static/images/cta-turtle.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1286,15 +1313,6 @@
       "publishedAt": "2026-07-22T13:32:57Z",
       "summary": "According to Siemens’ 2024 report The True Cost of Downtime , Fortune 500 companies lose an estimated $1.4 trillion annually because of unplanned downtime. This downtime is often worsened by a lack of skills to detect and resolve issues quickly. Generative AI offers a promising path to address this, but deploying these capabilities in industrial environments introduces a distinct architectural cha",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/07/ARCHBLOG-1590-1.png"
-    },
-    {
-      "id": "8633b23e7f8f94400737",
-      "title": "Automate custom PII detection at scale with Amazon Macie and Step Functions",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/automate-custom-pii-detection-at-scale-with-amazon-macie-and-step-functions/",
-      "publishedAt": "2026-07-22T13:30:26Z",
-      "summary": "Organizations in regulated industries like financial services, insurance, healthcare, and government ingest large volumes of data containing personally identifiable information (PII). Your applications, claims processing systems, partner data feeds, and internal workflows produce files that may include names, addresses, Social Security numbers, and domain-specific identifiers such as policy number",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/20/ARCHBLOG-1488-1.png"
     },
     {
       "id": "edb9884c0bcf8fecb5bf",
@@ -1385,15 +1403,6 @@
       "publishedAt": "2026-07-17T16:46:47Z",
       "summary": "The most expensive part of a small feature request used to be writing the code. Now it’s usually the meeting about whether or not to write the code. That’s a real shift, and it quietly breaks a lot of engineering instincts. Engineers learn early that most “small asks” aren’t small: they need tests, a rollout plan, someone to think through the edge cases and own the behavior after it ships. A two-h",
       "imageURL": null
-    },
-    {
-      "id": "f11c3024efff3b4ee903",
-      "title": "Eclipse Dataspace Components on AWS: Cost optimization strategies",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-cost-optimization-strategies/",
-      "publishedAt": "2026-07-17T16:03:47Z",
-      "summary": "When you deploy Eclipse Dataspace Components (EDC) connectors on AWS, one of the first challenges you face is predicting and controlling the cost of the required infrastructure. Without clear benchmarks, it is difficult to make informed decisions about workload sizing, environment configuration, and long-term investment. Part 1 of this 3-part blog series covered the fundamentals of data space arch",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/04/ARCHBLOG-1441-1.png"
     },
     {
       "id": "3baa0cdf77644dc7e501",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-06-18T00:00:00Z",
       "summary": "Not getting pinged for the conversations you wanna know about? This guide walks through server and channel notifications settings, Do Not Disturb, turning off specific notification sounds, and what to check when your pings mysteriously go quiet.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/681939dfe8fd42947e36366d_2024_10_DiscordBlog_Educational-4.png"
-    },
-    {
-      "id": "ee154531390e69a12f21",
-      "title": "Is this blog written by AI?",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/06/18/my-blog-and-ai",
-      "publishedAt": "2026-06-18T00:00:00Z",
-      "summary": "Is this blog written by AI? No. None of the human-readable text on this blog is written by AI, and I have no plans to change that. The weird grammar, incorrect assumptions, spelling errors, and annoying tics are all mine. Including the em dashes. I don’t use LLMs for writing. On this blog, or in my professional life. I use agents extensively for brainstorming, research, summarizing, checking facts",
-      "imageURL": null
     }
   ]
 }
