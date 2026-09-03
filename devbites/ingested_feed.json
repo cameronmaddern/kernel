@@ -1,21 +1,84 @@
 {
   "articles": [
     {
+      "id": "a74095cc09b744a4c18f",
+      "title": "The economics of agent scale: tokens, ROI, and building platforms for AI-first teams (Part 2)",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/03/the-economics-of-agent-scale/",
+      "publishedAt": "2026-09-03T07:40:00Z",
+      "summary": "Andi Gutmans, head of Agentic Data Cloud at Google, returns for the second half of his Leaders of Code conversation to talk through the cost and infrastructure side of agentic development. ICYMI, part one covered judgment, code review, and data activation.",
+      "imageURL": null
+    },
+    {
+      "id": "95b0cd6c98afdd89e223",
+      "title": "Your Agent Speaks MCP. Give It a Computer.",
+      "sourceName": "Fly.io Blog",
+      "url": "https://fly.io/blog/sprites-mcp/",
+      "publishedAt": "2026-09-03T00:00:00Z",
+      "summary": "Sprites are disposable cloud computers. They appear instantly, always include durable filesystems, and cost practically nothing when idle. They’re the best and safest place on the Internet to run agents and we want you to create dozens of them . Sprites are a place to run agents; the first thing you should think to do with a new Sprite is to type claude (or gemini or codex ). We’ve put a lot of ef",
+      "imageURL": null
+    },
+    {
+      "id": "70479d5f705bda65e917",
+      "title": "Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
+      "publishedAt": "2026-09-02T18:30:00Z",
+      "summary": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down to zero replicas. This feature is now Beta and enabled by default. A HorizontalPodAutoscaler (HPA) that uses a suitable object metric or external metric can now scale a workload to zero replicas, then bring it back when the metric changes. Before v1.37, you needed an add-on or external component, or you had to enabl",
+      "imageURL": null
+    },
+    {
+      "id": "0a8e9e1f0fe28ed61784",
+      "title": "How we make AI coding more cost efficient without sacrificing task quality",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=98586",
+      "publishedAt": "2026-09-02T18:00:00Z",
+      "summary": "Output quality is important when working with AI coding agents, but true efficiency comes from getting work done quickly, efficiently, and with the right context. That’s why token count of individual interactions alone isn’t a meaningful measure of efficiency. The goal shouldn’t be to use fewer tokens, but to tap into the right amount of context to move a task forward. A concise tool response can ",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-01.png?resize=1024%2C329"
+    },
+    {
+      "id": "d539ec3c55ecf8e35caa",
+      "title": "Reading Table Bloat Before It Reads You",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/reading-table-bloat-before-it-reads-you",
+      "publishedAt": "2026-09-02T13:50:10Z",
+      "summary": "A Postgres table that has never run a single UPDATE can still carry 20% dead space. Bloat is taught as an update-and-delete problem, so this catches high-ingest teams by surprise. On an append-only table taking 50,000 inserts per second, aborted batches and continuous freezing keep autovacuum busy around the clock. When it falls behind, the pages stay allocated and every sequential scan reads dead",
+      "imageURL": null
+    },
+    {
+      "id": "df2d436c525c600ce01a",
+      "title": "Building Reproducible AI Evaluation Workflows with Docker Sandboxes",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=93401",
+      "publishedAt": "2026-09-02T13:00:00Z",
+      "summary": "AI evaluation has never been easier to start. Reproducing it reliably is another story. Developers now have access to more benchmarks, evaluation libraries, model APIs, and agent frameworks than ever before. But keeping the prompt, model, and scoring method fixed doesn’t necessarily make a run reproducible. The execution environment matters too. Python dependencies change. Local tools drift. Setup",
+      "imageURL": "https://www.docker.com/app/uploads/2026/09/image1.png"
+    },
+    {
+      "id": "9ffb39d05d8286f002be",
+      "title": "Below the Harness: Governing a Multi-Model, Multi-Harness World",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=93294",
+      "publishedAt": "2026-09-02T13:00:00Z",
+      "summary": "We believe the future is a multi-model, multi-harness world. And we think it needs a new trust model. In 1988, Norm Hardy described a problem that had been quietly breaking systems for years: the confused deputy. A program that takes action using its permissions instead of yours. Today, every AI agent is that deputy. It inherits your authority: Your credentials, your repo access, your ability to c",
+      "imageURL": null
+    },
+    {
+      "id": "78436b4070833db665c0",
+      "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24419",
+      "publishedAt": "2026-09-02T09:00:29Z",
+      "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integrating two layers: A structured, auditable knowledge architecture separates what the agent knows from how it reasons. A se",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/08/Domain-Expert-AI-Table.png"
+    },
+    {
       "id": "4db85808102385e4d30e",
       "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
       "sourceName": "Kubernetes Blog",
       "url": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
       "publishedAt": "2026-09-01T18:30:00Z",
       "summary": "I am excited to announce that etcd RangeStream is graduating to beta in Kubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and etcd need to read a large collection, and makes peak usage more predictable. The cost of large reads The API server serves most list and watch requests from its in-memory watch cache. Populating that cache requires reading a resource's full state",
-      "imageURL": null
-    },
-    {
-      "id": "391dc354d825f75c8c64",
-      "title": "Why a 40-Year-Old Database Is Still Winning in the AI Era",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/why-40-year-old-database-still-winning-ai-era",
-      "publishedAt": "2026-09-01T17:00:25Z",
-      "summary": "There are still some fundamental truths that won't change. LLMs are making it dramatically easier to build software, so yes, we're going to have more applications, more agents, more workloads, and more data. But here's one thing that won't change: developers want to build on trusted foundations. They don't want to stitch together fragile, Rube Goldberg architectures. They want infrastructure they ",
       "imageURL": null
     },
     {
@@ -631,15 +694,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZW0HXCQS1KX2QJ1MD5YT1JP.png"
     },
     {
-      "id": "8615a4b31ffbd4bd0cb9",
-      "title": "Reproducible ESP32 Firmware Development with Docker and Docker Sandboxes",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92784",
-      "publishedAt": "2026-08-14T13:00:00Z",
-      "summary": "Firmware development has always been challenging: mismatched toolchains, “it works on my machine” builds, and the tension between maintaining legacy products and shipping new features. In this article we explore how you can use Docker and Docker sandboxes to ease firmware development, especially for ESP32 projects. Nowadays, teams end up supporting multiple hardware revisions, several ESP-IDF rele",
-      "imageURL": null
-    },
-    {
       "id": "c0352c4d1bb93d78c5b0",
       "title": "Serverless vehicle tracking at scale: Bosch L.OS on AWS",
       "sourceName": "AWS Architecture Blog",
@@ -719,15 +773,6 @@
       "publishedAt": "2026-08-13T00:14:19Z",
       "summary": "Adobe has used Amazon Web Services (AWS) since 2008. Adobe Firefly powers creative features across applications including Photoshop and Illustrator. Adobe operates a GPU-based training infrastructure built on Amazon Elastic Kubernetes Service (Amazon EKS) to support Firefly. The infrastructure enables teams to run model training jobs across thousands of compute nodes and GPUs, designed to scale wi",
       "imageURL": null
-    },
-    {
-      "id": "fc23f237bb6df0129f8e",
-      "title": "Docker VMM Public Beta: A Complete Overhaul, Built for Performance",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92789",
-      "publishedAt": "2026-08-12T18:13:20Z",
-      "summary": "Today we’re announcing the public beta of a fully rebuilt Docker VMM: a new first-party virtualization layer underneath Docker Desktop , optimized for containers, and now available on both Mac and Windows starting with Docker Desktop v4.86. What’s Changed, and Why It Matters Part of the magic of Docker Desktop is how it provides a seamless deployment of the Linux-native Docker engine on other plat",
-      "imageURL": "https://www.docker.com/app/uploads/2026/08/IMG_9344-1.png"
     },
     {
       "id": "40dee06a64a646d4944e",
@@ -1267,7 +1312,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-turtle.webp"
+      "imageURL": "/static/images/cta-cat.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1402,15 +1447,6 @@
       "url": "https://github.blog/?p=97604",
       "publishedAt": "2026-07-17T16:46:47Z",
       "summary": "The most expensive part of a small feature request used to be writing the code. Now it’s usually the meeting about whether or not to write the code. That’s a real shift, and it quietly breaks a lot of engineering instincts. Engineers learn early that most “small asks” aren’t small: they need tests, a rollout plan, someone to think through the edge cases and own the behavior after it ships. A two-h",
-      "imageURL": null
-    },
-    {
-      "id": "3baa0cdf77644dc7e501",
-      "title": "Developers who move fast still need to do it together",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/17/devs-who-move-fast-still-need-to-do-it-together/",
-      "publishedAt": "2026-07-17T07:40:00Z",
-      "summary": "At MS Build, Ryan is joined by Cassidy Williams, Senior Director of Developer Advocacy at GitHub and former Stack Overflow Podcast host, to discuss how agentic coding is shifting dev work towards higher-level strategy while increasing decision fatigue; why human taste, community feedback, and mentorship are becoming more essential than ever for developer careers; and the new GitHub Copilot announc",
       "imageURL": null
     },
     {
@@ -1594,15 +1630,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/06/Meta-AI-Storage-Blueprint-image-1.png"
     },
     {
-      "id": "635cc22979281982f316",
-      "title": "10 Years of Meta’s Commitment to Python",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24128",
-      "publishedAt": "2026-06-30T16:00:46Z",
-      "summary": "This year marks Meta’s 10th consecutive year as a sponsor of the Python Software Foundation (PSF) , the charitable organization dedicated to advancing, supporting, and protecting the open-source Python programming language and the community that sustains it. Python is one of the world’s most influential programming languages, and we use it across our engineering stack, from the backend of our apps",
-      "imageURL": null
-    },
-    {
       "id": "1ecbead8836eb6e50e41",
       "title": "Shipping post-quantum cryptography to Python",
       "sourceName": "Trail of Bits",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-06-19T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
-    },
-    {
-      "id": "bc82f3d8cd6c343471f1",
-      "title": "Meet Alice. Alice is impatient.",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/06/19/waiting",
-      "publishedAt": "2026-06-19T00:00:00Z",
-      "summary": "Meet Alice. Alice is impatient. What do you mean? MathJax = { tex: {inlineMath: [['\\\\(', '\\\\)'], ['$', '$']]} }; Meet Alice. Alice uses your web service. Alice, like most humans, measures her time in seconds and minutes. Alice says your service is slow. You tell Alice that the mean request to your service completes in 100ms, but Alice says that her mean wait time is 1s. You’re both right. Meet Ale",
-      "imageURL": null
-    },
-    {
-      "id": "8c90c0be1360e1cd96c4",
-      "title": "What Link data tells us about AI spending",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/what-link-data-tells-us-about-ai-spending",
-      "publishedAt": "2026-06-18T00:00:00Z",
-      "summary": "We analyzed spending patterns across the 250 million customers paying with Link. We found that Link customers are spending more on AI than they were three months prior, investing heavily in platforms that let them build with AI.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/1d0PEqEHTGAp3Ovw1cwtq4/53bb4255b0aa7ae5c55f157acf96c53f/new-index.jpg"
-    },
-    {
-      "id": "1c32b6b2735c463bf038",
-      "title": "How to Manage Your Discord Desktop Notifications: A Complete Guide",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/how-to-manage-your-discord-desktop-notifications",
-      "publishedAt": "2026-06-18T00:00:00Z",
-      "summary": "Not getting pinged for the conversations you wanna know about? This guide walks through server and channel notifications settings, Do Not Disturb, turning off specific notification sounds, and what to check when your pings mysteriously go quiet.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/681939dfe8fd42947e36366d_2024_10_DiscordBlog_Educational-4.png"
     }
   ]
 }
