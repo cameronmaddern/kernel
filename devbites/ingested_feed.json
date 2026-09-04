@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "a4a986b959c496e86f16",
+      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
+      "publishedAt": "2026-09-03T21:03:02Z",
+      "summary": "Your scanner just flagged 4,000 new vulnerabilities, 78 of them critical. Which one do you fix first? To answer that question, Cloudflare is announcing early access to Vulnerability Discovery and Remediation, now part of Cloudflare Managed Defense . Vulnerability Discovery and Remediation is a new, invitation-only Cloudflare service that helps customers detect and mitigate vulnerabilities in their",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M1JDYW2RHXMJDDXS13K6VESF.01M1JDYX370D7EV4BHCDQS4C6J.png"
+    },
+    {
+      "id": "cae3cde0353c76965b26",
+      "title": "Kubernetes v1.37: DRA Updates",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
+      "publishedAt": "2026-09-03T18:30:00Z",
+      "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building toward for three straight releases. Several more features graduate to Beta or GA. A fresh batch of alpha features rounds out the release. I'll dive into what's new for DRA in Kubernetes 1.37! What's stable",
+      "imageURL": null
+    },
+    {
+      "id": "a56269facd1c5fbf3e3e",
+      "title": "YOLO Mode: Agent Autonomy Without the Guardrails",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=93273",
+      "publishedAt": "2026-09-03T18:00:00Z",
+      "summary": "AI agents have come a long way in both capability and everyday use since generative AI went mainstream in late 2022. In Stack Overflow’s 2025 Developer Survey , 84% of developers said they use or plan to use AI tools in their workflow, up from 76% a year earlier. As those tools shift from suggesting code to writing files and running commands on their own, one practical question follows. How much s",
+      "imageURL": "https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-2320x1218.jpg"
+    },
+    {
+      "id": "9a3e2b3af7c24144cc05",
+      "title": "Tiger Cloud on Azure: Why Fully-Managed Timescaledb Beats Self-Hosting And Other Managed Options",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/tiger-cloud-on-azure-why-fully-managed-timescaledb-beats-self-hosting-and-other-managed-options",
+      "publishedAt": "2026-09-03T17:50:14Z",
+      "summary": "Running TimescaleDB on Azure means choosing between three paths: self-hosting the Apache 2 licensed edition, using the TimescaleDB on Azure managed service, or running Tiger Cloud (fully-managed TimescaleDB) on Azure. When evaluating these three options, the question isn't just managed vs. self-hosted; it's whether you're looking to operate TimescaleDB yourself or build on a platform engineered to",
+      "imageURL": null
+    },
+    {
+      "id": "9f416c27c79d1981f80b",
+      "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24463",
+      "publishedAt": "2026-09-03T16:00:20Z",
+      "summary": "We’re introducing ZGateway, the proxy we are using to unify traffic through ZippyDB, Meta’s most widely-used key value store. As a bonus, it also enables admission control, load balancing, cross-region resilience, and richer operations. ZippyDB is the most widely used key value store at Meta, backing product metadata, counters, and configuration, and can serve billions of operations per second acr",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/09/ZGateway-Figure-1.png"
+    },
+    {
+      "id": "22d1af2da309cb7e7be5",
+      "title": "Elevating security, control, and accessibility: Stack Internal 2026.6",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/03/security-control-and-accessibility-si-2026-6/",
+      "publishedAt": "2026-09-03T16:00:00Z",
+      "summary": "In our 2026.6 release, we are shipping updates across administrative security, programmatic API control, developer portal integrations, and platform-wide accessibility—ensuring both your engineers and your AI agents act on verified, decision-grade knowledge.",
+      "imageURL": null
+    },
+    {
       "id": "a74095cc09b744a4c18f",
       "title": "The economics of agent scale: tokens, ROI, and building platforms for AI-first teams (Part 2)",
       "sourceName": "Stack Overflow Blog",
@@ -35,15 +89,6 @@
       "publishedAt": "2026-09-02T18:00:00Z",
       "summary": "Output quality is important when working with AI coding agents, but true efficiency comes from getting work done quickly, efficiently, and with the right context. That’s why token count of individual interactions alone isn’t a meaningful measure of efficiency. The goal shouldn’t be to use fewer tokens, but to tap into the right amount of context to move a task forward. A concise tool response can ",
       "imageURL": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-01.png?resize=1024%2C329"
-    },
-    {
-      "id": "d539ec3c55ecf8e35caa",
-      "title": "Reading Table Bloat Before It Reads You",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/reading-table-bloat-before-it-reads-you",
-      "publishedAt": "2026-09-02T13:50:10Z",
-      "summary": "A Postgres table that has never run a single UPDATE can still carry 20% dead space. Bloat is taught as an update-and-delete problem, so this catches high-ingest teams by surprise. On an append-only table taking 50,000 inserts per second, aborted batches and continuous freezing keep autovacuum busy around the clock. When it falls behind, the pages stay allocated and every sequential scan reads dead",
-      "imageURL": null
     },
     {
       "id": "df2d436c525c600ce01a",
@@ -118,6 +163,15 @@
       "imageURL": null
     },
     {
+      "id": "e82667920f5ed02b238f",
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "sourceName": "Dan Luu",
+      "url": "https://danluu.com/zitron/",
+      "publishedAt": "2026-09-01T00:00:00Z",
+      "summary": "I was curious how well the predictions of the most widely cited AI skeptic I've seen (Ed Zitron) have done, so I looked at how his predictions panned out. To disclose my own biases, I've never had a particularly strong pro or anti AI progress position. For example, in 2022, I did a comprehensive look at predictions Futurists made, including well-respected folks like Kurzweil and found them to be g",
+      "imageURL": null
+    },
+    {
       "id": "71fcfbea0ac74a6dc817",
       "title": "Rerouting the Stream: How Lyft Moved to the Apache Flink Operator",
       "sourceName": "Lyft Engineering",
@@ -161,6 +215,15 @@
       "publishedAt": "2026-08-31T12:59:00Z",
       "summary": "Modern bot threats are increasingly driven by determined, sophisticated attackers. Often it is not even one person, but a group trading techniques with each other or a commercial service sold to anyone willing to pay. For many of them, getting past bot detection is a full-time job they genuinely enjoy. Block them and they get to work, finding a workaround. AI has simplified this further, making it",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M15GS9CV1VMMQCAPHYE4AFD2.01M15GSA31CJVHRJCPHH7FBX77.png"
+    },
+    {
+      "id": "05502ae5938a9d5e2194",
+      "title": "Bug blindness",
+      "sourceName": "Dan Luu",
+      "url": "https://danluu.com/bug-blind/",
+      "publishedAt": "2026-08-30T00:00:00Z",
+      "summary": "I used to wonder why I see so many more bugs than most people. I easily observe hundreds to thousands of bugs per week and nothing seems to work , but most people I talk to don't see anything like this . For a long time, I thought this had something to do with how I use computers but, over time, I've realized that it's mostly that people are hitting the same bugs and don't notice. If you're not a ",
+      "imageURL": null
     },
     {
       "id": "29c56b0eccaaddb03b20",
@@ -622,15 +685,6 @@
       "imageURL": null
     },
     {
-      "id": "637e7d3a7ec23e971a86",
-      "title": "Make zero CVEs your new default",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92719",
-      "publishedAt": "2026-08-17T13:00:00Z",
-      "summary": "Supply-chain attacks have stopped being isolated incidents somewhere in the past year. The compromises now reach the tools the industry trusts to defend itself, with Trivy and KICS among this year’s targets . Mark Lechner, Docker’s Chief Information Security Officer, called the latest wave ‘a permanent shift in the threat landscape’ , and the months since have borne that out. The volume is growing",
-      "imageURL": "https://www.docker.com/app/uploads/2026/08/Screenshot-2026-08-05-at-14-49-37-Hardened-Images-catalog-Docker-Hub.png"
-    },
-    {
       "id": "f1acc8b7bb28ac144b77",
       "title": "New currency capabilities for global businesses to cut FX costs",
       "sourceName": "Stripe Blog",
@@ -944,15 +998,6 @@
       "publishedAt": "2026-08-07T13:00:00Z",
       "summary": "As a platform for helping build a better Internet, Cloudflare helps turn ideas into real products and experiences around the world. Across communities and backgrounds, developers build with Cloudflare using the tools they love, shaping what comes next for the Internet while inspiring, collaborating with, and teaching others. The community is where some of Cloudflare’s best moments happen. Students",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZCB5TGPAH6A73FHJ2QHFR7T.png"
-    },
-    {
-      "id": "009218646f3e9b546321",
-      "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
-      "publishedAt": "2026-08-07T13:00:00Z",
-      "summary": "AI Gateway and Workers AI first started as distinct products, but over time, we noticed our users were converging. With AI Gateway, you can proxy requests to any model provider and get built-in observability, logging, access, and security. On Workers AI, we host models on the GPU infrastructure that we manage, exposing an API endpoint you can leverage to access inference-as-a-service. The architec",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZA5VCX2R70YMT8M56D89B37.png"
     },
     {
       "id": "abd0b0795cbdeb87e376",
@@ -1378,15 +1423,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*KJ9lshQ8N_AqxrArGj7BoQ.jpeg"
     },
     {
-      "id": "cf7993615d96bda40568",
-      "title": "The future of development is full-stack",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/",
-      "publishedAt": "2026-07-21T07:40:00Z",
-      "summary": "Live from Snowflake Summit, Ryan talks with Snowflake’s Head of Developer Experience Umesh Unnikrishnan about the industry-wide shift from “vibe coding” for quick prototypes to agentic engineering for enterprise-ready software, how enterprises can scale governance with guardrails like human-in-the-loop approval and control layers that go beyond the underlying LLM, and why Umesh predicts all develo",
-      "imageURL": null
-    },
-    {
       "id": "5a3e6c30732c3e5cd4f5",
       "title": "Analyzing the evidence that helps businesses win “product not received” disputes",
       "sourceName": "Stripe Blog",
@@ -1621,15 +1657,6 @@
       "imageURL": null
     },
     {
-      "id": "d2b171b34cbdea9a2372",
-      "title": "Meta’s AI Storage Blueprint at Scale",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24150",
-      "publishedAt": "2026-07-01T16:00:36Z",
-      "summary": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks. Reliable and fast access to storage is important to both the speed and computational cost of this AI innovation. If AI is the brain, storage is the memory: Capability and speed ar",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/06/Meta-AI-Storage-Blueprint-image-1.png"
-    },
-    {
       "id": "1ecbead8836eb6e50e41",
       "title": "Shipping post-quantum cryptography to Python",
       "sourceName": "Trail of Bits",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-06-22T21:35:01Z",
       "summary": "By Alvin Bao , Alex Petrov , Jennifer Lai , Aidan Sherr , and Samartha Chandrashekar As a part of the journey to transition Netflix’s compute infrastructure to be more Kubernetes-native, we have leaned into incorporating components from the Kubernetes ecosystem into our container platform Titus . One example of this is our use of Kueue , a cloud-native job queueing system for batch workloads, whic",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*MfDuB407Rq81AHZEbhARWA.png"
-    },
-    {
-      "id": "fe000a0dc5c187e5529e",
-      "title": "Introducing Patch the Planet",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/",
-      "publishedAt": "2026-06-22T16:50:00Z",
-      "summary": "What happens when you clear dozens of Trail of Bits engineers’ schedules, pair them with every open-source maintainer they can contact, and unleash the latest frontier models like GPT-5.5-Cyber on critical open-source targets? Thanks to our partnership with OpenAI and its Daybreak initiative, we can report that the impact is hundreds of discovered bugs, 64 pull requests, and 51 issues filed across",
-      "imageURL": "https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/ptp-image-1.gif"
-    },
-    {
-      "id": "5ad90e34ef63e2060448",
-      "title": "Pledging Another $400,000 to the Zig Software Foundation",
-      "sourceName": "Mitchell Hashimoto",
-      "url": "https://mitchellh.com/writing/zig-donation-2026",
-      "publishedAt": "2026-06-21T00:00:00Z",
-      "summary": null,
-      "imageURL": null
-    },
-    {
-      "id": "062fad96416859039b19",
-      "title": "Observing Go's garbage collector, old and new",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-07-19-observing-gos-garbage-collector-old-and-new.html",
-      "publishedAt": "2026-06-19T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
     }
   ]
 }
