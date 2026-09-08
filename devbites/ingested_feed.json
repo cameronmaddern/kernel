@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "b3f1d5748d7cd51c1cee",
+      "title": "Scaling your money safely with AI",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/08/scaling-your-money-safely-with-ai/",
+      "publishedAt": "2026-09-08T07:40:00Z",
+      "summary": "Ryan chats with Srini Venkatesan, CTO at PayPal, about validating AI-generated deterministic code for security, developing autonomous SDLC harnesses with iterative feedback loops, and creating a seamless headless checkout experience.",
+      "imageURL": null
+    },
+    {
       "id": "fbb76b9dcf1a738b3c30",
       "title": "Data races and the limits of ThreadSanitizer in C and Go",
       "sourceName": "Eaton Phil",
@@ -215,15 +224,6 @@
       "publishedAt": "2026-09-01T00:00:00Z",
       "summary": "I was curious how well the predictions of the most widely cited AI skeptic I've seen (Ed Zitron) have done, so I looked at how his predictions panned out. To disclose my own biases, I've never had a particularly strong pro or anti AI progress position. For example, in 2022, I did a comprehensive look at predictions Futurists made, including well-respected folks like Kurzweil and found them to be g",
       "imageURL": null
-    },
-    {
-      "id": "71fcfbea0ac74a6dc817",
-      "title": "Rerouting the Stream: How Lyft Moved to the Apache Flink Operator",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/36f20246d250",
-      "publishedAt": "2026-08-31T19:08:16Z",
-      "summary": "Written by Maheep Myneni , Arda Kuyumcu , and Prem Santosh Udaya Shankar at Lyft. Why We Migrated : Technical Debt Meets Modern Streaming Demands Over the past several quarters, Lyft’s Streaming Compute team retired our internally developed Flink Kubernetes operator and moved our entire streaming fleet onto the open-source Apache Flink Kubernetes operator. This post is about why we made the switch",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*fDPW6FgRQeqQXLJifjbxQg.jpeg"
     },
     {
       "id": "56d533531e70b4ee9ec4",
@@ -1360,22 +1360,13 @@
       "imageURL": null
     },
     {
-      "id": "f925a22ea690ad075ab8",
-      "title": "No Dumb Questions: What is the AI bottleneck? How does context engineering fix it?",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/24/no-dumb-questions-ai-bottleneck/",
-      "publishedAt": "2026-07-24T16:00:00Z",
-      "summary": "In this No Dumb Questions, Stack's Director of Data Science Michael Foree teaches Phoebe about AI context, context engineering, and what she can do to become a better context engineer.",
-      "imageURL": null
-    },
-    {
       "id": "209a29a8e8337ab7bac2",
       "title": "Turn And Face The Strange",
       "sourceName": "Fly.io Blog",
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-cat.webp"
+      "imageURL": "/static/images/cta-dog.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1612,15 +1603,6 @@
       "imageURL": "https://github.blog/wp-content/uploads/2026/07/1.png?resize=1024%2C478"
     },
     {
-      "id": "dceca3e34a7603820650",
-      "title": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding…",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/5c5643c192d9",
-      "publishedAt": "2026-07-09T22:01:15Z",
-      "summary": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding Project Written by Sagar Baronia at Lyft. A Different Kind of Day One Most onboarding journeys follow a familiar arc: orientation sessions, benefits enrollment, setting up your laptop, and gradually finding your footing over the first few weeks. Mine followed that arc too, but with an additional thread",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*eJIjiV1qsbDNRc_uYHopWw.jpeg"
-    },
-    {
       "id": "256da1ab2b010eca81bf",
       "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
       "sourceName": "GitHub Engineering",
@@ -1799,6 +1781,24 @@
       "publishedAt": "2026-06-23T00:00:00Z",
       "summary": "More than 6,000 hospitality executives and operators gathered in San Antonio last week for the HITEC conference. The big topic: whether the industry’s AI investment is actually working. Across four days and over 50 meetings, four trends stood out.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5yStRoozmsf9LiDdy2hFc3/a941bc071d98e02d2781e61add6bb868/IMG_9096.jpg"
+    },
+    {
+      "id": "0f08ded7d665bd98a716",
+      "title": "WasmGC in Wasmtime",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-07-23-wasmgc-in-wastime.html",
+      "publishedAt": "2026-06-23T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
+      "id": "c8d335bced1701668973",
+      "title": "How Netflix Simplified Batch Compute with Kueue",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/87860682629c",
+      "publishedAt": "2026-06-22T21:35:01Z",
+      "summary": "By Alvin Bao , Alex Petrov , Jennifer Lai , Aidan Sherr , and Samartha Chandrashekar As a part of the journey to transition Netflix’s compute infrastructure to be more Kubernetes-native, we have leaned into incorporating components from the Kubernetes ecosystem into our container platform Titus . One example of this is our use of Kueue , a cloud-native job queueing system for batch workloads, whic",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*MfDuB407Rq81AHZEbhARWA.png"
     }
   ]
 }
