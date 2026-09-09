@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "009d5c98023fba4a769b",
+      "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
+      "publishedAt": "2026-09-09T11:00:00Z",
+      "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem , but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat’s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug , shown below, t",
+      "imageURL": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/proof-fermat-image_hu_f4c2a5f3789324fb.webp"
+    },
+    {
+      "id": "51fc293282406d5c409c",
+      "title": "Java’s age is its AI superpower",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/09/java-s-age-is-its-ai-superpower/",
+      "publishedAt": "2026-09-09T04:45:00Z",
+      "summary": "Ryan welcomes Markus Eisele to the program to talk about why your coding agent should be writing Java.",
+      "imageURL": null
+    },
+    {
+      "id": "3a380f455d52dc1b18c8",
+      "title": "6 Benefits of Sandbox Environments (and How Docker Sandboxes Delivers Them)",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=93443",
+      "publishedAt": "2026-09-08T23:05:55Z",
+      "summary": "In our State of Agentic AI report , 60% of organizations reported having AI agents running in production. Those agents install packages, run scripts, and call external services on their own, and much of that work now happens on developer laptops, with developer credentials . Running untrusted or experimental code directly on your machine has always carried risk, and handing that same machine to an",
+      "imageURL": "https://www.docker.com/app/uploads/2026/09/docker_6-Benefits-of-Sandbox-Environments-2320x1218.jpg"
+    },
+    {
+      "id": "dec1072acd008ff8f7e4",
+      "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
+      "publishedAt": "2026-09-08T18:30:00Z",
+      "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 delivers the next major milestone in the Workload-Aware Scheduling (WAS) journey. In this release, the core Workload and PodGroup APIs—enabling gang scheduling—along with Workload-Aware Preemption (WAP",
+      "imageURL": null
+    },
+    {
+      "id": "a189743cbd755332effc",
+      "title": "Is It Safe to Give an AI Agent Access to Your Production Database?",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/ai-agent-production-database-access",
+      "publishedAt": "2026-09-08T13:19:27Z",
+      "summary": "The direct answer No, giving an AI agent unrestricted access to a production database is not safe. Your AI agent has full production database access. Is it compromised yet, or just waiting to be? Most teams solve this with client-side restrictions: \"We'll limit what the agent can request.\" But that's security theater. A determined (or accidentally malicious) agent bypasses it in minutes. The real ",
+      "imageURL": null
+    },
+    {
+      "id": "7b627cb99b71d01f8663",
+      "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
+      "publishedAt": "2026-09-08T13:10:00Z",
+      "summary": "Every time Cloudflare opens a new TLS 1.3 connection to an origin server, we have to make a guess: the protocol requires us to commit to a key agreement algorithm in the very first packet we send, before the origin has told us anything about itself or what it can support. If we guess right, the handshake completes in one round trip. Guess wrong, and the origin replies with a HelloRetryRequest , we",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M1PVTWFH1FTSY24GMGKMD4G2.01M1PVTXAKN3C2KME8M5NF4SS4.png"
+    },
+    {
       "id": "b3f1d5748d7cd51c1cee",
       "title": "Scaling your money safely with AI",
       "sourceName": "Stack Overflow Blog",
@@ -8,6 +62,15 @@
       "publishedAt": "2026-09-08T07:40:00Z",
       "summary": "Ryan chats with Srini Venkatesan, CTO at PayPal, about validating AI-generated deterministic code for security, developing autonomous SDLC harnesses with iterative feedback loops, and creating a seamless headless checkout experience.",
       "imageURL": null
+    },
+    {
+      "id": "0482ec019f2155310d43",
+      "title": "Discord Patch Notes: September 8, 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-patch-notes-september-8-2026",
+      "publishedAt": "2026-09-08T00:00:00Z",
+      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     },
     {
       "id": "fbb76b9dcf1a738b3c30",
@@ -71,15 +134,6 @@
       "publishedAt": "2026-09-03T18:00:00Z",
       "summary": "AI agents have come a long way in both capability and everyday use since generative AI went mainstream in late 2022. In Stack Overflow’s 2025 Developer Survey , 84% of developers said they use or plan to use AI tools in their workflow, up from 76% a year earlier. As those tools shift from suggesting code to writing files and running commands on their own, one practical question follows. How much s",
       "imageURL": "https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-2320x1218.jpg"
-    },
-    {
-      "id": "9a3e2b3af7c24144cc05",
-      "title": "Tiger Cloud on Azure: Why Fully-Managed Timescaledb Beats Self-Hosting And Other Managed Options",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/tiger-cloud-on-azure-why-fully-managed-timescaledb-beats-self-hosting-and-other-managed-options",
-      "publishedAt": "2026-09-03T17:50:14Z",
-      "summary": "Running TimescaleDB on Azure means choosing between three paths: self-hosting the Apache 2 licensed edition, using the TimescaleDB on Azure managed service, or running Tiger Cloud (fully-managed TimescaleDB) on Azure. When evaluating these three options, the question isn't just managed vs. self-hosted; it's whether you're looking to operate TimescaleDB yourself or build on a platform engineered to",
-      "imageURL": null
     },
     {
       "id": "9f416c27c79d1981f80b",
@@ -224,6 +278,15 @@
       "publishedAt": "2026-09-01T00:00:00Z",
       "summary": "I was curious how well the predictions of the most widely cited AI skeptic I've seen (Ed Zitron) have done, so I looked at how his predictions panned out. To disclose my own biases, I've never had a particularly strong pro or anti AI progress position. For example, in 2022, I did a comprehensive look at predictions Futurists made, including well-respected folks like Kurzweil and found them to be g",
       "imageURL": null
+    },
+    {
+      "id": "71fcfbea0ac74a6dc817",
+      "title": "Rerouting the Stream: How Lyft Moved to the Apache Flink Operator",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/36f20246d250",
+      "publishedAt": "2026-08-31T19:08:16Z",
+      "summary": "Written by Maheep Myneni , Arda Kuyumcu , and Prem Santosh Udaya Shankar at Lyft. Why We Migrated : Technical Debt Meets Modern Streaming Demands Over the past several quarters, Lyft’s Streaming Compute team retired our internally developed Flink Kubernetes operator and moved our entire streaming fleet onto the open-source Apache Flink Kubernetes operator. This post is about why we made the switch",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*fDPW6FgRQeqQXLJifjbxQg.jpeg"
     },
     {
       "id": "56d533531e70b4ee9ec4",
@@ -703,15 +766,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M0AP04HK7ZM02ZWP3G59W4DP.png"
     },
     {
-      "id": "4532b2a7197e56227705",
-      "title": "Coding Agent Horror Stories: The Command You Already Approved",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92821",
-      "publishedAt": "2026-08-18T13:00:00Z",
-      "summary": "This is Part 5 of our AI Coding Agent Horror Stories series, a look at real security incidents involving AI coding agents, and how Docker Sandboxes contain agent execution at the boundary rather than at the command line. In Part 1 , we walked through six categories of AI coding agent failures and why they keep happening. The agent runs as you, with your filesystem permissions and your credentials,",
-      "imageURL": "https://www.docker.com/app/uploads/2026/08/image1-1.png"
-    },
-    {
       "id": "7ee5a110ae3284b06ae7",
       "title": "Consistency is the new latency: AI at the data layer",
       "sourceName": "AWS Architecture Blog",
@@ -1036,15 +1090,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZCGV8J1HF1P5HPSDNRYWTR7.png"
     },
     {
-      "id": "b42dc3689e555f8f21a0",
-      "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/community-program-refresh/",
-      "publishedAt": "2026-08-07T13:00:00Z",
-      "summary": "As a platform for helping build a better Internet, Cloudflare helps turn ideas into real products and experiences around the world. Across communities and backgrounds, developers build with Cloudflare using the tools they love, shaping what comes next for the Internet while inspiring, collaborating with, and teaching others. The community is where some of Cloudflare’s best moments happen. Students",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZCB5TGPAH6A73FHJ2QHFR7T.png"
-    },
-    {
       "id": "abd0b0795cbdeb87e376",
       "title": "The Complete Agent State Stack: Memory, Files, and Serverless Database Persistence for AI Apps",
       "sourceName": "PingCAP / TiDB",
@@ -1342,15 +1387,6 @@
       "imageURL": null
     },
     {
-      "id": "a0db9ea02f64364a6567",
-      "title": "You need reliable AI context for your site reliability",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/28/you-need-reliable-ai-context-for-your-site-reliability/",
-      "publishedAt": "2026-07-28T07:40:00Z",
-      "summary": "Ryan is joined by Asaf Savich, Komodor’s AI Engineering Group Manager, to discuss why modern reliability work requires navigating massive cross-service context, what good context engineering actually likes when AI is integrated into site reliability, and how the work of human SREs is shifting towards strategy and AI agent management.",
-      "imageURL": null
-    },
-    {
       "id": "752aa65b6686469d83bc",
       "title": "Being Linux Torvalds",
       "sourceName": "Salvatore Sanfilippo (antirez)",
@@ -1603,6 +1639,15 @@
       "imageURL": "https://github.blog/wp-content/uploads/2026/07/1.png?resize=1024%2C478"
     },
     {
+      "id": "dceca3e34a7603820650",
+      "title": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding…",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/5c5643c192d9",
+      "publishedAt": "2026-07-09T22:01:15Z",
+      "summary": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding Project Written by Sagar Baronia at Lyft. A Different Kind of Day One Most onboarding journeys follow a familiar arc: orientation sessions, benefits enrollment, setting up your laptop, and gradually finding your footing over the first few weeks. Mine followed that arc too, but with an additional thread",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*eJIjiV1qsbDNRc_uYHopWw.jpeg"
+    },
+    {
       "id": "256da1ab2b010eca81bf",
       "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
       "sourceName": "GitHub Engineering",
@@ -1754,51 +1799,6 @@
       "publishedAt": "2026-06-25T00:00:00Z",
       "summary": "Here's the Discord Changelog from June 25, 2026, so you can stay informed on what’s new in recent app updates!",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6494b1e02e40699d67a766e6_Summer_June.png"
-    },
-    {
-      "id": "1924dfdef89b1b22c367",
-      "title": "Spotlight on WG Device Management",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/06/24/wg-device-management-spotlight-2026/",
-      "publishedAt": "2026-06-24T18:00:00Z",
-      "summary": "The rising popularity of AI, Edge, and Telecommunications workloads on Kubernetes has led to new requirements for hardware management. We now need hardware specification beyond CPU time and memory allocations. This includes allocating GPUs, TPUs, network interfaces, and other hardware, sometimes after pod start and occasionally through time-sharing. Efficiently managing this specialized hardware i",
-      "imageURL": null
-    },
-    {
-      "id": "3361c70f1fbf1a70b73b",
-      "title": "Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/eb8160ed60a2",
-      "publishedAt": "2026-06-23T00:31:01Z",
-      "summary": "By Zhuoning Yuan , Ta-Ying Cheng , Benjamin Klein , Bahareh Azarnoush Introduction At Netflix, we build technology to help storytellers bring their creative visions to life and to help members discover the stories they love. To connect stories with diverse audiences around the world, we produce promotional assets, including trailers, teasers, and social short‑form videos, that build on and elevate",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*3_5ISo6KHihlsjf389wi8A.gif"
-    },
-    {
-      "id": "a09e51f7daa45618d95c",
-      "title": "Four travel and hospitality trends from HITEC 2026",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/trends-from-hitec",
-      "publishedAt": "2026-06-23T00:00:00Z",
-      "summary": "More than 6,000 hospitality executives and operators gathered in San Antonio last week for the HITEC conference. The big topic: whether the industry’s AI investment is actually working. Across four days and over 50 meetings, four trends stood out.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/5yStRoozmsf9LiDdy2hFc3/a941bc071d98e02d2781e61add6bb868/IMG_9096.jpg"
-    },
-    {
-      "id": "0f08ded7d665bd98a716",
-      "title": "WasmGC in Wasmtime",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-07-23-wasmgc-in-wastime.html",
-      "publishedAt": "2026-06-23T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "c8d335bced1701668973",
-      "title": "How Netflix Simplified Batch Compute with Kueue",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/87860682629c",
-      "publishedAt": "2026-06-22T21:35:01Z",
-      "summary": "By Alvin Bao , Alex Petrov , Jennifer Lai , Aidan Sherr , and Samartha Chandrashekar As a part of the journey to transition Netflix’s compute infrastructure to be more Kubernetes-native, we have leaned into incorporating components from the Kubernetes ecosystem into our container platform Titus . One example of this is our use of Kueue , a cloud-native job queueing system for batch workloads, whic",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*MfDuB407Rq81AHZEbhARWA.png"
     }
   ]
 }
