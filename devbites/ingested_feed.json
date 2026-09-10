@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "a6dc7bc272e3de303ce2",
+      "title": "Testing application resilience with Amazon SQS and AWS Fault Injection Service",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/testing-application-resilience-with-amazon-sqs-and-aws-fault-injection-service/",
+      "publishedAt": "2026-09-09T21:33:59Z",
+      "summary": "When your application can no longer send or receive messages through an Amazon Simple Queue Service (Amazon SQS) queue, downstream processing can stall. The cause might be a misconfigured Identity and Access Management (IAM) policy , a network partition, a bad deployment, or a transient service event. Your application sees much the same thing regardless: SQS operations start failing. How your serv",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/18/ARCHBLOG-1426-1.png"
+    },
+    {
+      "id": "b97a9b7124427fa3bd32",
+      "title": "Validating multi-Region DR for Terraform Enterprise with AWS FIS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/validating-multi-region-dr-for-terraform-enterprise-with-aws-fis/",
+      "publishedAt": "2026-09-09T21:05:02Z",
+      "summary": "In October 2025, Athenahealth , a major North American Electronic Health Record (EHR) provider, discovered a gap. An AWS regional service event in us-east-1 made their single-Region HashiCorp Terraform Enterprise (TFE) deployment inaccessible to their developers. This post shares the architecture, the AWS Fault Injection Service (AWS FIS) validation approach, HashiCorp best practices, and lessons ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/08/ARCHBLOG-1480-1.png"
+    },
+    {
+      "id": "1bf01c3c33d621ca90d6",
+      "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
+      "publishedAt": "2026-09-09T18:30:00Z",
+      "summary": "Kubernetes has many ways to describe what is happening on a Node. Readiness, taints, Pod state, labels, annotations, and provider-specific APIs each expose part of the picture. What has been missing is a shared, Kubernetes-owned way to say that a Node is draining , undergoing maintenance, or undergoing Graceful Node Shutdown . Kubernetes v1.37 introduces five well-known Node conditions that provid",
+      "imageURL": null
+    },
+    {
+      "id": "77061a8dc60046970ad8",
+      "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
+      "publishedAt": "2026-09-09T13:00:00Z",
+      "summary": "We’ve rewritten the module registry in workerd , the core open-source component of the Workers runtime, to be faster, more standards-compliant, and more closely aligned with Node.js' module registry. Over the past few years, we’ve been adding support for more and more Node.js runtime APIs. The Workers runtime now supports every stable API from Node.js that you might want to use in a serverless con",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M1WCDP58M0ZWWK4EQ5Z60396.01M1WCDPYM384QTHNEZA0WQ8W8.png"
+    },
+    {
       "id": "009d5c98023fba4a769b",
       "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
       "sourceName": "Trail of Bits",
@@ -1081,15 +1117,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZCHB9VT6PFY8DZNPV0SX1SS.png"
     },
     {
-      "id": "8552fc65505e1988aa97",
-      "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
-      "publishedAt": "2026-08-07T13:00:00Z",
-      "summary": "Since launching in 2020, Cloudflare Radar has provided one-of-a-kind insight into Internet traffic on a global scale. The open data that Radar publishes from our global network is used by a variety of experts in different domains: human rights advocates, journalists, academic researchers, network operators, and more. Today, as part of Agents Week , Radar is beta-launching a new tool: Radar Researc",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZCGV8J1HF1P5HPSDNRYWTR7.png"
-    },
-    {
       "id": "abd0b0795cbdeb87e376",
       "title": "The Complete Agent State Stack: Memory, Files, and Serverless Database Persistence for AI Apps",
       "sourceName": "PingCAP / TiDB",
@@ -1432,24 +1459,6 @@
       "imageURL": null
     },
     {
-      "id": "028dd9491216288b19de",
-      "title": "Building multi-Region resiliency for AWS CloudFormation custom resource deployment",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/building-multi-region-resiliency-for-aws-cloudformation-custom-resource-deployment/",
-      "publishedAt": "2026-07-22T14:25:09Z",
-      "summary": "AWS CloudFormation is the foundational tool of infrastructure-as-code for thousands of organizations running workloads on AWS. But as teams push the boundaries of what CloudFormation can do natively, custom resources have emerged as a powerful extension mechanism that unlocks a broad range of possibilities. Yet, when it comes to building resilient, multi-Region deployments with custom resources, c",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/22/archblog-1547-arch-diagram.png"
-    },
-    {
-      "id": "78861e17d85a5757c333",
-      "title": "Architecting offline-first generative AI applications for edge deployments using AWS services",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/architecting-offline-first-generative-ai-applications-for-edge-deployments-using-aws-services/",
-      "publishedAt": "2026-07-22T13:32:57Z",
-      "summary": "According to Siemens’ 2024 report The True Cost of Downtime , Fortune 500 companies lose an estimated $1.4 trillion annually because of unplanned downtime. This downtime is often worsened by a lack of skills to detect and resolve issues quickly. Generative AI offers a promising path to address this, but deploying these capabilities in industrial environments introduces a distinct architectural cha",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/07/ARCHBLOG-1590-1.png"
-    },
-    {
       "id": "edb9884c0bcf8fecb5bf",
       "title": "Everyone Should Know SIMD",
       "sourceName": "Mitchell Hashimoto",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-06-25T16:30:00Z",
       "summary": "The AI features in Dropbox bring together company knowledge from documents, messages, meetings, and other sources. Users can then ask questions in one place and get answers from the Dash chat agent. Agent quality—how well our chat agent helps users accomplish their goals—is evaluated using a suite of large language model-as-judge evaluations. These evaluations provide a way to measure how well an ",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/june/dash-chat-dspy/headers/Machine Learning-How we used DSPy to optimize Dash chat-1440x305-light.png"
-    },
-    {
-      "id": "806ca9bfebec7360f5ed",
-      "title": "Discord Update: June 25, 2026 Changelog",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-update-june-25-2026-changelog",
-      "publishedAt": "2026-06-25T00:00:00Z",
-      "summary": "Here's the Discord Changelog from June 25, 2026, so you can stay informed on what’s new in recent app updates!",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6494b1e02e40699d67a766e6_Summer_June.png"
     }
   ]
 }
