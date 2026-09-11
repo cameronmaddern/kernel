@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "5ea9794234a5006eda2c",
+      "title": "AI cybersecurity is a cat and mouse game",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/11/ai-cybersecurity-is-a-cat-and-mouse-game/",
+      "publishedAt": "2026-09-11T07:40:00Z",
+      "summary": "Ryan chats with Sam Curry, CSO at Zscaler, about where human intelligence sits in the new security landscape with AI, why shifting security protections closer to applications helps limit probes for vulnerabilities, and why building more resilient code infrastructure is the best way to address the vulnerabilities AI does discover.",
+      "imageURL": null
+    },
+    {
+      "id": "ba7190af76453d7582b8",
+      "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+      "publishedAt": "2026-09-10T18:30:00Z",
+      "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive rest",
+      "imageURL": null
+    },
+    {
+      "id": "b2c23b6236be8299c348",
+      "title": "(Re)introducing Developer Story",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/10/re-introducing-developer-story/",
+      "publishedAt": "2026-09-10T18:01:54Z",
+      "summary": "For the past few years, we’ve been looking at ways to bring a little more of the individual developer back to Stack.",
+      "imageURL": null
+    },
+    {
+      "id": "1fe62ff3bcf197977ee7",
+      "title": "Building resilient real-time streaming workers with Amazon DynamoDB leases",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/building-resilient-real-time-streaming-workers-with-amazon-dynamodb-leases/",
+      "publishedAt": "2026-09-10T16:14:22Z",
+      "summary": "Consider a real-time transcription service processing 500 concurrent meetings. Each worker processing these meetings requires a dedicated outbound WebSocket connection to an upstream streaming source. When a single worker fails, it drops 100+ connections, causing 2 to 3 minutes of data loss per connection until operators manually restart services. Building real-time streaming workers that maintain",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/08/ARCHBLOG-1505-1.png"
+    },
+    {
+      "id": "4e1a666a4fc23c2ff36a",
+      "title": "Refreshing the Travel-Time Map Behind Lyft’s Marketplace: Rebuilding Neighborhood Reachability…",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/5be3efbc82ea",
+      "publishedAt": "2026-09-10T16:12:28Z",
+      "summary": "Refreshing the Travel-Time Map Behind Lyft’s Marketplace: Rebuilding Neighborhood Reachability Signals Every time Lyft calculates pricing to balance a market, nudges a driver toward an under-served pocket of a city, or paints a heatmap of where demand is building, there is a quiet lookup table doing work in the background. It answers a deceptively simple question: how long does it take to get from",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*f5bDERtosR0e_DlgBWek-Q.jpeg"
+    },
+    {
+      "id": "e42d17814d459c86eb32",
+      "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+      "publishedAt": "2026-09-10T13:00:00Z",
+      "summary": "1.1.1.1 now validates DNSSEC signatures made with ML-DSA-44 , a post-quantum signature algorithm standardized by the National Institute of Standards and Technology (NIST) . This is a first step toward preparing DNSSEC for a future in which today’s signature algorithms are no longer secure. Cloudflare plans to achieve full post-quantum security by 2029 . Much of the work so far has focused on TLS, ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M25DK32HZ1WQH3H12JRZ8W35.01M25DK70WYHHWWR2VQYE94TNP.png"
+    },
+    {
       "id": "a6dc7bc272e3de303ce2",
       "title": "Testing application resilience with Amazon SQS and AWS Fault Injection Service",
       "sourceName": "AWS Architecture Blog",
@@ -1108,15 +1162,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*X_O1wdMIVfm9upb2tLXD9A.png"
     },
     {
-      "id": "4ba778657c38aa674699",
-      "title": "Unveiling good and bad behaviors on the Agentic Internet",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
-      "publishedAt": "2026-08-07T13:01:00Z",
-      "summary": "The Internet isn’t a single lane of traffic. For a long time, the rule of thumb in web security was that bots are bad, while humans are good. Of course, we’re far past this generalization. Humans can be fraudulent, and bots can be helpful at different levels. Site owners actively want some automated traffic to interact with our sites to make the Internet functional and discoverable. To complicate ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZCHB9VT6PFY8DZNPV0SX1SS.png"
-    },
-    {
       "id": "abd0b0795cbdeb87e376",
       "title": "The Complete Agent State Stack: Memory, Files, and Serverless Database Persistence for AI Apps",
       "sourceName": "PingCAP / TiDB",
@@ -1315,15 +1360,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*7Jb6-3knD_VCB_wWN5M3Mw.png"
     },
     {
-      "id": "4fdfc7b8f86adb6f36bd",
-      "title": "Your trusted knowledge layer: Introducing Stack Internal's new platform experience",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/30/introducing-stack-internal-new-platform-experience/",
-      "publishedAt": "2026-07-30T15:10:00Z",
-      "summary": "Introducing new Stack Internal capabilities as part of our upcoming platform experience. Our latest release turns your existing foundation of knowledge into enterprise memory that your people, teams, and AI agents can act on. Learn how we’re building the trust layer for enterprise AI.",
-      "imageURL": null
-    },
-    {
       "id": "f9573d2636f81041b214",
       "title": "Building secure Uniswap v4 hooks",
       "sourceName": "Trail of Bits",
@@ -1348,15 +1384,6 @@
       "url": "https://github.blog/?p=97770",
       "publishedAt": "2026-07-29T16:00:00Z",
       "summary": "If you maintain an active repository, you know the feeling. You open your notifications on a Monday morning and there they are: five, 10, sometimes a dozen Dependabot pull requests, each bumping a single dependency by a single patch version. Individually, every one of them is helpful. Collectively, they’re noise. And noise is how important updates get ignored. We looked at Microsoft’s GCToolkit , ",
-      "imageURL": null
-    },
-    {
-      "id": "47eb7245fa2052aa1ffa",
-      "title": "Developers are attached to tools because tools encode trust",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
-      "publishedAt": "2026-07-29T14:06:38Z",
-      "summary": "The tools themselves are new and their capabilities are in constant flux. If your kitchen knife kept changing shape, weight, and edge, you’d have to relearn it every time; that’s a hard tool to build trust in. But it also points to a flaw in how you use that tool, the process around it, and the way the tool reinforces the process.",
       "imageURL": null
     },
     {
@@ -1439,15 +1466,6 @@
       "publishedAt": "2026-07-23T00:00:00Z",
       "summary": "We're going to look at three different kinds of benchmarks, one set of calculations for baseline numbers for performance \"napkin math\" estimates, one set of AI model evals, and one on car tires. To build my intuition for things, I like thinking about them before seeing the explanation, so these are presented with the benchmark information first and the explanation later in case you want to think a",
       "imageURL": "https://danluu.com/images/exercise-7/deep-swe.webp"
-    },
-    {
-      "id": "5d5f1d035419d6cc0f0e",
-      "title": "Building a serverless AI assistant at Pelago: concept to care in two weeks",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/building-a-serverless-ai-assistant-at-pelago-concept-to-care-in-two-weeks/",
-      "publishedAt": "2026-07-22T17:12:27Z",
-      "summary": "Healthcare organizations face a critical scaling challenge – how to maintain deeply personalized patient interactions as member bases grow, without overwhelming care teams or compromising quality. At Pelago , a digital health company specializing in substance use disorder support, the engineering team found a way to build an AI-powered solution to address this challenge using AWS services in just ",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/16/ARCHBLOG-1403-1.png"
     },
     {
       "id": "464364d7f65e15a5cb42",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-06-25T20:00:00Z",
       "summary": "Volcano is a cloud native batch scheduler for Kubernetes, built for high-performance computing, AI/ML, and other batch workloads. Headlamp is an extensible Kubernetes web UI. With its plugin system, Headlamp can surface APIs and workflows beyond the built-in Kubernetes resources. The Volcano plugin brings core Volcano resources into Headlamp so you can inspect workload state, queue behavior, and g",
       "imageURL": "https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/volcano-jobs-list.png"
-    },
-    {
-      "id": "b4b0ca17fb1e192bcd07",
-      "title": "See your serverless: introducing the Headlamp plugin for Knative",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/",
-      "publishedAt": "2026-06-25T18:00:00Z",
-      "summary": "Headlamp is an open-source, extensible Kubernetes SIG UI project designed to let you explore, manage, and debug cluster resources. Knative brings serverless workloads to Kubernetes, handling traffic routing, autoscaling, and revision management so teams can deploy and iterate without fighting infrastructure. But operating Knative workloads day-to-day can be difficult, there's still a lot of jumpin",
-      "imageURL": "https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/knative-map-view.png"
-    },
-    {
-      "id": "f972b7da95a7c6f07fab",
-      "title": "How we used DSPy to turn AI evaluations into better responses in Dash chat",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/machine-learning/how-we-turned-ai-evaluations-into-better-responses-in-dash-chat",
-      "publishedAt": "2026-06-25T16:30:00Z",
-      "summary": "The AI features in Dropbox bring together company knowledge from documents, messages, meetings, and other sources. Users can then ask questions in one place and get answers from the Dash chat agent. Agent quality—how well our chat agent helps users accomplish their goals—is evaluated using a suite of large language model-as-judge evaluations. These evaluations provide a way to measure how well an ",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/june/dash-chat-dspy/headers/Machine Learning-How we used DSPy to optimize Dash chat-1440x305-light.png"
     }
   ]
 }
