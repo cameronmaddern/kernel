@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "87a34f747bcafd472ccb",
+      "title": "The Real Cost of a Single Insert in Postgres",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/real-cost-of-single-insert-in-postgres",
+      "publishedAt": "2026-09-11T20:23:58Z",
+      "summary": "A 40-byte sensor reading does not cost 40 bytes to store. On a table with three indexes, Postgres writes four separate WAL records for that one row, and the log grows by roughly 345 bytes before the commit returns. That gap is called write amplification : the ratio of physical bytes the database writes to logical bytes your application sent. Every index you add pushes it higher. If you have ever a",
+      "imageURL": null
+    },
+    {
+      "id": "96fc811601db05f9112d",
+      "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
+      "publishedAt": "2026-09-11T18:30:00Z",
+      "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37! Native histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808 ) bring high-resolution, low-cardinality observability to Kubernetes metrics. By adopting Prometheus Native Histograms , Kubernetes components now expose latency and dur",
+      "imageURL": "https://kubernetes.io/images/blog/2026-kubernetes-1-37-native-histograms-beta/native-histograms-flow.svg"
+    },
+    {
+      "id": "72439325f49f3446fb24",
+      "title": "From zero-shot forecast to purchase order with Amazon Bedrock AgentCore",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/from-zero-shot-forecast-to-purchase-order-with-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-09-11T14:08:01Z",
+      "summary": "Authors : Hyunsoo Kim, Chloe Kwak Learning level : 300 – Advanced Post type : Best Practices Every inventory manager faces the same question each morning: How much should I order today? The answer depends on dozens of variables (sales history, upcoming promotions, pricing changes, day-of-week seasonality, supplier lead times) and the cost of getting it wrong is asymmetric. Over-order and you carry",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/09/arch-1461-figure-1.png"
+    },
+    {
+      "id": "ef76bf51526ce152a6db",
+      "title": "Introducing automatic remediation policies with Cloudflare CASB",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/casb-policies/",
+      "publishedAt": "2026-09-11T13:00:00Z",
+      "summary": "Today, we’re making Cloudflare CASB more powerful than ever by introducing automatic remediation policies. This means security teams can now design event-driven logic to revoke risky file shares and dispatch custom webhooks, without manual intervention. When we launched Cloudflare CASB , a cloud access security broker, we wanted to provide security teams complete visibility into the posture of the",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2842WCZ10Q81ZNG6FHF2FAJ.01M2842X2Z3B513P6VHC1SXMTC.png"
+    },
+    {
       "id": "5ea9794234a5006eda2c",
       "title": "AI cybersecurity is a cat and mouse game",
       "sourceName": "Stack Overflow Blog",
@@ -124,15 +160,6 @@
       "url": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
       "publishedAt": "2026-09-08T18:30:00Z",
       "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 delivers the next major milestone in the Workload-Aware Scheduling (WAS) journey. In this release, the core Workload and PodGroup APIs—enabling gang scheduling—along with Workload-Aware Preemption (WAP",
-      "imageURL": null
-    },
-    {
-      "id": "a189743cbd755332effc",
-      "title": "Is It Safe to Give an AI Agent Access to Your Production Database?",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/ai-agent-production-database-access",
-      "publishedAt": "2026-09-08T13:19:27Z",
-      "summary": "The direct answer No, giving an AI agent unrestricted access to a production database is not safe. Your AI agent has full production database access. Is it compromised yet, or just waiting to be? Most teams solve this with client-side restrictions: \"We'll limit what the agent can request.\" But that's security theater. A determined (or accidentally malicious) agent bypasses it in minutes. The real ",
       "imageURL": null
     },
     {
@@ -1036,15 +1063,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/07/WhatsApp-Scam-Alert-Ledger-Verification-Model-Download-Flow_1.png"
     },
     {
-      "id": "92cacdd1885e64bc5dc3",
-      "title": "Scaling patterns for self-organizing multi-agent clusters with Kiro",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/scaling-patterns-for-self-organizing-multi-agent-clusters-with-kiro/",
-      "publishedAt": "2026-08-11T21:17:02Z",
-      "summary": "Most multi-agent systems today follow the same shape: a supervisor agent breaks a task down, hands the pieces to subagents, and stitches the results back together. This is how Kiro CLI delegates to subagents, and what the Strands Agents SDK gives you primitives for with graphs and agents-as-tools. It is a good default. One process holds the plan, so behavior stays predictable and every result pass",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/11/ARCHBLOG-1576-1.png"
-    },
-    {
       "id": "6ae64bcd99a19b4f7b5d",
       "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
       "sourceName": "Kubernetes Blog",
@@ -1124,15 +1142,6 @@
       "publishedAt": "2026-08-10T18:34:10Z",
       "summary": "At the beginning of Agents Week, Rita shared that agents represent the next evolution of computing: not only as a new application of AI but also as a new class of software that’s shaping how people interact with technology, and how software interacts with the Internet. Over the last year or so, we set out to explore what this shift means for developers and customers building AI-native apps and the",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZEF2H4G3BD74C5TP4BWMS76.png"
-    },
-    {
-      "id": "f3f84c1a2bac0b57bc4e",
-      "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
-      "publishedAt": "2026-08-10T13:00:00Z",
-      "summary": "We believe the Internet must be a force for good, and that it requires a foundation of trust. Nowhere is that trust more critical than in public service. Government agencies are the stewards of a nation’s most sensitive data. They protect national security, critical infrastructure , and the personal information of every citizen. Cloudflare’s mission is to help build a better Internet. A key part o",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KWJ8S81EFDW5RYDPNZEQSX7A.png"
     },
     {
       "id": "95f048a469238c0eed8e",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-06-25T22:00:00Z",
       "summary": "Headlamp is an open-source, extensible Kubernetes SIG UI project designed to let you explore, manage, and debug cluster resources directly from a browser. Cluster API (CAPI) is a Kubernetes sub-project that brings declarative, Kubernetes-style APIs to cluster lifecycle management. It lets platform teams provision, upgrade, and manage the lifecycle of Kubernetes clusters using standard Kubernetes o",
       "imageURL": "https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/cluster-api-dashboard.png"
-    },
-    {
-      "id": "ad560176af8bf972ec0b",
-      "title": "Inspect Volcano workloads faster with Headlamp",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/",
-      "publishedAt": "2026-06-25T20:00:00Z",
-      "summary": "Volcano is a cloud native batch scheduler for Kubernetes, built for high-performance computing, AI/ML, and other batch workloads. Headlamp is an extensible Kubernetes web UI. With its plugin system, Headlamp can surface APIs and workflows beyond the built-in Kubernetes resources. The Volcano plugin brings core Volcano resources into Headlamp so you can inspect workload state, queue behavior, and g",
-      "imageURL": "https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/volcano-jobs-list.png"
     }
   ]
 }
