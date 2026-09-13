@@ -190,6 +190,15 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     },
     {
+      "id": "a6ea7e0996812fc4286f",
+      "title": "How well do agents use test/verification techniques?",
+      "sourceName": "Dan Luu",
+      "url": "https://danluu.com/agentic-testing/",
+      "publishedAt": "2026-09-07T00:00:00Z",
+      "summary": "We previously noted that, while it's easier than ever to hit a particular quality bar by having coding agents use effective test techniques, software quality seems to be getting worse , indicating that whatever defaults developers are using may not work very well. Here, we test if simple instructions to agents to use particular techniques or libraries improve implementation correctness, as a kind ",
+      "imageURL": null
+    },
+    {
       "id": "fbb76b9dcf1a738b3c30",
       "title": "Data races and the limits of ThreadSanitizer in C and Go",
       "sourceName": "Eaton Phil",
@@ -389,7 +398,7 @@
     },
     {
       "id": "e82667920f5ed02b238f",
-      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "title": "Ed Zitron's AI prediction track record",
       "sourceName": "Dan Luu",
       "url": "https://danluu.com/zitron/",
       "publishedAt": "2026-09-01T00:00:00Z",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-06-26T18:00:00Z",
       "summary": "AI has really changed the game around software development. More people are leveraging AI than ever to contribute patches to projects they use. To me, this is a good thing as more folks will contribute patches rather than fork or not fix them. The main problem is that AI has made generating code fast but there has been very little improvement in maintaining code bases. In this post, we will highli",
       "imageURL": null
-    },
-    {
-      "id": "5068a1676519ace4fd11",
-      "title": "Introducing the Cluster API plugin for Headlamp",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/",
-      "publishedAt": "2026-06-25T22:00:00Z",
-      "summary": "Headlamp is an open-source, extensible Kubernetes SIG UI project designed to let you explore, manage, and debug cluster resources directly from a browser. Cluster API (CAPI) is a Kubernetes sub-project that brings declarative, Kubernetes-style APIs to cluster lifecycle management. It lets platform teams provision, upgrade, and manage the lifecycle of Kubernetes clusters using standard Kubernetes o",
-      "imageURL": "https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/cluster-api-dashboard.png"
     }
   ]
 }
