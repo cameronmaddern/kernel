@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "71fc2221d1295bd61d1d",
+      "title": "1Password's AI patching benchmark is misleading",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
+      "publishedAt": "2026-09-15T11:00:00Z",
+      "summary": "1Password’s FLAWED report , published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective ",
+      "imageURL": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/1password-image1_hu_34d317e989dba7a7.webp"
+    },
+    {
+      "id": "e50aaa136d216e9ee89b",
+      "title": "AI, JD, and other letters of the law",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/15/ai-jd-and-other-letters-of-the-law/",
+      "publishedAt": "2026-09-15T07:40:00Z",
+      "summary": "Ryan chats with Kevin Frazier, director of the AI Innovation and Law program at the University of Texas School of Law, about the legal and social impacts of data centers, the realities of workforce disruption, and regulating AI for child safety using existing consumer protection laws.",
+      "imageURL": null
+    },
+    {
+      "id": "c0074c24996b05818780",
+      "title": "Kubernetes Changed Block Tracking API - Beta Differences",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/",
+      "publishedAt": "2026-09-14T18:30:00Z",
+      "summary": "Changed Block Tracking (CBT) support for CSI drivers shipped as Alpha in September 2025. With the March 2026 v1.0.0 release of the external-snapshot-metadata project, the feature moved to Beta . If you aren't yet familiar with changed block tracking for storage in Kubernetes, the Alpha announcement covers the motivation, the three primary components (the CSI SnapshotMetadata gRPC service, the Snap",
+      "imageURL": null
+    },
+    {
+      "id": "3de19e2c537ba9f2f6d8",
+      "title": "Kubernetes v1.37: Memory QoS Graduates to Beta",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/",
+      "publishedAt": "2026-09-14T18:30:00Z",
+      "summary": "Memory QoS has graduated to Beta in Kubernetes v1.37 and is now enabled by default. On Linux nodes running cgroup v2, the feature uses the memory controller to give the kernel better guidance on how to treat container memory. It was first introduced as Alpha in v1.22, and expanded in v1.36 with tiered memory reservation. This post covers what changed in v1.37, what the Beta promotion means for clu",
+      "imageURL": null
+    },
+    {
+      "id": "172159e86ac80f985aa5",
+      "title": "Query plan rewriting in PostgreSQL",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-09-13-query-plan-rewriting-in-postgresql.html",
+      "publishedAt": "2026-09-13T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "87a34f747bcafd472ccb",
       "title": "The Real Cost of a Single Insert in Postgres",
       "sourceName": "Timescale",
@@ -1360,15 +1405,6 @@
       "imageURL": null
     },
     {
-      "id": "b86ef27cc6f1d277f40a",
-      "title": "What happens to the internet when robots act like humans?",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/31/what-happens-internet-when-robots-act-like-humans/",
-      "publishedAt": "2026-07-31T07:40:00Z",
-      "summary": "Ryan welcomes WPEngine CTO Ramadass Prabakar to the show to chat about what happens—and what we should do—when agents start acting like humans online, how our internet is evolving to serve both human and agentic experiences from the same interface, and what we can do to differentiate and protect human actions online from malicious bot activity.",
-      "imageURL": null
-    },
-    {
       "id": "3bd0350faf66784fb457",
       "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
       "sourceName": "Netflix TechBlog",
@@ -1763,42 +1799,6 @@
       "publishedAt": "2026-06-30T00:00:00Z",
       "summary": "Starting today, Discord is now available to download directly from Meta’s Horizon App Store. No more sideloading. No more using the web app. Grab it using the link in this blog, or at discord.com/download.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a42fb78addf50b41deb42cf_image2.png"
-    },
-    {
-      "id": "952848bbecfd62e2f298",
-      "title": "Cost Attribution in Discord’s API",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/cost-attribution-in-discords-api",
-      "publishedAt": "2026-06-30T00:00:00Z",
-      "summary": "Discord's API spans 1700+ endpoints across hundreds of Kubernetes deployments. The challenge: tracking per-feature hosting costs without restructuring. Jim Benton helps explain how Discord tackled the situation.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67f597ab8965032c232c7d4a_image4.png"
-    },
-    {
-      "id": "b573a0b7e4a0edd1d8ca",
-      "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/77146fba8a08",
-      "publishedAt": "2026-06-29T13:01:02Z",
-      "summary": "Authors: Lequn Wang , J iangwei Pan , and Linas Baltrunas Figure 1. Autoregressive homepage generation. GenPage builds a Netflix homepage one row or entity at a time, each one conditioned on what’s already on the page and the user’s context. Introduction The Netflix homepage is the first thing users see when they open the app and the primary way they discover content to enjoy. Almost every part of",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*NurrizMgC7_QbsGuuW42Dg.gif"
-    },
-    {
-      "id": "2856b365b9bfc9c5676c",
-      "title": "The feature in OxCaml that more languages should steal",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-06-27-the-feature-in-oxcaml-more-languages-should-steal.html",
-      "publishedAt": "2026-06-27T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "09fb0e5cb2f624fa5322",
-      "title": "Open source maintainership in the age of AI",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/",
-      "publishedAt": "2026-06-26T18:00:00Z",
-      "summary": "AI has really changed the game around software development. More people are leveraging AI than ever to contribute patches to projects they use. To me, this is a good thing as more folks will contribute patches rather than fork or not fix them. The main problem is that AI has made generating code fast but there has been very little improvement in maintaining code bases. In this post, we will highli",
-      "imageURL": null
     }
   ]
 }
