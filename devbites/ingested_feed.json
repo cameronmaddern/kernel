@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "6916be41936b06cd45f2",
+      "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
+      "publishedAt": "2026-09-15T18:30:00Z",
+      "summary": "With the release of Kubernetes v1.37, the Pod-Level Resource Managers feature has graduated to Beta status (disabled by default)! First introduced as an Alpha feature in Kubernetes v1.36 , this enhancement builds on Pod-Level Resources by equipping Kubelet's Topology Manager, CPU Manager, and Memory Manager to use Pod-level resource declarations ( .spec.resources ) directly when making hardware pl",
+      "imageURL": null
+    },
+    {
+      "id": "f01daf855ce160950324",
+      "title": "Beyond the model: Engineering AI infra with scientific judgement",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/371316d43261",
+      "publishedAt": "2026-09-15T17:06:18Z",
+      "summary": "How Airbnb’s agent harness transforms unstructured data exploration by encoding scientific methodology into scalable, reproducible, and audit-ready infrastructure. By : Wren Dougherty Ask a coding agent to analyze 100,000 customer support conversations and within minutes you’ll have a polished taxonomy, precise prevalence numbers, and an executive-ready summary. What you can’t see is the investiga",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*rruMfjz5gfGgOaeF3crcJQ.jpeg"
+    },
+    {
+      "id": "a7565059b22e4fb45443",
+      "title": "Have it both ways: stay discoverable in search while disallowing AI training",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+      "publishedAt": "2026-09-15T13:00:00Z",
+      "summary": "Without proper controls, website owners have long faced a difficult tradeoff: allow your content to be used for AI training, or risk losing discoverability in search. That tradeoff exists because some of the largest organizations on the Internet use mixed-use crawlers: a single crawler serving both search and AI training. Refuse one, and you refuse the other. Today, Cloudflare is announcing a new ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2H2Z9EEQXN77GRVF484P66A.01M2H2ZAMANYA3DTBA92G3WQ5X.png"
+    },
+    {
+      "id": "cb8e031cc9ea866cd95a",
+      "title": "Give every teammate and agent the right level of access to your Workers",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/workers-granular-authorization/",
+      "publishedAt": "2026-09-15T13:00:00Z",
+      "summary": "As more teams — and now agents — build applications on Cloudflare's Developer Platform, having the right access controls is crucial to allow you to ship safely. After all, the last thing you want is for an agent to make a change in production, just because it was granted more access than it needs. Now, you can give a teammate or agent access to a specific Worker, so that they can only make changes",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KW448A863P1CW4V1VXP9CBBR.png"
+    },
+    {
       "id": "71fc2221d1295bd61d1d",
       "title": "1Password's AI patching benchmark is misleading",
       "sourceName": "Trail of Bits",
@@ -17,6 +53,15 @@
       "publishedAt": "2026-09-15T07:40:00Z",
       "summary": "Ryan chats with Kevin Frazier, director of the AI Innovation and Law program at the University of Texas School of Law, about the legal and social impacts of data centers, the realities of workforce disruption, and regulating AI for child safety using existing consumer protection laws.",
       "imageURL": null
+    },
+    {
+      "id": "ab579cab3a9f8945ae46",
+      "title": "What Stripe data shows about fraud at AI startups",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups",
+      "publishedAt": "2026-09-15T00:00:00Z",
+      "summary": "We analyzed attempted fraud rates and customer abuse patterns on Stripe over the past year and found that AI companies faced 4.3x more fraud attempts than startups overall in Q3 2025.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/2qZhEOOYdpYA9ZOlJPpv5r/e8f3fcd1f317f30e3c314c2fb03737d4/4-index.jpg"
     },
     {
       "id": "c0074c24996b05818780",
@@ -722,11 +767,11 @@
     },
     {
       "id": "fc72f0a2782bbfa24200",
-      "title": "Say it once: Introducing Bot Preference Sync",
+      "title": "Say it once: introducing Bot Preference Sync",
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/bot-preference-sync/",
       "publishedAt": "2026-08-21T23:19:57Z",
-      "summary": "We’re constantly building for the different goals of our customers. Some customers want to optimize for discovery, while others want to protect their content with the strictest security policy. Among these differing policies, there are multiple ways to mitigate bot traffic. Some mechanisms simply state your preference, assuming best intent from crawlers, and other approaches actually lock down con",
+      "summary": "Update Sept. 15, 2026: We've published a follow-up blog post with the latest on these controls, including a new Accountable designation for Apple, Google, and Microsoft, as well as how the Block and Disallow AI Training settings now work together. Read the latest blog post . We’re constantly building for the different goals of our customers. Some customers want to optimize for discovery, while oth",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M0GECYRV44NP1WR229SCRK7E.png"
     },
     {
@@ -1135,15 +1180,6 @@
       "imageURL": null
     },
     {
-      "id": "60a1caf06fff93701f9d",
-      "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
-      "publishedAt": "2026-08-11T13:00:00Z",
-      "summary": "Welcome to the 25th edition of Cloudflare's DDoS Threat Report. This is the first half-year edition in the series: rather than publishing separate reports for the first and second quarters of 2026, we have combined our coverage of Q1 and Q2 into a single volume covering January through June 2026. The analysis is produced by Cloudforce One , Cloudflare’s Threat Intelligence organization, providing ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZQNQBJ1WH5E5QSQP8KFDVJV.png"
-    },
-    {
       "id": "eb7bf3162c2bedc5d2a6",
       "title": "Your tokenmaxxing is not valuemaxxing",
       "sourceName": "Stack Overflow Blog",
@@ -1187,15 +1223,6 @@
       "publishedAt": "2026-08-10T19:30:00Z",
       "summary": "Java developers no longer have to rely on Java framework-specific approaches to drive AI from their enterprise apps. While it is true that Langchain4j empowered developers by disintermediating specific AI vendors, you still had a dependency on Langchain4j. And with Spring AI, well, of course you had a dependency on design choices made by Spring, if not on Spring itself. Now, GitHub Copilot SDK for",
       "imageURL": "https://github.blog/wp-content/uploads/2026/08/figure-01-app-flow-diagram.png?resize=1024%2C173"
-    },
-    {
-      "id": "8957b18e4c1f66241918",
-      "title": "Everything we launched during Agents Week",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
-      "publishedAt": "2026-08-10T18:34:10Z",
-      "summary": "At the beginning of Agents Week, Rita shared that agents represent the next evolution of computing: not only as a new application of AI but also as a new class of software that’s shaping how people interact with technology, and how software interacts with the Internet. Over the last year or so, we set out to explore what this shift means for developers and customers building AI-native apps and the",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZEF2H4G3BD74C5TP4BWMS76.png"
     },
     {
       "id": "95f048a469238c0eed8e",
@@ -1510,7 +1537,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-turtle.webp"
+      "imageURL": "/static/images/cta-dog.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-07-03T00:00:00Z",
       "summary": "I've been using AI fairly heavily since last November and the whole thing is a funny experience . An agent will do something that, if a human did it, you'd immediately fire them. My reaction, of course, is to act as if this is great and spin up a thousand agents so they can do even more of that. Mid-last year, I had GPT (maybe 5.0 or 5.1) try to find the source of a bug . Naturally, this code didn",
       "imageURL": null
-    },
-    {
-      "id": "006b7d5bc342dba554b8",
-      "title": "GPT-5.5-Cyber built a zlib fuzzing lab in a day",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/",
-      "publishedAt": "2026-07-02T11:00:00Z",
-      "summary": "We’re running Patch the Planet , an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest mode",
-      "imageURL": null
-    },
-    {
-      "id": "1ecbead8836eb6e50e41",
-      "title": "Shipping post-quantum cryptography to Python",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/",
-      "publishedAt": "2026-06-30T11:00:00Z",
-      "summary": "Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quan",
-      "imageURL": null
-    },
-    {
-      "id": "ab90f1b608e27eaff440",
-      "title": "Discord is Now on Meta Quest: Reach Out to Your Servers While in VR",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-is-now-on-meta-quest-reach-out-to-your-servers-while-in-vr",
-      "publishedAt": "2026-06-30T00:00:00Z",
-      "summary": "Starting today, Discord is now available to download directly from Meta’s Horizon App Store. No more sideloading. No more using the web app. Grab it using the link in this blog, or at discord.com/download.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a42fb78addf50b41deb42cf_image2.png"
     }
   ]
 }
