@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "896933b41785afa3ba4c",
+      "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
+      "publishedAt": "2026-09-16T20:06:17Z",
+      "summary": "A modern storefront can look perfectly healthy while malicious JavaScript works underneath: siphoning affiliate revenue, hijacking searches and clicks, tampering with analytics, or asking a remote server what to execute next. Pages load, products appear, and checkout works — yet the browser may be quietly doing something the site owner never authorized. That is the blind spot our Client-Side Secur",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2KND4WW7J8M4KCQSHWGS28X.01M2KND6MD5RWBZG4CTV12T33B.png"
+    },
+    {
+      "id": "b402f515f974f7c95e16",
+      "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/",
+      "publishedAt": "2026-09-16T18:30:00Z",
+      "summary": "Kubernetes v1.37 brings important storage security features: emptyDir permission modes and bind mount options. They help application programmers and security professionals implement rigorous security policies, for example, prohibiting deletion of files across containers or execution of arbitrary binaries from writable volumes, directly in Kubernetes without any complicated circumvention. Linux sto",
+      "imageURL": null
+    },
+    {
+      "id": "f6cd5feed3fc3f340ca9",
+      "title": "How Meshtastic Metrics Exporter Turned Eight Prometheus Queries Into One with Tiger Data",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/meshtastic-metrics-exporter-case-study-tiger-data",
+      "publishedAt": "2026-09-16T12:44:25Z",
+      "summary": "An open source monitoring tool for the Meshtastic mesh radio community moved off Prometheus, where 10,000 nodes meant half a million metric series, and put node data and telemetry history on a single Postgres database with TimescaleDB. This is an installment of our “Community Member Spotlight” series, in which we invite our customers to share their work, spotlight their success, and inspire others",
+      "imageURL": "https://assets.tigerdata.com/blog/2026/09/meshtastic.svg"
+    },
+    {
+      "id": "cc3551627c11d53b9d23",
+      "title": "Adding the Discord Updates YOU Want to See",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/adding-the-discord-updates-you-want-to-see",
+      "publishedAt": "2026-09-16T00:00:00Z",
+      "summary": "For Discord’s birthday, we wanted to celebrate YOU, so we asked you what you wanted to see… and we cooked up new things that you all asked for!",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6aa986373f113ee272c4c1c8_image4.png"
+    },
+    {
       "id": "6916be41936b06cd45f2",
       "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
       "sourceName": "Kubernetes Blog",
@@ -17,6 +53,15 @@
       "publishedAt": "2026-09-15T17:06:18Z",
       "summary": "How Airbnb’s agent harness transforms unstructured data exploration by encoding scientific methodology into scalable, reproducible, and audit-ready infrastructure. By : Wren Dougherty Ask a coding agent to analyze 100,000 customer support conversations and within minutes you’ll have a polished taxonomy, precise prevalence numbers, and an executive-ready summary. What you can’t see is the investiga",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*rruMfjz5gfGgOaeF3crcJQ.jpeg"
+    },
+    {
+      "id": "1d29136e1ab794d2b63a",
+      "title": "From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/15/here-s-what-s-new-on-stack-overflow-for-agents/",
+      "publishedAt": "2026-09-15T17:00:00Z",
+      "summary": "We've learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Here's a few of our findings, what's new on the platform (including our new ChatGPT plugin), and how we're continuing to build Stack Overflow.",
+      "imageURL": null
     },
     {
       "id": "a7565059b22e4fb45443",
@@ -61,7 +106,7 @@
       "url": "https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups",
       "publishedAt": "2026-09-15T00:00:00Z",
       "summary": "We analyzed attempted fraud rates and customer abuse patterns on Stripe over the past year and found that AI companies faced 4.3x more fraud attempts than startups overall in Q3 2025.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/2qZhEOOYdpYA9ZOlJPpv5r/e8f3fcd1f317f30e3c314c2fb03737d4/4-index.jpg"
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/4RzPleRe5QheYPTOGMyzYe/6655f5d1499d7030e5b51fe5720d9a65/final-index.jpg"
     },
     {
       "id": "c0074c24996b05818780",
@@ -88,15 +133,6 @@
       "url": "http://notes.eatonphil.com/2026-09-13-query-plan-rewriting-in-postgresql.html",
       "publishedAt": "2026-09-13T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "87a34f747bcafd472ccb",
-      "title": "The Real Cost of a Single Insert in Postgres",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/real-cost-of-single-insert-in-postgres",
-      "publishedAt": "2026-09-11T20:23:58Z",
-      "summary": "A 40-byte sensor reading does not cost 40 bytes to store. On a table with three indexes, Postgres writes four separate WAL records for that one row, and the log grows by roughly 345 bytes before the commit returns. That gap is called write amplification : the ratio of physical bytes the database writes to logical bytes your application sent. Every index you add pushes it higher. If you have ever a",
       "imageURL": null
     },
     {
@@ -1117,15 +1153,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/12/ARCHBLOG-1530-1.png"
     },
     {
-      "id": "5fd06b6421851c8c6eee",
-      "title": "Certificate Transparency Monitoring is now generally available",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
-      "publishedAt": "2026-08-13T13:00:00Z",
-      "summary": "Since we launched Certificate Transparency Monitoring in public beta in 2019, we've been emailing subscribers whenever a new TLS certificate appears in a public Certificate Transparency (CT) log for one of their domains. Today, it's turned on for more than 650,000 customer domains. It's an early warning that someone, somewhere, has issued a certificate for a hostname in your zone, giving you a cha",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZQPYFA4V0A6ZGSYZDJGASME.png"
-    },
-    {
       "id": "adf9de127627a3acabf6",
       "title": "Reducing Text2SQL latency with parameterized query templates",
       "sourceName": "AWS Architecture Blog",
@@ -1423,15 +1450,6 @@
       "imageURL": null
     },
     {
-      "id": "b72aeba80179ecbe9aa9",
-      "title": "Dispatches from O'Reilly: The best risk mitigation strategy in data? A single source of truth",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/07/31/dispatches-from-o-reilly-the-best-risk-mitigation-strategy-in-data-a-single-source-of-truth/",
-      "publishedAt": "2026-07-31T14:08:31Z",
-      "summary": "Your semantic layer is a risk mitigation strategy. Not risk in the abstract, compliance-framework sense, but the practical, operational risk that quietly drains organizations every day.",
-      "imageURL": null
-    },
-    {
       "id": "3bd0350faf66784fb457",
       "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
       "sourceName": "Netflix TechBlog",
@@ -1537,7 +1555,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-dog.webp"
+      "imageURL": "/static/images/cta-cat.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1780,24 +1798,6 @@
       "url": "https://blog.trailofbits.com/2026/07/08/mutation-testing-comes-to-daml/",
       "publishedAt": "2026-07-08T11:00:00Z",
       "summary": "In April we released Mewt , our open-source mutation-testing engine that finds the gaps in your test suite. Today we’re expanding it with support for DAML, the language Canton Network applications are written in. Mewt now reads DAML, generates several classes of mutants (including two built for DAML’s authorization primitives), and runs them through your existing test suite to count how many mutan",
-      "imageURL": null
-    },
-    {
-      "id": "4dd3615c18d664cc6b62",
-      "title": "Discord Patch Notes: July 7, 2026",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-patch-notes-july-7-2026",
-      "publishedAt": "2026-07-07T00:00:00Z",
-      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
-    },
-    {
-      "id": "67f6d4ba3f58a3a5572e",
-      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
-      "sourceName": "Dan Luu",
-      "url": "https://danluu.com/ai-coding/",
-      "publishedAt": "2026-07-03T00:00:00Z",
-      "summary": "I've been using AI fairly heavily since last November and the whole thing is a funny experience . An agent will do something that, if a human did it, you'd immediately fire them. My reaction, of course, is to act as if this is great and spin up a thousand agents so they can do even more of that. Mid-last year, I had GPT (maybe 5.0 or 5.1) try to find the source of a bug . Naturally, this code didn",
       "imageURL": null
     }
   ]
