@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "f0e304ce8e51a96b70a3",
+      "title": "How Equinix cut operational overhead with a shared services architecture on Amazon EKS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-equinix-cut-operational-overhead-with-a-shared-services-architecture-on-amazon-eks/",
+      "publishedAt": "2026-09-17T18:00:56Z",
+      "summary": "This post is cowritten by Manikandan Vasu, Vanji Sivajothy, and Ramchandra Koty from Equinix. Equinix is the world’s digital infrastructure company, operating over 260 data centers across more than 70 metros globally. To address the operational sprawl that had grown from its earlier self-managed Kubernetes environment, Equinix built a shared services architecture on Amazon EKS . Previously, Equini",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/17/ARCHBLOG-1449-1.png"
+    },
+    {
+      "id": "398330dda4ec291ebddd",
+      "title": "The guest journey, updated in real time: extending Airbnb’s sequence recommender with Chronon",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/8f1582578553",
+      "publishedAt": "2026-09-17T17:01:02Z",
+      "summary": "How two new Chronon capabilities, Push Mode and NRT Model Transform, allows us to provide more relevant search results instantly as a guest explores, rather than waiting for the next batch run. By : Pengyu Hou , Yuli Han , Daochen Zha , Haozhen Ding , Xin Liu , Sophie Wang , Pallavi Adusumilli , Sherry Li , Henry Saputra , Chun How Tan , Huiji Gao , Yan Zhang , Stephanie Moyerman , Yi Li , and San",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*PB9ohGH_82OBz6yYLkqPWQ.jpeg"
+    },
+    {
+      "id": "09cc91ab0784625bcefd",
+      "title": "Building cloud-native PACS on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/building-cloud-native-pacs-on-aws/",
+      "publishedAt": "2026-09-17T15:21:06Z",
+      "summary": "Modernizing medical imaging infrastructure is a pressing challenge for multi-hospital networks. Cloud-native PACS (Picture Archiving and Communication System) on AWS can help address the challenge at scale. A hospital chain with multiple facilities generates millions of imaging studies annually: each CT produces 300 to 2,000 DICOM images, MRI generates 500 to 3,000 slices, and digital mammography ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/15/ARCHBLOG-1613-1.png"
+    },
+    {
+      "id": "39ecefc9ea55df6f4f13",
+      "title": "How DHI Group accelerates generative AI workloads from idea to production using hackathons",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-dhi-group-accelerates-generative-ai-workloads-from-idea-to-production-using-hackathons/",
+      "publishedAt": "2026-09-17T15:13:42Z",
+      "summary": "With the advent of generative AI, organizations across industries face a common challenge: how do you move from the experimentation and ideation phase to production-ready workloads quickly and confidently? Many teams get stuck in a cycle of proofs of concept that never ship. DHI Group , a leader in talent acquisition services, was evaluating options to accelerate its generative AI adoption in an e",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/18/ARCHBLOG-1540-1.png"
+    },
+    {
+      "id": "0c1e7e91102ce20bb3c7",
+      "title": "The AI magic words",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/17/the-ai-magic-words/",
+      "publishedAt": "2026-09-17T07:40:00Z",
+      "summary": "Ryan sits down with Tim O'Reilly, founder and CEO at O'Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of \"magic words\" to extract better outputs from AI, and why human taste is becoming highly valuable as knowledge becomes a commodity.",
+      "imageURL": null
+    },
+    {
+      "id": "a1fbb11723ca6f2ec4bd",
+      "title": "SaaS platforms are surging despite the SaaSpocalypse",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse",
+      "publishedAt": "2026-09-17T00:00:00Z",
+      "summary": "The SaaSpocalypse was a useful warning for the software industry, but SaaS platforms that help businesses run core operations are more deeply embedded. New platform businesses on Stripe are up 182% year over year.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/4eii8vuv5rIus0HNvlMEs6/1f5a15bc4f8dca9c66bec691f507befb/Specs__1250x1250px_with_100_padding_2x.png"
+    },
+    {
       "id": "896933b41785afa3ba4c",
       "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
       "sourceName": "Cloudflare Blog",
@@ -1144,33 +1198,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/03/ARCHBLOG-1453-1.png"
     },
     {
-      "id": "1bbfb9a74ee14364b370",
-      "title": "Recovery strategies to meet data residency requirements",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/recovery-strategies-to-meet-data-residency-requirements/",
-      "publishedAt": "2026-08-13T14:05:39Z",
-      "summary": "Data residency requirements can affect how government agencies, regulated industries such as financial services, healthcare, and power and utilities, and businesses that make residency commitments plan for the recovery of their critical workloads on AWS. These requirements must be considered and balanced against applicable workload recovery objectives. This post assumes familiarity with AWS Region",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/12/ARCHBLOG-1530-1.png"
-    },
-    {
-      "id": "adf9de127627a3acabf6",
-      "title": "Reducing Text2SQL latency with parameterized query templates",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/reducing-text2sql-latency-with-parameterized-query-templates/",
-      "publishedAt": "2026-08-13T00:40:32Z",
-      "summary": "If your Text2SQL system takes 25-30 seconds to respond, user engagement drops significantly. For teams scaling beyond pilot projects, this latency gap between a working demo and a production-ready tool is the biggest barrier to adoption. Without caching, every question triggers a Large Language Model (LLM) call to generate SQL, and those calls introduce challenges: unpredictable response times, th",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/03/ARCHBLOG-1363-1.png"
-    },
-    {
-      "id": "99406f7e06865f92d9a6",
-      "title": "Adobe Firefly: Simplified observability with Amazon Managed Prometheus",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/adobe-firefly-simplified-observability-with-amazon-managed-prometheus/",
-      "publishedAt": "2026-08-13T00:14:19Z",
-      "summary": "Adobe has used Amazon Web Services (AWS) since 2008. Adobe Firefly powers creative features across applications including Photoshop and Illustrator. Adobe operates a GPU-based training infrastructure built on Amazon Elastic Kubernetes Service (Amazon EKS) to support Firefly. The infrastructure enables teams to run model training jobs across thousands of compute nodes and GPUs, designed to scale wi",
-      "imageURL": null
-    },
-    {
       "id": "40dee06a64a646d4944e",
       "title": "Flexible Authentication: Reimagining authentication for millions of users at Airbnb",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -1387,15 +1414,6 @@
       "imageURL": "https://static.pingcap.com/files/2026/08/05054720/image-1-1024x492.png"
     },
     {
-      "id": "1936240a6be64688943c",
-      "title": "Your MVP doesn’t need a Kubernetes cluster",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/04/your-mvp-doesn-t-need-a-kubernetes-cluster/",
-      "publishedAt": "2026-08-04T07:40:00Z",
-      "summary": "Ryan welcomes Anurag Goel, CEO and co-founder of Render, to discuss why most startups shouldn’t start by managing their Kubernetes and cloud infrastructure.",
-      "imageURL": null
-    },
-    {
       "id": "06a431262d2fcd680f4c",
       "title": "Squircles, Styles, and Spacing: How Your Feedback is Helping Improve Mobile",
       "sourceName": "Discord Blog",
@@ -1555,7 +1573,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-cat.webp"
+      "imageURL": "/static/images/cta-rabbit.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-07-08T21:11:56Z",
       "summary": "“Where are the docs?” It’s a question nobody on a product team enjoys answering. The honest reply is usually some variant of “behind.” A writer is staring at a closed pull request, trying to reverse-engineer what changed. The pull request’s author has already moved on. By the time the doc actually publishes, the feature has shipped, sometimes more than once. That used to be us on the Aspire team (",
       "imageURL": "https://github.blog/wp-content/uploads/2026/07/diagram.png?resize=1024%2C355"
-    },
-    {
-      "id": "f52a3dc504073d1ded7b",
-      "title": "Announcing etcd v3.7.0",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/",
-      "publishedAt": "2026-07-08T12:00:00Z",
-      "summary": "This article is a mirror of the original announcement Today, SIG etcd is releasing etcd v3.7.0 , the latest minor release of the popular distributed key-value store and core Kubernetes component. v3.7 ships the long-requested RangeStream feature, delivers several other performance improvements, removes the last remnants of the legacy v2store, and completes a major protobuf overhaul. You can downlo",
-      "imageURL": null
-    },
-    {
-      "id": "2e7f6df5a6016557451a",
-      "title": "Mutation testing comes to DAML",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/07/08/mutation-testing-comes-to-daml/",
-      "publishedAt": "2026-07-08T11:00:00Z",
-      "summary": "In April we released Mewt , our open-source mutation-testing engine that finds the gaps in your test suite. Today we’re expanding it with support for DAML, the language Canton Network applications are written in. Mewt now reads DAML, generates several classes of mutants (including two built for DAML’s authorization primitives), and runs them through your existing test suite to count how many mutan",
-      "imageURL": null
     }
   ]
 }
