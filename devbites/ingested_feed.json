@@ -1,6 +1,69 @@
 {
   "articles": [
     {
+      "id": "a98c9c62990d90298a7d",
+      "title": "ReadyOn’s Four Walls of tenant isolation on Amazon EKS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/readyons-four-walls-of-tenant-isolation-on-amazon-eks/",
+      "publishedAt": "2026-09-18T21:33:13Z",
+      "summary": "ReadyOn , an AWS Partner delivering an intelligent Labor Orchestration Platform for Fortune 100 enterprises, runs a multi-tenant platform on Amazon Elastic Kubernetes Service (Amazon EKS) that handles some of the most sensitive data in enterprise IT. Kubernetes is central to that platform, and it is also one of the most complex surfaces to secure. A default Kubernetes deployment is not secure out ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/10/ARCHBLOG-1562-1.png"
+    },
+    {
+      "id": "eb5e0e2da34b5b551554",
+      "title": "Saving another 100TB of RAM with math (and Rust)",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+      "publishedAt": "2026-09-18T17:23:58Z",
+      "summary": "Cloudflare operates at a scale so big that even after working here for years, it doesn’t seem real. We have thousands of servers all over the world with petabytes of RAM and millions of CPU cores, and all of it is pushed to the max. As vast as those resources feel, they are still finite, and when you need every service to run on every node, it doesn’t leave room for wasted space. At this scale, sm",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2PFYDRYA8R4X8XVQJYTED8Q.01M2PFYEWJNSK872MVT1JSCHA4.png"
+    },
+    {
+      "id": "d32dd346f436124a3290",
+      "title": "Leave the Class Path in the Rearview Mirror",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/67a85b15b6be",
+      "publishedAt": "2026-09-18T16:01:02Z",
+      "summary": "Introducing composable, module system native and agent friendly command line tools for modern Java development By Danny Thomas, JVM Ecosystem Team Recent work on the Java language to pave the on-ramp has made it easier than ever to start a Java program and evolve it using the full language and platform. At the end of that on-ramp lies Java’s mature build and dependency management ecosystem, capabl",
+      "imageURL": "https://cdn-images-1.medium.com/max/848/1*AkQlaHO9bwLf_dNp-Z2HZQ.png"
+    },
+    {
+      "id": "95a1bb7cfa50049c9d2a",
+      "title": "How CSIRO built scalable, cost-optimized genomic variant querying on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-csiro-built-scalable-cost-optimized-genomic-variant-querying-on-aws/",
+      "publishedAt": "2026-09-18T14:35:42Z",
+      "summary": "This is a guest post by Denis Bauer, Yatish Jain, Anuradha Wickramarachchi, Brendan Hosking, and Nick Edwards of CSIRO, in collaboration with the ASP Prototyping and Scaling Team at AWS. In this post, we describe how researchers at CSIRO , Australia’s national science agency, built Serverless Beacon (sBeacon), a scalable serverless solution for securely querying genomic variant data on AWS, underp",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/09/Figure-1-Data-Onboarding.png"
+    },
+    {
+      "id": "feaa3943a96e3b2be7f4",
+      "title": "Knowing When Your Composite Index Earns Its Write Cost",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/knowing-when-composite-index-earns-write-cost",
+      "publishedAt": "2026-09-18T12:49:15Z",
+      "summary": "Every insert pays for an index , but only the queries that use the index benefit. That gap is what makes an index a decision instead of a default. The index in this guide changed a dashboard query from a full table scan to a seek, and charged every insert to do it. Which side wins depends on how often that query runs and how much ingest headroom you have. By the end of this guide you'll know which",
+      "imageURL": null
+    },
+    {
+      "id": "827736ff96e4a03685ea",
+      "title": "Auditing in the age of (good enough) AI",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
+      "publishedAt": "2026-09-18T11:00:00Z",
+      "summary": "Security firms have published numerous blog posts describing how they pointed their agent harness at a codebase and found dozens of bugs ( we’re one of them ). However, these posts tend to focus on agentic code review, which is just one aspect of how we use AI in our security reviews. We want to give a different perspective: before code review even starts, agents now allow us to build custom tooli",
+      "imageURL": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/auditing-ai-figure-1_hu_e9e13470729ab3cb.webp"
+    },
+    {
+      "id": "4769673330592cdc4509",
+      "title": "Analyzing rising fraud attempts among travel and leisure businesses on Stripe",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe",
+      "publishedAt": "2026-09-18T00:00:00Z",
+      "summary": "Last year, Stripe data shows fraud attempts against travel and leisure businesses hit a four-year high. We analyzed payment activity from more than 200,000 active travel and leisure businesses on Stripe to understand where fraud is rising, how effectively it’s being blocked, and what businesses can do in response.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/msOow88CKXXHqlWSzckzs/a05f46fcd58edc95d1fa9cdb0ac7b052/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_2x__2_.png"
+    },
+    {
       "id": "f0e304ce8e51a96b70a3",
       "title": "How Equinix cut operational overhead with a shared services architecture on Amazon EKS",
       "sourceName": "AWS Architecture Blog",
@@ -17,6 +80,15 @@
       "publishedAt": "2026-09-17T17:01:02Z",
       "summary": "How two new Chronon capabilities, Push Mode and NRT Model Transform, allows us to provide more relevant search results instantly as a guest explores, rather than waiting for the next batch run. By : Pengyu Hou , Yuli Han , Daochen Zha , Haozhen Ding , Xin Liu , Sophie Wang , Pallavi Adusumilli , Sherry Li , Henry Saputra , Chun How Tan , Huiji Gao , Yan Zhang , Stephanie Moyerman , Yi Li , and San",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*PB9ohGH_82OBz6yYLkqPWQ.jpeg"
+    },
+    {
+      "id": "93f43ab0d0aaabb13ab5",
+      "title": "Why Your AI Agent Doesn’t Actually Remember Anything",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34990",
+      "publishedAt": "2026-09-17T16:14:23Z",
+      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways Persistence is the easy part. Selection, compression, decay, and contamination prevention are where agents break. Idempotency and state machines keep actions correct; they don’t give an agent a sense of history. Key-value stores can’t answer episo",
+      "imageURL": null
     },
     {
       "id": "09cc91ab0784625bcefd",
@@ -71,15 +143,6 @@
       "publishedAt": "2026-09-16T18:30:00Z",
       "summary": "Kubernetes v1.37 brings important storage security features: emptyDir permission modes and bind mount options. They help application programmers and security professionals implement rigorous security policies, for example, prohibiting deletion of files across containers or execution of arbitrary binaries from writable volumes, directly in Kubernetes without any complicated circumvention. Linux sto",
       "imageURL": null
-    },
-    {
-      "id": "f6cd5feed3fc3f340ca9",
-      "title": "How Meshtastic Metrics Exporter Turned Eight Prometheus Queries Into One with Tiger Data",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/meshtastic-metrics-exporter-case-study-tiger-data",
-      "publishedAt": "2026-09-16T12:44:25Z",
-      "summary": "An open source monitoring tool for the Meshtastic mesh radio community moved off Prometheus, where 10,000 nodes meant half a million metric series, and put node data and telemetry history on a single Postgres database with TimescaleDB. This is an installment of our “Community Member Spotlight” series, in which we invite our customers to share their work, spotlight their success, and inspire others",
-      "imageURL": "https://assets.tigerdata.com/blog/2026/09/meshtastic.svg"
     },
     {
       "id": "cc3551627c11d53b9d23",
@@ -178,6 +241,15 @@
       "url": "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/",
       "publishedAt": "2026-09-14T18:30:00Z",
       "summary": "Memory QoS has graduated to Beta in Kubernetes v1.37 and is now enabled by default. On Linux nodes running cgroup v2, the feature uses the memory controller to give the kernel better guidance on how to treat container memory. It was first introduced as Alpha in v1.22, and expanded in v1.36 with tiered memory reservation. This post covers what changed in v1.37, what the Beta promotion means for clu",
+      "imageURL": null
+    },
+    {
+      "id": "1a42daa679a82e78664b",
+      "title": "AI Coding Agent Files Explained: How Persistent Workspaces Survive Resets",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=34975",
+      "publishedAt": "2026-09-14T14:57:17Z",
+      "summary": "Key Takeaways AI coding agent files are the repos, configs, logs, patches, and artifacts an agent writes while working, not just its final output. Ephemeral sandboxes tie the file layer to compute, so a timeout or crash erases hours of agent work with no warning. Persistent filesystems decouple storage from the sandbox lifecycle, which lets a second runtime reopen the same workspace. No persistenc",
       "imageURL": null
     },
     {
@@ -314,6 +386,15 @@
       "publishedAt": "2026-09-09T11:00:00Z",
       "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem , but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat’s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug , shown below, t",
       "imageURL": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/proof-fermat-image_hu_f4c2a5f3789324fb.webp"
+    },
+    {
+      "id": "c4a9c8297eacf4a1decc",
+      "title": "Best Practices for AI-Assisted App Development: Reviewing AI-Generated Code for Production",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://en.pingcap.com/blog/best-practices-for-developing-applications-with-tidb/",
+      "publishedAt": "2026-09-09T07:00:00Z",
+      "summary": "Key Takeaways Treat AI-generated database code as a first draft. Assistants learn from single-node MySQL and Postgres, so their assumptions don’t all hold on distributed SQL. The dangerous failures are silent. Unsupported syntax errors loudly; a missing ORDER BY just returns plausible results that change between runs. Review schema, transactions, indexes, writes, and queries. Primary key types, ID",
+      "imageURL": "https://static.pingcap.com/files/2019/06/18071401/nested-transaction-timeline-outlined.png"
     },
     {
       "id": "51fc293282406d5c409c",
@@ -1153,15 +1234,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZW0HXCQS1KX2QJ1MD5YT1JP.png"
     },
     {
-      "id": "c0352c4d1bb93d78c5b0",
-      "title": "Serverless vehicle tracking at scale: Bosch L.OS on AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/serverless-vehicle-tracking-at-scale-bosch-l-os-on-aws/",
-      "publishedAt": "2026-08-14T10:02:13Z",
-      "summary": "When Bosch Mobility Platform Solutions set out to unify vehicle tracking across India’s fragmented spot logistics market, they faced a daunting reality: dozens of telematics providers, incompatible data formats, and thousands of concurrent tracking requests — all needing real-time resolution. The result was L.OS, a serverless platform on AWS that standardizes this chaos into a single visibility la",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/13/ARCHBLOG-1243-1.png"
-    },
-    {
       "id": "8cd1240ab3157e8e6a05",
       "title": "Solving integration woes with a hackathon",
       "sourceName": "Stack Overflow Blog",
@@ -1178,24 +1250,6 @@
       "publishedAt": "2026-08-14T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
-    },
-    {
-      "id": "d99f99b648a3f4615195",
-      "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
-      "publishedAt": "2026-08-13T19:58:01Z",
-      "summary": "At a time when looking down at our devices is a ritual in daily life, a natural phenomenon that demands our attention communally upward is a welcome event. On Wednesday, August 12, a total solar eclipse swept from the North Atlantic across Europe, moving over Iceland and northern Spain and Portugal, with a deep partial eclipse over the rest of Western Europe, all near local sunset. This was the fi",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZY9E03GZQKFZPVFDA5EKNGP.png"
-    },
-    {
-      "id": "809199b008ecf346b8f9",
-      "title": "Track generative AI costs with Amazon Bedrock inference profiles",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/track-generative-ai-costs-with-amazon-bedrock-inference-profiles/",
-      "publishedAt": "2026-08-13T15:59:39Z",
-      "summary": "Tracking generative AI costs is a common challenge when multiple teams share a single foundation model through Amazon Bedrock . Your HR team answers policy questions, Accounting analyzes financial documents with it, and IT troubleshoots infrastructure issues. All three use the same foundation model. But usage shows up as one line item on the bill. As a result, finance can’t charge back each depart",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/03/ARCHBLOG-1453-1.png"
     },
     {
       "id": "40dee06a64a646d4944e",
@@ -1324,15 +1378,6 @@
       "imageURL": null
     },
     {
-      "id": "57e413ecc4b37f07c84b",
-      "title": "Why Attend TiDB SCaiLE 2026: Same Complexity, Different Clock Speeds",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34542",
-      "publishedAt": "2026-08-06T20:04:58Z",
-      "summary": "Key Takeaways TiDB SCaiLE 2026 runs October 15 at the Computer History Museum in Mountain View, CA, as a single-day program. The agenda splits into two tracks, AI-Native: Infinite Agents and Enterprise: Infinite Data, that sit on the same data foundation so sessions connect rather than compete. Sessions are practitioner-led and selected for real numbers and real tradeoffs, including talks from tea",
-      "imageURL": null
-    },
-    {
       "id": "2d4477469ef41d8d75cc",
       "title": "Discord Patch Notes: August 4, 2026",
       "sourceName": "Discord Blog",
@@ -1358,15 +1403,6 @@
       "publishedAt": "2026-08-05T19:20:20Z",
       "summary": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequence learning for ads recommendations , we showed how modeling the order and timing of user actions ( rather than relying on static, manually engineered sparse features) produces r",
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/05/Multi-stage-Model-Overview.png"
-    },
-    {
-      "id": "53477e3a33a5cb157dd7",
-      "title": "Open Source Data Layers Will Win the AI Future",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34513",
-      "publishedAt": "2026-08-05T19:20:17Z",
-      "summary": "Key Takeaways AI changed the cost of rewriting application code, not the cost of moving durable state. The data layer is where control actually persists. A closed data platform makes your roadmap, pricing, and deployment options someone else’s decision, and the deeper the integration, the harder that is to reverse. Open source is not only protection from lock-in. It is a place to build advantage. ",
-      "imageURL": "https://static.pingcap.com/files/2026/08/06115331/image-2-1024x512.png"
     },
     {
       "id": "1f606ef577cecfb83f27",
@@ -1403,15 +1439,6 @@
       "publishedAt": "2026-08-04T16:47:18Z",
       "summary": "Think about the last big feature you shipped. Be honest. Did you cram it into one giant pull request, or did you split it into smaller scoped pull requests? For years, you have silently had to decide between watching a pull request grow so large that reviewing it becomes a nightmare or breaking it into a chain of smaller pull requests that you have to babysit, sync by hand, and untangle conflicts ",
       "imageURL": "https://github.blog/wp-content/uploads/2026/08/pr-size-counter.gif?resize=1024%2C260"
-    },
-    {
-      "id": "0170038b020c2a1c428e",
-      "title": "Migrating Real-Time Data into TiDB with Debezium CDC",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34481",
-      "publishedAt": "2026-08-04T13:00:17Z",
-      "summary": "Key Takeaways Use TiDB DM for MySQL-only moves. Reach for Debezium and Kafka when the source is not MySQL, or you need a reusable change stream. One pipeline, any source. Debezium captures from MySQL, PostgreSQL, Oracle, and seven other databases; only the source connector changes. No proprietary drivers. TiDB speaks the MySQL protocol, so the Debezium JDBC sink writes over a standard jdbc:mysql:/",
-      "imageURL": "https://static.pingcap.com/files/2026/08/05054720/image-1-1024x492.png"
     },
     {
       "id": "06a431262d2fcd680f4c",
@@ -1573,7 +1600,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-rabbit.webp"
+      "imageURL": "/static/images/cta-dog.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-07-13T11:00:00Z",
       "summary": "We’ve added a new chapter to our Testing Handbook : a comprehensive guide to security testing Rust programs. This chapter covers the tools and techniques we use at Trail of Bits to validate the security of Rust programs and systems. fn main () {( | f: & dyn Fn ( u128 )-> Box dyn Iterator Item = char >+ 'static >| f( * [ & ( 0x7B736D70683F73 u128 64 | 0x7A6A6D7C3F7A667D ), & ( 0x7B736D u128 64 | 0x",
       "imageURL": null
-    },
-    {
-      "id": "95281e788c2686b279f7",
-      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=97467",
-      "publishedAt": "2026-07-10T15:57:47Z",
-      "summary": "Give an agent better tools and it should do better work. That’s the instinct, anyway. When you open a pull request, Copilot code review reads the diff and explores the surrounding code to find the problems that matter before they ship. To do that, it used its own code exploration tools. So when we swapped in the better-maintained, shared tools that power the Copilot CLI, grep , glob , and view , w",
-      "imageURL": "https://github.blog/wp-content/uploads/2026/07/1.png?resize=1024%2C478"
-    },
-    {
-      "id": "dceca3e34a7603820650",
-      "title": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding…",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/5c5643c192d9",
-      "publishedAt": "2026-07-09T22:01:15Z",
-      "summary": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding Project Written by Sagar Baronia at Lyft. A Different Kind of Day One Most onboarding journeys follow a familiar arc: orientation sessions, benefits enrollment, setting up your laptop, and gradually finding your footing over the first few weeks. Mine followed that arc too, but with an additional thread",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*eJIjiV1qsbDNRc_uYHopWw.jpeg"
-    },
-    {
-      "id": "256da1ab2b010eca81bf",
-      "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=97282",
-      "publishedAt": "2026-07-08T21:11:56Z",
-      "summary": "“Where are the docs?” It’s a question nobody on a product team enjoys answering. The honest reply is usually some variant of “behind.” A writer is staring at a closed pull request, trying to reverse-engineer what changed. The pull request’s author has already moved on. By the time the doc actually publishes, the feature has shipped, sometimes more than once. That used to be us on the Aspire team (",
-      "imageURL": "https://github.blog/wp-content/uploads/2026/07/diagram.png?resize=1024%2C355"
     }
   ]
 }
