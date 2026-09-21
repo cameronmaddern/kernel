@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "70c51613decebaa48530",
+      "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24485",
+      "publishedAt": "2026-09-21T12:00:00Z",
+      "summary": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over approximately 7,000 km (4,300 mi). Expected to enter service in 2029, it will be the first subsea cable system to deploy multi-core fiber technology at scale, doubling the capacity per fiber without a proportional incre",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/09/Meta-Petal-map.gif"
+    },
+    {
+      "id": "070eb6728548fcc67835",
+      "title": "SAML: A fractal of bad design",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+      "publishedAt": "2026-09-21T11:00:00Z",
+      "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it’s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoning sin",
+      "imageURL": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/saml-a-fractal-of-bad-design-image-1.svg"
+    },
+    {
       "id": "a98c9c62990d90298a7d",
       "title": "ReadyOn’s Four Walls of tenant isolation on Amazon EKS",
       "sourceName": "AWS Architecture Blog",
@@ -726,7 +744,7 @@
       "sourceName": "Kubernetes Blog",
       "url": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
       "publishedAt": "2026-08-28T18:30:00Z",
-      "summary": "Pod Certificate / Cluster Trust Bundles Blog Post Kubernetes brings a wealth of features that make it easy to run your production workloads securely and reliably. While aspects like scheduling, health checks and resource limits are probably at the front of your mind, one other important feature of Kubernetes is production identity — how your workload can authenticate to other systems in order to d",
+      "summary": "Kubernetes brings a wealth of features that make it easy to run your production workloads securely and reliably. While aspects like scheduling, health checks and resource limits are probably at the front of your mind, one other important feature of Kubernetes is production identity — how your workload can authenticate to other systems in order to do its job. Up until now, the primary production id",
       "imageURL": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/pod-certificates-architecture.svg"
     },
     {
@@ -1774,30 +1792,12 @@
       "imageURL": "./create-highlight.png"
     },
     {
-      "id": "3254cf0d8d0d66b6d3ca",
-      "title": "Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24221",
-      "publishedAt": "2026-07-13T16:00:50Z",
-      "summary": "TL; DR At Meta’s scale, a few milliseconds of latency degradation can have a significant negative impact on ads performance. When a Linux kernel upgrade risked regressing latency across Meta’s ad serving fleet, we turned to sched_ext — the upstream, BPF-based extensible scheduling framework — to build a scheduling policy customized to the Ads delivery workload. The result: a 28% reduction in ads r",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/07/image1.webp"
-    },
-    {
       "id": "da25033d2414d81ff07c",
       "title": "Control the ideas, not the code",
       "sourceName": "Salvatore Sanfilippo (antirez)",
       "url": "http://antirez.com/news/169",
       "publishedAt": "2026-07-13T11:39:52Z",
       "summary": "Look at the past history of this blog. There are many blog posts about programming with AI, a few of them date back to January 2024 (like this: https://antirez.com/news/140). I’m a relatively well regarded programmer, after all. I don’t have the need to still be in the “loop” as a old man that seeks for relevance, I recently rejoined Redis, and now I also am developing a new open source software f",
-      "imageURL": null
-    },
-    {
-      "id": "9e70eb758c0f9285e925",
-      "title": "Rust-proof your code with our new Testing Handbook chapter",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/",
-      "publishedAt": "2026-07-13T11:00:00Z",
-      "summary": "We’ve added a new chapter to our Testing Handbook : a comprehensive guide to security testing Rust programs. This chapter covers the tools and techniques we use at Trail of Bits to validate the security of Rust programs and systems. fn main () {( | f: & dyn Fn ( u128 )-> Box dyn Iterator Item = char >+ 'static >| f( * [ & ( 0x7B736D70683F73 u128 64 | 0x7A6A6D7C3F7A667D ), & ( 0x7B736D u128 64 | 0x",
       "imageURL": null
     }
   ]
