@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "03fcbb2e3fc181ffc8b1",
+      "title": "Haters think AI agents can't write GPU code? This'll ROCm",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/22/haters-think-ai-can-t-gpu-code-this-ll-rocm/",
+      "publishedAt": "2026-09-22T07:40:00Z",
+      "summary": "Ryan chats with Anush Elangovan, VP of Software at AMD, about ROCm's open-source unified toolchain for GPUs, how agentic AI is drastically lowering the barrier to entry for low-level hardware programming, and the rapid convergence of software and hardware development timelines.",
+      "imageURL": null
+    },
+    {
+      "id": "f61f6fb736b0fd7bb27f",
+      "title": "AI Agent State Explained",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=35025",
+      "publishedAt": "2026-09-21T21:35:41Z",
+      "summary": "Key Takeaways AI agent state is the durable record of memory, task progress, and context that lets an agent survive restarts, retries, and multi-step work. 57% of organizations have agents running in production as of 2026, and output quality is the top blocker to scaling them further, ahead of cost. Memory is one piece of agent state. Task checkpoints, tool outputs, and transaction history matter ",
+      "imageURL": null
+    },
+    {
+      "id": "206c285589f14136ad72",
+      "title": "Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/",
+      "publishedAt": "2026-09-21T18:30:00Z",
+      "summary": "Kubernetes v1.37 promotes the PersistentVolumeClaimUnusedSinceTime feature gate to Beta (enabled by default). With this feature, the PersistentVolumeClaim (PVC) protection controller adds an Unused condition to each PVC, telling you whether any running pod currently references it — no custom tooling or cross-referencing required. For the API definition of PVC conditions, see the PersistentVolumeCl",
+      "imageURL": null
+    },
+    {
+      "id": "60571de9edb0ea709b4f",
+      "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24447",
+      "publishedAt": "2026-09-21T16:00:37Z",
+      "summary": "We’re open-sourcing Rebalancer , the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solve it, and how to debug it. This separation of concerns is crucial to Rebalancer’s usability, scalability, an",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/09/Rebalancer-Meta-Image-1.png"
+    },
+    {
+      "id": "03823605fd83df81c520",
+      "title": "Introducing Our New Dropbox API Documentation",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/developers/new-dropbox-api-documentation",
+      "publishedAt": "2026-09-21T14:30:00Z",
+      "summary": "We're excited to announce that our modernized Dropbox API documentation is now live at https://docs.dropboxapi.com . We've rebuilt our API reference to make integrating with Dropbox faster and more intuitive. What's New Interactive API Testing Test endpoints directly in the documentation. No more switching between docs and separate testing tools. You can set parameters, issue API calls, and see re",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/developers/Developers-1-1440x305px-light.png"
+    },
+    {
+      "id": "f07239c5823ee40ec1a0",
+      "title": "Python Workers are now generally available",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "publishedAt": "2026-09-21T13:00:00Z",
+      "summary": "We introduced Python Workers two years ago, providing a way to run Python applications in the Cloudflare Workers runtime. Our goal was to make it as simple to write Workers in Python as it is in TypeScript, and to make the ecosystem of Python packages and frameworks “just work”. Today, Python Workers are now generally available (GA). What does GA mean? It means Python is now a first-class, fully s",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2V34BA05P39V3QCVSXF412X.01M2V34C4FZEN00M4XFVXH4W2K.png"
+    },
+    {
       "id": "70c51613decebaa48530",
       "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
       "sourceName": "Meta Engineering",
@@ -163,6 +217,15 @@
       "imageURL": null
     },
     {
+      "id": "c7c29c6996d60d694cc0",
+      "title": "From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/16/here-s-what-s-new-on-stack-overflow-for-agents/",
+      "publishedAt": "2026-09-16T17:00:00Z",
+      "summary": "We've learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Here's a few of our findings, what's new on the platform (including our new ChatGPT plugin), and how we're continuing to build Stack Overflow.",
+      "imageURL": null
+    },
+    {
       "id": "cc3551627c11d53b9d23",
       "title": "Adding the Discord Updates YOU Want to See",
       "sourceName": "Discord Blog",
@@ -188,15 +251,6 @@
       "publishedAt": "2026-09-15T17:06:18Z",
       "summary": "How Airbnb’s agent harness transforms unstructured data exploration by encoding scientific methodology into scalable, reproducible, and audit-ready infrastructure. By : Wren Dougherty Ask a coding agent to analyze 100,000 customer support conversations and within minutes you’ll have a polished taxonomy, precise prevalence numbers, and an executive-ready summary. What you can’t see is the investiga",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*rruMfjz5gfGgOaeF3crcJQ.jpeg"
-    },
-    {
-      "id": "1d29136e1ab794d2b63a",
-      "title": "From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/15/here-s-what-s-new-on-stack-overflow-for-agents/",
-      "publishedAt": "2026-09-15T17:00:00Z",
-      "summary": "We've learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Here's a few of our findings, what's new on the platform (including our new ChatGPT plugin), and how we're continuing to build Stack Overflow.",
-      "imageURL": null
     },
     {
       "id": "a7565059b22e4fb45443",
@@ -1243,15 +1297,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M005HG1H0K802B4Y17SX9NQ5.png"
     },
     {
-      "id": "99a5478b68b82d078b06",
-      "title": "Secure all your internal vibe-coded applications — in one click",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-protected-by-access/",
-      "publishedAt": "2026-08-14T13:00:00Z",
-      "summary": "AI has enabled employees across every team to build applications faster than ever before. But that speed is also what's keeping every CISO up at night: any employee can build an application, deploy it to the public Internet, and accidentally expose internal work or company data. Today, we're launching new tools to make it easy to keep your applications hosted on Workers private. You can now apply ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZW0HXCQS1KX2QJ1MD5YT1JP.png"
-    },
-    {
       "id": "8cd1240ab3157e8e6a05",
       "title": "Solving integration woes with a hackathon",
       "sourceName": "Stack Overflow Blog",
@@ -1378,15 +1423,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*X_O1wdMIVfm9upb2tLXD9A.png"
     },
     {
-      "id": "abd0b0795cbdeb87e376",
-      "title": "The Complete Agent State Stack: Memory, Files, and Serverless Database Persistence for AI Apps",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34561",
-      "publishedAt": "2026-08-07T13:00:00Z",
-      "summary": "Key Takeaways Serverless databases scale to zero and bill by usage, matching bursty agent traffic. AI apps need four persistence layers: memory, files, operational state, and retrieval data. Evaluate the engine, not the label. Connection behavior and cold starts matter most. Fragmented stacks accrete. One engine removes system boundaries and consistency bugs. A serverless database is a fully-manag",
-      "imageURL": null
-    },
-    {
       "id": "4e7185b25f352eacd815",
       "title": "How to be fearlessly AI native",
       "sourceName": "Stack Overflow Blog",
@@ -1429,15 +1465,6 @@
       "url": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
       "publishedAt": "2026-08-05T11:00:00Z",
       "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t",
-      "imageURL": null
-    },
-    {
-      "id": "1296f320c2e139405031",
-      "title": "Explorers, exploiters, and the myth of the 100x engineer",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/05/the-myth-of-the-100x-engineer/",
-      "publishedAt": "2026-08-05T07:40:00Z",
-      "summary": "The “find the special ones and promote their traits” approach isn’t the best or only way to drive AI adoption and productivity on an engineering team.",
       "imageURL": null
     },
     {
@@ -1729,15 +1756,6 @@
       "imageURL": null
     },
     {
-      "id": "e646e5eba5aa90b1fd80",
-      "title": "Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24251",
-      "publishedAt": "2026-07-15T17:00:52Z",
-      "summary": "Hierarchical Interest Representation is a research area for Meta Ads. We’re exploring an upstream representation layer over the universe of Ads entities – users, advertisers, products, services – learning unified embeddings that connect users’ inferred interests with the breadth of what advertisers offer in their deep funnel ads. The innovations in Hierarchical Interest Representation are an in-ho",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/07/image1.jpg"
-    },
-    {
       "id": "695b8d5359717af83252",
       "title": "Building a Custom Metrics Exporter for Kubernetes",
       "sourceName": "Kubernetes Blog",
@@ -1780,24 +1798,6 @@
       "url": "https://kubernetes.io/blog/2026/07/13/introducing-headlamp-plugin-for-kubeflow/",
       "publishedAt": "2026-07-13T20:00:00Z",
       "summary": "Kubernetes has quietly become the default platform for AI and machine learning. Whether you run notebook servers for data scientists, schedule distributed training jobs, tune hyperparameters, or orchestrate multi-step ML pipelines, those workloads increasingly land on a Kubernetes cluster. Kubeflow is one of the most popular ways to assemble that stack, and it does so the Kubernetes-native way: ev",
-      "imageURL": null
-    },
-    {
-      "id": "839722f95294e987914d",
-      "title": "Kubernetes Dashboard to Headlamp: A Step-by-Step Guide",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp/",
-      "publishedAt": "2026-07-13T18:00:00Z",
-      "summary": "1. Before you start: know what is changing Kubernetes Dashboard and Headlamp both show what is running in a cluster, but they work differently. When Headlamp runs on the desktop, it uses your existing kubeconfig to connect to one or more clusters and can be extended with plugins. When Headlamp runs inside a cluster, it uses a Kubernetes ServiceAccount to access the API and follow RBAC rules. Kuber",
-      "imageURL": "./create-highlight.png"
-    },
-    {
-      "id": "da25033d2414d81ff07c",
-      "title": "Control the ideas, not the code",
-      "sourceName": "Salvatore Sanfilippo (antirez)",
-      "url": "http://antirez.com/news/169",
-      "publishedAt": "2026-07-13T11:39:52Z",
-      "summary": "Look at the past history of this blog. There are many blog posts about programming with AI, a few of them date back to January 2024 (like this: https://antirez.com/news/140). I’m a relatively well regarded programmer, after all. I don’t have the need to still be in the “loop” as a old man that seeks for relevance, I recently rejoined Redis, and now I also am developing a new open source software f",
       "imageURL": null
     }
   ]
