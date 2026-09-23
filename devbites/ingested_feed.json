@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "875978a4e34766131073",
+      "title": "What Dropbox has learned from deploying AI at company scale",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale",
+      "publishedAt": "2026-09-23T07:00:00Z",
+      "summary": "As AI becomes a starting point for more kinds of work, its usefulness depends on access to an organization’s trusted knowledge and context, including the files, research, feedback, decisions, and project history that give the work meaning. Dropbox helps people bring that context into the supported AI tools they choose while preserving the permissions and controls they expect, so they can spend les",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/september/ali-and-uma-interview/Culture-AliDasdan-StateofAITooling-1440x305-light.png"
+    },
+    {
+      "id": "dcfefdd655f2951e9d2c",
+      "title": "Multiplayer AI: Why your team (and its agents) need a group chat",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/23/multiplayer-ai-why-your-team-and-its-agents-need-a-group-chat/",
+      "publishedAt": "2026-09-23T04:40:00Z",
+      "summary": "Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels feature is bringing multiplayer AI to your team chats.",
+      "imageURL": null
+    },
+    {
+      "id": "ad7c514d2355adee8140",
+      "title": "Spotlight on SIG Apps",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/",
+      "publishedAt": "2026-09-22T18:00:00Z",
+      "summary": "As Kubernetes adoption has grown, the conversation has shifted beyond running containers to managing increasingly complex application lifecycles. Modern platforms support stateless web services, stateful databases, batch processing, AI workloads, and platform services. At the same time, they must remain reliable during upgrades, scaling events, and infrastructure failures. Every Kubernetes user re",
+      "imageURL": null
+    },
+    {
+      "id": "4ce3bf67e4ecb4cc512a",
+      "title": "Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=93953",
+      "publishedAt": "2026-09-22T15:06:15Z",
+      "summary": "As teams put AI agents to work, they need to move quickly without losing control of what they deploy. They’re combining models, tools, and infrastructure from across a fast-changing ecosystem. Making those pieces work together and keeping them accountable as the stack evolves is becoming a core part of building AI applications. Docker’s approach to this challenge is providing a trusted, common fou",
+      "imageURL": null
+    },
+    {
+      "id": "6a96baabbc49e6fb46c8",
+      "title": "We just shipped support for the ugliest part of HTTP: Vary",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/vary-support/",
+      "publishedAt": "2026-09-22T14:04:31Z",
+      "summary": "The response header, Vary , has been called “ the ugliest part of HTTP that we haven't yet improved. ” The same post describes it as a “horrible, kludgy mechanism” with “pretty abysmal interoperability” across intermediaries. That is usually where sensible engineers back away slowly with their hands raised. That’s not exactly an endorsement of Vary , but ugly doesn’t mean useless. One URL can have",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2RH1BWX8086HXJT21CBD9PE.01M2RH1CGYTGNVA73ZP6Z4GJBR.png"
+    },
+    {
+      "id": "ab302bb0477e2ce3e097",
+      "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/worker-previews/",
+      "publishedAt": "2026-09-22T13:00:00Z",
+      "summary": "Nothing is worse than testing out a change that works in staging, only to see it behave differently in production. That’s why we wanted to give you an environment that’s as close to production as possible — so you can battle-test your changes and make sure they behave exactly as you expect them to. Agents are helping us push more lines of code than ever before, and larger changes mean more ground ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M31XD8PJ2SDSWTWFPP0GSF3Z.01M31XD9GVMHJJD2RAVT50XFTF.png"
+    },
+    {
       "id": "03fcbb2e3fc181ffc8b1",
       "title": "Haters think AI agents can't write GPU code? This'll ROCm",
       "sourceName": "Stack Overflow Blog",
@@ -8,6 +62,24 @@
       "publishedAt": "2026-09-22T07:40:00Z",
       "summary": "Ryan chats with Anush Elangovan, VP of Software at AMD, about ROCm's open-source unified toolchain for GPUs, how agentic AI is drastically lowering the barrier to entry for low-level hardware programming, and the rapid convergence of software and hardware development timelines.",
       "imageURL": null
+    },
+    {
+      "id": "e111be34e51f880291c3",
+      "title": "New trends in global card fraud: How 3D Secure and regional mandates are affecting risk",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk",
+      "publishedAt": "2026-09-22T00:00:00Z",
+      "summary": "We analyzed billions of transactions on Stripe from January 2022 to March 2026 to understand how card fraud patterns differ by region and country, what's driving those differences, and how businesses can respond.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/1Ttw18lQFBzxo2wuqd2XlA/bbac418ecc8be77df011264faeb15b0f/regional-index.jpg"
+    },
+    {
+      "id": "d698dba71ba70b11817b",
+      "title": "Safer for Teens, Same Discord for Adults",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/safer-for-teens-same-discord-for-adults",
+      "publishedAt": "2026-09-22T00:00:00Z",
+      "summary": "We’re launching a revamped, privacy-focused age assurance solution including methods that won’t require an ID or selfie. Here’s how it works.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67d0c4e0932bb59c7f6271e5_2024_10_DiscordBlog_UsingDiscord-1.png"
     },
     {
       "id": "f61f6fb736b0fd7bb27f",
@@ -38,11 +110,11 @@
     },
     {
       "id": "03823605fd83df81c520",
-      "title": "Introducing Our New Dropbox API Documentation",
+      "title": "Introducing our new Dropbox API documentation",
       "sourceName": "Dropbox Tech",
       "url": "https://dropbox.tech/developers/new-dropbox-api-documentation",
       "publishedAt": "2026-09-21T14:30:00Z",
-      "summary": "We're excited to announce that our modernized Dropbox API documentation is now live at https://docs.dropboxapi.com . We've rebuilt our API reference to make integrating with Dropbox faster and more intuitive. What's New Interactive API Testing Test endpoints directly in the documentation. No more switching between docs and separate testing tools. You can set parameters, issue API calls, and see re",
+      "summary": "We're excited to announce that our modernized Dropbox API documentation is now live at https://docs.dropboxapi.com . We've rebuilt our API reference to make integrating with Dropbox faster and more intuitive. What’s new Interactive API testing Test endpoints directly in the documentation. No more switching between docs and separate testing tools. You can set parameters, issue API calls, and see re",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/developers/Developers-1-1440x305px-light.png"
     },
     {
@@ -1207,24 +1279,6 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/headers/Infrastructure-Improving efficiency and resource utilization across our infrastructure in the AI era-1440x305-light.png"
     },
     {
-      "id": "5e86ecac00b9168a89ef",
-      "title": "17,600 Actions: Agent Security Is a Systems Problem",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92915",
-      "publishedAt": "2026-08-18T16:00:00Z",
-      "summary": "Everyone has been talking about the OpenAI/Hugging Face incident, and I was initially skeptical that Docker had much to add. After several weeks of customer conversations, I think we do. The useful lesson is not that an AI agent escaped a sandbox. It is what 17,600 actions expose about security systems designed for human tempo. Hugging Face reconstructed approximately 17,600 attacker actions acros",
-      "imageURL": null
-    },
-    {
-      "id": "411d04f48fcfcf468f2c",
-      "title": "BGP Role model: tracking the adoption of RFC 9234",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-      "publishedAt": "2026-08-18T15:21:32Z",
-      "summary": "Route leaks push traffic down paths it was never meant to take. We have written and spoken publicly in the past about route leaks in Border Gateway Protocol (BGP) , depicting these events as impactful incidents that cause misdirection of traffic through unintended network paths. BGP routing is driven by the relationships between Autonomous Systems (ASes), i.e., customer-provider and peer-peer. Cus",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M0AP04HK7ZM02ZWP3G59W4DP.png"
-    },
-    {
       "id": "7ee5a110ae3284b06ae7",
       "title": "Consistency is the new latency: AI at the data layer",
       "sourceName": "AWS Architecture Blog",
@@ -1286,15 +1340,6 @@
       "publishedAt": "2026-08-14T18:00:00Z",
       "summary": "In this No Dumb Questions, Phoebe asks Stack’s Engineering Manager Doug Whitley and Product Manager Ash Zade everything she wants to know about AI context architecture. What exactly is it? Why is it so important? What makes for good AI context architecture? Why buy one when you can build your own?",
       "imageURL": null
-    },
-    {
-      "id": "0c3a166931d4b57e0989",
-      "title": "How Cloudflare detects MCP traffic and helps secure it",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/mcp-security-updates/",
-      "publishedAt": "2026-08-14T13:12:12Z",
-      "summary": "Most companies designed their resource permissions with a human user in mind. A senior engineer may be able to deploy to production, query a sensitive database, or revoke another user's access. Those privileges come with risk, but that risk has traditionally been bounded by two assumptions: the engineer will use human judgment, and the engineer can only act at human speed. An engineer who sees an ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M005HG1H0K802B4Y17SX9NQ5.png"
     },
     {
       "id": "8cd1240ab3157e8e6a05",
@@ -1421,15 +1466,6 @@
       "publishedAt": "2026-08-07T16:01:02Z",
       "summary": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API Authors: Nilesh Mishra and Ajit Koti This is the third entry of a multi-part blog series describing how we built a Real-Time Distributed Graph (RDG). In Part 1 , we discussed the motivation for creating the RDG and the architecture of the data processing pipeline that populates it. In Part ",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*X_O1wdMIVfm9upb2tLXD9A.png"
-    },
-    {
-      "id": "4e7185b25f352eacd815",
-      "title": "How to be fearlessly AI native",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/07/how-to-be-fearlessly-ai-native/",
-      "publishedAt": "2026-08-07T07:40:00Z",
-      "summary": "Ryan welcomes McLaren Stanley, Senior Principal Engineer for Amazon Stores, to discuss what it actually takes to make teams AI native, why agentic engineering is shifting code bottlenecks downstream to testing and deployment, and why robust validation is essential to build trust and enable “fearless commits.”",
-      "imageURL": null
     },
     {
       "id": "2d4477469ef41d8d75cc",
@@ -1645,7 +1681,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-dog.webp"
+      "imageURL": "/static/images/cta-kitty.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1762,42 +1798,6 @@
       "url": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
       "publishedAt": "2026-07-14T18:00:00Z",
       "summary": "Kubernetes ships with built-in awareness of CPU and memory, but most real-world scaling decisions depend on signals that live entirely outside that narrow window: how many messages are waiting in a queue, how long the last batch job took, how many active WebSocket connections a pod is holding. When the built-in metrics are not enough, a metrics exporter bridges that gap. This post walks through wr",
-      "imageURL": null
-    },
-    {
-      "id": "3b39e02b3405d78e13a4",
-      "title": "From weeks to a day: how we made LLM evaluation fast enough to iterate on",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/14e2d35198b4",
-      "publishedAt": "2026-07-14T17:01:03Z",
-      "summary": "Training an LLM is the easy part. The hard part is designing experiments and evaluations that you can trust enough to know whether the new model is actually an improvement. By : Baharak Saberidokht Introduction Shipping a production LLM system means iterating fast on improvements to something that is, by construction, non-deterministic. Models drift, judges disagree with themselves, references reg",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*NdZgQTc8Xu6FhoV8dT68pA.png"
-    },
-    {
-      "id": "ad7b665a364ce17e81db",
-      "title": "Shipyard: How We Built Slack’s Next-Generation EC2 Platform",
-      "sourceName": "Slack Engineering",
-      "url": "https://slack.engineering/?p=17832",
-      "publishedAt": "2026-07-14T16:10:08Z",
-      "summary": "Over the past few years, we’ve been on a journey to modernise how we run Amazon Elastic Compute Cloud (EC2) instances at Slack. In our first post, Advancing Our Chef Infrastructure , we shared how we moved from a single Chef stack to a resilient, multi-stack setup with versioned cookbook deployments and safer promotion workflows. This afforded us far more reliability and operational control across",
-      "imageURL": "https://slack.engineering/wp-content/uploads/sites/7/2026/05/1.png?w=640"
-    },
-    {
-      "id": "b2c92f379c99649b446e",
-      "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/f4b792f3f0d8",
-      "publishedAt": "2026-07-13T22:44:11Z",
-      "summary": "By Parth Jain , Rakesh Sukumar , Yingwu Zhao , Renzo Sanchez-Silva & Nathan Fisher A deep dive into the engineering challenges of building a real-time service dependency map at Netflix scale: from streaming architectures and distributed aggregation pipelines to time-travel queries and the methodology that made it work. Introduction In our first post , we introduced the problem: engineers at Netfli",
-      "imageURL": "https://cdn-images-1.medium.com/max/947/1*dgCgcPQv-EvBNb_AXqtnhA.png"
-    },
-    {
-      "id": "3bec5ca69d709adf3d6c",
-      "title": "Operating AI/ML Workloads on Kubernetes: A Headlamp Plugin for Kubeflow",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/07/13/introducing-headlamp-plugin-for-kubeflow/",
-      "publishedAt": "2026-07-13T20:00:00Z",
-      "summary": "Kubernetes has quietly become the default platform for AI and machine learning. Whether you run notebook servers for data scientists, schedule distributed training jobs, tune hyperparameters, or orchestrate multi-step ML pipelines, those workloads increasingly land on a Kubernetes cluster. Kubeflow is one of the most popular ways to assemble that stack, and it does so the Kubernetes-native way: ev",
       "imageURL": null
     }
   ]
