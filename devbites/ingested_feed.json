@@ -1,8 +1,26 @@
 {
   "articles": [
     {
+      "id": "78fec53404815925d4f0",
+      "title": "Bringing Private Processing to Meta AI Glasses",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24499",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "summary": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than other kinds of devices and keep you present without picking up a mobile phone. Most of the time, glasses are helping you see well, protecting your eyes and complementing your look, and that’s it. But AI glasses have the capacity to provide superpowers like trans",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/09/Private-Processing-for-AI-Glasses.png"
+    },
+    {
+      "id": "8018084d546a0e01b484",
+      "title": "Rendering huge pull requests in the GitHub Copilot app",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=99002",
+      "publishedAt": "2026-09-23T18:29:49Z",
+      "summary": "Broad refactors and migrations often have to land as one change. Stacked pull requests are a great way to split work into smaller changes, which makes reviews easier and helps teams ship with less risk. But some changes, like this one, can’t be split cleanly. That leaves you with a single pull request that can get very large, and the review conversation causes it to grow. The review experience nee",
+      "imageURL": null
+    },
+    {
       "id": "875978a4e34766131073",
-      "title": "What Dropbox has learned from deploying AI at company scale",
+      "title": "Dropbox CTO Ali Dasdan on moving from AI adoption to transformation",
       "sourceName": "Dropbox Tech",
       "url": "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale",
       "publishedAt": "2026-09-23T07:00:00Z",
@@ -1531,15 +1549,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a70ce2458ab09e58b7d5218_Blog%20Hero%20-%201800x720%20-%201x.png"
     },
     {
-      "id": "0d4808deec19045455fb",
-      "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24167",
-      "publishedAt": "2026-08-03T18:00:17Z",
-      "summary": "Meta’s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post goes into the details on how we achieved: doubling end-to-end (E2E) training efficiency to 20–25% Model FLOPs Utilization (MFU) while scaling training FLOPs 4x in 12 months, by co-design",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/07/image13.png"
-    },
-    {
       "id": "645624c7eeb4c62cfa58",
       "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
       "sourceName": "Kubernetes Blog",
@@ -1681,7 +1690,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-kitty.webp"
+      "imageURL": "/static/images/cta-cat.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1789,15 +1798,6 @@
       "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
       "publishedAt": "2026-07-17T00:00:00Z",
       "summary": "Hello! I’ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a bunch of blog posts about how it is totally fine to use SQLite in production for a small site and I think it is totally fine, but what I did not fully appreciate is that SQLite is still a database, databases are complicated",
-      "imageURL": null
-    },
-    {
-      "id": "695b8d5359717af83252",
-      "title": "Building a Custom Metrics Exporter for Kubernetes",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
-      "publishedAt": "2026-07-14T18:00:00Z",
-      "summary": "Kubernetes ships with built-in awareness of CPU and memory, but most real-world scaling decisions depend on signals that live entirely outside that narrow window: how many messages are waiting in a queue, how long the last batch job took, how many active WebSocket connections a pod is holding. When the built-in metrics are not enough, a metrics exporter bridges that gap. This post walks through wr",
       "imageURL": null
     }
   ]
