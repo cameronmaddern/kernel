@@ -1,6 +1,69 @@
 {
   "articles": [
     {
+      "id": "3c908d4f959ad715bc86",
+      "title": "Don't let TEEs break your MPC",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/",
+      "publishedAt": "2026-09-25T11:00:00Z",
+      "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu",
+      "imageURL": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/tee-mpc-figure1_hu_dedf906638555a09.webp"
+    },
+    {
+      "id": "863d540612e7f85e5b5f",
+      "title": "Professional skepticism is a dev’s best skill",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/25/professional-skepticism-is-a-dev-s-best-skill/",
+      "publishedAt": "2026-09-25T07:40:00Z",
+      "summary": "Ryan chats with David Burns, Head of Developer Advocacy and Open Source at BrowserStack, about the value of professional skepticism in an AI-driven world, applying test-driven development to agentic engineering, and why fixing flaky tests comes down to managing application state.",
+      "imageURL": null
+    },
+    {
+      "id": "abeca77e443cba6a4123",
+      "title": "Manufacturing Trust for AI Agents | Docker’s WeAreDevelopers Keynote",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=94134",
+      "publishedAt": "2026-09-24T17:15:00Z",
+      "summary": "Coding agents do more than write code. Agents can install dependencies, access networks, use credentials, and keep working after we’ve moved on to something else. Agents need access to get real work done. But the more access they have, the bigger the impact of a mistake. The challenge is building enough trust into the system to give agents more freedom without giving them access to everything. At ",
+      "imageURL": "https://www.docker.com/app/uploads/2026/09/agents-trust-factory-transparent.gif"
+    },
+    {
+      "id": "681efb562daae4a8f389",
+      "title": "From Dockerfile to Kit: the Docker Sandboxes Kit Specification",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=94091",
+      "publishedAt": "2026-09-24T16:00:00Z",
+      "summary": "Agents need containment, and a sandbox is only half of it. Something still has to say which agent runs there, what it gets, and what it may touch. That is a Kit: an ordinary OCI image, so the answer travels with the agent and means the same thing on any conforming runtime. Today we published the Docker Sandbox Kit Specification v3, open source under Apache 2.0 at docker/sandbox-kit-spec . Here is ",
+      "imageURL": null
+    },
+    {
+      "id": "bc4595d2c47bdf9c89a7",
+      "title": "Docker and CNCF partner on an open spec for agent permissions",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=94077",
+      "publishedAt": "2026-09-24T16:00:00Z",
+      "summary": "Docker and CNCF: Making what an agent may do as portable as t he agent itself Ten years ago, the software industry faced a choice. Every vendor could ship its own image format and its own runtime, and developers would have to pick a side. Or the industry could agree on one artifact. The second option won. Docker donated its image format and the Runc runtime to the Linux Foundation, and the Open Co",
+      "imageURL": null
+    },
+    {
+      "id": "2a931bd6e5ae1408d27a",
+      "title": "Introducing Cloud Sandboxes: Start on Your Laptop, Finish in the Cloud",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=93924",
+      "publishedAt": "2026-09-24T16:00:00Z",
+      "summary": "Run agents on your laptop, in the cloud, and move between them with one command, all safely. Earlier this year, we launched Docker Sandboxes: microVM environments where coding agents can work autonomously and safely. Since then, agents have started taking on long-horizon work: tasks that run for hours, not minutes. Agents need a new place to work. Today, we’re introducing Cloud Sandboxes: the same",
+      "imageURL": "https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-11.59.36-AM.png"
+    },
+    {
+      "id": "277105ae8fc14d7aa713",
+      "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+      "publishedAt": "2026-09-24T15:00:00Z",
+      "summary": "On September 4, 2026, Oren Yomtov, a security researcher from Accomplish , responsibly reported a vulnerability affecting Cloudflare Containers and Cloudflare Sandboxes (which is built on Containers), through Cloudflare’s bug bounty program . Cloudflare has fully remediated the vulnerability, and we have no evidence that customer data has been compromised. This post was prepared in collaboration w",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M38DQFQRTYYSM43H964E1E3F.01M38DQGBNEE0N3C6WAXNMGS0H.png"
+    },
+    {
       "id": "78fec53404815925d4f0",
       "title": "Bringing Private Processing to Meta AI Glasses",
       "sourceName": "Meta Engineering",
@@ -17,6 +80,15 @@
       "publishedAt": "2026-09-23T18:29:49Z",
       "summary": "Broad refactors and migrations often have to land as one change. Stacked pull requests are a great way to split work into smaller changes, which makes reviews easier and helps teams ship with less risk. But some changes, like this one, can’t be split cleanly. That leaves you with a single pull request that can get very large, and the review conversation causes it to grow. The review experience nee",
       "imageURL": null
+    },
+    {
+      "id": "07c7fc4fa6eceb9fdbe3",
+      "title": "Lakebase, TiDB X, and the Database Architecture AI Demands",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=35060",
+      "publishedAt": "2026-09-23T15:35:42Z",
+      "summary": "Key Takeaways Lakebase and TiDB X both keep durable data in object storage, separate from compute. For AI agents, fast, cheap database lifecycles matter as much as query speed. Lakebase branches a single PostgreSQL primary; TiDB X brings branching to distributed SQL. TiDB Cloud Lake adds separate analytical compute through export and load, not zero-copy access. An AI coding agent can generate an a",
+      "imageURL": "https://static.pingcap.com/files/2026/09/24080925/image-3-1024x556.jpeg"
     },
     {
       "id": "875978a4e34766131073",
@@ -982,15 +1054,6 @@
       "imageURL": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/k8s-v1.37.svg"
     },
     {
-      "id": "4c8d5dd6ec190e8255c0",
-      "title": "Moving from Minimus to Docker Hardened Images",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=93146",
-      "publishedAt": "2026-08-25T22:27:06Z",
-      "summary": "The hardened-images space gets better when more people are working on the problem, and Minimus has been a valuable part of that work. That changed this week, when they announced they are ending operations. Though we were competitors, we both believed strongly in the importance of reducing vulnerabilities at the foundation of the software supply chain. Their efforts to bring needed awareness to thi",
-      "imageURL": null
-    },
-    {
       "id": "e279d12f841b1447f6a4",
       "title": "Project Lighthouse — Part 3: Introducing project-lighthouse-anonymize",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -1081,15 +1144,6 @@
       "imageURL": null
     },
     {
-      "id": "ccd76f3ea63a8bab6b76",
-      "title": "MinIO End of Life: How to Stay Patched and Audit-Ready with Docker ELS",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=93028",
-      "publishedAt": "2026-08-24T13:00:00Z",
-      "summary": "MinIO reached end of life in February 2026. Docker Extended Lifecycle Support (ELS) keeps end-of-life software like it patched, compliant, and audit-ready for up to five years, covering versions upstream no longer supports all the way up to entire projects. On February 13, 2026, the MinIO open-source project was archived upstream. A project with more than a billion Docker pulls stopped shipping re",
-      "imageURL": null
-    },
-    {
       "id": "66a879da5b76d97c78f5",
       "title": "Another look at SQLite's WAL-Reset bug",
       "sourceName": "Eaton Phil",
@@ -1133,15 +1187,6 @@
       "publishedAt": "2026-08-21T14:00:00Z",
       "summary": "When code gets cheap, the hard part is deciding what “correct” means and building a reliable way to check it.",
       "imageURL": null
-    },
-    {
-      "id": "ec883fe5d5ebf75bb729",
-      "title": "Running AI agents in GitHub Actions with Docker Sandboxes",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92832",
-      "publishedAt": "2026-08-21T13:00:00Z",
-      "summary": "In July 2026, GitHub Agentic Workflows added Docker Sandboxes as a supported agent runtime . It means that in your CI an AI coding agent can have broad control of its environment, including being able to run Docker containers, while the environment itself is isolated in a microVM with a network policy and secrets injection like the current best practices for AI isolation advice. Agentic isolation ",
-      "imageURL": "https://www.docker.com/app/uploads/2026/08/image2-1.png"
     },
     {
       "id": "88ecacabd1580e0ec047",
@@ -1198,15 +1243,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M0E2VFX1WXFF6TK51VFNP5V3.png"
     },
     {
-      "id": "bba9dddeea6ff5560738",
-      "title": "Docker Verified Publisher Applications Are Now Self-Serve",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=92968",
-      "publishedAt": "2026-08-20T17:00:00Z",
-      "summary": "Curating trusted content for the agentic software era While AI made it easier for organizations to keep up with the latest innovations, it also made it harder to know what to trust. When software is selected at machine speed, the question is no longer “is this popular?” It’s “do we know who published this?” Docker Hub has always been where developers go to answer that question. Starting today, sof",
-      "imageURL": null
-    },
-    {
       "id": "aa5d50fd0f4bfe49698b",
       "title": "From PHP to team lead of agents: rethinking judgment, review, and data with Google's Andi Gutmans (Part 1)",
       "sourceName": "Stack Overflow Blog",
@@ -1250,15 +1286,6 @@
       "publishedAt": "2026-08-19T17:01:03Z",
       "summary": "When we retrain, when we rebuild, and when we leave a model alone. By: Harrison Katz A forecast that carries weight The Forecasting Data Science team at Airbnb produces many of the forecasts the rest of the company plans around: demand, bookings, cancellations, and a range of finer cuts by market and segment, refreshed continuously across thousands of markets. The targets differ, and the models di",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*44L4h0-81kbAtkKGNa9Lgg.jpeg"
-    },
-    {
-      "id": "3791d69cce3190ff3f41",
-      "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
-      "publishedAt": "2026-08-19T16:00:28Z",
-      "summary": "In 2021, we assessed remote Spectre attacks against Cloudflare Workers. Based on the results, we shipped a production defense called Dynamic Process Isolation (DyPrIs), which identifies maliciously looking scripts and isolates them into separate processes. Since then, newer techniques in the area of stabilizing Spectre attacks have been discovered. To understand if these techniques posed a threat ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M00XZZC7473CXRW6EF1Z69ZW.png"
     },
     {
       "id": "0cdde7ec0e23406553df",
@@ -1414,15 +1441,6 @@
       "imageURL": null
     },
     {
-      "id": "eb7bf3162c2bedc5d2a6",
-      "title": "Your tokenmaxxing is not valuemaxxing",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/11/your-tokenmaxxing-is-not-valuemaxxing/",
-      "publishedAt": "2026-08-11T07:40:00Z",
-      "summary": "Ryan is joined by Coder’s Rob Whiteley to chat about why tokenmaxxing isn’t proving real value and just triggering Goodhart’s Law, how release speed and PR merges can help you measure agentic outcomes with or without a human-in-the-loop, and what the democratization of skills means for junior developers and the talent pipeline.",
-      "imageURL": null
-    },
-    {
       "id": "eed0075da22e40881627",
       "title": "Mapping the AI economy",
       "sourceName": "Stripe Blog",
@@ -1457,15 +1475,6 @@
       "publishedAt": "2026-08-10T19:30:00Z",
       "summary": "Java developers no longer have to rely on Java framework-specific approaches to drive AI from their enterprise apps. While it is true that Langchain4j empowered developers by disintermediating specific AI vendors, you still had a dependency on Langchain4j. And with Spring AI, well, of course you had a dependency on design choices made by Spring, if not on Spring itself. Now, GitHub Copilot SDK for",
       "imageURL": "https://github.blog/wp-content/uploads/2026/08/figure-01-app-flow-diagram.png?resize=1024%2C173"
-    },
-    {
-      "id": "95f048a469238c0eed8e",
-      "title": "Why Agentic AI Architecture Needs a Database, Not Just a Vector Store",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34582",
-      "publishedAt": "2026-08-10T13:00:00Z",
-      "summary": "Key Takeaways Agentic AI architecture has five layers: reasoning, tools, memory, state, and guardrails. Frameworks handle the first two; your storage choice handles the rest. Vector search solves semantic retrieval only. It does not provide authoritative records, durable workflow state, or transactional updates. Production agents store far more than embeddings: structured facts, execution state, t",
-      "imageURL": null
     },
     {
       "id": "2950090732eedf643421",
@@ -1690,7 +1699,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-cat.webp"
+      "imageURL": "/static/images/cta-dog.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1789,15 +1798,6 @@
       "url": "https://github.blog/?p=97604",
       "publishedAt": "2026-07-17T16:46:47Z",
       "summary": "The most expensive part of a small feature request used to be writing the code. Now it’s usually the meeting about whether or not to write the code. That’s a real shift, and it quietly breaks a lot of engineering instincts. Engineers learn early that most “small asks” aren’t small: they need tests, a rollout plan, someone to think through the edge cases and own the behavior after it ships. A two-h",
-      "imageURL": null
-    },
-    {
-      "id": "34111744bc3bd638af64",
-      "title": "Learning a few things about running SQLite",
-      "sourceName": "Julia Evans",
-      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
-      "publishedAt": "2026-07-17T00:00:00Z",
-      "summary": "Hello! I’ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a bunch of blog posts about how it is totally fine to use SQLite in production for a small site and I think it is totally fine, but what I did not fully appreciate is that SQLite is still a database, databases are complicated",
       "imageURL": null
     }
   ]
