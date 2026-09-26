@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "61781e7e2e40019baf4e",
+      "title": "The FinTech Scalability Crisis: How Distributed SQL Unlocks Innovation with Zero Downtime Operations",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=28238",
+      "publishedAt": "2026-09-26T08:31:01Z",
+      "summary": "When Plaid’s Amazon Aurora MySQL fleet faced a major-version upgrade, the estimate came back at six engineering months and tens of minutes of downtime. For a company whose APIs sit underneath thousands of financial apps, that is not a maintenance task. It is a product freeze. Plaid spent that effort moving to distributed SQL instead , and its first upgrade on TiDB covered six production clusters i",
+      "imageURL": "https://static.pingcap.com/files/2025/07/11103811/AD_4nXeCP_BdWSi4YS1WvqCrxbmWC2yD6nSYXJ7XZb5H0tab8Kmucoc9602Y4UEsSeOmgoLbRBdkArfWwhyg9uy96disjmlKtWSCdiCSsYN6FzFfkAOm4Bm0rml4m4Bd2-Layqmn_syQ.png"
+    },
+    {
+      "id": "2d2668760f82f75434ae",
+      "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/516d5a29b252",
+      "publishedAt": "2026-09-25T16:01:03Z",
+      "summary": "By Dhruv Pratap Introduction Organizations that have been around for a while usually run two identity systems side by side. One belongs to the cloud provider: IAM roles, instance profiles, execution roles. The other is your own, and it is the one your internal services actually check when they decide whether to answer a request. On infrastructure you build yourself, you can bootstrap your own iden",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*eIWpHw7J_6qZCuaffD0lQQ.png"
+    },
+    {
+      "id": "5576c22da14e3f38e221",
+      "title": "Improving site performance by shipping more CSS",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=99030",
+      "publishedAt": "2026-09-25T15:00:00Z",
+      "summary": "The Primer Design System powers many of the experiences you see on GitHub today. From buttons to banners to breadcrumbs, these foundational components are required to be accessible, flexible, and performant across a wide variety of scenarios. Back in 2023, the number of components on certain pages began to explode. This led to several performance-related challenges with our existing CSS-in-JS solu",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/09/625328348-91f668f6-2565-492d-aa76-632d429fb4ba.png?resize=1024%2C966"
+    },
+    {
+      "id": "25e1a4781366d77decd1",
+      "title": "Agents can now set up your website’s security with Turnstile Spin",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/turnstile-spin/",
+      "publishedAt": "2026-09-25T13:00:00Z",
+      "summary": "In 2023, Cloudflare declared itself free from CAPTCHAs with the launch of Turnstile, our privacy-first client-side challenge. Turnstile is free to use, works on any site (no need to proxy traffic through Cloudflare), and never asks a visitor to solve a puzzle. Now, we are launching Turnstile Spin, an agent-mediated end-to-end implementation of Turnstile. Initially built with developers in mind, Tu",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3CQMQWGC7WBK8ZR7DG13PFE.01M3CQMRMEBSVS7GAD6GNHZ9JD.png"
+    },
+    {
+      "id": "f5345409a177d43c872a",
+      "title": "Sizing Your IIoT Table Before You Deploy",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/sizing-your-iiot-table-before-you-deploy",
+      "publishedAt": "2026-09-25T11:57:49Z",
+      "summary": "A sensor reading is 20 bytes: a timestamp, a tag ID, a float. Stored in a table you can actually query, it costs 95.6. That 4.8x gap is why the plant deployment that looked like 12 TB arrives as 60. The inputs were right. The bytes per row was a guess. By the end of this guide you'll turn four inputs into a projected row count, a storage cost curve, and an ingest ceiling, and know at design time w",
+      "imageURL": null
+    },
+    {
       "id": "3c908d4f959ad715bc86",
       "title": "Don't let TEEs break your MPC",
       "sourceName": "Trail of Bits",
@@ -16,6 +61,24 @@
       "url": "https://stackoverflow.blog/2026/09/25/professional-skepticism-is-a-dev-s-best-skill/",
       "publishedAt": "2026-09-25T07:40:00Z",
       "summary": "Ryan chats with David Burns, Head of Developer Advocacy and Open Source at BrowserStack, about the value of professional skepticism in an AI-driven world, applying test-driven development to agentic engineering, and why fixing flaky tests comes down to managing application state.",
+      "imageURL": null
+    },
+    {
+      "id": "d0cbd82fb31cde1885c9",
+      "title": "Discord Update: September 25, 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-update-september-25-2026",
+      "publishedAt": "2026-09-25T00:00:00Z",
+      "summary": "Here's the Discord Changelog from September 25, 2026, so you can stay informed on what’s new in recent app updates!",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66ecb1eaa5561774cf2c00d5_650233ad5dcf4b6825522e09_Fall_September.png"
+    },
+    {
+      "id": "b49ea37efdc548eb6c06",
+      "title": "Vercel and TiDB Cloud Starter: The Full-Stack Playbook for AI Apps",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=35087",
+      "publishedAt": "2026-09-24T20:52:55Z",
+      "summary": "Key Takeaways Edge runtimes break TCP pools. TiDB Cloud Starter connects over HTTPS instead. Swapping a v0.dev starter database for TiDB is a connection string change. A native VECTOR type keeps embeddings beside your rows, with no store to sync. The Vercel Marketplace integration writes the connection variables for you. You have an AI app running on Vercel, or a prototype that v0.dev generated in",
       "imageURL": null
     },
     {
@@ -269,15 +332,6 @@
       "publishedAt": "2026-09-18T14:35:42Z",
       "summary": "This is a guest post by Denis Bauer, Yatish Jain, Anuradha Wickramarachchi, Brendan Hosking, and Nick Edwards of CSIRO, in collaboration with the ASP Prototyping and Scaling Team at AWS. In this post, we describe how researchers at CSIRO , Australia’s national science agency, built Serverless Beacon (sBeacon), a scalable serverless solution for securely querying genomic variant data on AWS, underp",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/09/Figure-1-Data-Onboarding.png"
-    },
-    {
-      "id": "feaa3943a96e3b2be7f4",
-      "title": "Knowing When Your Composite Index Earns Its Write Cost",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/knowing-when-composite-index-earns-write-cost",
-      "publishedAt": "2026-09-18T12:49:15Z",
-      "summary": "Every insert pays for an index , but only the queries that use the index benefit. That gap is what makes an index a decision instead of a default. The index in this guide changed a dashboard query from a full table scan to a seek, and charged every insert to do it. Which side wins depends on how often that query runs and how much ingest headroom you have. By the end of this guide you'll know which",
-      "imageURL": null
     },
     {
       "id": "827736ff96e4a03685ea",
@@ -1090,15 +1144,6 @@
       "imageURL": null
     },
     {
-      "id": "1e8f36a20ee292832ebe",
-      "title": "Open Weight Models Are Chapter One. The Data Layer Is the Rest of the Book.",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34675",
-      "publishedAt": "2026-08-24T20:29:23Z",
-      "summary": "Key Takeaways Open weight models are stage one of a four-stage sequence: artifact, factory, connective tissue, governance. Software took 30 years. AI is moving faster. The objections to open weight models, on support, security, liability, and economics, all hit open source a decade ago. Every one lost to time. Weights are not source code. You cannot diff a tensor, so the training recipe carries th",
-      "imageURL": null
-    },
-    {
       "id": "6ac773523d33884637e8",
       "title": "The Cloudflare Blog — brought to you by EmDash",
       "sourceName": "Cloudflare Blog",
@@ -1234,15 +1279,6 @@
       "imageURL": null
     },
     {
-      "id": "512254c86ff662cb4052",
-      "title": "From all-or-nothing to task-based OAuth consent",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
-      "publishedAt": "2026-08-20T17:03:03Z",
-      "summary": "Since June, developers have created thousands of third-party OAuth apps on Cloudflare , with more than a million authorizations since. OAuth makes delegated access possible. It lets applications act on a user’s behalf without asking them to handle long-lived credentials or hand over a password. That model works well when an application can describe its access needs with a small set of scopes. Deve",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M0E2VFX1WXFF6TK51VFNP5V3.png"
-    },
-    {
       "id": "aa5d50fd0f4bfe49698b",
       "title": "From PHP to team lead of agents: rethinking judgment, review, and data with Google's Andi Gutmans (Part 1)",
       "sourceName": "Stack Overflow Blog",
@@ -1268,15 +1304,6 @@
       "publishedAt": "2026-08-20T00:00:00Z",
       "summary": "As AI transforms software economics, the standard revenue playbook is breaking down. Learn how leaders around the world are preparing for agent buyers, updating processes for faster pricing iteration, and building more flexible infrastructure.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/7AILd6YY3INBk4QCI4LaTx/1842bb0154e43c182f1c26a8cf7f8a4e/Monitization_trends_index.png"
-    },
-    {
-      "id": "f5bcc0342b281c90f6eb",
-      "title": "My Journey from Traditional Monolithic Architecture to Distributed SQL",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://en.pingcap.com/?p=4072",
-      "publishedAt": "2026-08-19T18:57:00Z",
-      "summary": "Editor’s note: Bill Kendall wrote this post during his time at PingCAP. It was originally published in January 2022 and updated in August 2026 to reflect TiDB’s agent state stack. Key Takeaways Monolithic databases hit a hard ceiling: one machine, one failure domain, and a cost curve that steepens as you scale up. Distributed database architecture scales out instead of up, spreading data across no",
-      "imageURL": null
     },
     {
       "id": "1490bd9f0e0033357e89",
@@ -1699,7 +1726,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-dog.webp"
+      "imageURL": "/static/images/cta-turtle.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-07-20T15:00:00Z",
       "summary": "Every day, Dropbox products transform enormous amounts of content behind the scenes. Open a PowerPoint deck on your phone in Dropbox, and it’s rendered into a crisp preview you can quickly browse. Finalize an agreement in Sign, and it's flattened into a PDF. Upload a video to Replay—our video review and approval tool—and it's transcoded into a lightweight version that streams instantly. These expe",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/july/riviera/headers/Infrastructure-Riviera Universal Processing Platform-1440x305-light.png"
-    },
-    {
-      "id": "db7ec98e5716fc31dfec",
-      "title": "Aurora DSQL: Scalable, Multi-Region OLTP",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/07/19/dsql-paper",
-      "publishedAt": "2026-07-19T00:00:00Z",
-      "summary": "Aurora DSQL: Scalable, Multi-Region OLTP A paper! Our new paper, Aurora DSQL: Scalable, Multi-Region OLTP , is now available on Arxiv. I’m excited about this one: it’s a fully end-to-end look at how Aurora DSQL works, from query processing, to transactions, to replication, to the control plane. We’ve shared most of this content before in other forms, on this blog, on Marc Bowes’ Blog , Werner’s Bl",
-      "imageURL": "/blog/images/dsql_fig6.png"
-    },
-    {
-      "id": "5ffe688d30d66734d7c8",
-      "title": "In-House LLM Serving at Netflix",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/a5a8e799ea2c",
-      "publishedAt": "2026-07-17T21:32:39Z",
-      "summary": "By AI Platform’s Model Runtime team and Inference team Introduction Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather than a separate ML silo. Some of those decisions weren’t obvious, and a few revealed their trade-offs only under production load. Th",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*GKGOrp0xddZwHomMhiSeCA.png"
-    },
-    {
-      "id": "cbde4eab477d9e01a416",
-      "title": "The cost of saying yes has changed",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=97604",
-      "publishedAt": "2026-07-17T16:46:47Z",
-      "summary": "The most expensive part of a small feature request used to be writing the code. Now it’s usually the meeting about whether or not to write the code. That’s a real shift, and it quietly breaks a lot of engineering instincts. Engineers learn early that most “small asks” aren’t small: they need tests, a rollout plan, someone to think through the edge cases and own the behavior after it ships. A two-h",
-      "imageURL": null
     }
   ]
 }
