@@ -1,6 +1,87 @@
 {
   "articles": [
     {
+      "id": "f17ba435e8d2a7142078",
+      "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/voidzero-update/",
+      "publishedAt": "2026-09-28T13:00:00Z",
+      "summary": "When VoidZero joined Cloudflare four months ago, we made a commitment to open source, promising that Vite, Vitest, Rolldown, Oxc, and Vite+ will stay open source, vendor-agnostic, and community-driven. As part of Cloudflare’s Birthday Week, where Cloudflare gives back to the Internet, we thought it’d be a good time to check in on how we’ve been doing against this commitment. In the four months sin",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3JF39Y5YKC8AHHGD706PRKV.png"
+    },
+    {
+      "id": "2f7c2d78c61cfcd22824",
+      "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
+      "publishedAt": "2026-09-28T13:00:00Z",
+      "summary": "Today we’re introducing Forge , a fresh approach to generating SDKs, CLIs, docs, and libraries. Forge is an open source, pluggable generation pipeline that anyone can deploy and run for free. Forge is early in its life, but already generates the output required for the cf CLI, and over the next few months will power Cloudflare’s API documentation, SDKs, and much more. We built Forge because we nee",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3J4EWN0BM1HFWCRCV3ND3H8.png"
+    },
+    {
+      "id": "c41aee02ece9671fad25",
+      "title": "The road to the agentic browser: A Kitesurf update",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/kitesurf-update/",
+      "publishedAt": "2026-09-28T13:00:00Z",
+      "summary": "In August, we introduced Kitesurf, a browser for the agentic age that runs entirely on Cloudflare Workers. We built it around what agents need from the web, rather than carrying all the features and bloat of a browser designed for humans. If this is the first you’re hearing about it, we highly recommend you read the blog post where we introduced Kitesurf , for all the juicy technical details of ho",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3D844E5W4TPG1FPT4HBJP16.png"
+    },
+    {
+      "id": "a960a26fd5e57b9b3414",
+      "title": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/introducing-the-cold-start/",
+      "publishedAt": "2026-09-28T13:00:00Z",
+      "summary": "Sixteen years ago, Cloudflare was one of more than 1,000 startups hoping for a spot on stage at TechCrunch Disrupt. We were not, on the face of it, an obvious choice. Cloudflare was infrastructure: we made websites faster and protected them from attack, which was not well understood by the general market at the time. Infrastructure is often invisible right up until the moment it becomes important.",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3D7BTCXF494DCFFTBT7SWHK.png"
+    },
+    {
+      "id": "46b69612bca8ceb41dbd",
+      "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
+      "publishedAt": "2026-09-28T13:00:00Z",
+      "summary": "When we introduced EmDash on April 1 as the “spiritual successor to WordPress”, the buzz was hard to ignore. Walking around a WordPress conference that month, we couldn’t walk far without hearing murmurs about EmDash from fellow attendees. But alongside the excitement and curiosity has been a seed of doubt among some in the industry. Was this just an April Fools’ joke? It was not. Today, we are re",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3D0T7XHPBZM8YB0PX5W78EQ.png"
+    },
+    {
+      "id": "26851b73d4c62bcaf9c3",
+      "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+      "publishedAt": "2026-09-28T13:00:00Z",
+      "summary": "Today we’re announcing the first public experimental preview of a feature to better support native Rust code and even Tokio-based applications just running natively on Workers: first-class support for the Emscripten wasm32-unknown-emscripten Rust compiler target on the wasm-bindgen open source toolchain and Cloudflare’s Rust Workers. wasm-bindgen is the open source toolchain powering Rust-based We",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3AJHGRFR0ZE6MB7TYYXX16K.01M3AJHKNFWTPGSZVRX4VC9KM0.png"
+    },
+    {
+      "id": "8832962b230b1e72d0f8",
+      "title": "41 Experiments in 6 Days: What the Human Was Actually For",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/41-experiments-6-days-what-human-was-for",
+      "publishedAt": "2026-09-28T12:47:44Z",
+      "summary": "TL;DR: We took long-term conversational memory from F1 0.392 to 0.666 on the LoCoMo benchmark in six days, across 41 experiments and about 1,400 lines of TypeScript. Raw F1 landed at 0.638, against a previous published best of 0.598. The number is not the interesting part. Claude wrote nearly all of the code and ran every experiment. The four interventions that decided the outcome were all a human",
+      "imageURL": null
+    },
+    {
+      "id": "41d291c6d16ea2a8c89f",
+      "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+      "publishedAt": "2026-09-27T17:00:00Z",
+      "summary": "This week Cloudflare celebrates our 16th birthday. Like many 16-year-olds, we find ourselves looking around at the world we grew up in and feeling caught between the past and future. Also like many 16-year-olds, we look at all the change in the world and sometimes see risk. But, on balance, we come out incredibly optimistic for what lies ahead. What drives our optimism and fear is a recognition th",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3G3F5ZSHVH0CSDBN2M4A43T.01M3G3F6KFD00H82BMWC8VN4TP.png"
+    },
+    {
+      "id": "f86fb9777ea6f7628bac",
+      "title": "Replacing the old battery on rechargeable bike lights",
+      "sourceName": "Julia Evans",
+      "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
+      "publishedAt": "2026-09-27T00:00:00Z",
+      "summary": "Hello! Recently I needed bike lights for my bike. And I remembered that I already had rechargeable bike lights that I bought ten years ago, that I hadn’t tried in a long time. I tried to recharge them, but after fully charging them, they only worked for maybe 5 minutes before they turned off again. I don’t know much about electronics, but I’ve been curious about whether it’s possible to fix old el",
+      "imageURL": "https://jvns.ca/images/pcb.png"
+    },
+    {
       "id": "61781e7e2e40019baf4e",
       "title": "The FinTech Scalability Crisis: How Distributed SQL Unlocks Innovation with Zero Downtime Operations",
       "sourceName": "PingCAP / TiDB",
@@ -35,15 +116,6 @@
       "publishedAt": "2026-09-25T13:00:00Z",
       "summary": "In 2023, Cloudflare declared itself free from CAPTCHAs with the launch of Turnstile, our privacy-first client-side challenge. Turnstile is free to use, works on any site (no need to proxy traffic through Cloudflare), and never asks a visitor to solve a puzzle. Now, we are launching Turnstile Spin, an agent-mediated end-to-end implementation of Turnstile. Initially built with developers in mind, Tu",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3CQMQWGC7WBK8ZR7DG13PFE.01M3CQMRMEBSVS7GAD6GNHZ9JD.png"
-    },
-    {
-      "id": "f5345409a177d43c872a",
-      "title": "Sizing Your IIoT Table Before You Deploy",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/sizing-your-iiot-table-before-you-deploy",
-      "publishedAt": "2026-09-25T11:57:49Z",
-      "summary": "A sensor reading is 20 bytes: a timestamp, a tag ID, a float. Stored in a table you can actually query, it costs 95.6. That 4.8x gap is why the plant deployment that looked like 12 TB arrives as 60. The inputs were right. The bytes per row was a guess. By the end of this guide you'll turn four inputs into a projected row count, a storage cost curve, and an ingest ceiling, and know at design time w",
-      "imageURL": null
     },
     {
       "id": "3c908d4f959ad715bc86",
@@ -154,15 +226,6 @@
       "imageURL": "https://static.pingcap.com/files/2026/09/24080925/image-3-1024x556.jpeg"
     },
     {
-      "id": "875978a4e34766131073",
-      "title": "Dropbox CTO Ali Dasdan on moving from AI adoption to transformation",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale",
-      "publishedAt": "2026-09-23T07:00:00Z",
-      "summary": "As AI becomes a starting point for more kinds of work, its usefulness depends on access to an organization’s trusted knowledge and context, including the files, research, feedback, decisions, and project history that give the work meaning. Dropbox helps people bring that context into the supported AI tools they choose while preserving the permissions and controls they expect, so they can spend les",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/september/ali-and-uma-interview/Culture-AliDasdan-StateofAITooling-1440x305-light.png"
-    },
-    {
       "id": "dcfefdd655f2951e9d2c",
       "title": "Multiplayer AI: Why your team (and its agents) need a group chat",
       "sourceName": "Stack Overflow Blog",
@@ -262,15 +325,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/09/Rebalancer-Meta-Image-1.png"
     },
     {
-      "id": "03823605fd83df81c520",
-      "title": "Introducing our new Dropbox API documentation",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/developers/new-dropbox-api-documentation",
-      "publishedAt": "2026-09-21T14:30:00Z",
-      "summary": "We're excited to announce that our modernized Dropbox API documentation is now live at https://docs.dropboxapi.com . We've rebuilt our API reference to make integrating with Dropbox faster and more intuitive. What’s new Interactive API testing Test endpoints directly in the documentation. No more switching between docs and separate testing tools. You can set parameters, issue API calls, and see re",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/developers/Developers-1-1440x305px-light.png"
-    },
-    {
       "id": "f07239c5823ee40ec1a0",
       "title": "Python Workers are now generally available",
       "sourceName": "Cloudflare Blog",
@@ -350,6 +404,15 @@
       "publishedAt": "2026-09-18T00:00:00Z",
       "summary": "Last year, Stripe data shows fraud attempts against travel and leisure businesses hit a four-year high. We analyzed payment activity from more than 200,000 active travel and leisure businesses on Stripe to understand where fraud is rising, how effectively it’s being blocked, and what businesses can do in response.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/msOow88CKXXHqlWSzckzs/a05f46fcd58edc95d1fa9cdb0ac7b052/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_2x__2_.png"
+    },
+    {
+      "id": "061cd298eb9b62ee8f1f",
+      "title": "There's no point at which turning your brain off will work",
+      "sourceName": "Dan Luu",
+      "url": "https://danluu.com/brain-off/",
+      "publishedAt": "2026-09-18T00:00:00Z",
+      "summary": "In early 2025, I started seeing people turn off their brain as they use LLMs 1 . They would have an LLM take an action (summarize text, write some code, etc.), and just assume that it worked 2 . This generally didn't work in early 2025 and the result was often quite silly. As LLMs have gotten better, I've seen more of this. Sometimes, people will try to get the LLM to write some code for them and ",
+      "imageURL": null
     },
     {
       "id": "f0e304ce8e51a96b70a3",
@@ -784,15 +847,6 @@
       "imageURL": null
     },
     {
-      "id": "a4a986b959c496e86f16",
-      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
-      "publishedAt": "2026-09-03T21:03:02Z",
-      "summary": "Your scanner just flagged 4,000 new vulnerabilities, 78 of them critical. Which one do you fix first? To answer that question, Cloudflare is announcing early access to Vulnerability Discovery and Remediation, now part of Cloudflare Managed Defense . Vulnerability Discovery and Remediation is a new, invitation-only Cloudflare service that helps customers detect and mitigate vulnerabilities in their",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M1JDYW2RHXMJDDXS13K6VESF.01M1JDYX370D7EV4BHCDQS4C6J.png"
-    },
-    {
       "id": "cae3cde0353c76965b26",
       "title": "Kubernetes v1.37: DRA Updates",
       "sourceName": "Kubernetes Blog",
@@ -928,15 +982,6 @@
       "imageURL": "https://s.w.org/images/core/emoji/14.0.0/72x72/26a0.png"
     },
     {
-      "id": "3358acf7c004013790a7",
-      "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cache-transcoding/",
-      "publishedAt": "2026-09-01T12:59:00Z",
-      "summary": "Memory costs are increasing dramatically. Both RAM and hard disk drive prices have exploded over the past year. At Cloudflare, we run several massively distributed storage products (including our famous CDN) that rely on making efficient use of the memory we have deployed so we can continue to serve all of our customers. With this in mind, we prototyped a way to expand effective cache capacity. By",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M1DADS947G87BAG8BQJ5RZN6.01M1DADSZ25WXKD5DG1M70HJR8.png"
-    },
-    {
       "id": "0ee573a7839c2ad207b6",
       "title": "The good ol’ days of building Java",
       "sourceName": "Stack Overflow Blog",
@@ -973,15 +1018,6 @@
       "imageURL": null
     },
     {
-      "id": "32666d093ba2af855ece",
-      "title": "Testing cookie behavior across hundreds of web surfaces with our in-house auditor",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
-      "publishedAt": "2026-08-31T17:00:00Z",
-      "summary": "As AI and automation become a bigger part of digital experiences, it’s increasingly important that people stay in control of the choices they make. They should be able to benefit from new technology without losing the preferences they’ve already expressed. Cookie banners are one of the most familiar places where people express those preferences online. They’re also one of the most visible parts of",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/cookie-auditor/Security-Inside our in house cookie auditor-1440x305-light.png"
-    },
-    {
       "id": "0319ed084ea27c53a539",
       "title": "Secure by default is your only way forward",
       "sourceName": "Docker Blog",
@@ -989,15 +1025,6 @@
       "publishedAt": "2026-08-31T13:00:00Z",
       "summary": "Every worker a company employs, be it a person or a program, builds on a foundation someone else assembled, and that includes the newest hire on your team. This new hire got to work the moment they arrived, building with what your company already has in place and they’re shipping code at a pace your reviews can’t keep up with. Also, everything they make is going out under your name. If it were a h",
       "imageURL": null
-    },
-    {
-      "id": "1e45d1b10f1436637f72",
-      "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
-      "publishedAt": "2026-08-31T12:59:00Z",
-      "summary": "Modern bot threats are increasingly driven by determined, sophisticated attackers. Often it is not even one person, but a group trading techniques with each other or a commercial service sold to anyone willing to pay. For many of them, getting past bot detection is a full-time job they genuinely enjoy. Block them and they get to work, finding a workaround. AI has simplified this further, making it",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M15GS9CV1VMMQCAPHYE4AFD2.01M15GSA31CJVHRJCPHH7FBX77.png"
     },
     {
       "id": "05502ae5938a9d5e2194",
@@ -1036,15 +1063,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/332/1*Tm2AJHCkMfTwtedhfmIAwA.png"
     },
     {
-      "id": "aceed5f29630c723f7ab",
-      "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/botbase-for-operators/",
-      "publishedAt": "2026-08-28T12:59:44Z",
-      "summary": "Last month, on our second Content Independence Day, we announced a couple of features designed to give website owners more visibility and control over automated traffic: BotBase added a searchable directory of known bots to the Cloudflare dashboard, while Business Insights helped owners understand how crawlers interact with their content. We know that the ecosystem of bots is vast, making it all t",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M0GDDRDD6CY3JE6JJQGJM761.png"
-    },
-    {
       "id": "53454cc31f800ca9eea2",
       "title": "When you keep AI Lean, you keep AI correct",
       "sourceName": "Stack Overflow Blog",
@@ -1061,15 +1079,6 @@
       "publishedAt": "2026-08-27T18:30:00Z",
       "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable ( v1 ). This API provides CPU and memory usage for nodes and Pods, and is the API behind commands such as kubectl top and resource-metrics-based autoscaling. For cluster operators and application developers, this graduation means that the API now has the stability guarantees associated with a Kubernetes stable API. The v1 API has the same ",
       "imageURL": null
-    },
-    {
-      "id": "029dcd6193e52a6b5306",
-      "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-      "publishedAt": "2026-08-27T17:02:35Z",
-      "summary": "Big Pineapple , the platform behind 1.1.1.1 , Gateway DNS , DNS Firewall , AS112 , and several other Cloudflare DNS services, stores over 250 billion DNS cache entries at any given time. At that scale, wasting a single byte per entry costs more than 250 gigabytes of memory across our fleet. Five successive changes to how cache entries are stored in memory cut the per-entry footprint by over 50%. A",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M117Y6R8CDGVT4K2XX6VQ2YX.png"
     },
     {
       "id": "31b763fcbea2ec860447",
@@ -1144,15 +1153,6 @@
       "imageURL": null
     },
     {
-      "id": "6ac773523d33884637e8",
-      "title": "The Cloudflare Blog — brought to you by EmDash",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
-      "publishedAt": "2026-08-24T19:00:00Z",
-      "summary": "You likely noticed the recent redesign of the Cloudflare Blog. We added dark mode, modernized the look and feel, and made a lot of other small improvements along the way. What you might not have noticed – well, except for those who are more terminally online – is that the redesign was part of a much bigger migration project. On Wednesday, August 12, we moved the blog to EmDash , a content manageme",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M0TDC1Q5KWFS3GWEG7SHYMEP.png"
-    },
-    {
       "id": "1f7c5a4363d50c8a8dfe",
       "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
       "sourceName": "Meta Engineering",
@@ -1196,15 +1196,6 @@
       "publishedAt": "2026-08-23T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
-    },
-    {
-      "id": "fc72f0a2782bbfa24200",
-      "title": "Say it once: introducing Bot Preference Sync",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/bot-preference-sync/",
-      "publishedAt": "2026-08-21T23:19:57Z",
-      "summary": "Update Sept. 15, 2026: We've published a follow-up blog post with the latest on these controls, including a new Accountable designation for Apple, Google, and Microsoft, as well as how the Block and Disallow AI Training settings now work together. Read the latest blog post . We’re constantly building for the different goals of our customers. Some customers want to optimize for discovery, while oth",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M0GECYRV44NP1WR229SCRK7E.png"
     },
     {
       "id": "b0b2843ab9ea6885b2b4",
@@ -1340,15 +1331,6 @@
       "publishedAt": "2026-08-19T00:00:00Z",
       "summary": "Platforms like DoorDash, Meta, and Deel already enable stablecoin payouts for global workers. We surveyed 2,300 workers in 20 countries to see what's driving stablecoin demand, where the opportunity is highest, and how other platforms can adapt.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/wRqifAA3sZ1z3kJIX2UKM/8f2619305be2fe7039bf68c26429a8c1/Blog_index_image_1250x1250_2x.png"
-    },
-    {
-      "id": "c1a49ce9bd0f47f7d934",
-      "title": "Improving infrastructure efficiency for growing demand in the age of AI",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/infrastructure/improving-infrastructure-efficiency-for-growing-demand-in-the-age-of-ai",
-      "publishedAt": "2026-08-18T17:00:00Z",
-      "summary": "As demand for AI continues to grow, so does the infrastructure needed to support it. Much of the industry's attention has focused on building more: more data centers, more servers, and more power. But building new infrastructure is only part of the challenge. Engineering teams are also working within constraints on energy, cooling, hardware availability, and physical space, making it increasingly ",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/headers/Infrastructure-Improving efficiency and resource utilization across our infrastructure in the AI era-1440x305-light.png"
     },
     {
       "id": "7ee5a110ae3284b06ae7",
@@ -1792,13 +1774,31 @@
       "imageURL": null
     },
     {
-      "id": "1f9b3059a0a1b2a43f28",
-      "title": "How our universal content processing platform Riviera evolved for AI and beyond",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
-      "publishedAt": "2026-07-20T15:00:00Z",
-      "summary": "Every day, Dropbox products transform enormous amounts of content behind the scenes. Open a PowerPoint deck on your phone in Dropbox, and it’s rendered into a crisp preview you can quickly browse. Finalize an agreement in Sign, and it's flattened into a PDF. Upload a video to Replay—our video review and approval tool—and it's transcoded into a lightweight version that streams instantly. These expe",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/july/riviera/headers/Infrastructure-Riviera Universal Processing Platform-1440x305-light.png"
+      "id": "db7ec98e5716fc31dfec",
+      "title": "Aurora DSQL: Scalable, Multi-Region OLTP",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/07/19/dsql-paper",
+      "publishedAt": "2026-07-19T00:00:00Z",
+      "summary": "Aurora DSQL: Scalable, Multi-Region OLTP A paper! Our new paper, Aurora DSQL: Scalable, Multi-Region OLTP , is now available on Arxiv. I’m excited about this one: it’s a fully end-to-end look at how Aurora DSQL works, from query processing, to transactions, to replication, to the control plane. We’ve shared most of this content before in other forms, on this blog, on Marc Bowes’ Blog , Werner’s Bl",
+      "imageURL": "/blog/images/dsql_fig6.png"
+    },
+    {
+      "id": "5ffe688d30d66734d7c8",
+      "title": "In-House LLM Serving at Netflix",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/a5a8e799ea2c",
+      "publishedAt": "2026-07-17T21:32:39Z",
+      "summary": "By AI Platform’s Model Runtime team and Inference team Introduction Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather than a separate ML silo. Some of those decisions weren’t obvious, and a few revealed their trade-offs only under production load. Th",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*GKGOrp0xddZwHomMhiSeCA.png"
+    },
+    {
+      "id": "cbde4eab477d9e01a416",
+      "title": "The cost of saying yes has changed",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=97604",
+      "publishedAt": "2026-07-17T16:46:47Z",
+      "summary": "The most expensive part of a small feature request used to be writing the code. Now it’s usually the meeting about whether or not to write the code. That’s a real shift, and it quietly breaks a lot of engineering instincts. Engineers learn early that most “small asks” aren’t small: they need tests, a rollout plan, someone to think through the edge cases and own the behavior after it ships. A two-h",
+      "imageURL": null
     }
   ]
 }
