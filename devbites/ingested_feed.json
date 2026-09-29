@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "dbefd3a7c78c8e7d49de",
+      "title": "Your phone is AI’s newest hardware",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/29/your-phone-is-ai-s-newest-hardware/",
+      "publishedAt": "2026-09-29T07:40:00Z",
+      "summary": "Ryan sits down with Div Garg, CEO at AGI Inc., to talk about running AI agents entirely on mobile devices, optimizing models for edge computing chips, and building safety mechanisms into autonomous app interactions.",
+      "imageURL": null
+    },
+    {
+      "id": "573e64b5cbb1ced679ad",
+      "title": "Why model versioning is not enough for production AI",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/28/why-model-versioning-is-not-enough-for-production-ai/",
+      "publishedAt": "2026-09-28T18:24:12Z",
+      "summary": "An MLOps workflow for evaluating deploying and rolling back AI applications",
+      "imageURL": null
+    },
+    {
+      "id": "99e34ba0f85760b98f95",
+      "title": "Is Your “Human-in-the-Loop” Actually Slowing You Down? Here’s What We Learned",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/28/is-your-human-in-the-loop-actually-slowing-you-down-here-s-what-we-learned/",
+      "publishedAt": "2026-09-28T16:41:00Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "cae2fc643322c6e84dc6",
+      "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "publishedAt": "2026-09-28T15:50:00Z",
+      "summary": "Over the last year, agent use of Wrangler has skyrocketed. In March 2026, agents were responsible for a quarter of Wrangler use, up from single-digit percentages the year prior. Last week, agent usage reached 48%. Agents are more prolific users, using almost twice as many distinct commands per day, and are almost four times as likely to use six or more commands. Agents love CLIs. But Wrangler only",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3KR63G9MAXHAG81FC5HKYRY.01M3KR64BVBYV5MM3YBHRRRWGF.png"
+    },
+    {
+      "id": "4095876decdfaf16108b",
+      "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
+      "publishedAt": "2026-09-28T14:51:57Z",
+      "summary": "When we launched Vinext in February, it was the result of an audacious week-long AI-driven experiment to see how far one engineer, and a stack of tokens, could get to replicating the NextJS framework backed by Vite. In the seven months since that experiment, Vinext has grown into a framework that our customers trust and run in production for high-traffic, dynamic applications. Today we are announc",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3AZQWQ4KAE58XPW65NKJGT5.01M3AZQXMAQ87JD2W3YGR0KQ2P.png"
+    },
+    {
+      "id": "952364b32fdd4840a2e1",
+      "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/how-fast-is-the-web/",
+      "publishedAt": "2026-09-28T14:43:05Z",
+      "summary": "If you work in technology, you’re probably reading this on a powerful laptop or flagship mobile on robust, lightning-fast Wi-Fi. This is fantastic for building software, but often is far removed from the reality facing many who are using that software. End users might be nursing a four-year-old budget phone, running low on battery, on a data plan that throttles after 2 GB, living with under-invest",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3CVZZ7QXKD0CNS4EEKTKC2Q.png"
+    },
+    {
       "id": "f17ba435e8d2a7142078",
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
       "sourceName": "Cloudflare Blog",
@@ -15,7 +69,7 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
       "publishedAt": "2026-09-28T13:00:00Z",
-      "summary": "Today we’re introducing Forge , a fresh approach to generating SDKs, CLIs, docs, and libraries. Forge is an open source, pluggable generation pipeline that anyone can deploy and run for free. Forge is early in its life, but already generates the output required for the cf CLI, and over the next few months will power Cloudflare’s API documentation, SDKs, and much more. We built Forge because we nee",
+      "summary": "Today we’re introducing Forge , a fresh approach to generating SDKs, CLIs, docs, and libraries. Forge is an open source, pluggable generation pipeline that anyone can deploy and run for free. Forge is early in its life, but already generates the output required for the cf CLI , and over the next few months will power Cloudflare’s API documentation, SDKs, and much more. We built Forge because we ne",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3J4EWN0BM1HFWCRCV3ND3H8.png"
     },
     {
@@ -62,6 +116,24 @@
       "publishedAt": "2026-09-28T12:47:44Z",
       "summary": "TL;DR: We took long-term conversational memory from F1 0.392 to 0.666 on the LoCoMo benchmark in six days, across 41 experiments and about 1,400 lines of TypeScript. Raw F1 landed at 0.638, against a previous published best of 0.598. The number is not the interesting part. Claude wrote nearly all of the code and ran every experiment. The four interventions that decided the outcome were all a human",
       "imageURL": null
+    },
+    {
+      "id": "ab74b9e1c6a7f1593d5b",
+      "title": "Travel’s AI dilemma at Skift Global Forum",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "summary": "At the “great recalibration”-themed travel conference, Airbnb CEO Brian Chesky called AI “an existential risk” to his company and “literally the best thing to ever happen” to it in the same discussion. That sums up many travel leaders’ push-and-pull relationship with AI.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/42kKrzG4TiYUHyP5JqyTs4/92838da218c78955c0aad7542467a3e8/01_Index-1.png"
+    },
+    {
+      "id": "f052383f2ac8fc674d29",
+      "title": "Small Decisions: Engineering a Leading Model",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/09/28/engineering-system-one",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "summary": "Small Decisions: Engineering a Leading Model Or trying to, at least. My day job has been primarily in AI for three years now, but I’d be the first to admit that’s been almost entirely in one corner of AI: infrastructure, safety, and tools for AI agents. That work has brought me in contact with a lot of the AI science (and I’d dabbled there over the previous decade), but I’m super far from the day-",
+      "imageURL": "/blog/images/hobson_jevbench_trajectory.svg"
     },
     {
       "id": "41d291c6d16ea2a8c89f",
@@ -226,6 +298,15 @@
       "imageURL": "https://static.pingcap.com/files/2026/09/24080925/image-3-1024x556.jpeg"
     },
     {
+      "id": "875978a4e34766131073",
+      "title": "Dropbox CTO Ali Dasdan on moving from AI adoption to transformation",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale",
+      "publishedAt": "2026-09-23T07:00:00Z",
+      "summary": "As AI becomes a starting point for more kinds of work, its usefulness depends on access to an organization’s trusted knowledge and context, including the files, research, feedback, decisions, and project history that give the work meaning. Dropbox helps people bring that context into the supported AI tools they choose while preserving the permissions and controls they expect, so they can spend les",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/september/ali-and-uma-interview/Culture-AliDasdan-StateofAITooling-1440x305-light.png"
+    },
+    {
       "id": "dcfefdd655f2951e9d2c",
       "title": "Multiplayer AI: Why your team (and its agents) need a group chat",
       "sourceName": "Stack Overflow Blog",
@@ -323,6 +404,15 @@
       "publishedAt": "2026-09-21T16:00:37Z",
       "summary": "We’re open-sourcing Rebalancer , the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solve it, and how to debug it. This separation of concerns is crucial to Rebalancer’s usability, scalability, an",
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/09/Rebalancer-Meta-Image-1.png"
+    },
+    {
+      "id": "03823605fd83df81c520",
+      "title": "Introducing our new Dropbox API documentation",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/developers/new-dropbox-api-documentation",
+      "publishedAt": "2026-09-21T14:30:00Z",
+      "summary": "We're excited to announce that our modernized Dropbox API documentation is now live at https://docs.dropboxapi.com . We've rebuilt our API reference to make integrating with Dropbox faster and more intuitive. What’s new Interactive API testing Test endpoints directly in the documentation. No more switching between docs and separate testing tools. You can set parameters, issue API calls, and see re",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/developers/Developers-1-1440x305px-light.png"
     },
     {
       "id": "f07239c5823ee40ec1a0",
@@ -685,15 +775,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*f5bDERtosR0e_DlgBWek-Q.jpeg"
     },
     {
-      "id": "e42d17814d459c86eb32",
-      "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
-      "publishedAt": "2026-09-10T13:00:00Z",
-      "summary": "1.1.1.1 now validates DNSSEC signatures made with ML-DSA-44 , a post-quantum signature algorithm standardized by the National Institute of Standards and Technology (NIST) . This is a first step toward preparing DNSSEC for a future in which today’s signature algorithms are no longer secure. Cloudflare plans to achieve full post-quantum security by 2029 . Much of the work so far has focused on TLS, ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M25DK32HZ1WQH3H12JRZ8W35.01M25DK70WYHHWWR2VQYE94TNP.png"
-    },
-    {
       "id": "a6dc7bc272e3de303ce2",
       "title": "Testing application resilience with Amazon SQS and AWS Fault Injection Service",
       "sourceName": "AWS Architecture Blog",
@@ -719,15 +800,6 @@
       "publishedAt": "2026-09-09T18:30:00Z",
       "summary": "Kubernetes has many ways to describe what is happening on a Node. Readiness, taints, Pod state, labels, annotations, and provider-specific APIs each expose part of the picture. What has been missing is a shared, Kubernetes-owned way to say that a Node is draining , undergoing maintenance, or undergoing Graceful Node Shutdown . Kubernetes v1.37 introduces five well-known Node conditions that provid",
       "imageURL": null
-    },
-    {
-      "id": "77061a8dc60046970ad8",
-      "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
-      "publishedAt": "2026-09-09T13:00:00Z",
-      "summary": "We’ve rewritten the module registry in workerd , the core open-source component of the Workers runtime, to be faster, more standards-compliant, and more closely aligned with Node.js' module registry. Over the past few years, we’ve been adding support for more and more Node.js runtime APIs. The Workers runtime now supports every stable API from Node.js that you might want to use in a serverless con",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M1WCDP58M0ZWWK4EQ5Z60396.01M1WCDPYM384QTHNEZA0WQ8W8.png"
     },
     {
       "id": "009d5c98023fba4a769b",
@@ -773,15 +845,6 @@
       "publishedAt": "2026-09-08T18:30:00Z",
       "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 delivers the next major milestone in the Workload-Aware Scheduling (WAS) journey. In this release, the core Workload and PodGroup APIs—enabling gang scheduling—along with Workload-Aware Preemption (WAP",
       "imageURL": null
-    },
-    {
-      "id": "7b627cb99b71d01f8663",
-      "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
-      "publishedAt": "2026-09-08T13:10:00Z",
-      "summary": "Every time Cloudflare opens a new TLS 1.3 connection to an origin server, we have to make a guess: the protocol requires us to commit to a key agreement algorithm in the very first packet we send, before the origin has told us anything about itself or what it can support. If we guess right, the handshake completes in one round trip. Guess wrong, and the origin replies with a HelloRetryRequest , we",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M1PVTWFH1FTSY24GMGKMD4G2.01M1PVTXAKN3C2KME8M5NF4SS4.png"
     },
     {
       "id": "b3f1d5748d7cd51c1cee",
@@ -1016,6 +1079,15 @@
       "publishedAt": "2026-08-31T18:30:00Z",
       "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37! After a number of releases of work and testing, the built-in StorageVersionMigration API ( storagemigration.k8s.io/v1 ) and control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters. The problem with stale storage versions In Kubernetes, ",
       "imageURL": null
+    },
+    {
+      "id": "32666d093ba2af855ece",
+      "title": "Testing cookie behavior across hundreds of web surfaces with our in-house auditor",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
+      "publishedAt": "2026-08-31T17:00:00Z",
+      "summary": "As AI and automation become a bigger part of digital experiences, it’s increasingly important that people stay in control of the choices they make. They should be able to benefit from new technology without losing the preferences they’ve already expressed. Cookie banners are one of the most familiar places where people express those preferences online. They’re also one of the most visible parts of",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/cookie-auditor/Security-Inside our in house cookie auditor-1440x305-light.png"
     },
     {
       "id": "0319ed084ea27c53a539",
@@ -1333,6 +1405,15 @@
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/wRqifAA3sZ1z3kJIX2UKM/8f2619305be2fe7039bf68c26429a8c1/Blog_index_image_1250x1250_2x.png"
     },
     {
+      "id": "c1a49ce9bd0f47f7d934",
+      "title": "Improving infrastructure efficiency for growing demand in the age of AI",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/infrastructure/improving-infrastructure-efficiency-for-growing-demand-in-the-age-of-ai",
+      "publishedAt": "2026-08-18T17:00:00Z",
+      "summary": "As demand for AI continues to grow, so does the infrastructure needed to support it. Much of the industry's attention has focused on building more: more data centers, more servers, and more power. But building new infrastructure is only part of the challenge. Engineering teams are also working within constraints on energy, cooling, hardware availability, and physical space, making it increasingly ",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/headers/Infrastructure-Improving efficiency and resource utilization across our infrastructure in the AI era-1440x305-light.png"
+    },
+    {
       "id": "7ee5a110ae3284b06ae7",
       "title": "Consistency is the new latency: AI at the data layer",
       "sourceName": "AWS Architecture Blog",
@@ -1340,15 +1421,6 @@
       "publishedAt": "2026-08-18T11:13:20Z",
       "summary": "As AI applications scale from reactive bots to autonomous agents, their reliability is bound to the speed and accuracy of the data layer beneath them. The integrity crisis nobody is talking about There’s a quiet assumption baked into most AI architectures today regarding data layer consistency, and it’s costing companies more than they realize. The assumption is that the data your AI agent reads i",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/17/ARCHBLOG-1404-1.png"
-    },
-    {
-      "id": "b18ec46a915d4c4b622c",
-      "title": "Building an agentic SDLC with a QA engineering mindset",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/18/building-an-agentic-sdlc-with-a-qa-engineering-mindset/",
-      "publishedAt": "2026-08-18T07:40:00Z",
-      "summary": "Ryan welcomes Suneet Malhotra, Senior Manager of Test Engineering at Motorola Solutions, to chat about building end-to-end agentic SDLC pipelines using MCPs, using Cohen’s kappa to evaluate multiple LLMs-as-judges, and how you can improve requirements by shifting QA left through a specification enrichment stage immediately after the design phase.",
-      "imageURL": null
     },
     {
       "id": "f1acc8b7bb28ac144b77",
@@ -1384,24 +1456,6 @@
       "url": "http://notes.eatonphil.com/2026-08-16-transactions-in-cassandra.html",
       "publishedAt": "2026-08-16T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "569e9c1c78c47a11c443",
-      "title": "No Dumb Questions: What is AI context architecture? Why not just build your own?",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/14/ndq-ai-context-architecture-build-buy/",
-      "publishedAt": "2026-08-14T18:00:00Z",
-      "summary": "In this No Dumb Questions, Phoebe asks Stack’s Engineering Manager Doug Whitley and Product Manager Ash Zade everything she wants to know about AI context architecture. What exactly is it? Why is it so important? What makes for good AI context architecture? Why buy one when you can build your own?",
-      "imageURL": null
-    },
-    {
-      "id": "8cd1240ab3157e8e6a05",
-      "title": "Solving integration woes with a hackathon",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/14/solving-integration-woes-with-a-hackathon/",
-      "publishedAt": "2026-08-14T07:40:00Z",
-      "summary": "Ryan welcomes Meryll Blanchet, Director of Engineering for Adobe Brand Visibility, to chat about Adobe’s recent acquisition of Semrush, how Adobe Brand Visibility was born from Semrush’s AI visibility product and Adobe’s LLM Optimizer, and how Adobe used a three-day internal hackathon instead of a large-scale infrastructure integration to quickly deliver value to customers.",
       "imageURL": null
     },
     {
@@ -1745,60 +1799,6 @@
       "publishedAt": "2026-07-21T17:01:04Z",
       "summary": "How we built a Transformer-based sequence model that encodes years of guest behavior to surface the right listings at the right time. By: Daochen Zha , Chun How Tan , Xin Liu , Bin Xu , Han Zhao , Xiaowei Liu , Jun Shi , Tracy Yu , Hui Gao , Huiji Gao , Liwei He , Michael Kinoti , Stephanie Moyerman , and Sanjeev Katariya Introduction Planning a trip on Airbnb rarely happens in a single session. A",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*KJ9lshQ8N_AqxrArGj7BoQ.jpeg"
-    },
-    {
-      "id": "5a3e6c30732c3e5cd4f5",
-      "title": "Analyzing the evidence that helps businesses win “product not received” disputes",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes",
-      "publishedAt": "2026-07-21T00:00:00Z",
-      "summary": "To understand what can influence win rates, we analyzed evidence packets from one million disputes over a 16-week period. Here’s what the data shows and what it means for how you mitigate disputes.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3vypk0Ytlyr2remavexqoj/e6a58a7abd1166835b40c3d3d63881a4/index2-disputes.jpg"
-    },
-    {
-      "id": "6f15f8e19411602adaf9",
-      "title": "Some more things about Django I've been enjoying",
-      "sourceName": "Julia Evans",
-      "url": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/",
-      "publishedAt": "2026-07-21T00:00:00Z",
-      "summary": "Hello! I’m on a funny journey right now where I’m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend. It’s kind of an interesting journey because it doesn’t necessarily feel “easy” to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there’s a lot I need to learn. So here are some Dja",
-      "imageURL": null
-    },
-    {
-      "id": "d7d169aba500ee31a448",
-      "title": "Pushing 4.7M Commits an Hour",
-      "sourceName": "Matt Rickard",
-      "url": "https://mattrickard.com/pushing-47m-commits-an-hour",
-      "publishedAt": "2026-07-21T00:00:00Z",
-      "summary": "The winning software teams will throw away orders of magnitude more code than they merge. I ran a benchmark against the custom git server I’m building, 4.79 million pushes per hour to a single repository across 1,408 branches (p50, 322ms). 27.8 million clones per hour of a repository containing the NextJS starter template (p50, 220ms). 4.79M commits won’t make it to master, but the frontier labs a",
-      "imageURL": null
-    },
-    {
-      "id": "db7ec98e5716fc31dfec",
-      "title": "Aurora DSQL: Scalable, Multi-Region OLTP",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/07/19/dsql-paper",
-      "publishedAt": "2026-07-19T00:00:00Z",
-      "summary": "Aurora DSQL: Scalable, Multi-Region OLTP A paper! Our new paper, Aurora DSQL: Scalable, Multi-Region OLTP , is now available on Arxiv. I’m excited about this one: it’s a fully end-to-end look at how Aurora DSQL works, from query processing, to transactions, to replication, to the control plane. We’ve shared most of this content before in other forms, on this blog, on Marc Bowes’ Blog , Werner’s Bl",
-      "imageURL": "/blog/images/dsql_fig6.png"
-    },
-    {
-      "id": "5ffe688d30d66734d7c8",
-      "title": "In-House LLM Serving at Netflix",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/a5a8e799ea2c",
-      "publishedAt": "2026-07-17T21:32:39Z",
-      "summary": "By AI Platform’s Model Runtime team and Inference team Introduction Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather than a separate ML silo. Some of those decisions weren’t obvious, and a few revealed their trade-offs only under production load. Th",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*GKGOrp0xddZwHomMhiSeCA.png"
-    },
-    {
-      "id": "cbde4eab477d9e01a416",
-      "title": "The cost of saying yes has changed",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=97604",
-      "publishedAt": "2026-07-17T16:46:47Z",
-      "summary": "The most expensive part of a small feature request used to be writing the code. Now it’s usually the meeting about whether or not to write the code. That’s a real shift, and it quietly breaks a lot of engineering instincts. Engineers learn early that most “small asks” aren’t small: they need tests, a rollout plan, someone to think through the edge cases and own the behavior after it ships. A two-h",
-      "imageURL": null
     }
   ]
 }
