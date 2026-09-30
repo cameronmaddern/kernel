@@ -1,6 +1,132 @@
 {
   "articles": [
     {
+      "id": "729dbef0a72825845128",
+      "title": "RAG Complexity Is a Bet Against the Model",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/rag-complexity-bet-against-model",
+      "publishedAt": "2026-09-30T12:00:17Z",
+      "summary": "A single Postgres table with two indexes outscored every published RAG pipeline on MuSiQue and ranked third on BRIGHT against systems with fine-tuned retrievers. While the numbers are great, they're really just to prove that more is less when it comes to these systems. Every architectural addition in a RAG pipeline is a bet that the model will keep needing that help. A planner because today's mode",
+      "imageURL": null
+    },
+    {
+      "id": "45b8038dfbdff015617e",
+      "title": "Vector and Full-Text Search Explained: Why AI Agents Need Both",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=35129",
+      "publishedAt": "2026-09-30T00:03:48Z",
+      "summary": "Key Takeaways Hybrid retrieval catches the identifiers embeddings miss and the paraphrased questions keyword search misses. Reciprocal rank fusion merges keyword and semantic results by rank, without reconciling incompatible scores. Agent retrieval depends on tenant filters, permissions, and fresh transactional data as much as on document similarity. Unifying SQL and vector data removes index sync",
+      "imageURL": null
+    },
+    {
+      "id": "8dbf75dd8fc7e7e068b1",
+      "title": "Personalization without user identity",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/8e7891a1d486",
+      "publishedAt": "2026-09-29T17:01:01Z",
+      "summary": "How Airbnb uses proximity signals to personalize without relying on individual user history. By : Wei Jiang , Bin Xu , Bharathi Thangamani , Weiwei Guo , Sundar Srinivasavaradhan , Tracy Yu , Huiji Gao , Swapnil Ghike , Michael Kinoti Great personalization starts with knowing your user. But what happens when the user is a stranger? A significant share of Airbnb users arrive without a login, withou",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*dluIy8gak-FybuiuGcqXLw.png"
+    },
+    {
+      "id": "6ea45dde02ff671b46a6",
+      "title": "Build adaptive AI interfaces with the AG-UI protocol, agent swarms, and Nova Act on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/build-adaptive-ai-interfaces-with-the-ag-ui-protocol-agent-swarms-and-nova-act-on-aws/",
+      "publishedAt": "2026-09-29T13:44:23Z",
+      "summary": "Your generative AI applications produce different results each time they run. One medical scan shows a single fracture, and another reveals twenty ambiguous regions that require expert review. Static interfaces can’t adapt to this variability. In this post, we show you how to build interfaces that automatically adapt to your AI’s variable outputs. This approach reduces interface development time a",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/28/ARCHBLOG-1366-1.png"
+    },
+    {
+      "id": "fabfe69a8a2b717eaa32",
+      "title": "Using AI to chart a course for our post-quantum migration",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
+      "publishedAt": "2026-09-29T13:00:00Z",
+      "summary": "As laboratories around the world race to build out a cryptographically relevant quantum computer , we at Cloudflare are racing towards a 2029 target deadline for full post-quantum readiness . While we’ve already transitioned many of our products to post-quantum encryption, we still have work to do to support post-quantum authentication and achieve full post-quantum readiness across our platform. W",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3NF5CE1NWTNNCSR9EKXSF87.01M3NF5CZVBP4EQSN6G4FQQC3S.png"
+    },
+    {
+      "id": "e006b93f8b249b3c144a",
+      "title": "Building a certificate authority for the whole Internet",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+      "publishedAt": "2026-09-29T13:00:00Z",
+      "summary": "Twelve years ago, during Birthday Week 2014, we turned on Universal SSL and nearly doubled the number of encrypted sites on the web overnight, giving free TLS to every site behind Cloudflare, including the ones that never paid us a cent. Encryption stopped being an expensive, time-intensive undertaking and instead became the default. For Birthday Week this year, we are taking the next step on that",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3NDS17PAN9XKW88493GE864.01M3NDS24T3Y1A90FZDRFXYHZD.png"
+    },
+    {
+      "id": "86b7fcca6eeed63cf045",
+      "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ai-era-framework/",
+      "publishedAt": "2026-09-29T13:00:00Z",
+      "summary": "In July, AI agents testing new cybersecurity models compromised parts of OpenAI’s infrastructure and Hugging Face’s production environment. We've all just witnessed one of the first AI-driven successful cyber attacks. When given a task, the agents ignored existing guardrails and autonomously discovered previously unknown vulnerabilities, recovered exposed credentials, moved between cloud environme",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3N47JY7FECSCBYGK1C1WXDH.01M3N47KK4EM1CND4FG8GM3FT6.png"
+    },
+    {
+      "id": "c066c42842bf5e9b930b",
+      "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
+      "publishedAt": "2026-09-29T13:00:00Z",
+      "summary": "When you type in an address into a browser, how do you know you’re connecting to the right website? The Web Public Key Infrastructure (Web PKI) is the complex and distributed ecosystem of policies, protocols, and infrastructure operators that helps you trust that you’re not being misdirected to an incorrect or malicious website. In the past few decades, this ecosystem has undergone significant cha",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3MX3H0DJVT3EQ9XF4GKFX9C.01M3MX3HYF5RPW6B0KQPFMJ8QS.png"
+    },
+    {
+      "id": "d8ecb294593159cc1847",
+      "title": "We tested our own WAF with frontier AI models. Here’s what we found",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
+      "publishedAt": "2026-09-29T13:00:00Z",
+      "summary": "“Is your WAF ready for frontier AI models?” We keep hearing this question from our customers, so we decided to find out. When it comes to exploiting applications, what LLMs are really good at is iterating and mutating attack payloads faster than any human hacker could do. LLMs can use real-time responses to iterate and change their techniques by, for example, testing different encodings, sending t",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3MTAS2TXJ3YNP9MKFC831W3.01M3MTASYEWPJWSVRZFBTG2NGD.png"
+    },
+    {
+      "id": "d8c43f9aa1b35e9006ec",
+      "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/threat-signals/",
+      "publishedAt": "2026-09-29T13:00:00Z",
+      "summary": "Organizations can now scale threat intelligence expertise the way they scale infrastructure. Threat intelligence analysts and network defenders have long automated the ingestion of structured threat feeds to help enrich their SIEM or WAF. The harder work has always been unstructured reporting: turning a research post into indicators your tools can use, without losing the context that explains why ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3MS5SC9YKN4DB4S86N0T6KH.01M3MS5TDS5PQPN48TWV8JH094.png"
+    },
+    {
+      "id": "368653ddd4d48299208e",
+      "title": "Is your domain using post-quantum encryption? Now you can see for yourself",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/post-quantum-visibility/",
+      "publishedAt": "2026-09-29T13:00:00Z",
+      "summary": "Today, we are introducing additional post-quantum (PQ) cryptography visibility tools into Cloudflare's Application Security and Logs products. You can now inspect and graph the adoption of post-quantum TLS 1.3 encryption for live traffic from directly within Logpush , Log Explorer , and the HTTP Traffic Analytics dashboard. By surfacing the key exchange algorithm negotiated on every incoming reque",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3N38XJRGGRRGGBQ7NTTVN29.01M3N38Y5PW9W05SZSG2SAMQZ6.png"
+    },
+    {
+      "id": "a5b98eda460e15a3ee35",
+      "title": "Enforce positive security with Cloudflare Application Profiles",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/application-profiles/",
+      "publishedAt": "2026-09-29T13:00:00Z",
+      "summary": "Today, we are launching Application Profiles, a seamless way to enforce a positive security policy. By analyzing the structure and format of HTTP requests and identifying deviations, Cloudflare can help you significantly reduce the attack surface area. Every customer we speak to wants to know how we can protect them from attacks that use frontier AI models. This has become the number one priority ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3B09CMJMHVJCVMPMCFARRCT.01M3B09DCPG1A08FA7FTWA6PR9.png"
+    },
+    {
+      "id": "acb596a8bf957b68efdc",
+      "title": "Preventing quantum downgrade attacks against IPsec",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ipsec-downgrade-protection/",
+      "publishedAt": "2026-09-29T13:00:00Z",
+      "summary": "For Birthday Week, Cloudflare is helping one of the Internet’s core security protocols develop stronger protections against quantum downgrade attacks. To protect our customers and the Internet at large, we worked with the IETF to develop a mitigation against downgrade attacks on IPsec, which we’ve implemented and made available in beta across our IPsec products. The world is racing to build the fi",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3PBXV6RMBDAPYBPS4CSKCS9.01M3PBXVX4E5746D4FX9F3R8V5.png"
+    },
+    {
+      "id": "229fbce2093da7fcbaed",
+      "title": "Evolving our calendar assistant Reclaim to be AI-native without starting over",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/machine-learning/evolving-calendar-assistant-reclaim-to-be-ai-native",
+      "publishedAt": "2026-09-29T13:00:00Z",
+      "summary": "Calendars hold more than just blocks of time. They reflect how people plan their days, coordinate with others, and make room for what matters to them. Reclaim , the Dropbox-owned calendar assistant , helps manage that complexity by using AI to find and adjust time for tasks, habits, and meetings. That approach works well when inputs and expected outcomes are clear. But people also use Reclaim for ",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/september/reclaim-2-0/Machine Learning-Evolving Reclaim to be ai native-1440x305-light.png"
+    },
+    {
       "id": "dbefd3a7c78c8e7d49de",
       "title": "Your phone is AI’s newest hardware",
       "sourceName": "Stack Overflow Blog",
@@ -8,6 +134,15 @@
       "publishedAt": "2026-09-29T07:40:00Z",
       "summary": "Ryan sits down with Div Garg, CEO at AGI Inc., to talk about running AI agents entirely on mobile devices, optimizing models for edge computing chips, and building safety mechanisms into autonomous app interactions.",
       "imageURL": null
+    },
+    {
+      "id": "15caadab6491fa6f9993",
+      "title": "Helping personal agents shop more intelligently and reliably with Link",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "summary": "As agents take on more purchases, agent builders have increasingly asked us to help agents navigate checkout and earn consumer trust. Today, we’re sharing three major improvements to support this broader set of needs.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/259tRMFUDzwXlrETBMQId4/a6af0d366e1e601e70b52c7f071fa007/index-5.png"
     },
     {
       "id": "573e64b5cbb1ced679ad",
@@ -107,15 +242,6 @@
       "publishedAt": "2026-09-28T13:00:00Z",
       "summary": "Today we’re announcing the first public experimental preview of a feature to better support native Rust code and even Tokio-based applications just running natively on Workers: first-class support for the Emscripten wasm32-unknown-emscripten Rust compiler target on the wasm-bindgen open source toolchain and Cloudflare’s Rust Workers. wasm-bindgen is the open source toolchain powering Rust-based We",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3AJHGRFR0ZE6MB7TYYXX16K.01M3AJHKNFWTPGSZVRX4VC9KM0.png"
-    },
-    {
-      "id": "8832962b230b1e72d0f8",
-      "title": "41 Experiments in 6 Days: What the Human Was Actually For",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/41-experiments-6-days-what-human-was-for",
-      "publishedAt": "2026-09-28T12:47:44Z",
-      "summary": "TL;DR: We took long-term conversational memory from F1 0.392 to 0.666 on the LoCoMo benchmark in six days, across 41 experiments and about 1,400 lines of TypeScript. Raw F1 landed at 0.638, against a previous published best of 0.598. The number is not the interesting part. Claude wrote nearly all of the code and ran every experiment. The four interventions that decided the outcome were all a human",
-      "imageURL": null
     },
     {
       "id": "ab74b9e1c6a7f1593d5b",
@@ -262,15 +388,6 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-11.59.36-AM.png"
     },
     {
-      "id": "277105ae8fc14d7aa713",
-      "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
-      "publishedAt": "2026-09-24T15:00:00Z",
-      "summary": "On September 4, 2026, Oren Yomtov, a security researcher from Accomplish , responsibly reported a vulnerability affecting Cloudflare Containers and Cloudflare Sandboxes (which is built on Containers), through Cloudflare’s bug bounty program . Cloudflare has fully remediated the vulnerability, and we have no evidence that customer data has been compromised. This post was prepared in collaboration w",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M38DQFQRTYYSM43H964E1E3F.01M38DQGBNEE0N3C6WAXNMGS0H.png"
-    },
-    {
       "id": "78fec53404815925d4f0",
       "title": "Bringing Private Processing to Meta AI Glasses",
       "sourceName": "Meta Engineering",
@@ -332,24 +449,6 @@
       "publishedAt": "2026-09-22T15:06:15Z",
       "summary": "As teams put AI agents to work, they need to move quickly without losing control of what they deploy. They’re combining models, tools, and infrastructure from across a fast-changing ecosystem. Making those pieces work together and keeping them accountable as the stack evolves is becoming a core part of building AI applications. Docker’s approach to this challenge is providing a trusted, common fou",
       "imageURL": null
-    },
-    {
-      "id": "6a96baabbc49e6fb46c8",
-      "title": "We just shipped support for the ugliest part of HTTP: Vary",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/vary-support/",
-      "publishedAt": "2026-09-22T14:04:31Z",
-      "summary": "The response header, Vary , has been called “ the ugliest part of HTTP that we haven't yet improved. ” The same post describes it as a “horrible, kludgy mechanism” with “pretty abysmal interoperability” across intermediaries. That is usually where sensible engineers back away slowly with their hands raised. That’s not exactly an endorsement of Vary , but ugly doesn’t mean useless. One URL can have",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2RH1BWX8086HXJT21CBD9PE.01M2RH1CGYTGNVA73ZP6Z4GJBR.png"
-    },
-    {
-      "id": "ab302bb0477e2ce3e097",
-      "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/worker-previews/",
-      "publishedAt": "2026-09-22T13:00:00Z",
-      "summary": "Nothing is worse than testing out a change that works in staging, only to see it behave differently in production. That’s why we wanted to give you an environment that’s as close to production as possible — so you can battle-test your changes and make sure they behave exactly as you expect them to. Agents are helping us push more lines of code than ever before, and larger changes mean more ground ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M31XD8PJ2SDSWTWFPP0GSF3Z.01M31XD9GVMHJJD2RAVT50XFTF.png"
     },
     {
       "id": "03fcbb2e3fc181ffc8b1",
@@ -415,15 +514,6 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/developers/Developers-1-1440x305px-light.png"
     },
     {
-      "id": "f07239c5823ee40ec1a0",
-      "title": "Python Workers are now generally available",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/python-workers-ga/",
-      "publishedAt": "2026-09-21T13:00:00Z",
-      "summary": "We introduced Python Workers two years ago, providing a way to run Python applications in the Cloudflare Workers runtime. Our goal was to make it as simple to write Workers in Python as it is in TypeScript, and to make the ecosystem of Python packages and frameworks “just work”. Today, Python Workers are now generally available (GA). What does GA mean? It means Python is now a first-class, fully s",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2V34BA05P39V3QCVSXF412X.01M2V34C4FZEN00M4XFVXH4W2K.png"
-    },
-    {
       "id": "70c51613decebaa48530",
       "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
       "sourceName": "Meta Engineering",
@@ -449,15 +539,6 @@
       "publishedAt": "2026-09-18T21:33:13Z",
       "summary": "ReadyOn , an AWS Partner delivering an intelligent Labor Orchestration Platform for Fortune 100 enterprises, runs a multi-tenant platform on Amazon Elastic Kubernetes Service (Amazon EKS) that handles some of the most sensitive data in enterprise IT. Kubernetes is central to that platform, and it is also one of the most complex surfaces to secure. A default Kubernetes deployment is not secure out ",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/10/ARCHBLOG-1562-1.png"
-    },
-    {
-      "id": "eb5e0e2da34b5b551554",
-      "title": "Saving another 100TB of RAM with math (and Rust)",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
-      "publishedAt": "2026-09-18T17:23:58Z",
-      "summary": "Cloudflare operates at a scale so big that even after working here for years, it doesn’t seem real. We have thousands of servers all over the world with petabytes of RAM and millions of CPU cores, and all of it is pushed to the max. As vast as those resources feel, they are still finite, and when you need every service to run on every node, it doesn’t leave room for wasted space. At this scale, sm",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2PFYDRYA8R4X8XVQJYTED8Q.01M2PFYEWJNSK872MVT1JSCHA4.png"
     },
     {
       "id": "d32dd346f436124a3290",
@@ -568,15 +649,6 @@
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/4eii8vuv5rIus0HNvlMEs6/1f5a15bc4f8dca9c66bec691f507befb/Specs__1250x1250px_with_100_padding_2x.png"
     },
     {
-      "id": "896933b41785afa3ba4c",
-      "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
-      "publishedAt": "2026-09-16T20:06:17Z",
-      "summary": "A modern storefront can look perfectly healthy while malicious JavaScript works underneath: siphoning affiliate revenue, hijacking searches and clicks, tampering with analytics, or asking a remote server what to execute next. Pages load, products appear, and checkout works — yet the browser may be quietly doing something the site owner never authorized. That is the blind spot our Client-Side Secur",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2KND4WW7J8M4KCQSHWGS28X.01M2KND6MD5RWBZG4CTV12T33B.png"
-    },
-    {
       "id": "b402f515f974f7c95e16",
       "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
       "sourceName": "Kubernetes Blog",
@@ -620,24 +692,6 @@
       "publishedAt": "2026-09-15T17:06:18Z",
       "summary": "How Airbnb’s agent harness transforms unstructured data exploration by encoding scientific methodology into scalable, reproducible, and audit-ready infrastructure. By : Wren Dougherty Ask a coding agent to analyze 100,000 customer support conversations and within minutes you’ll have a polished taxonomy, precise prevalence numbers, and an executive-ready summary. What you can’t see is the investiga",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*rruMfjz5gfGgOaeF3crcJQ.jpeg"
-    },
-    {
-      "id": "a7565059b22e4fb45443",
-      "title": "Have it both ways: stay discoverable in search while disallowing AI training",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
-      "publishedAt": "2026-09-15T13:00:00Z",
-      "summary": "Without proper controls, website owners have long faced a difficult tradeoff: allow your content to be used for AI training, or risk losing discoverability in search. That tradeoff exists because some of the largest organizations on the Internet use mixed-use crawlers: a single crawler serving both search and AI training. Refuse one, and you refuse the other. Today, Cloudflare is announcing a new ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2H2Z9EEQXN77GRVF484P66A.01M2H2ZAMANYA3DTBA92G3WQ5X.png"
-    },
-    {
-      "id": "cb8e031cc9ea866cd95a",
-      "title": "Give every teammate and agent the right level of access to your Workers",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-granular-authorization/",
-      "publishedAt": "2026-09-15T13:00:00Z",
-      "summary": "As more teams — and now agents — build applications on Cloudflare's Developer Platform, having the right access controls is crucial to allow you to ship safely. After all, the last thing you want is for an agent to make a change in production, just because it was granted more access than it needs. Now, you can give a teammate or agent access to a specific Worker, so that they can only make changes",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KW448A863P1CW4V1VXP9CBBR.png"
     },
     {
       "id": "71fc2221d1295bd61d1d",
@@ -719,15 +773,6 @@
       "publishedAt": "2026-09-11T14:08:01Z",
       "summary": "Authors : Hyunsoo Kim, Chloe Kwak Learning level : 300 – Advanced Post type : Best Practices Every inventory manager faces the same question each morning: How much should I order today? The answer depends on dozens of variables (sales history, upcoming promotions, pricing changes, day-of-week seasonality, supplier lead times) and the cost of getting it wrong is asymmetric. Over-order and you carry",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/09/arch-1461-figure-1.png"
-    },
-    {
-      "id": "ef76bf51526ce152a6db",
-      "title": "Introducing automatic remediation policies with Cloudflare CASB",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/casb-policies/",
-      "publishedAt": "2026-09-11T13:00:00Z",
-      "summary": "Today, we’re making Cloudflare CASB more powerful than ever by introducing automatic remediation policies. This means security teams can now design event-driven logic to revoke risky file shares and dispatch custom webhooks, without manual intervention. When we launched Cloudflare CASB , a cloud access security broker, we wanted to provide security teams complete visibility into the posture of the",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M2842WCZ10Q81ZNG6FHF2FAJ.01M2842X2Z3B513P6VHC1SXMTC.png"
     },
     {
       "id": "5ea9794234a5006eda2c",
@@ -1117,15 +1162,6 @@
       "imageURL": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/pod-certificates-architecture.svg"
     },
     {
-      "id": "01904d966ddbac17f962",
-      "title": "Prisma ORM with TiDB: The Serverless Setup Guide for AI Apps",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34714",
-      "publishedAt": "2026-08-28T16:44:33Z",
-      "summary": "Key Takeaways TiDB is MySQL-compatible, so Prisma connects with provider = \"mysql\" and existing MySQL schemas work unchanged. Use the @tidbcloud/prisma-adapter to query over HTTPS instead of TCP — this is required for serverless functions and edge runtimes (Vercel Edge, Cloudflare Workers) and avoids TiDB Cloud’s connection limits. The adapter only covers Prisma Client queries. Migrations, db push",
-      "imageURL": "https://static.pingcap.com/files/2026/08/26130631/image-5-1024x150.png"
-    },
-    {
       "id": "3e7c8a6145f26eef9bec",
       "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
       "sourceName": "Netflix TechBlog",
@@ -1412,15 +1448,6 @@
       "publishedAt": "2026-08-18T17:00:00Z",
       "summary": "As demand for AI continues to grow, so does the infrastructure needed to support it. Much of the industry's attention has focused on building more: more data centers, more servers, and more power. But building new infrastructure is only part of the challenge. Engineering teams are also working within constraints on energy, cooling, hardware availability, and physical space, making it increasingly ",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/headers/Infrastructure-Improving efficiency and resource utilization across our infrastructure in the AI era-1440x305-light.png"
-    },
-    {
-      "id": "7ee5a110ae3284b06ae7",
-      "title": "Consistency is the new latency: AI at the data layer",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/consistency-is-the-new-latency-ai-at-the-data-layer/",
-      "publishedAt": "2026-08-18T11:13:20Z",
-      "summary": "As AI applications scale from reactive bots to autonomous agents, their reliability is bound to the speed and accuracy of the data layer beneath them. The integrity crisis nobody is talking about There’s a quiet assumption baked into most AI architectures today regarding data layer consistency, and it’s costing companies more than they realize. The assumption is that the data your AI agent reads i",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/17/ARCHBLOG-1404-1.png"
     },
     {
       "id": "f1acc8b7bb28ac144b77",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-07-23T00:00:00Z",
       "summary": "We're going to look at three different kinds of benchmarks, one set of calculations for baseline numbers for performance \"napkin math\" estimates, one set of AI model evals, and one on car tires. To build my intuition for things, I like thinking about them before seeing the explanation, so these are presented with the benchmark information first and the explanation later in case you want to think a",
       "imageURL": "https://danluu.com/images/exercise-7/deep-swe.webp"
-    },
-    {
-      "id": "464364d7f65e15a5cb42",
-      "title": "Not just development, distribution of software may change as well",
-      "sourceName": "Salvatore Sanfilippo (antirez)",
-      "url": "http://antirez.com/news/170",
-      "publishedAt": "2026-07-22T14:52:39Z",
-      "summary": "Even if you are as averse to semver as I used to be in the course of my programming activity, you can still think of open source software distribution as something that used to follow a fixed number of steps. There is a branch where developments happen, and this branch oftentimes happens to be not really ready for reliable work. Then you freeze the developments for a certain amount of time (even i",
-      "imageURL": null
-    },
-    {
-      "id": "edb9884c0bcf8fecb5bf",
-      "title": "Everyone Should Know SIMD",
-      "sourceName": "Mitchell Hashimoto",
-      "url": "https://mitchellh.com/writing/everyone-should-know-simd",
-      "publishedAt": "2026-07-22T00:00:00Z",
-      "summary": null,
-      "imageURL": null
-    },
-    {
-      "id": "c6a0b2f736962c9285d9",
-      "title": "Personalizing Airbnb search by learning from the guest journey",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/bcefd1915624",
-      "publishedAt": "2026-07-21T17:01:04Z",
-      "summary": "How we built a Transformer-based sequence model that encodes years of guest behavior to surface the right listings at the right time. By: Daochen Zha , Chun How Tan , Xin Liu , Bin Xu , Han Zhao , Xiaowei Liu , Jun Shi , Tracy Yu , Hui Gao , Huiji Gao , Liwei He , Michael Kinoti , Stephanie Moyerman , and Sanjeev Katariya Introduction Planning a trip on Airbnb rarely happens in a single session. A",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*KJ9lshQ8N_AqxrArGj7BoQ.jpeg"
     }
   ]
 }
