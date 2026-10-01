@@ -1,13 +1,139 @@
 {
   "articles": [
     {
-      "id": "729dbef0a72825845128",
-      "title": "RAG Complexity Is a Bet Against the Model",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/rag-complexity-bet-against-model",
-      "publishedAt": "2026-09-30T12:00:17Z",
-      "summary": "A single Postgres table with two indexes outscored every published RAG pipeline on MuSiQue and ranked third on BRIGHT against systems with fine-tuned retrievers. While the numbers are great, they're really just to prove that more is less when it comes to these systems. Every architectural addition in a RAG pipeline is a bet that the model will keep needing that help. A planner because today's mode",
+      "id": "59db27e199aa77a4920c",
+      "title": "Running multi-day AZ evacuation drills with ARC Zonal Shift",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/running-multi-day-az-evacuation-drills-with-arc-zonal-shift/",
+      "publishedAt": "2026-09-30T19:01:57Z",
+      "summary": "Running a multi-day Availability Zone evacuation drill with ARC Zonal Shift is an effective way to prove your application can withstand a sustained impairment. Multi-Availability Zone deployment is an architectural best practice for building resilient applications on AWS, but there is a gap between deploying multi-AZ and proving it works under sustained stress. Traditional disaster recovery (DR) t",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/24/ARCHBLOG-1571-1.png"
+    },
+    {
+      "id": "0f6f6a7aa0786f2e5e63",
+      "title": "How MHK built a HIPAA-eligible agentic AI solution on Amazon Bedrock",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-mhk-built-a-hipaa-eligible-agentic-ai-solution-on-amazon-bedrock/",
+      "publishedAt": "2026-09-30T18:30:24Z",
+      "summary": "Healthcare organizations face an increasingly complex challenge: processing vast volumes of medical documents, including clinical records, claims, prior authorizations, appeals, and pharmacy data, while maintaining strict HIPAA compliance and security standards. Traditional approaches require dedicated engineering teams to build individual AI systems for each use case, each needing its own complia",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/25/ARCHBLOG-1486-1.png"
+    },
+    {
+      "id": "181f286d75cc8395ff31",
+      "title": "Organizations need decision-grade knowledge. AI makes it urgent.",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/30/organizations-need-decision-grade-knowledge-ai-makes-it-urgent/",
+      "publishedAt": "2026-09-30T17:00:00Z",
+      "summary": "AI can make the first part remarkably fast. It can find the page, the discussion and the person who might know. The harder work begins when those sources disagree, or when they become stale.",
       "imageURL": null
+    },
+    {
+      "id": "d8b7ee0502c26764912d",
+      "title": "Anyone can start building verified knowledge with Stack Internal",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/30/anyone-can-start-building-verified-knowledge-with-stack-internal/",
+      "publishedAt": "2026-09-30T16:00:00Z",
+      "summary": "Stack Internal transforms your daily work into a living memory that’s shared with the rest of your team. Now anyone can create and share their knowledge in a Stack Internal workspace for free by visiting stackinternal.com.",
+      "imageURL": null
+    },
+    {
+      "id": "d69ce519344881b0e0b7",
+      "title": "Getting ready for 2026 results: A look back on Developer Survey findings",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/09/30/getting-ready-for-2026-results-a-look-back-on-developer-survey-findings/",
+      "publishedAt": "2026-09-30T14:00:00Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "59c859d93192a4e553d0",
+      "title": "Normalizing a Wide Well and Pipeline Telemetry Table Without Re-Ingesting History",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/normalizing-wide-well-pipeline-telemetry-table-without-re-ingesting-history",
+      "publishedAt": "2026-09-30T13:58:45Z",
+      "summary": "An oilfield SCADA migration guide: reshape a wide sensor table into a narrow hypertable plus a metadata table, in place, with your dashboards still running. Every new instrument the field commissions turns into a schema change for you. A casing-pressure transmitter goes on a pad, a flow computer lands on a gathering line, and your wide telemetry table gets another indexed column on top of years of",
+      "imageURL": "https://assets.tigerdata.com/blog/2026/09/normalizing-well-pipeline.svg"
+    },
+    {
+      "id": "df82c40b0aef17aac822",
+      "title": "Cloudflare Impact reaches $100 million in donations",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/100-million-donations/",
+      "publishedAt": "2026-09-30T13:01:55Z",
+      "summary": "This week, Cloudflare's Impact programs will reach $100 million in donated services. It's a significant milestone, and one that we are proud of because it means that thousands of organizations, like journalism outlets, civil society, state and local governments, election management bodies, and public schools are being protected from cyberattacks. But Cloudflare's Impact programs have never been ab",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3RZ3WTX78RCB7KKEB1T8J44.01M3RZ3XRZSENAMJGQMGNWZDHZ.png"
+    },
+    {
+      "id": "f5c8ce506653d38da1fd",
+      "title": "Cut your AI spend with AI Gateway's Auto Router",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/auto-router/",
+      "publishedAt": "2026-09-30T13:00:00Z",
+      "summary": "From our conversations with companies at every stage of their AI adoption journey, we've seen some common patterns. First, there is an exploration period as you bring on every new tool, dole out API keys freely, and let the tokens flow. Then, you converge on the canonical tools for your organization for agentic coding, for non-technical workflows, for running and deploying agents. As companies for",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3QZK4P6A5H0YYAEW0QN6YNC.png"
+    },
+    {
+      "id": "99aa0cdb13ba8807f040",
+      "title": "Detect and send production issues straight to your agent",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/real-time-issue-detection/",
+      "publishedAt": "2026-09-30T13:00:00Z",
+      "summary": "As agents help us build more complex applications, both humans and agents need a better way to stay on top of what goes wrong in production. Coding agents can already query observability data, navigate a repository, change code, write tests, and open a pull request. What remains manual is connecting those steps: recognizing that repeated failures come from the same bug, gathering the relevant logs",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3QYSQZS2E3XN2KS33WWKWGT.png"
+    },
+    {
+      "id": "fb57d33e1ed436a41e02",
+      "title": "Simplifying domains for people and agents",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/simplifying-domains/",
+      "publishedAt": "2026-09-30T13:00:00Z",
+      "summary": "You just thought of your next great idea, and buying the right domain feels like the easiest way to make that first bit of progress. Naturally, you open a new tab in your browser, only to find yourself face-to-face with an experience that feels like a budget airline peppering you with add-ons at checkout: Want security? How about a website? Do you want email? You’re just a few minutes into buildin",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3QWRFBJBT102QWDWVC9917P.png"
+    },
+    {
+      "id": "4433159357da7dd545eb",
+      "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/monetization-gateway-beta/",
+      "publishedAt": "2026-09-30T13:00:00Z",
+      "summary": "Today, we’re making the Cloudflare Monetization Gateway available as part of a closed beta, and showcasing four customer use cases that are in production today. Since we announced the plan three months ago, we have been working closely with our customers to make the Gateway fast, flexible, and easy to use. With just a few clicks, the Monetization Gateway allows domain owners to charge agents for a",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3QKS7979PTKRYVR2CN111JZ.01M3QKS7ZDZ74AXKMWXG7F3C2K.png"
+    },
+    {
+      "id": "0bf8694bc011208e4d28",
+      "title": "Pay Per Use: when AI uses your work, you should get paid",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/pay-per-use/",
+      "publishedAt": "2026-09-30T13:00:00Z",
+      "summary": "AI answer engines read a publisher’s page and hand the reader a summary, so the visit, and the revenue that would come with it, never happens. Most publishers will never sign a licensing deal with the companies that use their work in AI products, and no company can negotiate with millions of sites. The web needs a way to say “yes, if you pay.” Pay Per Use is one way to say it, and it's now in beta",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3Q8WBK852SB7AAAY4NK4NYB.png"
+    },
+    {
+      "id": "aedd73f0bdef50b6048b",
+      "title": "Identify AI model overuse with User Insights",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ai-model-overuse-user-insights/",
+      "publishedAt": "2026-09-30T13:00:00Z",
+      "summary": "When we launched User Insights last month, we wanted to help teams answer a basic question: What are people actually doing with AI? User Insights gives teams a clearer view of their AI usage, showing which users, applications, tasks, and models are driving traffic. It also highlights user and agent anomalies, helping teams identify unexpected or out-of-control spending and usage before they become",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7B4V2YNVJJXE8VE6E5ZK5E.png"
+    },
+    {
+      "id": "f17676444b661ab5e2e1",
+      "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+      "publishedAt": "2026-09-30T12:58:00Z",
+      "summary": "Today, we’re making Cloudflare Containers more programmable and optimized for agent workloads. Agents don't deploy sandboxes ahead of time. They create sandboxes on demand, for each task, expect them to be ready immediately, and be able to pause and resume. So we rearchitected Containers to meet these requirements: your code can now choose each sandbox's image and instance type at runtime, Contain",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KW46H9N3ZPBVM99CMTJZRPF3.png"
+    },
+    {
+      "id": "c7067a9787a6877e5aee",
+      "title": "The Internet has a second audience",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agentic-web/",
+      "publishedAt": "2026-09-30T12:58:00Z",
+      "summary": "For most of its history, the Internet had one audience that paid the bills: people. We read the articles, saw the ads, and bought the subscriptions. Bots were always there, but they were mostly large, automated operations that didn't view ads, pay for anything, or read in any meaningful sense. That's changing fast. At the end of 2024, Cloudflare handled an average of 63 million HTTP requests a sec",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3Q3ZZ59Z3P49M2FX7R7F4WQ.png"
     },
     {
       "id": "45b8038dfbdff015617e",
@@ -17,6 +143,15 @@
       "publishedAt": "2026-09-30T00:03:48Z",
       "summary": "Key Takeaways Hybrid retrieval catches the identifiers embeddings miss and the paraphrased questions keyword search misses. Reciprocal rank fusion merges keyword and semantic results by rank, without reconciling incompatible scores. Agent retrieval depends on tenant filters, permissions, and fresh transactional data as much as on document similarity. Unifying SQL and vector data removes index sync",
       "imageURL": null
+    },
+    {
+      "id": "2f1b526d3addd09f6f14",
+      "title": "OUSD is now the default stablecoin on Stripe",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/ousd-now-live-on-stripe",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "summary": "Open USD (OUSD), a stablecoin built for global money movement, is now available across Stripe. Businesses can use OUSD to manage funds, make payments, and offer new financial services.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/2YSRP4aCTTxIcUOn1lu4Qq/187eabba0a9b39e79b4c228b89812493/Square__4_.jpg"
     },
     {
       "id": "8dbf75dd8fc7e7e068b1",
@@ -181,69 +316,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3AZQWQ4KAE58XPW65NKJGT5.01M3AZQXMAQ87JD2W3YGR0KQ2P.png"
     },
     {
-      "id": "952364b32fdd4840a2e1",
-      "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/how-fast-is-the-web/",
-      "publishedAt": "2026-09-28T14:43:05Z",
-      "summary": "If you work in technology, you’re probably reading this on a powerful laptop or flagship mobile on robust, lightning-fast Wi-Fi. This is fantastic for building software, but often is far removed from the reality facing many who are using that software. End users might be nursing a four-year-old budget phone, running low on battery, on a data plan that throttles after 2 GB, living with under-invest",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3CVZZ7QXKD0CNS4EEKTKC2Q.png"
-    },
-    {
-      "id": "f17ba435e8d2a7142078",
-      "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/voidzero-update/",
-      "publishedAt": "2026-09-28T13:00:00Z",
-      "summary": "When VoidZero joined Cloudflare four months ago, we made a commitment to open source, promising that Vite, Vitest, Rolldown, Oxc, and Vite+ will stay open source, vendor-agnostic, and community-driven. As part of Cloudflare’s Birthday Week, where Cloudflare gives back to the Internet, we thought it’d be a good time to check in on how we’ve been doing against this commitment. In the four months sin",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3JF39Y5YKC8AHHGD706PRKV.png"
-    },
-    {
-      "id": "2f7c2d78c61cfcd22824",
-      "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
-      "publishedAt": "2026-09-28T13:00:00Z",
-      "summary": "Today we’re introducing Forge , a fresh approach to generating SDKs, CLIs, docs, and libraries. Forge is an open source, pluggable generation pipeline that anyone can deploy and run for free. Forge is early in its life, but already generates the output required for the cf CLI , and over the next few months will power Cloudflare’s API documentation, SDKs, and much more. We built Forge because we ne",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3J4EWN0BM1HFWCRCV3ND3H8.png"
-    },
-    {
-      "id": "c41aee02ece9671fad25",
-      "title": "The road to the agentic browser: A Kitesurf update",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/kitesurf-update/",
-      "publishedAt": "2026-09-28T13:00:00Z",
-      "summary": "In August, we introduced Kitesurf, a browser for the agentic age that runs entirely on Cloudflare Workers. We built it around what agents need from the web, rather than carrying all the features and bloat of a browser designed for humans. If this is the first you’re hearing about it, we highly recommend you read the blog post where we introduced Kitesurf , for all the juicy technical details of ho",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3D844E5W4TPG1FPT4HBJP16.png"
-    },
-    {
-      "id": "a960a26fd5e57b9b3414",
-      "title": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/introducing-the-cold-start/",
-      "publishedAt": "2026-09-28T13:00:00Z",
-      "summary": "Sixteen years ago, Cloudflare was one of more than 1,000 startups hoping for a spot on stage at TechCrunch Disrupt. We were not, on the face of it, an obvious choice. Cloudflare was infrastructure: we made websites faster and protected them from attack, which was not well understood by the general market at the time. Infrastructure is often invisible right up until the moment it becomes important.",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3D7BTCXF494DCFFTBT7SWHK.png"
-    },
-    {
-      "id": "46b69612bca8ceb41dbd",
-      "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
-      "publishedAt": "2026-09-28T13:00:00Z",
-      "summary": "When we introduced EmDash on April 1 as the “spiritual successor to WordPress”, the buzz was hard to ignore. Walking around a WordPress conference that month, we couldn’t walk far without hearing murmurs about EmDash from fellow attendees. But alongside the excitement and curiosity has been a seed of doubt among some in the industry. Was this just an April Fools’ joke? It was not. Today, we are re",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3D0T7XHPBZM8YB0PX5W78EQ.png"
-    },
-    {
-      "id": "26851b73d4c62bcaf9c3",
-      "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
-      "publishedAt": "2026-09-28T13:00:00Z",
-      "summary": "Today we’re announcing the first public experimental preview of a feature to better support native Rust code and even Tokio-based applications just running natively on Workers: first-class support for the Emscripten wasm32-unknown-emscripten Rust compiler target on the wasm-bindgen open source toolchain and Cloudflare’s Rust Workers. wasm-bindgen is the open source toolchain powering Rust-based We",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3AJHGRFR0ZE6MB7TYYXX16K.01M3AJHKNFWTPGSZVRX4VC9KM0.png"
-    },
-    {
       "id": "ab74b9e1c6a7f1593d5b",
       "title": "Travel’s AI dilemma at Skift Global Forum",
       "sourceName": "Stripe Blog",
@@ -260,15 +332,6 @@
       "publishedAt": "2026-09-28T00:00:00Z",
       "summary": "Small Decisions: Engineering a Leading Model Or trying to, at least. My day job has been primarily in AI for three years now, but I’d be the first to admit that’s been almost entirely in one corner of AI: infrastructure, safety, and tools for AI agents. That work has brought me in contact with a lot of the AI science (and I’d dabbled there over the previous decade), but I’m super far from the day-",
       "imageURL": "/blog/images/hobson_jevbench_trajectory.svg"
-    },
-    {
-      "id": "41d291c6d16ea2a8c89f",
-      "title": "Cloudflare’s 2026 Annual Founders’ Letter",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
-      "publishedAt": "2026-09-27T17:00:00Z",
-      "summary": "This week Cloudflare celebrates our 16th birthday. Like many 16-year-olds, we find ourselves looking around at the world we grew up in and feeling caught between the past and future. Also like many 16-year-olds, we look at all the change in the world and sometimes see risk. But, on balance, we come out incredibly optimistic for what lies ahead. What drives our optimism and fear is a recognition th",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3G3F5ZSHVH0CSDBN2M4A43T.01M3G3F6KFD00H82BMWC8VN4TP.png"
     },
     {
       "id": "f86fb9777ea6f7628bac",
@@ -305,15 +368,6 @@
       "publishedAt": "2026-09-25T15:00:00Z",
       "summary": "The Primer Design System powers many of the experiences you see on GitHub today. From buttons to banners to breadcrumbs, these foundational components are required to be accessible, flexible, and performant across a wide variety of scenarios. Back in 2023, the number of components on certain pages began to explode. This led to several performance-related challenges with our existing CSS-in-JS solu",
       "imageURL": "https://github.blog/wp-content/uploads/2026/09/625328348-91f668f6-2565-492d-aa76-632d429fb4ba.png?resize=1024%2C966"
-    },
-    {
-      "id": "25e1a4781366d77decd1",
-      "title": "Agents can now set up your website’s security with Turnstile Spin",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/turnstile-spin/",
-      "publishedAt": "2026-09-25T13:00:00Z",
-      "summary": "In 2023, Cloudflare declared itself free from CAPTCHAs with the launch of Turnstile, our privacy-first client-side challenge. Turnstile is free to use, works on any site (no need to proxy traffic through Cloudflare), and never asks a visitor to solve a puzzle. Now, we are launching Turnstile Spin, an agent-mediated end-to-end implementation of Turnstile. Initially built with developers in mind, Tu",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3CQMQWGC7WBK8ZR7DG13PFE.01M3CQMRMEBSVS7GAD6GNHZ9JD.png"
     },
     {
       "id": "3c908d4f959ad715bc86",
@@ -1360,33 +1414,6 @@
       "imageURL": null
     },
     {
-      "id": "ba605015d2bcf9912337",
-      "title": "AI Won't Replace Project Managers, But It is Reshaping How Work Gets Done",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/20/ai-won-t-replace-project-managers-but-it-is-reshaping-how-work-gets-done/",
-      "publishedAt": "2026-08-20T19:05:40Z",
-      "summary": null,
-      "imageURL": null
-    },
-    {
-      "id": "2cf268c5fed3e2e7a7d5",
-      "title": "Quantum-Augmented Applications: Integrating Quantum Subroutines into Classical Software Stacks",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/20/quantum-augmented-applications-integrating-quantum-subroutines-into-classical-software-stacks/",
-      "publishedAt": "2026-08-20T18:43:39Z",
-      "summary": null,
-      "imageURL": null
-    },
-    {
-      "id": "aa5d50fd0f4bfe49698b",
-      "title": "From PHP to team lead of agents: rethinking judgment, review, and data with Google's Andi Gutmans (Part 1)",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/20/rethinking-judgment-review-andi-gutmans/",
-      "publishedAt": "2026-08-20T07:40:00Z",
-      "summary": "Andi Gutmans, head of Agentic Data Cloud at Google and co-creator of PHP, joins Leaders of Code to talk about why agentic development feels less like a break from the past and more like the next chapter of the same story. This is part one of a two-part conversation.",
-      "imageURL": null
-    },
-    {
       "id": "09b8b9ffd77df6de1be9",
       "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 1",
       "sourceName": "AWS Architecture Blog",
@@ -1412,24 +1439,6 @@
       "publishedAt": "2026-08-19T17:01:03Z",
       "summary": "When we retrain, when we rebuild, and when we leave a model alone. By: Harrison Katz A forecast that carries weight The Forecasting Data Science team at Airbnb produces many of the forecasts the rest of the company plans around: demand, bookings, cancellations, and a range of finer cuts by market and segment, refreshed continuously across thousands of markets. The targets differ, and the models di",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*44L4h0-81kbAtkKGNa9Lgg.jpeg"
-    },
-    {
-      "id": "0cdde7ec0e23406553df",
-      "title": "How Clario technology detects PHI/PII in DICOM images using Amazon Bedrock",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-clario-automates-phi-pii-detection-in-dicom-images-using-amazon-bedrock/",
-      "publishedAt": "2026-08-19T14:29:31Z",
-      "summary": "Clario, part of Thermo Fisher Scientific, uses Amazon Bedrock to automate PHI (Protected Health Information) and PII (Personally Identifiable Information) detection across thousands of DICOM (Digital Imaging and Communications in Medicine) image slices in clinical trials. Each image slice may carry PII or PHI hidden in metadata tags, in custom vendor fields, or burned directly into the pixels. Acr",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/03/ARCHBLOG-1466-1.png"
-    },
-    {
-      "id": "9417da1fe6e8375ddbf4",
-      "title": "AI-powered clinical trial eligibility and safety using Amazon Bedrock AgentCore",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/ai-agents-for-clinical-trial-screening/",
-      "publishedAt": "2026-08-19T13:11:51Z",
-      "summary": "AI agents built on Amazon Bedrock AgentCore let clinical trial teams make fast, accurate enrollment decisions while keeping clinicians in control through human-in-the-loop oversight. According to the Tufts Center for the Study of Drug Development , 80 percent of clinical trials miss their enrollment timelines, and each day of delay costs an estimated $500,000 . Today, eligibility decisions rely on",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/19/arch-1395-Arc-1.png"
     },
     {
       "id": "f2711d1c005bbcf3760c",
@@ -1529,15 +1538,6 @@
       "publishedAt": "2026-08-11T17:30:00Z",
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri",
       "imageURL": null
-    },
-    {
-      "id": "eed0075da22e40881627",
-      "title": "Mapping the AI economy",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/mapping-the-ai-economy",
-      "publishedAt": "2026-08-11T00:00:00Z",
-      "summary": "AI companies are undergoing rapid global expansion while achieving unprecedented rates of growth. We analyzed Stripe data to understand where global demand is the strongest, and how companies can build to best capture that demand.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3zq67gzl09NDsPhwwSKpiS/420f8b42b6aff303aa6293fbc6ff3283/Hero_image_optimized_for_ratio_bigger_labels_darker_bigger_disclaimer_3x.png"
     },
     {
       "id": "d948ecd6776f0c29d74b",
@@ -1789,7 +1789,7 @@
       "url": "https://fly.io/blog/kurt-scott-money-sprites/",
       "publishedAt": "2026-07-24T00:00:00Z",
       "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-turtle.webp"
+      "imageURL": "/static/images/cta-kitty.webp"
     },
     {
       "id": "2a036d6a25178c63a484",
