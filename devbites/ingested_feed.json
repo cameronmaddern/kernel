@@ -1,6 +1,150 @@
 {
   "articles": [
     {
+      "id": "f8144ece9a9d92cec2fa",
+      "title": "SequenceHash: multihashing for the rest of us",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/",
+      "publishedAt": "2026-10-02T11:00:00Z",
+      "summary": "Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to d",
+      "imageURL": null
+    },
+    {
+      "id": "331d06e43722099c64ed",
+      "title": "Constraints that make developers faster",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/02/constraints-that-make-developers-faster/",
+      "publishedAt": "2026-10-02T07:40:00Z",
+      "summary": "Ryan chats with Julien Verlaguet, CEO at Skip Labs, about finding the balance between human tolerance and tooling constraints, the spectrum of typed programming languages, and building cost-effective tooling for AI agents.",
+      "imageURL": null
+    },
+    {
+      "id": "af4ddd414650a4a14e70",
+      "title": "Trust Docker for the agents you don’t",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=94390",
+      "publishedAt": "2026-10-01T18:26:12Z",
+      "summary": "Cloud Sandboxes, open Kits, and a developer community building the next generation of AI software Docker Cloud Sandboxes are here. At WeAreDevelopers World Congress North America, we launched a way for developers to start agent work in a safe way on their laptop, move to the same microVM environment on Docker-managed cloud compute, and bring the results back. Longer tasks can keep running, even af",
+      "imageURL": null
+    },
+    {
+      "id": "7840a4cade6d24561b75",
+      "title": "Accelerating airline retailing innovation: how Datalex modernized with AWS Experience-Based Acceleration and agentic AI",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/accelerating-airline-retailing-innovation-how-datalex-modernized-with-aws-experience-based-acceleration-and-agentic-ai/",
+      "publishedAt": "2026-10-01T15:37:06Z",
+      "summary": "Datalex , a leader in airline ecommerce solutions, set out to answer a question facing every established product-based business: how do you build for where your industry is going, not only where it is today? For more than two decades, Datalex has powered digital retailing for many of the world’s leading airlines, capability built up over years and encoded in a substantial, mission-critical system ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/29/ARCHBLOG-1483-1.png"
+    },
+    {
+      "id": "c0a0a5f5affd26928d0f",
+      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "publishedAt": "2026-10-01T15:34:02Z",
+      "summary": "Over the last few weeks, there has been lots of buzz around decision models such as Typesafe AI’s Jev System One model. While classifier models have been around for some time, Jev introduces a new decision model concept into the world of AI — a model that produces bounded structured outputs cheaply, quickly and consistently that can be added into a workflow when a decision is required. These model",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3TJPKAE7MFBW626XHNC9QVA.png"
+    },
+    {
+      "id": "9341b794b4ea6eef7246",
+      "title": "A look back before we look forward: A Developer Survey retrospective",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/01/a-look-back-before-we-look-forward-a-developer-survey-retrospective/",
+      "publishedAt": "2026-10-01T14:47:33Z",
+      "summary": "This analysis compares the 2024 and 2025 Developer Survey data across three connected stories: the evolution of AI, humans at work, and demographics and community.",
+      "imageURL": null
+    },
+    {
+      "id": "874b063792be67e0d347",
+      "title": "One year later: Sovereign AI and the fight for choice",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
+      "publishedAt": "2026-10-01T13:04:19Z",
+      "summary": "It's Birthday Week, when we traditionally ship presents to the Internet. This year, two of them come from Europe: EuroLLM, which covers all 24 official EU languages, and Apertus, Switzerland's fully open model, trained on more than 1,500 languages. Both were built by public universities and research institutions. Both are coming to Workers AI, and you can request access today. We're also launching",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3TES95GDNHB8645HHYQHR1G.png"
+    },
+    {
+      "id": "b17c5d0c007316a4ae29",
+      "title": "Introducing Workers KV Instant — powered by Quicksilver",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/workers-kv-instant/",
+      "publishedAt": "2026-10-01T13:00:00Z",
+      "summary": "Today, we’re introducing Workers KV Instant, a new mode for Workers KV that pushes your changes globally for instant availability without cold read penalties. Workers KV has been one of our most popular services on the Developer Platform since launching during Birthday Week in 2018 . It’s great for quickly accessing data like static assets and user configuration that is written occasionally but re",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3VEKFJ2MXMCNB0J008305V4.01M3VEKGPXTJDYC3F5AM7MC3FW.png"
+    },
+    {
+      "id": "32af5c2a7b663f670c73",
+      "title": "Cloudflare OS: your company’s agent workspace, managed for you",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
+      "publishedAt": "2026-10-01T13:00:00Z",
+      "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. Today, we're opening the waitlist for fully managed Cloudflare OS deployments. If I asked you to prepare for an important customer meeting later today, what would you do? You might learn how your company typically runs customer meetings, review the account in",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3T6WYAVKCKFV4H283DB38WS.png"
+    },
+    {
+      "id": "afab6c12648c7488e8fa",
+      "title": "Announcing Cloudflare K2: serverless event streams",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+      "publishedAt": "2026-10-01T13:00:00Z",
+      "summary": "With traditional Remote Procedure Call (RPC) architectures, there exists a core challenge: producers and consumers must align in scale and in time. If your producers send too much data for your consumers to handle or if your consumers or downstream services become unavailable, events are dropped. This problem is compounded with multiple consumers that need to independently process the data. For ex",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3SXWMA7TC0H6D9G217A3327.png"
+    },
+    {
+      "id": "37a106d7f924ad981fc3",
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "publishedAt": "2026-10-01T13:00:00Z",
+      "summary": "GitHub was built for a world where humans write code, organize it into repositories, and collaborate through branches, commits, issues, and pull requests. But the next generation of software is going to be built differently because it is going to be built by a different kind of developer: agents. Agents are already writing more code than ever before — they’re fixing bugs, building features, writin",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3VGDDQQHKX35297BEXJZ5H0.01M3VGDEMW20N9CFDP5TEPV5EJ.png"
+    },
+    {
+      "id": "01ae9a71d239e84b2a68",
+      "title": "AI Search is now generally available",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ai-search-ga/",
+      "publishedAt": "2026-10-01T13:00:00Z",
+      "summary": "Cloudflare’s AI Search combines Workers AI, Vectorize, R2, and Browser Run into a fully managed index and retrieval pipeline. Since we launched AI Search over a year ago, we’ve seen developers use it to power a wide range of search use cases, from searching internal documentation to powering search for their websites. We use AI Search ourselves to power search on our own blog and developer docs. S",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3SPF381A5ZFP5JJT0DGXF1T.png"
+    },
+    {
+      "id": "73a4772bd66c1078902f",
+      "title": "Support for modern cryptographic algorithms in Workers",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
+      "publishedAt": "2026-10-01T13:00:00Z",
+      "summary": "Today, Cloudflare Workers is adding support for post-quantum-resistant algorithms within Web Crypto. These are defined in Modern Algorithms in the Web Cryptography API draft community group report , and include: ML-KEM-768 and ML-KEM-1024 for key encapsulation ML-DSA-44, ML-DSA-65, and ML-DSA-87 for signatures encapsulateBits() , decapsulateBits() , encapsulateKey() , and decapsulateKey() getPubli",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KYQH7SRKMQZ9Z5K1ZQ41N12X.png"
+    },
+    {
+      "id": "4d280c4652e3b6b49a1e",
+      "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cloudflare-basin/",
+      "publishedAt": "2026-10-01T12:58:00Z",
+      "summary": "During Birthday Week 2025, we announced the Cloudflare Data Platform , a suite of products that ingest, store, and query your analytical data. Today, we’re announcing that the platform is generally available, and we’re giving it a new name: Cloudflare Basin . Basin is a serverless data analytics platform built on Apache Iceberg , the open standard for data lakes, and R2 Object Storage . The Basin ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3TBHN0F85Z2NSDVC4T3HF05.png"
+    },
+    {
+      "id": "c906b41a139a5f62b022",
+      "title": "Why I tried to kill token billing (and why we kept it)",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/where-pricing-is-headed",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "summary": "Token billing is useful infrastructure, but usually a bad customer-facing pricing model. Your invoice should define the value your product delivers, not break down what it cost you to create it.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/429O97zRn17cvoY9EQIuoO/17adb35450f60d6ddd613c04cca873f4/1250x1250.jpg"
+    },
+    {
+      "id": "3ecf143c941decfade80",
+      "title": "Cauldron Bubble w/o the Trouble? It’s Discord Halloween, Witches",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/halloween-2026",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "summary": "A cold wind whistles, a chill sets in. It’s Discord Halloween: Cauldron Chaos edition! We’ve got frights, we’ve got delights, and we’ve even got some spooky surprises up our sleeve…",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6abd7a1923e7e893b8cecd7d_image4.png"
+    },
+    {
       "id": "59db27e199aa77a4920c",
       "title": "Running multi-day AZ evacuation drills with ARC Zonal Shift",
       "sourceName": "AWS Architecture Blog",
@@ -190,69 +334,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3NDS17PAN9XKW88493GE864.01M3NDS24T3Y1A90FZDRFXYHZD.png"
     },
     {
-      "id": "86b7fcca6eeed63cf045",
-      "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ai-era-framework/",
-      "publishedAt": "2026-09-29T13:00:00Z",
-      "summary": "In July, AI agents testing new cybersecurity models compromised parts of OpenAI’s infrastructure and Hugging Face’s production environment. We've all just witnessed one of the first AI-driven successful cyber attacks. When given a task, the agents ignored existing guardrails and autonomously discovered previously unknown vulnerabilities, recovered exposed credentials, moved between cloud environme",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3N47JY7FECSCBYGK1C1WXDH.01M3N47KK4EM1CND4FG8GM3FT6.png"
-    },
-    {
-      "id": "c066c42842bf5e9b930b",
-      "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
-      "publishedAt": "2026-09-29T13:00:00Z",
-      "summary": "When you type in an address into a browser, how do you know you’re connecting to the right website? The Web Public Key Infrastructure (Web PKI) is the complex and distributed ecosystem of policies, protocols, and infrastructure operators that helps you trust that you’re not being misdirected to an incorrect or malicious website. In the past few decades, this ecosystem has undergone significant cha",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3MX3H0DJVT3EQ9XF4GKFX9C.01M3MX3HYF5RPW6B0KQPFMJ8QS.png"
-    },
-    {
-      "id": "d8ecb294593159cc1847",
-      "title": "We tested our own WAF with frontier AI models. Here’s what we found",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
-      "publishedAt": "2026-09-29T13:00:00Z",
-      "summary": "“Is your WAF ready for frontier AI models?” We keep hearing this question from our customers, so we decided to find out. When it comes to exploiting applications, what LLMs are really good at is iterating and mutating attack payloads faster than any human hacker could do. LLMs can use real-time responses to iterate and change their techniques by, for example, testing different encodings, sending t",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3MTAS2TXJ3YNP9MKFC831W3.01M3MTASYEWPJWSVRZFBTG2NGD.png"
-    },
-    {
-      "id": "d8c43f9aa1b35e9006ec",
-      "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/threat-signals/",
-      "publishedAt": "2026-09-29T13:00:00Z",
-      "summary": "Organizations can now scale threat intelligence expertise the way they scale infrastructure. Threat intelligence analysts and network defenders have long automated the ingestion of structured threat feeds to help enrich their SIEM or WAF. The harder work has always been unstructured reporting: turning a research post into indicators your tools can use, without losing the context that explains why ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3MS5SC9YKN4DB4S86N0T6KH.01M3MS5TDS5PQPN48TWV8JH094.png"
-    },
-    {
-      "id": "368653ddd4d48299208e",
-      "title": "Is your domain using post-quantum encryption? Now you can see for yourself",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/post-quantum-visibility/",
-      "publishedAt": "2026-09-29T13:00:00Z",
-      "summary": "Today, we are introducing additional post-quantum (PQ) cryptography visibility tools into Cloudflare's Application Security and Logs products. You can now inspect and graph the adoption of post-quantum TLS 1.3 encryption for live traffic from directly within Logpush , Log Explorer , and the HTTP Traffic Analytics dashboard. By surfacing the key exchange algorithm negotiated on every incoming reque",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3N38XJRGGRRGGBQ7NTTVN29.01M3N38Y5PW9W05SZSG2SAMQZ6.png"
-    },
-    {
-      "id": "a5b98eda460e15a3ee35",
-      "title": "Enforce positive security with Cloudflare Application Profiles",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/application-profiles/",
-      "publishedAt": "2026-09-29T13:00:00Z",
-      "summary": "Today, we are launching Application Profiles, a seamless way to enforce a positive security policy. By analyzing the structure and format of HTTP requests and identifying deviations, Cloudflare can help you significantly reduce the attack surface area. Every customer we speak to wants to know how we can protect them from attacks that use frontier AI models. This has become the number one priority ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3B09CMJMHVJCVMPMCFARRCT.01M3B09DCPG1A08FA7FTWA6PR9.png"
-    },
-    {
-      "id": "acb596a8bf957b68efdc",
-      "title": "Preventing quantum downgrade attacks against IPsec",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ipsec-downgrade-protection/",
-      "publishedAt": "2026-09-29T13:00:00Z",
-      "summary": "For Birthday Week, Cloudflare is helping one of the Internet’s core security protocols develop stronger protections against quantum downgrade attacks. To protect our customers and the Internet at large, we worked with the IETF to develop a mitigation against downgrade attacks on IPsec, which we’ve implemented and made available in beta across our IPsec products. The world is racing to build the fi",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3PBXV6RMBDAPYBPS4CSKCS9.01M3PBXVX4E5746D4FX9F3R8V5.png"
-    },
-    {
       "id": "229fbce2093da7fcbaed",
       "title": "Evolving our calendar assistant Reclaim to be AI-native without starting over",
       "sourceName": "Dropbox Tech",
@@ -296,24 +377,6 @@
       "publishedAt": "2026-09-28T16:41:00Z",
       "summary": null,
       "imageURL": null
-    },
-    {
-      "id": "cae2fc643322c6e84dc6",
-      "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
-      "publishedAt": "2026-09-28T15:50:00Z",
-      "summary": "Over the last year, agent use of Wrangler has skyrocketed. In March 2026, agents were responsible for a quarter of Wrangler use, up from single-digit percentages the year prior. Last week, agent usage reached 48%. Agents are more prolific users, using almost twice as many distinct commands per day, and are almost four times as likely to use six or more commands. Agents love CLIs. But Wrangler only",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3KR63G9MAXHAG81FC5HKYRY.01M3KR64BVBYV5MM3YBHRRRWGF.png"
-    },
-    {
-      "id": "4095876decdfaf16108b",
-      "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
-      "publishedAt": "2026-09-28T14:51:57Z",
-      "summary": "When we launched Vinext in February, it was the result of an audacious week-long AI-driven experiment to see how far one engineer, and a stack of tokens, could get to replicating the NextJS framework backed by Vite. In the seven months since that experiment, Vinext has grown into a framework that our customers trust and run in production for high-traffic, dynamic applications. Today we are announc",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3AZQWQ4KAE58XPW65NKJGT5.01M3AZQXMAQ87JD2W3YGR0KQ2P.png"
     },
     {
       "id": "ab74b9e1c6a7f1593d5b",
@@ -1189,15 +1252,6 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/cookie-auditor/Security-Inside our in house cookie auditor-1440x305-light.png"
     },
     {
-      "id": "0319ed084ea27c53a539",
-      "title": "Secure by default is your only way forward",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=93270",
-      "publishedAt": "2026-08-31T13:00:00Z",
-      "summary": "Every worker a company employs, be it a person or a program, builds on a foundation someone else assembled, and that includes the newest hire on your team. This new hire got to work the moment they arrived, building with what your company already has in place and they’re shipping code at a pace your reviews can’t keep up with. Also, everything they make is going out under your name. If it were a h",
-      "imageURL": null
-    },
-    {
       "id": "05502ae5938a9d5e2194",
       "title": "Bug blindness",
       "sourceName": "Dan Luu",
@@ -1378,15 +1432,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Rn81hdaUHY94Sf8S-GOHZA.png"
     },
     {
-      "id": "5326052fa9a2d9645776",
-      "title": "Dispatches from O'Reilly: The right amount of spec for agentic development",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/21/dispatches-from-o-reilly-the-right-amount-of-spec-for-agentic-development/",
-      "publishedAt": "2026-08-21T14:00:00Z",
-      "summary": "When code gets cheap, the hard part is deciding what “correct” means and building a reliable way to check it.",
-      "imageURL": null
-    },
-    {
       "id": "88ecacabd1580e0ec047",
       "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 2",
       "sourceName": "AWS Architecture Blog",
@@ -1396,15 +1441,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/11/ARCHBLOG-1672-1.png"
     },
     {
-      "id": "509ebc167a081f7b7d8b",
-      "title": "Get rid of your CAPTCHA, the future of the web is bots",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/21/get-rid-of-your-captcha-the-future-of-the-web-is-bots/",
-      "publishedAt": "2026-08-21T07:40:00Z",
-      "summary": "Ryan chats with Brian Alvey, CTO at WordPress VIP, about how AI agents are changing the business models of the web, what parts of how we build our sites won’t survive our current digital evolution, and why your site will always need structured content.",
-      "imageURL": null
-    },
-    {
       "id": "27b7e490bced9706f40c",
       "title": "There's no reason for software to be slow anymore",
       "sourceName": "Dan Luu",
@@ -1412,15 +1448,6 @@
       "publishedAt": "2026-08-21T00:00:00Z",
       "summary": "The other day, I saw a viral tweet saying that people talking about how LLMs are causing slow, bloated, code are going to eat crow once they re-write everything in super-optimized assembly. We're not quite at the point where we want to write everything in assembly , but some variant of what Nolan Lawson said about testing, you can choose how many bugs you want now , which I less eloquently noted h",
       "imageURL": null
-    },
-    {
-      "id": "09b8b9ffd77df6de1be9",
-      "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 1",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-agentflo-built-ai-sales-agents-with-amazon-bedrock-agentcore-part-1/",
-      "publishedAt": "2026-08-20T00:32:52Z",
-      "summary": "In this post, you learn how AgentFlo built intelligent sales agents that convert conversations into completed purchases. We show you how AgentFlo improved revenue performance in early deployments using Amazon Bedrock AgentCore and the Strands Agents SDK . AgentFlo, the agentic commerce service by Salesflo, helps merchants deploy always-on AI sales, support, and ordering agents across channels like",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/13/ARCHBLOG-1465-1.png"
     },
     {
       "id": "3339260f7d633c46b3d4",
@@ -1457,15 +1484,6 @@
       "publishedAt": "2026-08-18T17:00:00Z",
       "summary": "As demand for AI continues to grow, so does the infrastructure needed to support it. Much of the industry's attention has focused on building more: more data centers, more servers, and more power. But building new infrastructure is only part of the challenge. Engineering teams are also working within constraints on energy, cooling, hardware availability, and physical space, making it increasingly ",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/headers/Infrastructure-Improving efficiency and resource utilization across our infrastructure in the AI era-1440x305-light.png"
-    },
-    {
-      "id": "f1acc8b7bb28ac144b77",
-      "title": "New currency capabilities for global businesses to cut FX costs",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/reduce-fx-costs-with-stripe",
-      "publishedAt": "2026-08-17T00:00:00Z",
-      "summary": "Two product upgrades make it easy for global businesses to manage FX entirely on Stripe. We’re expanding multicurrency settlement to more markets and currencies, and we’re introducing the ability to convert currencies instantly—all on Stripe.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/7xgfnyZq3lIBjWIuhI5cph/a0cc8cc59d2b78c690252633e9fb33e3/Blog___Index_new__1250_x_1250_.png"
     },
     {
       "id": "cb42944b171bbb76cec0",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-07-25T11:20:55Z",
       "summary": "(This blog post was adapted from the transcription obtained from my YouTube video at https://www.youtube.com/watch?v=l6lxgYeVZqs) When Linus Torvalds developed the first Linux kernel, he had studied the Minix sources, he had studied computer architecture, he had the base knowledge needed, and he was obviously a very brilliant programmer. But that operation of writing a minimal yet working Unix ker",
       "imageURL": null
-    },
-    {
-      "id": "209a29a8e8337ab7bac2",
-      "title": "Turn And Face The Strange",
-      "sourceName": "Fly.io Blog",
-      "url": "https://fly.io/blog/kurt-scott-money-sprites/",
-      "publishedAt": "2026-07-24T00:00:00Z",
-      "summary": "We’re Fly.io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook. This is a post about our company, the future, and Sprites, which are computers for agents that you can check out right now. This is a complicated post. So I need you to promise me something: if you read past this introduction, yo",
-      "imageURL": "/static/images/cta-kitty.webp"
-    },
-    {
-      "id": "2a036d6a25178c63a484",
-      "title": "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires",
-      "sourceName": "Dan Luu",
-      "url": "https://danluu.com/exercise-7/",
-      "publishedAt": "2026-07-23T00:00:00Z",
-      "summary": "We're going to look at three different kinds of benchmarks, one set of calculations for baseline numbers for performance \"napkin math\" estimates, one set of AI model evals, and one on car tires. To build my intuition for things, I like thinking about them before seeing the explanation, so these are presented with the benchmark information first and the explanation later in case you want to think a",
-      "imageURL": "https://danluu.com/images/exercise-7/deep-swe.webp"
     }
   ]
 }
