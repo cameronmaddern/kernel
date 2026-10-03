@@ -1,6 +1,123 @@
 {
   "articles": [
     {
+      "id": "6f63ac3fe831ec044cf4",
+      "title": "Deploy Oracle Database step by step on Amazon EVS with FSx for ONTAP",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap/",
+      "publishedAt": "2026-10-02T17:57:15Z",
+      "summary": "This post provides step-by-step procedures to deploy Oracle Database on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP as NFS datastore storage. You will provision storage volumes, mount NFS datastores, install Oracle, and configure SnapMirror replication for cross-region disaster recovery. Enterprises running Oracle databases on VMware want a path to AWS that preserve",
+      "imageURL": null
+    },
+    {
+      "id": "47518c9cf3141786aaf5",
+      "title": "Architect highly available Oracle Database on Amazon EVS and FSx for ONTAP",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/architect-highly-available-oracle-database-on-amazon-evs-and-fsx-for-ontap/",
+      "publishedAt": "2026-10-02T17:57:01Z",
+      "summary": "Enterprises with existing VMware Cloud Foundation (VCF) investments want to migrate their Oracle databases to AWS without rearchitecting applications or retraining operations teams. Oracle on Amazon Elastic VMware Service (Amazon EVS) can take advantage of sub-millisecond storage latency, snapshot-based backup, cross-region disaster recovery (DR), and independent storage scaling, all while preserv",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/18/arch-1652-fig-1.png"
+    },
+    {
+      "id": "67c273a3d03a6d8ddb44",
+      "title": "Deploy open source Regional availability tools in your VPC",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/deploy-open-source-regional-availability-tools-in-your-vpc/",
+      "publishedAt": "2026-10-02T17:50:56Z",
+      "summary": "When you build multi-Region architectures on AWS, one question comes up early: “What services are available in each AWS Region?” The answer shapes architecture decisions, from which AWS Regions to expand into, to how you design for resilience. For teams navigating data residency requirements and compliance reporting, getting the answer wrong has real consequences: deployment failures, compliance g",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/30/ARCHBLOG-1522-1.png"
+    },
+    {
+      "id": "f947e9010dad4080ff0c",
+      "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/streamline/",
+      "publishedAt": "2026-10-02T16:13:45Z",
+      "summary": "Cloudflare Stream is a powerful broadcasting platform that, for many of our customers, just works. But what if you wanted to render dynamic annotations on a livestream or create an alternate version of a hosted video with burned-in subtitles? You would need to run a custom video pipeline. Today, we’re releasing a new developer playground, Streamline, that demonstrates how you can build a system to",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XKCAN8X5Q5KQ1Q5EW20NBG.01M3XKCB43AH4EZPQE0QQ7MNND.png"
+    },
+    {
+      "id": "172a27cefb08cdf831d1",
+      "title": "Introducing Web Search API via AI Gateway",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+      "publishedAt": "2026-10-02T13:28:10Z",
+      "summary": "Fun fact: when you use an agent and it needs to fetch a live web page, the agent usually just guesses the URL of the page and then makes a tool call to curl it. This is why you’ll sometimes see web fetches come back with a 404 Not Found, which happens if the agent incorrectly guesses the URL of that information. As you can imagine, it’s not super efficient to randomly guess URLs all the time. Ther",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XMA3KN5CDQCSF0YHZ0WFBH.01M3XMA452ZT41JBXKRPY1HH3F.png"
+    },
+    {
+      "id": "cd838e82df4db660bfbd",
+      "title": "8 major updates to Cloudflare Observability",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/one-observability-platform/",
+      "publishedAt": "2026-10-02T13:00:00Z",
+      "summary": "Today, we’re launching eight major updates that bring your logs, traces, analytics, alerts, dashboards, and exporting into one observability platform , with simpler and more predictable pricing. Here's what's launching: One place to explore logs from across Cloudflare End-to-end tracing from Cloudflare's edge to your origin One unified SQL API for querying Cloudflare data One pricing model for obs",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XHE6D45CDHQVM71QYA6EEJ.01M3XHE6YHC44V1DZB0VG3DCGV.png"
+    },
+    {
+      "id": "67a3a49e3f584ae796d3",
+      "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cloudflare-tracing/",
+      "publishedAt": "2026-10-02T13:00:00Z",
+      "summary": "Today, we’re introducing Cloudflare Traces in open beta, extending automatic tracing beyond Workers to the rest of the request path. In one trace, you can see supported security rules, transformations, cache decisions, routing, Worker execution, and origin handling, then continue that trace through services running on Cloudflare, at your origin, or elsewhere in your stack. This is a long-term inve",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XE9TZRDPWVKPPQNAVJDCYT.01M3XE9W5HREEF8Q70M7G034M2.png"
+    },
+    {
+      "id": "6055c182a46aa56131d2",
+      "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
+      "publishedAt": "2026-10-02T13:00:00Z",
+      "summary": "A year ago, Cloudflare CTO Dane Knecht announced our intention to make every Cloudflare feature available to everyone . Cloudflare launched an Enterprise tier years ago when larger customers came to us looking for procurement options beyond a credit card, like invoices, custom contracts, and dedicated support. Those offerings met a customer need but over time, a two-tier system developed where som",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XD0DHYHB54G3RT6GBMY2W5.png"
+    },
+    {
+      "id": "dca4102c0cfdbd9d5d50",
+      "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+      "publishedAt": "2026-10-02T13:00:00Z",
+      "summary": "Today, end users carry too much of the burden of online privacy. To avoid third-party trackers or targeted ads, users are instructed to use a VPN, disable cookies, or install adblockers. Meanwhile, some app developers end up knowing more about their users than they’d care to: a typical client-server exchange creates a trail of user data, like the client’s IP address or TLS fingerprint. This level ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3WRXEHESBYZBGWPN9T2Z19C.png"
+    },
+    {
+      "id": "c59c9381120f201a20f4",
+      "title": "Follow the thread: a new dashboard to investigate account abuse",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
+      "publishedAt": "2026-10-02T13:00:00Z",
+      "summary": "Traditionally, preventing online fraud relied on point-in-time proof of identity: enter the correct password, complete a biometric verification, or pass a liveness check, and gain access. To defeat these controls, fraudsters had to steal credentials and other identity evidence from a real user, which was difficult to execute and scale. Today, widespread access to AI enables fraudsters to fabricate",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3Y5S9YWA3J6HWBGZPXJB4KY.01M3Y5SAP93PZ8TV3HFDNVRWHS.png"
+    },
+    {
+      "id": "5685295cd7d17a2f4c1a",
+      "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
+      "publishedAt": "2026-10-02T13:00:00Z",
+      "summary": "We launched Quick Tunnels in 2021 to give developers an easy way to share their latest service, application, or project running in their local development environment. A lot has changed since then, but the core use case remains the same. Your coding agent has just finished the feature. The dev server is up on localhost:5173 , and before you ask, the agent offers to let you try it on your phone. It",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3WEQNPRWNJ6R5MEB2300BRQ.png"
+    },
+    {
+      "id": "c1771d11cf4029d4cbbe",
+      "title": "Building for good: How civil society organizations are automating on Cloudflare",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/civil-society-automation/",
+      "publishedAt": "2026-10-02T13:00:00Z",
+      "summary": "Tracking how governments target dissidents living in exile. Helping people in crisis find mental health support. Advocating for legislation that protects free expression online. These are a few examples of how some of the world's leading organizations are building the future of non-profit work with Cloudflare. AI is changing how people do their work. The goal of Cloudflare Impact is to help ensure",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3W896Z08YJWZG5GH6T03D67.png"
+    },
+    {
+      "id": "3a7c567dce310cad1a1b",
+      "title": "2026 Birthday week: network performance update",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
+      "publishedAt": "2026-10-02T13:00:00Z",
+      "summary": "Cloudflare is now the fastest provider in 74% of the 1,000 largest networks around the world, up from 60% in April 2026. This huge improvement matters because every millisecond affects how quickly users can reach the applications, APIs, and websites they rely on. In this Birthday Week performance update, we’ll review how we get our measurements, introduce a new measurement methodology using Cloudf",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3T5G957VG05271ET71MQ7TS.png"
+    },
+    {
       "id": "f8144ece9a9d92cec2fa",
       "title": "SequenceHash: multihashing for the rest of us",
       "sourceName": "Trail of Bits",
@@ -16,6 +133,15 @@
       "url": "https://stackoverflow.blog/2026/10/02/constraints-that-make-developers-faster/",
       "publishedAt": "2026-10-02T07:40:00Z",
       "summary": "Ryan chats with Julien Verlaguet, CEO at Skip Labs, about finding the balance between human tolerance and tooling constraints, the spectrum of typed programming languages, and building cost-effective tooling for AI agents.",
+      "imageURL": null
+    },
+    {
+      "id": "448ec9701cf56bb449d7",
+      "title": "The Database Is the Product: What Breaks When Memory Devices Scale",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=35216",
+      "publishedAt": "2026-10-01T20:06:50Z",
+      "summary": "Editor’s note: This post originally appeared on The New Stack and is republished with permission. The original version is available here . Key Takeaways Splitting metadata (MySQL) from content (S3) with no shared transaction boundary pushes consistency problems into the application layer. At around 300 million rows, schema changes required maintenance windows, letting the database dictate the rele",
       "imageURL": null
     },
     {
@@ -208,78 +334,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3RZ3WTX78RCB7KKEB1T8J44.01M3RZ3XRZSENAMJGQMGNWZDHZ.png"
     },
     {
-      "id": "f5c8ce506653d38da1fd",
-      "title": "Cut your AI spend with AI Gateway's Auto Router",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/auto-router/",
-      "publishedAt": "2026-09-30T13:00:00Z",
-      "summary": "From our conversations with companies at every stage of their AI adoption journey, we've seen some common patterns. First, there is an exploration period as you bring on every new tool, dole out API keys freely, and let the tokens flow. Then, you converge on the canonical tools for your organization for agentic coding, for non-technical workflows, for running and deploying agents. As companies for",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3QZK4P6A5H0YYAEW0QN6YNC.png"
-    },
-    {
-      "id": "99aa0cdb13ba8807f040",
-      "title": "Detect and send production issues straight to your agent",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/real-time-issue-detection/",
-      "publishedAt": "2026-09-30T13:00:00Z",
-      "summary": "As agents help us build more complex applications, both humans and agents need a better way to stay on top of what goes wrong in production. Coding agents can already query observability data, navigate a repository, change code, write tests, and open a pull request. What remains manual is connecting those steps: recognizing that repeated failures come from the same bug, gathering the relevant logs",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3QYSQZS2E3XN2KS33WWKWGT.png"
-    },
-    {
-      "id": "fb57d33e1ed436a41e02",
-      "title": "Simplifying domains for people and agents",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/simplifying-domains/",
-      "publishedAt": "2026-09-30T13:00:00Z",
-      "summary": "You just thought of your next great idea, and buying the right domain feels like the easiest way to make that first bit of progress. Naturally, you open a new tab in your browser, only to find yourself face-to-face with an experience that feels like a budget airline peppering you with add-ons at checkout: Want security? How about a website? Do you want email? You’re just a few minutes into buildin",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3QWRFBJBT102QWDWVC9917P.png"
-    },
-    {
-      "id": "4433159357da7dd545eb",
-      "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/monetization-gateway-beta/",
-      "publishedAt": "2026-09-30T13:00:00Z",
-      "summary": "Today, we’re making the Cloudflare Monetization Gateway available as part of a closed beta, and showcasing four customer use cases that are in production today. Since we announced the plan three months ago, we have been working closely with our customers to make the Gateway fast, flexible, and easy to use. With just a few clicks, the Monetization Gateway allows domain owners to charge agents for a",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3QKS7979PTKRYVR2CN111JZ.01M3QKS7ZDZ74AXKMWXG7F3C2K.png"
-    },
-    {
-      "id": "0bf8694bc011208e4d28",
-      "title": "Pay Per Use: when AI uses your work, you should get paid",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/pay-per-use/",
-      "publishedAt": "2026-09-30T13:00:00Z",
-      "summary": "AI answer engines read a publisher’s page and hand the reader a summary, so the visit, and the revenue that would come with it, never happens. Most publishers will never sign a licensing deal with the companies that use their work in AI products, and no company can negotiate with millions of sites. The web needs a way to say “yes, if you pay.” Pay Per Use is one way to say it, and it's now in beta",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3Q8WBK852SB7AAAY4NK4NYB.png"
-    },
-    {
-      "id": "aedd73f0bdef50b6048b",
-      "title": "Identify AI model overuse with User Insights",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ai-model-overuse-user-insights/",
-      "publishedAt": "2026-09-30T13:00:00Z",
-      "summary": "When we launched User Insights last month, we wanted to help teams answer a basic question: What are people actually doing with AI? User Insights gives teams a clearer view of their AI usage, showing which users, applications, tasks, and models are driving traffic. It also highlights user and agent anomalies, helping teams identify unexpected or out-of-control spending and usage before they become",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7B4V2YNVJJXE8VE6E5ZK5E.png"
-    },
-    {
-      "id": "f17676444b661ab5e2e1",
-      "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
-      "publishedAt": "2026-09-30T12:58:00Z",
-      "summary": "Today, we’re making Cloudflare Containers more programmable and optimized for agent workloads. Agents don't deploy sandboxes ahead of time. They create sandboxes on demand, for each task, expect them to be ready immediately, and be able to pause and resume. So we rearchitected Containers to meet these requirements: your code can now choose each sandbox's image and instance type at runtime, Contain",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KW46H9N3ZPBVM99CMTJZRPF3.png"
-    },
-    {
-      "id": "c7067a9787a6877e5aee",
-      "title": "The Internet has a second audience",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/agentic-web/",
-      "publishedAt": "2026-09-30T12:58:00Z",
-      "summary": "For most of its history, the Internet had one audience that paid the bills: people. We read the articles, saw the ads, and bought the subscriptions. Bots were always there, but they were mostly large, automated operations that didn't view ads, pay for anything, or read in any meaningful sense. That's changing fast. At the end of 2024, Cloudflare handled an average of 63 million HTTP requests a sec",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3Q3ZZ59Z3P49M2FX7R7F4WQ.png"
-    },
-    {
       "id": "45b8038dfbdff015617e",
       "title": "Vector and Full-Text Search Explained: Why AI Agents Need Both",
       "sourceName": "PingCAP / TiDB",
@@ -314,24 +368,6 @@
       "publishedAt": "2026-09-29T13:44:23Z",
       "summary": "Your generative AI applications produce different results each time they run. One medical scan shows a single fracture, and another reveals twenty ambiguous regions that require expert review. Static interfaces can’t adapt to this variability. In this post, we show you how to build interfaces that automatically adapt to your AI’s variable outputs. This approach reduces interface development time a",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/28/ARCHBLOG-1366-1.png"
-    },
-    {
-      "id": "fabfe69a8a2b717eaa32",
-      "title": "Using AI to chart a course for our post-quantum migration",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
-      "publishedAt": "2026-09-29T13:00:00Z",
-      "summary": "As laboratories around the world race to build out a cryptographically relevant quantum computer , we at Cloudflare are racing towards a 2029 target deadline for full post-quantum readiness . While we’ve already transitioned many of our products to post-quantum encryption, we still have work to do to support post-quantum authentication and achieve full post-quantum readiness across our platform. W",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3NF5CE1NWTNNCSR9EKXSF87.01M3NF5CZVBP4EQSN6G4FQQC3S.png"
-    },
-    {
-      "id": "e006b93f8b249b3c144a",
-      "title": "Building a certificate authority for the whole Internet",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
-      "publishedAt": "2026-09-29T13:00:00Z",
-      "summary": "Twelve years ago, during Birthday Week 2014, we turned on Universal SSL and nearly doubled the number of encrypted sites on the web overnight, giving free TLS to every site behind Cloudflare, including the ones that never paid us a cent. Encryption stopped being an expensive, time-intensive undertaking and instead became the default. For Birthday Week this year, we are taking the next step on that",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3NDS17PAN9XKW88493GE864.01M3NDS24T3Y1A90FZDRFXYHZD.png"
     },
     {
       "id": "229fbce2093da7fcbaed",
@@ -1171,15 +1207,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/08/Domain-Expert-AI-Table.png"
     },
     {
-      "id": "c7299e4369911999699d",
-      "title": "What is a Serverless Database and Why It Matters for Modern AI Apps",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34864",
-      "publishedAt": "2026-09-01T20:10:00Z",
-      "summary": "Key Takeaways A serverless database scales compute automatically and bills for what you use, not reserved capacity. Managed services still make you pick an instance size. Serverless decides capacity itself. Bursty inference and idle dev cycles make AI workloads a natural fit. Cold starts, no cost ceiling, and always-hot workloads are the disqualifiers. A serverless database is a cloud database tha",
-      "imageURL": null
-    },
-    {
       "id": "4db85808102385e4d30e",
       "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
       "sourceName": "Kubernetes Blog",
@@ -1387,15 +1414,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/08/Meta-MTIA-300-Figure-1.png"
     },
     {
-      "id": "bbef05181e8774816110",
-      "title": "How a global payment processor preserved AWS RAM shares and Lake Formation permissions during an AWS Organizations migration",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-a-global-payment-processor-preserved-aws-ram-shares-and-lake-formation-permissions-during-an-aws-organizations-migration/",
-      "publishedAt": "2026-08-24T15:23:21Z",
-      "summary": "Accounts move between organizations in AWS Organizations whenever a business changes shape. A merger folds one estate into another. A divestiture carves one out, and some companies run more than one organization by design. The moves take more care when AWS Resource Access Manager (AWS RAM) resource shares are involved. An organization-bound share trusts an account through its organization membersh",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/17/ARCHBLOG-1650-1.png"
-    },
-    {
       "id": "bbcc7641fcc2a43fa5d1",
       "title": "Responsible AI adoption needs developer workflow design",
       "sourceName": "Stack Overflow Blog",
@@ -1414,15 +1432,6 @@
       "imageURL": null
     },
     {
-      "id": "b0b2843ab9ea6885b2b4",
-      "title": "Build a unified AI agent architecture with DynamoDB and Bedrock",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/build-a-unified-ai-agent-architecture-with-dynamodb-and-bedrock/",
-      "publishedAt": "2026-08-21T18:19:23Z",
-      "summary": "Teams building AI agents on AWS often face a fragmented data architecture: operational data lives in Amazon DynamoDB while vector embeddings for semantic search sit in a separate, purpose-built vector store. This duplication increases infrastructure cost, adds synchronization complexity, and widens the window for stale retrieval results. With the general availability of native vector search in Ama",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/21/ARCHBLOG-1687-1.jpg"
-    },
-    {
       "id": "775ed46b12083c5d6fdd",
       "title": "A Tale of Two Flink Autoscalers",
       "sourceName": "Netflix TechBlog",
@@ -1430,15 +1439,6 @@
       "publishedAt": "2026-08-21T16:01:01Z",
       "summary": "Samuel Yeboah , Francesco Di Chiara and Mingliang Liu Today, Netflix runs two Flink autoscalers. That is exactly one more than we want. We built the first one in-house years ago, when there was no mature option suited to our platform. The second came from the Apache Flink community, and it can scale workloads our homegrown system was never designed for. We now run both in production and are steadi",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Rn81hdaUHY94Sf8S-GOHZA.png"
-    },
-    {
-      "id": "88ecacabd1580e0ec047",
-      "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 2",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-agentflo-built-ai-sales-agents-with-amazon-bedrock-agentcore-part-2/",
-      "publishedAt": "2026-08-21T10:01:18Z",
-      "summary": "If you’re building AI agents for commerce at scale, you face two critical challenges: handling unpredictable traffic spikes and ensuring your agents can be trusted with real customer transactions. This post shows how AgentFlo solved these challenges using Amazon Bedrock AgentCore and AWS serverless architecture. You learn the architectural patterns behind their reliability and trust frameworks, se",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/11/ARCHBLOG-1672-1.png"
     },
     {
       "id": "27b7e490bced9706f40c",
