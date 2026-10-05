@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "44b03140de4a0c7b4a97",
+      "title": "Everything we launched during Birthday Week 2026",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
+      "publishedAt": "2026-10-05T13:00:00Z",
+      "summary": "We celebrated our 16th birthday last week by sharing how we’re building a better Internet for today’s world. As Matthew and Michelle reflected in this year’s Founders’ Letter , this year saw some of the most consequential changes in the history of the Internet. For the first time, automated traffic surpassed human activity. AI is empowering people to build like never before, leading the Internet t",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M45M6F7F4N2RT9KMZ0Q5DRQT.png"
+    },
+    {
+      "id": "9a1667b7b376f49f6240",
+      "title": "One year later: the power of 1.1.1.1 interns",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+      "publishedAt": "2026-10-05T13:00:00Z",
+      "summary": "A year ago, many companies were cutting intern and new-graduate hiring . We went the other way. We announced a goal to hire as many as 1,111 interns in 2026, a number that’s a nod to 1.1.1.1, our public DNS resolver. The bet was that AI makes early-career talent more valuable and able to make an impact faster. The best AI tools help people learn a system faster, try more ideas, and take on harder ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M40BZTRXM8420FKPHKZ2HBJT.png"
+    },
+    {
+      "id": "c93a954454e459c13c04",
+      "title": "Strands Decider: Why Not an Encoder?",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/10/04/encoders",
+      "publishedAt": "2026-10-04T00:00:00Z",
+      "summary": "Strands Decider: Why Not an Encoder? Expertise level: exhausted. MathJax = { tex: {inlineMath: [['\\\\(', '\\\\)'], ['$', '$']]} }; As I admitted in my last post , I am very much not an expert model developer. What follows is likely to be, at least partially, inaccurate. I have tried to be careful and quantitative, to partially balance a lack of deep expertise. Since we launched strands-decider-2B las",
+      "imageURL": "/blog/images/bidi_jevbench_accuracy_brier.svg"
+    },
+    {
+      "id": "cd838e82df4db660bfbd",
+      "title": "8 major updates to Cloudflare Observability",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/one-observability-platform/",
+      "publishedAt": "2026-10-02T18:00:00Z",
+      "summary": "Today, we’re launching eight major updates that bring your logs, traces, analytics, alerts, dashboards, and exporting into one observability platform , with simpler and more predictable pricing. Here's what's launching: One place to explore logs from across Cloudflare End-to-end tracing from Cloudflare's edge to your origin One unified SQL API for querying Cloudflare data One pricing model for obs",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XHE6D45CDHQVM71QYA6EEJ.01M3XHE6YHC44V1DZB0VG3DCGV.png"
+    },
+    {
       "id": "6f63ac3fe831ec044cf4",
       "title": "Deploy Oracle Database step by step on Amazon EVS with FSx for ONTAP",
       "sourceName": "AWS Architecture Blog",
@@ -44,15 +80,6 @@
       "publishedAt": "2026-10-02T13:28:10Z",
       "summary": "Fun fact: when you use an agent and it needs to fetch a live web page, the agent usually just guesses the URL of the page and then makes a tool call to curl it. This is why you’ll sometimes see web fetches come back with a 404 Not Found, which happens if the agent incorrectly guesses the URL of that information. As you can imagine, it’s not super efficient to randomly guess URLs all the time. Ther",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XMA3KN5CDQCSF0YHZ0WFBH.01M3XMA452ZT41JBXKRPY1HH3F.png"
-    },
-    {
-      "id": "cd838e82df4db660bfbd",
-      "title": "8 major updates to Cloudflare Observability",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/one-observability-platform/",
-      "publishedAt": "2026-10-02T13:00:00Z",
-      "summary": "Today, we’re launching eight major updates that bring your logs, traces, analytics, alerts, dashboards, and exporting into one observability platform , with simpler and more predictable pricing. Here's what's launching: One place to explore logs from across Cloudflare End-to-end tracing from Cloudflare's edge to your origin One unified SQL API for querying Cloudflare data One pricing model for obs",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XHE6D45CDHQVM71QYA6EEJ.01M3XHE6YHC44V1DZB0VG3DCGV.png"
     },
     {
       "id": "67a3a49e3f584ae796d3",
@@ -244,15 +271,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KYQH7SRKMQZ9Z5K1ZQ41N12X.png"
     },
     {
-      "id": "4d280c4652e3b6b49a1e",
-      "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-basin/",
-      "publishedAt": "2026-10-01T12:58:00Z",
-      "summary": "During Birthday Week 2025, we announced the Cloudflare Data Platform , a suite of products that ingest, store, and query your analytical data. Today, we’re announcing that the platform is generally available, and we’re giving it a new name: Cloudflare Basin . Basin is a serverless data analytics platform built on Apache Iceberg , the open standard for data lakes, and R2 Object Storage . The Basin ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3TBHN0F85Z2NSDVC4T3HF05.png"
-    },
-    {
       "id": "c906b41a139a5f62b022",
       "title": "Why I tried to kill token billing (and why we kept it)",
       "sourceName": "Stripe Blog",
@@ -323,15 +341,6 @@
       "publishedAt": "2026-09-30T13:58:45Z",
       "summary": "An oilfield SCADA migration guide: reshape a wide sensor table into a narrow hypertable plus a metadata table, in place, with your dashboards still running. Every new instrument the field commissions turns into a schema change for you. A casing-pressure transmitter goes on a pad, a flow computer lands on a gathering line, and your wide telemetry table gets another indexed column on top of years of",
       "imageURL": "https://assets.tigerdata.com/blog/2026/09/normalizing-well-pipeline.svg"
-    },
-    {
-      "id": "df82c40b0aef17aac822",
-      "title": "Cloudflare Impact reaches $100 million in donations",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/100-million-donations/",
-      "publishedAt": "2026-09-30T13:01:55Z",
-      "summary": "This week, Cloudflare's Impact programs will reach $100 million in donated services. It's a significant milestone, and one that we are proud of because it means that thousands of organizations, like journalism outlets, civil society, state and local governments, election management bodies, and public schools are being protected from cyberattacks. But Cloudflare's Impact programs have never been ab",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3RZ3WTX78RCB7KKEB1T8J44.01M3RZ3XRZSENAMJGQMGNWZDHZ.png"
     },
     {
       "id": "45b8038dfbdff015617e",
@@ -429,7 +438,7 @@
       "sourceName": "Marc Brooker",
       "url": "http://brooker.co.za/blog/2026/09/28/engineering-system-one",
       "publishedAt": "2026-09-28T00:00:00Z",
-      "summary": "Small Decisions: Engineering a Leading Model Or trying to, at least. My day job has been primarily in AI for three years now, but I’d be the first to admit that’s been almost entirely in one corner of AI: infrastructure, safety, and tools for AI agents. That work has brought me in contact with a lot of the AI science (and I’d dabbled there over the previous decade), but I’m super far from the day-",
+      "summary": "Small Decisions: Engineering a Leading Model Or trying to, at least. Update: An evolved version of the model described here is now available as part of Strands. Check out strands-decider on github and HuggingFace . My day job has been primarily in AI for three years now, but I’d be the first to admit that’s been almost entirely in one corner of AI: infrastructure, safety, and tools for AI agents. ",
       "imageURL": "/blog/images/hobson_jevbench_trajectory.svg"
     },
     {
@@ -1789,15 +1798,6 @@
       "url": "http://antirez.com/news/172",
       "publishedAt": "2026-07-28T09:00:11Z",
       "summary": "Amodei in his latest blog post wrote a mix of agreeable things and things that I believe misrepresent where the real risk of AI is located. I want to focus my attention on why, among all the risks, open weight models constitute the mildest one. I write these words as a person who strongly believes AI may be very dangerous in the near future: 1. Exactly like what happened during the OpenAI / HF inc",
-      "imageURL": null
-    },
-    {
-      "id": "752aa65b6686469d83bc",
-      "title": "Being Linux Torvalds",
-      "sourceName": "Salvatore Sanfilippo (antirez)",
-      "url": "http://antirez.com/news/171",
-      "publishedAt": "2026-07-25T11:20:55Z",
-      "summary": "(This blog post was adapted from the transcription obtained from my YouTube video at https://www.youtube.com/watch?v=l6lxgYeVZqs) When Linus Torvalds developed the first Linux kernel, he had studied the Minix sources, he had studied computer architecture, he had the base knowledge needed, and he was obviously a very brilliant programmer. But that operation of writing a minimal yet working Unix ker",
       "imageURL": null
     }
   ]
