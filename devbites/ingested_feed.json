@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "ce7097e55616b5f41aea",
+      "title": "Scaling Kubernetes Workloads with Node Swap",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
+      "publishedAt": "2026-10-05T18:00:00Z",
+      "summary": "Memory is often the first hard limit a Kubernetes cluster hits. Nodes run out of RAM long before they run out of CPU, and the new wave of agentic AI workloads makes this worse. These workloads demand large memory footprints to start up and run untrusted code, then sit idle waiting for the next prompt. That idle but resident memory is expensive, and it caps how many pods a node can hold. This is wh",
+      "imageURL": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/node-swap-chart.svg"
+    },
+    {
+      "id": "5a9ea5462d856e8c867f",
+      "title": "Announcing the AWS Digital Sovereignty Lens for the Well-Architected Framework",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/announcing-the-aws-digital-sovereignty-well-architected-lens/",
+      "publishedAt": "2026-10-05T17:54:56Z",
+      "summary": "October 2026: This post was reviewed and updated for accuracy. Today we’re launching the AWS Digital Sovereignty Lens , a new Well-Architected lens providing customers with extended guidance for designing, building, and operating sovereign workloads on AWS. Customers tell us that digital sovereignty brings a unique set of challenges that existing architecture guidance doesn’t fully address. Sovere",
+      "imageURL": null
+    },
+    {
       "id": "44b03140de4a0c7b4a97",
       "title": "Everything we launched during Birthday Week 2026",
       "sourceName": "Cloudflare Blog",
@@ -1342,15 +1360,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/22/ARCHBLOG-1630-1-1.png"
     },
     {
-      "id": "4d42a1e911bdc335d0b5",
-      "title": "Closing the AI agent trust gap with graduated autonomy",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/closing-the-ai-agent-trust-gap-with-graduated-autonomy/",
-      "publishedAt": "2026-08-26T17:33:03Z",
-      "summary": "How much to trust an AI agent is now a daily operational question. Agents read customer data, open tickets, process refunds, and delete accounts, yet most teams pick up a binary: full access or read-only. Full access is risky because agents fail unpredictably. Read-only leaves most of the agent’s value unused. The distance between what an agent could do and what an operator trusts it to do is the ",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/25/ARCHBLOG-1524-1.png"
-    },
-    {
       "id": "8061813586c580cf8801",
       "title": "VMs won't contain cyber-capable agents",
       "sourceName": "Trail of Bits",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-07-28T11:00:00Z",
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet , our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again an",
       "imageURL": "https://blog.trailofbits.com/2026/07/28/how-we-use-goal-to-find-bugs-in-patch-the-planet/goal_ptp_figure_3_hu_2a14b2f59f76ba60.webp"
-    },
-    {
-      "id": "b692e9402d0a83744df2",
-      "title": "The real AI risk is inside the labs",
-      "sourceName": "Salvatore Sanfilippo (antirez)",
-      "url": "http://antirez.com/news/172",
-      "publishedAt": "2026-07-28T09:00:11Z",
-      "summary": "Amodei in his latest blog post wrote a mix of agreeable things and things that I believe misrepresent where the real risk of AI is located. I want to focus my attention on why, among all the risks, open weight models constitute the mildest one. I write these words as a person who strongly believes AI may be very dangerous in the near future: 1. Exactly like what happened during the OpenAI / HF inc",
-      "imageURL": null
     }
   ]
 }
