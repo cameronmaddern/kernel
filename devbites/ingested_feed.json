@@ -1,6 +1,105 @@
 {
   "articles": [
     {
+      "id": "08c26b36162f96b20585",
+      "title": "Continuous Aggregate Refresh Policies for Solar and Wind SCADA Data: Choosing the Right Policy Shape",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/continuous-aggregate-refresh-policies-solar-wind-scada",
+      "publishedAt": "2026-10-07T12:14:21Z",
+      "summary": "A few dozen solar plants and wind farms push supervisory control and data acquisition (SCADA) readings into a TimescaleDB hypertable on Postgres. An hourly continuous aggregate serves the dashboards and the settlement exports, and the continuous aggregate refresh policy behind it was configured on the day the system went live. Nobody has touched it since. It has three numbers in it: start_offset ,",
+      "imageURL": "https://assets.tigerdata.com/blog/2026/10/one-run-shape-1.svg"
+    },
+    {
+      "id": "24d39f28f1664a92f8c7",
+      "title": "Building Git infrastructure for agent-scale development",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=99275",
+      "publishedAt": "2026-10-06T20:57:56Z",
+      "summary": "Every day on GitHub, millions of developers build the products their customers rely on, contribute to open source, and pursue personal projects. GitHub’s architecture has changed steadily over the years to support that work and the growing demands of the developers and organizations who depend on it. Agentic software development is driving the next architectural shift. With developers and agents w",
+      "imageURL": null
+    },
+    {
+      "id": "a5ffcf8d373c735182ae",
+      "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
+      "publishedAt": "2026-10-06T18:00:00Z",
+      "summary": "In Linux, cgroups (control groups) are a kernel feature used for managing system resources. Kubernetes uses cgroups to allocate resources like CPU and memory to containers, ensuring that applications run smoothly without interfering with each other. With the release of Kubernetes v1.31, support for v1 cgroup management moved into maintenance mode . Support for v2 cgroup management has been stable ",
+      "imageURL": null
+    },
+    {
+      "id": "3d9c7800b1392d7453f4",
+      "title": "The keys to the Internet change on October 11. Are you ready?",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+      "publishedAt": "2026-10-06T17:50:11Z",
+      "summary": "On October 11, 2026, the DNS root is scheduled to change its key-signing key (KSK) for only the second time ever. This key anchors DNSSEC’s chain of trust, which lets DNS resolvers authenticate answers using cryptographic signatures. The change is called a KSK rollover. Validating resolvers need to trust the new key before the switch, as otherwise healthy websites could become unreachable. When we",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M490CTJ7YDMNAYZRST2FH35F.png"
+    },
+    {
+      "id": "20b7065275ccb54206af",
+      "title": "Beyond synthetic testing: Capturing and replaying real database workloads at Airbnb",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/cea7ee9b1ab2",
+      "publishedAt": "2026-10-06T17:01:04Z",
+      "summary": "How we capture real production database traffic at Airbnb and replay it offline to load-test, plan capacity, and de-risk upgrades. By: Zuofei Wang , Erluo Li Introduction At Airbnb, MySQL-compatible databases are a critical backbone of our online database infrastructure: a fleet of hundreds of clusters supporting thousands of use cases at millions of queries per second (QPS). Operating databases a",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*iYpaqy9OLoB92atnd-0cEA.png"
+    },
+    {
+      "id": "95dfe3371e8f5acc4f84",
+      "title": "Tales from the 2026 Developer Survey results",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/06/tales-from-the-2026-developer-survey-results/",
+      "publishedAt": "2026-10-06T17:00:00Z",
+      "summary": "Ryan chats with Erin Yepis, Senior Analyst at Stack Overflow, about the results from this year’s Annual Developer Survey, including the overwhelming daily usage of AI coding assistants despite lingering developer trust issues, the critical role of well-organized documentation in providing verifiable context to mitigate AI hallucinations, and the evolving ways developers are shifting away from acti",
+      "imageURL": null
+    },
+    {
+      "id": "0c0cda8b27cc85322506",
+      "title": "NTS: Authenticated Time at Meta",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24581",
+      "publishedAt": "2026-10-06T16:00:06Z",
+      "summary": "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com . Packets are authenticated, so a device can verify the time came from us and was not modified on the way. Our NTS servers hold no per-client state. Cookie keys are derived, not stored and not replicated. We’ve open sourced everything, including the protocol, server, client through Meta’s Time library on Gi",
+      "imageURL": null
+    },
+    {
+      "id": "60823063564ea2d19f00",
+      "title": "Why Open Source Still Matters When Agents Write the Code",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=35267",
+      "publishedAt": "2026-10-06T15:45:08Z",
+      "summary": "Maintainers of well-known open source projects are dealing with a new kind of inbox. Pull requests still arrive, often in higher volume than ever, and many are clean, well-formatted, and plausible on first read. What changed is that one person can now produce a hundred of them in an afternoon, and the maintainer still has to read every one to find the three that are real. That inversion is the mos",
+      "imageURL": null
+    },
+    {
+      "id": "011aee35663a3a5827e0",
+      "title": "The results of the 2026 Developer Survey are here!",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/",
+      "publishedAt": "2026-10-06T14:00:00Z",
+      "summary": "Below, we’ll highlight some of the results we found interesting about what's going in the life of technologists, their technologies, AI usage, and more.",
+      "imageURL": null
+    },
+    {
+      "id": "dc0f7bb7d5228d404b19",
+      "title": "Discord Patch Notes: October 6, 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-patch-notes-october-6-2026",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
+    },
+    {
+      "id": "cbd7ea75fd5495bee139",
+      "title": "A Terminal Protocol for Program Status (OSC 7501)",
+      "sourceName": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/writing/program-status-osc7501",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
       "id": "ce7097e55616b5f41aea",
       "title": "Scaling Kubernetes Workloads with Node Swap",
       "sourceName": "Kubernetes Blog",
@@ -280,15 +379,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3SPF381A5ZFP5JJT0DGXF1T.png"
     },
     {
-      "id": "73a4772bd66c1078902f",
-      "title": "Support for modern cryptographic algorithms in Workers",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
-      "publishedAt": "2026-10-01T13:00:00Z",
-      "summary": "Today, Cloudflare Workers is adding support for post-quantum-resistant algorithms within Web Crypto. These are defined in Modern Algorithms in the Web Cryptography API draft community group report , and include: ML-KEM-768 and ML-KEM-1024 for key encapsulation ML-DSA-44, ML-DSA-65, and ML-DSA-87 for signatures encapsulateBits() , decapsulateBits() , encapsulateKey() , and decapsulateKey() getPubli",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KYQH7SRKMQZ9Z5K1ZQ41N12X.png"
-    },
-    {
       "id": "c906b41a139a5f62b022",
       "title": "Why I tried to kill token billing (and why we kept it)",
       "sourceName": "Stripe Blog",
@@ -350,15 +440,6 @@
       "publishedAt": "2026-09-30T14:00:00Z",
       "summary": null,
       "imageURL": null
-    },
-    {
-      "id": "59c859d93192a4e553d0",
-      "title": "Normalizing a Wide Well and Pipeline Telemetry Table Without Re-Ingesting History",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/normalizing-wide-well-pipeline-telemetry-table-without-re-ingesting-history",
-      "publishedAt": "2026-09-30T13:58:45Z",
-      "summary": "An oilfield SCADA migration guide: reshape a wide sensor table into a narrow hypertable plus a metadata table, in place, with your dashboards still running. Every new instrument the field commissions turns into a schema change for you. A casing-pressure transmitter goes on a pad, a flow computer lands on a gathering line, and your wide telemetry table gets another indexed column on top of years of",
-      "imageURL": "https://assets.tigerdata.com/blog/2026/09/normalizing-well-pipeline.svg"
     },
     {
       "id": "45b8038dfbdff015617e",
@@ -1126,15 +1207,6 @@
       "imageURL": null
     },
     {
-      "id": "828ec4081b17145065e6",
-      "title": "Serverless MySQL for AI Agents: Store Memory, Tool Outputs, and Searchable State in One Backend",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34875",
-      "publishedAt": "2026-09-03T21:05:13Z",
-      "summary": "Key Takeaways “MySQL AI” means three things. Only one, MySQL as an agent backend, is an architecture decision. Agents persist six data types. Five need transactions and exact filtering; embeddings are the new one. Community and Commercial MySQL store vectors but can’t compare them. DISTANCE() is HeatWave and MySQL AI only. One MySQL-compatible backend for memory, tool outputs, and embeddings remov",
-      "imageURL": null
-    },
-    {
       "id": "cae3cde0353c76965b26",
       "title": "Kubernetes v1.37: DRA Updates",
       "sourceName": "Kubernetes Blog",
@@ -1396,15 +1468,6 @@
       "imageURL": null
     },
     {
-      "id": "36e2dd9933b8de9e18e7",
-      "title": "Inside LinkedIn's cognitive memory agent for agentic personalization",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/25/inside-linkedin-s-cognitive-memory-agent/",
-      "publishedAt": "2026-08-25T07:40:00Z",
-      "summary": "Ryan is joined by Praveen Bodigutla, Principal AI Researcher at LinkedIn, to chat about the four-layer memory system his team built to give LinkedIn's hiring assistant a persistent, personalized state.",
-      "imageURL": null
-    },
-    {
       "id": "9ff1a7c8cf83d95df158",
       "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
       "sourceName": "GitHub Engineering",
@@ -1430,15 +1493,6 @@
       "publishedAt": "2026-08-24T17:45:52Z",
       "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the communication needs associated with training recommendation models with superior performance over general-purpose GPUs. By co-designing MTIA’s communication library, HCCL, alongside t",
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/08/Meta-MTIA-300-Figure-1.png"
-    },
-    {
-      "id": "bbcc7641fcc2a43fa5d1",
-      "title": "Responsible AI adoption needs developer workflow design",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/24/responsible-ai-adoption-needs-developer-workflow-design/",
-      "publishedAt": "2026-08-24T14:00:00Z",
-      "summary": "Organizations cannot solve shadow AI with a document employees read once. They need to make responsible use easier than improvised use.",
-      "imageURL": null
     },
     {
       "id": "66a879da5b76d97c78f5",
@@ -1639,15 +1693,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a739eab90b6719a4af75a42_image1.png"
     },
     {
-      "id": "e90e04dd478fae65deaf",
-      "title": "From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=23996",
-      "publishedAt": "2026-08-05T19:20:20Z",
-      "summary": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequence learning for ads recommendations , we showed how modeling the order and timing of user actions ( rather than relying on static, manually engineered sparse features) produces r",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/05/Multi-stage-Model-Overview.png"
-    },
-    {
       "id": "1f606ef577cecfb83f27",
       "title": "A few notes on AWS Nitro Enclaves: KMS integration",
       "sourceName": "Trail of Bits",
@@ -1754,51 +1799,6 @@
       "publishedAt": "2026-07-29T16:00:00Z",
       "summary": "If you maintain an active repository, you know the feeling. You open your notifications on a Monday morning and there they are: five, 10, sometimes a dozen Dependabot pull requests, each bumping a single dependency by a single patch version. Individually, every one of them is helpful. Collectively, they’re noise. And noise is how important updates get ignored. We looked at Microsoft’s GCToolkit , ",
       "imageURL": null
-    },
-    {
-      "id": "e7259bc8568a80908850",
-      "title": "Introducing Profile Frames: Decorative Borders to Make Your Discord Profile Museum-Worthy",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/introducing-profile-frames-decorative-borders-to-make-your-discord-profile-museum-worthy",
-      "publishedAt": "2026-07-29T00:00:00Z",
-      "summary": "Introducing Profile Frames: a new way to put a finishing touch on your Discord profile. Frames add a decorative border around your profile, giving the whole thing a look that's unmistakably yours.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a61726c3c4f3808daa86917_Blog%20Header%20-%201800x720.png"
-    },
-    {
-      "id": "9cb4c945c432c4be0998",
-      "title": "Lorenz and Little: How Much Does Your Tail Cost?",
-      "sourceName": "Marc Brooker",
-      "url": "http://brooker.co.za/blog/2026/07/29/lorenz-and-little",
-      "publishedAt": "2026-07-29T00:00:00Z",
-      "summary": "Lorenz and Little: How Much Does Your Tail Cost? Lorenz and Little sounds like hipster burger bar from 2015. MathJax = { tex: {inlineMath: [['\\\\(', '\\\\)'], ['$', '$']]} }; It’s time for Marc’s Amateur Statistics Corner! Today: why I pay a lot of attention to tail latency when optimizing cost. I’ve written before on the importance of tail latency for customer experience (e.g. in 2026 , 2021 , and 2",
-      "imageURL": null
-    },
-    {
-      "id": "a883c0208eb7dd5eb606",
-      "title": "Superlogical",
-      "sourceName": "Mitchell Hashimoto",
-      "url": "https://mitchellh.com/writing/superlogical",
-      "publishedAt": "2026-07-29T00:00:00Z",
-      "summary": null,
-      "imageURL": null
-    },
-    {
-      "id": "38844699ad076c43f47e",
-      "title": "Eval-driven development: Lessons from evaluating GenAI at scale",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/e817e5ae5788",
-      "publishedAt": "2026-07-28T17:01:03Z",
-      "summary": "How Airbnb teams build trustworthy Generative AI products by treating evaluation as a first-class engineering discipline; not an afterthought. Nestled into the lush hillside, this stunning modern retreat features striking natural wood architecture, terraced balconies, and a serene landscape. By: Rohit Girme , Dan Miller , Mia Zhao , Lifan Yang , Clint Kelly Introduction Generative AI breaks a lot ",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*XK40dh-lXviuXXY_WhUCUA.jpeg"
-    },
-    {
-      "id": "53a9c0b8566b179134d0",
-      "title": "How we use /goal to find bugs in Patch the Planet",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/07/28/how-we-use-goal-to-find-bugs-in-patch-the-planet/",
-      "publishedAt": "2026-07-28T11:00:00Z",
-      "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet , our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again an",
-      "imageURL": "https://blog.trailofbits.com/2026/07/28/how-we-use-goal-to-find-bugs-in-patch-the-planet/goal_ptp_figure_3_hu_2a14b2f59f76ba60.webp"
     }
   ]
 }
