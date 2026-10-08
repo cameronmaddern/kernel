@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "ec20e379685daa090d19",
+      "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://radar-redesign/",
+      "publishedAt": "2026-10-08T13:00:00Z",
+      "summary": "Radar provides a real-time view into global Internet trends, powered by Cloudflare’s global network. We support Cloudflare’s mission to help build a better Internet by making web data visible, clear, and actionable for everyone. Since launching in 2020 , Radar has found a natural audience amongst expert users with technical backgrounds, such as network operators and academic researchers who rely o",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4ATYKKB9BZQWRXFMJ44SNYV.png"
+    },
+    {
+      "id": "170f284dbc6050b03124",
+      "title": "Part 3: Knowing when your agent doesn’t know: the confidence layer",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/07/part-3-knowing-when-your-agent-doesn-t-know-the-confidence-layer/",
+      "publishedAt": "2026-10-07T20:40:29Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "b8b19cfbffda347d67ca",
+      "title": "Part 2: Evals as a deployment gate — and how to know when they drift",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/07/evals-as-a-deployment-gate-and-how-to-know-when-they-drift/",
+      "publishedAt": "2026-10-07T20:31:12Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "0473536c4aa5283a6dd2",
+      "title": "Part 1: Make your AI agents boring: the determinism layer",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/07/part-1-make-your-ai-agents-boring-the-determinism-layer/",
+      "publishedAt": "2026-10-07T20:14:49Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "1bec3c1046358e9e6b85",
+      "title": "Implementing a Modular Master-Agent Telemetry & Diagnostic Framework in Python: Prime-Sentinel Command (PSC)",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/07/implementing-a-modular-master-agent-telemetry-and-diagnostic-framework-in-python-prime-sentinel-command-psc/",
+      "publishedAt": "2026-10-07T20:03:47Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "ab59c26010b6f11d5b24",
+      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agentic-security-operations/",
+      "publishedAt": "2026-10-07T16:30:36Z",
+      "summary": "Security alerts rarely arrive one at a time. A single alert can cause a spike across the environment, requiring a human analyst to decide which alerts are related and what they mean. When multiple arrive at the same time, it can quickly overwhelm even a seasoned security analyst. Enter the alert paradox. Now, our built-in, multi-AI-agent security operations harness can handle more of this work at ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M32R921QMDZ1S2MHB3M7Q85H.01M32R93AJ8Q0D22GYW0163M3F.png"
+    },
+    {
       "id": "08c26b36162f96b20585",
       "title": "Continuous Aggregate Refresh Policies for Solar and Wind SCADA Data: Choosing the Right Policy Shape",
       "sourceName": "Timescale",
@@ -359,24 +413,6 @@
       "publishedAt": "2026-10-01T13:00:00Z",
       "summary": "With traditional Remote Procedure Call (RPC) architectures, there exists a core challenge: producers and consumers must align in scale and in time. If your producers send too much data for your consumers to handle or if your consumers or downstream services become unavailable, events are dropped. This problem is compounded with multiple consumers that need to independently process the data. For ex",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3SXWMA7TC0H6D9G217A3327.png"
-    },
-    {
-      "id": "37a106d7f924ad981fc3",
-      "title": "We want you to build the next Git platform on Cloudflare",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-      "publishedAt": "2026-10-01T13:00:00Z",
-      "summary": "GitHub was built for a world where humans write code, organize it into repositories, and collaborate through branches, commits, issues, and pull requests. But the next generation of software is going to be built differently because it is going to be built by a different kind of developer: agents. Agents are already writing more code than ever before — they’re fixing bugs, building features, writin",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3VGDDQQHKX35297BEXJZ5H0.01M3VGDEMW20N9CFDP5TEPV5EJ.png"
-    },
-    {
-      "id": "01ae9a71d239e84b2a68",
-      "title": "AI Search is now generally available",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ai-search-ga/",
-      "publishedAt": "2026-10-01T13:00:00Z",
-      "summary": "Cloudflare’s AI Search combines Workers AI, Vectorize, R2, and Browser Run into a fully managed index and retrieval pipeline. Since we launched AI Search over a year ago, we’ve seen developers use it to power a wide range of search use cases, from searching internal documentation to powering search for their websites. We use AI Search ourselves to power search on our own blog and developer docs. S",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3SPF381A5ZFP5JJT0DGXF1T.png"
     },
     {
       "id": "c906b41a139a5f62b022",
@@ -1234,24 +1270,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/09/ZGateway-Figure-1.png"
     },
     {
-      "id": "22d1af2da309cb7e7be5",
-      "title": "Elevating security, control, and accessibility: Stack Internal 2026.6",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/03/security-control-and-accessibility-si-2026-6/",
-      "publishedAt": "2026-09-03T16:00:00Z",
-      "summary": "In our 2026.6 release, we are shipping updates across administrative security, programmatic API control, developer portal integrations, and platform-wide accessibility—ensuring both your engineers and your AI agents act on verified, decision-grade knowledge.",
-      "imageURL": null
-    },
-    {
-      "id": "a74095cc09b744a4c18f",
-      "title": "The economics of agent scale: tokens, ROI, and building platforms for AI-first teams (Part 2)",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/03/the-economics-of-agent-scale/",
-      "publishedAt": "2026-09-03T07:40:00Z",
-      "summary": "Andi Gutmans, head of Agentic Data Cloud at Google, returns for the second half of his Leaders of Code conversation to talk through the cost and infrastructure side of agentic development. ICYMI, part one covered judgment, code review, and data activation.",
-      "imageURL": null
-    },
-    {
       "id": "95b0cd6c98afdd89e223",
       "title": "Your Agent Speaks MCP. Give It a Computer.",
       "sourceName": "Fly.io Blog",
@@ -1333,15 +1351,6 @@
       "imageURL": "https://s.w.org/images/core/emoji/14.0.0/72x72/26a0.png"
     },
     {
-      "id": "0ee573a7839c2ad207b6",
-      "title": "The good ol’ days of building Java",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/01/the-good-ol-days-of-building-java/",
-      "publishedAt": "2026-09-01T07:40:00Z",
-      "summary": "Ryan sits down with Tim Lindholm, an early contributor to the Java language at Sun Microsystems, to chat about what it was like building one of the most popular programming languages ever at its inception, why it was strategically important for the Java team to create a cross-platform ABI to compete with Windows NT, and how applets were initially just an interesting demo.",
-      "imageURL": null
-    },
-    {
       "id": "e82667920f5ed02b238f",
       "title": "Ed Zitron's AI prediction track record",
       "sourceName": "Dan Luu",
@@ -1403,15 +1412,6 @@
       "publishedAt": "2026-08-28T16:01:02Z",
       "summary": "By Emma Yanyang Kong , Aditya Deshpande , Asad Abbasi , Bowei Yan , David Fagnan , Ashish Rastogi , Dhaval Patel , Ray Zhang Introduction The Netflix experience is a journey of discovery. Every visual cue, from the artwork on a title to the video previews that autoplay while you browse, is there to connect you with a story you will love. We call these visual cues assets , and choosing the right on",
       "imageURL": "https://cdn-images-1.medium.com/max/332/1*Tm2AJHCkMfTwtedhfmIAwA.png"
-    },
-    {
-      "id": "53454cc31f800ca9eea2",
-      "title": "When you keep AI Lean, you keep AI correct",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/08/28/when-you-keep-ai-lean-you-keep-ai-correct/",
-      "publishedAt": "2026-08-28T07:40:00Z",
-      "summary": "Ryan chats with Leo de Moura, Senior Principal Applied Scientist at AWS and the creator of the Lean language, about proving correctness in AI agents with the Lean language, how automated reasoning complements probabilistic AI models, and the use of AI for continuous code optimization.",
-      "imageURL": null
     },
     {
       "id": "548fd4bfd4c0c2bdfd81",
