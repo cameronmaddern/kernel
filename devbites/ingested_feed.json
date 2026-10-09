@@ -1,13 +1,67 @@
 {
   "articles": [
     {
-      "id": "ec20e379685daa090d19",
+      "id": "1f08aab410b93c0d9064",
+      "title": "Measuring How Fast Your IIoT Queries Are Degrading",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/measuring-how-fast-iiot-queries-degrading",
+      "publishedAt": "2026-10-09T12:00:40Z",
+      "summary": "Your dashboard renders in well under a second today. The question worth answering is what it will do after another eighteen months of sensor data lands in the same tables. Most teams answer by waiting. A panel gets slow, someone adds an index , it gets fast again, and the cycle repeats. Each fix lowers the curve's starting point and leaves its slope alone. This post measures the slope. You will re",
+      "imageURL": null
+    },
+    {
+      "id": "ed1806c9df4acc798d67",
+      "title": "Taking a look under your agent’s hood",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/09/taking-a-look-under-your-agent-s-hood/",
+      "publishedAt": "2026-10-09T07:40:00Z",
+      "summary": "Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about applying observability to non-deterministic AI agents, blurring the boundaries between software development and production workflows, and navigating emerging challenges in AI security and tokenomics.",
+      "imageURL": null
+    },
+    {
+      "id": "5c09c15ff9c214bf0bba",
+      "title": "Production-grade LLMs and agents: a field guide",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/08/production-grade-llms-and-agents-a-field-guide/",
+      "publishedAt": "2026-10-08T20:22:56Z",
+      "summary": "A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.",
+      "imageURL": null
+    },
+    {
+      "id": "2624c5312479dd5c453a",
+      "title": "Part 5: Operating an LLM system: observability, cost, routing, and the platform underneath",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/08/part-5-operating-an-llm-system-observability-cost-routing-and-the-platform-underneath/",
+      "publishedAt": "2026-10-08T20:08:53Z",
+      "summary": "Your service can be 100% up and still quietly approving the wrong things, burning its budget, or failing over into untested quality. Level 5 is the infrastructure that lets you see your decisions, bound your spend, route and fail over between models, kill bad behavior in seconds — and the platform that makes all of it possible.",
+      "imageURL": null
+    },
+    {
+      "id": "49dcb2798a7df3756a8f",
+      "title": "A green exit code is not evidence that the work happened",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/08/a-green-exit-code-is-not-evidence-that-the-work-happened/",
+      "publishedAt": "2026-10-08T14:00:00Z",
+      "summary": "Agents don't build trust for another reason, structurally worse than the first. It isn't only that the tool keeps changing shape. It's that the feedback loop you would need in order to learn the tool is broken at the point of measurement.",
+      "imageURL": null
+    },
+    {
+      "id": "399e9316859634ebf37c",
       "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
       "sourceName": "Cloudflare Blog",
-      "url": "https://radar-redesign/",
+      "url": "https://blog.cloudflare.com/radar-redesign/",
       "publishedAt": "2026-10-08T13:00:00Z",
       "summary": "Radar provides a real-time view into global Internet trends, powered by Cloudflare’s global network. We support Cloudflare’s mission to help build a better Internet by making web data visible, clear, and actionable for everyone. Since launching in 2020 , Radar has found a natural audience amongst expert users with technical backgrounds, such as network operators and academic researchers who rely o",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4ATYKKB9BZQWRXFMJ44SNYV.png"
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4DWXM8QH1FEK7XDTCR1RVA5.01M4DWXN5TGFT9XA1WXDCVYJ4B.png"
+    },
+    {
+      "id": "65c25aa68b76ef169d4c",
+      "title": "Part 4: Safety and governance for LLM systems: guardrails, PII, audit, and memory",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/07/part-4-safety-and-governance-for-llm-systems-guardrails-pii-audit-and-memory/",
+      "publishedAt": "2026-10-07T20:48:55Z",
+      "summary": null,
+      "imageURL": null
     },
     {
       "id": "170f284dbc6050b03124",
@@ -37,6 +91,15 @@
       "imageURL": null
     },
     {
+      "id": "0e5a5ca1e1dcc166be65",
+      "title": "Part 6: An operating system for coding agents: the disciplined build",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/07/part-6-an-operating-system-for-coding-agents-the-disciplined-build/",
+      "publishedAt": "2026-10-07T20:09:22Z",
+      "summary": "Coding agents are great for an afternoon and mediocre for a quarter. Here’s the small set of files and rules — with the actual configs — that keeps quality from decaying across months and thousands of edits, whether you run one agent or a fleet of them on the same repo.",
+      "imageURL": null
+    },
+    {
       "id": "1bec3c1046358e9e6b85",
       "title": "Implementing a Modular Master-Agent Telemetry & Diagnostic Framework in Python: Prime-Sentinel Command (PSC)",
       "sourceName": "Stack Overflow Blog",
@@ -53,15 +116,6 @@
       "publishedAt": "2026-10-07T16:30:36Z",
       "summary": "Security alerts rarely arrive one at a time. A single alert can cause a spike across the environment, requiring a human analyst to decide which alerts are related and what they mean. When multiple arrive at the same time, it can quickly overwhelm even a seasoned security analyst. Enter the alert paradox. Now, our built-in, multi-AI-agent security operations harness can handle more of this work at ",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M32R921QMDZ1S2MHB3M7Q85H.01M32R93AJ8Q0D22GYW0163M3F.png"
-    },
-    {
-      "id": "08c26b36162f96b20585",
-      "title": "Continuous Aggregate Refresh Policies for Solar and Wind SCADA Data: Choosing the Right Policy Shape",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/continuous-aggregate-refresh-policies-solar-wind-scada",
-      "publishedAt": "2026-10-07T12:14:21Z",
-      "summary": "A few dozen solar plants and wind farms push supervisory control and data acquisition (SCADA) readings into a TimescaleDB hypertable on Postgres. An hourly continuous aggregate serves the dashboards and the settlement exports, and the continuous aggregate refresh policy behind it was configured on the day the system went live. Nobody has touched it since. It has three numbers in it: start_offset ,",
-      "imageURL": "https://assets.tigerdata.com/blog/2026/10/one-run-shape-1.svg"
     },
     {
       "id": "24d39f28f1664a92f8c7",
@@ -1000,15 +1054,6 @@
       "imageURL": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/1password-image1_hu_34d317e989dba7a7.webp"
     },
     {
-      "id": "e50aaa136d216e9ee89b",
-      "title": "AI, JD, and other letters of the law",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/15/ai-jd-and-other-letters-of-the-law/",
-      "publishedAt": "2026-09-15T07:40:00Z",
-      "summary": "Ryan chats with Kevin Frazier, director of the AI Innovation and Law program at the University of Texas School of Law, about the legal and social impacts of data centers, the realities of workforce disruption, and regulating AI for child safety using existing consumer protection laws.",
-      "imageURL": null
-    },
-    {
       "id": "ab579cab3a9f8945ae46",
       "title": "What Stripe data shows about fraud at AI startups",
       "sourceName": "Stripe Blog",
@@ -1072,30 +1117,12 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/09/arch-1461-figure-1.png"
     },
     {
-      "id": "5ea9794234a5006eda2c",
-      "title": "AI cybersecurity is a cat and mouse game",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/11/ai-cybersecurity-is-a-cat-and-mouse-game/",
-      "publishedAt": "2026-09-11T07:40:00Z",
-      "summary": "Ryan chats with Sam Curry, CSO at Zscaler, about where human intelligence sits in the new security landscape with AI, why shifting security protections closer to applications helps limit probes for vulnerabilities, and why building more resilient code infrastructure is the best way to address the vulnerabilities AI does discover.",
-      "imageURL": null
-    },
-    {
       "id": "ba7190af76453d7582b8",
       "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
       "sourceName": "Kubernetes Blog",
       "url": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
       "publishedAt": "2026-09-10T18:30:00Z",
       "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive rest",
-      "imageURL": null
-    },
-    {
-      "id": "b2c23b6236be8299c348",
-      "title": "(Re)introducing Developer Story",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/10/re-introducing-developer-story/",
-      "publishedAt": "2026-09-10T18:01:54Z",
-      "summary": "For the past few years, we’ve been looking at ways to bring a little more of the individual developer back to Stack.",
       "imageURL": null
     },
     {
@@ -1162,15 +1189,6 @@
       "imageURL": "https://static.pingcap.com/files/2019/06/18071401/nested-transaction-timeline-outlined.png"
     },
     {
-      "id": "51fc293282406d5c409c",
-      "title": "Java’s age is its AI superpower",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/09/java-s-age-is-its-ai-superpower/",
-      "publishedAt": "2026-09-09T04:45:00Z",
-      "summary": "Ryan welcomes Markus Eisele to the program to talk about why your coding agent should be writing Java.",
-      "imageURL": null
-    },
-    {
       "id": "3a380f455d52dc1b18c8",
       "title": "6 Benefits of Sandbox Environments (and How Docker Sandboxes Delivers Them)",
       "sourceName": "Docker Blog",
@@ -1186,15 +1204,6 @@
       "url": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
       "publishedAt": "2026-09-08T18:30:00Z",
       "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 delivers the next major milestone in the Workload-Aware Scheduling (WAS) journey. In this release, the core Workload and PodGroup APIs—enabling gang scheduling—along with Workload-Aware Preemption (WAP",
-      "imageURL": null
-    },
-    {
-      "id": "b3f1d5748d7cd51c1cee",
-      "title": "Scaling your money safely with AI",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/08/scaling-your-money-safely-with-ai/",
-      "publishedAt": "2026-09-08T07:40:00Z",
-      "summary": "Ryan chats with Srini Venkatesan, CTO at PayPal, about validating AI-generated deterministic code for security, developing autonomous SDLC harnesses with iterative feedback loops, and creating a seamless headless checkout experience.",
       "imageURL": null
     },
     {
@@ -1231,15 +1240,6 @@
       "url": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
       "publishedAt": "2026-09-04T18:30:00Z",
       "summary": "Kubernetes v1.37 promotes the KubeletInUserNamespace feature gate to beta. With this feature enabled, all of the node components (kubelet, CRI and OCI runtimes, CNI plugins, and kube-proxy) can run as a non-root user on the host, using a Linux user namespace . This technique is also known as rootless mode . The work started as an experiment in 2018, and was merged into Kubernetes v1.22 (2021) as a",
-      "imageURL": null
-    },
-    {
-      "id": "59cd7b469bef7c7a6187",
-      "title": "How to build a secure-by-default AI coding agent",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/04/how-to-build-a-secure-by-default-ai-coding-agent/",
-      "publishedAt": "2026-09-04T07:40:00Z",
-      "summary": "Ryan chats with Greg Jennings, VP of Engineering for AI Products at Anaconda, about what it takes to build a secure-by-default AI coding agent, why prompts shouldn't be treated as strict security guardrails, and how Anaconda is using strategic acquisitions to secure the AI software supply chain.",
       "imageURL": null
     },
     {
