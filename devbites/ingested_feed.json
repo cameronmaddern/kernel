@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "4a9f5b72faa10f5cb24b",
+      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+      "publishedAt": "2026-10-09T18:27:34Z",
+      "summary": "Following last week’s release of Clef and Clef-flash , Cloudflare’s open-weight decision models, we decided to bring forth more gifts. Today, we’re releasing Clef-omni, which takes in audio and video input alongside text and image. We also cut the price of Clef-flash so it is now cheaper than Jev, and we made Clef faster. Although the model game is still early for Cloudflare, innovation and iterat",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4GV0AV5F55NC2CCEBK9XCTA.png"
+    },
+    {
+      "id": "35488f9bf063f0b19e3d",
+      "title": "A Treatise on Model Oriented Programming Languages",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/09/a-treatise-on-model-oriented-programming-languages/",
+      "publishedAt": "2026-10-09T14:59:04Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "38bfcb4310c98b8dd26e",
+      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
+      "publishedAt": "2026-10-09T13:00:00Z",
+      "summary": "Understanding why an application is using more resources than expected, whether that is CPU or memory, can be challenging. Logs and aggregate metrics can only get you so far. Thankfully there is a better way: CPU or memory profiling can show you the exact function where your application is using CPU or allocating memory. Today we are happy to announce support for CPU and memory profiling of Worker",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M497X1XKZ8XG2FXKMTKEX5F4.png"
+    },
+    {
+      "id": "3854715ee3f870a4d32a",
+      "title": "Deno is joining Cloudflare",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
+      "publishedAt": "2026-10-09T12:50:00Z",
+      "summary": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects so developers can use the same primitives in more places. For what this means and how it came about, here’s the story from Ryan Dahl and Kenton Varda.",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4EN399YDFNQMGM5VG6EHTNS.01M4EN39V1RNGJ3FBS356QEAB5.png"
+    },
+    {
       "id": "1f08aab410b93c0d9064",
       "title": "Measuring How Fast Your IIoT Queries Are Degrading",
       "sourceName": "Timescale",
@@ -440,33 +476,6 @@
       "publishedAt": "2026-10-01T13:04:19Z",
       "summary": "It's Birthday Week, when we traditionally ship presents to the Internet. This year, two of them come from Europe: EuroLLM, which covers all 24 official EU languages, and Apertus, Switzerland's fully open model, trained on more than 1,500 languages. Both were built by public universities and research institutions. Both are coming to Workers AI, and you can request access today. We're also launching",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3TES95GDNHB8645HHYQHR1G.png"
-    },
-    {
-      "id": "b17c5d0c007316a4ae29",
-      "title": "Introducing Workers KV Instant — powered by Quicksilver",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-kv-instant/",
-      "publishedAt": "2026-10-01T13:00:00Z",
-      "summary": "Today, we’re introducing Workers KV Instant, a new mode for Workers KV that pushes your changes globally for instant availability without cold read penalties. Workers KV has been one of our most popular services on the Developer Platform since launching during Birthday Week in 2018 . It’s great for quickly accessing data like static assets and user configuration that is written occasionally but re",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3VEKFJ2MXMCNB0J008305V4.01M3VEKGPXTJDYC3F5AM7MC3FW.png"
-    },
-    {
-      "id": "32af5c2a7b663f670c73",
-      "title": "Cloudflare OS: your company’s agent workspace, managed for you",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
-      "publishedAt": "2026-10-01T13:00:00Z",
-      "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. Today, we're opening the waitlist for fully managed Cloudflare OS deployments. If I asked you to prepare for an important customer meeting later today, what would you do? You might learn how your company typically runs customer meetings, review the account in",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3T6WYAVKCKFV4H283DB38WS.png"
-    },
-    {
-      "id": "afab6c12648c7488e8fa",
-      "title": "Announcing Cloudflare K2: serverless event streams",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
-      "publishedAt": "2026-10-01T13:00:00Z",
-      "summary": "With traditional Remote Procedure Call (RPC) architectures, there exists a core challenge: producers and consumers must align in scale and in time. If your producers send too much data for your consumers to handle or if your consumers or downstream services become unavailable, events are dropped. This problem is compounded with multiple consumers that need to independently process the data. For ex",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3SXWMA7TC0H6D9G217A3327.png"
     },
     {
       "id": "c906b41a139a5f62b022",
@@ -987,7 +996,7 @@
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/09/17/the-ai-magic-words/",
       "publishedAt": "2026-09-17T07:40:00Z",
-      "summary": "Ryan sits down with Tim O'Reilly, founder and CEO at O'Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of \"magic words\" to extract better outputs from AI, and why human taste is becoming highly valuable as knowledge becomes a commodity.",
+      "summary": "From the floor of the Ai4 conference, Ryan sits down with Tim O'Reilly, founder and CEO at O'Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of \"magic words\" to extract better outputs from AI, and why human taste is becoming highly valuable as knowledge becomes a commodity.",
       "imageURL": null
     },
     {
@@ -1006,15 +1015,6 @@
       "url": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/",
       "publishedAt": "2026-09-16T18:30:00Z",
       "summary": "Kubernetes v1.37 brings important storage security features: emptyDir permission modes and bind mount options. They help application programmers and security professionals implement rigorous security policies, for example, prohibiting deletion of files across containers or execution of arbitrary binaries from writable volumes, directly in Kubernetes without any complicated circumvention. Linux sto",
-      "imageURL": null
-    },
-    {
-      "id": "c7c29c6996d60d694cc0",
-      "title": "From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/16/here-s-what-s-new-on-stack-overflow-for-agents/",
-      "publishedAt": "2026-09-16T17:00:00Z",
-      "summary": "We've learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Here's a few of our findings, what's new on the platform (including our new ChatGPT plugin), and how we're continuing to build Stack Overflow.",
       "imageURL": null
     },
     {
