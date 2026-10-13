@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "633e8070e31757eb280e",
+      "title": "Keep calm and call clone with Rust",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/13/keep-calm-and-call-clone-with-rust/",
+      "publishedAt": "2026-10-13T07:40:00Z",
+      "summary": "Ryan sits down with Josh Triplett, member of the Rust Leadership Team at the Rust Project, to chat about how the borrow checker delivers compile-time memory safety without garbage collection overhead, why Rust consistently ranks as developers' most loved language by providing psychological safety for complex systems, and how strict compiler constraints make Rust an ideal target for AI coding agent",
+      "imageURL": null
+    },
+    {
+      "id": "67cf92409872f280faef",
+      "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24657",
+      "publishedAt": "2026-10-12T21:19:18Z",
+      "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric that fundamentally changes how GPUs connect to the network MetaRoCE, our open-source AI transport protocol. Launchi",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-OCP-2026-IcePack-Rack-e1791838724959.png"
+    },
+    {
+      "id": "84278396e1ab98eba9b5",
+      "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24625",
+      "publishedAt": "2026-10-12T16:01:32Z",
+      "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and what the future looks like from here. This work was also presented at DEMOQED 2026 . Instagram Live now ",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/MoQ-Instagram-Live-Meta-e1791568958445.png"
+    },
+    {
+      "id": "d8b3c0c11a7fe131608a",
+      "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24593",
+      "publishedAt": "2026-10-12T16:00:50Z",
+      "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacity, without compromising baseline performance. This post describes how we designed and now operate the system at Meta’s scale and how it drives significant advertiser value and capa",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-AI-Inference-Capacity-Ads-image-1.png"
+    },
+    {
+      "id": "bbe6b19113811da2054a",
+      "title": "Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=94794",
+      "publishedAt": "2026-10-12T16:00:00Z",
+      "summary": "On September 30, 2026, security researchers reported a vulnerability in Docker Hub’s identity and access management through our Vulnerability Disclosure Program. We confirmed the report and deployed a fix to production the same afternoon, less than four hours after receiving it. We then reviewed every account conversion back to the date the flaw was introduced, and on October 2, notified every use",
+      "imageURL": null
+    },
+    {
       "id": "80f26b2bd8fbb1d1085c",
       "title": "Filter, reshape, and redact logs before export with Transformers",
       "sourceName": "Cloudflare Blog",
@@ -116,6 +161,15 @@
       "publishedAt": "2026-10-08T13:00:00Z",
       "summary": "Radar provides a real-time view into global Internet trends, powered by Cloudflare’s global network. We support Cloudflare’s mission to help build a better Internet by making web data visible, clear, and actionable for everyone. Since launching in 2020 , Radar has found a natural audience amongst expert users with technical backgrounds, such as network operators and academic researchers who rely o",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4DWXM8QH1FEK7XDTCR1RVA5.01M4DWXN5TGFT9XA1WXDCVYJ4B.png"
+    },
+    {
+      "id": "73fe060dcd6b4b3423cc",
+      "title": "Deepthi Sigireddi from Supabase",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-10-08-deepthi-sigireddi-from-supabase.html",
+      "publishedAt": "2026-10-08T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
     },
     {
       "id": "65c25aa68b76ef169d4c",
@@ -305,6 +359,15 @@
       "publishedAt": "2026-10-05T13:00:00Z",
       "summary": "A year ago, many companies were cutting intern and new-graduate hiring . We went the other way. We announced a goal to hire as many as 1,111 interns in 2026, a number that’s a nod to 1.1.1.1, our public DNS resolver. The bet was that AI makes early-career talent more valuable and able to make an impact faster. The best AI tools help people learn a system faster, try more ideas, and take on harder ",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M40BZTRXM8420FKPHKZ2HBJT.png"
+    },
+    {
+      "id": "3abd86735586859d867f",
+      "title": "Compression and concatenation on the web",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-10-04-compression-and-concatenation-on-the-web.html",
+      "publishedAt": "2026-10-04T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
     },
     {
       "id": "c93a954454e459c13c04",
@@ -667,6 +730,15 @@
       "imageURL": "https://jvns.ca/images/pcb.png"
     },
     {
+      "id": "ceeda6d9791dde50d100",
+      "title": "Full text search and PostgreSQL",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-09-27-full-text-search-and-postgresql.html",
+      "publishedAt": "2026-09-27T00:00:00Z",
+      "summary": "This is an external post of mine. Click here if you are not redirected.",
+      "imageURL": null
+    },
+    {
       "id": "61781e7e2e40019baf4e",
       "title": "The FinTech Scalability Crisis: How Distributed SQL Unlocks Innovation with Zero Downtime Operations",
       "sourceName": "PingCAP / TiDB",
@@ -826,15 +898,6 @@
       "url": "https://www.docker.com/?p=93953",
       "publishedAt": "2026-09-22T15:06:15Z",
       "summary": "As teams put AI agents to work, they need to move quickly without losing control of what they deploy. They’re combining models, tools, and infrastructure from across a fast-changing ecosystem. Making those pieces work together and keeping them accountable as the stack evolves is becoming a core part of building AI applications. Docker’s approach to this challenge is providing a trusted, common fou",
-      "imageURL": null
-    },
-    {
-      "id": "03fcbb2e3fc181ffc8b1",
-      "title": "Haters think AI agents can't write GPU code? This'll ROCm",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/22/haters-think-ai-can-t-gpu-code-this-ll-rocm/",
-      "publishedAt": "2026-09-22T07:40:00Z",
-      "summary": "Ryan chats with Anush Elangovan, VP of Software at AMD, about ROCm's open-source unified toolchain for GPUs, how agentic AI is drastically lowering the barrier to entry for low-level hardware programming, and the rapid convergence of software and hardware development timelines.",
       "imageURL": null
     },
     {
@@ -1315,15 +1378,6 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/09/image1.png"
     },
     {
-      "id": "9ffb39d05d8286f002be",
-      "title": "Below the Harness: Governing a Multi-Model, Multi-Harness World",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=93294",
-      "publishedAt": "2026-09-02T13:00:00Z",
-      "summary": "We believe the future is a multi-model, multi-harness world. And we think it needs a new trust model. In 1988, Norm Hardy described a problem that had been quietly breaking systems for years: the confused deputy. A program that takes action using its permissions instead of yours. Today, every AI agent is that deputy. It inherits your authority: Your credentials, your repo access, your ability to c",
-      "imageURL": null
-    },
-    {
       "id": "78436b4070833db665c0",
       "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
       "sourceName": "Meta Engineering",
@@ -1477,24 +1531,6 @@
       "imageURL": null
     },
     {
-      "id": "1f7c5a4363d50c8a8dfe",
-      "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24399",
-      "publishedAt": "2026-08-24T18:02:29Z",
-      "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ethernet. We’re releasing the MetaRoCE specification, a reference software implementation and a compliance test suite through",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/08/MetaRoCE-image-1.png"
-    },
-    {
-      "id": "8a0505962c4f7798e463",
-      "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24394",
-      "publishedAt": "2026-08-24T17:45:52Z",
-      "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the communication needs associated with training recommendation models with superior performance over general-purpose GPUs. By co-designing MTIA’s communication library, HCCL, alongside t",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/08/Meta-MTIA-300-Figure-1.png"
-    },
-    {
       "id": "66a879da5b76d97c78f5",
       "title": "Another look at SQLite's WAL-Reset bug",
       "sourceName": "Eaton Phil",
@@ -1601,15 +1637,6 @@
       "publishedAt": "2026-08-12T17:01:04Z",
       "summary": "Rebuilding login and signup surfaced product insights, not just technical challenges. Here’s how we designed Flexible Authentication at the intersection of product intuition and technical architecture. By : Jose Santos , Mike Barry For Airbnb, logins at irregular intervals are normal. A guest books a trip in January and may not open the app again until summer. A host checks back only when a reserv",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*O9JhHoAmQW0COuL_d4yLyQ.jpeg"
-    },
-    {
-      "id": "d3645ec1a40924bd0449",
-      "title": "How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24092",
-      "publishedAt": "2026-08-12T13:00:28Z",
-      "summary": "WhatsApp is committed to helping people stay safe while protecting the privacy of their messages. As scam tactics evolve — from impersonation to social engineering to AI-generated lures — we’re always evolving as well, so that our protections stay ahead of scammers while protecting people’s personal messages with end-to-end encryption. Today, we’re sharing an early look at Scam Alert, a new, optio",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/07/WhatsApp-Scam-Alert-Ledger-Verification-Model-Download-Flow_1.png"
     },
     {
       "id": "6ae64bcd99a19b4f7b5d",
@@ -1772,33 +1799,6 @@
       "publishedAt": "2026-07-30T20:10:15Z",
       "summary": "Authors: Ying Li , Arjun Rao , Shradha Sehgal Introduction Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years to support diverse cont",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*7Jb6-3knD_VCB_wWN5M3Mw.png"
-    },
-    {
-      "id": "f9573d2636f81041b214",
-      "title": "Building secure Uniswap v4 hooks",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
-      "publishedAt": "2026-07-30T11:00:00Z",
-      "summary": "Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a",
-      "imageURL": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/uniswapv4-figure-1_hu_b3e8804f4c7e53ff.webp"
-    },
-    {
-      "id": "fa8dc50b2456095c7af6",
-      "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/",
-      "publishedAt": "2026-07-29T18:00:00Z",
-      "summary": "This article has been revised since it was first published, to correct several significant technical inaccuracies in the original text. Kubernetes has long been the default platform for distributed workloads, and writing your own controller for it is now a matter of a few hours. The common path — Golang, using kubebuilder on top of controller-runtime — gives you a project scaffold, types, and a re",
-      "imageURL": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/pipeline.svg"
-    },
-    {
-      "id": "bba1b951ee24778736f8",
-      "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=97770",
-      "publishedAt": "2026-07-29T16:00:00Z",
-      "summary": "If you maintain an active repository, you know the feeling. You open your notifications on a Monday morning and there they are: five, 10, sometimes a dozen Dependabot pull requests, each bumping a single dependency by a single patch version. Individually, every one of them is helpful. Collectively, they’re noise. And noise is how important updates get ignored. We looked at Microsoft’s GCToolkit , ",
-      "imageURL": null
     }
   ]
 }
