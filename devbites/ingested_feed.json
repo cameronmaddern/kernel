@@ -1,6 +1,96 @@
 {
   "articles": [
     {
+      "id": "664a99950228d053fcfc",
+      "title": "Package managers have an integrity problem",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/",
+      "publishedAt": "2026-10-14T11:00:00Z",
+      "summary": "I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for t",
+      "imageURL": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/package-manager-integrity-banner-figure-1_hu_c095267cc912b4da.webp"
+    },
+    {
+      "id": "c909b362b21eda96f182",
+      "title": "Scope workloads and share resilience policies with AWS Resilience Hub",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/scope-workloads-and-share-resilience-policies-with-aws-resilience-hub/",
+      "publishedAt": "2026-10-13T21:30:10Z",
+      "summary": "A resilience plan is useful only while it reflects the application you run. After a migration or deployment, a service can acquire a new dependency while its documented recovery objectives stay the same. In a shared Kubernetes cluster, even deciding which resources belong to that service can take investigation. On September 18, 2026, the Next generation of AWS Resilience Hub introduced three capab",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/13/ARCHBLOG-1735-1.png"
+    },
+    {
+      "id": "06d3d32ab631321020d0",
+      "title": "CASTLE: training natural language search before the first real query",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/3818ef8b4828",
+      "publishedAt": "2026-10-13T17:01:02Z",
+      "summary": "How we addressed the cold-start problem for Airbnb’s natural language search by jointly generating synthetic training data — queries and relevance labels — from de-identified booking and search signals. By : Wendy Ran Wei , Hao Li , Weiwei Guo , Xiaowei Liu , Xueyin Chen , Chun How Tan , Malay Haldar , Soumyadip Banerjee , Kedar Bellare , Huiji Gao , Sanjeev Katariya , and Stephanie Moyerman Intro",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*EsZaupfNPaIk04Xh5whb5A.jpeg"
+    },
+    {
+      "id": "ce024ba3e5843664c1a4",
+      "title": "Why Your Sandbox Never Quite Matches Production (And Why That's Fine)",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/13/why-your-sandbox-never-quite-matches-production-and-why-that-s-fine/",
+      "publishedAt": "2026-10-13T16:35:35Z",
+      "summary": "Sandbox testing works best when you stop chasing production parity. Learn what environment drift actually costs and which parts are worth fixing.",
+      "imageURL": null
+    },
+    {
+      "id": "c883d0dbfead6cfe74f3",
+      "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/d1-control-plane/",
+      "publishedAt": "2026-10-13T16:20:18Z",
+      "summary": "Traditional database architecture assumes you have one or two big database clusters per application, usually accompanied by a connection pooling solution. AI-assisted development and vibe coding platforms turn this model inside out and are driving applications toward many small databases: one per user, application, preview environment, or tenant. That model fits D1 particularly well. D1 is Cloudfl",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KW45ADESEJPK73KY57K3T0NX.png"
+    },
+    {
+      "id": "fbec5d966319ca4939e1",
+      "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24641",
+      "publishedAt": "2026-10-13T16:01:00Z",
+      "summary": "Last year, we introduced GEM , the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta’s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building on this foundation, our next goal is to further scale both compute and intelligence transfer with next-generation hardware, and expand this capability across Meta’s entire ads ecos",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/GEM-Scaling-Frontier-Ads-Image-1.png"
+    },
+    {
+      "id": "c58b4d7a7dc3e17d719e",
+      "title": "Rewinding the exponential: How we keep hardware usage down",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
+      "publishedAt": "2026-10-13T15:51:41Z",
+      "summary": "More than 20% of the web sits behind Cloudflare’s network, and our team, the Data team, owns the data pipeline responsible for plumbing that data (and more) from our global network to applicable central data centers. The Cloudflare network is a globally distributed system supporting tens of thousands of servers. Data that power Cloudflare Logs , SQL API , observability , internal analytics, and mo",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4RYXQ3HHM0NCXGK8DBW1JR3.01M4RYXQR4R5Q48PG2RZ86HSR5.png"
+    },
+    {
+      "id": "3643ba2f38a4d6d4cebe",
+      "title": "Announcing pg_vectorsearch: Scalable Open-Source Vector Search in PostgreSQL",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/announcing-pg_vectorsearch-scalable-open-source-vector-search-postgresql",
+      "publishedAt": "2026-10-13T14:40:36Z",
+      "summary": "TLDR : We are launching pg_vectorsearch , a new open-source PostgreSQL extension that makes vector search dramatically faster and more cost-efficient. Its new PRISM index uses partitioning and compression instead of HNSW's graph-based approach, delivering faster queries with a fraction of the memory and significantly faster index builds. At 100 million vectors, PRISM achieved 6 ms query latency on",
+      "imageURL": "https://assets.tigerdata.com/blog/2026/10/PRISM_indexing-time_100M-and-1M-vectors.svg"
+    },
+    {
+      "id": "6da6f978d60dc478c9f4",
+      "title": "Stopping business email compromise with AI-driven email security: How VIPRE protects modern enterprises on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/stopping-business-email-compromise-with-ai-driven-email-security-how-vipre-protects-modern-enterprises-on-aws/",
+      "publishedAt": "2026-10-13T14:32:42Z",
+      "summary": "If your organization has experienced sophisticated email impersonation attempts that bypass traditional security tools, you need advanced protection against business email compromise (BEC). This post shows you how VIPRE uses AI in its email security solution, deployed on AWS for enterprise customers. The solution identifies and stops these incidents before they reach end users, and it integrates d",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/28/ARCHBLOG-1338-1.png"
+    },
+    {
+      "id": "ebdac34d98268aa82592",
+      "title": "Bulk Executor for Amazon DynamoDB, Part 2: Lessons we learned the hard way",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/bulk-executor-for-amazon-dynamodb-part-2-lessons-we-learned-the-hard-way/",
+      "publishedAt": "2026-10-13T14:23:33Z",
+      "summary": "In the Introducing open source Bulk Executor for Amazon DynamoDB blog post, you learned about the purpose and usage of the Bulk Executor tool. In this Part 2 post, we share the story of how we built it: the design tradeoffs, surprises, gotchas, and eventual workarounds. Think of it as your travel guide for working with Amazon DynamoDB and AWS Glue. Design requirements Bulk Executor is a project de",
+      "imageURL": null
+    },
+    {
       "id": "633e8070e31757eb280e",
       "title": "Keep calm and call clone with Rust",
       "sourceName": "Stack Overflow Blog",
@@ -8,6 +98,15 @@
       "publishedAt": "2026-10-13T07:40:00Z",
       "summary": "Ryan sits down with Josh Triplett, member of the Rust Leadership Team at the Rust Project, to chat about how the borrow checker delivers compile-time memory safety without garbage collection overhead, why Rust consistently ranks as developers' most loved language by providing psychological safety for complex systems, and how strict compiler constraints make Rust an ideal target for AI coding agent",
       "imageURL": null
+    },
+    {
+      "id": "51e4af8dc20880899cb3",
+      "title": "The “alien” economics of AI monetization",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/economics-of-ai-monetization",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "summary": "As usage, costs, and customer expectations change, AI companies are moving beyond traditional SaaS pricing. Leaders at Monetize 2026 shared how they’re combining subscriptions with usage-based billing, building spend controls into products, adapting packaging and value metrics, and making pricing readable for both human and AI buyers.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6kxvuJDHvg9cCTNLuACl0o/64b5443480f21fa7ea93c3aded30b8ee/Index_image__-_Kyle.png"
     },
     {
       "id": "67cf92409872f280faef",
@@ -109,15 +208,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4EN399YDFNQMGM5VG6EHTNS.01M4EN39V1RNGJ3FBS356QEAB5.png"
     },
     {
-      "id": "1f08aab410b93c0d9064",
-      "title": "Measuring How Fast Your IIoT Queries Are Degrading",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/measuring-how-fast-iiot-queries-degrading",
-      "publishedAt": "2026-10-09T12:00:40Z",
-      "summary": "Your dashboard renders in well under a second today. The question worth answering is what it will do after another eighteen months of sensor data lands in the same tables. Most teams answer by waiting. A panel gets slow, someone adds an index , it gets fast again, and the cycle repeats. Each fix lowers the curve's starting point and leaves its slope alone. This post measures the slope. You will re",
-      "imageURL": null
-    },
-    {
       "id": "ed1806c9df4acc798d67",
       "title": "Taking a look under your agent’s hood",
       "sourceName": "Stack Overflow Blog",
@@ -142,6 +232,15 @@
       "url": "https://stackoverflow.blog/2026/10/08/part-5-operating-an-llm-system-observability-cost-routing-and-the-platform-underneath/",
       "publishedAt": "2026-10-08T20:08:53Z",
       "summary": "Your service can be 100% up and still quietly approving the wrong things, burning its budget, or failing over into untested quality. Level 5 is the infrastructure that lets you see your decisions, bound your spend, route and fail over between models, kill bad behavior in seconds — and the platform that makes all of it possible.",
+      "imageURL": null
+    },
+    {
+      "id": "ab721634e173bff1d5bd",
+      "title": "Persistent AI Agent Memory Explained: How Agents Remember Across Sessions",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=35376",
+      "publishedAt": "2026-10-08T16:06:08Z",
+      "summary": "Key Takeaways Persistent agent memory is an external storage layer, not a bigger context window. Agents need episodic, semantic, and procedural memory, kept current by a capture-to-update loop. Claude Code, Codex, and Dify can share one durable state layer. Vector search alone is not enough. Production memory needs scope, metadata, and consistency. A coding agent that forgets your architecture dec",
       "imageURL": null
     },
     {
@@ -487,15 +586,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3W896Z08YJWZG5GH6T03D67.png"
     },
     {
-      "id": "3a7c567dce310cad1a1b",
-      "title": "2026 Birthday week: network performance update",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
-      "publishedAt": "2026-10-02T13:00:00Z",
-      "summary": "Cloudflare is now the fastest provider in 74% of the 1,000 largest networks around the world, up from 60% in April 2026. This huge improvement matters because every millisecond affects how quickly users can reach the applications, APIs, and websites they rely on. In this Birthday Week performance update, we’ll review how we get our measurements, introduce a new measurement methodology using Cloudf",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3T5G957VG05271ET71MQ7TS.png"
-    },
-    {
       "id": "f8144ece9a9d92cec2fa",
       "title": "SequenceHash: multihashing for the rest of us",
       "sourceName": "Trail of Bits",
@@ -539,15 +629,6 @@
       "publishedAt": "2026-10-01T15:37:06Z",
       "summary": "Datalex , a leader in airline ecommerce solutions, set out to answer a question facing every established product-based business: how do you build for where your industry is going, not only where it is today? For more than two decades, Datalex has powered digital retailing for many of the world’s leading airlines, capability built up over years and encoded in a substantial, mission-critical system ",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/29/ARCHBLOG-1483-1.png"
-    },
-    {
-      "id": "c0a0a5f5affd26928d0f",
-      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "publishedAt": "2026-10-01T15:34:02Z",
-      "summary": "Over the last few weeks, there has been lots of buzz around decision models such as Typesafe AI’s Jev System One model. While classifier models have been around for some time, Jev introduces a new decision model concept into the world of AI — a model that produces bounded structured outputs cheaply, quickly and consistently that can be added into a workflow when a decision is required. These model",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3TJPKAE7MFBW626XHNC9QVA.png"
     },
     {
       "id": "9341b794b4ea6eef7246",
@@ -872,15 +953,6 @@
       "publishedAt": "2026-09-23T07:00:00Z",
       "summary": "As AI becomes a starting point for more kinds of work, its usefulness depends on access to an organization’s trusted knowledge and context, including the files, research, feedback, decisions, and project history that give the work meaning. Dropbox helps people bring that context into the supported AI tools they choose while preserving the permissions and controls they expect, so they can spend les",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/september/ali-and-uma-interview/Culture-AliDasdan-StateofAITooling-1440x305-light.png"
-    },
-    {
-      "id": "dcfefdd655f2951e9d2c",
-      "title": "Multiplayer AI: Why your team (and its agents) need a group chat",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/23/multiplayer-ai-why-your-team-and-its-agents-need-a-group-chat/",
-      "publishedAt": "2026-09-23T04:40:00Z",
-      "summary": "Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels feature is bringing multiplayer AI to your team chats.",
-      "imageURL": null
     },
     {
       "id": "ad7c514d2355adee8140",
@@ -1225,15 +1297,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/18/ARCHBLOG-1426-1.png"
     },
     {
-      "id": "b97a9b7124427fa3bd32",
-      "title": "Validating multi-Region DR for Terraform Enterprise with AWS FIS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/validating-multi-region-dr-for-terraform-enterprise-with-aws-fis/",
-      "publishedAt": "2026-09-09T21:05:02Z",
-      "summary": "In October 2025, Athenahealth , a major North American Electronic Health Record (EHR) provider, discovered a gap. An AWS regional service event in us-east-1 made their single-Region HashiCorp Terraform Enterprise (TFE) deployment inaccessible to their developers. This post shares the architecture, the AWS Fault Injection Service (AWS FIS) validation approach, HashiCorp best practices, and lessons ",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/08/ARCHBLOG-1480-1.png"
-    },
-    {
       "id": "1bf01c3c33d621ca90d6",
       "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
       "sourceName": "Kubernetes Blog",
@@ -1250,15 +1313,6 @@
       "publishedAt": "2026-09-09T11:00:00Z",
       "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem , but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat’s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug , shown below, t",
       "imageURL": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/proof-fermat-image_hu_f4c2a5f3789324fb.webp"
-    },
-    {
-      "id": "c4a9c8297eacf4a1decc",
-      "title": "Best Practices for AI-Assisted App Development: Reviewing AI-Generated Code for Production",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://en.pingcap.com/blog/best-practices-for-developing-applications-with-tidb/",
-      "publishedAt": "2026-09-09T07:00:00Z",
-      "summary": "Key Takeaways Treat AI-generated database code as a first draft. Assistants learn from single-node MySQL and Postgres, so their assumptions don’t all hold on distributed SQL. The dangerous failures are silent. Unsupported syntax errors loudly; a missing ORDER BY just returns plausible results that change between runs. Review schema, transactions, indexes, writes, and queries. Primary key types, ID",
-      "imageURL": "https://static.pingcap.com/files/2019/06/18071401/nested-transaction-timeline-outlined.png"
     },
     {
       "id": "3a380f455d52dc1b18c8",
@@ -1378,15 +1432,6 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/09/image1.png"
     },
     {
-      "id": "78436b4070833db665c0",
-      "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24419",
-      "publishedAt": "2026-09-02T09:00:29Z",
-      "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integrating two layers: A structured, auditable knowledge architecture separates what the agent knows from how it reasons. A se",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/08/Domain-Expert-AI-Table.png"
-    },
-    {
       "id": "4db85808102385e4d30e",
       "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
       "sourceName": "Kubernetes Blog",
@@ -1394,24 +1439,6 @@
       "publishedAt": "2026-09-01T18:30:00Z",
       "summary": "I am excited to announce that etcd RangeStream is graduating to beta in Kubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and etcd need to read a large collection, and makes peak usage more predictable. The cost of large reads The API server serves most list and watch requests from its in-memory watch cache. Populating that cache requires reading a resource's full state",
       "imageURL": null
-    },
-    {
-      "id": "b13ae8eb66af70e2227e",
-      "title": "Hybrid cloud orchestration: Modernizing on-premises infrastructure management with AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/hybrid-cloud-orchestration-modernizing-on-premises-infrastructure-management-with-aws/",
-      "publishedAt": "2026-09-01T14:01:10Z",
-      "summary": "This post demonstrates how to build a hybrid cloud orchestration solution that manages distributed on-premises infrastructure at scale using AWS serverless technologies. If you manage geographically dispersed data centers with thousands of servers that require bare-metal configuration, deployment, and ongoing lifecycle management, this solution provides centralized control while maintaining on-pre",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/26/ARCHBLOG-1372-1.png"
-    },
-    {
-      "id": "455c459d9a3063bc0e3d",
-      "title": "MCP went stateless: Is your AWS MCP server deployment well-architected?",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/mcp-went-stateless-is-your-aws-mcp-server-deployment-well-architected/",
-      "publishedAt": "2026-09-01T13:09:19Z",
-      "summary": "On July 28, 2026, MCP published its largest revision since launch , making the protocol core stateless and bringing remote MCP servers into alignment with AWS Well-Architected Framework best practices. The initialize handshake is gone, and so is the Mcp-Session-Id header that clients had to echo on every later request. Every request now carries its own protocol version and client context. A client",
-      "imageURL": "https://s.w.org/images/core/emoji/14.0.0/72x72/26a0.png"
     },
     {
       "id": "e82667920f5ed02b238f",
@@ -1574,15 +1601,6 @@
       "publishedAt": "2026-08-19T17:01:03Z",
       "summary": "When we retrain, when we rebuild, and when we leave a model alone. By: Harrison Katz A forecast that carries weight The Forecasting Data Science team at Airbnb produces many of the forecasts the rest of the company plans around: demand, bookings, cancellations, and a range of finer cuts by market and segment, refreshed continuously across thousands of markets. The targets differ, and the models di",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*44L4h0-81kbAtkKGNa9Lgg.jpeg"
-    },
-    {
-      "id": "f2711d1c005bbcf3760c",
-      "title": "Why global workers are driving demand for stablecoin payouts",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts",
-      "publishedAt": "2026-08-19T00:00:00Z",
-      "summary": "Platforms like DoorDash, Meta, and Deel already enable stablecoin payouts for global workers. We surveyed 2,300 workers in 20 countries to see what's driving stablecoin demand, where the opportunity is highest, and how other platforms can adapt.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/wRqifAA3sZ1z3kJIX2UKM/8f2619305be2fe7039bf68c26429a8c1/Blog_index_image_1250x1250_2x.png"
     },
     {
       "id": "c1a49ce9bd0f47f7d934",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-07-31T16:00:00Z",
       "summary": "Suppose a user searches for café and your corpus contains CAFÉ, or they type straße and you’ve stored STRASSE. To make these count as matches, you need a canonical form that erases case distinctions, so that two strings which differ only in case compare equal. That form is case folding, and it shows up wherever text is matched rather than displayed: search engines, regex (?i) flags, case-insensiti",
       "imageURL": null
-    },
-    {
-      "id": "582a41de0b44954cbdcd",
-      "title": "Kubernetes v1.37 Sneak Peek",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
-      "publishedAt": "2026-07-31T16:00:00Z",
-      "summary": "As we get closer to the release date for Kubernetes v1.37, the project develops and matures, features may be deprecated, removed, or replaced with better ones for the project's overall health. This blog outlines some of the planned changes for the Kubernetes v1.37 release that the release team feels you should be aware of for the continued maintenance of your Kubernetes environment and keeping up ",
-      "imageURL": null
-    },
-    {
-      "id": "3bd0350faf66784fb457",
-      "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/f20be6f643e3",
-      "publishedAt": "2026-07-30T20:10:15Z",
-      "summary": "Authors: Ying Li , Arjun Rao , Shradha Sehgal Introduction Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years to support diverse cont",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*7Jb6-3knD_VCB_wWN5M3Mw.png"
     }
   ]
 }
