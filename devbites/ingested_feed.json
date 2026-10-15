@@ -1,6 +1,177 @@
 {
   "articles": [
     {
+      "id": "598ad26e94b8c71f7aa8",
+      "title": "AI Agent Security Risks: What Can Go Wrong When Agents Act on Their Own",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=94888",
+      "publishedAt": "2026-10-14T22:08:33Z",
+      "summary": "The thing that makes an AI agent useful, its freedom to act, is also what can introduce risk. An agent doesn’t just answer a question, it browses, runs code, and calls tools on its own, so a single bad or manipulated instruction can turn into real damage instead of just a wrong answer. That’s the shift traditional application security wasn’t built for, and it’s why trust has to be built into the s",
+      "imageURL": "https://www.docker.com/app/uploads/2026/10/docker_AI-Agent-Security-Risks-2320x1218.jpg"
+    },
+    {
+      "id": "d0a487101f3307e30e7c",
+      "title": "Harbor + Docker Sandboxes: Run Safe, Reproducible Agent Evals",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=94820",
+      "publishedAt": "2026-10-14T21:45:27Z",
+      "summary": "Key takeaways Harbor can now run every eval task in Docker Sandboxes Docker Sandboxes are MicroVM environments to run agents like Claude Code, Codex, Cursor, and more safely With Sandboxes, define custom network policies for fair, reproducible evals Run your evals locally or in the cloud: starting for free on Docker Sandboxes on local surfaces and scaling to Cloud Sandboxes To evaluate an agent, y",
+      "imageURL": null
+    },
+    {
+      "id": "049f752dea89d9de43df",
+      "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/yandex-outage/",
+      "publishedAt": "2026-10-14T20:24:19Z",
+      "summary": "Following reported strikes on Yandex data centers, claims circulated on the Internet that Russian bot farms and influence operations had been knocked offline. HTTP traffic charts showed steep drops, fueling speculation that the infrastructure damage had stopped these malicious actors. However, aggregate traffic metrics can easily mislead. There are two autonomous system numbers ( ASNs ) associated",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4Y142SWPQXA8GMMX3DTNYBY.png"
+    },
+    {
+      "id": "96cef2a786dd2aede099",
+      "title": "Integrating Netflix’s Foundation Model into Personalization applications",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/cf176b5860eb",
+      "publishedAt": "2026-10-14T20:02:22Z",
+      "summary": "Authors: Divya Gadde , Ko-Jen Hsiao , Dhaval Patel and Moumita Bhattacharya The motivation for building the Netflix Foundation Model for personalization was laid out in this previous blog post. The Netflix homepage is powered by several specialized models and it requires significant time and resources to maintain and continue innovating on these individual models. Therefore, we decided to centrali",
+      "imageURL": "https://cdn-images-1.medium.com/max/960/1*9xBaz1zkvALNwB3iT3xK8g.png"
+    },
+    {
+      "id": "d071ccbe36ed57b4b680",
+      "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/92af926b40a5",
+      "publishedAt": "2026-10-14T19:59:08Z",
+      "summary": "by Olek Gorajek , Samuel Redai , Yian Shang Intro Our Netflix journey from data to dashboards, particularly within the space of the experimentation platform, always presented a unique set of challenges. This blog post aims to illuminate these hurdles and explain how an innovative open-source metric platform became instrumental in overcoming some of them. We’ll showcase the critical role that DataJ",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*dcANBgrIzPINy2sZeZNXMQ.png"
+    },
+    {
+      "id": "6b063465365f6c79ac8e",
+      "title": "Measuring the Impact of Personalized Recommendations",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/4c26be3a4d96",
+      "publishedAt": "2026-10-14T19:57:43Z",
+      "summary": "By Kevin Zielnicki, Guy Aridor, Aurélien Bibaut, Allen Tran, Winston Chou, and Nathan Kallus Introduction Personalization is everywhere on the internet. It shapes the products we discover, the stories we read, the music we hear, and the movies and TV shows we watch. At Netflix, personalization has been central to the member experience for decades — from the Netflix Prize to our modern recommender ",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*lWLZiuDQ7WWaPsdEHZoNnw.png"
+    },
+    {
+      "id": "136cce715207b73d2e3e",
+      "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/e59d597c9d60",
+      "publishedAt": "2026-10-14T19:56:08Z",
+      "summary": "By Oleksii Tkachuk , Rajiv Shringi , Chris Lohfink , Abe Ratnofsky , Kartik Sathyanarayanan Introduction In an earlier post , we introduced the TimeSeries Abstraction, our high-throughput, low-latency platform designed to store and query temporal event data at scale. It has since become the operational backbone for Netflix’s largest datasets, which now span multiple petabytes. However, managing su",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*ZL0rDP0Un-DxepYPmFo4aQ.png"
+    },
+    {
+      "id": "c366273d72bbcff24c1b",
+      "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/826ebf9ad9fb",
+      "publishedAt": "2026-10-14T19:51:35Z",
+      "summary": "By Yogesh Nagarur Introduction In Part 1 of this series , we shared how Netflix built the Ads Event pipeline and approached it as a system design problem: replacing fragmented pipelines with a centralized collection, enrichment, and a standard data contract. The result was Ads Event Publisher, the system that collects ad telemetry from client devices, enriches it with the context of the ad that wa",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*LkXsONCex0Q1KvttewSZ1w.png"
+    },
+    {
+      "id": "8954e99eabf95130b426",
+      "title": "Netflix Conductor: The Next Chapter",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/41ad21067649",
+      "publishedAt": "2026-10-14T19:50:17Z",
+      "summary": "Netflix Conductor : The Next Chapter by Aravindan Ramkumar on behalf of the Conductor team Conductor is the workflow orchestration engine Netflix uses to stitch micro-services into reliable, observable business processes. If you’ve followed Conductor from the outside, the last thing you heard was probably the note on its GitHub repository : Netflix discontinued maintenance of Conductor OSS to refo",
+      "imageURL": "https://cdn-images-1.medium.com/max/940/1*cPgTnfCY3ngVsK8hTPyZrw.png"
+    },
+    {
+      "id": "fc6e122e06ef247792f6",
+      "title": "Running Apache Spark experiments in my sleep (and on a plane)",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/588816b6b5f8",
+      "publishedAt": "2026-10-14T19:49:11Z",
+      "summary": "By Prashanth Gedde Narayanaswamy As one of Netflix’s largest and critical data pipelines, member-sessionizer consolidates tens of billions of hourly client events, encompassing user taps, playbacks, and engagement signals, into individual viewing sessions per profile. A quick two-week tuning effort spiraled into two months when standard approaches hit a wall. Because the failures only happened at ",
+      "imageURL": "https://cdn-images-1.medium.com/max/1020/1*XXIKbAHpGvPtFzHcDL8Kcg.png"
+    },
+    {
+      "id": "0275127d77350e660827",
+      "title": "The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/c95bd8283508",
+      "publishedAt": "2026-10-14T19:48:49Z",
+      "summary": "By Emma Yanyang Kong , JJ Tan , Ishan Gupta , Lars Olds , Claire Campbell , David Fagnan , Ratna Kavuri , Rohan Gosain , Veli Balin , Minsu Jang , Louis Garcia Introduction Any team generating text with an LLM at scale hits the same problem. You cannot evaluate everything manually. You don't know which outputs are great, which are mediocre, and which are harmful, because you simply cannot read the",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*hJdG1aeP8E3Hil6mJwcp1Q.png"
+    },
+    {
+      "id": "c22d654b90533a56eb15",
+      "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/ddf9aa68a801",
+      "publishedAt": "2026-10-14T19:48:20Z",
+      "summary": "By Violetta Pidvolotska and Naveen Mareddy Stratum is Netflix’s internal serverless media processing platform, shaped by over a decade of experience developing large-scale distributed systems. It powers a wide range of media workloads — including encoding, packaging, inspection, and quality scoring — behind playback, advertising, studio workflows, AI embeddings, and more. Engineers develop Stratum",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*_8R96y0lKNJmgSs1qZ0qTw.png"
+    },
+    {
+      "id": "1c68af78884676d9728a",
+      "title": "Reliable GPU compute for large training & inference jobs",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/d62b03a96d7a",
+      "publishedAt": "2026-10-14T19:47:42Z",
+      "summary": "How we detect failing GPUs and network fabric, remediate machines automatically, and let long-running jobs survive hardware loss. Authors: Nick Rutigliano , Argha C , Samartha Chandrashekar Open Netflix, and the home screen is assembled for you: which rows appear, the order they appear in, the titles within them, and the artwork for each title are chosen by machine learning models trained on how h",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*d15z8m06XjWnYeauK7iXfQ.png"
+    },
+    {
+      "id": "db2dc16f5a8b8e8b4dec",
+      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=99364",
+      "publishedAt": "2026-10-14T19:11:33Z",
+      "summary": "Maintainers look at star history to answer a practical question: did a launch, release, or event change a project’s trajectory? To reconstruct that curve from the GitHub API, tools had to request pages of stargazer records (each person who currently stars the repository and when they starred it), keep the timestamps, and throw the identities away. Over time, that design created problems at both en",
+      "imageURL": null
+    },
+    {
+      "id": "4622528705e7449b29d9",
+      "title": "Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
+      "publishedAt": "2026-10-14T18:35:00Z",
+      "summary": "You submit a Kubernetes Job and wait for its Pods to appear. A minute passes. Then another. The Job is still suspended, there are no application logs, and there may not even be a Pod to inspect. In a cluster managed by Kueue , this can be completely normal. Kueue may still be deciding whether the Job can use the requested resources. The useful question is not only “Why is the Pod pending?” It is f",
+      "imageURL": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/kueue-admission-architecture.svg"
+    },
+    {
+      "id": "71b626c79ce7801339f6",
+      "title": "Your next job doesn’t have a title yet: Emerging role skills Q&A with Corey Hymel of Andela",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/14/your-next-job-doesn-t-have-a-title-yet-emerging-role-skills-q-and-a-with-corey-hymel-of-andela/",
+      "publishedAt": "2026-10-14T17:12:00Z",
+      "summary": "While the whispers say that everyone is becoming a generalist, that's not where headcount is going.",
+      "imageURL": null
+    },
+    {
+      "id": "3d355b7d28a8890d92d4",
+      "title": "Multi-region disaster recovery for Amazon API Gateway WebSocket APIs",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/multi-region-disaster-recovery-for-amazon-api-gateway-websocket-apis/",
+      "publishedAt": "2026-10-14T14:31:55Z",
+      "summary": "WebSocket connections power some of the most interactive experiences on the web: financial trading applications streaming live market data, collaborative editing tools where multiple users work on the same document, gaming leaderboards updating in real time, and IoT dashboards monitoring thousands of devices. These applications depend on persistent, bidirectional communication between clients and ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/12/ARCHBLOG-1349-1-2.png"
+    },
+    {
+      "id": "cebbc847e0f76838b13c",
+      "title": "How UTS established a modern curriculum data services foundation on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-uts-established-a-modern-curriculum-data-services-foundation-on-aws/",
+      "publishedAt": "2026-10-14T14:29:10Z",
+      "summary": "Students and staff experience the University of Technology Sydney (UTS) as a single institution, not as the collection of curriculum and student systems behind it. They expect the information underpinning teaching, learning, course design and institutional decision-making to be accurate, timely and coherent, irrespective of its source. Behind that experience, UTS had reached a natural inflection p",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/09/ARCHBLOG-1642-1.png"
+    },
+    {
+      "id": "9d49354fa5a46a3509b5",
+      "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
+      "publishedAt": "2026-10-14T13:00:00Z",
+      "summary": "Hyperdrive support for MySQL is now generally available (GA). Hyperdrive , Cloudflare’s database connection pooler for Workers, initially only supported Postgres. Since we announced the beta for MySQL protocol support last year, we have been working on making our MySQL handling as reliable as our Postgres support. We’ve learned some things from building and running a MySQL connection pooler on Clo",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4VK1DV41VQ8EZCK68R7E0CS.png"
+    },
+    {
       "id": "664a99950228d053fcfc",
       "title": "Package managers have an integrity problem",
       "sourceName": "Trail of Bits",
@@ -568,24 +739,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3Y5S9YWA3J6HWBGZPXJB4KY.01M3Y5SAP93PZ8TV3HFDNVRWHS.png"
     },
     {
-      "id": "5685295cd7d17a2f4c1a",
-      "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
-      "publishedAt": "2026-10-02T13:00:00Z",
-      "summary": "We launched Quick Tunnels in 2021 to give developers an easy way to share their latest service, application, or project running in their local development environment. A lot has changed since then, but the core use case remains the same. Your coding agent has just finished the feature. The dev server is up on localhost:5173 , and before you ask, the agent offers to let you try it on your phone. It",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3WEQNPRWNJ6R5MEB2300BRQ.png"
-    },
-    {
-      "id": "c1771d11cf4029d4cbbe",
-      "title": "Building for good: How civil society organizations are automating on Cloudflare",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/civil-society-automation/",
-      "publishedAt": "2026-10-02T13:00:00Z",
-      "summary": "Tracking how governments target dissidents living in exile. Helping people in crisis find mental health support. Advocating for legislation that protects free expression online. These are a few examples of how some of the world's leading organizations are building the future of non-profit work with Cloudflare. AI is changing how people do their work. The goal of Cloudflare Impact is to help ensure",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3W896Z08YJWZG5GH6T03D67.png"
-    },
-    {
       "id": "f8144ece9a9d92cec2fa",
       "title": "SequenceHash: multihashing for the rest of us",
       "sourceName": "Trail of Bits",
@@ -829,15 +982,6 @@
       "imageURL": "https://static.pingcap.com/files/2025/07/11103811/AD_4nXeCP_BdWSi4YS1WvqCrxbmWC2yD6nSYXJ7XZb5H0tab8Kmucoc9602Y4UEsSeOmgoLbRBdkArfWwhyg9uy96disjmlKtWSCdiCSsYN6FzFfkAOm4Bm0rml4m4Bd2-Layqmn_syQ.png"
     },
     {
-      "id": "2d2668760f82f75434ae",
-      "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/516d5a29b252",
-      "publishedAt": "2026-09-25T16:01:03Z",
-      "summary": "By Dhruv Pratap Introduction Organizations that have been around for a while usually run two identity systems side by side. One belongs to the cloud provider: IAM roles, instance profiles, execution roles. The other is your own, and it is the one your internal services actually check when they decide whether to answer a request. On infrastructure you build yourself, you can bootstrap your own iden",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*eIWpHw7J_6qZCuaffD0lQQ.png"
-    },
-    {
       "id": "5576c22da14e3f38e221",
       "title": "Improving site performance by shipping more CSS",
       "sourceName": "GitHub Engineering",
@@ -854,15 +998,6 @@
       "publishedAt": "2026-09-25T11:00:00Z",
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu",
       "imageURL": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/tee-mpc-figure1_hu_dedf906638555a09.webp"
-    },
-    {
-      "id": "863d540612e7f85e5b5f",
-      "title": "Professional skepticism is a dev’s best skill",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/25/professional-skepticism-is-a-dev-s-best-skill/",
-      "publishedAt": "2026-09-25T07:40:00Z",
-      "summary": "Ryan chats with David Burns, Head of Developer Advocacy and Open Source at BrowserStack, about the value of professional skepticism in an AI-driven world, applying test-driven development to agentic engineering, and why fixing flaky tests comes down to managing application state.",
-      "imageURL": null
     },
     {
       "id": "d0cbd82fb31cde1885c9",
@@ -1052,15 +1187,6 @@
       "publishedAt": "2026-09-18T21:33:13Z",
       "summary": "ReadyOn , an AWS Partner delivering an intelligent Labor Orchestration Platform for Fortune 100 enterprises, runs a multi-tenant platform on Amazon Elastic Kubernetes Service (Amazon EKS) that handles some of the most sensitive data in enterprise IT. Kubernetes is central to that platform, and it is also one of the most complex surfaces to secure. A default Kubernetes deployment is not secure out ",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/10/ARCHBLOG-1562-1.png"
-    },
-    {
-      "id": "d32dd346f436124a3290",
-      "title": "Leave the Class Path in the Rearview Mirror",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/67a85b15b6be",
-      "publishedAt": "2026-09-18T16:01:02Z",
-      "summary": "Introducing composable, module system native and agent friendly command line tools for modern Java development By Danny Thomas, JVM Ecosystem Team Recent work on the Java language to pave the on-ramp has made it easier than ever to start a Java program and evolve it using the full language and platform. At the end of that on-ramp lies Java’s mature build and dependency management ecosystem, capabl",
-      "imageURL": "https://cdn-images-1.medium.com/max/848/1*AkQlaHO9bwLf_dNp-Z2HZQ.png"
     },
     {
       "id": "95a1bb7cfa50049c9d2a",
@@ -1270,15 +1396,6 @@
       "imageURL": null
     },
     {
-      "id": "1fe62ff3bcf197977ee7",
-      "title": "Building resilient real-time streaming workers with Amazon DynamoDB leases",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/building-resilient-real-time-streaming-workers-with-amazon-dynamodb-leases/",
-      "publishedAt": "2026-09-10T16:14:22Z",
-      "summary": "Consider a real-time transcription service processing 500 concurrent meetings. Each worker processing these meetings requires a dedicated outbound WebSocket connection to an upstream streaming source. When a single worker fails, it drops 100+ connections, causing 2 to 3 minutes of data loss per connection until operators manually restart services. Building real-time streaming workers that maintain",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/08/ARCHBLOG-1505-1.png"
-    },
-    {
       "id": "4e1a666a4fc23c2ff36a",
       "title": "Refreshing the Travel-Time Map Behind Lyft’s Marketplace: Rebuilding Neighborhood Reachability…",
       "sourceName": "Lyft Engineering",
@@ -1286,15 +1403,6 @@
       "publishedAt": "2026-09-10T16:12:28Z",
       "summary": "Refreshing the Travel-Time Map Behind Lyft’s Marketplace: Rebuilding Neighborhood Reachability Signals Every time Lyft calculates pricing to balance a market, nudges a driver toward an under-served pocket of a city, or paints a heatmap of where demand is building, there is a quiet lookup table doing work in the background. It answers a deceptively simple question: how long does it take to get from",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*f5bDERtosR0e_DlgBWek-Q.jpeg"
-    },
-    {
-      "id": "a6dc7bc272e3de303ce2",
-      "title": "Testing application resilience with Amazon SQS and AWS Fault Injection Service",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/testing-application-resilience-with-amazon-sqs-and-aws-fault-injection-service/",
-      "publishedAt": "2026-09-09T21:33:59Z",
-      "summary": "When your application can no longer send or receive messages through an Amazon Simple Queue Service (Amazon SQS) queue, downstream processing can stall. The cause might be a misconfigured Identity and Access Management (IAM) policy , a network partition, a bad deployment, or a transient service event. Your application sees much the same thing regardless: SQS operations start failing. How your serv",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/18/ARCHBLOG-1426-1.png"
     },
     {
       "id": "1bf01c3c33d621ca90d6",
@@ -1378,15 +1486,6 @@
       "imageURL": null
     },
     {
-      "id": "a56269facd1c5fbf3e3e",
-      "title": "YOLO Mode: Agent Autonomy Without the Guardrails",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=93273",
-      "publishedAt": "2026-09-03T18:00:00Z",
-      "summary": "AI agents have come a long way in both capability and everyday use since generative AI went mainstream in late 2022. In Stack Overflow’s 2025 Developer Survey , 84% of developers said they use or plan to use AI tools in their workflow, up from 76% a year earlier. As those tools shift from suggesting code to writing files and running commands on their own, one practical question follows. How much s",
-      "imageURL": "https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-2320x1218.jpg"
-    },
-    {
       "id": "9f416c27c79d1981f80b",
       "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB",
       "sourceName": "Meta Engineering",
@@ -1421,15 +1520,6 @@
       "publishedAt": "2026-09-02T18:00:00Z",
       "summary": "Output quality is important when working with AI coding agents, but true efficiency comes from getting work done quickly, efficiently, and with the right context. That’s why token count of individual interactions alone isn’t a meaningful measure of efficiency. The goal shouldn’t be to use fewer tokens, but to tap into the right amount of context to move a task forward. A concise tool response can ",
       "imageURL": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-01.png?resize=1024%2C329"
-    },
-    {
-      "id": "df2d436c525c600ce01a",
-      "title": "Building Reproducible AI Evaluation Workflows with Docker Sandboxes",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=93401",
-      "publishedAt": "2026-09-02T13:00:00Z",
-      "summary": "AI evaluation has never been easier to start. Reproducing it reliably is another story. Developers now have access to more benchmarks, evaluation libraries, model APIs, and agent frameworks than ever before. But keeping the prompt, model, and scoring method fixed doesn’t necessarily make a run reproducible. The execution environment matters too. Python dependencies change. Local tools drift. Setup",
-      "imageURL": "https://www.docker.com/app/uploads/2026/09/image1.png"
     },
     {
       "id": "4db85808102385e4d30e",
@@ -1495,15 +1585,6 @@
       "imageURL": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/pod-certificates-architecture.svg"
     },
     {
-      "id": "3e7c8a6145f26eef9bec",
-      "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/32f96320785e",
-      "publishedAt": "2026-08-28T16:01:02Z",
-      "summary": "By Emma Yanyang Kong , Aditya Deshpande , Asad Abbasi , Bowei Yan , David Fagnan , Ashish Rastogi , Dhaval Patel , Ray Zhang Introduction The Netflix experience is a journey of discovery. Every visual cue, from the artwork on a title to the video previews that autoplay while you browse, is there to connect you with a story you will love. We call these visual cues assets , and choosing the right on",
-      "imageURL": "https://cdn-images-1.medium.com/max/332/1*Tm2AJHCkMfTwtedhfmIAwA.png"
-    },
-    {
       "id": "548fd4bfd4c0c2bdfd81",
       "title": "Kubernetes v1.37: Metrics API graduates to stable",
       "sourceName": "Kubernetes Blog",
@@ -1565,15 +1646,6 @@
       "publishedAt": "2026-08-23T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
-    },
-    {
-      "id": "775ed46b12083c5d6fdd",
-      "title": "A Tale of Two Flink Autoscalers",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/e9f6a1b1492b",
-      "publishedAt": "2026-08-21T16:01:01Z",
-      "summary": "Samuel Yeboah , Francesco Di Chiara and Mingliang Liu Today, Netflix runs two Flink autoscalers. That is exactly one more than we want. We built the first one in-house years ago, when there was no mature option suited to our platform. The second came from the Apache Flink community, and it can scale workloads our homegrown system was never designed for. We now run both in production and are steadi",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Rn81hdaUHY94Sf8S-GOHZA.png"
     },
     {
       "id": "27b7e490bced9706f40c",
@@ -1711,15 +1783,6 @@
       "imageURL": null
     },
     {
-      "id": "381d5922193bb94069de",
-      "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/0f3468349607",
-      "publishedAt": "2026-08-07T16:01:02Z",
-      "summary": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API Authors: Nilesh Mishra and Ajit Koti This is the third entry of a multi-part blog series describing how we built a Real-Time Distributed Graph (RDG). In Part 1 , we discussed the motivation for creating the RDG and the architecture of the data processing pipeline that populates it. In Part ",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*X_O1wdMIVfm9upb2tLXD9A.png"
-    },
-    {
       "id": "2d4477469ef41d8d75cc",
       "title": "Discord Patch Notes: August 4, 2026",
       "sourceName": "Discord Blog",
@@ -1736,69 +1799,6 @@
       "publishedAt": "2026-08-06T00:00:00Z",
       "summary": "Mobile support is now generally available in the Discord Social SDK, allowing developers to extend Discord's social experiences to iOS and Android.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a739eab90b6719a4af75a42_image1.png"
-    },
-    {
-      "id": "1f606ef577cecfb83f27",
-      "title": "A few notes on AWS Nitro Enclaves: KMS integration",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
-      "publishedAt": "2026-08-05T11:00:00Z",
-      "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t",
-      "imageURL": null
-    },
-    {
-      "id": "02628c909d5fe44688b4",
-      "title": "Touring The Consensus, six months in",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-08-05-touring-the-consensus-six-months-in.html",
-      "publishedAt": "2026-08-05T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "e2c1d98816f2201645d9",
-      "title": "Turn one giant AI-generated pull request to a reviewable stack",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=97894",
-      "publishedAt": "2026-08-04T16:47:18Z",
-      "summary": "Think about the last big feature you shipped. Be honest. Did you cram it into one giant pull request, or did you split it into smaller scoped pull requests? For years, you have silently had to decide between watching a pull request grow so large that reviewing it becomes a nightmare or breaking it into a chain of smaller pull requests that you have to babysit, sync by hand, and untangle conflicts ",
-      "imageURL": "https://github.blog/wp-content/uploads/2026/08/pr-size-counter.gif?resize=1024%2C260"
-    },
-    {
-      "id": "06a431262d2fcd680f4c",
-      "title": "Squircles, Styles, and Spacing: How Your Feedback is Helping Improve Mobile",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/improving-mobile-with-squircles-styles-and-spacing",
-      "publishedAt": "2026-08-04T00:00:00Z",
-      "summary": "We're working to more closely match your mobile and desktop experiences, including changes to server icons and the chat bar. (Did we mention Ash, the OG dark theme, is back?)",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a70ce2458ab09e58b7d5218_Blog%20Hero%20-%201800x720%20-%201x.png"
-    },
-    {
-      "id": "645624c7eeb4c62cfa58",
-      "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
-      "publishedAt": "2026-08-03T16:00:00Z",
-      "summary": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0 , which was released on June 30th of this year! Gateway API has become the standard for modern, role-oriented, and expressive service networking in Kubernetes. In previous releases, Gateway API established a production-grade foundation for HTTP and TLS layer 7 traffic. With version 1.6.0, Gateway API takes ",
-      "imageURL": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/gateway-api-logo.svg"
-    },
-    {
-      "id": "4953d4c2f69085a69dc8",
-      "title": "Modeling Device Capabilities for Analytics",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/e7607acebde8",
-      "publishedAt": "2026-07-31T16:01:02Z",
-      "summary": "by Aarti Laddha , Richard Diaz-Cool , Rishika Idnani , Venkatesh Selveraj Netflix supports a vast and evolving set of features and content types, ranging from 4K streaming and immersive audio to live streaming and cloud gaming, across a diverse ecosystem of devices. However, not all devices are created equal. Hardware limitations such as available RAM, CPU cores, display capabilities, or platform ",
-      "imageURL": "https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=e7607acebde8"
-    },
-    {
-      "id": "f554a0209fcb37deb6bc",
-      "title": "Don’t stop early: Case-folding source code at memory speed",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=97648",
-      "publishedAt": "2026-07-31T16:00:00Z",
-      "summary": "Suppose a user searches for café and your corpus contains CAFÉ, or they type straße and you’ve stored STRASSE. To make these count as matches, you need a canonical form that erases case distinctions, so that two strings which differ only in case compare equal. That form is case folding, and it shows up wherever text is matched rather than displayed: search engines, regex (?i) flags, case-insensiti",
-      "imageURL": null
     }
   ]
 }
