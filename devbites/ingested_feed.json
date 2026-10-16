@@ -1,6 +1,123 @@
 {
   "articles": [
     {
+      "id": "bbd72f4e43f7f1ee1e85",
+      "title": "AI says you’re right, formal methods say you’re wrong",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/16/formal-methods-say-you-re-wrong/",
+      "publishedAt": "2026-10-16T07:40:00Z",
+      "summary": "Ryan is joined by Gabriela Moreira, CEO at Quint, about why formal specification languages like TLA+ are essential for catching system design flaws before writing code, how Quint brings developer-friendly syntax and executability to formal methods, and the ways trace validation and model-based testing can verify AI-generated code against real-world production data.",
+      "imageURL": null
+    },
+    {
+      "id": "0ea3ed0cdd4344c04fe6",
+      "title": "MCP standardized tools. Now we need the infrastructure around them.",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/15/mcp-standardized-tools-now-we-need-the-infrastructure-around-them/",
+      "publishedAt": "2026-10-15T20:39:29Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "06f22f6a6ae13f728e98",
+      "title": "How Meta Built Forum With AI-Native Engineering",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24709",
+      "publishedAt": "2026-10-15T19:00:03Z",
+      "summary": "Meta’s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of working by bringing an AI agent into the development cycle. We’re sharing insights into what it took to build Forum with agentic AI: how we adapted the codebase, tested frameworks and internal tooling for agentic execution, what w",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Forum-UI.jpg"
+    },
+    {
+      "id": "82520962713b21b8bacd",
+      "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24735",
+      "publishedAt": "2026-10-15T18:30:29Z",
+      "summary": "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! There are a few moments throughout the year, like New Years Eve, that really let us see the collective impact of everything we’ve built — but none are bigger than the quadrennial World Cup tournament. The 2026 World Cup broke records across messaging, video, reco",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-2026-World-Cup-total-egress.png"
+    },
+    {
+      "id": "6dd017814018895c66ad",
+      "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=99529",
+      "publishedAt": "2026-10-15T18:00:00Z",
+      "summary": "Working with outside collaborators can add more work for a repository owner. You need to confirm who still needs access, change permissions as projects evolve, and archive repositories once they’ve served their purpose. To keep up, repository owners need to track collaborators, deadlines, and follow-ups for each repository. As a project grows, that manual housekeeping becomes harder to keep up wit",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221"
+    },
+    {
+      "id": "8d017137f926178ef105",
+      "title": "A fully programmable secure web gateway",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
+      "publishedAt": "2026-10-15T17:11:12Z",
+      "summary": "Every secure web gateway on the market works the same way: traffic matches a condition. A terminal action fires. Allow, Block, Isolate, Log. This model has been the foundation of network security for nearly 30 years, and it handles the common case well. But it has a ceiling, and customers with complex environments hit that ceiling regularly. Earlier this year, we shared our vision to build a truly",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M50725GWYBHA14CTTDWFESC7.png"
+    },
+    {
+      "id": "97676a1d3596f158db05",
+      "title": "Why your platform team shouldn't build an AI context layer (even though they probably could)",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/15/your-team-shouldnt-build-an-ai-context-layer/",
+      "publishedAt": "2026-10-15T17:00:00Z",
+      "summary": "Most engineering teams capable of building an internal AI knowledge system think they should. But six months later, it's a platform team's full-time job. Building an in-house AI context layer costs more money and energy than you think.",
+      "imageURL": null
+    },
+    {
+      "id": "b7e9538e111d8e2423a6",
+      "title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24721",
+      "publishedAt": "2026-10-15T16:00:59Z",
+      "summary": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis ( ISSTA) 2026 Most Influential Paper Award for their 2016 research, “ Sapienz: multi-objective automated testing for Android applications. ” The recognition celebrates a decade of impact from work that began at University College London and went on to become testing i",
+      "imageURL": null
+    },
+    {
+      "id": "96a9885dabe39b4125d2",
+      "title": "How Dynata scaled AI across the development lifecycle with AI-DLC and Kiro IDE",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-dynata-scaled-ai-across-the-development-lifecycle-with-ai-dlc-and-kiro-ide/",
+      "publishedAt": "2026-10-15T15:50:31Z",
+      "summary": "When Dynata set out to compress multi-sprint feature delivery into a single sprint, the answer wasn’t simply faster coding. It was reimagining the entire development lifecycle with AI. The team progressed in deliberate stages. They began with AI-assisted coding, then connected AI with their knowledge ecosystem across Confluence, Jira, Lucidchart, GitHub, and Figma. Finally, they adopted the AI-Dri",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/12/ARCHBLOG-1747-1.png"
+    },
+    {
+      "id": "71b074246bff4475e655",
+      "title": "Different Starting Points, One Data Foundation: What’s New in TiDB Cloud",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=35378",
+      "publishedAt": "2026-10-15T15:00:00Z",
+      "summary": "Key Takeaways TiDB Cloud Premium is announced for general availability, with customer availability in November 2026. BYOC and TiDB Cloud Filesystem enter public preview: managed TiDB Cloud in your own cloud account, and a persistent workspace for AI agents. PostgreSQL support on TiDB Cloud Starter opens in public preview to anyone, with no eligibility gate. PingCAP plans to open source the core co",
+      "imageURL": null
+    },
+    {
+      "id": "2628c857671d619447aa",
+      "title": "Deploy with Void",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/deploy-with-void/",
+      "publishedAt": "2026-10-15T14:00:00Z",
+      "summary": "VoidZero's tools such as Vite, Vitest, Oxc, and Rolldown — bundled in one toolchain as Vite+ — have made frontend development faster, but building full-stack applications requires more than just a tooling stack. These applications need server routes, databases, local development environments, and a fast and easy way to deploy ideas to production. We’re excited to open-source three new products tha",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4XW9N9BNAM3T4W2SE62A1B1.01M4XW9NZG3B1PTR3QTA8CK4GR.png"
+    },
+    {
+      "id": "d05f789212e75b03895d",
+      "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+      "publishedAt": "2026-10-15T13:00:00Z",
+      "summary": "Optimizing your site for AI is of little use if AI can't find it. The answer to someone's question may already be on your website: the installation guide you spent a week writing, or a first-hand account of using a product, with the details that make the difference for whether they buy it. As more people turn to AI for help, you want those systems to find your work, represent it accurately, and se",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4YQC03MMFYZ10P30YWNWGG4.png"
+    },
+    {
+      "id": "6a9a2c4c2265c78fe9d3",
+      "title": "Sync real-time Stripe data to Postgres with Stripe Data Pipeline",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/real-time-stripe-data-postgres",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "summary": "Applications rely on current Stripe data to fulfill orders, update customer accounts, and manage access to paid features. Until now, developers have had to build and maintain custom integrations to keep application databases in sync with Stripe. We’re introducing real-time sync to Postgres for Stripe Data Pipeline, which lets them keep databases current without having to build custom integrations.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/7BvPW4nQ9gdzqnXQNUaKbw/4d4152e6698fbe360fb753ff31ace6c2/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding.png"
+    },
+    {
       "id": "598ad26e94b8c71f7aa8",
       "title": "AI Agent Security Risks: What Can Go Wrong When Agents Act on Their Own",
       "sourceName": "Docker Blog",
@@ -514,6 +631,15 @@
       "imageURL": null
     },
     {
+      "id": "27e8fc6cbd58206600b7",
+      "title": "“Impossible to Hide Secret …”: Uncovering Security and Privacy Issues in LLM-Native IDEs",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/06/impossible-to-hide-secret-uncovering-security-and-privacy-issues-in-llm-native-ides/",
+      "publishedAt": "2026-10-06T20:04:14Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
       "id": "a5ffcf8d373c735182ae",
       "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
       "sourceName": "Kubernetes Blog",
@@ -712,33 +838,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XE9TZRDPWVKPPQNAVJDCYT.01M3XE9W5HREEF8Q70M7G034M2.png"
     },
     {
-      "id": "6055c182a46aa56131d2",
-      "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-      "publishedAt": "2026-10-02T13:00:00Z",
-      "summary": "A year ago, Cloudflare CTO Dane Knecht announced our intention to make every Cloudflare feature available to everyone . Cloudflare launched an Enterprise tier years ago when larger customers came to us looking for procurement options beyond a credit card, like invoices, custom contracts, and dedicated support. Those offerings met a customer need but over time, a two-tier system developed where som",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XD0DHYHB54G3RT6GBMY2W5.png"
-    },
-    {
-      "id": "dca4102c0cfdbd9d5d50",
-      "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-      "publishedAt": "2026-10-02T13:00:00Z",
-      "summary": "Today, end users carry too much of the burden of online privacy. To avoid third-party trackers or targeted ads, users are instructed to use a VPN, disable cookies, or install adblockers. Meanwhile, some app developers end up knowing more about their users than they’d care to: a typical client-server exchange creates a trail of user data, like the client’s IP address or TLS fingerprint. This level ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3WRXEHESBYZBGWPN9T2Z19C.png"
-    },
-    {
-      "id": "c59c9381120f201a20f4",
-      "title": "Follow the thread: a new dashboard to investigate account abuse",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
-      "publishedAt": "2026-10-02T13:00:00Z",
-      "summary": "Traditionally, preventing online fraud relied on point-in-time proof of identity: enter the correct password, complete a biometric verification, or pass a liveness check, and gain access. To defeat these controls, fraudsters had to steal credentials and other identity evidence from a real user, which was difficult to execute and scale. Today, widespread access to AI enables fraudsters to fabricate",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3Y5S9YWA3J6HWBGZPXJB4KY.01M3Y5SAP93PZ8TV3HFDNVRWHS.png"
-    },
-    {
       "id": "f8144ece9a9d92cec2fa",
       "title": "SequenceHash: multihashing for the rest of us",
       "sourceName": "Trail of Bits",
@@ -847,15 +946,6 @@
       "imageURL": null
     },
     {
-      "id": "d69ce519344881b0e0b7",
-      "title": "Getting ready for 2026 results: A look back on Developer Survey findings",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/30/getting-ready-for-2026-results-a-look-back-on-developer-survey-findings/",
-      "publishedAt": "2026-09-30T14:00:00Z",
-      "summary": null,
-      "imageURL": null
-    },
-    {
       "id": "45b8038dfbdff015617e",
       "title": "Vector and Full-Text Search Explained: Why AI Agents Need Both",
       "sourceName": "PingCAP / TiDB",
@@ -901,15 +991,6 @@
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/september/reclaim-2-0/Machine Learning-Evolving Reclaim to be ai native-1440x305-light.png"
     },
     {
-      "id": "dbefd3a7c78c8e7d49de",
-      "title": "Your phone is AI’s newest hardware",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/29/your-phone-is-ai-s-newest-hardware/",
-      "publishedAt": "2026-09-29T07:40:00Z",
-      "summary": "Ryan sits down with Div Garg, CEO at AGI Inc., to talk about running AI agents entirely on mobile devices, optimizing models for edge computing chips, and building safety mechanisms into autonomous app interactions.",
-      "imageURL": null
-    },
-    {
       "id": "15caadab6491fa6f9993",
       "title": "Helping personal agents shop more intelligently and reliably with Link",
       "sourceName": "Stripe Blog",
@@ -917,24 +998,6 @@
       "publishedAt": "2026-09-29T00:00:00Z",
       "summary": "As agents take on more purchases, agent builders have increasingly asked us to help agents navigate checkout and earn consumer trust. Today, we’re sharing three major improvements to support this broader set of needs.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/259tRMFUDzwXlrETBMQId4/a6af0d366e1e601e70b52c7f071fa007/index-5.png"
-    },
-    {
-      "id": "573e64b5cbb1ced679ad",
-      "title": "Why model versioning is not enough for production AI",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/28/why-model-versioning-is-not-enough-for-production-ai/",
-      "publishedAt": "2026-09-28T18:24:12Z",
-      "summary": "An MLOps workflow for evaluating deploying and rolling back AI applications",
-      "imageURL": null
-    },
-    {
-      "id": "99e34ba0f85760b98f95",
-      "title": "Is Your “Human-in-the-Loop” Actually Slowing You Down? Here’s What We Learned",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/28/is-your-human-in-the-loop-actually-slowing-you-down-here-s-what-we-learned/",
-      "publishedAt": "2026-09-28T16:41:00Z",
-      "summary": null,
-      "imageURL": null
     },
     {
       "id": "ab74b9e1c6a7f1593d5b",
@@ -1144,15 +1207,6 @@
       "imageURL": null
     },
     {
-      "id": "60571de9edb0ea709b4f",
-      "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24447",
-      "publishedAt": "2026-09-21T16:00:37Z",
-      "summary": "We’re open-sourcing Rebalancer , the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solve it, and how to debug it. This separation of concerns is crucial to Rebalancer’s usability, scalability, an",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/09/Rebalancer-Meta-Image-1.png"
-    },
-    {
       "id": "03823605fd83df81c520",
       "title": "Introducing our new Dropbox API documentation",
       "sourceName": "Dropbox Tech",
@@ -1160,15 +1214,6 @@
       "publishedAt": "2026-09-21T14:30:00Z",
       "summary": "We're excited to announce that our modernized Dropbox API documentation is now live at https://docs.dropboxapi.com . We've rebuilt our API reference to make integrating with Dropbox faster and more intuitive. What’s new Interactive API testing Test endpoints directly in the documentation. No more switching between docs and separate testing tools. You can set parameters, issue API calls, and see re",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/developers/Developers-1-1440x305px-light.png"
-    },
-    {
-      "id": "70c51613decebaa48530",
-      "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24485",
-      "publishedAt": "2026-09-21T12:00:00Z",
-      "summary": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over approximately 7,000 km (4,300 mi). Expected to enter service in 2029, it will be the first subsea cable system to deploy multi-core fiber technology at scale, doubling the capacity per fiber without a proportional incre",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/09/Meta-Petal-map.gif"
     },
     {
       "id": "070eb6728548fcc67835",
@@ -1351,15 +1396,6 @@
       "imageURL": null
     },
     {
-      "id": "1a42daa679a82e78664b",
-      "title": "AI Coding Agent Files Explained: How Persistent Workspaces Survive Resets",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=34975",
-      "publishedAt": "2026-09-14T14:57:17Z",
-      "summary": "Key Takeaways AI coding agent files are the repos, configs, logs, patches, and artifacts an agent writes while working, not just its final output. Ephemeral sandboxes tie the file layer to compute, so a timeout or crash erases hours of agent work with no warning. Persistent filesystems decouple storage from the sandbox lifecycle, which lets a second runtime reopen the same workspace. No persistenc",
-      "imageURL": null
-    },
-    {
       "id": "172159e86ac80f985aa5",
       "title": "Query plan rewriting in PostgreSQL",
       "sourceName": "Eaton Phil",
@@ -1376,15 +1412,6 @@
       "publishedAt": "2026-09-11T18:30:00Z",
       "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37! Native histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808 ) bring high-resolution, low-cardinality observability to Kubernetes metrics. By adopting Prometheus Native Histograms , Kubernetes components now expose latency and dur",
       "imageURL": "https://kubernetes.io/images/blog/2026-kubernetes-1-37-native-histograms-beta/native-histograms-flow.svg"
-    },
-    {
-      "id": "72439325f49f3446fb24",
-      "title": "From zero-shot forecast to purchase order with Amazon Bedrock AgentCore",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/from-zero-shot-forecast-to-purchase-order-with-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-09-11T14:08:01Z",
-      "summary": "Authors : Hyunsoo Kim, Chloe Kwak Learning level : 300 – Advanced Post type : Best Practices Every inventory manager faces the same question each morning: How much should I order today? The answer depends on dozens of variables (sales history, upcoming promotions, pricing changes, day-of-week seasonality, supplier lead times) and the cost of getting it wrong is asymmetric. Over-order and you carry",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/09/arch-1461-figure-1.png"
     },
     {
       "id": "ba7190af76453d7582b8",
@@ -1484,15 +1511,6 @@
       "publishedAt": "2026-09-03T18:30:00Z",
       "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building toward for three straight releases. Several more features graduate to Beta or GA. A fresh batch of alpha features rounds out the release. I'll dive into what's new for DRA in Kubernetes 1.37! What's stable",
       "imageURL": null
-    },
-    {
-      "id": "9f416c27c79d1981f80b",
-      "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24463",
-      "publishedAt": "2026-09-03T16:00:20Z",
-      "summary": "We’re introducing ZGateway, the proxy we are using to unify traffic through ZippyDB, Meta’s most widely-used key value store. As a bonus, it also enables admission control, load balancing, cross-region resilience, and richer operations. ZippyDB is the most widely used key value store at Meta, backing product metadata, counters, and configuration, and can serve billions of operations per second acr",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/09/ZGateway-Figure-1.png"
     },
     {
       "id": "95b0cd6c98afdd89e223",
@@ -1657,15 +1675,6 @@
       "imageURL": null
     },
     {
-      "id": "3339260f7d633c46b3d4",
-      "title": "Five monetization trends from global pricing leaders",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders",
-      "publishedAt": "2026-08-20T00:00:00Z",
-      "summary": "As AI transforms software economics, the standard revenue playbook is breaking down. Learn how leaders around the world are preparing for agent buyers, updating processes for faster pricing iteration, and building more flexible infrastructure.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/7AILd6YY3INBk4QCI4LaTx/1842bb0154e43c182f1c26a8cf7f8a4e/Monitization_trends_index.png"
-    },
-    {
       "id": "1490bd9f0e0033357e89",
       "title": "How we knew COVID was over (and what our models had to unlearn)",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-08-06T00:00:00Z",
       "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
-    },
-    {
-      "id": "ed75e87a9db2b445791e",
-      "title": "General Availability of Mobile Platform Support Arrives in Discord Social SDK Version 1.10",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/mobile-platform-support-arrives-in-discord-social-sdk",
-      "publishedAt": "2026-08-06T00:00:00Z",
-      "summary": "Mobile support is now generally available in the Discord Social SDK, allowing developers to extend Discord's social experiences to iOS and Android.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6a739eab90b6719a4af75a42_image1.png"
     }
   ]
 }
