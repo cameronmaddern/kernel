@@ -1,6 +1,87 @@
 {
   "articles": [
     {
+      "id": "b34b51a64c508538c68d",
+      "title": "Don't forget about the UI for AI",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/",
+      "publishedAt": "2026-10-20T07:40:00Z",
+      "summary": "Recorded at OpenAI Dev Day 2026, Ryan sits down with Andrew Ambrosino, member of the technical staff at OpenAI, for a conversation on OpenAI's strategy for merging ChatGPT and Codex into a unified experience, the advantages of localized computer access in their successful desktop application, and the technical hurdles of constructing ChatGPT Spaces to support real-time multi-agent collaboration.",
+      "imageURL": null
+    },
+    {
+      "id": "68e2ee5d21f7dc1bf4b7",
+      "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+      "publishedAt": "2026-10-19T19:12:53Z",
+      "summary": "When we previously blogged about our AI code reviewer in April , an average review cost a palatable $1.19. By the end of August, that figure had shot up to about $2.46. We hadn't made any significant architectural changes: the coordinator was still handing work to the same set of specialist reviewers, and the same risk tiers decided how intensive of a review we gave. Around mid-September we tasked",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M58N5J1Y9HY8N3R115KEY6NE.png"
+    },
+    {
+      "id": "40634a33b7feb1d3dabd",
+      "title": "Introducing Clairic, a new System One class of extraction models",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "publishedAt": "2026-10-19T17:48:26Z",
+      "summary": "Today, we're announcing a preview of a new class of System One-style models: extraction models. Our first one, Clairic, is available hosted on Workers AI as @cf/cloudflare/clairic. We intend to release the model open-weights soon. Clairic is an extraction model that is able to extract, compute, estimate, and forecast values from unstructured inputs — all at a significantly higher accuracy, faster ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5AKCGDJHDMM9AVJKV73MJGX.png"
+    },
+    {
+      "id": "cf89aef852decdf3cafe",
+      "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24783",
+      "publishedAt": "2026-10-19T16:00:47Z",
+      "summary": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers. Leveraging the world knowledge built into LLMs makes ad matching more intelligent and precise, compounding gains for advertisers. GenRecs Tokenization is the foundational data representation that makes t",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/GenRecs-Tokenization-image1.png"
+    },
+    {
+      "id": "cf8c276fdde163cd9b57",
+      "title": "Production-grade LLMs and agents: a field guide",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/19/production-grade-llms-and-agents-a-field-guide/",
+      "publishedAt": "2026-10-19T15:32:01Z",
+      "summary": "A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.",
+      "imageURL": null
+    },
+    {
+      "id": "00efd36031023e3db9d5",
+      "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24724",
+      "publishedAt": "2026-10-19T15:30:37Z",
+      "summary": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach. At Meta, we’ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents deliberately thin: It routes work and enforces reliability checks, while specialized agents do the domain reasoning. We’re sharing our own process and insights, plus how any team can app",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Thin-Orchestrator-workflow.jpg"
+    },
+    {
+      "id": "5bfee68ed69a0692d927",
+      "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24763",
+      "publishedAt": "2026-10-19T13:00:10Z",
+      "summary": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already complete and we’re working toward scaling it to comprise ~1 million GPUs. Prometheus also features technologies like closed-loop liquid cooling to help it operate efficiently. Right",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Prometheus-BAG-3.png"
+    },
+    {
+      "id": "72477d086944244f5e4b",
+      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+      "publishedAt": "2026-10-19T13:00:00Z",
+      "summary": "The recent disclosure of a major vulnerability in Citrix NetScaler pointed to a widespread weak point: a login page is an attack surface that can be used to compromise and access an application server. Indeed, the disclosures included an actively exploited flaw that allowed attackers to execute commands on affected gateways without signing in. As with any emergency patch, admins had to weigh cutti",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M537RBT01XNYZ0RR0CP9PS55.png"
+    },
+    {
+      "id": "4f25663723d95f45e9e6",
+      "title": "Stripe survey: Four trends reshaping how SaaS platforms compete in the AI era",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/saas-platform-trends-in-AI-era",
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "summary": "AI is creating more SaaS competition, and platforms are feeling the pressure. A Stripe survey of 200 platform leaders shows how they plan to evolve pricing, grow revenue, and retain customers.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/3PIdC4MKe2BXnn4EY4vVNk/d461ea6886dd076a35f1313419f19f4d/4_ways_SaaS_platforms_are_evolving_in_the_age_of_AI_-_INDEX.png"
+    },
+    {
       "id": "2509b1abca5e6431181e",
       "title": "TiDB Cloud BYOC Public Preview: Fully Managed Distributed SQL in Your AWS Account",
       "sourceName": "PingCAP / TiDB",
@@ -451,15 +532,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/MoQ-Instagram-Live-Meta-e1791568958445.png"
     },
     {
-      "id": "d8b3c0c11a7fe131608a",
-      "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24593",
-      "publishedAt": "2026-10-12T16:00:50Z",
-      "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacity, without compromising baseline performance. This post describes how we designed and now operate the system at Meta’s scale and how it drives significant advertiser value and capa",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-AI-Inference-Capacity-Ads-image-1.png"
-    },
-    {
       "id": "bbe6b19113811da2054a",
       "title": "Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions",
       "sourceName": "Docker Blog",
@@ -538,15 +610,6 @@
       "url": "https://stackoverflow.blog/2026/10/09/taking-a-look-under-your-agent-s-hood/",
       "publishedAt": "2026-10-09T07:40:00Z",
       "summary": "Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about applying observability to non-deterministic AI agents, blurring the boundaries between software development and production workflows, and navigating emerging challenges in AI security and tokenomics.",
-      "imageURL": null
-    },
-    {
-      "id": "5c09c15ff9c214bf0bba",
-      "title": "Production-grade LLMs and agents: a field guide",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/08/production-grade-llms-and-agents-a-field-guide/",
-      "publishedAt": "2026-10-08T20:22:56Z",
-      "summary": "A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.",
       "imageURL": null
     },
     {
@@ -712,15 +775,6 @@
       "imageURL": null
     },
     {
-      "id": "0c0cda8b27cc85322506",
-      "title": "NTS: Authenticated Time at Meta",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24581",
-      "publishedAt": "2026-10-06T16:00:06Z",
-      "summary": "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com . Packets are authenticated, so a device can verify the time came from us and was not modified on the way. Our NTS servers hold no per-client state. Cookie keys are derived, not stored and not replicated. We’ve open sourced everything, including the protocol, server, client through Meta’s Time library on Gi",
-      "imageURL": null
-    },
-    {
       "id": "60823063564ea2d19f00",
       "title": "Why Open Source Still Matters When Agents Write the Code",
       "sourceName": "PingCAP / TiDB",
@@ -811,15 +865,6 @@
       "imageURL": "/blog/images/bidi_jevbench_accuracy_brier.svg"
     },
     {
-      "id": "cd838e82df4db660bfbd",
-      "title": "8 major updates to Cloudflare Observability",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/one-observability-platform/",
-      "publishedAt": "2026-10-02T18:00:00Z",
-      "summary": "Today, we’re launching eight major updates that bring your logs, traces, analytics, alerts, dashboards, and exporting into one observability platform , with simpler and more predictable pricing. Here's what's launching: One place to explore logs from across Cloudflare End-to-end tracing from Cloudflare's edge to your origin One unified SQL API for querying Cloudflare data One pricing model for obs",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XHE6D45CDHQVM71QYA6EEJ.01M3XHE6YHC44V1DZB0VG3DCGV.png"
-    },
-    {
       "id": "6f63ac3fe831ec044cf4",
       "title": "Deploy Oracle Database step by step on Amazon EVS with FSx for ONTAP",
       "sourceName": "AWS Architecture Blog",
@@ -845,24 +890,6 @@
       "publishedAt": "2026-10-02T17:50:56Z",
       "summary": "When you build multi-Region architectures on AWS, one question comes up early: “What services are available in each AWS Region?” The answer shapes architecture decisions, from which AWS Regions to expand into, to how you design for resilience. For teams navigating data residency requirements and compliance reporting, getting the answer wrong has real consequences: deployment failures, compliance g",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/30/ARCHBLOG-1522-1.png"
-    },
-    {
-      "id": "f947e9010dad4080ff0c",
-      "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/streamline/",
-      "publishedAt": "2026-10-02T16:13:45Z",
-      "summary": "Cloudflare Stream is a powerful broadcasting platform that, for many of our customers, just works. But what if you wanted to render dynamic annotations on a livestream or create an alternate version of a hosted video with burned-in subtitles? You would need to run a custom video pipeline. Today, we’re releasing a new developer playground, Streamline, that demonstrates how you can build a system to",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XKCAN8X5Q5KQ1Q5EW20NBG.01M3XKCB43AH4EZPQE0QQ7MNND.png"
-    },
-    {
-      "id": "172a27cefb08cdf831d1",
-      "title": "Introducing Web Search API via AI Gateway",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-      "publishedAt": "2026-10-02T13:28:10Z",
-      "summary": "Fun fact: when you use an agent and it needs to fetch a live web page, the agent usually just guesses the URL of the page and then makes a tool call to curl it. This is why you’ll sometimes see web fetches come back with a 404 Not Found, which happens if the agent incorrectly guesses the URL of that information. As you can imagine, it’s not super efficient to randomly guess URLs all the time. Ther",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XMA3KN5CDQCSF0YHZ0WFBH.01M3XMA452ZT41JBXKRPY1HH3F.png"
     },
     {
       "id": "f8144ece9a9d92cec2fa",
@@ -961,15 +988,6 @@
       "url": "https://stackoverflow.blog/2026/09/30/organizations-need-decision-grade-knowledge-ai-makes-it-urgent/",
       "publishedAt": "2026-09-30T17:00:00Z",
       "summary": "AI can make the first part remarkably fast. It can find the page, the discussion and the person who might know. The harder work begins when those sources disagree, or when they become stale.",
-      "imageURL": null
-    },
-    {
-      "id": "d8b7ee0502c26764912d",
-      "title": "Anyone can start building verified knowledge with Stack Internal",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/09/30/anyone-can-start-building-verified-knowledge-with-stack-internal/",
-      "publishedAt": "2026-09-30T16:00:00Z",
-      "summary": "Stack Internal transforms your daily work into a living memory that’s shared with the rest of your team. Now anyone can create and share their knowledge in a Stack Internal workspace for free by visiting stackinternal.com.",
       "imageURL": null
     },
     {
@@ -1142,15 +1160,6 @@
       "publishedAt": "2026-09-24T16:00:00Z",
       "summary": "Run agents on your laptop, in the cloud, and move between them with one command, all safely. Earlier this year, we launched Docker Sandboxes: microVM environments where coding agents can work autonomously and safely. Since then, agents have started taking on long-horizon work: tasks that run for hours, not minutes. Agents need a new place to work. Today, we’re introducing Cloud Sandboxes: the same",
       "imageURL": "https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-11.59.36-AM.png"
-    },
-    {
-      "id": "78fec53404815925d4f0",
-      "title": "Bringing Private Processing to Meta AI Glasses",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24499",
-      "publishedAt": "2026-09-24T00:00:00Z",
-      "summary": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than other kinds of devices and keep you present without picking up a mobile phone. Most of the time, glasses are helping you see well, protecting your eyes and complementing your look, and that’s it. But AI glasses have the capacity to provide superpowers like trans",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/09/Private-Processing-for-AI-Glasses.png"
     },
     {
       "id": "8018084d546a0e01b484",
@@ -1331,15 +1340,6 @@
       "publishedAt": "2026-09-17T15:13:42Z",
       "summary": "With the advent of generative AI, organizations across industries face a common challenge: how do you move from the experimentation and ideation phase to production-ready workloads quickly and confidently? Many teams get stuck in a cycle of proofs of concept that never ship. DHI Group , a leader in talent acquisition services, was evaluating options to accelerate its generative AI adoption in an e",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/08/18/ARCHBLOG-1540-1.png"
-    },
-    {
-      "id": "a1fbb11723ca6f2ec4bd",
-      "title": "SaaS platforms are surging despite the SaaSpocalypse",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse",
-      "publishedAt": "2026-09-17T00:00:00Z",
-      "summary": "The SaaSpocalypse was a useful warning for the software industry, but SaaS platforms that help businesses run core operations are more deeply embedded. New platform businesses on Stripe are up 182% year over year.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/4eii8vuv5rIus0HNvlMEs6/1f5a15bc4f8dca9c66bec691f507befb/Specs__1250x1250px_with_100_padding_2x.png"
     },
     {
       "id": "b402f515f974f7c95e16",
