@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "c78cf468160e1a455080",
+      "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+      "publishedAt": "2026-10-20T22:20:16Z",
+      "summary": "On October 19, 2026, at approximately 17:00 UTC, Cloudflare became aware that private keys associated with eight eMudhra intermediate certificates were compromised. These certificates were widely trusted by browsers, operating systems, and also within Cloudflare. Because the keys themselves are weak, an attacker can create a forged certificate for any domain and use it to impersonate servers to in",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5DK5FY53PEFH46MT990YMSR.png"
+    },
+    {
+      "id": "6e9c9131a26a38305d05",
+      "title": "Introducing searchgres.js: Composable Search in PostgreSQL",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/introducing-searchgres-js-composable-search-postgresql",
+      "publishedAt": "2026-10-20T13:00:20Z",
+      "summary": "“What happened to the Maryland power plant yesterday?” is a question traditional hybrid search handles poorly without filters on time and metadata. Yet the industry is still competing on who can store the most vectors at the lowest price, not on search capabilities that yield the best answers. Storing vectors is the commodity part. Retrieving the right evidence is the hard part. While working on a",
+      "imageURL": "https://assets.tigerdata.com/blog/2026/10/Harbor-Station-Power-output.svg"
+    },
+    {
+      "id": "bc34cbec3dd5a0fb15f0",
+      "title": "Introducing tsrs: A port of TypeScript to Rust",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "publishedAt": "2026-10-20T13:00:00Z",
+      "summary": "Cloudflare and VoidZero are now working with Max Schwenk of Owner.com on tsrs , a Rust port of the TypeScript compiler. We are doing this work in close collaboration with the TypeScript team, and incubating tsrs as part of the Oxc JavaScript compiler toolchain . Our goal is to help developers spend less time waiting for their code to be checked and more time building. Making TypeScript faster and ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5C82VPWPDDZ7P6P0G4H7KB3.png"
+    },
+    {
       "id": "b34b51a64c508538c68d",
       "title": "Don't forget about the UI for AI",
       "sourceName": "Stack Overflow Blog",
@@ -116,15 +143,6 @@
       "publishedAt": "2026-10-16T13:00:00Z",
       "summary": "A driver’s license tells you who someone is and that they passed a driving test, not whether they’ll drive responsibly in the future. The same is true for bots: verifying who operates it creates accountability, but trust depends on what it does next. A known bot can still ignore website preferences, overwhelm origins, or evade controls. It’s not always malicious — often it’s just a misconfiguratio",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M51ZPERWNWYTD7Z36YMY80A8.01M51ZPFH7VV8EHQTMPJG9FHZ4.png"
-    },
-    {
-      "id": "d67378ba97d7c368dc20",
-      "title": "Building an Ingest Safety Monitor for Your IIoT Pipeline in SQL",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/building-ingest-safety-monitor-iiot-pipeline-sql",
-      "publishedAt": "2026-10-16T12:55:08Z",
-      "summary": "An Industrial Internet of Things (IIoT) ingest pipeline can run for months without an error and then fall behind within hours of a load increase. Once readings arrive faster than PostgreSQL can write them, the backlog grows until something removes the load. In this guide, you’ll learn how to build a monitor that shows how close you are to that point. It samples the write statistics PostgreSQL alre",
-      "imageURL": null
     },
     {
       "id": "bbd72f4e43f7f1ee1e85",
@@ -827,24 +845,6 @@
       "publishedAt": "2026-10-05T17:54:56Z",
       "summary": "October 2026: This post was reviewed and updated for accuracy. Today we’re launching the AWS Digital Sovereignty Lens , a new Well-Architected lens providing customers with extended guidance for designing, building, and operating sovereign workloads on AWS. Customers tell us that digital sovereignty brings a unique set of challenges that existing architecture guidance doesn’t fully address. Sovere",
       "imageURL": null
-    },
-    {
-      "id": "44b03140de4a0c7b4a97",
-      "title": "Everything we launched during Birthday Week 2026",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-      "publishedAt": "2026-10-05T13:00:00Z",
-      "summary": "We celebrated our 16th birthday last week by sharing how we’re building a better Internet for today’s world. As Matthew and Michelle reflected in this year’s Founders’ Letter , this year saw some of the most consequential changes in the history of the Internet. For the first time, automated traffic surpassed human activity. AI is empowering people to build like never before, leading the Internet t",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M45M6F7F4N2RT9KMZ0Q5DRQT.png"
-    },
-    {
-      "id": "9a1667b7b376f49f6240",
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-      "publishedAt": "2026-10-05T13:00:00Z",
-      "summary": "A year ago, many companies were cutting intern and new-graduate hiring . We went the other way. We announced a goal to hire as many as 1,111 interns in 2026, a number that’s a nod to 1.1.1.1, our public DNS resolver. The bet was that AI makes early-career talent more valuable and able to make an impact faster. The best AI tools help people learn a system faster, try more ideas, and take on harder ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M40BZTRXM8420FKPHKZ2HBJT.png"
     },
     {
       "id": "3abd86735586859d867f",
