@@ -1,12 +1,57 @@
 {
   "articles": [
     {
+      "id": "a77cbb96ed3e290b874b",
+      "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/9474f2fd4f90",
+      "publishedAt": "2026-10-23T18:32:51Z",
+      "summary": "By Roberto Perez Alcolea , Java Platform Team Quasar connects a proposed API change with observed references in consumer repositories, giving the producer evidence for a release decision At Netflix, shared Java libraries support applications developed across a large, independently evolving repository ecosystem. A library change begins in one repository, but its impact can reach many others. Produc",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*K06WZmnRhhXBboIskWb8qg.png"
+    },
+    {
+      "id": "60f970e1df3b48e38265",
+      "title": "Origin Range Requests: Serving large files without range-request tuning",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/origin-range-requests/",
+      "publishedAt": "2026-10-23T18:22:59Z",
+      "summary": "A video player seeking to the middle of a movie asks for a few megabytes. Under our old range caching, that one request could make Cloudflare pull 128 MiB from the origin and move it between data centers, sometimes after the viewer had already left. Range requests are how large files get delivered, and caching them naively easily leads to wasted network bandwidth and wasted disk operations when ru",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5MZP89Y10XGACD5T6G2F398.png"
+    },
+    {
+      "id": "70bdd870b2ac82df6eaf",
+      "title": "Bringing post-quantum cryptography to geographically fenced key management",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+      "publishedAt": "2026-10-23T18:06:56Z",
+      "summary": "Today, Cloudflare is launching a post-quantum geographically restricted key manager in support of our Data Localization Suite (DLS) in closed beta. This new PQ GeoKey Manager is a cornerstone of Cloudflare’s data sovereignty solutions, making sure that a customer's decryption keys are only accessible in their chosen geography. GeoKey Manager implements this by wrapping each decryption key such tha",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5MYF3Y4CXM47ZAN16JYM04W.png"
+    },
+    {
+      "id": "6c61528d90f0da5f1a3e",
+      "title": "Rumors of the SaaS demise are greatly exaggerated",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/",
+      "publishedAt": "2026-10-23T07:40:00Z",
+      "summary": "Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the modern build-versus-buy decision in the era of AI, and the critical importance of understanding system architectures to manage long-term infrastructure costs.",
+      "imageURL": null
+    },
+    {
       "id": "d33515ad49ba21effc20",
       "title": "Feng Shui for Robots: The Fly MCP Server",
       "sourceName": "Fly.io Blog",
       "url": "https://fly.io/blog/feng-shui-for-robots/",
       "publishedAt": "2026-10-23T00:00:00Z",
       "summary": "In Databricks’ State of AI Agents 2026 report, there’s a chart from Neon’s telemetry that’s somehow both mind-blowing and unsurprising. In October 2023, AI agents created 0.1% of the databases on Neon. By October 2025 they created 80% of them. We’re seeing this play out all across the infra landscape, including here at Fly.io, where agents have overtaken humans as our most common customer species.",
+      "imageURL": null
+    },
+    {
+      "id": "a27426bfd18f24b65092",
+      "title": "Animations for System Builders: Metastability and Lost Writes",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/10/23/animations",
+      "publishedAt": "2026-10-23T00:00:00Z",
+      "summary": "Animations for System Builders: Metastability and Lost Writes Pretty pictures help us learn, maybe? MathJax = { tex: {inlineMath: [['\\\\(', '\\\\)'], ['$', '$']]} }; One of the things I love using LLMs for is helping me understand systems better. In the Strands Decider post I wrote about how I often ask ask me questions to check I understand this . The other technique I’m enjoying right now, and am d",
       "imageURL": null
     },
     {
@@ -159,7 +204,7 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
       "publishedAt": "2026-10-21T13:56:45Z",
-      "summary": "Today, Calif.io, Wiz, OpenAI and Quarkslab disclosed two vulnerabilities in PHP, tracked as CVE-2026-109618 and CVE-2026-109619 and known as php2shell . The vulnerabilities affect all web servers running PHP 5.4 or later and they may allow an attacker to cause denial of service, remote code execution, and data exposure when an application processes specially crafted HTTP traffic. Cloudflare has be",
+      "summary": "Update - On October 23, the PHP project published an informational advisory for a related vulnerability, CVE-2026-115560, in PHP's session upload progress feature. It affects fully patched PHP releases, including 8.5.12, and will be fixed in PHP's next regular release. All Cloudflare WAF customers are protected against known exploit attempts if their site uses PHP's default upload progress field n",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KXQSMGN3Z955B45GCJR4REK3.png"
     },
     {
@@ -523,15 +568,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1020/1*XXIKbAHpGvPtFzHcDL8Kcg.png"
     },
     {
-      "id": "0275127d77350e660827",
-      "title": "The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/c95bd8283508",
-      "publishedAt": "2026-10-14T19:48:49Z",
-      "summary": "By Emma Yanyang Kong , JJ Tan , Ishan Gupta , Lars Olds , Claire Campbell , David Fagnan , Ratna Kavuri , Rohan Gosain , Veli Balin , Minsu Jang , Louis Garcia Introduction Any team generating text with an LLM at scale hits the same problem. You cannot evaluate everything manually. You don't know which outputs are great, which are mediocre, and which are harmful, because you simply cannot read the",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*hJdG1aeP8E3Hil6mJwcp1Q.png"
-    },
-    {
       "id": "db2dc16f5a8b8e8b4dec",
       "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
       "sourceName": "GitHub Engineering",
@@ -739,15 +775,6 @@
       "imageURL": null
     },
     {
-      "id": "4a9f5b72faa10f5cb24b",
-      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
-      "publishedAt": "2026-10-09T18:27:34Z",
-      "summary": "Following last week’s release of Clef and Clef-flash , Cloudflare’s open-weight decision models, we decided to bring forth more gifts. Today, we’re releasing Clef-omni, which takes in audio and video input alongside text and image. We also cut the price of Clef-flash so it is now cheaper than Jev, and we made Clef faster. Although the model game is still early for Cloudflare, innovation and iterat",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4GV0AV5F55NC2CCEBK9XCTA.png"
-    },
-    {
       "id": "35488f9bf063f0b19e3d",
       "title": "A Treatise on Model Oriented Programming Languages",
       "sourceName": "Stack Overflow Blog",
@@ -755,15 +782,6 @@
       "publishedAt": "2026-10-09T14:59:04Z",
       "summary": null,
       "imageURL": null
-    },
-    {
-      "id": "38bfcb4310c98b8dd26e",
-      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
-      "publishedAt": "2026-10-09T13:00:00Z",
-      "summary": "Understanding why an application is using more resources than expected, whether that is CPU or memory, can be challenging. Logs and aggregate metrics can only get you so far. Thankfully there is a better way: CPU or memory profiling can show you the exact function where your application is using CPU or allocating memory. Today we are happy to announce support for CPU and memory profiling of Worker",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M497X1XKZ8XG2FXKMTKEX5F4.png"
     },
     {
       "id": "ed1806c9df4acc798d67",
@@ -916,15 +934,6 @@
       "url": "https://www.pingcap.com/?p=35267",
       "publishedAt": "2026-10-06T15:45:08Z",
       "summary": "Maintainers of well-known open source projects are dealing with a new kind of inbox. Pull requests still arrive, often in higher volume than ever, and many are clean, well-formatted, and plausible on first read. What changed is that one person can now produce a hundred of them in an afternoon, and the maintainer still has to read every one to find the three that are real. That inversion is the mos",
-      "imageURL": null
-    },
-    {
-      "id": "011aee35663a3a5827e0",
-      "title": "The results of the 2026 Developer Survey are here!",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/",
-      "publishedAt": "2026-10-06T14:00:00Z",
-      "summary": "Below, we’ll highlight some of the results we found interesting about what's going in the life of technologists, their technologies, AI usage, and more.",
       "imageURL": null
     },
     {
@@ -1789,15 +1798,6 @@
       "url": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
       "publishedAt": "2026-08-11T18:00:00Z",
       "summary": "YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and configuration file you come across is written in it. The problem isn't that YAML is a bad format. It's that YAML gives you a lot of choices, and not all of them are equally good for writing Kubernetes manifests. Some features make files harder to read, some are easy to misuse and others can lead to",
-      "imageURL": null
-    },
-    {
-      "id": "9c3475e7851dc7c08d17",
-      "title": "How Trail of Bits helps verify the integrity of your Signal chats",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
-      "publishedAt": "2026-08-11T17:30:00Z",
-      "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri",
       "imageURL": null
     }
   ]
