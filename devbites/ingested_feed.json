@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "42532ee811b2ffa8d89a",
+      "title": "“We should be more ambitious with the software we build”",
+      "sourceName": "Dan Luu",
+      "url": "https://danluu.com/ambitious/",
+      "publishedAt": "2026-10-24T00:00:00Z",
+      "summary": "Since early this year, Michael Malis (of pgrust ) has been showing me interesting things he's done and saying [W]e should be more ambitious 1 with the software we build There is, understandably, a lot of skepticism about projects like pgrust because there are so many low-quality AI-generated projects out there. If I didn't know Malis and didn't look into it, I would just assume that pgrust was ano",
+      "imageURL": null
+    },
+    {
       "id": "a77cbb96ed3e290b874b",
       "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
       "sourceName": "Netflix TechBlog",
@@ -1720,10 +1729,10 @@
       "imageURL": null
     },
     {
-      "id": "27b7e490bced9706f40c",
+      "id": "04d5bb7dd8aebf7c45b2",
       "title": "There's no reason for software to be slow anymore",
       "sourceName": "Dan Luu",
-      "url": "https://danluu.com/perf-opt/",
+      "url": "https://danluu.com/no-slow/",
       "publishedAt": "2026-08-21T00:00:00Z",
       "summary": "The other day, I saw a viral tweet saying that people talking about how LLMs are causing slow, bloated, code are going to eat crow once they re-write everything in super-optimized assembly. We're not quite at the point where we want to write everything in assembly , but some variant of what Nolan Lawson said about testing, you can choose how many bugs you want now , which I less eloquently noted h",
       "imageURL": null
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-08-12T17:01:04Z",
       "summary": "Rebuilding login and signup surfaced product insights, not just technical challenges. Here’s how we designed Flexible Authentication at the intersection of product intuition and technical architecture. By : Jose Santos , Mike Barry For Airbnb, logins at irregular intervals are normal. A guest books a trip in January and may not open the app again until summer. A host checks back only when a reserv",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*O9JhHoAmQW0COuL_d4yLyQ.jpeg"
-    },
-    {
-      "id": "6ae64bcd99a19b4f7b5d",
-      "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
-      "publishedAt": "2026-08-11T18:00:00Z",
-      "summary": "YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and configuration file you come across is written in it. The problem isn't that YAML is a bad format. It's that YAML gives you a lot of choices, and not all of them are equally good for writing Kubernetes manifests. Some features make files harder to read, some are easy to misuse and others can lead to",
-      "imageURL": null
     }
   ]
 }
