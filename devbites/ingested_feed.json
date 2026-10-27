@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "id": "98b80ecda476a5c32834",
+      "title": "Backporting security fixes to stable releases",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/10/27/backporting-security-fixes-to-stable-releases/",
+      "publishedAt": "2026-10-27T11:00:00Z",
+      "summary": "The software you are running is almost certainly riddled with known, unfixed security bugs. These bugs can be trivially and quickly exploited by modern AI agents. This is not merely theoretical; I saw this during my sandbox escape research , and an old vulnerability in stable software was used as a part of the recently disclosed OpenAI hack : From the official hack description To say it simply: wh",
+      "imageURL": "https://blog.trailofbits.com/2026/10/27/backporting-security-fixes-to-stable-releases/backporting-security-fixes-to-stable-releases-image-1_hu_6e208daf0d401eaf.webp"
+    },
+    {
+      "id": "0da72f8122d232b9ed48",
+      "title": "Elevators, toasters, and the birth of Java",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/",
+      "publishedAt": "2026-10-27T07:40:00Z",
+      "summary": "Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability requirements of consumer electronics companies that inspired the Java virtual machine, and the evolution of garbage collectors that allow Java to handle large-scale concurrent memory management.",
+      "imageURL": null
+    },
+    {
+      "id": "e77549dba84aa9c32f2e",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "publishedAt": "2026-10-26T22:01:23Z",
+      "summary": "On September 8, 2026, we were alerted by a security researcher, Gadi Evron from Knostic , to a tenant isolation issue affecting the GLM-5.3 Workers AI model ( @cf/zai-org/glm-5.3 ) starting on August 27, 2026. We have remediated the issue, and we restored the model on September 9. We have confirmed that no other model hosted on Workers AI was affected. Between August 27 and September 9, a small nu",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2P2KSNBX6J13E3B4219PW.png"
+    },
+    {
+      "id": "b3c82e150d152a1a972d",
+      "title": "Data governance with annotations in Amazon S3",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/data-governance-with-annotations-in-amazon-s3/",
+      "publishedAt": "2026-10-26T18:00:26Z",
+      "summary": "If you run data governance in Amazon Simple Storage Service (Amazon S3), the context that matters most probably lives somewhere other than S3. Think of how an object is classified, which retention policy applies to it, where the data may reside, and whether it holds personally identifiable information (PII). You typically keep that context in a separate database, one system away from the objects i",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/23/ARCHBLOG-1611-1.png"
+    },
+    {
+      "id": "3a02b78792329ffdcdb1",
+      "title": "Recommended resilience testing in the next generation of AWS Resilience Hub",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/recommended-resilience-testing-in-the-next-generation-of-aws-resilience-hub/",
+      "publishedAt": "2026-10-26T17:35:01Z",
+      "summary": "Organizations that have defined resilience policies and assessed their applications face a common next step: verifying those applications behave as expected when failures occur. Designing fault injection experiments manually requires deep expertise. You need to know which faults to inject, which resources to target, and how to judge whether the outcome counts as success. Many teams do not know whe",
+      "imageURL": "https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png"
+    },
+    {
+      "id": "969e532262cd52de7202",
+      "title": "Making Failure Diagnosis Reliable with Pensive AI",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/6b0811a1c015",
+      "publishedAt": "2026-10-26T17:04:57Z",
+      "summary": "By Praneeth Yenugutala , Victor Dusa , Anastasia Samoilova , Megan Ren , Justin Wei , Marcelo Mayworm At Netflix, data and machine learning practitioners run millions of workloads each day across orchestration systems and compute engines such as Titus, Spark, Trino, and Druid. On peak days, roughly 100,000 workloads fail. When workloads fail, the failure itself is only the beginning. Someone still",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*2TSVpCdPYj4fMMlFPuheCg.png"
+    },
+    {
+      "id": "c20085d9ad41ded7c3fd",
+      "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/2e6b42810f49",
+      "publishedAt": "2026-10-26T16:01:02Z",
+      "summary": "Serdar Cellat , Yuchen Xie , Bernadette Marcu , Blaid Burgess , Cody Jarrett , Carlos Pereira , Qing Shi , Samuel Carvajal , Manuel Pamplona , Dorothy Jung , Feiko Ritsema , Benjamin Klein , Alex Woo , Eugene Lok , Anna Pulido , Rebecka Swe , Sanford Holsapple , Ranjith Kumar Shetty Introduction Clips in the Netflix mobile app. At Netflix, a crucial part of our mission is ensuring our content look",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*4BdXCRIW5WXopLnt2qOBmg.jpeg"
+    },
+    {
+      "id": "74a34cdfed033496323d",
+      "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24816",
+      "publishedAt": "2026-10-26T16:00:07Z",
+      "summary": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark , and our gigawatt-scale Prometheus cluster . Highlights IcePack & IceCube: Meta’s first liquid-cooled network rack with 102.4T switch blades (128×800G, Broadcom Tomahawk 6C and NVIDIA Spectrum-6 variants), running FBOS",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/OCP-2026-Omar-Meta.jpg"
+    },
+    {
       "id": "42532ee811b2ffa8d89a",
       "title": "“We should be more ambitious with the software we build”",
       "sourceName": "Dan Luu",
@@ -35,6 +107,15 @@
       "publishedAt": "2026-10-23T18:06:56Z",
       "summary": "Today, Cloudflare is launching a post-quantum geographically restricted key manager in support of our Data Localization Suite (DLS) in closed beta. This new PQ GeoKey Manager is a cornerstone of Cloudflare’s data sovereignty solutions, making sure that a customer's decryption keys are only accessible in their chosen geography. GeoKey Manager implements this by wrapping each decryption key such tha",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5MYF3Y4CXM47ZAN16JYM04W.png"
+    },
+    {
+      "id": "88a578fde5a11c0df6c0",
+      "title": "PHP2Shell and eMudhra Patched",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=95296",
+      "publishedAt": "2026-10-23T13:08:08Z",
+      "summary": "Two security events landed side by side this week, PHP2Shell and the eMudhra certificate compromise. Both reached the same place, the foundation their applications are built on. PHP2Shell is a pair of critical flaws in the PHP engine itself, CVE-2026-109618 and CVE-2026-109619. They let an unauthenticated request become code execution on the server, on any PHP application, however careful its own ",
+      "imageURL": null
     },
     {
       "id": "6c61528d90f0da5f1a3e",
@@ -178,6 +259,15 @@
       "url": "https://github.blog/?p=99628",
       "publishedAt": "2026-10-21T16:00:00Z",
       "summary": "Over the past year, while Git traffic grew exponentially, 99.99999% of the Git repositories on GitHub began living in two places at once: our own data centers and Azure. The rest are among the busiest on the platform, and they’re held back by just one thing: a 25ms round trip. In an earlier blog post , we laid out the two principles behind our next-generation storage architecture: Minimize coordin",
+      "imageURL": null
+    },
+    {
+      "id": "e9341c9f63fcdce5f862",
+      "title": "From baseline to Secure Software Factory: securing the systems that build your software",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=95076",
+      "publishedAt": "2026-10-21T16:00:00Z",
+      "summary": "In July, Docker, Snyk and Keycard published Agent Baseline , an open, vendor-neutral reference architecture that defines security outcomes for running AI agents in the enterprise. It grew out of conversations with industry leaders who want to adopt agents more broadly but need answers to three questions: What is operating, with what capabilities? Is it staying inside approved boundaries? Can you p",
       "imageURL": null
     },
     {
@@ -559,24 +649,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*LkXsONCex0Q1KvttewSZ1w.png"
     },
     {
-      "id": "8954e99eabf95130b426",
-      "title": "Netflix Conductor: The Next Chapter",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/41ad21067649",
-      "publishedAt": "2026-10-14T19:50:17Z",
-      "summary": "Netflix Conductor : The Next Chapter by Aravindan Ramkumar on behalf of the Conductor team Conductor is the workflow orchestration engine Netflix uses to stitch micro-services into reliable, observable business processes. If you’ve followed Conductor from the outside, the last thing you heard was probably the note on its GitHub repository : Netflix discontinued maintenance of Conductor OSS to refo",
-      "imageURL": "https://cdn-images-1.medium.com/max/940/1*cPgTnfCY3ngVsK8hTPyZrw.png"
-    },
-    {
-      "id": "fc6e122e06ef247792f6",
-      "title": "Running Apache Spark experiments in my sleep (and on a plane)",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/588816b6b5f8",
-      "publishedAt": "2026-10-14T19:49:11Z",
-      "summary": "By Prashanth Gedde Narayanaswamy As one of Netflix’s largest and critical data pipelines, member-sessionizer consolidates tens of billions of hourly client events, encompassing user taps, playbacks, and engagement signals, into individual viewing sessions per profile. A quick two-week tuning effort spiraled into two months when standard approaches hit a wall. Because the failures only happened at ",
-      "imageURL": "https://cdn-images-1.medium.com/max/1020/1*XXIKbAHpGvPtFzHcDL8Kcg.png"
-    },
-    {
       "id": "db2dc16f5a8b8e8b4dec",
       "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
       "sourceName": "GitHub Engineering",
@@ -739,15 +811,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-OCP-2026-IcePack-Rack-e1791838724959.png"
     },
     {
-      "id": "84278396e1ab98eba9b5",
-      "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24625",
-      "publishedAt": "2026-10-12T16:01:32Z",
-      "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and what the future looks like from here. This work was also presented at DEMOQED 2026 . Instagram Live now ",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/MoQ-Instagram-Live-Meta-e1791568958445.png"
-    },
-    {
       "id": "bbe6b19113811da2054a",
       "title": "Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions",
       "sourceName": "Docker Blog",
@@ -755,15 +818,6 @@
       "publishedAt": "2026-10-12T16:00:00Z",
       "summary": "On September 30, 2026, security researchers reported a vulnerability in Docker Hub’s identity and access management through our Vulnerability Disclosure Program. We confirmed the report and deployed a fix to production the same afternoon, less than four hours after receiving it. We then reviewed every account conversion back to the date the flaw was introduced, and on October 2, notified every use",
       "imageURL": null
-    },
-    {
-      "id": "80f26b2bd8fbb1d1085c",
-      "title": "Filter, reshape, and redact logs before export with Transformers",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/transformers-on-logpush/",
-      "publishedAt": "2026-10-12T14:44:59Z",
-      "summary": "Logpush delivers logs in batches as quickly as possible, enabling Cloudflare to provide information almost in real time. During our recent Birthday Week , we made Logpush available on all self-serve plans and Transformers generally available. Those changes were among eight major updates to Cloudflare Observability and reflect our commitment to make every Cloudflare feature available to everyone . ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4HA4PM499GF25H969ZFXCA3.png"
     },
     {
       "id": "8a12a4182f54de881f50",
@@ -926,15 +980,6 @@
       "publishedAt": "2026-10-06T17:01:04Z",
       "summary": "How we capture real production database traffic at Airbnb and replay it offline to load-test, plan capacity, and de-risk upgrades. By: Zuofei Wang , Erluo Li Introduction At Airbnb, MySQL-compatible databases are a critical backbone of our online database infrastructure: a fleet of hundreds of clusters supporting thousands of use cases at millions of queries per second (QPS). Operating databases a",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*iYpaqy9OLoB92atnd-0cEA.png"
-    },
-    {
-      "id": "95dfe3371e8f5acc4f84",
-      "title": "Tales from the 2026 Developer Survey results",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/06/tales-from-the-2026-developer-survey-results/",
-      "publishedAt": "2026-10-06T17:00:00Z",
-      "summary": "Ryan chats with Erin Yepis, Senior Analyst at Stack Overflow, about the results from this year’s Annual Developer Survey, including the overwhelming daily usage of AI coding assistants despite lingering developer trust issues, the critical role of well-organized documentation in providing verifiable context to mitigate AI hallucinations, and the evolving ways developers are shifting away from acti",
-      "imageURL": null
     },
     {
       "id": "60823063564ea2d19f00",
@@ -1234,24 +1279,6 @@
       "imageURL": null
     },
     {
-      "id": "abeca77e443cba6a4123",
-      "title": "Manufacturing Trust for AI Agents | Docker’s WeAreDevelopers Keynote",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=94134",
-      "publishedAt": "2026-09-24T17:15:00Z",
-      "summary": "Coding agents do more than write code. Agents can install dependencies, access networks, use credentials, and keep working after we’ve moved on to something else. Agents need access to get real work done. But the more access they have, the bigger the impact of a mistake. The challenge is building enough trust into the system to give agents more freedom without giving them access to everything. At ",
-      "imageURL": "https://www.docker.com/app/uploads/2026/09/agents-trust-factory-transparent.gif"
-    },
-    {
-      "id": "681efb562daae4a8f389",
-      "title": "From Dockerfile to Kit: the Docker Sandboxes Kit Specification",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=94091",
-      "publishedAt": "2026-09-24T16:00:00Z",
-      "summary": "Agents need containment, and a sandbox is only half of it. Something still has to say which agent runs there, what it gets, and what it may touch. That is a Kit: an ordinary OCI image, so the answer travels with the agent and means the same thing on any conforming runtime. Today we published the Docker Sandbox Kit Specification v3, open source under Apache 2.0 at docker/sandbox-kit-spec . Here is ",
-      "imageURL": null
-    },
-    {
       "id": "8018084d546a0e01b484",
       "title": "Rendering huge pull requests in the GitHub Copilot app",
       "sourceName": "GitHub Engineering",
@@ -1378,15 +1405,6 @@
       "imageURL": null
     },
     {
-      "id": "f0e304ce8e51a96b70a3",
-      "title": "How Equinix cut operational overhead with a shared services architecture on Amazon EKS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-equinix-cut-operational-overhead-with-a-shared-services-architecture-on-amazon-eks/",
-      "publishedAt": "2026-09-17T18:00:56Z",
-      "summary": "This post is cowritten by Manikandan Vasu, Vanji Sivajothy, and Ramchandra Koty from Equinix. Equinix is the world’s digital infrastructure company, operating over 260 data centers across more than 70 metros globally. To address the operational sprawl that had grown from its earlier self-managed Kubernetes environment, Equinix built a shared services architecture on Amazon EKS . Previously, Equini",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/17/ARCHBLOG-1449-1.png"
-    },
-    {
       "id": "398330dda4ec291ebddd",
       "title": "The guest journey, updated in real time: extending Airbnb’s sequence recommender with Chronon",
       "sourceName": "Airbnb Engineering (Medium)",
@@ -1394,15 +1412,6 @@
       "publishedAt": "2026-09-17T17:01:02Z",
       "summary": "How two new Chronon capabilities, Push Mode and NRT Model Transform, allows us to provide more relevant search results instantly as a guest explores, rather than waiting for the next batch run. By : Pengyu Hou , Yuli Han , Daochen Zha , Haozhen Ding , Xin Liu , Sophie Wang , Pallavi Adusumilli , Sherry Li , Henry Saputra , Chun How Tan , Huiji Gao , Yan Zhang , Stephanie Moyerman , Yi Li , and San",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*PB9ohGH_82OBz6yYLkqPWQ.jpeg"
-    },
-    {
-      "id": "09cc91ab0784625bcefd",
-      "title": "Building cloud-native PACS on AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/building-cloud-native-pacs-on-aws/",
-      "publishedAt": "2026-09-17T15:21:06Z",
-      "summary": "Modernizing medical imaging infrastructure is a pressing challenge for multi-hospital networks. Cloud-native PACS (Picture Archiving and Communication System) on AWS can help address the challenge at scale. A hospital chain with multiple facilities generates millions of imaging studies annually: each CT produces 300 to 2,000 DICOM images, MRI generates 500 to 3,000 slices, and digital mammography ",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/15/ARCHBLOG-1613-1.png"
     },
     {
       "id": "b402f515f974f7c95e16",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-08-14T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
-    },
-    {
-      "id": "40dee06a64a646d4944e",
-      "title": "Flexible Authentication: Reimagining authentication for millions of users at Airbnb",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/3a8a4c917137",
-      "publishedAt": "2026-08-12T17:01:04Z",
-      "summary": "Rebuilding login and signup surfaced product insights, not just technical challenges. Here’s how we designed Flexible Authentication at the intersection of product intuition and technical architecture. By : Jose Santos , Mike Barry For Airbnb, logins at irregular intervals are normal. A guest books a trip in January and may not open the app again until summer. A host checks back only when a reserv",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*O9JhHoAmQW0COuL_d4yLyQ.jpeg"
     }
   ]
 }
