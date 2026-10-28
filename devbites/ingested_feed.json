@@ -1,13 +1,67 @@
 {
   "articles": [
     {
-      "id": "98b80ecda476a5c32834",
-      "title": "Backporting security fixes to stable releases",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/10/27/backporting-security-fixes-to-stable-releases/",
-      "publishedAt": "2026-10-27T11:00:00Z",
-      "summary": "The software you are running is almost certainly riddled with known, unfixed security bugs. These bugs can be trivially and quickly exploited by modern AI agents. This is not merely theoretical; I saw this during my sandbox escape research , and an old vulnerability in stable software was used as a part of the recently disclosed OpenAI hack : From the official hack description To say it simply: wh",
-      "imageURL": "https://blog.trailofbits.com/2026/10/27/backporting-security-fixes-to-stable-releases/backporting-security-fixes-to-stable-releases-image-1_hu_6e208daf0d401eaf.webp"
+      "id": "e4626ac67d3199072e92",
+      "title": "Publishing LMS courses with a Kiro SCORM pipeline",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/publishing-lms-courses-with-a-kiro-scorm-pipeline/",
+      "publishedAt": "2026-10-27T17:23:23Z",
+      "summary": "Publishing a Shareable Content Object Reference Model (SCORM) course to a learning management system (LMS) is rarely as straightforward as writing the course. The LMS needs SCORM packages to adhere to a standard format for successful import and launch. Producing one by hand means restructuring slides into modules and hand-editing SCORM manifests. The packaging mechanics pull authors away from deve",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/26/ARCHBLOG-1570-1-1.png"
+    },
+    {
+      "id": "81dbc52ffa201d8c7f24",
+      "title": "Vessel-specific voyage optimization with machine learning: Manta on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/vessel-specific-voyage-optimization-with-machine-learning-manta-on-aws/",
+      "publishedAt": "2026-10-27T17:14:32Z",
+      "summary": "Voyage performance varies even between seemingly identical ships, and models built on vessel-type averages often miss the mark. Manta Marine Technologies (Manta) closes that gap with machine learning (ML) models trained on each vessel’s own operational history. In this post, we show how Manta delivers vessel-specific voyage optimization with machine learning on Amazon Web Services (AWS), helping s",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/23/ARCHBLOG-1667-1.png"
+    },
+    {
+      "id": "49cd37b8aa0b9cd2828c",
+      "title": "How Anchorage Digital and Turnkey verify code with AWS Nitro Enclaves",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-anchorage-digital-and-turnkey-verify-code-with-aws-nitro-enclaves/",
+      "publishedAt": "2026-10-27T17:10:35Z",
+      "summary": "This post is co-written with Prasanna Gautam from Anchorage Digital and Arnaud Brousseau from Turnkey. In crypto, trust is a liability. A wallet often delegates computation to a third party to parse a transaction, evaluate a policy, or manage key material. Each time, it raises a question: how do you know the service ran the code it claims to have run? Contractual trust, network perimeter security,",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/09/ARCHBLOG-1598-1-1.png"
+    },
+    {
+      "id": "415425926777995a6bc0",
+      "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24851",
+      "publishedAt": "2026-10-27T16:00:12Z",
+      "summary": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib. A privacy requirement must hold as data moves through Meta’s diverse data and processing systems. Historically, supporting a new requirement meant implementing the same enforcement logic separately in each system. PrivacyLib replaces this with a common library that runs inside the clients of Meta’s dat",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/PrivacyLib-Figure-1.png"
+    },
+    {
+      "id": "c0905d98c2f8129e76a0",
+      "title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24841",
+      "publishedAt": "2026-10-27T15:59:24Z",
+      "summary": "The 2026 Python Typing Survey received 1,794 responses. Type hint use changed little across three years, but checker selection changed sharply. Among respondents who reported which checkers they use, half selected more than one, and missing library type information was the most common difficulty. For the third consecutive year, we asked Python developers how they use and experience Python typing: ",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/most_frustrates_title_case_fixed.png"
+    },
+    {
+      "id": "b98b75e5e3efe8c183df",
+      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/php-ctf/",
+      "publishedAt": "2026-10-27T13:00:00Z",
+      "summary": "Last week was one for the Internet security history books. First, eight eMudhra intermediate certificates were compromised , creating the possibility of forged certificates that could be used to impersonate servers. Then came php2shell : serious vulnerabilities in PHP, the runtime behind a large portion of the Web. Cloudflare worked around the clock as these events unfolded to protect our customer",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5YGNS8F8NYE3V5QERKYNG79.png"
+    },
+    {
+      "id": "f21bc890ebec1e8cf713",
+      "title": "What took the Internet offline in Q3 2026",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+      "publishedAt": "2026-10-27T13:00:00Z",
+      "summary": "The Internet can feel invisible when everything is working normally. But when connectivity breaks, the many systems it depends upon become evident in an instant. Because Cloudflare’s global network handles more than 20% of the web’s traffic, it offers a unique perspective of how Internet traffic is behaving. When failures in infrastructure, power, policy, or security disrupt access to the Internet",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KW453HMZRQX1BZKZQMN21EG8.png"
     },
     {
       "id": "0da72f8122d232b9ed48",
@@ -17,6 +71,33 @@
       "publishedAt": "2026-10-27T07:40:00Z",
       "summary": "Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability requirements of consumer electronics companies that inspired the Java virtual machine, and the evolution of garbage collectors that allow Java to handle large-scale concurrent memory management.",
       "imageURL": null
+    },
+    {
+      "id": "ab88661a74761e9bfa4f",
+      "title": "Announcing the Workload Conformance Working Group",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
+      "publishedAt": "2026-10-27T04:30:00Z",
+      "summary": "We are excited to announce that the Kubernetes community now has a Workload Conformance Working Group . The working group is writing a shared standard for how workloads behave at runtime on Kubernetes. To get it right, we need input from the people who build those workloads and from the people who run the clusters they're deployed on. Why workloads need a shared standard Certified Kubernetes tests",
+      "imageURL": null
+    },
+    {
+      "id": "02991cb041a3ff0804e1",
+      "title": "How the fastest-growing enterprises on Stripe scale globally",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/how-the-fastest-growing-enterprises-on-stripe-scale-globally",
+      "publishedAt": "2026-10-27T00:00:00Z",
+      "summary": "Despite slower global economic growth and greater geopolitical fragmentation, the fastest-growing enterprises continue to look beyond their home markets and are investing in tools and workflows that make expansion faster and more repeatable.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/21c4x9WtPapHdlzus7DrLH/44290482640b8f21eafc45f3857210b1/1250x1250.png"
+    },
+    {
+      "id": "293b048364315092f5c0",
+      "title": "Making Content from Discoverable Servers Easier to Discover",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+      "publishedAt": "2026-10-27T00:00:00Z",
+      "summary": "Starting on November 16, 2026, conversations in Discoverable Servers will be easier to find for people searching the web. Admins can choose which channels are surfaced on the web. Private servers, DMs, and GDMs are not included.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6ad92479d769414a9fb9c916_bloghero_1800x720.png"
     },
     {
       "id": "e77549dba84aa9c32f2e",
@@ -739,33 +820,6 @@
       "imageURL": null
     },
     {
-      "id": "c883d0dbfead6cfe74f3",
-      "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/d1-control-plane/",
-      "publishedAt": "2026-10-13T16:20:18Z",
-      "summary": "Traditional database architecture assumes you have one or two big database clusters per application, usually accompanied by a connection pooling solution. AI-assisted development and vibe coding platforms turn this model inside out and are driving applications toward many small databases: one per user, application, preview environment, or tenant. That model fits D1 particularly well. D1 is Cloudfl",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KW45ADESEJPK73KY57K3T0NX.png"
-    },
-    {
-      "id": "fbec5d966319ca4939e1",
-      "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24641",
-      "publishedAt": "2026-10-13T16:01:00Z",
-      "summary": "Last year, we introduced GEM , the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta’s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building on this foundation, our next goal is to further scale both compute and intelligence transfer with next-generation hardware, and expand this capability across Meta’s entire ads ecos",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/GEM-Scaling-Frontier-Ads-Image-1.png"
-    },
-    {
-      "id": "c58b4d7a7dc3e17d719e",
-      "title": "Rewinding the exponential: How we keep hardware usage down",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
-      "publishedAt": "2026-10-13T15:51:41Z",
-      "summary": "More than 20% of the web sits behind Cloudflare’s network, and our team, the Data team, owns the data pipeline responsible for plumbing that data (and more) from our global network to applicable central data centers. The Cloudflare network is a globally distributed system supporting tens of thousands of servers. Data that power Cloudflare Logs , SQL API , observability , internal analytics, and mo",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4RYXQ3HHM0NCXGK8DBW1JR3.01M4RYXQR4R5Q48PG2RZ86HSR5.png"
-    },
-    {
       "id": "6da6f978d60dc478c9f4",
       "title": "Stopping business email compromise with AI-driven email security: How VIPRE protects modern enterprises on AWS",
       "sourceName": "AWS Architecture Blog",
@@ -800,15 +854,6 @@
       "publishedAt": "2026-10-13T00:00:00Z",
       "summary": "As usage, costs, and customer expectations change, AI companies are moving beyond traditional SaaS pricing. Leaders at Monetize 2026 shared how they’re combining subscriptions with usage-based billing, building spend controls into products, adapting packaging and value metrics, and making pricing readable for both human and AI buyers.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6kxvuJDHvg9cCTNLuACl0o/64b5443480f21fa7ea93c3aded30b8ee/Index_image__-_Kyle.png"
-    },
-    {
-      "id": "67cf92409872f280faef",
-      "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24657",
-      "publishedAt": "2026-10-12T21:19:18Z",
-      "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric that fundamentally changes how GPUs connect to the network MetaRoCE, our open-source AI transport protocol. Launchi",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-OCP-2026-IcePack-Rack-e1791838724959.png"
     },
     {
       "id": "bbe6b19113811da2054a",
@@ -1171,15 +1216,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*dluIy8gak-FybuiuGcqXLw.png"
     },
     {
-      "id": "6ea45dde02ff671b46a6",
-      "title": "Build adaptive AI interfaces with the AG-UI protocol, agent swarms, and Nova Act on AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/build-adaptive-ai-interfaces-with-the-ag-ui-protocol-agent-swarms-and-nova-act-on-aws/",
-      "publishedAt": "2026-09-29T13:44:23Z",
-      "summary": "Your generative AI applications produce different results each time they run. One medical scan shows a single fracture, and another reveals twenty ambiguous regions that require expert review. Static interfaces can’t adapt to this variability. In this post, we show you how to build interfaces that automatically adapt to your AI’s variable outputs. This approach reduces interface development time a",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/28/ARCHBLOG-1366-1.png"
-    },
-    {
       "id": "229fbce2093da7fcbaed",
       "title": "Evolving our calendar assistant Reclaim to be AI-native without starting over",
       "sourceName": "Dropbox Tech",
@@ -1315,15 +1351,6 @@
       "imageURL": null
     },
     {
-      "id": "e111be34e51f880291c3",
-      "title": "New trends in global card fraud: How 3D Secure and regional mandates are affecting risk",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk",
-      "publishedAt": "2026-09-22T00:00:00Z",
-      "summary": "We analyzed billions of transactions on Stripe from January 2022 to March 2026 to understand how card fraud patterns differ by region and country, what's driving those differences, and how businesses can respond.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/1Ttw18lQFBzxo2wuqd2XlA/bbac418ecc8be77df011264faeb15b0f/regional-index.jpg"
-    },
-    {
       "id": "d698dba71ba70b11817b",
       "title": "Safer for Teens, Same Discord for Adults",
       "sourceName": "Discord Blog",
@@ -1367,24 +1394,6 @@
       "publishedAt": "2026-09-21T11:00:00Z",
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it’s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoning sin",
       "imageURL": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/saml-a-fractal-of-bad-design-image-1.svg"
-    },
-    {
-      "id": "a98c9c62990d90298a7d",
-      "title": "ReadyOn’s Four Walls of tenant isolation on Amazon EKS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/readyons-four-walls-of-tenant-isolation-on-amazon-eks/",
-      "publishedAt": "2026-09-18T21:33:13Z",
-      "summary": "ReadyOn , an AWS Partner delivering an intelligent Labor Orchestration Platform for Fortune 100 enterprises, runs a multi-tenant platform on Amazon Elastic Kubernetes Service (Amazon EKS) that handles some of the most sensitive data in enterprise IT. Kubernetes is central to that platform, and it is also one of the most complex surfaces to secure. A default Kubernetes deployment is not secure out ",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/10/ARCHBLOG-1562-1.png"
-    },
-    {
-      "id": "95a1bb7cfa50049c9d2a",
-      "title": "How CSIRO built scalable, cost-optimized genomic variant querying on AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-csiro-built-scalable-cost-optimized-genomic-variant-querying-on-aws/",
-      "publishedAt": "2026-09-18T14:35:42Z",
-      "summary": "This is a guest post by Denis Bauer, Yatish Jain, Anuradha Wickramarachchi, Brendan Hosking, and Nick Edwards of CSIRO, in collaboration with the ASP Prototyping and Scaling Team at AWS. In this post, we describe how researchers at CSIRO , Australia’s national science agency, built Serverless Beacon (sBeacon), a scalable serverless solution for securely querying genomic variant data on AWS, underp",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/09/Figure-1-Data-Onboarding.png"
     },
     {
       "id": "827736ff96e4a03685ea",
@@ -1788,15 +1797,6 @@
       "sourceName": "Eaton Phil",
       "url": "http://notes.eatonphil.com/2026-08-16-transactions-in-cassandra.html",
       "publishedAt": "2026-08-16T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "abebed6fbc89d84f5709",
-      "title": "Hourly updates to jobs and the feed",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-08-14-hourly-updates.html",
-      "publishedAt": "2026-08-14T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
     }
