@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "ba3c9157077fb8329f28",
+      "title": "How to Build a LlamaIndex Vector Store With TiDB",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=35619",
+      "publishedAt": "2026-10-30T19:16:02Z",
+      "summary": "A LlamaIndex vector store is where your index keeps node embeddings, usually alongside the text chunks and metadata, so queries can find similar content. The default store lives in memory, so a restart or redeploy wipes the index and sends you back to your embedding provider to pay for the same corpus again. Production systems move to a persistent backend such as TiDB , which adds SQL, metadata fi",
+      "imageURL": null
+    },
+    {
+      "id": "46377df52764d6fd77d3",
+      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/emudhra-patching/",
+      "publishedAt": "2026-10-30T17:38:50Z",
+      "summary": "On October 19, 2026, we learned about eMudhra’s eight shockingly weak keys: where eMudhra was trusted to pick a 115-digit number for their virtual combination lock protecting the Internet, they picked the number 4. Not even four digits, just the number 4. The other seven keys were similarly weak: 56, 66, 115, 155, 156, 230 and 237. The next day, we wrote a blog post on the immediate action we took",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M66XYHSQQJRRA4097AJD12PN.png"
+    },
+    {
+      "id": "4d4206ade98bad0ac970",
+      "title": "Cloudflare services for private origins is now generally available",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
+      "publishedAt": "2026-10-30T14:23:43Z",
+      "summary": "Today, Cloudflare services for private origins is generally available. Point a proxied DNS record at a private IP, and Cloudflare reaches the origin over your existing Cloudflare One connection . Your origin stays private, while web application firewall ( WAF ), caching , bot management , and Workers work just as they do for public origins. In June, we launched this capability in closed beta to ad",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KW44TXMXRJ1NFA38CJB0MT3A.png"
+    },
+    {
       "id": "202316272bf9d92d3fc6",
       "title": "It’s ok that computers are (sometimes) better than us",
       "sourceName": "Stack Overflow Blog",
@@ -8,6 +35,15 @@
       "publishedAt": "2026-10-30T07:40:00Z",
       "summary": "Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a conversation about applying the concept of immutable infrastructure to software development to treat code like cattle instead of pets, shifting the paradigm of system specifications to accommodate the rapid influx of AI-generated code, and navigating the complex ethical boundaries between system observability and human survei",
       "imageURL": null
+    },
+    {
+      "id": "e72d79c0a899ffe6e528",
+      "title": "Stripe on Stripe: What we learned moving $1B in vendor payments to Global Payouts",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/stripe-on-stripe-what-we-learned-moving-1b-in-vendor-payments-to-global-payouts",
+      "publishedAt": "2026-10-30T00:00:00Z",
+      "summary": "In early 2026, we began moving our vendor payments to Global Payouts, Stripe’s product for paying recipients in 160+ countries. New-market setup fell from six weeks to one, with a 99.9% payout success rate. Here’s what we learned.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/1x8frf1UltiAXw1qMcAwix/13d61cb5340a488872e3d5603542a973/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding.jpg"
     },
     {
       "id": "430da85fa699584055dd",
@@ -78,7 +114,7 @@
       "sourceName": "Kubernetes Blog",
       "url": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
       "publishedAt": "2026-10-29T05:00:00Z",
-      "summary": "In this SIG Architecture spotlight we talked with Janet Kuo (Google) and Yuan Tang (Red Hat) about the journey of AI Conformance in Kubernetes, from the initial Working Group to the integration SIG Architecture as a subproject. Introductions Frederico Muñoz and Kirti Goyal (FK): Hi Janet, Yuan, and thank you for the opportunity to learn a bit more about AI Conformance. Can you tell us a bit about ",
+      "summary": "In this SIG Architecture spotlight we talked with Janet Kuo (Google) and Yuan Tang (TensorScale AI) about the journey of AI Conformance in Kubernetes, from the initial Working Group to the integration SIG Architecture as a subproject. Introductions Frederico Muñoz and Kirti Goyal (FK): Hi Janet, Yuan, and thank you for the opportunity to learn a bit more about AI Conformance. Can you tell us a bit",
       "imageURL": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/ai_conf_kubecon.jpg"
     },
     {
@@ -195,7 +231,7 @@
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/php-ctf/",
       "publishedAt": "2026-10-27T13:00:00Z",
-      "summary": "Last week was one for the Internet security history books. First, eight eMudhra intermediate certificates were compromised , creating the possibility of forged certificates that could be used to impersonate servers. Then came php2shell : serious vulnerabilities in PHP, the runtime behind a large portion of the Web. Cloudflare worked around the clock as these events unfolded to protect our customer",
+      "summary": "Update — October 30, 2026: Thank you to everyone who has participated in the PHP Capture the Flag challenge. We have received a strong response from the security research community, and the submissions have helped us harden our existing php2shell WAF protections and create new detections. Details of managed-rule changes are available in the Cloudflare WAF changelog . The CTF remains open. We encou",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5YGNS8F8NYE3V5QERKYNG79.png"
     },
     {
@@ -394,6 +430,15 @@
       "url": "https://www.docker.com/?p=95191",
       "publishedAt": "2026-10-22T17:22:47Z",
       "summary": "Summary On Tuesday, October 20, 2026, Docker began tracking two critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619 , commonly known as PHP2Shell. The vulnerabilities allow attackers to execute code remotely in PHP core, and they affect PHP packages going back to version 5.4: the supported versions 8.2 through 8.5, and the end-of-life versions 5.x, 7.x, 8.0, and 8.1. To address th",
+      "imageURL": null
+    },
+    {
+      "id": "5ab627793327df87b351",
+      "title": "Is AI really reshaping the developer market?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/10/22/is-ai-really-reshaping-the-developer-market/",
+      "publishedAt": "2026-10-22T16:37:39Z",
+      "summary": null,
       "imageURL": null
     },
     {
@@ -757,15 +802,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4XW9N9BNAM3T4W2SE62A1B1.01M4XW9NZG3B1PTR3QTA8CK4GR.png"
     },
     {
-      "id": "d05f789212e75b03895d",
-      "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
-      "publishedAt": "2026-10-15T13:00:00Z",
-      "summary": "Optimizing your site for AI is of little use if AI can't find it. The answer to someone's question may already be on your website: the installation guide you spent a week writing, or a first-hand account of using a product, with the details that make the difference for whether they buy it. As more people turn to AI for help, you want those systems to find your work, represent it accurately, and se",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4YQC03MMFYZ10P30YWNWGG4.png"
-    },
-    {
       "id": "6a9a2c4c2265c78fe9d3",
       "title": "Sync real-time Stripe data to Postgres with Stripe Data Pipeline",
       "sourceName": "Stripe Blog",
@@ -791,15 +827,6 @@
       "publishedAt": "2026-10-14T21:45:27Z",
       "summary": "Key takeaways Harbor can now run every eval task in Docker Sandboxes Docker Sandboxes are MicroVM environments to run agents like Claude Code, Codex, Cursor, and more safely With Sandboxes, define custom network policies for fair, reproducible evals Run your evals locally or in the cloud: starting for free on Docker Sandboxes on local surfaces and scaling to Cloud Sandboxes To evaluate an agent, y",
       "imageURL": null
-    },
-    {
-      "id": "049f752dea89d9de43df",
-      "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/yandex-outage/",
-      "publishedAt": "2026-10-14T20:24:19Z",
-      "summary": "Following reported strikes on Yandex data centers, claims circulated on the Internet that Russian bot farms and influence operations had been knocked offline. HTTP traffic charts showed steep drops, fueling speculation that the infrastructure damage had stopped these malicious actors. However, aggregate traffic metrics can easily mislead. There are two autonomous system numbers ( ASNs ) associated",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M4Y142SWPQXA8GMMX3DTNYBY.png"
     },
     {
       "id": "96cef2a786dd2aede099",
@@ -1054,15 +1081,6 @@
       "imageURL": null
     },
     {
-      "id": "b8b19cfbffda347d67ca",
-      "title": "Part 2: Evals as a deployment gate — and how to know when they drift",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/07/evals-as-a-deployment-gate-and-how-to-know-when-they-drift/",
-      "publishedAt": "2026-10-07T20:31:12Z",
-      "summary": null,
-      "imageURL": null
-    },
-    {
       "id": "24d39f28f1664a92f8c7",
       "title": "Building Git infrastructure for agent-scale development",
       "sourceName": "GitHub Engineering",
@@ -1252,15 +1270,6 @@
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/259tRMFUDzwXlrETBMQId4/a6af0d366e1e601e70b52c7f071fa007/index-5.png"
     },
     {
-      "id": "ab74b9e1c6a7f1593d5b",
-      "title": "Travel’s AI dilemma at Skift Global Forum",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum",
-      "publishedAt": "2026-09-28T00:00:00Z",
-      "summary": "At the “great recalibration”-themed travel conference, Airbnb CEO Brian Chesky called AI “an existential risk” to his company and “literally the best thing to ever happen” to it in the same discussion. That sums up many travel leaders’ push-and-pull relationship with AI.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/42kKrzG4TiYUHyP5JqyTs4/92838da218c78955c0aad7542467a3e8/01_Index-1.png"
-    },
-    {
       "id": "f052383f2ac8fc674d29",
       "title": "Small Decisions: Engineering a Leading Model",
       "sourceName": "Marc Brooker",
@@ -1376,15 +1385,6 @@
       "publishedAt": "2026-09-22T00:00:00Z",
       "summary": "We’re launching a revamped, privacy-focused age assurance solution including methods that won’t require an ID or selfie. Here’s how it works.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67d0c4e0932bb59c7f6271e5_2024_10_DiscordBlog_UsingDiscord-1.png"
-    },
-    {
-      "id": "f61f6fb736b0fd7bb27f",
-      "title": "AI Agent State Explained",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=35025",
-      "publishedAt": "2026-09-21T21:35:41Z",
-      "summary": "Key Takeaways AI agent state is the durable record of memory, task progress, and context that lets an agent survive restarts, retries, and multi-step work. 57% of organizations have agents running in production as of 2026, and output quality is the top blocker to scaling them further, ahead of cost. Memory is one piece of agent state. Task checkpoints, tool outputs, and transaction history matter ",
-      "imageURL": null
     },
     {
       "id": "206c285589f14136ad72",
