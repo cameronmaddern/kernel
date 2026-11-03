@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "50ebb4fcacfd5dc1c694",
+      "title": "The cryptography behind electronic voting (and why paper ballots are still essential)",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
+      "publishedAt": "2026-11-03T12:00:00Z",
+      "summary": "As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and document signing have moved away from paper-based legacy systems and become fully electronic. The shor",
+      "imageURL": null
+    },
+    {
+      "id": "6933374d8849a81c0d8d",
+      "title": "Oh, your agents need OAuth2, too",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/",
+      "publishedAt": "2026-11-03T08:40:00Z",
+      "summary": "Recorded at LDX3 by LeadDev, Ryan chats with Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, about adapting established OAuth2 protocols for the agentic era, the security necessity of giving autonomous AI agents their own distinct identities, and how AI coding tools are shifting developers' focus toward solving core business problems.",
+      "imageURL": null
+    },
+    {
+      "id": "4dd025985a16c7425215",
+      "title": "How to run a DR readiness engagement",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-to-run-a-dr-readiness-engagement/",
+      "publishedAt": "2026-11-02T17:26:49Z",
+      "summary": "Part 3 of 3 The framework from Part 1 (three business decisions) and Part 2 (progressive validation) works at any pace. You can apply it over months as part of normal operations, or compress it into a structured engagement that moves from undefined targets to a validated recovery commitment in weeks. This post walks through how to run that engagement yourself, with concrete steps, outputs, and a b",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/29/ARCHBLOG-1634-p3-1-1.jpg"
+    },
+    {
+      "id": "80a333af310097361946",
+      "title": "Validating your DR commitment: From controlled test to real-world readiness",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/validating-your-dr-commitment-from-controlled-test-to-real-world-readiness/",
+      "publishedAt": "2026-11-02T17:26:33Z",
+      "summary": "Part 2 of 3 In Part 1 of this series, you defined three business decisions that shape your disaster recovery (DR) commitment: the recovery boundary, the business-anchored target, and the dependency-reconciled commitment. Those decisions give you a target on paper. Testing tells you whether it holds under real conditions. This post covers a progressive approach to DR validation. Each level of testi",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/29/ARCHBLOG-1634-p2-1-1.jpg"
+    },
+    {
+      "id": "1a058028230dc0236c37",
+      "title": "Three business decisions that define your DR success",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/three-business-decisions-that-define-your-dr-success/",
+      "publishedAt": "2026-11-02T17:26:26Z",
+      "summary": "Part 1 of 3 A disaster recovery (DR) strategy is only as strong as the business decisions behind it. The architecture and failover mechanisms matter, but they execute against targets that you define. In our experience facilitating enterprise DR exercises, the difference between teams that meet their recovery targets and teams that don’t often comes down to three decisions made (or deferred) before",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/29/ARCHBLOG-1634-p1-1.jpg"
+    },
+    {
+      "id": "498b9a7ec4e4c061cc72",
+      "title": "Automating the full AWS DRS agent lifecycle: Install, heal, and offboard",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/automating-the-full-aws-drs-agent-lifecycle-install-heal-and-offboard/",
+      "publishedAt": "2026-11-02T17:21:29Z",
+      "summary": "If you protect a large Amazon Elastic Compute Cloud (Amazon EC2) fleet with AWS Elastic Disaster Recovery (AWS DRS), you manage the AWS Replication Agent across its whole lifecycle. You install it, keep it healthy and registered, and remove it cleanly when a server leaves disaster recovery (DR) scope. An enterprise IT customer with more than 300 Linux and Windows instances in DR scope ran into two",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/29/ARCHBLOG-1628-1.png"
+    },
+    {
       "id": "3017d51cc49fa391b080",
       "title": "How we halved DNS build delay and cut memory use by 85%",
       "sourceName": "Cloudflare Blog",
@@ -35,6 +89,15 @@
       "publishedAt": "2026-11-02T12:00:00Z",
       "summary": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149",
       "imageURL": "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/backporting_image1_hu_4b767af928294590.webp"
+    },
+    {
+      "id": "aa25e4441556e5f18bd6",
+      "title": "Modernizing the Video Playback Experience at Discord",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/modernizing-the-video-playback-experience-at-discord",
+      "publishedAt": "2026-11-02T00:00:00Z",
+      "summary": "This is the story of how we assessed and refactored two video players into one, cut the player code each product maintained by up to 94%, and swapped to the new player without disruption to any users.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67f4343d3897ce1dca91d04e_2024_10_DiscordBlog_Educational-2.png"
     },
     {
       "id": "ba3c9157077fb8329f28",
@@ -1000,15 +1063,6 @@
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6kxvuJDHvg9cCTNLuACl0o/64b5443480f21fa7ea93c3aded30b8ee/Index_image__-_Kyle.png"
     },
     {
-      "id": "8a12a4182f54de881f50",
-      "title": "Agentic antimicrobial resistance surveillance with AWS HealthOmics and Amazon Bedrock AgentCore",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/agentic-antimicrobial-resistance-surveillance-with-aws-healthomics-and-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-10-12T14:34:57Z",
-      "summary": "Turn public sequencing data into plain-language answers about resistance genes, without writing bioinformatics code or SQL. Bacterial antimicrobial resistance (AMR) is one of the top public health threats of our time. A systematic analysis published in The Lancet estimated that AMR was directly responsible for 1.27 million deaths in 2019 and associated with 4.95 million ( Murray et al., 2022 ). Su",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/28/REVBLOG-1374-1.png"
-    },
-    {
       "id": "5040db368b8284a52f3f",
       "title": "Beyond the AI noise: How Stack Overflow is rethinking tech hiring",
       "sourceName": "Stack Overflow Blog",
@@ -1081,15 +1135,6 @@
       "imageURL": null
     },
     {
-      "id": "170f284dbc6050b03124",
-      "title": "Part 3: Knowing when your agent doesn’t know: the confidence layer",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/07/part-3-knowing-when-your-agent-doesn-t-know-the-confidence-layer/",
-      "publishedAt": "2026-10-07T20:40:29Z",
-      "summary": null,
-      "imageURL": null
-    },
-    {
       "id": "24d39f28f1664a92f8c7",
       "title": "Building Git infrastructure for agent-scale development",
       "sourceName": "GitHub Engineering",
@@ -1153,15 +1198,6 @@
       "imageURL": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/node-swap-chart.svg"
     },
     {
-      "id": "5a9ea5462d856e8c867f",
-      "title": "Announcing the AWS Digital Sovereignty Lens for the Well-Architected Framework",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/announcing-the-aws-digital-sovereignty-well-architected-lens/",
-      "publishedAt": "2026-10-05T17:54:56Z",
-      "summary": "October 2026: This post was reviewed and updated for accuracy. Today we’re launching the AWS Digital Sovereignty Lens , a new Well-Architected lens providing customers with extended guidance for designing, building, and operating sovereign workloads on AWS. Customers tell us that digital sovereignty brings a unique set of challenges that existing architecture guidance doesn’t fully address. Sovere",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/01/27/Rodrigue-Vitini.jpeg"
-    },
-    {
       "id": "3abd86735586859d867f",
       "title": "Compression and concatenation on the web",
       "sourceName": "Eaton Phil",
@@ -1178,24 +1214,6 @@
       "publishedAt": "2026-10-04T00:00:00Z",
       "summary": "Strands Decider: Why Not an Encoder? Expertise level: exhausted. MathJax = { tex: {inlineMath: [['\\\\(', '\\\\)'], ['$', '$']]} }; As I admitted in my last post , I am very much not an expert model developer. What follows is likely to be, at least partially, inaccurate. I have tried to be careful and quantitative, to partially balance a lack of deep expertise. Since we launched strands-decider-2B las",
       "imageURL": "/blog/images/bidi_jevbench_accuracy_brier.svg"
-    },
-    {
-      "id": "6f63ac3fe831ec044cf4",
-      "title": "Deploy Oracle Database step by step on Amazon EVS with FSx for ONTAP",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap/",
-      "publishedAt": "2026-10-02T17:57:15Z",
-      "summary": "This post provides step-by-step procedures to deploy Oracle Database on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP as NFS datastore storage. You will provision storage volumes, mount NFS datastores, install Oracle, and configure SnapMirror replication for cross-region disaster recovery. Enterprises running Oracle databases on VMware want a path to AWS that preserve",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/17/ARCHBLOG-1654-1.jpg"
-    },
-    {
-      "id": "47518c9cf3141786aaf5",
-      "title": "Architect highly available Oracle Database on Amazon EVS and FSx for ONTAP",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/architect-highly-available-oracle-database-on-amazon-evs-and-fsx-for-ontap/",
-      "publishedAt": "2026-10-02T17:57:01Z",
-      "summary": "Enterprises with existing VMware Cloud Foundation (VCF) investments want to migrate their Oracle databases to AWS without rearchitecting applications or retraining operations teams. Oracle on Amazon Elastic VMware Service (Amazon EVS) can take advantage of sub-millisecond storage latency, snapshot-based backup, cross-region disaster recovery (DR), and independent storage scaling, all while preserv",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/18/arch-1652-fig-1.png"
     },
     {
       "id": "f8144ece9a9d92cec2fa",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-08-21T00:00:00Z",
       "summary": "The other day, I saw a viral tweet saying that people talking about how LLMs are causing slow, bloated, code are going to eat crow once they re-write everything in super-optimized assembly. We're not quite at the point where we want to write everything in assembly , but some variant of what Nolan Lawson said about testing, you can choose how many bugs you want now , which I less eloquently noted h",
       "imageURL": null
-    },
-    {
-      "id": "1490bd9f0e0033357e89",
-      "title": "How we knew COVID was over (and what our models had to unlearn)",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/c606b9bdb0ab",
-      "publishedAt": "2026-08-19T17:01:03Z",
-      "summary": "When we retrain, when we rebuild, and when we leave a model alone. By: Harrison Katz A forecast that carries weight The Forecasting Data Science team at Airbnb produces many of the forecasts the rest of the company plans around: demand, bookings, cancellations, and a range of finer cuts by market and segment, refreshed continuously across thousands of markets. The targets differ, and the models di",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*44L4h0-81kbAtkKGNa9Lgg.jpeg"
-    },
-    {
-      "id": "c1a49ce9bd0f47f7d934",
-      "title": "Improving infrastructure efficiency for growing demand in the age of AI",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/infrastructure/improving-infrastructure-efficiency-for-growing-demand-in-the-age-of-ai",
-      "publishedAt": "2026-08-18T17:00:00Z",
-      "summary": "As demand for AI continues to grow, so does the infrastructure needed to support it. Much of the industry's attention has focused on building more: more data centers, more servers, and more power. But building new infrastructure is only part of the challenge. Engineering teams are also working within constraints on energy, cooling, hardware availability, and physical space, making it increasingly ",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/headers/Infrastructure-Improving efficiency and resource utilization across our infrastructure in the AI era-1440x305-light.png"
     }
   ]
 }
