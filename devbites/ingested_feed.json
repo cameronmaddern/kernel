@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "d13fbfe75d78ae195ccf",
+      "title": "See the agents, set the terms: new visibility and control for personal agents",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+      "publishedAt": "2026-11-04T14:00:00Z",
+      "summary": "Personal agents are the intermediary between humans and the Internet, turning a person’s instructions into requests and actions on websites. A customer might ask a personal agent to compare products across your site, find support articles, or complete a purchase. To a site owner, all three interactions show up as automated traffic — and without a clear view of which agents are visiting and what th",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6HZ1ZE3ZTGF9NEGGPF8SZNS.png"
+    },
+    {
+      "id": "14345863bd3579beb6d6",
+      "title": "Building the Modern Enterprise Historian: TimescaleDB Enterprise Is Now in Public Beta",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/timescaledb-enterprise-is-in-public-beta",
+      "publishedAt": "2026-11-03T22:29:38Z",
+      "summary": "A new foundation for industrial history: TimescaleDB performance, enterprise-grade reliability, and integrated operations across sites, on infrastructure you control. Get started with the TimescaleDB Enterprise public beta. We’re announcing the public beta of TimescaleDB Enterprise today. It provides the database foundation for the new Ignition Enterprise Historian, available in Ignition 2027 from",
+      "imageURL": "https://assets.tigerdata.com/blog/2026/11/Benchmark_Table_Tiger_Data.png"
+    },
+    {
+      "id": "2154e8f2577c89cb2e8b",
+      "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24926",
+      "publishedAt": "2026-11-03T17:00:35Z",
+      "summary": "Facebook Feature Framework (F3) is Meta’s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020 . F3 reduced execution computational costs by compiling all features into a single merged graph, but that graph also served as the release unit, s",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-F3-Lightning-Figure-1.png"
+    },
+    {
+      "id": "e581154108f523de51d2",
+      "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/zero-wire/",
+      "publishedAt": "2026-11-03T14:00:00Z",
+      "summary": "You run security at your organization. It’s 7:00 am, and you’re having breakfast. You receive a ping: a new critical vulnerability has been disclosed. Your team scrambles to compare vendor advisories, read technical research, check which systems run the affected software, and answer familiar questions from the business: are we affected, and what are we doing about it? Another disclosure arrives be",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6GJ6AY4JP65PWEN7N433797.01M6GJ6BBQ9P5FYVNPWDVKT2EY.png"
+    },
+    {
       "id": "50ebb4fcacfd5dc1c694",
       "title": "The cryptography behind electronic voting (and why paper ballots are still essential)",
       "sourceName": "Trail of Bits",
@@ -17,6 +53,15 @@
       "publishedAt": "2026-11-03T08:40:00Z",
       "summary": "Recorded at LDX3 by LeadDev, Ryan chats with Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, about adapting established OAuth2 protocols for the agentic era, the security necessity of giving autonomous AI agents their own distinct identities, and how AI coding tools are shifting developers' focus toward solving core business problems.",
       "imageURL": null
+    },
+    {
+      "id": "2a988307c9a6a2f50b61",
+      "title": "Discord Gift Cards: The Easiest Holiday Gift on Your List",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-gift-cards-the-easiest-holiday-gift-on-your-list",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "summary": "Discord gift cards are now available in stores and online at select retailers, making it easy to buy things on Discord like Nitro, new looks in the Shop, and more.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6ae8c8df0cb7332823f36095_image2.png"
     },
     {
       "id": "4dd025985a16c7425215",
@@ -197,15 +242,6 @@
       "publishedAt": "2026-10-29T12:55:00Z",
       "summary": "Welcome to the 26th edition of Cloudflare's DDoS Threat Report. This edition covers the third quarter of 2026 — July, August, and September — and returns the series to its quarterly cadence following the combined H1 2026 volume. The analysis is produced by Cloudforce One , Cloudflare's Threat Intelligence organization, providing a comprehensive analysis of the evolving threat landscape of Distribu",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6256EDR0931RP6THCDNZ2R5.01M6256F3NTWXMKQE0RGKEM0G2.png"
-    },
-    {
-      "id": "4e5a01c705eafcfb83b3",
-      "title": "Adaptive Integer Compression in TimescaleDB: Built for the Read Path",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/adaptive-integer-compression-aic-in-timescaledb",
-      "publishedAt": "2026-10-29T12:02:58Z",
-      "summary": "AIC replaces DeltaDelta for integer columns in TimescaleDB. It picks one of six encodings for each block of up to 256 values, using only encodings that decompress fast. In our tests, databases come out about 10% smaller and typical queries run about 50% faster. It is off by default in 2.31.0 and planned to be on by default in 2.32.0. DeltaDelta (DD) is TimescaleDB's current integer compression. It",
-      "imageURL": "https://assets.tigerdata.com/blog/2026/10/data-src-image-7eb2b5ef-2db4-46e0-9dd6-71721abd916b.png"
     },
     {
       "id": "5e60471476735c37ea27",
@@ -802,15 +838,6 @@
       "imageURL": null
     },
     {
-      "id": "1beb66d0b231d0b1c078",
-      "title": "Continuous accountability for Verified bots",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/verified-bots-accountability/",
-      "publishedAt": "2026-10-16T13:00:00Z",
-      "summary": "A driver’s license tells you who someone is and that they passed a driving test, not whether they’ll drive responsibly in the future. The same is true for bots: verifying who operates it creates accountability, but trust depends on what it does next. A known bot can still ignore website preferences, overwhelm origins, or evade controls. It’s not always malicious — often it’s just a misconfiguratio",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M51ZPERWNWYTD7Z36YMY80A8.01M51ZPFH7VV8EHQTMPJG9FHZ4.png"
-    },
-    {
       "id": "bbd72f4e43f7f1ee1e85",
       "title": "AI says you’re right, formal methods say you’re wrong",
       "sourceName": "Stack Overflow Blog",
@@ -838,15 +865,6 @@
       "imageURL": null
     },
     {
-      "id": "06f22f6a6ae13f728e98",
-      "title": "How Meta Built Forum With AI-Native Engineering",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24709",
-      "publishedAt": "2026-10-15T19:00:03Z",
-      "summary": "Meta’s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of working by bringing an AI agent into the development cycle. We’re sharing insights into what it took to build Forum with agentic AI: how we adapted the codebase, tested frameworks and internal tooling for agentic execution, what w",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Forum-UI.jpg"
-    },
-    {
       "id": "6dd017814018895c66ad",
       "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
       "sourceName": "GitHub Engineering",
@@ -854,15 +872,6 @@
       "publishedAt": "2026-10-15T18:00:00Z",
       "summary": "Working with outside collaborators can add more work for a repository owner. You need to confirm who still needs access, change permissions as projects evolve, and archive repositories once they’ve served their purpose. To keep up, repository owners need to track collaborators, deadlines, and follow-ups for each repository. As a project grows, that manual housekeeping becomes harder to keep up wit",
       "imageURL": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221"
-    },
-    {
-      "id": "8d017137f926178ef105",
-      "title": "A fully programmable secure web gateway",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
-      "publishedAt": "2026-10-15T17:11:12Z",
-      "summary": "Every secure web gateway on the market works the same way: traffic matches a condition. A terminal action fires. Allow, Block, Isolate, Log. This model has been the foundation of network security for nearly 30 years, and it handles the common case well. But it has a ceiling, and customers with complex environments hit that ceiling regularly. Earlier this year, we shared our vision to build a truly",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M50725GWYBHA14CTTDWFESC7.png"
     },
     {
       "id": "97676a1d3596f158db05",
@@ -1789,15 +1798,6 @@
       "url": "http://notes.eatonphil.com/2026-08-23-another-look-at-sqlite-wal-reset.html",
       "publishedAt": "2026-08-23T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "04d5bb7dd8aebf7c45b2",
-      "title": "There's no reason for software to be slow anymore",
-      "sourceName": "Dan Luu",
-      "url": "https://danluu.com/no-slow/",
-      "publishedAt": "2026-08-21T00:00:00Z",
-      "summary": "The other day, I saw a viral tweet saying that people talking about how LLMs are causing slow, bloated, code are going to eat crow once they re-write everything in super-optimized assembly. We're not quite at the point where we want to write everything in assembly , but some variant of what Nolan Lawson said about testing, you can choose how many bugs you want now , which I less eloquently noted h",
       "imageURL": null
     }
   ]
