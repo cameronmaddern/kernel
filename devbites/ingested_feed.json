@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "e29e4fc02079a190903e",
+      "title": "How two engineer side projects became the agent taking action inside Dropbox",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox",
+      "publishedAt": "2026-11-05T14:00:00Z",
+      "summary": "AI can help people turn an idea into a first draft, but getting to something usable depends on more than a prompt. It needs the files and context behind the request, software to carry out the work, and a way for people to review and refine the result. With the new Dropbox experience , we’re bringing those pieces together where people already keep their work, so they can ask questions about their c",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/november/cowork/Machine Learning-How Dropbox engineers shipped a core feature through agentic experimentation-1440x305-light.png"
+    },
+    {
+      "id": "e655ecee2ce42e3bb382",
+      "title": "How AI-assisted development helped us build the new Dropbox experience",
+      "sourceName": "Dropbox Tech",
+      "url": "https://dropbox.tech/machine-learning/how-aiassisted-development-helped-us-build-the-new-dropbox-experience",
+      "publishedAt": "2026-11-05T14:00:00Z",
+      "summary": "For three years, we’ve been working toward a new Dropbox experience that helps people do more with their files, from finding a project decision to getting a folder ready to share. Today, we’re beginning to roll that experience out to customers. But getting here meant changing how we build software. We had complex integrations to tackle and a deadline to meet, and AI-assisted development helped us ",
+      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/november/smarter-dropbox/Machine Learning-AI assisted dev with the new Dropbox experience-1440x305-light.png"
+    },
+    {
+      "id": "c7673061d1e81dda2cca",
+      "title": "CNCF Score project improved its security posture by joining the Docker-Sponsored Open Source Program",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=95692",
+      "publishedAt": "2026-11-05T14:00:00Z",
+      "summary": "Score, a CNCF Sandbox project, recently joined the Docker-Sponsored Open Source (DSOS) Program to strengthen the security of its container images and release pipeline. In this post, the Score maintainers share what we adopted (Docker Hub, Docker Scout, Docker Hardened Images, the Docker GitHub Builder, and OIDC connections), the results we measured, and how other open source projects, within the C",
+      "imageURL": "https://www.docker.com/app/uploads/2026/10/image3-3.png"
+    },
+    {
+      "id": "e46f4b4adf27810f2196",
+      "title": "Your .NET parallel loop can become serial in a one-CPU container",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/",
+      "publishedAt": "2026-11-04T16:34:13Z",
+      "summary": "CPU-based defaults can leave an I/O-heavy loop processing one record at a time. Raising the limit helps, but each downstream service still needs a concurrency budget it can handle.",
+      "imageURL": null
+    },
+    {
       "id": "d13fbfe75d78ae195ccf",
       "title": "See the agents, set the terms: new visibility and control for personal agents",
       "sourceName": "Cloudflare Blog",
@@ -829,15 +865,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*oFq_6JphuwR2l1zG6i8J5A.png"
     },
     {
-      "id": "3238429391f6c3e1d6c9",
-      "title": "From Containers to Sandboxes: Developer Trust in the Agentic Era",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=94981",
-      "publishedAt": "2026-10-16T16:00:00Z",
-      "summary": "What the 2026 Stack Overflow Developer Survey tells us about where trust goes next If you’ve followed Docker lately, you know we’re all-in on sandboxes. We’ve spent a ton of time talking about the difference between sandboxes and containers, and helping our customers and the industry as a whole understand when to use which. In fact, Docker president Mark Cavage dedicated his opening keynote at WeA",
-      "imageURL": null
-    },
-    {
       "id": "bbd72f4e43f7f1ee1e85",
       "title": "AI says you’re right, formal methods say you’re wrong",
       "sourceName": "Stack Overflow Blog",
@@ -1132,15 +1159,6 @@
       "url": "http://notes.eatonphil.com/2026-10-08-deepthi-sigireddi-from-supabase.html",
       "publishedAt": "2026-10-08T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "65c25aa68b76ef169d4c",
-      "title": "Part 4: Safety and governance for LLM systems: guardrails, PII, audit, and memory",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/07/part-4-safety-and-governance-for-llm-systems-guardrails-pii-audit-and-memory/",
-      "publishedAt": "2026-10-07T20:48:55Z",
-      "summary": null,
       "imageURL": null
     },
     {
@@ -1780,24 +1798,6 @@
       "url": "https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/",
       "publishedAt": "2026-08-25T11:00:00Z",
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK , that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live",
-      "imageURL": null
-    },
-    {
-      "id": "9ff1a7c8cf83d95df158",
-      "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=98354",
-      "publishedAt": "2026-08-24T20:56:32Z",
-      "summary": "More than one in four images on the web’s most popular home pages have alt text that’s missing, vague, or copied from adjacent images. That’s from WebAIM’s 2026 WebAIM Million report, which found that alt text,an HTML attribute containing text describing the content of an image, was missing on 16.2% of images across the top million home pages. Among the images that did have alt text, another 10.8%",
-      "imageURL": null
-    },
-    {
-      "id": "66a879da5b76d97c78f5",
-      "title": "Another look at SQLite's WAL-Reset bug",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-08-23-another-look-at-sqlite-wal-reset.html",
-      "publishedAt": "2026-08-23T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
     }
   ]
