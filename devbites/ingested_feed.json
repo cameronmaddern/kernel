@@ -1,6 +1,105 @@
 {
   "articles": [
     {
+      "id": "a4dbacf967e62059cd42",
+      "title": "The post-quantum future of web privacy",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/vole-mole/",
+      "publishedAt": "2026-11-06T14:00:00Z",
+      "summary": "The highest priorities for the transition to post-quantum cryptography are the basic building blocks of authenticated key-agreement protocols such as TLS. Without these building blocks in place, secure communication on the Internet will not be possible once cryptographically relevant quantum computers come online. However, today we rely on quantum-vulnerable cryptography for much more than TLS. Pr",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6PDR0BGK85F0EK2RPMMNCV2.png"
+    },
+    {
+      "id": "9443dbd86345dc7988e1",
+      "title": "Welcome to life in the chip age",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/",
+      "publishedAt": "2026-11-06T08:40:00Z",
+      "summary": "Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors, the massive environmental and geopolitical footprint of AI data centers, and how AI models are rapidly shifting the future of chip design.",
+      "imageURL": null
+    },
+    {
+      "id": "3b074063f28cf5ad1cfc",
+      "title": "Docker Sandboxes vs. Containers: Choosing the Right Isolation for AI Agents",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=96008",
+      "publishedAt": "2026-11-06T03:17:04Z",
+      "summary": "If you’ve used Docker for a while, “Docker Sandboxes” might read as “a container with an AI agent inside.” Containers have been the unit of nearly everything Docker ships for over a decade, and a sandbox might sound like one more way to package a workload. They’re actually different technologies. A container is an isolated process that shares the host kernel with everything else on the machine. Do",
+      "imageURL": "https://www.docker.com/app/uploads/2026/11/docker_sandboxes-vs-containers_110226_v1_DARK-2320x1218.jpg"
+    },
+    {
+      "id": "759ff93ed9898f800e99",
+      "title": "How OrderServ achieved up to 64% cost savings with multi-tenant ECS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs/",
+      "publishedAt": "2026-11-06T00:09:41Z",
+      "summary": "When your food-ordering platform doubles its brand count, dedicated clusters become your biggest cost problem, and every failed request during a traffic surge is a lost sale. Here is how Cognizant and AWS Professional Services solved it. Cognizant is a global services company that helps organizations modernize technology, reimagine processes, and transform customer experiences. Its OrderServ servi",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/19/ARCHBLOG-1639-1.png"
+    },
+    {
+      "id": "0fd112d92ef380e5e7fe",
+      "title": "Well, That Wasn't Fun: October 16 '26",
+      "sourceName": "Fly.io Blog",
+      "url": "https://fly.io/blog/well-that-wasnt-fun/",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "summary": "October 16, 2026 began like any other day at Fly.io (meaning, we were anticipating only a medium amount of chaos). By that evening, we had patched and rebooted our entire fleet in response to a Linux kernel bug . The full rollout took 10 hours, but the emotional damage persists. CVE-2026-99999 The rest of this won’t make much sense without a clear read on the bug itself, so: the Linux kernel CVE t",
+      "imageURL": null
+    },
+    {
+      "id": "cd056d224b27de362ee2",
+      "title": "Time-Series Is Just Postgres: What You Get When You Don't Split the Architecture",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/need-separate-time-series-database",
+      "publishedAt": "2026-11-05T20:58:18Z",
+      "summary": "Most teams evaluating a time-series database are really asking how much of their data to move out of Postgres. For most of them, the time-series side is most of the data. That question comes from an era when that data had to live in a separate system. Postgres with TimescaleDB doesn't require the split. The payoff is that every decision you make after this one gets smaller. Your time-series tables",
+      "imageURL": null
+    },
+    {
+      "id": "e2ba23cdc2c8dae206e2",
+      "title": "Inside GitHub’s new Git storage architecture",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=100002",
+      "publishedAt": "2026-11-05T20:23:21Z",
+      "summary": "Last week at GitHub Universe, we announced our new Git storage architecture, capable of handling thousands of writes per second with reads that scale on demand. Through internal testing, we’ve demonstrated the ability to support 5,000 concurrent agents working on a repository, sending 7,200 pushes per second to a repo, all while serving read traffic with consistently low latency. This new architec",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/11/customer-growth.png?resize=1024%2C483"
+    },
+    {
+      "id": "beef5f4272d018c5e404",
+      "title": "How TUI scales threat modeling for 100+ teams with Amazon Bedrock",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-tui-scales-threat-modeling-for-100-teams-with-amazon-bedrock/",
+      "publishedAt": "2026-11-05T18:45:07Z",
+      "summary": "When your security team has four engineers and your organization has over 100 digital product teams, threat modeling becomes a bottleneck fast. That was the challenge TUI faced. TUI operates across the travel and tourism industry with airlines, hotels, cruise ships, and local travel experiences. Our Platform & Engineering division needs security assessments to keep pace. At TUI, each threat modeli",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/02/ARCHBLOG-1463-1.png"
+    },
+    {
+      "id": "7303cf34c367e5457bd8",
+      "title": "Agents aren’t humans (but they kinda are)",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+      "publishedAt": "2026-11-05T17:03:04Z",
+      "summary": "AI Agents now act on the web for millions of people. To a Site, an Agent can take many forms. It may be indistinguishable from a human user carrying out a task, or it might look like one visitor carrying many Users. This removes the ability for the Site to recognize, serve, and hold accountable the user or users behind the Agent, and causes the Site to face the costs when something goes wrong. Thi",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6HXVQ0MH26TMB3HFFHA31DK.png"
+    },
+    {
+      "id": "74c37bfd857197fc624f",
+      "title": "Don’t Build the Reusable Component Yet",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/05/don-t-build-the-reusable-component-yet/",
+      "publishedAt": "2026-11-05T16:02:13Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "b8abed54f5bce3420dc3",
+      "title": "Docker and ActiveState Extending Secure Defaults to the Packages Developers Install",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=95875",
+      "publishedAt": "2026-11-05T15:28:22Z",
+      "summary": "Trusted content is the foundation security-conscious organizations expect all builds to start from. Docker has made that possible for everyone by providing the foundation free. Docker Hardened Images (DHI) are open source under Apache 2.0, with a catalog of 4,000+ minimal images (and growing) built from source and continuously maintained by Docker. The catalog also carries customizable Helm charts",
+      "imageURL": "https://www.docker.com/app/uploads/2026/11/DHI-x-ActiveState-Reference-Architecture-selection-1-2320x1095.png"
+    },
+    {
       "id": "e29e4fc02079a190903e",
       "title": "How two engineer side projects became the agent taking action inside Dropbox",
       "sourceName": "Dropbox Tech",
@@ -28,6 +127,24 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/10/image3-3.png"
     },
     {
+      "id": "b50ce4161fe4ce4d849d",
+      "title": "Analyze your Stripe data directly with your agent",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/analyze-your-stripe-data-directly-with-your-agent",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "summary": "You can now use natural language to create an investor slide deck highlighting where your business outperformed in the previous quarter, or build a custom dashboard to understand why your Stripe revenue changed.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/1kTCeRYmJdq4abWCeuLLlx/69b9bad3105952e65ae48d48286db95b/index-crop.jpg"
+    },
+    {
+      "id": "d85983f575d791fe5187",
+      "title": "Nitro’s Biggest Year Yet: A Look Back at 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/nitros-biggest-year-yet-a-look-back-at-2026",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "summary": "Nitro had a big year. Catch up on everything Nitro added in 2026, from new in-app perks like 1GB file uploads and Display Name Styles, to partner rewards like access to 50 games with XBOX Game Pass.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6aeba0dfde14699549b06e95_BlogBanner_1540x616.png"
+    },
+    {
       "id": "e46f4b4adf27810f2196",
       "title": "Your .NET parallel loop can become serial in a one-CPU container",
       "sourceName": "Stack Overflow Blog",
@@ -44,15 +161,6 @@
       "publishedAt": "2026-11-04T14:00:00Z",
       "summary": "Personal agents are the intermediary between humans and the Internet, turning a person’s instructions into requests and actions on websites. A customer might ask a personal agent to compare products across your site, find support articles, or complete a purchase. To a site owner, all three interactions show up as automated traffic — and without a clear view of which agents are visiting and what th",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6HZ1ZE3ZTGF9NEGGPF8SZNS.png"
-    },
-    {
-      "id": "14345863bd3579beb6d6",
-      "title": "Building the Modern Enterprise Historian: TimescaleDB Enterprise Is Now in Public Beta",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/timescaledb-enterprise-is-in-public-beta",
-      "publishedAt": "2026-11-03T22:29:38Z",
-      "summary": "A new foundation for industrial history: TimescaleDB performance, enterprise-grade reliability, and integrated operations across sites, on infrastructure you control. Get started with the TimescaleDB Enterprise public beta. We’re announcing the public beta of TimescaleDB Enterprise today. It provides the database foundation for the new Ignition Enterprise Historian, available in Ignition 2027 from",
-      "imageURL": "https://assets.tigerdata.com/blog/2026/11/Benchmark_Table_Tiger_Data.png"
     },
     {
       "id": "2154e8f2577c89cb2e8b",
@@ -676,30 +784,12 @@
       "imageURL": null
     },
     {
-      "id": "831711b945bb87dead45",
-      "title": "Your Agent Runs in a Docker Sandbox. Now It Can Join a Team.",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=95096",
-      "publishedAt": "2026-10-21T16:10:49Z",
-      "summary": "Your sandboxed agents just got a team. The official BAND AI kit for Docker Sandboxes is now available at docker.io/bandhq/band-python-kit:latest . Docker Sandbox kits package everything an agent needs to run in a Docker Sandbox, so a single sbx create command gives you a ready-to-use agent environment. But an isolated agent is only half the story: real work means talking to people and to other age",
-      "imageURL": "https://www.docker.com/app/uploads/2026/10/image1.png"
-    },
-    {
       "id": "0ce38a182e587662c1fa",
       "title": "The bridge to agent-scale Git infrastructure",
       "sourceName": "GitHub Engineering",
       "url": "https://github.blog/?p=99628",
       "publishedAt": "2026-10-21T16:00:00Z",
       "summary": "Over the past year, while Git traffic grew exponentially, 99.99999% of the Git repositories on GitHub began living in two places at once: our own data centers and Azure. The rest are among the busiest on the platform, and they’re held back by just one thing: a 25ms round trip. In an earlier blog post , we laid out the two principles behind our next-generation storage architecture: Minimize coordin",
-      "imageURL": null
-    },
-    {
-      "id": "e9341c9f63fcdce5f862",
-      "title": "From baseline to Secure Software Factory: securing the systems that build your software",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=95076",
-      "publishedAt": "2026-10-21T16:00:00Z",
-      "summary": "In July, Docker, Snyk and Keycard published Agent Baseline , an open, vendor-neutral reference architecture that defines security outcomes for running AI agents in the enterprise. It grew out of conversations with industry leaders who want to adopt agents more broadly but need answers to three questions: What is operating, with what capabilities? Is it staying inside approved boundaries? Can you p",
       "imageURL": null
     },
     {
@@ -784,15 +874,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M58N5J1Y9HY8N3R115KEY6NE.png"
     },
     {
-      "id": "40634a33b7feb1d3dabd",
-      "title": "Introducing Clairic, a new System One class of extraction models",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
-      "publishedAt": "2026-10-19T17:48:26Z",
-      "summary": "Today, we're announcing a preview of a new class of System One-style models: extraction models. Our first one, Clairic, is available hosted on Workers AI as @cf/cloudflare/clairic. We intend to release the model open-weights soon. Clairic is an extraction model that is able to extract, compute, estimate, and forecast values from unstructured inputs — all at a significantly higher accuracy, faster ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5AKCGDJHDMM9AVJKV73MJGX.png"
-    },
-    {
       "id": "cf89aef852decdf3cafe",
       "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
       "sourceName": "Meta Engineering",
@@ -827,15 +908,6 @@
       "publishedAt": "2026-10-19T13:00:10Z",
       "summary": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already complete and we’re working toward scaling it to comprise ~1 million GPUs. Prometheus also features technologies like closed-loop liquid cooling to help it operate efficiently. Right",
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Prometheus-BAG-3.png"
-    },
-    {
-      "id": "72477d086944244f5e4b",
-      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
-      "publishedAt": "2026-10-19T13:00:00Z",
-      "summary": "The recent disclosure of a major vulnerability in Citrix NetScaler pointed to a widespread weak point: a login page is an attack surface that can be used to compromise and access an application server. Indeed, the disclosures included an actively exploited flaw that allowed attackers to execute commands on affected gateways without signing in. As with any emergency patch, admins had to weigh cutti",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M537RBT01XNYZ0RR0CP9PS55.png"
     },
     {
       "id": "4f25663723d95f45e9e6",
@@ -1063,24 +1135,6 @@
       "imageURL": null
     },
     {
-      "id": "6da6f978d60dc478c9f4",
-      "title": "Stopping business email compromise with AI-driven email security: How VIPRE protects modern enterprises on AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/stopping-business-email-compromise-with-ai-driven-email-security-how-vipre-protects-modern-enterprises-on-aws/",
-      "publishedAt": "2026-10-13T14:32:42Z",
-      "summary": "If your organization has experienced sophisticated email impersonation attempts that bypass traditional security tools, you need advanced protection against business email compromise (BEC). This post shows you how VIPRE uses AI in its email security solution, deployed on AWS for enterprise customers. The solution identifies and stops these incidents before they reach end users, and it integrates d",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/09/28/ARCHBLOG-1338-1.png"
-    },
-    {
-      "id": "ebdac34d98268aa82592",
-      "title": "Bulk Executor for Amazon DynamoDB, Part 2: Lessons we learned the hard way",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/bulk-executor-for-amazon-dynamodb-part-2-lessons-we-learned-the-hard-way/",
-      "publishedAt": "2026-10-13T14:23:33Z",
-      "summary": "In the Introducing open source Bulk Executor for Amazon DynamoDB blog post, you learned about the purpose and usage of the Bulk Executor tool. In this Part 2 post, we share the story of how we built it: the design tradeoffs, surprises, gotchas, and eventual workarounds. Think of it as your travel guide for working with Amazon DynamoDB and AWS Glue. Design requirements Bulk Executor is a project de",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/08/ARCHBLOG-1731-jason-headshot.jpg"
-    },
-    {
       "id": "633e8070e31757eb280e",
       "title": "Keep calm and call clone with Rust",
       "sourceName": "Stack Overflow Blog",
@@ -1126,30 +1180,12 @@
       "imageURL": null
     },
     {
-      "id": "2624c5312479dd5c453a",
-      "title": "Part 5: Operating an LLM system: observability, cost, routing, and the platform underneath",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/08/part-5-operating-an-llm-system-observability-cost-routing-and-the-platform-underneath/",
-      "publishedAt": "2026-10-08T20:08:53Z",
-      "summary": "Your service can be 100% up and still quietly approving the wrong things, burning its budget, or failing over into untested quality. Level 5 is the infrastructure that lets you see your decisions, bound your spend, route and fail over between models, kill bad behavior in seconds — and the platform that makes all of it possible.",
-      "imageURL": null
-    },
-    {
       "id": "ab721634e173bff1d5bd",
       "title": "Persistent AI Agent Memory Explained: How Agents Remember Across Sessions",
       "sourceName": "PingCAP / TiDB",
       "url": "https://www.pingcap.com/?p=35376",
       "publishedAt": "2026-10-08T16:06:08Z",
       "summary": "Key Takeaways Persistent agent memory is an external storage layer, not a bigger context window. Agents need episodic, semantic, and procedural memory, kept current by a capture-to-update loop. Claude Code, Codex, and Dify can share one durable state layer. Vector search alone is not enough. Production memory needs scope, metadata, and consistency. A coding agent that forgets your architecture dec",
-      "imageURL": null
-    },
-    {
-      "id": "49dcb2798a7df3756a8f",
-      "title": "A green exit code is not evidence that the work happened",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/08/a-green-exit-code-is-not-evidence-that-the-work-happened/",
-      "publishedAt": "2026-10-08T14:00:00Z",
-      "summary": "Agents don't build trust for another reason, structurally worse than the first. It isn't only that the tool keeps changing shape. It's that the feedback loop you would need in order to learn the tool is broken at the point of measurement.",
       "imageURL": null
     },
     {
@@ -1313,15 +1349,6 @@
       "publishedAt": "2026-09-29T13:00:00Z",
       "summary": "Calendars hold more than just blocks of time. They reflect how people plan their days, coordinate with others, and make room for what matters to them. Reclaim , the Dropbox-owned calendar assistant , helps manage that complexity by using AI to find and adjust time for tasks, habits, and meetings. That approach works well when inputs and expected outcomes are clear. But people also use Reclaim for ",
       "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/september/reclaim-2-0/Machine Learning-Evolving Reclaim to be ai native-1440x305-light.png"
-    },
-    {
-      "id": "15caadab6491fa6f9993",
-      "title": "Helping personal agents shop more intelligently and reliably with Link",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link",
-      "publishedAt": "2026-09-29T00:00:00Z",
-      "summary": "As agents take on more purchases, agent builders have increasingly asked us to help agents navigate checkout and earn consumer trust. Today, we’re sharing three major improvements to support this broader set of needs.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/259tRMFUDzwXlrETBMQId4/a6af0d366e1e601e70b52c7f071fa007/index-5.png"
     },
     {
       "id": "f052383f2ac8fc674d29",
@@ -1771,33 +1798,6 @@
       "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
       "publishedAt": "2026-08-26T11:00:00Z",
       "summary": "As part of Patch the Planet , we received preview access to GPT 5.6-Cyber with a simple task: evaluate its cyber capabilities. Recent events inspired me to give it a challenge to work through: escape the VM I’d normally use for sandboxing. The target was a QEMU/KVM VM on my Linux dev machine (Debian Linux 12, AMD Zen3). It escaped the VM three different times. First, it used recently disclosed bug",
-      "imageURL": null
-    },
-    {
-      "id": "ec0d23ad72dbbbdd6b08",
-      "title": "Kubernetes v1.37: Garhwal",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
-      "publishedAt": "2026-08-26T00:00:00Z",
-      "summary": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community. This release consists of 67 enhancements. Of those",
-      "imageURL": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/k8s-v1.37.svg"
-    },
-    {
-      "id": "e279d12f841b1447f6a4",
-      "title": "Project Lighthouse — Part 3: Introducing project-lighthouse-anonymize",
-      "sourceName": "Airbnb Engineering (Medium)",
-      "url": "https://medium.com/p/74f8b26653fb",
-      "publishedAt": "2026-08-25T17:01:02Z",
-      "summary": "Project Lighthouse — Part 3: Introducing project-lighthouse-anonymize The data in Project Lighthouse is powered by privacy-preserving anonymization code. We’ve put this code into open source, and published two new technical papers detailing the scalable algorithms and data quality frameworks behind it. By: Adam Bloomston Introduction In 2020, we launched Project Lighthouse, which we developed in p",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*Z2EMY7FElWHf-TY6r69IOA.png"
-    },
-    {
-      "id": "613defb54efdb71fd3aa",
-      "title": "State divergence enables unauthorized access",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/",
-      "publishedAt": "2026-08-25T11:00:00Z",
-      "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK , that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live",
       "imageURL": null
     }
   ]
