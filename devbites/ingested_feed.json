@@ -7,7 +7,16 @@
       "url": "https://blog.cloudflare.com/vole-mole/",
       "publishedAt": "2026-11-06T14:00:00Z",
       "summary": "The highest priorities for the transition to post-quantum cryptography are the basic building blocks of authenticated key-agreement protocols such as TLS. Without these building blocks in place, secure communication on the Internet will not be possible once cryptographically relevant quantum computers come online. However, today we rely on quantum-vulnerable cryptography for much more than TLS. Pr",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6PDR0BGK85F0EK2RPMMNCV2.png"
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6RNKQ9RKEJ9CKY6DGNF44RV.01M6RNKRJAQTN05BV66646AM7Z.png"
+    },
+    {
+      "id": "723c8043ff185c0dd871",
+      "title": "After Binance, check what your signing systems can approve",
+      "sourceName": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/",
+      "publishedAt": "2026-11-06T12:00:00Z",
+      "summary": "Binance’s October 2026 security incident raises an operational question for every organization holding user funds: Can your security controls recognize when a valid signature grants an attacker wallet authority? If an organization only monitors transfers and ownership changes, it may miss the shift in wallet authority until assets move. Binance’s initial update about the incident suggested that a ",
+      "imageURL": null
     },
     {
       "id": "9443dbd86345dc7988e1",
@@ -43,6 +52,15 @@
       "url": "https://fly.io/blog/well-that-wasnt-fun/",
       "publishedAt": "2026-11-06T00:00:00Z",
       "summary": "October 16, 2026 began like any other day at Fly.io (meaning, we were anticipating only a medium amount of chaos). By that evening, we had patched and rebooted our entire fleet in response to a Linux kernel bug . The full rollout took 10 hours, but the emotional damage persists. CVE-2026-99999 The rest of this won’t make much sense without a clear read on the bug itself, so: the Linux kernel CVE t",
+      "imageURL": null
+    },
+    {
+      "id": "3283891a5ef3213628f5",
+      "title": "Libghostty 1.0",
+      "sourceName": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "summary": null,
       "imageURL": null
     },
     {
@@ -287,6 +305,15 @@
       "publishedAt": "2026-11-02T00:00:00Z",
       "summary": "This is the story of how we assessed and refactored two video players into one, cut the player code each product maintained by up to 94%, and swapped to the new player without disruption to any users.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67f4343d3897ce1dca91d04e_2024_10_DiscordBlog_Educational-2.png"
+    },
+    {
+      "id": "254d845fc8e9f80effd8",
+      "title": "Test and verification technique effectiveness with GPT-6 Astra",
+      "sourceName": "Dan Luu",
+      "url": "https://danluu.com/astra-testing/",
+      "publishedAt": "2026-11-02T00:00:00Z",
+      "summary": "When we looked at how well agents used test/verification techniques in August 1 , we saw that GPT-5.6 Sol generally did what you might call a caricature of various techniques when asked to use a technique or library such as TDD, QuickCheck, Lean 4, etc.; not specifying any particular test method (which we'll call Default) resulted in many worthless unit tests, which was one of the best performing ",
+      "imageURL": null
     },
     {
       "id": "ba3c9157077fb8329f28",
@@ -1771,33 +1798,6 @@
       "url": "https://danluu.com/bug-blind/",
       "publishedAt": "2026-08-30T00:00:00Z",
       "summary": "I used to wonder why I see so many more bugs than most people. I easily observe hundreds to thousands of bugs per week and nothing seems to work , but most people I talk to don't see anything like this . For a long time, I thought this had something to do with how I use computers but, over time, I've realized that it's mostly that people are hitting the same bugs and don't notice. If you're not a ",
-      "imageURL": null
-    },
-    {
-      "id": "29c56b0eccaaddb03b20",
-      "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
-      "publishedAt": "2026-08-28T18:30:00Z",
-      "summary": "Kubernetes brings a wealth of features that make it easy to run your production workloads securely and reliably. While aspects like scheduling, health checks and resource limits are probably at the front of your mind, one other important feature of Kubernetes is production identity — how your workload can authenticate to other systems in order to do its job. Up until now, the primary production id",
-      "imageURL": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/pod-certificates-architecture.svg"
-    },
-    {
-      "id": "548fd4bfd4c0c2bdfd81",
-      "title": "Kubernetes v1.37: Metrics API graduates to stable",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
-      "publishedAt": "2026-08-27T18:30:00Z",
-      "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable ( v1 ). This API provides CPU and memory usage for nodes and Pods, and is the API behind commands such as kubectl top and resource-metrics-based autoscaling. For cluster operators and application developers, this graduation means that the API now has the stability guarantees associated with a Kubernetes stable API. The v1 API has the same ",
-      "imageURL": null
-    },
-    {
-      "id": "8061813586c580cf8801",
-      "title": "VMs won't contain cyber-capable agents",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
-      "publishedAt": "2026-08-26T11:00:00Z",
-      "summary": "As part of Patch the Planet , we received preview access to GPT 5.6-Cyber with a simple task: evaluate its cyber capabilities. Recent events inspired me to give it a challenge to work through: escape the VM I’d normally use for sandboxing. The target was a QEMU/KVM VM on my Linux dev machine (Debian Linux 12, AMD Zen3). It escaped the VM three different times. First, it used recently disclosed bug",
       "imageURL": null
     }
   ]
