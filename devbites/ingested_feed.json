@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "f27ad28b0c4db975ac36",
+      "title": "Launching the Vite Ecosystem Fund",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+      "publishedAt": "2026-11-09T13:00:00Z",
+      "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to 44 projects and maintainers across the Vite ecosystem. When VoidZero joined Cloudflare, we committed $1 million to strengthen the open source ecosystem around Vite. This round is just the start. Sponsoring open source has always mattered, but now AI has made funding urgent. AI is changing open source AI has made open sourc",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6SMAP95G344HRNFK6NRMGZN.png"
+    },
+    {
       "id": "a4dbacf967e62059cd42",
       "title": "The post-quantum future of web privacy",
       "sourceName": "Cloudflare Blog",
@@ -890,15 +899,6 @@
       "publishedAt": "2026-10-20T07:40:00Z",
       "summary": "Recorded at OpenAI Dev Day 2026, Ryan sits down with Andrew Ambrosino, member of the technical staff at OpenAI, for a conversation on OpenAI's strategy for merging ChatGPT and Codex into a unified experience, the advantages of localized computer access in their successful desktop application, and the technical hurdles of constructing ChatGPT Spaces to support real-time multi-agent collaboration.",
       "imageURL": null
-    },
-    {
-      "id": "68e2ee5d21f7dc1bf4b7",
-      "title": "Cutting our inference bill by 68% by being obsessive about optimization",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
-      "publishedAt": "2026-10-19T19:12:53Z",
-      "summary": "When we previously blogged about our AI code reviewer in April , an average review cost a palatable $1.19. By the end of August, that figure had shot up to about $2.46. We hadn't made any significant architectural changes: the coordinator was still handing work to the same set of specialist reviewers, and the same risk tiers decided how intensive of a review we gave. Around mid-September we tasked",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M58N5J1Y9HY8N3R115KEY6NE.png"
     },
     {
       "id": "cf89aef852decdf3cafe",
