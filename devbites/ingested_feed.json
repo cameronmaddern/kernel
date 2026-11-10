@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "b9f0b2f83c89be26a843",
+      "title": "Customer support is the gnarliest AI problem",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/",
+      "publishedAt": "2026-11-10T08:40:00Z",
+      "summary": "Ryan chats with Ahmad Al-Dahle, CTO at Airbnb, about deploying multi-party AI agents to tackle the uniquely gnarly problem of customer support, how a moving target of rigorous evaluations helps engineers balance latency against accuracy, and the ways in which AI coding tools demand an even higher level of judgment from software engineering teams.",
+      "imageURL": null
+    },
+    {
+      "id": "c664130353f2b1ae5cfd",
+      "title": "Never Share Your Password Again — The OAuth 2.0 Solution",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/09/never-share-your-password-again-the-oauth-2-0-solution/",
+      "publishedAt": "2026-11-09T20:50:38Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "47f2bab25b89d6df9cd7",
+      "title": "Transforming fleet analytics for Novus Hi-Tech through agentic AI",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/transforming-fleet-analytics-for-novus-hi-tech-through-agentic-ai/",
+      "publishedAt": "2026-11-09T20:34:35Z",
+      "summary": "Fleet analytics sounds straightforward until you have thousands of vehicles streaming dashcam footage, driver alerts, GPS pings, and speed warnings across 10 countries, all at the same time. At that scale, no team can manually triage every drowsiness alert or investigate every over-speeding event before it becomes a real incident. With over 120 enterprise customers relying on their fleet, Novus Hi",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/14/ARCHBLOG-1388-1-1.png"
+    },
+    {
+      "id": "28648da9dee10ae87371",
+      "title": "How DeepL keeps closest-exit routing during maintenance with AWS Cloud WAN",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-deepl-keeps-closest-exit-routing-during-maintenance-with-aws-cloud-wan/",
+      "publishedAt": "2026-11-09T20:15:09Z",
+      "summary": "DeepL is a Language AI company that builds written and real-time AI voice translation products used by more than 200,000 business teams worldwide. Its infrastructure spans multiple AWS Regions across Europe, North America and Asia, with hybrid connectivity back to two European data centers. Taking a single AWS Direct Connect link out of service for planned maintenance is a routine task, but in a m",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/29/ARCHBLOG-1591-1.png"
+    },
+    {
+      "id": "d1667f896928204e5e06",
+      "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/d7d85859d808",
+      "publishedAt": "2026-11-09T17:01:02Z",
+      "summary": "By Shreya S Ramanujam , Yongce Li , Afshine Amidi , Sina Ghiassian , Benjamin Klein . Introduction Picture this — you’re home after a long day at work and can’t wait to catch up on Bridgerton. You log on to Netflix, search for “Bridgerton” and land on this screen: If this sounds familiar, you already know what a synopsis is — it’s a short glimpse into what a viewer can expect to see in a show. We ",
+      "imageURL": "https://cdn-images-1.medium.com/max/466/1*zkhDdQjtUryvyXdFAoMJoQ.png"
+    },
+    {
+      "id": "265141180f18f9ce4a2a",
+      "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24955",
+      "publishedAt": "2026-11-09T17:00:12Z",
+      "summary": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. It separates shared debugger infrastructure from hardware-specific device control. The design represents the CPU and GPU as separate debugger processes while presenting them in one debugging session. Modern AI applications rarely execute in one place. A workload can begin in",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/11/Extending-LLDB.png"
+    },
+    {
       "id": "f27ad28b0c4db975ac36",
       "title": "Launching the Vite Ecosystem Fund",
       "sourceName": "Cloudflare Blog",
@@ -8,6 +62,24 @@
       "publishedAt": "2026-11-09T13:00:00Z",
       "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to 44 projects and maintainers across the Vite ecosystem. When VoidZero joined Cloudflare, we committed $1 million to strengthen the open source ecosystem around Vite. This round is just the start. Sponsoring open source has always mattered, but now AI has made funding urgent. AI is changing open source AI has made open sourc",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6SMAP95G344HRNFK6NRMGZN.png"
+    },
+    {
+      "id": "c5137430553cddf5b9ee",
+      "title": "Discord Patch Notes: November 9, 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-patch-notes-november-9-2026",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
+    },
+    {
+      "id": "214c678f389a1bf80321",
+      "title": "Unlock, Level Up, Flex: Discord Profile Badges Got an Upgrade",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/unlock-level-up-flex-discord-profile-badges-got-an-upgrade",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "summary": "Meet the new badge directory: one spot to browse every badge on Discord, including 4 shiny new ones to unlock, level up, and flex.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6af1efa6b3b5b3674c076583_DiscordBadges2.0_Blog_01.png"
     },
     {
       "id": "a4dbacf967e62059cd42",
@@ -182,7 +254,7 @@
     },
     {
       "id": "d13fbfe75d78ae195ccf",
-      "title": "See the agents, set the terms: new visibility and control for personal agents",
+      "title": "See the agents, set the terms: New visibility and control for personal agents",
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
       "publishedAt": "2026-11-04T14:00:00Z",
@@ -758,7 +830,7 @@
     },
     {
       "id": "405699f87f1c074465d9",
-      "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+      "title": "Localizing compliance at scale: Achieving South Korea’s ISMS certification",
       "sourceName": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/k-isms/",
       "publishedAt": "2026-10-22T13:00:00Z",
@@ -928,15 +1000,6 @@
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Thin-Orchestrator-workflow.jpg"
     },
     {
-      "id": "5bfee68ed69a0692d927",
-      "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24763",
-      "publishedAt": "2026-10-19T13:00:10Z",
-      "summary": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already complete and we’re working toward scaling it to comprise ~1 million GPUs. Prometheus also features technologies like closed-loop liquid cooling to help it operate efficiently. Right",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Prometheus-BAG-3.png"
-    },
-    {
       "id": "4f25663723d95f45e9e6",
       "title": "Stripe survey: Four trends reshaping how SaaS platforms compete in the AI era",
       "sourceName": "Stripe Blog",
@@ -1072,15 +1135,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*ZL0rDP0Un-DxepYPmFo4aQ.png"
     },
     {
-      "id": "c366273d72bbcff24c1b",
-      "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/826ebf9ad9fb",
-      "publishedAt": "2026-10-14T19:51:35Z",
-      "summary": "By Yogesh Nagarur Introduction In Part 1 of this series , we shared how Netflix built the Ads Event pipeline and approached it as a system design problem: replacing fragmented pipelines with a centralized collection, enrichment, and a standard data contract. The result was Ads Event Publisher, the system that collects ad telemetry from client devices, enriches it with the context of the ad that wa",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*LkXsONCex0Q1KvttewSZ1w.png"
-    },
-    {
       "id": "db2dc16f5a8b8e8b4dec",
       "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
       "sourceName": "GitHub Engineering",
@@ -1117,15 +1171,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/12/ARCHBLOG-1349-1-2.png"
     },
     {
-      "id": "cebbc847e0f76838b13c",
-      "title": "How UTS established a modern curriculum data services foundation on AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-uts-established-a-modern-curriculum-data-services-foundation-on-aws/",
-      "publishedAt": "2026-10-14T14:29:10Z",
-      "summary": "Students and staff experience the University of Technology Sydney (UTS) as a single institution, not as the collection of curriculum and student systems behind it. They expect the information underpinning teaching, learning, course design and institutional decision-making to be accurate, timely and coherent, irrespective of its source. Behind that experience, UTS had reached a natural inflection p",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/09/ARCHBLOG-1642-1.png"
-    },
-    {
       "id": "664a99950228d053fcfc",
       "title": "Package managers have an integrity problem",
       "sourceName": "Trail of Bits",
@@ -1133,15 +1178,6 @@
       "publishedAt": "2026-10-14T11:00:00Z",
       "summary": "I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for t",
       "imageURL": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/package-manager-integrity-banner-figure-1_hu_c095267cc912b4da.webp"
-    },
-    {
-      "id": "c909b362b21eda96f182",
-      "title": "Scope workloads and share resilience policies with AWS Resilience Hub",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/scope-workloads-and-share-resilience-policies-with-aws-resilience-hub/",
-      "publishedAt": "2026-10-13T21:30:10Z",
-      "summary": "A resilience plan is useful only while it reflects the application you run. After a migration or deployment, a service can acquire a new dependency while its documented recovery objectives stay the same. In a shared Kubernetes cluster, even deciding which resources belong to that service can take investigation. On September 18, 2026, the Next generation of AWS Resilience Hub introduced three capab",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/13/ARCHBLOG-1735-1.png"
     },
     {
       "id": "06d3d32ab631321020d0",
@@ -1186,24 +1222,6 @@
       "url": "https://stackoverflow.blog/2026/10/12/beyond-the-ai-noise-how-stack-overflow-is-rethinking-tech-hiring/",
       "publishedAt": "2026-10-12T14:00:00Z",
       "summary": "It’s gotten exponentially harder to identify talent that we feel is a good fit for our teams at the top of the application funnel.",
-      "imageURL": null
-    },
-    {
-      "id": "35488f9bf063f0b19e3d",
-      "title": "A Treatise on Model Oriented Programming Languages",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/09/a-treatise-on-model-oriented-programming-languages/",
-      "publishedAt": "2026-10-09T14:59:04Z",
-      "summary": null,
-      "imageURL": null
-    },
-    {
-      "id": "ed1806c9df4acc798d67",
-      "title": "Taking a look under your agent’s hood",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/09/taking-a-look-under-your-agent-s-hood/",
-      "publishedAt": "2026-10-09T07:40:00Z",
-      "summary": "Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about applying observability to non-deterministic AI agents, blurring the boundaries between software development and production workflows, and navigating emerging challenges in AI security and tokenomics.",
       "imageURL": null
     },
     {
@@ -1780,24 +1798,6 @@
       "url": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
       "publishedAt": "2026-08-31T18:30:00Z",
       "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37! After a number of releases of work and testing, the built-in StorageVersionMigration API ( storagemigration.k8s.io/v1 ) and control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters. The problem with stale storage versions In Kubernetes, ",
-      "imageURL": null
-    },
-    {
-      "id": "32666d093ba2af855ece",
-      "title": "Testing cookie behavior across hundreds of web surfaces with our in-house auditor",
-      "sourceName": "Dropbox Tech",
-      "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
-      "publishedAt": "2026-08-31T17:00:00Z",
-      "summary": "As AI and automation become a bigger part of digital experiences, it’s increasingly important that people stay in control of the choices they make. They should be able to benefit from new technology without losing the preferences they’ve already expressed. Cookie banners are one of the most familiar places where people express those preferences online. They’re also one of the most visible parts of",
-      "imageURL": "https://dropbox.tech/cms/content/dam/dropbox/tech-blog/en-us/2026/august/cookie-auditor/Security-Inside our in house cookie auditor-1440x305-light.png"
-    },
-    {
-      "id": "05502ae5938a9d5e2194",
-      "title": "Bug blindness",
-      "sourceName": "Dan Luu",
-      "url": "https://danluu.com/bug-blind/",
-      "publishedAt": "2026-08-30T00:00:00Z",
-      "summary": "I used to wonder why I see so many more bugs than most people. I easily observe hundreds to thousands of bugs per week and nothing seems to work , but most people I talk to don't see anything like this . For a long time, I thought this had something to do with how I use computers but, over time, I've realized that it's mostly that people are hitting the same bugs and don't notice. If you're not a ",
       "imageURL": null
     }
   ]
