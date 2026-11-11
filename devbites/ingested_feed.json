@@ -1,6 +1,69 @@
 {
   "articles": [
     {
+      "id": "f91c8aa8c10d3faef9bf",
+      "title": "Beyond Test Cards: A Fake Payment Provider for Testing at Scale",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/c69dddadb115",
+      "publishedAt": "2026-11-10T20:55:40Z",
+      "summary": "Image generated with Google Gemini, 2026 Written by Savelii Kolesnikov , Jay Patel , and Ivanna Sivak Background Lyft processes billions in payments annually, and that volume continues to grow. Agentic coding has drastically accelerated feature development, but it raises the stakes for the one phase that cannot be rushed: ensuring the highest standards of reliability and correctness in critical pa",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*EV9F9SVDWLCKZJ_hghiIRg.jpeg"
+    },
+    {
+      "id": "d51a86d5db46114aef8e",
+      "title": "How Vector Search Works Inside TiDB for AI Applications",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=15610",
+      "publishedAt": "2026-11-10T18:43:16Z",
+      "summary": "Key Takeaways Real-Time Search Freshness: Storing vectors alongside transactional metadata in TiDB eliminates data sync latency, ensuring RAG applications always retrieve up-to-date document context. Hybrid Engine Architecture: TiKV handles transactional writes while TiFlash powers HNSW vector indexes, maintaining complete searchability and high recall across both Delta and Stable storage layers. ",
+      "imageURL": "https://static.pingcap.com/files/2024/04/28033049/Vector-Insert-and-Search-in-TiDB.png"
+    },
+    {
+      "id": "2ffc23a99eb1d6513307",
+      "title": "Skipper, Airbnb’s embedded workflow engine, is now open source",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/78dd354f472b",
+      "publishedAt": "2026-11-10T18:01:02Z",
+      "summary": "Durable workflows, running inside your service with no separate orchestration cluster. By : Ricardo Gamba , Andriy Sergiyenko Skipper , an embedded workflow engine used in production by teams all across Airbnb, is now available to the open source community. Skipper lets you express multi-step business processes as Java or Kotlin classes, persist their progress, and recover from crashes and transie",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*iN_UiC2_U7flSb9jddr8tQ.png"
+    },
+    {
+      "id": "9a77f7622af5d431fbe7",
+      "title": "Hiring Junior Engineers",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/1edc53e0fd5f",
+      "publishedAt": "2026-11-10T17:08:06Z",
+      "summary": "Several people have asked me what the qualifications are for junior software engineers to be hired these days. This level is often referred to as “new grad,” but people with lots of different backgrounds, not just recent university graduates, can use the entry-level software engineering role as their first job in big tech. For example, in my early career I worked as a generalist in nonprofit after",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*i9VQTg4Bhru37QSCKqffeQ.png"
+    },
+    {
+      "id": "42a025413f33519622ff",
+      "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24976",
+      "publishedAt": "2026-11-10T17:00:49Z",
+      "summary": "Your algorithm is a suite of AI-powered tools that makes Facebook recommendations more transparent and steerable, with a single editable view of the interests that shape Feed and Reels. We’re sharing how Your algorithm turns people’s natural language preferences into responsive recommendations, and how LLMs are tailored to specific tasks within the system. Traditionally, the recommendation systems",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/11/Your-algorithm-Figure-1.gif"
+    },
+    {
+      "id": "3fbc6920c1bb32ce026f",
+      "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=24984",
+      "publishedAt": "2026-11-10T16:59:31Z",
+      "summary": "Triton Low-Level Extensions (TLX) , is an extension to Triton that helps engineers optimize GPU performance while preserving Triton’s productive programming model. TLX introduces explicit warp-group and cluster-level orchestration, letting developers adopt new hardware capabilities without sacrificing velocity. TLX has demonstrated performance improvements in RecSys training, RecSys inference, and",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-TLX-Figure-1.png"
+    },
+    {
+      "id": "5b61b1f22b8fd6f99d99",
+      "title": "Self-service regional failover with Amazon Application Recovery Controller Region Switch and centralized ingress controls",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/self-service-regional-failover-with-amazon-application-recovery-controller-region-switch-and-centralized-ingress-controls/",
+      "publishedAt": "2026-11-10T16:48:09Z",
+      "summary": "In highly regulated industries such as financial services, healthcare, and government, security isn’t negotiable. Compliance frameworks require defense in depth strategies where incoming requests are inspected against security policy to confirm they are safe before reaching applications. Organizations typically solve this challenge by implementing centralized ingress proxy fleets: hardened entry p",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/03/ARCHBLOG-1600-1.png"
+    },
+    {
       "id": "b9f0b2f83c89be26a843",
       "title": "Customer support is the gnarliest AI problem",
       "sourceName": "Stack Overflow Blog",
@@ -145,15 +208,6 @@
       "imageURL": null
     },
     {
-      "id": "cd056d224b27de362ee2",
-      "title": "Time-Series Is Just Postgres: What You Get When You Don't Split the Architecture",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/need-separate-time-series-database",
-      "publishedAt": "2026-11-05T20:58:18Z",
-      "summary": "Most teams evaluating a time-series database are really asking how much of their data to move out of Postgres. For most of them, the time-series side is most of the data. That question comes from an era when that data had to live in a separate system. Postgres with TimescaleDB doesn't require the split. The payoff is that every decision you make after this one gets smaller. Your time-series tables",
-      "imageURL": null
-    },
-    {
       "id": "e2ba23cdc2c8dae206e2",
       "title": "Inside GitHub’s new Git storage architecture",
       "sourceName": "GitHub Engineering",
@@ -260,6 +314,15 @@
       "publishedAt": "2026-11-04T14:00:00Z",
       "summary": "Personal agents are the intermediary between humans and the Internet, turning a person’s instructions into requests and actions on websites. A customer might ask a personal agent to compare products across your site, find support articles, or complete a purchase. To a site owner, all three interactions show up as automated traffic — and without a clear view of which agents are visiting and what th",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6HZ1ZE3ZTGF9NEGGPF8SZNS.png"
+    },
+    {
+      "id": "14345863bd3579beb6d6",
+      "title": "Building the Modern Enterprise Historian: TimescaleDB Enterprise Is Now in Public Beta",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/timescaledb-enterprise-is-in-public-beta",
+      "publishedAt": "2026-11-03T22:29:38Z",
+      "summary": "A new foundation for industrial history: TimescaleDB performance, enterprise-grade reliability, and integrated operations across sites, on infrastructure you control. Get started with the TimescaleDB Enterprise public beta. We’re announcing the public beta of TimescaleDB Enterprise today. It provides the database foundation for the new Ignition Enterprise Historian, available in Ignition 2027 from",
+      "imageURL": "https://assets.tigerdata.com/blog/2026/11/Benchmark_Table_Tiger_Data.png"
     },
     {
       "id": "2154e8f2577c89cb2e8b",
@@ -973,15 +1036,6 @@
       "imageURL": null
     },
     {
-      "id": "cf89aef852decdf3cafe",
-      "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24783",
-      "publishedAt": "2026-10-19T16:00:47Z",
-      "summary": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers. Leveraging the world knowledge built into LLMs makes ad matching more intelligent and precise, compounding gains for advertisers. GenRecs Tokenization is the foundational data representation that makes t",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/GenRecs-Tokenization-image1.png"
-    },
-    {
       "id": "cf8c276fdde163cd9b57",
       "title": "Production-grade LLMs and agents: a field guide",
       "sourceName": "Stack Overflow Blog",
@@ -989,15 +1043,6 @@
       "publishedAt": "2026-10-19T15:32:01Z",
       "summary": "A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.",
       "imageURL": null
-    },
-    {
-      "id": "00efd36031023e3db9d5",
-      "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24724",
-      "publishedAt": "2026-10-19T15:30:37Z",
-      "summary": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach. At Meta, we’ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents deliberately thin: It routes work and enforces reliability checks, while specialized agents do the domain reasoning. We’re sharing our own process and insights, plus how any team can app",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Thin-Orchestrator-workflow.jpg"
     },
     {
       "id": "4f25663723d95f45e9e6",
@@ -1160,15 +1205,6 @@
       "publishedAt": "2026-10-14T17:12:00Z",
       "summary": "While the whispers say that everyone is becoming a generalist, that's not where headcount is going.",
       "imageURL": null
-    },
-    {
-      "id": "3d355b7d28a8890d92d4",
-      "title": "Multi-region disaster recovery for Amazon API Gateway WebSocket APIs",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/multi-region-disaster-recovery-for-amazon-api-gateway-websocket-apis/",
-      "publishedAt": "2026-10-14T14:31:55Z",
-      "summary": "WebSocket connections power some of the most interactive experiences on the web: financial trading applications streaming live market data, collaborative editing tools where multiple users work on the same document, gaming leaderboards updating in real time, and IoT dashboards monitoring thousands of devices. These applications depend on persistent, bidirectional communication between clients and ",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/12/ARCHBLOG-1349-1-2.png"
     },
     {
       "id": "664a99950228d053fcfc",
@@ -1477,15 +1513,6 @@
       "imageURL": null
     },
     {
-      "id": "07c7fc4fa6eceb9fdbe3",
-      "title": "Lakebase, TiDB X, and the Database Architecture AI Demands",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=35060",
-      "publishedAt": "2026-09-23T15:35:42Z",
-      "summary": "Key Takeaways Lakebase and TiDB X both keep durable data in object storage, separate from compute. For AI agents, fast, cheap database lifecycles matter as much as query speed. Lakebase branches a single PostgreSQL primary; TiDB X brings branching to distributed SQL. TiDB Cloud Lake adds separate analytical compute through export and load, not zero-copy access. An AI coding agent can generate an a",
-      "imageURL": "https://static.pingcap.com/files/2026/09/24080925/image-3-1024x556.jpeg"
-    },
-    {
       "id": "875978a4e34766131073",
       "title": "Dropbox CTO Ali Dasdan on moving from AI adoption to transformation",
       "sourceName": "Dropbox Tech",
@@ -1771,33 +1798,6 @@
       "url": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
       "publishedAt": "2026-09-01T18:30:00Z",
       "summary": "I am excited to announce that etcd RangeStream is graduating to beta in Kubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and etcd need to read a large collection, and makes peak usage more predictable. The cost of large reads The API server serves most list and watch requests from its in-memory watch cache. Populating that cache requires reading a resource's full state",
-      "imageURL": null
-    },
-    {
-      "id": "e82667920f5ed02b238f",
-      "title": "Ed Zitron's AI prediction track record",
-      "sourceName": "Dan Luu",
-      "url": "https://danluu.com/zitron/",
-      "publishedAt": "2026-09-01T00:00:00Z",
-      "summary": "I was curious how well the predictions of the most widely cited AI skeptic I've seen (Ed Zitron) have done, so I looked at how his predictions panned out. To disclose my own biases, I've never had a particularly strong pro or anti AI progress position. For example, in 2022, I did a comprehensive look at predictions Futurists made, including well-respected folks like Kurzweil and found them to be g",
-      "imageURL": null
-    },
-    {
-      "id": "71fcfbea0ac74a6dc817",
-      "title": "Rerouting the Stream: How Lyft Moved to the Apache Flink Kubernetes Operator",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/36f20246d250",
-      "publishedAt": "2026-08-31T19:08:16Z",
-      "summary": "Written by Maheep Myneni , Arda Kuyumcu , and Prem Santosh Udaya Shankar at Lyft. Why We Migrated : Technical Debt Meets Modern Streaming Demands Over the past several quarters, Lyft’s Streaming Compute team retired our internally developed Flink Kubernetes operator and moved our entire streaming fleet onto the open-source Apache Flink Kubernetes operator. This post is about why we made the switch",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*fDPW6FgRQeqQXLJifjbxQg.jpeg"
-    },
-    {
-      "id": "56d533531e70b4ee9ec4",
-      "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
-      "publishedAt": "2026-08-31T18:30:00Z",
-      "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37! After a number of releases of work and testing, the built-in StorageVersionMigration API ( storagemigration.k8s.io/v1 ) and control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters. The problem with stale storage versions In Kubernetes, ",
       "imageURL": null
     }
   ]
