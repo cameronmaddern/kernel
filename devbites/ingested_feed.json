@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "aa7f9a40946b1e4f80fd",
+      "title": "How Zillow runs 100 million daily notifications on AWS Step Functions",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-zillow-runs-100-million-daily-notifications-on-aws-step-functions/",
+      "publishedAt": "2026-11-11T23:25:00Z",
+      "summary": "Every day, Zillow sends home shoppers more than 100 million personalized email and push notifications: saved search alerts, home recommendations, property updates, seller reports, and reminders. These messages are one of Zillow’s core ways to engage home shoppers, and Zillow delivers them on time with consistent behavior across every campaign. Today, each of those notifications runs as its own sho",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/11/ARCHBLOG-1607-1.png"
+    },
+    {
+      "id": "72462f4b8ae0e53b0901",
+      "title": "Intelligent Delivery: Making Every Unit of Compute Serve Better Ads",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=25010",
+      "publishedAt": "2026-11-11T17:00:38Z",
+      "summary": "Ads ranking models are growing toward LLM scale faster than the hardware to run them can keep up. An extra unit of compute has more impact on some ad requests, models, and chips than on others. The challenge is deciding where to allocate it to get the best outcome for the entire system. We built Intelligent Delivery, an ML-driven system that allocates resources across the serving stack toward the ",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-Intelligent-Delivery-image-1.png"
+    },
+    {
+      "id": "b4c8fa961fce9edfc139",
+      "title": "Choosing QuePaxa, an unusual consensus algorithm",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+      "publishedAt": "2026-11-11T14:24:46Z",
+      "summary": "Cloudflare recently announced Meerkat , an experimental distributed consensus service designed to manage our internal global control plane. It is powered by a new consensus algorithm published by researchers Tennage & Băsescu et al. called QuePaxa (2023). QuePaxa is an unusual choice; most consensus systems use well-established consensus algorithms like Raft, (Multi-)Paxos or Viewstamped Replicati",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M73MMXB6M86NA1F97GH7Q8TG.png"
+    },
+    {
       "id": "f91c8aa8c10d3faef9bf",
       "title": "Beyond Test Cards: A Fake Payment Provider for Testing at Scale",
       "sourceName": "Lyft Engineering",
@@ -775,15 +802,6 @@
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*4BdXCRIW5WXopLnt2qOBmg.jpeg"
     },
     {
-      "id": "74a34cdfed033496323d",
-      "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24816",
-      "publishedAt": "2026-10-26T16:00:07Z",
-      "summary": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark , and our gigawatt-scale Prometheus cluster . Highlights IcePack & IceCube: Meta’s first liquid-cooled network rack with 102.4T switch blades (128×800G, Broadcom Tomahawk 6C and NVIDIA Spectrum-6 variants), running FBOS",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/OCP-2026-Omar-Meta.jpg"
-    },
-    {
       "id": "42532ee811b2ffa8d89a",
       "title": "“We should be more ambitious with the software we build”",
       "sourceName": "Dan Luu",
@@ -1018,15 +1036,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5DK5FY53PEFH46MT990YMSR.png"
     },
     {
-      "id": "bc34cbec3dd5a0fb15f0",
-      "title": "Introducing tsrs: A port of TypeScript to Rust",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/typescript-rust-port/",
-      "publishedAt": "2026-10-20T13:00:00Z",
-      "summary": "Cloudflare and VoidZero are now working with Max Schwenk of Owner.com on tsrs , a Rust port of the TypeScript compiler. We are doing this work in close collaboration with the TypeScript team, and incubating tsrs as part of the Oxc JavaScript compiler toolchain . Our goal is to help developers spend less time waiting for their code to be checked and more time building. Making TypeScript faster and ",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5C82VPWPDDZ7P6P0G4H7KB3.png"
-    },
-    {
       "id": "b34b51a64c508538c68d",
       "title": "Don't forget about the UI for AI",
       "sourceName": "Stack Overflow Blog",
@@ -1115,15 +1124,6 @@
       "publishedAt": "2026-10-15T17:00:00Z",
       "summary": "Most engineering teams capable of building an internal AI knowledge system think they should. But six months later, it's a platform team's full-time job. Building an in-house AI context layer costs more money and energy than you think.",
       "imageURL": null
-    },
-    {
-      "id": "96a9885dabe39b4125d2",
-      "title": "How Dynata scaled AI across the development lifecycle with AI-DLC and Kiro IDE",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-dynata-scaled-ai-across-the-development-lifecycle-with-ai-dlc-and-kiro-ide/",
-      "publishedAt": "2026-10-15T15:50:31Z",
-      "summary": "When Dynata set out to compress multi-sprint feature delivery into a single sprint, the answer wasn’t simply faster coding. It was reimagining the entire development lifecycle with AI. The team progressed in deliberate stages. They began with AI-assisted coding, then connected AI with their knowledge ecosystem across Confluence, Jira, Lucidchart, GitHub, and Figma. Finally, they adopted the AI-Dri",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/12/ARCHBLOG-1747-1.png"
     },
     {
       "id": "71b074246bff4475e655",
