@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "id": "40ec4dab142d1c857ad5",
+      "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/spend-management/",
+      "publishedAt": "2026-11-13T14:00:00Z",
+      "summary": "Spend controls have been at the top of the list of most requested features from developers building on our developer platform for quite some time now. With more than 10 million developers now building on Cloudflare, this matters more than ever. Although we’ve had usage notifications and budget alerts available to paid plans for a while, this doesn’t solve the problem completely; informing is not t",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M79507GNA08VSCSPAXM0NCC3.png"
+    },
+    {
+      "id": "d35e15dc0b6f0da8cfd6",
+      "title": "Agentic search doesn't find pages, it assembles answers",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/13/agentic-doesn-t-find-pages-it-assembles-answers/",
+      "publishedAt": "2026-11-13T08:40:00Z",
+      "summary": "Ryan sits down with Jeff Wang, co-founder at EXA, to talk about the huge scale required to support trillions of agentic searches, the technical complexities of building custom embeddings and performant vector databases from scratch, and the need to dedupe the massive amounts of redundant content on the web to deliver high-trust answers.",
+      "imageURL": null
+    },
+    {
+      "id": "49b5e0d64e6ee846ee4a",
+      "title": "Throwing Out The Phonebook",
+      "sourceName": "Fly.io Blog",
+      "url": "https://fly.io/blog/throwing-out-the-phonebook/",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "summary": "There’s really only one hard problem in software engineering: synchronization. OK, maybe two: cache invalidation and synchronization. Synchronization is the harder one though, especially when the thing on the other side is eventually consistent. This year we rebuilt 6PN, the private network between your Fly Machines, and we did it by avoiding the hard thing. To start, here’s the status quo: every ",
+      "imageURL": null
+    },
+    {
+      "id": "1273c2072787220d4632",
+      "title": "Modular regression testing framework built on AWS for large-scale systems",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/modular-regression-testing-framework-built-on-aws-for-large-scale-systems/",
+      "publishedAt": "2026-11-12T21:51:43Z",
+      "summary": "For services handling high-stakes operations such as financial transactions, order processing, or eligibility decisions, regression testing has to catch behavior changes before production deployment. Traditional integration tests help, but they can suffer from unreliable dependencies that cause false positives and slow down deployment pipelines. In this post, I walk through how I built an automate",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/11/ARCHBLOG-1397-1.png"
+    },
+    {
+      "id": "7718b9871288cedc7ba0",
+      "title": "Scale distributed AI workloads with Ray and Anyscale on Amazon EC2",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/scale-distributed-ai-workloads-with-ray-and-anyscale-on-amazon-ec2/",
+      "publishedAt": "2026-11-12T20:51:20Z",
+      "summary": "If you are building multimodal artificial intelligence and machine learning (AI/ML) pipelines on Amazon Elastic Compute Cloud (Amazon EC2) that process text, video, and audio, you have likely hit at least one of these challenges. Scaling from a single instance to distributed compute without rewriting code, managing costs across training, fine-tuning, and inference, and keeping up with an evolving ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/12/ARCHBLOG-1581-1-modernized.png"
+    },
+    {
+      "id": "47915515a35a407ae315",
+      "title": "Inside an enterprise AI agent: A governed, observable loop architecture",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/inside-an-enterprise-ai-agent-a-governed-observable-loop-architecture/",
+      "publishedAt": "2026-11-12T19:31:28Z",
+      "summary": "An enterprise AI agent isn’t a bigger chatbot. A chatbot answers one message at a time. An agent keeps working toward a goal: it reads what the user is asking for, breaks the work into steps, pulls in the knowledge it needs, weighs the evidence, calls external tools, and checks the results before it decides whether to keep going or hand back an answer. Every one of those steps touches real systems",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/10/1711-1.png"
+    },
+    {
+      "id": "48dfdea0454385a0dcda",
+      "title": "How do you hire a human? Q&A with Tom Harvey, Stack Overflow technical recruiter",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human-q-and-a-with-tom-harvey-stack-overflow-technical-recruiter/",
+      "publishedAt": "2026-11-12T16:16:25Z",
+      "summary": "Everybody's resume is perfect now, so how do you find the perfect teammate?",
+      "imageURL": null
+    },
+    {
+      "id": "c969c038026a407ed3e5",
+      "title": "Discord <3 Linux: A Year of Upgrades",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-linux-a-year-of-upgrades",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "summary": "Discord on Linux got a glow-up: a new Rust updater, hardware encoding, Wayland screen share, Steam Deck support, and global keybinds. And we’re not done yet!",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6af381febeb37259618feeaf_1dl0UEDWEk25ZbOOdLwzE-drqeIfyTcPGw1538-h1041-iv1.png"
+    },
+    {
       "id": "aa7f9a40946b1e4f80fd",
       "title": "How Zillow runs 100 million daily notifications on AWS Step Functions",
       "sourceName": "AWS Architecture Blog",
@@ -766,24 +838,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2P2KSNBX6J13E3B4219PW.png"
     },
     {
-      "id": "b3c82e150d152a1a972d",
-      "title": "Data governance with annotations in Amazon S3",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/data-governance-with-annotations-in-amazon-s3/",
-      "publishedAt": "2026-10-26T18:00:26Z",
-      "summary": "If you run data governance in Amazon Simple Storage Service (Amazon S3), the context that matters most probably lives somewhere other than S3. Think of how an object is classified, which retention policy applies to it, where the data may reside, and whether it holds personally identifiable information (PII). You typically keep that context in a separate database, one system away from the objects i",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/23/ARCHBLOG-1611-1.png"
-    },
-    {
-      "id": "3a02b78792329ffdcdb1",
-      "title": "Recommended resilience testing in the next generation of AWS Resilience Hub",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/recommended-resilience-testing-in-the-next-generation-of-aws-resilience-hub/",
-      "publishedAt": "2026-10-26T17:35:01Z",
-      "summary": "Organizations that have defined resilience policies and assessed their applications face a common next step: verifying those applications behave as expected when failures occur. Designing fault injection experiments manually requires deep expertise. You need to know which faults to inject, which resources to target, and how to judge whether the outcome counts as success. Many teams do not know whe",
-      "imageURL": "https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png"
-    },
-    {
       "id": "969e532262cd52de7202",
       "title": "Making Failure Diagnosis Reliable with Pensive AI",
       "sourceName": "Netflix TechBlog",
@@ -955,15 +1009,6 @@
       "imageURL": null
     },
     {
-      "id": "72f45f181f07fdf02440",
-      "title": "Automate medical coding with Step Functions and Amazon Bedrock AgentCore",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/automate-medical-coding-with-step-functions-and-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-10-21T21:26:23Z",
-      "summary": "With AI agents, you can automate medical coding while keeping the workflow deterministic, auditable, and subject to human approval. The key is division of labor: the workflow engine owns sequencing and approval gates, while agents reason within individual, bounded steps. Handing the entire workflow to an agent would make the runtime path a property of the model’s reasoning, which is difficult to r",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/19/ARCHBLOG-1619-1.png"
-    },
-    {
       "id": "2d5ce36dac46099e763a",
       "title": "Building Immersive Virtual Economies: An Introduction to KursarScript (KSPL)",
       "sourceName": "Stack Overflow Blog",
@@ -1025,15 +1070,6 @@
       "publishedAt": "2026-10-21T13:00:00Z",
       "summary": "AI can write code and pass the bar exam, but it still struggles to buy a pair of shoes online. That’s because websites were built for humans, not agents. Most agents that shop for someone today work from a site’s HTML — they look at the page, guess which button does what, click, and try again when they get it wrong. This process is slow, uses a lot of tokens, and something as seemingly innocuous a",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5AYSA5Z4MMJ6XYBSMECP05T.png"
-    },
-    {
-      "id": "c78cf468160e1a455080",
-      "title": "8 eMudhra certificates are compromised. Here's what you need to know",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
-      "publishedAt": "2026-10-20T22:20:16Z",
-      "summary": "On October 19, 2026, at approximately 17:00 UTC, Cloudflare became aware that private keys associated with eight eMudhra intermediate certificates were compromised. These certificates were widely trusted by browsers, operating systems, and also within Cloudflare. Because the keys themselves are weak, an attacker can create a forged certificate for any domain and use it to impersonate servers to in",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5DK5FY53PEFH46MT990YMSR.png"
     },
     {
       "id": "b34b51a64c508538c68d",
@@ -1234,15 +1270,6 @@
       "imageURL": null
     },
     {
-      "id": "633e8070e31757eb280e",
-      "title": "Keep calm and call clone with Rust",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/13/keep-calm-and-call-clone-with-rust/",
-      "publishedAt": "2026-10-13T07:40:00Z",
-      "summary": "Ryan sits down with Josh Triplett, member of the Rust Leadership Team at the Rust Project, to chat about how the borrow checker delivers compile-time memory safety without garbage collection overhead, why Rust consistently ranks as developers' most loved language by providing psychological safety for complex systems, and how strict compiler constraints make Rust an ideal target for AI coding agent",
-      "imageURL": null
-    },
-    {
       "id": "51e4af8dc20880899cb3",
       "title": "The “alien” economics of AI monetization",
       "sourceName": "Stripe Blog",
@@ -1250,15 +1277,6 @@
       "publishedAt": "2026-10-13T00:00:00Z",
       "summary": "As usage, costs, and customer expectations change, AI companies are moving beyond traditional SaaS pricing. Leaders at Monetize 2026 shared how they’re combining subscriptions with usage-based billing, building spend controls into products, adapting packaging and value metrics, and making pricing readable for both human and AI buyers.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/6kxvuJDHvg9cCTNLuACl0o/64b5443480f21fa7ea93c3aded30b8ee/Index_image__-_Kyle.png"
-    },
-    {
-      "id": "5040db368b8284a52f3f",
-      "title": "Beyond the AI noise: How Stack Overflow is rethinking tech hiring",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/12/beyond-the-ai-noise-how-stack-overflow-is-rethinking-tech-hiring/",
-      "publishedAt": "2026-10-12T14:00:00Z",
-      "summary": "It’s gotten exponentially harder to identify talent that we feel is a good fit for our teams at the top of the application funnel.",
-      "imageURL": null
     },
     {
       "id": "ab721634e173bff1d5bd",
@@ -1780,24 +1798,6 @@
       "url": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
       "publishedAt": "2026-09-02T18:30:00Z",
       "summary": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down to zero replicas. This feature is now Beta and enabled by default. A HorizontalPodAutoscaler (HPA) that uses a suitable object metric or external metric can now scale a workload to zero replicas, then bring it back when the metric changes. Before v1.37, you needed an add-on or external component, or you had to enabl",
-      "imageURL": null
-    },
-    {
-      "id": "0a8e9e1f0fe28ed61784",
-      "title": "How we make AI coding more cost efficient without sacrificing task quality",
-      "sourceName": "GitHub Engineering",
-      "url": "https://github.blog/?p=98586",
-      "publishedAt": "2026-09-02T18:00:00Z",
-      "summary": "Output quality is important when working with AI coding agents, but true efficiency comes from getting work done quickly, efficiently, and with the right context. That’s why token count of individual interactions alone isn’t a meaningful measure of efficiency. The goal shouldn’t be to use fewer tokens, but to tap into the right amount of context to move a task forward. A concise tool response can ",
-      "imageURL": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-01.png?resize=1024%2C329"
-    },
-    {
-      "id": "4db85808102385e4d30e",
-      "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
-      "publishedAt": "2026-09-01T18:30:00Z",
-      "summary": "I am excited to announce that etcd RangeStream is graduating to beta in Kubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and etcd need to read a large collection, and makes peak usage more predictable. The cost of large reads The API server serves most list and watch requests from its in-memory watch cache. Populating that cache requires reading a resource's full state",
       "imageURL": null
     }
   ]
