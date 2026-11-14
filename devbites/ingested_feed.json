@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "3ebad03222f2c8727af1",
+      "title": "How Thermo Fisher Scientific built AI-powered patient matching on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-thermo-fisher-scientific-built-ai-powered-patient-matching-on-aws/",
+      "publishedAt": "2026-11-13T20:26:58Z",
+      "summary": "Clinical trial recruitment is often described as a patient-matching challenge. In practice, it is much broader. Patient Recruitment teams need to understand where potential participants are in the recruitment journey, how sites are performing, which geographies may offer the strongest opportunities, and whether enough patients may meet increasingly complex study criteria. The answers often sit acr",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/10/ARCHBLOG-1669-1.png"
+    },
+    {
+      "id": "5ab783dcdbdb11e34d6e",
+      "title": "Kitesurf is now open source",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+      "publishedAt": "2026-11-13T20:20:21Z",
+      "summary": "We introduced Kitesurf , our stateless browser for AI agents that runs entirely on top of Workers, in August and followed up in September with WebMCP support, new APIs, and improved compatibility. On every occasion, we mentioned our commitment to open sourcing it so that developers could run their own browser engine on their own Cloudflare accounts if they want to. That promise is now real. Kitesu",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M7B8M53647Q1KNRABY8VM2G7.png"
+    },
+    {
+      "id": "a009bbdbfbe6de47102d",
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "publishedAt": "2026-11-13T19:26:07Z",
+      "summary": "Over the last month, the number of Large Language Model (LLM) penetration testing and orchestration frameworks has exploded. Just a few weeks ago, ARTEX — an open source agentic penetration testing system that automates offensive security workflows — was the only framework available. In just the last three days, we have seen over 50 framework families attempt to scan Cloudflare customers globally.",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M7B3YN6VXD98D313GQ0MHPM2.png"
+    },
+    {
+      "id": "fac0c5435078260433cd",
+      "title": "Your coding agent shouldn't grade its own homework",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/",
+      "publishedAt": "2026-11-13T17:27:39Z",
+      "summary": "AI coding agents can now write design docs, mock up frontends, and implement entire projects end to end. But can they be trusted to verify that their own code actually works?",
+      "imageURL": null
+    },
+    {
+      "id": "35f47808dcf44435de8b",
+      "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=25047",
+      "publishedAt": "2026-11-13T17:00:39Z",
+      "summary": "Meta’s Reality Labs builds products such as AI glasses . Emulators provide us with a way to scale development and testing without relying on scarce physical hardware. Testing software for non-phone Android devices depends on how closely a virtual device reproduces the software behavior of the physical product. While a lightweight emulator like Goldfish gets you part of the way, differences from th",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/11/Cuttlefish-on-Mac-image-1.png"
+    },
+    {
       "id": "40ec4dab142d1c857ad5",
       "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
       "sourceName": "Cloudflare Blog",
@@ -748,15 +793,6 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/23/ARCHBLOG-1667-1.png"
     },
     {
-      "id": "49cd37b8aa0b9cd2828c",
-      "title": "How Anchorage Digital and Turnkey verify code with AWS Nitro Enclaves",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-anchorage-digital-and-turnkey-verify-code-with-aws-nitro-enclaves/",
-      "publishedAt": "2026-10-27T17:10:35Z",
-      "summary": "This post is co-written with Prasanna Gautam from Anchorage Digital and Arnaud Brousseau from Turnkey. In crypto, trust is a liability. A wallet often delegates computation to a third party to parse a transaction, evaluate a policy, or manage key material. Each time, it raises a question: how do you know the service ran the code it claims to have run? Contractual trust, network perimeter security,",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/09/ARCHBLOG-1598-1-1.png"
-    },
-    {
       "id": "415425926777995a6bc0",
       "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
       "sourceName": "Meta Engineering",
@@ -764,15 +800,6 @@
       "publishedAt": "2026-10-27T16:00:12Z",
       "summary": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib. A privacy requirement must hold as data moves through Meta’s diverse data and processing systems. Historically, supporting a new requirement meant implementing the same enforcement logic separately in each system. PrivacyLib replaces this with a common library that runs inside the clients of Meta’s dat",
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/PrivacyLib-Figure-1.png"
-    },
-    {
-      "id": "c0905d98c2f8129e76a0",
-      "title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24841",
-      "publishedAt": "2026-10-27T15:59:24Z",
-      "summary": "The 2026 Python Typing Survey received 1,794 responses. Type hint use changed little across three years, but checker selection changed sharply. Among respondents who reported which checkers they use, half selected more than one, and missing library type information was the most common difficulty. For the third consecutive year, we asked Python developers how they use and experience Python typing: ",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/most_frustrates_title_case_fixed.png"
     },
     {
       "id": "b98b75e5e3efe8c183df",
@@ -1054,24 +1081,6 @@
       "imageURL": null
     },
     {
-      "id": "4a59615041b968ae61d1",
-      "title": "Cloudflare deploys protections against php2shell vulnerability",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-      "publishedAt": "2026-10-21T13:56:45Z",
-      "summary": "Update - On October 23, the PHP project published an informational advisory for a related vulnerability, CVE-2026-115560, in PHP's session upload progress feature. It affects fully patched PHP releases, including 8.5.12, and will be fixed in PHP's next regular release. All Cloudflare WAF customers are protected against known exploit attempts if their site uses PHP's default upload progress field n",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KXQSMGN3Z955B45GCJR4REK3.png"
-    },
-    {
-      "id": "1c5f83daf4c5b5dc2db6",
-      "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/webmcp-commerce/",
-      "publishedAt": "2026-10-21T13:00:00Z",
-      "summary": "AI can write code and pass the bar exam, but it still struggles to buy a pair of shoes online. That’s because websites were built for humans, not agents. Most agents that shop for someone today work from a site’s HTML — they look at the page, guess which button does what, click, and try again when they get it wrong. This process is slow, uses a lot of tokens, and something as seemingly innocuous a",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5AYSA5Z4MMJ6XYBSMECP05T.png"
-    },
-    {
       "id": "b34b51a64c508538c68d",
       "title": "Don't forget about the UI for AI",
       "sourceName": "Stack Overflow Blog",
@@ -1259,15 +1268,6 @@
       "publishedAt": "2026-10-13T17:01:02Z",
       "summary": "How we addressed the cold-start problem for Airbnb’s natural language search by jointly generating synthetic training data — queries and relevance labels — from de-identified booking and search signals. By : Wendy Ran Wei , Hao Li , Weiwei Guo , Xiaowei Liu , Xueyin Chen , Chun How Tan , Malay Haldar , Soumyadip Banerjee , Kedar Bellare , Huiji Gao , Sanjeev Katariya , and Stephanie Moyerman Intro",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*EsZaupfNPaIk04Xh5whb5A.jpeg"
-    },
-    {
-      "id": "ce024ba3e5843664c1a4",
-      "title": "Why Your Sandbox Never Quite Matches Production (And Why That's Fine)",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/13/why-your-sandbox-never-quite-matches-production-and-why-that-s-fine/",
-      "publishedAt": "2026-10-13T16:35:35Z",
-      "summary": "Sandbox testing works best when you stop chasing production parity. Learn what environment drift actually costs and which parts are worth fixing.",
-      "imageURL": null
     },
     {
       "id": "51e4af8dc20880899cb3",
@@ -1788,7 +1788,7 @@
       "sourceName": "Fly.io Blog",
       "url": "https://fly.io/blog/sprites-mcp/",
       "publishedAt": "2026-09-03T00:00:00Z",
-      "summary": "Sprites are disposable cloud computers. They appear instantly, always include durable filesystems, and cost practically nothing when idle. They’re the best and safest place on the Internet to run agents and we want you to create dozens of them . Sprites are a place to run agents; the first thing you should think to do with a new Sprite is to type claude (or gemini or codex ). We’ve put a lot of ef",
+      "summary": "Sprites are disposable cloud computers. They appear instantly, always include durable filesystems, and cost practically nothing when idle. They’re the best and safest place on the Internet to run agents and we want you to create dozens of them . Update, November 2026: the Sprites MCP server now lives inside the Fly MCP at https://mcp.fly.io , and we are transitioning away from the sprites.dev/mcp ",
       "imageURL": null
     },
     {
