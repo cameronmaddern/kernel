@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "ba370bd8ee4aa6782c3c",
+      "title": "Give sandboxed agents live web access with the Firecrawl kit for Docker Sandboxes",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=96139",
+      "publishedAt": "2026-11-16T14:00:00Z",
+      "summary": "Sandboxed agents cannot read the web A coding agent in Docker Sandboxes runs inside an isolated VM, the sandbox controls which hosts it can reach, and credentials stay on the host behind a proxy. The same controls keep the agent from opening a docs page, reading a changelog, or looking up an API that shipped after its training cutoff, so it writes code against the version it remembers. The usual f",
+      "imageURL": null
+    },
+    {
       "id": "3ebad03222f2c8727af1",
       "title": "How Thermo Fisher Scientific built AI-powered patient matching on AWS",
       "sourceName": "AWS Architecture Blog",
@@ -596,7 +605,7 @@
     },
     {
       "id": "254d845fc8e9f80effd8",
-      "title": "Test and verification technique effectiveness with GPT-6 Astra",
+      "title": "Test/verification technique effectiveness with Astra",
       "sourceName": "Dan Luu",
       "url": "https://danluu.com/astra-testing/",
       "publishedAt": "2026-11-02T00:00:00Z",
@@ -998,15 +1007,6 @@
       "publishedAt": "2026-10-22T13:00:00Z",
       "summary": "For ten days, auditors appointed by the Korea Internet & Security Agency (KISA) sat together with us and worked through 80 controls. That is what it took for a company headquartered in the United States, operating a global network serving Korean users, to be certified in South Korea. Cloudflare has now obtained South Korea's Information Security Management System (ISMS) certification under the ISM",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5G8JRPS2ZR304ZH695BQBTD.01M5G8JS8D86H6MQHCQERAW2XC.png"
-    },
-    {
-      "id": "f27aea6d420319d1e1e1",
-      "title": "ActiveState Partners with Docker to Secure the Open Source in Enterprise Containers",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=95131",
-      "publishedAt": "2026-10-22T11:30:00Z",
-      "summary": "Even security teams that have invested in a hardened base image often can’t say what’s running on top of it. In a recent survey of 250 North American DevSecOps leaders, 91% named visibility into container components as their single biggest blind spot. Not the base image, but everything layered onto it. And 90% said their teams still run lightly modified public images with little to no hardening. T",
-      "imageURL": "https://www.docker.com/app/uploads/2026/10/Screenshot-2026-10-21-at-12.25.58-PM.png"
     },
     {
       "id": "b00606b7d715372d4090",
@@ -1748,7 +1748,7 @@
     },
     {
       "id": "a6ea7e0996812fc4286f",
-      "title": "How well do agents use test and verification techniques?",
+      "title": "How well do agents use test/verification techniques?",
       "sourceName": "Dan Luu",
       "url": "https://danluu.com/agentic-testing/",
       "publishedAt": "2026-09-07T00:00:00Z",
