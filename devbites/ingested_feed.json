@@ -1,12 +1,66 @@
 {
   "articles": [
     {
+      "id": "d1a5244f7aa1b7ce1537",
+      "title": "Smooth Cruiser at Lyft: Built for Safety and Transparency",
+      "sourceName": "Lyft Engineering",
+      "url": "https://medium.com/p/b6a461e16f2a",
+      "publishedAt": "2026-11-17T14:27:11Z",
+      "summary": "At Lyft, we want to ensure everyone on the Lyft platform is supported by smart, fair tools to improve their experience. This is the guiding principle behind Smooth Cruiser, our feature that provides Drivers with insights into their driving behavior. For a tool like this to truly help Drivers make informed decisions for themselves, it must excel in two areas: real-world scoring and increased transp",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*js6trdJf6oOQgmCNP7XqGw.jpeg"
+    },
+    {
+      "id": "70254dc0345bb0d74268",
+      "title": "The pioneering coding tricks that built Doom and Quake",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/17/coding-tricks-that-built-doom-and-quake/",
+      "publishedAt": "2026-11-17T08:40:00Z",
+      "summary": "Ryan chats with John Romero, creator of the WAD file and the video game Doom, about the self-modifying code and blitting techniques that made Wolfenstein run so fast on early PCs, the mod-friendly architecture that turned Doom into a cultural phenomenon, and why the raw creative problem-solving of Quake proves that human ideas will always beat AI coding agents.",
+      "imageURL": null
+    },
+    {
+      "id": "6855a53491ff6cc00aed",
+      "title": "Announcing updates to the AWS Well-Architected Framework",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/announcing-updates-to-the-aws-well-architected-framework-3/",
+      "publishedAt": "2026-11-16T20:03:26Z",
+      "summary": "Today, we are announcing updates to the AWS Well-Architected Framework with new and improved guidance across its six pillars, Operational Excellence , Security , Reliability , Performance Efficiency , Cost Optimization , and Sustainability . The Framework now separates account- and organization-level best practices from workload best practices, so you can establish foundational guardrails in the e",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/11/archblog-1722-timeline-1.png"
+    },
+    {
+      "id": "2f2dcaa3d13bcabbc987",
+      "title": "Scheduling the removal of the kube-proxy IPVS backend",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
+      "publishedAt": "2026-11-16T18:35:00Z",
+      "summary": "The ipvs backend for kube-proxy was an experiment in providing a service proxy implementation with better performance than the iptables backend. While it succeeded in that goal, the kernel IPVS API has turned out to be a bad match for the Kubernetes Services API, and the ipvs backend was never able to implement all of the edge cases of Kubernetes Service functionality correctly. In Kubernetes 1.29",
+      "imageURL": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/ipvs-vs-nftables.svg"
+    },
+    {
       "id": "ba370bd8ee4aa6782c3c",
       "title": "Give sandboxed agents live web access with the Firecrawl kit for Docker Sandboxes",
       "sourceName": "Docker Blog",
       "url": "https://www.docker.com/?p=96139",
       "publishedAt": "2026-11-16T14:00:00Z",
       "summary": "Sandboxed agents cannot read the web A coding agent in Docker Sandboxes runs inside an isolated VM, the sandbox controls which hosts it can reach, and credentials stay on the host behind a proxy. The same controls keep the agent from opening a docs page, reading a changelog, or looking up an API that shipped after its training cutoff, so it writes code against the version it remembers. The usual f",
+      "imageURL": null
+    },
+    {
+      "id": "ad3411207147f8441ff9",
+      "title": "Give Discord a Vice City Makeover",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/vice-city-theme-available-in-discord",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "summary": "We’ve got a limited-time custom theme, app icon, and Display Name Style to celebrate the launch of Grand Theft Auto VI.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6afb29184f11f9480a13ccc4_image1.png"
+    },
+    {
+      "id": "8ef328094d2fff220d67",
+      "title": "What does it mean to understand what we built?",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/11/16/understanding",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "summary": "What does it mean to understand what we built? Let's try come to an understanding. Today, a couple of people sent me the No AI Slop Manifesto . I found it interesting, in part, because it touches on something that seems super important right now: understanding . Through this work, we have come to value: … Understanding over speed I fully agree with that as a pithy statement, but I think we are wor",
       "imageURL": null
     },
     {
@@ -109,10 +163,10 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/10/1711-1.png"
     },
     {
-      "id": "48dfdea0454385a0dcda",
+      "id": "28c4f07ac693f8e82234",
       "title": "How do you hire a human? Q&A with Tom Harvey, Stack Overflow technical recruiter",
       "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human-q-and-a-with-tom-harvey-stack-overflow-technical-recruiter/",
+      "url": "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human/",
       "publishedAt": "2026-11-12T16:16:25Z",
       "summary": "Everybody's resume is perfect now, so how do you find the perfect teammate?",
       "imageURL": null
@@ -321,7 +375,7 @@
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/",
       "publishedAt": "2026-11-06T08:40:00Z",
-      "summary": "Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors, the massive environmental and geopolitical footprint of AI data centers, and how AI models are rapidly shifting the future of chip design.",
+      "summary": "Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, to talk about the astounding complexity of manufacturing modern semiconductors, the massive environmental and geopolitical footprint of AI data centers, and how AI models are rapidly shifting the future of chip design.",
       "imageURL": null
     },
     {
@@ -658,10 +712,10 @@
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/1x8frf1UltiAXw1qMcAwix/13d61cb5340a488872e3d5603542a973/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding.jpg"
     },
     {
-      "id": "430da85fa699584055dd",
+      "id": "654cfa1bd96a8558f308",
       "title": "The reports of Stack Overflow's death are greatly exaggerated",
       "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/",
+      "url": "https://stackoverflow.blog/2026/10/29/reports-greatly-exaggerated/",
       "publishedAt": "2026-10-29T22:30:00Z",
       "summary": "I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the knowledge—and the company—behind it.",
       "imageURL": null
@@ -791,15 +845,6 @@
       "publishedAt": "2026-10-27T17:23:23Z",
       "summary": "Publishing a Shareable Content Object Reference Model (SCORM) course to a learning management system (LMS) is rarely as straightforward as writing the course. The LMS needs SCORM packages to adhere to a standard format for successful import and launch. Producing one by hand means restructuring slides into modules and hand-editing SCORM manifests. The packaging mechanics pull authors away from deve",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/26/ARCHBLOG-1570-1-1.png"
-    },
-    {
-      "id": "81dbc52ffa201d8c7f24",
-      "title": "Vessel-specific voyage optimization with machine learning: Manta on AWS",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/vessel-specific-voyage-optimization-with-machine-learning-manta-on-aws/",
-      "publishedAt": "2026-10-27T17:14:32Z",
-      "summary": "Voyage performance varies even between seemingly identical ships, and models built on vessel-type averages often miss the mark. Manta Marine Technologies (Manta) closes that gap with machine learning (ML) models trained on each vessel’s own operational history. In this post, we show how Manta delivers vessel-specific voyage optimization with machine learning on Amazon Web Services (AWS), helping s",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/23/ARCHBLOG-1667-1.png"
     },
     {
       "id": "415425926777995a6bc0",
@@ -996,7 +1041,7 @@
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/10/22/is-ai-really-reshaping-the-developer-market/",
       "publishedAt": "2026-10-22T16:37:39Z",
-      "summary": null,
+      "summary": "The market for developer jobs is shrinking, and it's getting harder to hire the engineers you need.",
       "imageURL": null
     },
     {
@@ -1241,15 +1286,6 @@
       "publishedAt": "2026-10-14T18:35:00Z",
       "summary": "You submit a Kubernetes Job and wait for its Pods to appear. A minute passes. Then another. The Job is still suspended, there are no application logs, and there may not even be a Pod to inspect. In a cluster managed by Kueue , this can be completely normal. Kueue may still be deciding whether the Job can use the requested resources. The useful question is not only “Why is the Pod pending?” It is f",
       "imageURL": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/kueue-admission-architecture.png"
-    },
-    {
-      "id": "71b626c79ce7801339f6",
-      "title": "Your next job doesn’t have a title yet: Emerging role skills Q&A with Cory Hymel of Andela",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/14/your-next-job-doesn-t-have-a-title-yet-emerging-role-skills-q-and-a-with-corey-hymel-of-andela/",
-      "publishedAt": "2026-10-14T17:12:00Z",
-      "summary": "While the whispers say that everyone is becoming a generalist, that's not where headcount is going.",
-      "imageURL": null
     },
     {
       "id": "664a99950228d053fcfc",
@@ -1762,42 +1798,6 @@
       "url": "http://notes.eatonphil.com/2026-09-06-data-races-and-the-limits-of-threadsanitizer-in-c-and-go.html",
       "publishedAt": "2026-09-06T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "58cd2f8e771e42a3fea4",
-      "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
-      "publishedAt": "2026-09-04T18:30:00Z",
-      "summary": "Kubernetes v1.37 promotes the KubeletInUserNamespace feature gate to beta. With this feature enabled, all of the node components (kubelet, CRI and OCI runtimes, CNI plugins, and kube-proxy) can run as a non-root user on the host, using a Linux user namespace . This technique is also known as rootless mode . The work started as an experiment in 2018, and was merged into Kubernetes v1.22 (2021) as a",
-      "imageURL": null
-    },
-    {
-      "id": "cae3cde0353c76965b26",
-      "title": "Kubernetes v1.37: DRA Updates",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
-      "publishedAt": "2026-09-03T18:30:00Z",
-      "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building toward for three straight releases. Several more features graduate to Beta or GA. A fresh batch of alpha features rounds out the release. I'll dive into what's new for DRA in Kubernetes 1.37! What's stable",
-      "imageURL": null
-    },
-    {
-      "id": "95b0cd6c98afdd89e223",
-      "title": "Your Agent Speaks MCP. Give It a Computer.",
-      "sourceName": "Fly.io Blog",
-      "url": "https://fly.io/blog/sprites-mcp/",
-      "publishedAt": "2026-09-03T00:00:00Z",
-      "summary": "Sprites are disposable cloud computers. They appear instantly, always include durable filesystems, and cost practically nothing when idle. They’re the best and safest place on the Internet to run agents and we want you to create dozens of them . Update, November 2026: the Sprites MCP server now lives inside the Fly MCP at https://mcp.fly.io , and we are transitioning away from the sprites.dev/mcp ",
-      "imageURL": null
-    },
-    {
-      "id": "70479d5f705bda65e917",
-      "title": "Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
-      "publishedAt": "2026-09-02T18:30:00Z",
-      "summary": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down to zero replicas. This feature is now Beta and enabled by default. A HorizontalPodAutoscaler (HPA) that uses a suitable object metric or external metric can now scale a workload to zero replicas, then bring it back when the metric changes. Before v1.37, you needed an add-on or external component, or you had to enabl",
       "imageURL": null
     }
   ]
