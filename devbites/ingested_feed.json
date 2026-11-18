@@ -1,6 +1,69 @@
 {
   "articles": [
     {
+      "id": "a0792ea92321f1439be1",
+      "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
+      "publishedAt": "2026-11-18T14:52:10Z",
+      "summary": "On November 17, 2026, the security research company Calif disclosed Java4Shell (CVE-2026-114938) , a memory-corruption vulnerability in the Base64 decoder of OpenJDK, the most widely used Java runtime. Under the Common Vulnerability Scoring System (CVSS) 4.0, it scores 9.2 out of 10 (Critical). The flaw affects Java. OpenJDK published a security advisory and Oracle released patched builds in its N",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M7QEX0WPTPFDDEE77HAVYYGB.01M7QEX1A784VKSE3C9SPC0P30.png"
+    },
+    {
+      "id": "ba6cc7eb4543ca4158e5",
+      "title": "The Trust Layer: Securing Agentic AI with Docker AI Governance",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=96241",
+      "publishedAt": "2026-11-18T14:00:00Z",
+      "summary": "The Agent Trust Gap The security problem changes once an AI agent can do more than answer a prompt. It can execute code, access files, connect to services, and call external tools. That creates a new security question for enterprises: how do you give an agent enough freedom to be useful without giving it more access than it actually needs? A model decision is not automatically an authorized action",
+      "imageURL": "https://www.docker.com/app/uploads/2026/11/image2.png"
+    },
+    {
+      "id": "9fd23e018da5cf4fc36c",
+      "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "publishedAt": "2026-11-17T20:24:27Z",
+      "summary": "Last month, the Swiss non-profit foundation Quad9 announced that it will withdraw its free public DNS resolver from France. This difficult decision followed months of litigation and a French court ruling that imposed daily financial penalties on Quad9 for failing to block domains associated with alleged copyright infringement. Quad9’s departure from France is both disheartening and understandable.",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M7NJ9YQG0JNP2HSE7YEGCHJB.png"
+    },
+    {
+      "id": "3c1c44c31d21a0f374f5",
+      "title": "Building the Agent Host Protocol for sessions that continue across devices",
+      "sourceName": "GitHub Engineering",
+      "url": "https://github.blog/?p=100309",
+      "publishedAt": "2026-11-17T18:20:40Z",
+      "summary": "Models are now good enough to work for hours or even days on their own. You don’t have to watch over every thing they do, but you still need to be able to check in, no matter where you are. An agent can’t live only inside one application. The work should continue even If you close a window or switch devices. In GitHub Copilot you can start an agent session in one place and pick it up in another. T",
+      "imageURL": "https://github.blog/wp-content/uploads/2026/11/ahp-protocol-state.png?resize=1024%2C512"
+    },
+    {
+      "id": "452fbe79dabfba163942",
+      "title": "De-identifying text at scale: How Airbnb protects personal data in AI training",
+      "sourceName": "Airbnb Engineering (Medium)",
+      "url": "https://medium.com/p/32f3ff8ff7d0",
+      "publishedAt": "2026-11-17T18:01:03Z",
+      "summary": "Here’s how Airbnb detects and replaces personal data in messages, reviews, and support chats before it reaches a model. By: Emelin Flores , Alex Klimov , Lee Formyduval , Bahador Nooraei Introduction Airbnb is built on trust. Every night that a guest books a stay, or a host welcomes someone into their home, that trust is backed by information they’ve shared with us, which includes personally ident",
+      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*nyiV0meGhVO9cZszJPeHCQ.jpeg"
+    },
+    {
+      "id": "ad3e7a4f34ed042f459b",
+      "title": "Engineering AI Discover",
+      "sourceName": "Netflix TechBlog",
+      "url": "https://medium.com/p/e244944cdc38",
+      "publishedAt": "2026-11-17T17:01:02Z",
+      "summary": "The challenges and decisions behind AI Discover’s intelligence layer By Varun Khaitan , Peng Ren , Gary Tang , Itay Teller , Atif Faheem , Nipun Kumar , Donnie DeBoer , Eduardo Lundgren , Matteo Rinaldi , Raghav Bakshi We recently introduced AI Discover , a new tab in our TV app where a small group of members can try new ways to find something to watch. For years, our recommendations have worked i",
+      "imageURL": "https://cdn-images-1.medium.com/max/1000/1*MSAqZ2TgZxKfGifhug2wuA.gif"
+    },
+    {
+      "id": "fe0692b4ed44de68430c",
+      "title": "How Rakbank built centralized observability at scale with Amazon OpenSearch Service",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-rakbank-built-centralized-observability-at-scale-with-amazon-opensearch-service/",
+      "publishedAt": "2026-11-17T16:03:22Z",
+      "summary": "In this post, we discuss how Rakbank retail digital banking platform ingests approximately 150 GB a day of telemetry across a cross-account, Multi-Availability Zone (Multi-AZ) Amazon OpenSearch Service design, with hot/warm/cold tiering, 7-year compliance retention backed by Amazon Simple Storage Service (Amazon S3), and approximately 55 percent cost savings over an all-hot cluster. Context and wo",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/11/ARCHBLOG-1730-1.jpg"
+    },
+    {
       "id": "d1a5244f7aa1b7ce1537",
       "title": "Smooth Cruiser at Lyft: Built for Safety and Transparency",
       "sourceName": "Lyft Engineering",
@@ -163,10 +226,10 @@
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/10/1711-1.png"
     },
     {
-      "id": "28c4f07ac693f8e82234",
+      "id": "48dfdea0454385a0dcda",
       "title": "How do you hire a human? Q&A with Tom Harvey, Stack Overflow technical recruiter",
       "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human/",
+      "url": "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human-q-and-a-with-tom-harvey-stack-overflow-technical-recruiter/",
       "publishedAt": "2026-11-12T16:16:25Z",
       "summary": "Everybody's resume is perfect now, so how do you find the perfect teammate?",
       "imageURL": null
@@ -838,15 +901,6 @@
       "imageURL": null
     },
     {
-      "id": "e4626ac67d3199072e92",
-      "title": "Publishing LMS courses with a Kiro SCORM pipeline",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/publishing-lms-courses-with-a-kiro-scorm-pipeline/",
-      "publishedAt": "2026-10-27T17:23:23Z",
-      "summary": "Publishing a Shareable Content Object Reference Model (SCORM) course to a learning management system (LMS) is rarely as straightforward as writing the course. The LMS needs SCORM packages to adhere to a standard format for successful import and launch. Producing one by hand means restructuring slides into modules and hand-editing SCORM manifests. The packaging mechanics pull authors away from deve",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/26/ARCHBLOG-1570-1-1.png"
-    },
-    {
       "id": "415425926777995a6bc0",
       "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
       "sourceName": "Meta Engineering",
@@ -1027,15 +1081,6 @@
       "imageURL": null
     },
     {
-      "id": "4261f5798a886df5884a",
-      "title": "Security Update on PHP2Shell: Impact for Docker Customers",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=95191",
-      "publishedAt": "2026-10-22T17:22:47Z",
-      "summary": "Summary On Tuesday, October 20, 2026, Docker began tracking two critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619 , commonly known as PHP2Shell. The vulnerabilities allow attackers to execute code remotely in PHP core, and they affect PHP packages going back to version 5.4: the supported versions 8.2 through 8.5, and the end-of-life versions 5.x, 7.x, 8.0, and 8.1. To address th",
-      "imageURL": null
-    },
-    {
       "id": "5ab627793327df87b351",
       "title": "Is AI really reshaping the developer market?",
       "sourceName": "Stack Overflow Blog",
@@ -1043,15 +1088,6 @@
       "publishedAt": "2026-10-22T16:37:39Z",
       "summary": "The market for developer jobs is shrinking, and it's getting harder to hire the engineers you need.",
       "imageURL": null
-    },
-    {
-      "id": "405699f87f1c074465d9",
-      "title": "Localizing compliance at scale: Achieving South Korea’s ISMS certification",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/k-isms/",
-      "publishedAt": "2026-10-22T13:00:00Z",
-      "summary": "For ten days, auditors appointed by the Korea Internet & Security Agency (KISA) sat together with us and worked through 80 controls. That is what it took for a company headquartered in the United States, operating a global network serving Korean users, to be certified in South Korea. Cloudflare has now obtained South Korea's Information Security Management System (ISMS) certification under the ISM",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5G8JRPS2ZR304ZH695BQBTD.01M5G8JS8D86H6MQHCQERAW2XC.png"
     },
     {
       "id": "b00606b7d715372d4090",
@@ -1106,15 +1142,6 @@
       "publishedAt": "2026-10-21T15:00:00Z",
       "summary": "Today we’re publishing patching-bugs and regression-hunt , two plugins that let engineers delegate patch development and regression checks to agents. Our patching-bugs plugin reproduces reported bugs, develops fixes, and tests them. The regression-hunt plugin checks whether any changes break previously working and supported behavior. Engineers can direct the work and review their results; maintain",
       "imageURL": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/patching_figure1_hu_fd1b211e358e4802.webp"
-    },
-    {
-      "id": "59c87ea544e0e5db59d1",
-      "title": "Introducing full transaction detection for Cloudflare WAF",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/full-transaction-waf/",
-      "publishedAt": "2026-10-21T14:10:42Z",
-      "summary": "Today, we are expanding our web application firewall (WAF) by adding two new capabilities: full transaction detections and response rules. Full transaction detections evaluate each HTTP request alongside its response to identify evidence of exploitation. It helps answer both \"Does this request look malicious?\" and \"What happened when the application handled it?\" Response rules can then block the o",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5E1HKVR7WJX7KGB4B8MSK75.png"
     },
     {
       "id": "15579fae61f55c62a7e3",
@@ -1259,15 +1286,6 @@
       "publishedAt": "2026-10-14T19:57:43Z",
       "summary": "By Kevin Zielnicki, Guy Aridor, Aurélien Bibaut, Allen Tran, Winston Chou, and Nathan Kallus Introduction Personalization is everywhere on the internet. It shapes the products we discover, the stories we read, the music we hear, and the movies and TV shows we watch. At Netflix, personalization has been central to the member experience for decades — from the Netflix Prize to our modern recommender ",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*lWLZiuDQ7WWaPsdEHZoNnw.png"
-    },
-    {
-      "id": "136cce715207b73d2e3e",
-      "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads",
-      "sourceName": "Netflix TechBlog",
-      "url": "https://medium.com/p/e59d597c9d60",
-      "publishedAt": "2026-10-14T19:56:08Z",
-      "summary": "By Oleksii Tkachuk , Rajiv Shringi , Chris Lohfink , Abe Ratnofsky , Kartik Sathyanarayanan Introduction In an earlier post , we introduced the TimeSeries Abstraction, our high-throughput, low-latency platform designed to store and query temporal event data at scale. It has since become the operational backbone for Netflix’s largest datasets, which now span multiple petabytes. However, managing su",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*ZL0rDP0Un-DxepYPmFo4aQ.png"
     },
     {
       "id": "db2dc16f5a8b8e8b4dec",
@@ -1781,24 +1799,6 @@
       "publishedAt": "2026-09-08T00:00:00Z",
       "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
-    },
-    {
-      "id": "a6ea7e0996812fc4286f",
-      "title": "How well do agents use test/verification techniques?",
-      "sourceName": "Dan Luu",
-      "url": "https://danluu.com/agentic-testing/",
-      "publishedAt": "2026-09-07T00:00:00Z",
-      "summary": "We previously noted that, while it's easier than ever to hit a particular quality bar by having coding agents use effective test techniques, software quality seems to be getting worse , indicating that whatever defaults developers are using may not work very well. Here, we test if simple instructions to agents to use particular techniques or libraries improve implementation correctness, as a kind ",
-      "imageURL": null
-    },
-    {
-      "id": "fbb76b9dcf1a738b3c30",
-      "title": "Data races and the limits of ThreadSanitizer in C and Go",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-09-06-data-races-and-the-limits-of-threadsanitizer-in-c-and-go.html",
-      "publishedAt": "2026-09-06T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
     }
   ]
 }
