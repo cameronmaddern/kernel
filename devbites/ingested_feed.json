@@ -1,6 +1,87 @@
 {
   "articles": [
     {
+      "id": "32c1e05692d04a88fbfb",
+      "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+      "publishedAt": "2026-11-19T14:00:00Z",
+      "summary": "Visitors to government election websites surged 363% on November 3, the date of the 2026 midterm elections in the United States. Across Cloudflare's election protection programs, we also detected a significant shift in the types and timing of cyberattacks throughout 2026. Unlike what we saw in other recent elections, attackers focused on gaining access to internal systems and data, rather than kno",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M7R61QF048WWQ6F9XZ3TXEG9.01M7R61R40AS8MPD7CDPFJVBQG.png"
+    },
+    {
+      "id": "26b77258c1251852a20e",
+      "title": "Chaos, then control: the maturity model most AI rollouts skip over",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/19/chaos-then-control/",
+      "publishedAt": "2026-11-19T08:40:00Z",
+      "summary": "Every engineering org has rolled out AI coding tools by now, but far fewer have actually seen the outcomes they were hoping for.",
+      "imageURL": null
+    },
+    {
+      "id": "59676f9c19ef80723c7c",
+      "title": "Aderant modernizes analytics data pipeline with Apache Iceberg and AWS Lambda",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/aderant-modernizes-analytics-data-pipeline-with-apache-iceberg-and-aws-lambda/",
+      "publishedAt": "2026-11-19T00:36:23Z",
+      "summary": "This post is co-written with Aderant. Aderant, a global provider of business management software for the legal industry, modernized the data pipeline powering its Stridyn analytics tool using Apache Iceberg , AWS Lambda , and AWS Glue . The new architecture delivers near real-time data availability for 700 client environments across 266 source tables. It replaces a batch-oriented pipeline that too",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/12/ARCHBLOG-1673-1.png"
+    },
+    {
+      "id": "c9098ac47ad213215e81",
+      "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/open-clairic/",
+      "publishedAt": "2026-11-18T22:00:00Z",
+      "summary": "Cloudflare has become a neolab. We’re building our own frontier AI models for our customers and the open-source community. Today, we’re announcing two open-weight model releases: We’re introducing an updated version of Clairic . Since the preview, we’ve improved extraction from complex documents including images and PDFs (new!), with more reliable handling of tables, lists, and dates, and better g",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M7R8CJQT5KFR9NBMZB2FTDQ3.01M7R8CK3P86K910EXDKQFBE6N.png"
+    },
+    {
+      "id": "5f272bf749e71ff19749",
+      "title": "How United Airlines streams database changes to Apache Iceberg with Amazon Data Firehose",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-united-airlines-streams-database-changes-to-apache-iceberg-with-amazon-data-firehose/",
+      "publishedAt": "2026-11-18T20:37:39Z",
+      "summary": "This post is co-authored with Tunde Fowora, Principal Architect at United Airlines. United Airlines, headquartered in Chicago, IL, United States, is the world’s largest airline based on revenue passenger miles, according to United Airlines. In this post, we explore how United Airlines adopted Apache Iceberg for large-scale data processing while managing near-real-time data synchronization from tra",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/16/ARCHBLOG-1326-1.png"
+    },
+    {
+      "id": "6e1846ada3a4ef49b9d9",
+      "title": "Resilience testing your agents on Amazon Bedrock AgentCore",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/resilience-testing-your-agents-on-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-11-18T20:06:14Z",
+      "summary": "When an artificial intelligence (AI) agent’s tools start failing (a database query times out, an API returns incorrect data, a search call silently drops fields), what does your agent do? Does it retry, fall back, or acknowledge it can’t complete the task? Or does it present a confident answer built on corrupted data, show the user a raw error, or fail silently with no alert to your operations tea",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/13/ARCHBLOG-1610-1.png"
+    },
+    {
+      "id": "1f6aa716eacb4a1e1075",
+      "title": "Block DNS threats with Infoblox rules in Amazon Route 53 Resolver DNS Firewall",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/block-dns-threats-with-infoblox-rules-in-amazon-route-53-resolver-dns-firewall/",
+      "publishedAt": "2026-11-18T18:35:14Z",
+      "summary": "Blocking DNS threats at the lookup stage helps you interrupt malware delivery, command-and-control channels, and data exfiltration. Attackers use domain names to reach your network and to move data out of it. With Amazon Route 53 Resolver DNS Firewall (DNS Firewall), you can already filter outbound DNS queries from your Amazon Virtual Private Cloud (Amazon VPC) resources, but keeping domain lists ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/13/ARCHBLOG-1774-1.png"
+    },
+    {
+      "id": "9d48c334ebe58b9a8dc5",
+      "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=25068",
+      "publishedAt": "2026-11-18T17:00:00Z",
+      "summary": "Our previous post in this series introduced the Ranking Engineer Agent (REA) , an autonomous system that generates hypotheses, designs experiments, and proves new machine learning (ML) techniques on ads ranking models. Now, we’re sharing how we propagate ranking model improvements like architectural advancements and training optimizations efficiently across a large and diverse fleet of ads ranking",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-Scaling-Techniques-image-2-3.png"
+    },
+    {
+      "id": "145059841256c48357ae",
+      "title": "Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem",
+      "sourceName": "Meta Engineering",
+      "url": "https://engineering.fb.com/?p=25067",
+      "publishedAt": "2026-11-18T16:59:38Z",
+      "summary": "As ML ecosystems grow to a large number of production models, the bottleneck is no longer inventing new techniques to improve these models, but rather shipping them reliably and efficiently across a fragmented model space, creating a rising tide that lifts all the boats. At Meta, we built a template-driven approach that standardizes model design into a small set of reusable and composable building",
+      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-Standard-Model-Templates-SMT-image-1.png"
+    },
+    {
       "id": "a0792ea92321f1439be1",
       "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
       "sourceName": "Cloudflare Blog",
@@ -16,7 +97,16 @@
       "url": "https://www.docker.com/?p=96241",
       "publishedAt": "2026-11-18T14:00:00Z",
       "summary": "The Agent Trust Gap The security problem changes once an AI agent can do more than answer a prompt. It can execute code, access files, connect to services, and call external tools. That creates a new security question for enterprises: how do you give an agent enough freedom to be useful without giving it more access than it actually needs? A model decision is not automatically an authorized action",
-      "imageURL": "https://www.docker.com/app/uploads/2026/11/image2.png"
+      "imageURL": "https://www.docker.com/app/uploads/2026/11/image3.png"
+    },
+    {
+      "id": "d1cd8871fe6f6c230318",
+      "title": "Traffic mix matters",
+      "sourceName": "Marc Brooker",
+      "url": "http://brooker.co.za/blog/2026/11/18/workload-mix",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "summary": "Traffic mix matters Wanna listen to my mixtape? The preliminary report on last week’s M365 outage contains one statement that really caught my eye: Our normal load testing did not detect the latent issue because [of] the traffic mix and SKUs used in our labs. There’s a lot going on in this report (as there is in any report for a complex system), but I wanted to zoom in on this one issue: traffic m",
+      "imageURL": null
     },
     {
       "id": "9fd23e018da5cf4fc36c",
@@ -784,24 +874,6 @@
       "imageURL": null
     },
     {
-      "id": "ac5a0457025147b3f333",
-      "title": "How BMW Group accelerated connected vehicle workloads on AWS Graviton",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-bmw-group-accelerated-connected-vehicle-workloads-on-aws-graviton/",
-      "publishedAt": "2026-10-29T20:11:14Z",
-      "summary": "This post is co-written with Tomislav Lozancic, Hrvoje Lukavski from BMW Group, and Hugo Cardoso from CTW. BMW Connected Company, a division within BMW Group , develops and operates premium digital services for BMW’s connected vehicle fleet of more than 24.5 million vehicles worldwide. Critical TechWorks (CTW), established in September 2018, focuses exclusively on developing software for BMW Group",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/22/ARCHBLOG-1717-1.png"
-    },
-    {
-      "id": "35d509f7b66d6cd9e996",
-      "title": "How boAt delivers personalized fitness coaching with Amazon Bedrock",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-boat-delivers-personalized-fitness-coaching-with-amazon-bedrock/",
-      "publishedAt": "2026-10-29T18:16:38Z",
-      "summary": "This post is co-written with Sridhara Seshadri from KaHa Technologies Pvt Ltd, a wholly-owned subsidiary of Imagine Marketing Limited (IML). Recognizing that users need more than raw fitness data, boAt launched the “AI Coach” feature. It uses a combination of user history, preferences, and generative AI to deliver personalized coaching plans in real time. Using AWS, boAt built a solution that deli",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/20/kaha1.jpg"
-    },
-    {
       "id": "d6038e448d537aac2d32",
       "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
       "sourceName": "Meta Engineering",
@@ -856,33 +928,6 @@
       "imageURL": null
     },
     {
-      "id": "c60b6c4589845cfd3927",
-      "title": "How Revinate accelerated API adoption with Amazon API Gateway",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/how-revinate-accelerated-api-adoption-with-amazon-api-gateway/",
-      "publishedAt": "2026-10-28T18:32:34Z",
-      "summary": "Accelerating API adoption while reducing operational overhead is a challenge that every growing organization faces. For Revinate, a hospitality provider serving over 12,500 hotels worldwide and powering more than 1.25 billion guest profiles, Amazon API Gateway became the foundation of their solution. Revinate empowers hoteliers to connect directly with guests at every touchpoint, driving $24 billi",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/01/ARCHBLOG-1352-1.png"
-    },
-    {
-      "id": "19db5370b733c146ec82",
-      "title": "Automating agentic AI Well-Architected reviews with the AWS Agentic AI Lens",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/automating-agentic-ai-well-architected-reviews-with-the-aws-agentic-ai-lens/",
-      "publishedAt": "2026-10-28T18:25:50Z",
-      "summary": "In regulated industries, there’s no room for a move fast and break things approach, especially when AI agents are handling sensitive customer communications data. In this post, we show how Smarsh, a leading archiving and compliance platform for communications intelligence, used the AWS Well-Architected Framework’s Agentic AI Lens to conduct a rigorous, evidence-based review of its first agentic wo",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/23/1726-2.png"
-    },
-    {
-      "id": "4bc94d3dbcd1d25322c7",
-      "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24890",
-      "publishedAt": "2026-10-28T16:00:01Z",
-      "summary": "This post describes the next generation of Meta Andromeda, Meta’s personalized ads retrieval engine, and how co-designing the model, system, and GPU hardware unlocks a new efficiency frontier for ads retrieval. In production, the system scores every eligible ad with near ranking-level model performance at retrieval scale and surfaces the top candidates at over one billion ads per second, a new thr",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Andromeda-co-design-image-1.png"
-    },
-    {
       "id": "34956694a72f2db8bafe",
       "title": "Delivering controlled and concentrated context",
       "sourceName": "Stack Overflow Blog",
@@ -899,15 +944,6 @@
       "publishedAt": "2026-10-28T13:00:00Z",
       "summary": "Over the past year, almost every conversation I’ve had with a partner has ended in the same place. Their customers are moving AI agents out of the lab and into production, and the moment they do, the question changes. It stops being “Can we build this?” and becomes “Can we trust it, secure it, and govern it?” The partners who can answer that second set of questions are the partners customers keep.",
       "imageURL": null
-    },
-    {
-      "id": "415425926777995a6bc0",
-      "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
-      "sourceName": "Meta Engineering",
-      "url": "https://engineering.fb.com/?p=24851",
-      "publishedAt": "2026-10-27T16:00:12Z",
-      "summary": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib. A privacy requirement must hold as data moves through Meta’s diverse data and processing systems. Historically, supporting a new requirement meant implementing the same enforcement logic separately in each system. PrivacyLib replaces this with a common library that runs inside the clients of Meta’s dat",
-      "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/PrivacyLib-Figure-1.png"
     },
     {
       "id": "b98b75e5e3efe8c183df",
@@ -1007,24 +1043,6 @@
       "publishedAt": "2026-10-23T18:32:51Z",
       "summary": "By Roberto Perez Alcolea , Java Platform Team Quasar connects a proposed API change with observed references in consumer repositories, giving the producer evidence for a release decision At Netflix, shared Java libraries support applications developed across a large, independently evolving repository ecosystem. A library change begins in one repository, but its impact can reach many others. Produc",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*K06WZmnRhhXBboIskWb8qg.png"
-    },
-    {
-      "id": "60f970e1df3b48e38265",
-      "title": "Origin Range Requests: Serving large files without range-request tuning",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/origin-range-requests/",
-      "publishedAt": "2026-10-23T18:22:59Z",
-      "summary": "A video player seeking to the middle of a movie asks for a few megabytes. Under our old range caching, that one request could make Cloudflare pull 128 MiB from the origin and move it between data centers, sometimes after the viewer had already left. Range requests are how large files get delivered, and caching them naively easily leads to wasted network bandwidth and wasted disk operations when ru",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5MZP89Y10XGACD5T6G2F398.png"
-    },
-    {
-      "id": "70bdd870b2ac82df6eaf",
-      "title": "Bringing post-quantum cryptography to geographically fenced key management",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-      "publishedAt": "2026-10-23T18:06:56Z",
-      "summary": "Today, Cloudflare is launching a post-quantum geographically restricted key manager in support of our Data Localization Suite (DLS) in closed beta. This new PQ GeoKey Manager is a cornerstone of Cloudflare’s data sovereignty solutions, making sure that a customer's decryption keys are only accessible in their chosen geography. GeoKey Manager implements this by wrapping each decryption key such tha",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5MYF3Y4CXM47ZAN16JYM04W.png"
     },
     {
       "id": "88a578fde5a11c0df6c0",
@@ -1232,15 +1250,6 @@
       "publishedAt": "2026-10-15T18:00:00Z",
       "summary": "Working with outside collaborators can add more work for a repository owner. You need to confirm who still needs access, change permissions as projects evolve, and archive repositories once they’ve served their purpose. To keep up, repository owners need to track collaborators, deadlines, and follow-ups for each repository. As a project grows, that manual housekeeping becomes harder to keep up wit",
       "imageURL": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221"
-    },
-    {
-      "id": "97676a1d3596f158db05",
-      "title": "Why your platform team shouldn't build an AI context layer (even though they probably could)",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/15/your-team-shouldnt-build-an-ai-context-layer/",
-      "publishedAt": "2026-10-15T17:00:00Z",
-      "summary": "Most engineering teams capable of building an internal AI knowledge system think they should. But six months later, it's a platform team's full-time job. Building an in-house AI context layer costs more money and energy than you think.",
-      "imageURL": null
     },
     {
       "id": "71b074246bff4475e655",
@@ -1790,15 +1799,6 @@
       "publishedAt": "2026-09-08T18:30:00Z",
       "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 delivers the next major milestone in the Workload-Aware Scheduling (WAS) journey. In this release, the core Workload and PodGroup APIs—enabling gang scheduling—along with Workload-Aware Preemption (WAP",
       "imageURL": null
-    },
-    {
-      "id": "0482ec019f2155310d43",
-      "title": "Discord Patch Notes: September 8, 2026",
-      "sourceName": "Discord Blog",
-      "url": "https://discord.com/blog/discord-patch-notes-september-8-2026",
-      "publishedAt": "2026-09-08T00:00:00Z",
-      "summary": "Check out the finer details of the more technical fixes implemented into Discord recently.",
-      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/683a385e31ae16bd173ee8d9_image2.png"
     }
   ]
 }
