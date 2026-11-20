@@ -1,6 +1,69 @@
 {
   "articles": [
     {
+      "id": "d622f480a30c9036af00",
+      "title": "Trying to get our Arms around AI efficiency",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/20/trying-to-get-our-arms-around-ai-efficiency/",
+      "publishedAt": "2026-11-20T08:40:00Z",
+      "summary": "Ryan sits down with Alex Spinelli, Senior Vice President of AI and Developer Platforms at Arm, for a conversation about bringing ML capabilities to edge devices, adapting software tools to meet the unique demands of autonomous agents, and the critical importance of prioritizing functional safety as artificial intelligence transitions into the physical world of robotics.",
+      "imageURL": null
+    },
+    {
+      "id": "17fab3637860c9a7ef34",
+      "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/nginx2root/",
+      "publishedAt": "2026-11-20T01:58:29Z",
+      "summary": "On November 18, 2026, F5 and nginx.org disclosed ten vulnerabilities in nginx. Five of them, detailed by the Xint research team and published under the name nginx2root , are memory corruption flaws that an unauthenticated attacker can use to crash an nginx worker or, per Xint's research, run commands on the server. Xint also found a Linux kernel bug that turns that foothold into root on the host, ",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M7V6N9XSHCT1GMC5KHVYE692.01M7V6NAA3FDH1YV1552W4P5P7.png"
+    },
+    {
+      "id": "49ff5209e579470422e8",
+      "title": "AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/",
+      "publishedAt": "2026-11-20T01:10:14Z",
+      "summary": "When the Cognition team set out to give Devin, their AI software engineer, the ability to build Apple apps, they ran into a basic requirement: Devin needed a Mac. The process of building, testing, and signing apps for iPhone, iPad, and Mac requires both Apple hardware and macOS, regardless of who (or what) writes the code, which was not supported until a couple months ago. To give Devin access to ",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/19/ARCHBLOG-1783-1.png"
+    },
+    {
+      "id": "ced6b72aa3cbccedd7b3",
+      "title": "Petsem: Sometimes Dead Is Better",
+      "sourceName": "Fly.io Blog",
+      "url": "https://fly.io/blog/petsem/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "summary": "It’s a hard time to be in infosec. Not that it was ever easy, mind you, but nowadays it seems particularly bad, what with the speed at which LLM-powered attackers can explore, iterate, and exploit their victims. The balance of power has tipped in favor of attackers, and while as defenders we may be on the back foot, we can take some steps to try and mitigate risks. The risks, they are legion, but ",
+      "imageURL": null
+    },
+    {
+      "id": "17bcb7d6786e142bc9d4",
+      "title": "How Country Road Group built a pattern-driven integration solution on AWS",
+      "sourceName": "AWS Architecture Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws/",
+      "publishedAt": "2026-11-19T23:07:30Z",
+      "summary": "Are you an integration architect, platform lead, or engineering manager spending a considerable amount on middleware licenses only to move data between systems? This post shows how Country Road Group replaced that middleware with a pattern-driven integration solution on AWS. Enterprise integration solutions like BizTalk, MuleSoft, TIBCO and Boomi solved the right problem when they emerged. But the",
+      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/17/ARCHBLOG-1635-1-1.png"
+    },
+    {
+      "id": "2fdbc18cc4c60869951e",
+      "title": "Docker patches Java4Shell and the NGINX HTTP/2 with Docker Hardened Images",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=96314",
+      "publishedAt": "2026-11-19T17:38:08Z",
+      "summary": "OpenJDK and Oracle disclosed Java4Shell (CVE-2026-114938) on November 17, and NGINX released fixes for two HTTP/2 flaws the next day. Docker began publishing fixed images for both in the Docker Hardened Images (DHI) catalog starting that same day. What we know about Java4Shell is that it’s a memory-corruption bug in the Java runtime that can let an attacker with no credentials run code inside a Ja",
+      "imageURL": null
+    },
+    {
+      "id": "e686348412519bd5ff5c",
+      "title": "Meet the New Docker: Built to Run on Trust",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=96224",
+      "publishedAt": "2026-11-19T17:00:00Z",
+      "summary": "Evolving an iconic brand for the agentic era Today, Docker is officially launching its new brand, and I’m excited to tell you what it’s all about and why we think now is the time for change. Let’s start with the big picture. We’re living through a transformative moment: for Docker, for developers, for the industry, and quite possibly, for humanity itself. AI is creating possibilities that would ha",
+      "imageURL": "https://www.docker.com/app/uploads/2026/11/blog-frame-2320x957.png"
+    },
+    {
       "id": "32c1e05692d04a88fbfb",
       "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
       "sourceName": "Cloudflare Blog",
@@ -19,6 +82,15 @@
       "imageURL": null
     },
     {
+      "id": "b2c3df3cfc0a003faf98",
+      "title": "Tiger Lake is generally available: Keep your operational data in sync with your lakehouse",
+      "sourceName": "Timescale",
+      "url": "https://www.tigerdata.com/blog/tiger-lake-ga",
+      "publishedAt": "2026-11-19T07:30:00Z",
+      "summary": "Your application writes to Postgres. Your data team works in a lakehouse. Keeping them connected often means building a pipeline and taking responsibility for it. Today we’re making Tiger Lake generally available to all Tiger Cloud users. It continuously syncs Postgres tables and TimescaleDB hypertables into Apache Iceberg, an open table format that lets you use the same data across analytical too",
+      "imageURL": "https://assets.tigerdata.com/blog/2026/11/data-src-image-746883f4-a1bb-4f3a-96b8-fad7470dcf78.png"
+    },
+    {
       "id": "59676f9c19ef80723c7c",
       "title": "Aderant modernizes analytics data pipeline with Apache Iceberg and AWS Lambda",
       "sourceName": "AWS Architecture Blog",
@@ -26,6 +98,24 @@
       "publishedAt": "2026-11-19T00:36:23Z",
       "summary": "This post is co-written with Aderant. Aderant, a global provider of business management software for the legal industry, modernized the data pipeline powering its Stridyn analytics tool using Apache Iceberg , AWS Lambda , and AWS Glue . The new architecture delivers near real-time data availability for 700 client environments across 266 source tables. It replaces a batch-oriented pipeline that too",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/12/ARCHBLOG-1673-1.png"
+    },
+    {
+      "id": "73764be2fc570728a547",
+      "title": "Give your agents controlled access to analyze your data and move funds",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "summary": "Stripe Treasury now lets agents transfer funds, convert currencies, and pay vendors within limits you set. Give agents the access they need to help run your business, with customizable controls and human approvals.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/10A3T8HQCDd7rLV6grrGb1/b0d613db23d292c18597f389b7ec44cd/index-image.png"
+    },
+    {
+      "id": "52747d66570d479e030d",
+      "title": "Discord Update: November 19, 2026",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/discord-update-november-19-2026",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "summary": "Here's the Discord Changelog from November 19, 2026, so you can stay informed on what’s new in recent app updates!",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/636042835883b97b259ef618_Fall_November.png"
     },
     {
       "id": "c9098ac47ad213215e81",
@@ -676,15 +766,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6HZ1ZE3ZTGF9NEGGPF8SZNS.png"
     },
     {
-      "id": "14345863bd3579beb6d6",
-      "title": "Building the Modern Enterprise Historian: TimescaleDB Enterprise Is Now in Public Beta",
-      "sourceName": "Timescale",
-      "url": "https://www.tigerdata.com/blog/timescaledb-enterprise-is-in-public-beta",
-      "publishedAt": "2026-11-03T22:29:38Z",
-      "summary": "A new foundation for industrial history: TimescaleDB performance, enterprise-grade reliability, and integrated operations across sites, on infrastructure you control. Get started with the TimescaleDB Enterprise public beta. We’re announcing the public beta of TimescaleDB Enterprise today. It provides the database foundation for the new Ignition Enterprise Historian, available in Ignition 2027 from",
-      "imageURL": "https://assets.tigerdata.com/blog/2026/11/Benchmark_Table_Tiger_Data.png"
-    },
-    {
       "id": "2154e8f2577c89cb2e8b",
       "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
       "sourceName": "Meta Engineering",
@@ -746,24 +827,6 @@
       "publishedAt": "2026-11-02T17:26:33Z",
       "summary": "Part 2 of 3 In Part 1 of this series, you defined three business decisions that shape your disaster recovery (DR) commitment: the recovery boundary, the business-anchored target, and the dependency-reconciled commitment. Those decisions give you a target on paper. Testing tells you whether it holds under real conditions. This post covers a progressive approach to DR validation. Each level of testi",
       "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/29/ARCHBLOG-1634-p2-1-1.jpg"
-    },
-    {
-      "id": "1a058028230dc0236c37",
-      "title": "Three business decisions that define your DR success",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/three-business-decisions-that-define-your-dr-success/",
-      "publishedAt": "2026-11-02T17:26:26Z",
-      "summary": "Part 1 of 3 A disaster recovery (DR) strategy is only as strong as the business decisions behind it. The architecture and failover mechanisms matter, but they execute against targets that you define. In our experience facilitating enterprise DR exercises, the difference between teams that meet their recovery targets and teams that don’t often comes down to three decisions made (or deferred) before",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/29/ARCHBLOG-1634-p1-1.jpg"
-    },
-    {
-      "id": "498b9a7ec4e4c061cc72",
-      "title": "Automating the full AWS DRS agent lifecycle: Install, heal, and offboard",
-      "sourceName": "AWS Architecture Blog",
-      "url": "https://aws.amazon.com/blogs/architecture/automating-the-full-aws-drs-agent-lifecycle-install-heal-and-offboard/",
-      "publishedAt": "2026-11-02T17:21:29Z",
-      "summary": "If you protect a large Amazon Elastic Compute Cloud (Amazon EC2) fleet with AWS Elastic Disaster Recovery (AWS DRS), you manage the AWS Replication Agent across its whole lifecycle. You install it, keep it healthy and registered, and remove it cleanly when a server leaves disaster recovery (DR) scope. An enterprise IT customer with more than 300 Linux and Windows instances in DR scope ran into two",
-      "imageURL": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/29/ARCHBLOG-1628-1.png"
     },
     {
       "id": "3017d51cc49fa391b080",
@@ -937,15 +1000,6 @@
       "imageURL": null
     },
     {
-      "id": "e8d8cc27d3a1100066f1",
-      "title": "Win the Agentic Era, Together: Introducing the Docker Navigator Partner Program",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=95448",
-      "publishedAt": "2026-10-28T13:00:00Z",
-      "summary": "Over the past year, almost every conversation I’ve had with a partner has ended in the same place. Their customers are moving AI agents out of the lab and into production, and the moment they do, the question changes. It stops being “Can we build this?” and becomes “Can we trust it, secure it, and govern it?” The partners who can answer that second set of questions are the partners customers keep.",
-      "imageURL": null
-    },
-    {
       "id": "b98b75e5e3efe8c183df",
       "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
       "sourceName": "Cloudflare Blog",
@@ -1000,15 +1054,6 @@
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6ad92479d769414a9fb9c916_bloghero_1800x720.png"
     },
     {
-      "id": "e77549dba84aa9c32f2e",
-      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-      "publishedAt": "2026-10-26T22:01:23Z",
-      "summary": "On September 8, 2026, we were alerted by a security researcher, Gadi Evron from Knostic , to a tenant isolation issue affecting the GLM-5.3 Workers AI model ( @cf/zai-org/glm-5.3 ) starting on August 27, 2026. We have remediated the issue, and we restored the model on September 9. We have confirmed that no other model hosted on Workers AI was affected. Between August 27 and September 9, a small nu",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2P2KSNBX6J13E3B4219PW.png"
-    },
-    {
       "id": "969e532262cd52de7202",
       "title": "Making Failure Diagnosis Reliable with Pensive AI",
       "sourceName": "Netflix TechBlog",
@@ -1043,15 +1088,6 @@
       "publishedAt": "2026-10-23T18:32:51Z",
       "summary": "By Roberto Perez Alcolea , Java Platform Team Quasar connects a proposed API change with observed references in consumer repositories, giving the producer evidence for a release decision At Netflix, shared Java libraries support applications developed across a large, independently evolving repository ecosystem. A library change begins in one repository, but its impact can reach many others. Produc",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/1*K06WZmnRhhXBboIskWb8qg.png"
-    },
-    {
-      "id": "88a578fde5a11c0df6c0",
-      "title": "PHP2Shell and eMudhra Patched",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=95296",
-      "publishedAt": "2026-10-23T13:08:08Z",
-      "summary": "Two security events landed side by side this week, PHP2Shell and the eMudhra certificate compromise. Both reached the same place, the foundation their applications are built on. PHP2Shell is a pair of critical flaws in the PHP engine itself, CVE-2026-109618 and CVE-2026-109619. They let an unauthenticated request become code execution on the server, on any PHP application, however careful its own ",
-      "imageURL": null
     },
     {
       "id": "6c61528d90f0da5f1a3e",
@@ -1232,15 +1268,6 @@
       "publishedAt": "2026-10-16T00:00:00Z",
       "summary": "We’re introducing three updates to help fintechs launch products and grow internationally more easily: simpler payout management with Stripe Global Payouts, support for stablecoin cards in more countries, and unified APIs for building global financial products.",
       "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/eKftRVNsIvc86x4rTK06w/9f89d806876c97cb253098c787818baf/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__2_.png"
-    },
-    {
-      "id": "0ea3ed0cdd4344c04fe6",
-      "title": "MCP standardized tools. Now we need the infrastructure around them.",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/15/mcp-standardized-tools-now-we-need-the-infrastructure-around-them/",
-      "publishedAt": "2026-10-15T20:39:29Z",
-      "summary": null,
-      "imageURL": null
     },
     {
       "id": "6dd017814018895c66ad",
@@ -1484,15 +1511,6 @@
       "publishedAt": "2026-09-30T00:03:48Z",
       "summary": "Key Takeaways Hybrid retrieval catches the identifiers embeddings miss and the paraphrased questions keyword search misses. Reciprocal rank fusion merges keyword and semantic results by rank, without reconciling incompatible scores. Agent retrieval depends on tenant filters, permissions, and fresh transactional data as much as on document similarity. Unifying SQL and vector data removes index sync",
       "imageURL": null
-    },
-    {
-      "id": "2f1b526d3addd09f6f14",
-      "title": "OUSD is now the default stablecoin on Stripe",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/ousd-now-live-on-stripe",
-      "publishedAt": "2026-09-30T00:00:00Z",
-      "summary": "Open USD (OUSD), a stablecoin built for global money movement, is now available across Stripe. Businesses can use OUSD to manage funds, make payments, and offer new financial services.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/2YSRP4aCTTxIcUOn1lu4Qq/187eabba0a9b39e79b4c228b89812493/Square__4_.jpg"
     },
     {
       "id": "8dbf75dd8fc7e7e068b1",
@@ -1780,24 +1798,6 @@
       "url": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
       "publishedAt": "2026-09-09T18:30:00Z",
       "summary": "Kubernetes has many ways to describe what is happening on a Node. Readiness, taints, Pod state, labels, annotations, and provider-specific APIs each expose part of the picture. What has been missing is a shared, Kubernetes-owned way to say that a Node is draining , undergoing maintenance, or undergoing Graceful Node Shutdown . Kubernetes v1.37 introduces five well-known Node conditions that provid",
-      "imageURL": null
-    },
-    {
-      "id": "009d5c98023fba4a769b",
-      "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
-      "sourceName": "Trail of Bits",
-      "url": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
-      "publishedAt": "2026-09-09T11:00:00Z",
-      "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem , but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat’s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug , shown below, t",
-      "imageURL": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/proof-fermat-image_hu_f4c2a5f3789324fb.webp"
-    },
-    {
-      "id": "dec1072acd008ff8f7e4",
-      "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
-      "publishedAt": "2026-09-08T18:30:00Z",
-      "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 delivers the next major milestone in the Workload-Aware Scheduling (WAS) journey. In this release, the core Workload and PodGroup APIs—enabling gang scheduling—along with Workload-Aware Preemption (WAP",
       "imageURL": null
     }
   ]
