@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "2e31644f6487f318aea3",
+      "title": "Kubernetes v1.38 Sneak Peek",
+      "sourceName": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
+      "publishedAt": "2026-11-23T16:00:00Z",
+      "summary": "As we get closer to the release date for Kubernetes v1.38, the project develops and matures, features may be deprecated, removed, or replaced with better ones for the project's overall health. This blog post outlines some of the planned changes for the Kubernetes v1.38 release that the release team feels you should be aware of for the continued maintenance of your Kubernetes environment and keepin",
+      "imageURL": null
+    },
+    {
+      "id": "6c9e35ea9179d576f37e",
+      "title": "Probing DNS at Cloudflare",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+      "publishedAt": "2026-11-23T14:00:00Z",
+      "summary": "Imagine this: you’ve just pushed a release. All the unit tests passed and your dashboards are green. You sit back to relax but then suddenly your phone starts blowing up: prod is broken. This is something the Cloudflare DNS team has experienced firsthand. In one rollout of the service that publishes DNS records to our edge, a scheduling bug let some record changes sit unpublished for hours. The se",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M7XNSAD6F3PP947NHEMWKBFV.png"
+    },
+    {
+      "id": "fd6122ececf7ed7b0c9e",
+      "title": "Holding the Door for Agents",
+      "sourceName": "Fly.io Blog",
+      "url": "https://fly.io/blog/holding-the-door-for-agents/",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "summary": "The agents, man. They’re everywhere. At least 55% of deployments to Fly.io are now performed by agents. Bots passed humans in web traffic for the first time this year, mostly driven by the surge in agent use. Just a year ago, Cursor had 2.5x as many autocomplete users as they did agent users. In February, they reported that the ratio had flipped, with agent users now outnumbering autocomplete by 2",
+      "imageURL": null
+    },
+    {
       "id": "c851a250df92def96949",
       "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
       "sourceName": "Cloudflare Blog",
@@ -982,15 +1009,6 @@
       "imageURL": "https://www.docker.com/app/uploads/2026/10/image2-1.png"
     },
     {
-      "id": "93dde8cc7b16e73253cc",
-      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
-      "publishedAt": "2026-10-29T12:55:00Z",
-      "summary": "Welcome to the 26th edition of Cloudflare's DDoS Threat Report. This edition covers the third quarter of 2026 — July, August, and September — and returns the series to its quarterly cadence following the combined H1 2026 volume. The analysis is produced by Cloudforce One , Cloudflare's Threat Intelligence organization, providing a comprehensive analysis of the evolving threat landscape of Distribu",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M6256EDR0931RP6THCDNZ2R5.01M6256F3NTWXMKQE0RGKEM0G2.png"
-    },
-    {
       "id": "5e60471476735c37ea27",
       "title": "From Working Group to SIG Architecture: spotlight on AI Conformance",
       "sourceName": "Kubernetes Blog",
@@ -1780,24 +1798,6 @@
       "url": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
       "publishedAt": "2026-09-10T18:30:00Z",
       "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive rest",
-      "imageURL": null
-    },
-    {
-      "id": "4e1a666a4fc23c2ff36a",
-      "title": "Refreshing the Travel-Time Map Behind Lyft’s Marketplace: Rebuilding Neighborhood Reachability…",
-      "sourceName": "Lyft Engineering",
-      "url": "https://medium.com/p/5be3efbc82ea",
-      "publishedAt": "2026-09-10T16:12:28Z",
-      "summary": "Refreshing the Travel-Time Map Behind Lyft’s Marketplace: Rebuilding Neighborhood Reachability Signals Every time Lyft calculates pricing to balance a market, nudges a driver toward an under-served pocket of a city, or paints a heatmap of where demand is building, there is a quiet lookup table doing work in the background. It answers a deceptively simple question: how long does it take to get from",
-      "imageURL": "https://cdn-images-1.medium.com/max/1024/1*f5bDERtosR0e_DlgBWek-Q.jpeg"
-    },
-    {
-      "id": "1bf01c3c33d621ca90d6",
-      "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
-      "publishedAt": "2026-09-09T18:30:00Z",
-      "summary": "Kubernetes has many ways to describe what is happening on a Node. Readiness, taints, Pod state, labels, annotations, and provider-specific APIs each expose part of the picture. What has been missing is a shared, Kubernetes-owned way to say that a Node is draining , undergoing maintenance, or undergoing Graceful Node Shutdown . Kubernetes v1.37 introduces five well-known Node conditions that provid",
       "imageURL": null
     }
   ]
