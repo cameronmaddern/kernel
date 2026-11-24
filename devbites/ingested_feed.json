@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "fb0b2512d2c3f13e31a8",
+      "title": "Prompt Injection Fixes Need Regression Tests",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/24/prompt-injection-fixes-need-regression-tests/",
+      "publishedAt": "2026-11-24T16:24:41Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "b31844a3e91078811d0d",
+      "title": "A Reboot Is Still a Deployment",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/24/a-reboot-is-still-a-deployment/",
+      "publishedAt": "2026-11-24T15:52:06Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "b904a908f286c227b3dd",
+      "title": "Agent swarms need more than a message board",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/24/agent-swarms-need-more-than-a-message-board/",
+      "publishedAt": "2026-11-24T08:40:00Z",
+      "summary": "Agent swarms are really distributed systems problems in disguise.",
+      "imageURL": null
+    },
+    {
+      "id": "d577e8e0306a771655a4",
+      "title": "Black Friday Has Taken Over Discord",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/black-friday-2026",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "summary": "Black Friday deals are spreading across Discord: 10,000 Orbs with Nitro, exclusive decos when you gift, Shop discounts, and Orbs back in Rust and Bloons TD 6 Game Shops.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6b04d1a835a37c24db0eb9d6_header2.jpg"
+    },
+    {
+      "id": "84d3bdc072cf81b3f2d2",
+      "title": "MCP Server Persistence Explained: How to Store Sessions and Agent State",
+      "sourceName": "PingCAP / TiDB",
+      "url": "https://www.pingcap.com/?p=35703",
+      "publishedAt": "2026-11-23T19:58:33Z",
+      "summary": "Key Takeaways The 2026-07-28 MCP spec removed protocol sessions, so cross-call state now lives in your backend behind explicit handles. Transport continuity and durable application state are separate problems, and each needs its own answer in your design. In-memory stores fail the first time a deploy restarts a pod or a load balancer picks another instance. SQLite fits local single-process servers",
+      "imageURL": null
+    },
+    {
       "id": "2e31644f6487f318aea3",
       "title": "Kubernetes v1.38 Sneak Peek",
       "sourceName": "Kubernetes Blog",
@@ -17,6 +62,24 @@
       "publishedAt": "2026-11-23T14:00:00Z",
       "summary": "Imagine this: you’ve just pushed a release. All the unit tests passed and your dashboards are green. You sit back to relax but then suddenly your phone starts blowing up: prod is broken. This is something the Cloudflare DNS team has experienced firsthand. In one rollout of the service that publishes DNS records to our edge, a scheduling bug let some record changes sit unpublished for hours. The se",
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M7XNSAD6F3PP947NHEMWKBFV.png"
+    },
+    {
+      "id": "4e201812e638574988fc",
+      "title": "Custom software, specialized workflows, and other new growth paths from SaaS Platform Summit",
+      "sourceName": "Stripe Blog",
+      "url": "https://stripe.com/blog/custom-software-specialized-workflows-and-other-new-growth-paths-from-saas-platform-summit",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "summary": "SaaS platforms have long built for specific verticals. Now AI makes it practical to build for one merchant. At Stripe’s SaaS Platform Summit, founders and operators shared how custom software and embedded finance can open new revenue streams.",
+      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/2VQwjZZHl48BCHyfxZB5XQ/8437782cb9d02f2a69bad2801b05f81e/Option_2_Index.jpg"
+    },
+    {
+      "id": "90229bf0700ff016fc8b",
+      "title": "Introducing Auto Clips: Just Play the Game, We’ll Save the Clip",
+      "sourceName": "Discord Blog",
+      "url": "https://discord.com/blog/introducing-auto-clips",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "summary": "Today, we're thrilled to announce Auto Clips. Just hop on voice, launch a game, and play. When your call erupts, Discord captures the exact moment everyone loses it. Rolling out in early access for Nitro members over the coming weeks.",
+      "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6b04780fd7c87a99b25b8649_1800x720.png"
     },
     {
       "id": "fd6122ececf7ed7b0c9e",
@@ -60,7 +123,7 @@
       "sourceName": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/11/20/dispatches-from-o-reilly-inside-a-software-factory/",
       "publishedAt": "2026-11-20T17:18:38Z",
-      "summary": "Go from vibe coding to generating clean, maintainable code",
+      "summary": "Go from vibe coding to generating clean, maintainable code.",
       "imageURL": null
     },
     {
@@ -1225,33 +1288,6 @@
       "imageURL": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/patching_figure1_hu_fd1b211e358e4802.webp"
     },
     {
-      "id": "15579fae61f55c62a7e3",
-      "title": "Survey Says: You'll swap the model, but everything you build around it is staying put",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/21/survey-says-you-ll-swap-the-model-but-everything-you-build-around-it-is-staying-put/",
-      "publishedAt": "2026-10-21T14:00:00Z",
-      "summary": "Earlier this month, my team at Stacklok surveyed 520 technical leaders to understand whether they were concerned about being locked into frontier labs. The data says they’re already swapping models in and out, but the trap they’re concerned about is the layer on top of the model.",
-      "imageURL": null
-    },
-    {
-      "id": "b34b51a64c508538c68d",
-      "title": "Don't forget about the UI for AI",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/",
-      "publishedAt": "2026-10-20T07:40:00Z",
-      "summary": "Recorded at OpenAI Dev Day 2026, Ryan sits down with Andrew Ambrosino, member of the technical staff at OpenAI, for a conversation on OpenAI's strategy for merging ChatGPT and Codex into a unified experience, the advantages of localized computer access in their successful desktop application, and the technical hurdles of constructing ChatGPT Spaces to support real-time multi-agent collaboration.",
-      "imageURL": null
-    },
-    {
-      "id": "cf8c276fdde163cd9b57",
-      "title": "Production-grade LLMs and agents: a field guide",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/19/production-grade-llms-and-agents-a-field-guide/",
-      "publishedAt": "2026-10-19T15:32:01Z",
-      "summary": "A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.",
-      "imageURL": null
-    },
-    {
       "id": "4f25663723d95f45e9e6",
       "title": "Stripe survey: Four trends reshaping how SaaS platforms compete in the AI era",
       "sourceName": "Stripe Blog",
@@ -1504,15 +1540,6 @@
       "imageURL": null
     },
     {
-      "id": "c906b41a139a5f62b022",
-      "title": "Why I tried to kill token billing (and why we kept it)",
-      "sourceName": "Stripe Blog",
-      "url": "https://stripe.com/blog/where-pricing-is-headed",
-      "publishedAt": "2026-10-01T00:00:00Z",
-      "summary": "Token billing is useful infrastructure, but usually a bad customer-facing pricing model. Your invoice should define the value your product delivers, not break down what it cost you to create it.",
-      "imageURL": "https://images.ctfassets.net/fzn2n1nzq965/429O97zRn17cvoY9EQIuoO/17adb35450f60d6ddd613c04cca873f4/1250x1250.jpg"
-    },
-    {
       "id": "3ecf143c941decfade80",
       "title": "Cauldron Bubble w/o the Trouble? It’s Discord Halloween, Witches",
       "sourceName": "Discord Blog",
@@ -1610,15 +1637,6 @@
       "publishedAt": "2026-09-25T00:00:00Z",
       "summary": "Here's the Discord Changelog from September 25, 2026, so you can stay informed on what’s new in recent app updates!",
       "imageURL": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66ecb1eaa5561774cf2c00d5_650233ad5dcf4b6825522e09_Fall_September.png"
-    },
-    {
-      "id": "b49ea37efdc548eb6c06",
-      "title": "Vercel and TiDB Cloud Starter: The Full-Stack Playbook for AI Apps",
-      "sourceName": "PingCAP / TiDB",
-      "url": "https://www.pingcap.com/?p=35087",
-      "publishedAt": "2026-09-24T20:52:55Z",
-      "summary": "Key Takeaways Edge runtimes break TCP pools. TiDB Cloud Starter connects over HTTPS instead. Swapping a v0.dev starter database for TiDB is a connection string change. A native VECTOR type keeps embeddings beside your rows, with no store to sync. The Vercel Marketplace integration writes the connection variables for you. You have an AI app running on Vercel, or a prototype that v0.dev generated in",
-      "imageURL": null
     },
     {
       "id": "8018084d546a0e01b484",
@@ -1780,24 +1798,6 @@
       "url": "http://notes.eatonphil.com/2026-09-13-query-plan-rewriting-in-postgresql.html",
       "publishedAt": "2026-09-13T00:00:00Z",
       "summary": "This is an external post of mine. Click here if you are not redirected.",
-      "imageURL": null
-    },
-    {
-      "id": "96fc811601db05f9112d",
-      "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
-      "publishedAt": "2026-09-11T18:30:00Z",
-      "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37! Native histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808 ) bring high-resolution, low-cardinality observability to Kubernetes metrics. By adopting Prometheus Native Histograms , Kubernetes components now expose latency and dur",
-      "imageURL": "https://kubernetes.io/images/blog/2026-kubernetes-1-37-native-histograms-beta/native-histograms-flow.svg"
-    },
-    {
-      "id": "ba7190af76453d7582b8",
-      "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
-      "sourceName": "Kubernetes Blog",
-      "url": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
-      "publishedAt": "2026-09-10T18:30:00Z",
-      "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive rest",
       "imageURL": null
     }
   ]
