@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "6583d156c216aa0e358c",
+      "title": "Prove your AI agent guardrails work",
+      "sourceName": "Docker Blog",
+      "url": "https://www.docker.com/?p=96403",
+      "publishedAt": "2026-11-25T16:57:00Z",
+      "summary": "You ask a coding agent to clean up one repository. If it has broad permissions, it may also reach your home directory, use your development credentials, and send requests to services you never approved. That gap between the task and the access you grant can turn a routine coding session into a data leak or lost work. In Sandboxing Claude and MCP , Hrittik walked through running Claude Code and an ",
+      "imageURL": "https://www.docker.com/app/uploads/2026/11/Figure1.png"
+    },
+    {
+      "id": "615a9f952e413040560d",
+      "title": "When AI Writes the Code, What Counts as Evidence?",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/25/when-ai-writes-the-code-what-counts-as-evidence/",
+      "publishedAt": "2026-11-25T15:59:41Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
+      "id": "a9bc069d7df2112171f7",
+      "title": "Introducing Search for Agents",
+      "sourceName": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/search-for-agents/",
+      "publishedAt": "2026-11-25T14:00:00Z",
+      "summary": "AI Search , our service that indexes your content and lets you add search to any application or agent without having to build an entire retrieval infrastructure, has supported adding your website as a data source for a while now, automatically crawling, converting and indexing its pages. Still, setting up an AI Search instance for your website requires manually creating and configuring it initiall",
+      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M87EH6J3AHBJGMX9NR8JGR2V.png"
+    },
+    {
+      "id": "696f8b786616910a3c08",
+      "title": "How to make sure your developers never write for the company blog",
+      "sourceName": "Eaton Phil",
+      "url": "http://notes.eatonphil.com/2026-11-25-how-to-make-sure-developers-never-write-for-the-company-blog.html",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "summary": "Bring up writing blogs just once a year at your offsite. Make it clear you don't want writing now but after the next big release is out. Make sure writing blogs is seen as the function of the marketing team. When you get a draft, mark it all up with Claude comments. Rewrite it with Claude generally. Make it well understood there is a long and drawn out process to getting published. Make frequent c",
+      "imageURL": null
+    },
+    {
+      "id": "a15c29d4f75b8ad74dbd",
+      "title": "Idempotency when you don't control the other end",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/24/idempotency-when-you-don-t-control-the-other-end/",
+      "publishedAt": "2026-11-24T17:01:51Z",
+      "summary": null,
+      "imageURL": null
+    },
+    {
       "id": "fb0b2512d2c3f13e31a8",
       "title": "Prompt Injection Fixes Need Regression Tests",
       "sourceName": "Stack Overflow Blog",
@@ -313,7 +358,7 @@
       "url": "https://www.docker.com/?p=96241",
       "publishedAt": "2026-11-18T14:00:00Z",
       "summary": "The Agent Trust Gap The security problem changes once an AI agent can do more than answer a prompt. It can execute code, access files, connect to services, and call external tools. That creates a new security question for enterprises: how do you give an agent enough freedom to be useful without giving it more access than it actually needs? A model decision is not automatically an authorized action",
-      "imageURL": "https://www.docker.com/app/uploads/2026/11/image3.png"
+      "imageURL": "https://www.docker.com/app/uploads/2026/11/layers-isometric-2320x1259.png"
     },
     {
       "id": "d1cd8871fe6f6c230318",
@@ -1018,15 +1063,6 @@
       "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01M66XYHSQQJRRA4097AJD12PN.png"
     },
     {
-      "id": "4d4206ade98bad0ac970",
-      "title": "Cloudflare services for private origins is now generally available",
-      "sourceName": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
-      "publishedAt": "2026-10-30T14:23:43Z",
-      "summary": "Today, Cloudflare services for private origins is generally available. Point a proxied DNS record at a private IP, and Cloudflare reaches the origin over your existing Cloudflare One connection . Your origin stays private, while web application firewall ( WAF ), caching , bot management , and Workers work just as they do for public origins. In June, we launched this capability in closed beta to ad",
-      "imageURL": "https://blog.cloudflare.com/_emdash/api/media/file/01KW44TXMXRJ1NFA38CJB0MT3A.png"
-    },
-    {
       "id": "202316272bf9d92d3fc6",
       "title": "It’s ok that computers are (sometimes) better than us",
       "sourceName": "Stack Overflow Blog",
@@ -1061,15 +1097,6 @@
       "publishedAt": "2026-10-29T16:00:12Z",
       "summary": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “ Just-in-Time Catching Test Generation at Meta ,” fully details our initial deployment and testing with C",
       "imageURL": "https://engineering.fb.com/wp-content/uploads/2026/10/Catching-JiTTests-Table-1.png"
-    },
-    {
-      "id": "75cafd8b1b60e18ff1d7",
-      "title": "Coding Agent Horror Stories: The CVE That Did Not Exist",
-      "sourceName": "Docker Blog",
-      "url": "https://www.docker.com/?p=95520",
-      "publishedAt": "2026-10-29T13:00:00Z",
-      "summary": "This is Part 6 of our AI Coding Agent Horror Stories series , where we look at real security incidents involving AI coding agents and at how Docker Sandboxes contain agent execution at the boundary rather than at the command line. Every story in this series so far has been about an agent reaching for something it should not have touched. We have seen agents wander into home directories, drop produ",
-      "imageURL": "https://www.docker.com/app/uploads/2026/10/image2-1.png"
     },
     {
       "id": "5e60471476735c37ea27",
@@ -1225,15 +1252,6 @@
       "imageURL": null
     },
     {
-      "id": "5ab627793327df87b351",
-      "title": "Is AI really reshaping the developer market?",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/22/is-ai-really-reshaping-the-developer-market/",
-      "publishedAt": "2026-10-22T16:37:39Z",
-      "summary": "The market for developer jobs is shrinking, and it's getting harder to hire the engineers you need.",
-      "imageURL": null
-    },
-    {
       "id": "b00606b7d715372d4090",
       "title": "Trends from Money20/20 2026: The rise of “hidden” financial services",
       "sourceName": "Stripe Blog",
@@ -1258,15 +1276,6 @@
       "url": "https://fly.io/blog/sprites-block-device/",
       "publishedAt": "2026-10-22T00:00:00Z",
       "summary": "I have unkind things to say about people who make their own pasta. Here, I’ll only use them as an example of how not to think when you’re building infrastructure. It’s unfairly easy to believe that the harder you work on something, the better it gets. But infra is about making the $1 bag of spaghetti: a simple thing that works well (and doesn’t require you to spend a week scraping flour out of the",
-      "imageURL": null
-    },
-    {
-      "id": "2d5ce36dac46099e763a",
-      "title": "Building Immersive Virtual Economies: An Introduction to KursarScript (KSPL)",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/21/building-immersive-virtual-economies-an-introduction-to-kursarscript-kspl/",
-      "publishedAt": "2026-10-21T16:26:42Z",
-      "summary": null,
       "imageURL": null
     },
     {
@@ -1789,15 +1798,6 @@
       "url": "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/",
       "publishedAt": "2026-09-14T18:30:00Z",
       "summary": "Memory QoS has graduated to Beta in Kubernetes v1.37 and is now enabled by default. On Linux nodes running cgroup v2, the feature uses the memory controller to give the kernel better guidance on how to treat container memory. It was first introduced as Alpha in v1.22, and expanded in v1.36 with tiered memory reservation. This post covers what changed in v1.37, what the Beta promotion means for clu",
-      "imageURL": null
-    },
-    {
-      "id": "172159e86ac80f985aa5",
-      "title": "Query plan rewriting in PostgreSQL",
-      "sourceName": "Eaton Phil",
-      "url": "http://notes.eatonphil.com/2026-09-13-query-plan-rewriting-in-postgresql.html",
-      "publishedAt": "2026-09-13T00:00:00Z",
-      "summary": "This is an external post of mine. Click here if you are not redirected.",
       "imageURL": null
     }
   ]
