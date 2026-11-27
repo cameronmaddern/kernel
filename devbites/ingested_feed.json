@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "537ff822ace6d3960e01",
+      "title": "Sandboxes, secure inference, and keeping agents from going rogue",
+      "sourceName": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/11/27/sandboxes-secure-inference-and-rogue-agents/",
+      "publishedAt": "2026-11-27T08:40:00Z",
+      "summary": "At We Are Developers, Ryan talks with Daytona CEO and cofounder Ivan Burazin about agent sandboxes and Blackbox AI CTO and cofounder Richard Risk about encrypted inference.",
+      "imageURL": null
+    },
+    {
       "id": "6583d156c216aa0e358c",
       "title": "Prove your AI agent guardrails work",
       "sourceName": "Docker Blog",
@@ -1241,15 +1250,6 @@
       "publishedAt": "2026-10-22T22:19:12Z",
       "summary": "Samartha Chandrashekar & Nick Parker You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them run on Titus, our internal container platform. Titus is, in essence, a Kubernetes-based container hosting platform: we keep both the control plane and the data plane (the container hosts that actually run containers) patched and up to date, ",
       "imageURL": "https://cdn-images-1.medium.com/max/1024/0*4IREcZPdQdbU43hA.png"
-    },
-    {
-      "id": "455a608623860c952174",
-      "title": "The Regression Tests Nobody Writes: Capturing How Software Actually Behaves",
-      "sourceName": "Stack Overflow Blog",
-      "url": "https://stackoverflow.blog/2026/10/22/the-regression-tests-nobody-writes-capturing-how-software-actually-behaves/",
-      "publishedAt": "2026-10-22T19:37:29Z",
-      "summary": null,
-      "imageURL": null
     },
     {
       "id": "b00606b7d715372d4090",
